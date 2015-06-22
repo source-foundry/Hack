@@ -26,3 +26,17 @@
 - **Regular Oblique** - includes all changes indicated above
 - **Bold** - includes all changes indicated above
 - **Bold Oblique** - includes all changes indicated above
+
+### Build Binaries
+
+#### TrueType
+- `Hack-Regular.ttf`
+- `Hack-Bold.ttf`
+- `Hack-RegularOblique.ttf`
+- `Hack-BoldOblique.ttf`
+
+#### OpenType
+- `Hack-Regular.otf`
+- `Hack-Bold.otf`
+- `Hack-RegularOblique.otf`
+- `Hack-BoldOblique.otf`
