@@ -21,3 +21,8 @@
 - Modified **right curly bracket** glyph. Modified vertical position, increased length of the horizontal stem, decreased right sidebearing
 - Modified **question mark** glyph.  Changed square full stop point to circular full stop point.
 
+### Font Styles
+- **Regular** - includes all changes indicated above
+- **Regular Oblique** - includes all changes indicated above
+- **Bold** - includes all changes indicated above
+- **Bold Oblique** - includes all changes indicated above
