@@ -13,7 +13,7 @@
 
 
 ### Modified Glyphs
-- Modified **percent** glyph.  Increased line length and added angled line ends.
+- Modified **percent** glyph.  Increased line length and added vertical line ends.
 - Modified **zero** glyph.  Changed circular fill to oval fill.
 - Modified **left square bracket** glyph. Increased height of the glyph.
 - Modified **right square bracket** glyph. Increased height of the glyph.
