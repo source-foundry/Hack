@@ -16,11 +16,11 @@ Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 631 -2040580821 4039612]
 FSType: 4
-OS2Version: 1
+OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374980
-ModificationTime: 1434940056
+ModificationTime: 1434941840
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1678,7 +1678,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 9
+WinInfo: 50 25 9
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65549 269
@@ -17396,7 +17396,7 @@ SplineSet
  449 530 l 1,3,-1
  449 895 l 1,0,-1
 EndSplineSet
-Validated: 2097153
+Validated: 1
 EndChar
 
 StartChar: quotesinglbase
@@ -20351,7 +20351,7 @@ SplineSet
  449 530 l 1,3,-1
  449 895 l 1,0,-1
 EndSplineSet
-Validated: 2097153
+Validated: 1
 EndChar
 
 StartChar: Euro
