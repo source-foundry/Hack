@@ -20,6 +20,7 @@
 - Modified **left curly bracket** glyph.  Modified vertical position, increased length of the horizontal stem, decreased left sidebearing
 - Modified **right curly bracket** glyph. Modified vertical position, increased length of the horizontal stem, decreased right sidebearing
 - Modified **question mark** glyph.  Changed square full stop point to circular full stop point.
+- Modified **hyphen** glyph. Raised vertical alignment to center `->` character combinations.
 
 ### Font Styles
 - **Regular** - includes all changes indicated above

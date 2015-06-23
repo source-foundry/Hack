@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050362382
-ModificationTime: 1434943448
+ModificationTime: 1435021676
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -2705,7 +2705,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 1233
-Flags: W
+Flags: WO
 TtInstrs:
 PUSHB_8
  2
@@ -2732,11 +2732,11 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-336 643 m 1,0,-1
- 858 643 l 1,1,-1
- 825 479 l 1,2,-1
- 303 479 l 1,3,-1
- 336 643 l 1,0,-1
+336 673 m 5,0,-1
+ 858 673 l 5,1,-1
+ 825 509 l 5,2,-1
+ 303 509 l 5,3,-1
+ 336 673 l 5,0,-1
 EndSplineSet
 EndChar
 

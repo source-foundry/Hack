@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374980
-ModificationTime: 1434941840
+ModificationTime: 1435021484
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1678,7 +1678,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 25 9
+WinInfo: 0 25 9
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65549 269
@@ -2741,7 +2741,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 1233
-Flags: W
+Flags: WO
 TtInstrs:
 PUSHB_6
  0
@@ -2764,13 +2764,12 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-301 735 m 1,0,-1
- 932 735 l 1,1,-1
- 932 444 l 1,2,-1
- 301 444 l 1,3,-1
- 301 735 l 1,0,-1
+301 746 m 5,0,-1
+ 932 746 l 5,1,-1
+ 932 455 l 5,2,-1
+ 301 455 l 5,3,-1
+ 301 746 l 5,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: period
