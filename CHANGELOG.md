@@ -1,6 +1,8 @@
 
-## Version 1.0.0
+# Version 1.0.0
 - Branched Bitstream Vera Sans Mono 1.10 release
+
+## Changes
 
 ### New Glyphs
 
@@ -28,7 +30,10 @@
 - **Bold** - includes all changes indicated above
 - **Bold Oblique** - includes all changes indicated above
 
-### Build Binaries
+
+## Build Binaries
+
+### Desktop Fonts
 
 #### TrueType
 - `Hack-Regular.ttf`
@@ -41,3 +46,23 @@
 - `Hack-Bold.otf`
 - `Hack-RegularOblique.otf`
 - `Hack-BoldOblique.otf`
+
+### Web Fonts
+
+#### EOT
+- `hack-regular-webfont.eot`
+- `hack-bold-webfont.eot`
+- `hack-regularoblique-webfont.eot`
+- `hack-boldoblique-webfont.eot`
+
+#### WOFF
+- `hack-regular-webfont.woff`
+- `hack-bold-webfont.woff`
+- `hack-regularoblique-webfont.woff`
+- `hack-boldoblique-webfont.woff`
+
+#### WOFF2
+- `hack-regular-webfont.woff2`
+- `hack-bold-webfont.woff2`
+- `hack-regularoblique-webfont.woff2`
+- `hack-boldoblique-webfont.woff2`
