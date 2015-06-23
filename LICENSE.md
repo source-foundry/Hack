@@ -13,7 +13,10 @@ License text below.
 These licenses are copied below.
 
 
-### MODIFIED SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+### MODIFIED SIL OPEN FONT LICENSE
+
+(Original Version 1.1 - 26 February 2007)
+(Modified Version 06 June 2015)
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
