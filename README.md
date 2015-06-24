@@ -4,7 +4,7 @@
 
 ### About
 
-Hack is a derivative of the fantastic Bitstream Vera Sans Mono typeface. It includes new glyphs and modifications of the original glyph set with the goal to make source code text more clear and legible across programming languages at commonly used desktop (and laptop) display glyph sizes.
+Hack is an open source derivative of the fantastic Bitstream Vera Sans Mono typeface. It includes new glyphs and modifications of the original glyph set with the goal to make source code text more clear and legible across programming languages at commonly used desktop (and laptop) display glyph sizes.
 
 The primary changes in the current iteration of the font include a new punctuation glyph style and modifications in the metrics of punctuation glyphs.  There is also a sexy new zero glyph style for those who appreciate such subtleties...
 
