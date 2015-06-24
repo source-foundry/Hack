@@ -7,7 +7,7 @@ Original Version Copyright (c) 2003 Bitstream Inc. and licensed under the Bitstr
 This Font Software is licensed under a modified version of the SIL Open Font License, Version 1.1 and the Bitstream Vera License.
 
 The modifications to the SIL Open Font License permit the use of multiple font licenses for the release of modified or unmodified
-versions of this font, in part or in whole.  These changes are reflected in section 5 of the accompanying modified SIL Open Font
+versions of this font, in part or in whole.  These changes are in the preamble and section 5 of the accompanying modified SIL Open Font
 License text below.
 
 These licenses are copied below.
@@ -30,8 +30,7 @@ The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
 fonts, including any derivative works, can be bundled, embedded,
 redistributed and/or sold with any software provided that any reserved
-names are not used by derivative works. The fonts and derivatives,
-however, cannot be released under any other type of license. The
+names are not used by derivative works. The
 requirement for fonts to remain under this license does not apply
 to any document created using the fonts or their derivatives.
 
