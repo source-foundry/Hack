@@ -1,6 +1,7 @@
 # Version 1.0.1
 
 - Modified the SIL license to permit dual licensing with the Bitstream Vera license.  This modification removed the stipulation that multiple licenses are not possible (section #5) and was intended to create the new Reserved Font Name Hack for this typeface modification.  There are no other modifications to either license under which this font is released.
+- This release did not introduce changes to the glyphs included in the typeface
 
 
 # Version 1.0.0
