@@ -31,4 +31,4 @@ MODIFIED SIL OPEN FONT LICENSE & BITSTREAM VERA LICENSE
 Original Version ("Bitstream Vera Sans Mono") Copyright (c) 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
 BITSTREAM VERA LICENSE
 
-The full text of these licenses is available in [LICENSE.md]((https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md))
+The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
