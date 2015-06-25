@@ -23,6 +23,49 @@ The primary changes in the current iteration of the font include a new punctuati
 Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
 
 
+### Build Binaries
+
+#### Desktop Fonts
+
+##### TrueType
+- `build/ttf/Hack-Regular.ttf`
+- `build/ttf/Hack-Bold.ttf`
+- `build/ttf/Hack-RegularOblique.ttf`
+- `build/ttf/Hack-BoldOblique.ttf`
+
+##### OpenType
+- `build/otf/Hack-Regular.otf`
+- `build/otf/Hack-Bold.otf`
+- `build/otf/Hack-RegularOblique.otf`
+- `build/otf/Hack-BoldOblique.otf`
+
+#### Web Fonts
+
+##### EOT
+- `build/eot/hack-regular-webfont.eot`
+- `build/eot/hack-bold-webfont.eot`
+- `build/eot/hack-regularoblique-webfont.eot`
+- `build/eot/hack-boldoblique-webfont.eot`
+
+##### SVG
+- `build/svg/hack-regular-webfont.eot`
+- `build/svg/hack-bold-webfont.eot`
+- `build/svg/hack-regularoblique-webfont.eot`
+- `build/svg/hack-boldoblique-webfont.eot`
+
+##### WOFF
+- `build/woff/hack-regular-webfont.woff`
+- `build/woff/hack-bold-webfont.woff`
+- `build/woff/hack-regularoblique-webfont.woff`
+- `build/woff/hack-boldoblique-webfont.woff`
+
+##### WOFF2
+- `build/woff2/hack-regular-webfont.woff2`
+- `build/woff2/hack-bold-webfont.woff2`
+- `build/woff2/hack-regularoblique-webfont.woff2`
+- `build/woff2/hack-boldoblique-webfont.woff2`
+
+
 ### License
 
 Modified Version ("Hack") Copyright (c) 2015, Christopher Simpkins with Reserved Font Name Hack.<br>
