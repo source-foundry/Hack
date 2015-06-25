@@ -48,10 +48,10 @@ Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/m
 - `build/eot/hack-boldoblique-webfont.eot`
 
 ##### SVG
-- `build/svg/hack-regular-webfont.eot`
-- `build/svg/hack-bold-webfont.eot`
-- `build/svg/hack-regularoblique-webfont.eot`
-- `build/svg/hack-boldoblique-webfont.eot`
+- `build/svg/hack-regular-webfont.svg`
+- `build/svg/hack-bold-webfont.svg`
+- `build/svg/hack-regularoblique-webfont.svg`
+- `build/svg/hack-boldoblique-webfont.svg`
 
 ##### WOFF
 - `build/woff/hack-regular-webfont.woff`
