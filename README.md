@@ -13,7 +13,7 @@ Hack is an open source derivative of the fantastic Bitstream Vera Sans Mono type
 - **Full Language Support**: Basic Latin, Euro, Turkish, Western European
 - **Glyph Number**: 269
 - **Included Variants**: Regular, Bold, Regular Oblique, Bold Oblique
-- **Included Web Font Types**: `.eot`, `.svg`, `.woff`, `.woff2`
+- **Included Font Binaries**: `.eot`, `.otf`, `.svg`, `.ttf`, `.woff`, `.woff2`
 
 
 ### Specimen
