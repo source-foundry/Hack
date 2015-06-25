@@ -20,7 +20,7 @@ Hack is an open source derivative of the fantastic Bitstream Vera Sans Mono type
 
 <a href="http://chrissimpkins.github.io/Hack/font-specimen.html"><img src="img/specimen.png" alt="Hack font specimen" width="728"></a>
 
-Click the image for the full font specimen.
+Click the image for the full type specimen.
 
 
 ### Changes
