@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'hackbold';
+    src: url('../fonts/hack-bold-webfont.eot');
+    src: url('../fonts/hack-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hack-bold-webfont.woff2') format('woff2'),
+         url('../fonts/hack-bold-webfont.woff') format('woff'),
+         url('../fonts/hack-bold-webfont.svg#hackbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hackbold_oblique';
+    src: url('../fonts/hack-boldoblique-webfont.eot');
+    src: url('../fonts/hack-boldoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hack-boldoblique-webfont.woff2') format('woff2'),
+         url('../fonts/hack-boldoblique-webfont.woff') format('woff'),
+         url('../fonts/hack-boldoblique-webfont.svg#hackbold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hackregular';
+    src: url('../fonts/hack-regular-webfont.eot');
+    src: url('../fonts/hack-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hack-regular-webfont.woff2') format('woff2'),
+         url('../fonts/hack-regular-webfont.woff') format('woff'),
+         url('../fonts/hack-regular-webfont.svg#hackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hackoblique';
+    src: url('../fonts/hack-regularoblique-webfont.eot');
+    src: url('../fonts/hack-regularoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hack-regularoblique-webfont.woff2') format('woff2'),
+         url('../fonts/hack-regularoblique-webfont.woff') format('woff'),
+         url('../fonts/hack-regularoblique-webfont.svg#hackoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.specimen-regular { font-family: 'hackregular'; }
+.specimen-oblique { font-family: 'hackoblique'; }
+.specimen-bold { font-family: 'hackbold'; }
+.specimen-boldoblique { font-family: 'hackbold_oblique'; }
+
+
+.huge {
+	font-size: 300px;
+	line-height: 1em;
+	padding: 0;
+	letter-spacing: -.02em;
+	overflow: hidden;
+}
+
+.section-header { border-bottom: solid 1px #e5e5e5; margin-bottom: 25px;}
+
+.space-above { margin-top: 75px; !important }
+
+
+.sample_table td {
+	padding-top: 3px;
+	padding-bottom:5px;
+	padding-left: 5px;
+	vertical-align: middle;
+	line-height: 1.2em;
+}
+
+.sample_table td:first-child {
+	background-color: #eee;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 0;
+	padding: 5px;
+	font: 11px/12px "Courier New", Courier, mono;
+}
+
+
+.size8{ font-size: 8px;}
+.size9{ font-size: 9px; }
+.size10{ font-size: 10px; }
+.size11{ font-size: 11px; }
+.size12{ font-size: 12px; }
+.size13{ font-size: 13px; }
+.size14{ font-size: 14px; }
+.size16{ font-size: 16px; }
+.size18{ font-size: 18px; }
+.size20{ font-size: 20px; }
+.size24{ font-size: 24px; }
+.size30{ font-size: 30px; }
+.size36{ font-size: 36px; }
+.size48{ font-size: 48px; }
+.size60{ font-size: 60px; }
+.size72{ font-size: 72px; }
+.size90{ font-size: 90px; }
+
