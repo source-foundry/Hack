@@ -18,6 +18,13 @@ The primary changes in the current iteration of the font include a new punctuati
 - **Included Web Font Types**: `.eot`, `.svg`, `.woff`, `.woff2`
 
 
+### Specimen
+
+<a href="http://chrissimpkins.github.io/Hack/font-specimen.html"><img src="img/specimen.png" alt="Hack font specimen" width="728"></a>
+
+Click the image for the full font specimen.
+
+
 ### Changes
 
 Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
