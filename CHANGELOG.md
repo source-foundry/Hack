@@ -1,3 +1,19 @@
+# Version 1.1
+
+### New Glyphs
+
+- New Powerline glyph set added to the Hack-Regular binaries
+
+### Modified Glyphs
+
+- Modified **lowercase i** glyph. Removed serif and added curved tail
+
+## TODO:
+
+- lowercase i mods for the oblique, bold, and bold oblique versions
+- widen the hyphen
+
+
 # Version 1.0.1
 
 - Modified the SIL license to permit dual licensing with the Bitstream Vera license.  This modification removed the stipulation that multiple licenses are not possible (preamble and section #5) and was intended to create the new Reserved Font Name Hack for this typeface modification and preserve the right (for myself and others) to define Reserved Font Names for all future fonts derived from this typeface.  There are no other modifications to either license under which this font is released.
