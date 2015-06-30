@@ -7,6 +7,8 @@
 ### Modified Glyphs
 
 - Modified **lowercase i** glyph. Removed serif and added curved tail
+- Modified **hyphen** glyph. Widened
+- Modified **zero** glyph. Adjusted alignment and shape of the oval fill
 
 ## TODO:
 - widen the hyphen
