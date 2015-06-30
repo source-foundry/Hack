@@ -9,8 +9,6 @@
 - Modified **lowercase i** glyph. Removed serif and added curved tail
 
 ## TODO:
-
-- lowercase i mods for the oblique, bold, and bold oblique versions
 - widen the hyphen
 
 
