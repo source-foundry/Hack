@@ -1,4 +1,4 @@
-<img src="img/hack-header.png" alt="Hack-a monospaced sans-serif font for source code" width="728">
+<img src="img/hack-header-1_002.png" alt="Hack-a monospaced sans-serif font for source code" width="728">
 
 ## Hack: a monospaced sans-serif font for source code
 

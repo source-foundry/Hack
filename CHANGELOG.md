@@ -1,17 +1,16 @@
 # Version 1.002
 
-### New Glyphs
-
-- New Powerline glyph set added to the Hack-Regular binaries
-
 ### Modified Glyphs
 
 - Modified **lowercase i** glyph. Removed serif and added curved tail
 - Modified **hyphen** glyph. Widened
 - Modified **zero** glyph. Adjusted alignment and shape of the oval fill
+- Modified **left parenthesis** glyph. Increased right sidebearing length
+- Modified **right parenthesis** glyph. Increased left sidebearing length
 
-## TODO:
-- fix monospaced designation in sets
+### Source
+
+- Converted to UFO formatted source
 
 
 # Version 1.0.1
