@@ -96,7 +96,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Hack</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
+	<string>RegularOblique</string>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>1556</integer>
 	<key>openTypeOS2TypoDescender</key>
@@ -107,6 +107,19 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
+	<key>panose</key>
+	<array>
+		<integer>2</integer>
+		<integer>11</integer>
+		<integer>6</integer>
+		<integer>9</integer>
+		<integer>6</integer>
+		<integer>5</integer>
+		<integer>4</integer>
+		<integer>15</integer>
+		<integer>3</integer>
+		<integer>3</integer>
+	</array>
 	<key>postscriptBlueValues</key>
 	<array>
 		<integer>-29</integer>
@@ -115,9 +128,13 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>1147</integer>
 		<integer>1493</integer>
 		<integer>1520</integer>
+		<integer>1556</integer>
+		<integer>1572</integer>
 	</array>
 	<key>postscriptOtherBlues</key>
 	<array>
+		<integer>-508</integer>
+		<integer>-492</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-283</integer>

@@ -1,4 +1,4 @@
-# Version 1.1
+# Version 1.002
 
 ### New Glyphs
 
@@ -11,7 +11,7 @@
 - Modified **zero** glyph. Adjusted alignment and shape of the oval fill
 
 ## TODO:
-- widen the hyphen
+- fix monospaced designation in sets
 
 
 # Version 1.0.1
