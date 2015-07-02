@@ -2,7 +2,7 @@
 
 ### Modifications
 
-- Curve adjustments & smoothing across all curves in the typeface
+- Curve adjustments & curve smoothing across all glyphs in the collection
 
 # Version 1.002
 
