@@ -1,3 +1,9 @@
+# Version 1.003
+
+### Modifications
+
+- Curve adjustments & smoothing across all curves in the typeface
+
 # Version 1.002
 
 ### Modified Glyphs
