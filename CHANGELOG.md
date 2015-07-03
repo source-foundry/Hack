@@ -1,8 +1,9 @@
 # Version 1.003
 
-### Modifications
+### Modified Glyphs
 
 - Curve adjustments & curve smoothing across all glyphs in the collection
+- hinting improvements
 
 # Version 1.002
 
