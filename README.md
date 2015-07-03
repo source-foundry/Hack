@@ -35,13 +35,13 @@ Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/m
 ##### TrueType
 - `build/ttf/Hack-Regular.ttf`
 - `build/ttf/Hack-Bold.ttf`
-- `build/ttf/Hack-RegularOblique.ttf`
+- `build/ttf/Hack-Oblique.ttf`
 - `build/ttf/Hack-BoldOblique.ttf`
 
 ##### OpenType
 - `build/otf/Hack-Regular.otf`
 - `build/otf/Hack-Bold.otf`
-- `build/otf/Hack-RegularOblique.otf`
+- `build/otf/Hack-Oblique.otf`
 - `build/otf/Hack-BoldOblique.otf`
 
 #### Web Fonts
