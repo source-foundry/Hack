@@ -2,8 +2,12 @@
 
 ### Modified Glyphs
 
-- Curve adjustments & curve smoothing across all glyphs in the collection
+- Curve adjustments & curve smoothing across all glyphs in the font collection
 - hinting improvements
+
+### Build Files
+
+- New binary build system
 
 # Version 1.002
 
