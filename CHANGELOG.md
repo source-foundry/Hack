@@ -1,4 +1,4 @@
-# Version 1.003
+# Version 1.3
 
 ### Modified Glyphs
 
@@ -7,9 +7,10 @@
 
 ### Build Files
 
-- New binary build system
+- New binary build system - should result in improved cross-platform compatibility for font binaries
 
-# Version 1.002
+
+# Version 1.2
 
 ### Modified Glyphs
 
