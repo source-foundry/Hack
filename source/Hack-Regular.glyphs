@@ -1283,7 +1283,7 @@ unicode = 0029;
 },
 {
 glyphname = asterisk;
-lastChange = "2015-07-05 23:41:15 +0000";
+lastChange = "2015-07-06 00:56:59 +0000";
 layers = (
 {
 hints = (
@@ -1301,17 +1301,6 @@ target = "{0, 8}";
 horizontal = 1;
 origin = "{0, 12}";
 target = "{0, 11}";
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 13}";
-},
-{
-horizontal = 1;
-origin = "{0, 0}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = "A8E9A3C4-7003-4333-ABE9-545A429BAB07";
