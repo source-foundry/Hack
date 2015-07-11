@@ -5,8 +5,9 @@
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
 - Modified **lowercase t** - added angle to left side of horizontal stem
-- Modified **lowercase i** - rounded corners of the dot
-- Modified **lowercase j** - rounded corners of the dot
+- Modified **lowercase r** - reduced left sidebearing to better center the glyph
+- Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
+- Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **exclamdown** - rounded corners of the dot
 - Modified **dieresis** - rounded corners
 - Modified **questionmarkdown** - rounded corners of the dot
