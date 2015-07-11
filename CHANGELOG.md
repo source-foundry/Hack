@@ -28,6 +28,10 @@
 - Modified **ellipsis** - rounded corners of the dots
 - Modified **periodcentered** - rounded corners of the dot
 
+### Spacing Changes
+
+- Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
+
 
 # Version 1.3
 
