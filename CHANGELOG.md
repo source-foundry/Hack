@@ -1,3 +1,33 @@
+# Version 1.4
+
+### Modified Glyphs
+
+- Modified **uppercase Q** - added flared tail and modified tail angle
+- Modified **uppercase F** - central arm lowered to fill open gap at the base
+- Modified **lowercase t** - added angle to left side of horizontal stem
+- Modified **lowercase i** - rounded corners of the dot
+- Modified **lowercase j** - rounded corners of the dot
+- Modified **exclamdown** - rounded corners of the dot
+- Modified **dieresis** - rounded corners
+- Modified **questionmarkdown** - rounded corners of the dot
+- Modified **Adieresis** - rounded corners of dieresis component of glyph
+- Modified **Edieresis** - rounded corners of dieresis component of glyph
+- Modified **Idieresis** - rounded corners of dieresis component of glyph
+- Modified **Odieresis** - rounded corners of dieresis component of glyph
+- Modified **Udieresis** - rounded corners of dieresis component of glyph
+- Modified **Ydieresis** - rounded corners of dieresis component of glyph
+- Modified **adieresis** - rounded corners of dieresis component of glyph
+- Modified **edieresis** - rounded corners of dieresis component of glyph
+- Modified **idieresis** - rounded corners of dieresis component of glyph
+- Modified **odieresis** - rounded corners of dieresis component of glyph
+- Modified **udieresis** - rounded corners of dieresis component of glyph
+- Modified **ydieresis** - rounded corners of dieresis component of glyph
+- Modified **Idotaccent** - rounded corners of the dot
+- Modified **dotaccent** - rounded corners of the dot
+- Modified **ellipsis** - rounded corners of the dots
+- Modified **periodcentered** - rounded corners of the dot
+
+
 # Version 1.3
 
 ### Modified Glyphs
