@@ -4,32 +4,32 @@
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
-- Modified **lowercase a** - decreased width of terminal, opened angle
-- Modified **lowercase b** - decreased width of terminal, opened angle
-- Modified **lowercase d** - decreased width of terminal, opened angle
-- Modified **lowercase g** - decreased width of terminal, opened angle
+- Modified **lowercase a** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase b** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase d** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase g** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
-- Modified **lowercase m** - decreased width of terminal, opened angle
-- Modified **lowercase n** - decreased width of terminal, opened angle
-- Modified **lowercase p** - decreased width of terminal, opened angle
-- Modified **lowercase q** - decreased width of terminal, opened angle
-- Modified **lowercase r** - decreased width of terminal, opened angle
+- Modified **lowercase m** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase n** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase p** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase q** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase r** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **lowercase t** - added angle to left side of horizontal stem
-- Modified **agrave** - decreased width of terminal, opened angle
-- Modified **aacute** - decreased width of terminal, opened angle
-- Modified **acircumflex** - decreased width of terminal, opened angle
-- Modified **atilde** - decreased width of terminal, opened angle
-- Modified **adieresis** - decreased width of terminal, opened angle
-- Modified **aring** - decreased width of terminal, opened angle
-- Modified **dcroat** - decreased width of terminal, opened angle
-- Modified **gbreve** - decreased width of terminal, opened angle
-- Modified **ntilde** - decreased width of terminal, opened angle
-- Modified **ugrave** - decreased width of terminal, opened angle
-- Modified **uacute** - decreased width of terminal, opened angle
-- Modified **ucircumflex** - decreased width of terminal, opened angle
-- Modified **udieresis** - decreased width of terminal, opened angle
+- Modified **agrave** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **aacute** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **acircumflex** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **atilde** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **adieresis** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **aring** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **dcroat** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **gbreve** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **ntilde** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **ugrave** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **uacute** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **ucircumflex** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **udieresis** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **exclamdown** - rounded corners of the dot
 - Modified **dieresis** - rounded corners
 - Modified **questionmarkdown** - rounded corners of the dot
@@ -50,8 +50,6 @@
 - Modified **ellipsis** - rounded corners of the dots
 - Modified **periodcentered** - rounded corners of the dot
 
-
-TODO: decrease terminal width, open angle BOLD, OBLIQUE, BOLDOBLIQUE
 
 ### Spacing Changes
 
