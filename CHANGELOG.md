@@ -7,6 +7,7 @@
 - Modified **lowercase t** - added angle to left side of horizontal stem
 - Modified **lowercase r** - reduced left sidebearing to better center the glyph
 - Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
+- Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **exclamdown** - rounded corners of the dot
 - Modified **dieresis** - rounded corners
@@ -33,6 +34,8 @@
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
 - Modified **uppercase Z** - changed to right = left sidebearing (shifts orientation to left) for regular, bold, oblique sets
 - Modified **uppercase Z** - reduced left sidebearing for bold oblique set, not necessary to make this equal as with above sets
+- Modified **lowercase k** - reduced left sidebearing
+- Modified **lowercase c** - reduced left sidebearing
 
 
 # Version 1.3
