@@ -4,11 +4,32 @@
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
-- Modified **lowercase t** - added angle to left side of horizontal stem
-- Modified **lowercase r** - reduced left sidebearing to better center the glyph
+- Modified **lowercase a** - decreased width of terminal, opened angle
+- Modified **lowercase b** - decreased width of terminal, opened angle
+- Modified **lowercase d** - decreased width of terminal, opened angle
+- Modified **lowercase g** - decreased width of terminal, opened angle
 - Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
+- Modified **lowercase m** - decreased width of terminal, opened angle
+- Modified **lowercase n** - decreased width of terminal, opened angle
+- Modified **lowercase p** - decreased width of terminal, opened angle
+- Modified **lowercase q** - decreased width of terminal, opened angle
+- Modified **lowercase r** - decreased width of terminal, opened angle
+- Modified **lowercase t** - added angle to left side of horizontal stem
+- Modified **agrave** - decreased width of terminal, opened angle
+- Modified **aacute** - decreased width of terminal, opened angle
+- Modified **acircumflex** - decreased width of terminal, opened angle
+- Modified **atilde** - decreased width of terminal, opened angle
+- Modified **adieresis** - decreased width of terminal, opened angle
+- Modified **aring** - decreased width of terminal, opened angle
+- Modified **dcroat** - decreased width of terminal, opened angle
+- Modified **gbreve** - decreased width of terminal, opened angle
+- Modified **ntilde** - decreased width of terminal, opened angle
+- Modified **ugrave** - decreased width of terminal, opened angle
+- Modified **uacute** - decreased width of terminal, opened angle
+- Modified **ucircumflex** - decreased width of terminal, opened angle
+- Modified **udieresis** - decreased width of terminal, opened angle
 - Modified **exclamdown** - rounded corners of the dot
 - Modified **dieresis** - rounded corners
 - Modified **questionmarkdown** - rounded corners of the dot
@@ -29,13 +50,18 @@
 - Modified **ellipsis** - rounded corners of the dots
 - Modified **periodcentered** - rounded corners of the dot
 
+
+TODO: decrease terminal width, open angle BOLD, OBLIQUE, BOLDOBLIQUE
+
 ### Spacing Changes
 
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
 - Modified **uppercase Z** - changed to right = left sidebearing (shifts orientation to left) for regular, bold, oblique sets
 - Modified **uppercase Z** - reduced left sidebearing for bold oblique set, not necessary to make this equal as with above sets
-- Modified **lowercase k** - reduced left sidebearing
+- Modified **lowercase a** - reduced left sidebearing
 - Modified **lowercase c** - reduced left sidebearing
+- Modified **lowercase k** - reduced left sidebearing
+- Modified **lowercase r** - reduced left sidebearing
 
 
 # Version 1.3
