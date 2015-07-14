@@ -11,6 +11,7 @@ feature locl;
 feature sups;
 feature frac;
 feature ordn;
+feature case;
 feature init;
 feature medi;
 feature fina;
@@ -52,6 +53,13 @@ feature ordn {
 sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 } ordn;
+
+feature case {
+# automatic
+sub exclamdown by exclamdown.case;
+sub uni2E18 by uni2E18.case;
+sub questiondown by questiondown.case;
+} case;
 
 feature init {
 # automatic
