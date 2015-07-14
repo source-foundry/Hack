@@ -1,4 +1,25 @@
-# Version 1.4
+# Version 2.0
+
+TODO:
+
+- separator, symbol, marks for regular set
+- all new chars for bold, oblique, and boldoblique set
+- adjust the width terminals/angle on the new glyphs
+- harmonize curves of the new glyphs
+- adjust dots to curved dots for new glyphs
+
+### New Glyphs
+
+- New glyphs for Revised Western European (ISO-8859-15, Latin-9) character set
+- New glyphs for Central European (ISO-8859-2, Latin-2) character set
+- New glyphs for South European (ISO-8859-3, Latin-3) character set
+- New glyphs for Vietnamese character set
+- New glyphs for Pan African Latin character set
+- New glyphs for Cyrillic (ISO-8859-5) character set
+- New glyphs for Greek (ISO-8859-7) character set
+- New glyphs for Arabic (ISO-8859-6) character set
+- New punctuation glyphs
+
 
 ### Modified Glyphs
 
