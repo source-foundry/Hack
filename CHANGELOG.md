@@ -2,7 +2,6 @@
 
 TODO:
 
-- separator, symbol, marks for regular set
 - all new chars for bold, oblique, and boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
@@ -10,18 +9,21 @@ TODO:
 
 ### New Glyphs
 
-- New glyphs for Revised Western European (ISO-8859-15, Latin-9) character set
-- New glyphs for Central European (ISO-8859-2, Latin-2) character set
-- New glyphs for South European (ISO-8859-3, Latin-3) character set
-- New glyphs for Vietnamese character set
-- New glyphs for Pan African Latin character set
-- New glyphs for Cyrillic (ISO-8859-5) character set
-- New glyphs for Greek (ISO-8859-7) character set
-- New glyphs for Arabic (ISO-8859-6) character set
-- New punctuation glyphs
+- New glyphs for Revised Western European (ISO-8859-15, Latin-9) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Central European (ISO-8859-2, Latin-2) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for South European (ISO-8859-3, Latin-3) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Vietnamese character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Pan African Latin character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Cyrillic (ISO-8859-5) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Greek (ISO-8859-7) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Arabic (ISO-8859-6) character set (shapes from DejaVu Sans Mono typeface)
+- New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
+- New Powerline glyphs
 
 
 ### Modified Glyphs
+
+##### Latin Character Set
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
@@ -70,6 +72,12 @@ TODO:
 - Modified **dotaccent** - rounded corners of the dot
 - Modified **ellipsis** - rounded corners of the dots
 - Modified **periodcentered** - rounded corners of the dot
+
+
+##### Greek Character Set
+
+- Modified **upsilondieresistonos** - adjusted vertical position to properly position on the baseline
+- Modified **iotadieresistonos** - adjusted vertical position to properly position on the baseline
 
 
 ### Spacing Changes
