@@ -2,10 +2,14 @@
 
 TODO:
 
+START ON GREEK SET
+
 - all new chars for bold, oblique, and boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
 - adjust dots to curved dots for new glyphs
+- add new lowercase i glyphs (Cyrillic set)
+- adjust t horizontal stem so that it has an angle
 
 ### New Glyphs
 
@@ -19,6 +23,17 @@ TODO:
 - New glyphs for Arabic (ISO-8859-6) character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
 - New Powerline glyphs
+- New **dotlessi**
+- New **iacute**
+- New **icircumflex**
+- New **idieresis**
+- New **igrave**
+- New **imacron**
+- New **iogonek**
+- New **itilde**
+- New uni0069
+- New uni0457
+- New uni0458
 
 
 ### Modified Glyphs
@@ -40,6 +55,32 @@ TODO:
 - Modified **lowercase q** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **lowercase r** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **lowercase t** - added angle to left side of horizontal stem
+- Modified **lowercase y** - modified curves
+- Modified **Abreve** - modified curves
+- Modified **Aogonek** - modified curve, decreased the width of the tail to meet typeface metrics
+- Modified **Eogonek** - modified tail curve
+- Modified **Iogonek** - modified tail curve
+- Modified **Itilde** - modified tilde curve
+- Modified **Ohorn** - modified horn curve
+- Modified **Oslash** - modified curves
+- Modified **Oslashacute** - modified curves
+- Modified **Otilde** - modified tilde curve
+- Modified **Racute** - modified bowl and leg curves
+- Modified **Rcaron** - modiifed bowl and leg curves
+- Modified **Rcommaaccent** - modified bowl and leg curves
+- Modified **Scommaaccent** - modified curves
+- Modified **Tcommaaccent** - modified comma accent curves
+- Modified **Ucircumflex** - modified curves
+- Modified **Udieresis** - modified curves
+- Modified **Ugrave** - modified curves
+- Modified **Uhorn** - modified curves
+- Modified **Uhungarumlaut** - modified curves
+- Modified **Umacron** - modified curves
+- Modified **Uogonek** - modified curves
+- Modified **Uring** - modified curves
+- Modified **Utilde** - modified curves
+
+
 - Modified **agrave** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **aacute** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **acircumflex** - decreased width of terminal, opened angle in regular and bold sets
@@ -47,6 +88,49 @@ TODO:
 - Modified **adieresis** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **aring** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **dcroat** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **ecaron** - modified curves
+- Modified **ecircumflex** - modified curves
+- Modified **edieresis** - modified curves
+- Modified **egrave** - modified curves
+- Modified **emacron** - modified curves
+- Modified **eogonek** - modified curves
+- Modified **gbreve** - modified curves of bowl and tail
+- Modified **gcaron** - modified curves of bowl and tail
+- Modified **gcommaaccent** - modified curves of bowl and tail
+- Modified **gdotaccent** - modified curves of bowl and tail
+- Modified **hbar** - adjusted curves
+- Modified **nacute** - adjusted curves
+- Modified **ncaron** - adjusted curves
+- Modified **ncommaaccent** - adjusted curves
+- Modified **eng** - adjusted curves
+- Modified **ntilde** - adjusted curves
+- Modified **ohorn** - adjusted curves
+- Modified **ohungarumlaut** - adjusted curves
+- Modified **omacron** - adjusted curves
+- Modified **oslash** - adjusted curves
+- Modified **oslashacute** - adjusted curves
+- Modified **otilde** - adjusted curves
+- Modified **racute** - adjusted curves
+- Modified **rcaron** - adjusted curves
+- Modified **rcommaaccent** - adjusted curves
+- Modified **sacute** - adjusted curves
+- Modified **scedila** - adjusted curves
+- Modified **scommaaccent** - adjusted curves
+- Modified **tcommaaccent** - adjusted curves
+- Modified **uhorn** - adjusted curves
+- Modified **uhungarumlaut** - adjusted curves
+- Modified **umacron** - adjusted curves
+- Modified **uogonek** - adjusted curves
+- Modified **uring** - adjusted curves
+- Modified **utilde** - adjusted curves
+- Modified **yacute** - adjusted curves
+- Modified **ycircumflex** - adjusted curves
+- Modified **ydieresis** - adjusted curves
+- Modified **ygrave** - adjusted curves
+- Modified **zdotaccent** - rounded corners of dot
+
+
+
 - Modified **gbreve** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **ntilde** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **ugrave** - decreased width of terminal, opened angle in regular and bold sets
@@ -78,6 +162,11 @@ TODO:
 
 - Modified **upsilondieresistonos** - adjusted vertical position to properly position on the baseline
 - Modified **iotadieresistonos** - adjusted vertical position to properly position on the baseline
+- Modified **eth** - altered curve of the neck
+
+##### Cyrillic Character Set
+
+- Modified curves in uni0411, uni0412, uni0401, uni0417, uni041B, uni041E, uni0420, uni0421, uni0423, uni040E, uni0424, uni0427, uni042F, uni042C, uni042A, uni042B, uni0409, uni040A, uni0405, uni0404, uni042D, uni0408, uni040B, uni042E, uni0402, uni0462, uni0472, uni0494, uni0498, uni04AA, uni04BA, uni04CB, uni04D0, uni04D2, uni04D6, uni04D8, uni04DA, uni04DC, uni04DE, uni04E0, uni04E4, uni04E6, uni04E8, uni04EA, uni04EC, uni04EE, uni04F0, uni04F2, uni04F4, uni04F8, uni0510, uni051A, uni0430, uni0431, uni0432, uni0434, uni0435, uni0450, uni0451, uni0437, uni0439, uni043B, uni043E, uni0440, uni0441, uni0443, uni045E, uni0444, uni0447, uni044F, uni044C, uni044A, uni044B, uni0459, uni045A, uni0455, uni0454, uni044D, uni0456, uni0457, uni0458, uni045B, uni044E, uni0452, uni0463, uni0473, uni0499, uni04AB, uni04BB, uni04CC, uni04D1, uni04D3, uni04D7, uni04D9, uni04DB, uni04DD, uni04DF, uni04E1, uni04E5, uni04E7, uni04E9, uni04EB, uni04ED, uni04EF, uni04F1, uni04F3, uni04F5, uni04F9, uni0511, uni051B, uni04D5
 
 
 ### Spacing Changes
@@ -89,6 +178,23 @@ TODO:
 - Modified **lowercase c** - reduced left sidebearing
 - Modified **lowercase k** - reduced left sidebearing
 - Modified **lowercase r** - reduced left sidebearing
+- Modified **Zacute** - centered glyph (reduced left sidebearing, increased right sidebearing)
+- Modified **Zcaron** - centered glyph (reduced left sidebearing, increased right sidebearing)
+- Modified **Zdotaccent** - centered glyph (reduced left sidebearing, increased right sidebearing)
+- Modified **aacute** - increased left sidebearing
+- Modified **abreve** - increased left sidebearing
+- Modified **acircumflex** - increased left sidebearing
+- Modified **adieresis** - increased left sidebearing
+- Modified **agrave** - increased left sidebearing
+- Modified **amacron** - increased left sidebearing
+- Modified **aogonek** - increased left sidebearing
+- Modified **aring** - increased left sidebearing
+- Modified **atilde** - increased left sidebearing
+- Modified **kcommaaccent** - decreased left sidebearing
+- Modified **racute** - decreased left sidebearing
+- Modified **rcaron** - decreased left sidebearing
+- Modified **rcommaaccent** - decreased left sidebearing
+
 
 
 # Version 1.3
