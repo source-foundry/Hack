@@ -2,8 +2,6 @@
 
 TODO:
 
-START ON GREEK SET
-
 - all new chars for bold, oblique, and boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
@@ -221,7 +219,12 @@ START ON GREEK SET
 - Modified curves in uni0411, uni0412, uni0401, uni0417, uni041B, uni041E, uni0420, uni0421, uni0423, uni040E, uni0424, uni0427, uni042F, uni042C, uni042A, uni042B, uni0409, uni040A, uni0405, uni0404, uni042D, uni0408, uni040B, uni042E, uni0402, uni0462, uni0472, uni0494, uni0498, uni04AA, uni04BA, uni04CB, uni04D0, uni04D2, uni04D6, uni04D8, uni04DA, uni04DC, uni04DE, uni04E0, uni04E4, uni04E6, uni04E8, uni04EA, uni04EC, uni04EE, uni04F0, uni04F2, uni04F4, uni04F8, uni0510, uni051A, uni0430, uni0431, uni0432, uni0434, uni0435, uni0450, uni0451, uni0437, uni0439, uni043B, uni043E, uni0440, uni0441, uni0443, uni045E, uni0444, uni0447, uni044F, uni044C, uni044A, uni044B, uni0459, uni045A, uni0455, uni0454, uni044D, uni0456, uni0457, uni0458, uni045B, uni044E, uni0452, uni0463, uni0473, uni0499, uni04AB, uni04BB, uni04CC, uni04D1, uni04D3, uni04D7, uni04D9, uni04DB, uni04DD, uni04DF, uni04E1, uni04E5, uni04E7, uni04E9, uni04EB, uni04ED, uni04EF, uni04F1, uni04F3, uni04F5, uni04F9, uni0511, uni051B, uni04D5
 - Rounded corners of points of dieresis marks in uni0401, uni0407, uni04D2, uni04DA, uni04DC, uni04DE, uni04E4, uni04E6, uni04EA, uni04EC, uni04F0, uni04F4, uni04F8, uni0451, uni0457, uni04D3, uni04DB, uni04DD, uni04DF, uni04E5, uni04E7, uni04EB, uni04ED, uni04F1, uni04F5, uni04F9
 - Rounded corners of dots in uni0456, uni0458
-
+- Modified **lowercase i** glyphs (uni0456, uni0457) so that they are consistent with the shape of the Hack Latin lowercase i
+- Modified **uni0430** - decreased width of lower terminal to create angle
+- Modified **uni0440** - decreased width of upper terminal to create angle
+- Modified **uni04D1** - decreased width of lower terminal to create angle
+- Modified **uni04D3** - decreased width of lower terminal to create angle
+- Modified **uni051B** - decreased width of upper terminal to create angle
 
 ### Spacing Changes
 
