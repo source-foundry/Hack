@@ -250,6 +250,15 @@ START WITH ARABIC SET
 - Modified curves in uni10D0, uni10D1, uni10D2, uni10D3, uni10D4, uni10D5, uni10D6, uni10D7, uni10D8, uni10D9, uni10DA, uni10DB, uni10DC, uni10DD, uni10DE, uni10DF, uni10E0, uni10E1, uni10E2, uni10E3, uni10E4, uni10E5, uni10E6, uni10E7, uni10E8, uni10E9, uni10EA, uni10EB, uni10EC, uni10ED, uni10EE, uni10EF, uni10F0, uni10F1, uni10F2, uni10F3, uni10F4, uni10F5, uni10F6, uni10F7, uni10F8, uni10F9, uni10FA, uni10FC, uni055C, uni055E
 - Rounded corners of points in uni10FB, uni0589
 
+
+##### Punctuation Character Set
+
+- Modified curves in uni2047, questiondown, uni203D, uni203F, uni2048, uni2049, uni204B, uni2E18, uni2E1F, uni2E2E, uni2E18.case, questiondown.case, uni208E, uni207E, uni2768, uni2769, uni276B, uni27C5, uni27C6, uni2987, uni2988, uni055C, uni055E, uni061F
+
+##### Symbol Character Set
+
+- Modified curves in cent, colonmonetary, dong, euro, florin, lira, peseta, sterling, uni0E3F, uni20A0, uni20A2, uni20A5, uni20A8, uni20AA, uni20AF, uni20B0, uni20B1, uni20B2, uni20B4, uni20B5, uni20B9, approxequal, asciitilde, circlemultiply, circleplus, congruent, element, emptyset, infinity, integral, integralbt, integraltp, intersection, notelement, notsubset, partialdiff, percent, perthousand, propersubset, propersuperset, proportional, reflexsubset, reflexsuperset, similar, suchthat, therefore, uni2031, uni2126, uni2201, uni220A, uni220C, uni220D, uni2218, uni221B, uni222C, uni222D, uni2235, uni2236, uni2237, uni2238, uni2239, uni223A, uni223B, uni223D, uni2241, uni2242, uni2243, uni2244, uni2246, uni2247, uni2249, uni224A, uni224B, uni224C, uni224E, uni224F, uni2250, uni2251, uni2252, uni2253, uni2254, uni2255, uni2256, uni2257, uni2258, uni225D, uni225E, uni225F, uni2272, uni2273, uni2274, uni2275, uni227C, uni227D, uni227E, uni227F, uni2285, uni2288, uni2289, uni228B, uni228D, uni2296, uni2298, uni2299, uni229A, uni229B, uni229C, uni229D, uni22B8, uni22CD, uni22D0, uni22D1, uni22DE, uni22DF, uni22E0, uni22E1, uni22E6, uni22E7, uni22E8, uni22E9, uni22EF, uni23A8, uni23AC, uni27DC, uni2A00, uni2A6A, uni2A6B, union, uni219C, uni219D, uni21AD, uni21A9, uni21AA, uni21AB, uni21AC, uni21B6, uni21B7, uni21BA, uni21BB, uni21F4, H18533, circle, uni25EF, uni25D0, uni25D1, uni25D2, uni25D3, uni25D6, uni25D7, uni25D4, uni25D5, uni25F4, uni25F5, uni25F6, uni25F7, uni25CD, uni25C9, uni25CE, openbullet, invbullet, invcircle, uni25DA, uni25DB, uni25E0, uni25E1, uni25DC, uni25DD, uni25DE, uni25DF, at, ampersand, copyright, registered, section, degree, uni0606, uni03F6
+
 ### Spacing Changes
 
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
