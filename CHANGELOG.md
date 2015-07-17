@@ -254,6 +254,11 @@ START WITH ARABIC SET
 ##### Punctuation Character Set
 
 - Modified curves in uni2047, questiondown, uni203D, uni203F, uni2048, uni2049, uni204B, uni2E18, uni2E1F, uni2E2E, uni2E18.case, questiondown.case, uni208E, uni207E, uni2768, uni2769, uni276B, uni27C5, uni27C6, uni2987, uni2988, uni055C, uni055E, uni061F
+- Modified **dong** - decreased width of the lower terminal to create an angled stem
+- Modified **uni20A5** - decreased width of the upper terminal to create an angled stem
+- Modified **uni225D** - decreased width of the lower terminal on the d character to create an angled stem
+- Modified **uni225E** - decreased width of the upper terminal to create an angled stem
+
 
 ##### Symbol Character Set
 
