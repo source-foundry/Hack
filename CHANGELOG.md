@@ -19,6 +19,8 @@ TODO:
 - New glyphs for Cyrillic (ISO-8859-5) character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Greek (ISO-8859-7) character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Arabic (ISO-8859-6) character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Armenian character set (shapes from DejaVu Sans Mono typeface)
+- New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
 - New Powerline glyphs
 - New **dotlessi**
@@ -77,8 +79,6 @@ TODO:
 - Modified **Uogonek** - modified curves
 - Modified **Uring** - modified curves
 - Modified **Utilde** - modified curves
-
-
 - Modified **agrave** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **aacute** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **acircumflex** - decreased width of terminal, opened angle in regular and bold sets
@@ -126,9 +126,6 @@ TODO:
 - Modified **ydieresis** - adjusted curves
 - Modified **ygrave** - adjusted curves
 - Modified **zdotaccent** - rounded corners of dot
-
-
-
 - Modified **gbreve** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **ntilde** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **ugrave** - decreased width of terminal, opened angle in regular and bold sets
@@ -226,6 +223,26 @@ TODO:
 - Modified **uni04D3** - decreased width of lower terminal to create angle
 - Modified **uni051B** - decreased width of upper terminal to create angle
 
+##### Armenian Character Set
+
+- Modified curves in uni0531, uni0532, uni0533, uni0534, uni0535, uni0536, uni0538, uni0539, uni053A, uni053B, uni053D, uni053E, uni053F, uni0540, uni0541, uni0542, uni0543, uni0544, uni0545, uni0546, uni0547, uni0548, uni0549, uni054A, uni054B, uni054C, uni054D, uni054E, uni054F, uni0550, uni0551, uni0553, uni0554, uni0555, uni0556, uni0561, uni0562, uni0563, uni0564, uni0565, uni0566, uni0568, uni0569, uni056A, uni056B, uni056D, uni056E, uni056F, uni0570, uni0571, uni0572, uni0573, uni0574, uni0575, uni0576, uni0577, uni0578, uni0579, uni057A, uni057B, uni057C, uni057D, uni057E, uni057F, uni0580, uni0581, uni0583, uni0584, uni0585, uni0586, uni0587
+- Modified **uni0563** - decreased width of the upper terminal to create angle
+- Modified **uni0564** - decreased width of the upper terminal to create angle
+- Modified **uni0566** - decreased width of the upper terminal to create angle
+- Modified **uni0568** - decreased width of the upper terminal to create angle
+- Modified **uni0569** - decreased width of the upper terminal to create angle
+- Modified **uni0572** - decreased width of the upper terminal to create angle
+- Modified **uni0573** - decreased width of the upper terminal to create angle
+- Modified **uni0574** - decreased width of the upper terminal to create angle
+- Modified **uni0576** - decreased width of the upper terminal to create angle
+- Modified **uni0578** - decreased width of the upper terminal to create angle
+- Modified **uni057C** - decreased width of the upper terminal to create angle
+- Modified **uni057D** - decreased width of the upper terminal to create angle
+- Modified **uni0580** - decreased width of the upper terminal to create angle
+- Modified **uni0581** - decreased width of the upper terminal to create angle
+- Modified **uni0584** - decreased width of the upper terminal to create angle
+
+
 ### Spacing Changes
 
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
@@ -255,7 +272,6 @@ TODO:
 - Modified **Zeta** - reduced left sidebearing to center the glyph
 - Modified **Rho** - reduced left sidebearing
 - Modified **Phi** - increased left sidebearing
-
 
 
 # Version 1.3
