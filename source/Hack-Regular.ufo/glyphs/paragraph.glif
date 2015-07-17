@@ -7,6 +7,12 @@
   </note>
   <outline>
     <contour>
+      <point x="698" y="-197" type="line"/>
+      <point x="698" y="1370" type="line"/>
+      <point x="889" y="1370" type="line"/>
+      <point x="889" y="-197" type="line"/>
+      <point x="1030" y="-197" type="line"/>
+      <point x="1030" y="1493" type="line"/>
       <point x="582" y="1493" type="line" smooth="yes"/>
       <point x="439" y="1493"/>
       <point x="324" y="1454"/>
@@ -21,12 +27,6 @@
       <point x="414" y="660"/>
       <point x="557" y="649" type="curve"/>
       <point x="557" y="-197" type="line"/>
-      <point x="698" y="-197" type="line"/>
-      <point x="698" y="1370" type="line"/>
-      <point x="889" y="1370" type="line"/>
-      <point x="889" y="-197" type="line"/>
-      <point x="1030" y="-197" type="line"/>
-      <point x="1030" y="1493" type="line"/>
     </contour>
   </outline>
 </glyph>
