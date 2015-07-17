@@ -163,15 +163,64 @@ START ON GREEK SET
 - Modified **upsilondieresistonos** - adjusted vertical position to properly position on the baseline
 - Modified **iotadieresistonos** - adjusted vertical position to properly position on the baseline
 - Modified **eth** - altered curve of the neck
-- Modified **Beta** - modified the curves
-- Modified **Theta** - modified the curves
-- Modified **Omicron** - modified the curves
-- Modified **Psi** - modified the curves
+- Modified **uppercase eta** - modified the curves
+- Modified **uppercase theta** - modified the curves
+- Modified **uppercase omicron** - modified the curves
+- Modified **uppercase rho** - modified the curves
+- Modified **uppercase psi** - modified the curves
+- Modified **uppercase upsilon** - new glyph style (change from Latin Y shape)
+- Modified **uppercase omega** - modified the curves
+- Modified **uppercase alphatonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase epsilontonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase etatonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase iotatonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase omicrontonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase upsilontonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase omegatonos** - adjusted right and left sidebearings, corrected position of the tonos symbol
+- Modified **uppercase iotadieresis** - rounded the dieresis points
+- Modified **uppercase upsilondieresis** - new upsilon shape, rounded the dieresis points
+- Modified **lowercase alpha** - adjusted curves
+- Modified **lowercase beta** - adjusted curves
+- Modified **lowercase gamma** - adjusted curves
+- Modified **lowercase delta** - adjusted curves
+- Modified **lowercase epsilon** - adjusted curves
+- Modified **lowercase zeta** - adjusted curves
+- Modified **lowercase eta** - decreased width of the top terminal to create angled stem, adjusted curves
+- Modified **lowercase theta** - adjusted curves
+- Modified **lowercase iota** - adjusted curves
+- Modified **lowercase lambda** - adjusted curves
+- Modified **lowercase mu** - adjusted curves
+- Modified **lowercase nu** - adjusted curves
+- Modified **lowercase xi** - adjusted curves
+- Modified **lowercase omicron** - adjusted curves
+- Modified **lowercase pi** - adjusted curves
+- Modified **lowercase rho** - adjusted curves
+- Modified **lowercase sigmafinal** - adjusted curves
+- Modified **lowercase sigma** - adjusted curves
+- Modified **lowercase tau** - adjusted curves
+- Modified **lowercase upsilon** - adjusted curves
+- Modified **lowercase phi** - adjusted curves
+- Modified **lowercase chi** - adjusted curves
+- Modified **lowercase psi** - adjusted curves
+- Modified **lowercase omega** - adjusted curves
+- Modified **lowercase iotatonos** - adjusted curves
+- Modified **lowercase iotadieresis** - rounded points of the dieresis, adjusted curves
+- Modified **iotadieresistonos** - rounded corners of points of dieresis mark, appropriately positioned tonos mark, adjusted curves
+- Modified **lowercase upsilontonos** - adjusted curves
+- Modified **lowercase upsilondieresis** - rounded points of dieresis mark, adjusted curves
+- Modified **upsilondieresistonos** - rounded corners of points of dieresis mark, appropriately positioned tonos mark, adjusted curves
+- Modified **lowercase omicrontonos** - adjusted curves
+- Modified **lowercase omegatonos** - adjusted curves
+- Modified **lowercase alphatonos** - adjusted curves
+- Modified **lowercase epsilontonos** - adjusted curves
+- Modified **lowercase etatonos** - decreased width of top terminal to create angled stem, adjusted curves
 
 
 ##### Cyrillic Character Set
 
 - Modified curves in uni0411, uni0412, uni0401, uni0417, uni041B, uni041E, uni0420, uni0421, uni0423, uni040E, uni0424, uni0427, uni042F, uni042C, uni042A, uni042B, uni0409, uni040A, uni0405, uni0404, uni042D, uni0408, uni040B, uni042E, uni0402, uni0462, uni0472, uni0494, uni0498, uni04AA, uni04BA, uni04CB, uni04D0, uni04D2, uni04D6, uni04D8, uni04DA, uni04DC, uni04DE, uni04E0, uni04E4, uni04E6, uni04E8, uni04EA, uni04EC, uni04EE, uni04F0, uni04F2, uni04F4, uni04F8, uni0510, uni051A, uni0430, uni0431, uni0432, uni0434, uni0435, uni0450, uni0451, uni0437, uni0439, uni043B, uni043E, uni0440, uni0441, uni0443, uni045E, uni0444, uni0447, uni044F, uni044C, uni044A, uni044B, uni0459, uni045A, uni0455, uni0454, uni044D, uni0456, uni0457, uni0458, uni045B, uni044E, uni0452, uni0463, uni0473, uni0499, uni04AB, uni04BB, uni04CC, uni04D1, uni04D3, uni04D7, uni04D9, uni04DB, uni04DD, uni04DF, uni04E1, uni04E5, uni04E7, uni04E9, uni04EB, uni04ED, uni04EF, uni04F1, uni04F3, uni04F5, uni04F9, uni0511, uni051B, uni04D5
+- Rounded corners of points of dieresis marks in uni0401, uni0407, uni04D2, uni04DA, uni04DC, uni04DE, uni04E4, uni04E6, uni04EA, uni04EC, uni04F0, uni04F4, uni04F8, uni0451, uni0457, uni04D3, uni04DB, uni04DD, uni04DF, uni04E5, uni04E7, uni04EB, uni04ED, uni04F1, uni04F5, uni04F9
+- Rounded corners of dots in uni0456, uni0458
 
 
 ### Spacing Changes
