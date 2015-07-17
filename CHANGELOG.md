@@ -243,6 +243,11 @@ TODO:
 - Modified **uni0584** - decreased width of the upper terminal to create angle
 
 
+##### Georgian Character Set
+
+- Modified curves in uni10D0, uni10D1, uni10D2, uni10D3, uni10D4, uni10D5, uni10D6, uni10D7, uni10D8, uni10D9, uni10DA, uni10DB, uni10DC, uni10DD, uni10DE, uni10DF, uni10E0, uni10E1, uni10E2, uni10E3, uni10E4, uni10E5, uni10E6, uni10E7, uni10E8, uni10E9, uni10EA, uni10EB, uni10EC, uni10ED, uni10EE, uni10EF, uni10F0, uni10F1, uni10F2, uni10F3, uni10F4, uni10F5, uni10F6, uni10F7, uni10F8, uni10F9, uni10FA, uni10FC, uni055C, uni055E
+- Rounded corners of points in uni10FB, uni0589
+
 ### Spacing Changes
 
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
