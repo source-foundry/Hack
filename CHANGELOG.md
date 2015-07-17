@@ -2,6 +2,8 @@
 
 TODO:
 
+START WITH ARABIC SET
+
 - all new chars for bold, oblique, and boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
