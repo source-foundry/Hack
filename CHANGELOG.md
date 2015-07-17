@@ -163,6 +163,11 @@ START ON GREEK SET
 - Modified **upsilondieresistonos** - adjusted vertical position to properly position on the baseline
 - Modified **iotadieresistonos** - adjusted vertical position to properly position on the baseline
 - Modified **eth** - altered curve of the neck
+- Modified **Beta** - modified the curves
+- Modified **Theta** - modified the curves
+- Modified **Omicron** - modified the curves
+- Modified **Psi** - modified the curves
+
 
 ##### Cyrillic Character Set
 
@@ -194,6 +199,10 @@ START ON GREEK SET
 - Modified **racute** - decreased left sidebearing
 - Modified **rcaron** - decreased left sidebearing
 - Modified **rcommaaccent** - decreased left sidebearing
+- Mofified **Mu** - increased left sidebearing
+- Modified **Zeta** - reduced left sidebearing to center the glyph
+- Modified **Rho** - reduced left sidebearing
+- Modified **Phi** - increased left sidebearing
 
 
 
