@@ -24,6 +24,8 @@ START WITH ARABIC SET
 - New glyphs for Armenian character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
+- New number glyphs
+- New symbol glyphs
 - New Powerline glyphs
 - New **dotlessi**
 - New **iacute**
@@ -44,18 +46,18 @@ START WITH ARABIC SET
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
-- Modified **lowercase a** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase b** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase d** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase g** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase a** - decreased width of terminal, opened angle
+- Modified **lowercase b** - decreased width of terminal, opened angle
+- Modified **lowercase d** - decreased width of terminal, opened angle
+- Modified **lowercase g** - decreased width of terminal, opened angle
 - Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
-- Modified **lowercase m** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase n** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase p** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase q** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **lowercase r** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **lowercase m** - decreased width of terminal, opened angle
+- Modified **lowercase n** - decreased width of terminal, opened angle
+- Modified **lowercase p** - decreased width of terminal, opened angle
+- Modified **lowercase q** - decreased width of terminal, opened angle
+- Modified **lowercase r** - decreased width of terminal, opened angle
 - Modified **lowercase t** - added angle to left side of horizontal stem
 - Modified **lowercase y** - modified curves
 - Modified **Abreve** - modified curves
@@ -83,11 +85,14 @@ START WITH ARABIC SET
 - Modified **Utilde** - modified curves
 - Modified **agrave** - decreased width of terminal, opened angle in regular and bold sets
 - Modified **aacute** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **acircumflex** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **atilde** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **adieresis** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **aring** - decreased width of terminal, opened angle in regular and bold sets
-- Modified **dcroat** - decreased width of terminal, opened angle in regular and bold sets
+- Modified **abreve** - decreased width of upper terminal to create an angled stem
+- Modified **acircumflex** - decreased width of terminal, opened angle
+- Modified **atilde** - decreased width of terminal, opened angle
+- Modified **adieresis** - decreased width of terminal, opened angle
+- Modified **amacron** - decreased width of upper terminal to create an angled stem
+- Modified **aring** - decreased width of terminal, opened angle
+- Modified **dcroat** - decreased width of terminal, opened angle
+- Modified **dcaron** - decreased width of lower terminal to create angled stem
 - Modified **ecaron** - modified curves
 - Modified **ecircumflex** - modified curves
 - Modified **edieresis** - modified curves
@@ -102,7 +107,7 @@ START WITH ARABIC SET
 - Modified **nacute** - adjusted curves
 - Modified **ncaron** - adjusted curves
 - Modified **ncommaaccent** - adjusted curves
-- Modified **eng** - adjusted curves
+- Modified **eng** - adjusted curves, decreased the upper terminal width to create an angled stem
 - Modified **ntilde** - adjusted curves
 - Modified **ohorn** - adjusted curves
 - Modified **ohungarumlaut** - adjusted curves
