@@ -7,16 +7,16 @@
   </note>
   <outline>
     <contour>
-      <point x="450" y="1063" type="line"/>
-      <point x="783" y="1063" type="line"/>
-      <point x="783" y="698" type="line"/>
-      <point x="450" y="698" type="line"/>
+      <point x="783" y="0" type="line"/>
+      <point x="783" y="367" type="line"/>
+      <point x="450" y="367" type="line"/>
+      <point x="450" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="450" y="367" type="line"/>
-      <point x="783" y="367" type="line"/>
-      <point x="783" y="0" type="line"/>
-      <point x="450" y="0" type="line"/>
+      <point x="783" y="698" type="line"/>
+      <point x="783" y="1063" type="line"/>
+      <point x="450" y="1063" type="line"/>
+      <point x="450" y="698" type="line"/>
     </contour>
   </outline>
 </glyph>

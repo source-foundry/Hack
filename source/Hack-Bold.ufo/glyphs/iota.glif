@@ -7,20 +7,20 @@
   </note>
   <outline>
     <contour>
-      <point x="763" y="1120" type="line"/>
-      <point x="763" y="365" type="line" smooth="yes"/>
-      <point x="763" y="266"/>
-      <point x="809" y="225"/>
-      <point x="921" y="225" type="curve" smooth="yes"/>
-      <point x="979" y="225" type="line"/>
       <point x="979" y="0" type="line"/>
-      <point x="901" y="0" type="line" smooth="yes"/>
-      <point x="565" y="0"/>
-      <point x="471" y="84"/>
-      <point x="471" y="379" type="curve" smooth="yes"/>
-      <point x="471" y="895" type="line"/>
-      <point x="270" y="895" type="line"/>
+      <point x="979" y="225" type="line"/>
+      <point x="921" y="225" type="line" smooth="yes"/>
+      <point x="809" y="225"/>
+      <point x="763" y="266"/>
+      <point x="763" y="365" type="curve" smooth="yes"/>
+      <point x="763" y="1120" type="line"/>
       <point x="270" y="1120" type="line"/>
+      <point x="270" y="895" type="line"/>
+      <point x="471" y="895" type="line"/>
+      <point x="471" y="379" type="line" smooth="yes"/>
+      <point x="471" y="84"/>
+      <point x="565" y="0"/>
+      <point x="901" y="0" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>
