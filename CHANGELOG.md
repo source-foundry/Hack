@@ -8,8 +8,9 @@ START WITH ARABIC SET
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
 - adjust dots to curved dots for new glyphs
-- add new lowercase i glyphs (Cyrillic set)
+- add new lowercase i glyphs
 - adjust t horizontal stem so that it has an angle
+- fix punctuation
 
 ### New Glyphs
 
