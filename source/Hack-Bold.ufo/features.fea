@@ -11,9 +11,9 @@ feature ordn;
 
 feature sups {
 # automatic
+sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
-sub one by onesuperior;
 } sups;
 
 feature frac {
