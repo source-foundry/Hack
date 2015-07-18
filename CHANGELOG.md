@@ -100,14 +100,17 @@ START WITH ARABIC SET
 - Modified **emacron** - modified curves
 - Modified **eogonek** - modified curves
 - Modified **gbreve** - modified curves of bowl and tail
-- Modified **gcaron** - modified curves of bowl and tail
-- Modified **gcommaaccent** - modified curves of bowl and tail
-- Modified **gdotaccent** - modified curves of bowl and tail
+- Modified **gcaron** - modified curves of bowl and tail, decreased width of upper terminal to create angled stem
+- Modified **gcommaaccent** - modified curves of bowl and tail, decreased width of upper terminal to create angled stem
+- Modified **gdotaccent** - modified curves of bowl and tail, decreased width of upper terminal to create angled stem
 - Modified **hbar** - adjusted curves
 - Modified **nacute** - adjusted curves
 - Modified **ncaron** - adjusted curves
 - Modified **ncommaaccent** - adjusted curves
 - Modified **eng** - adjusted curves, decreased the upper terminal width to create an angled stem
+- Modified **nacute** - decreased width of upper terminal to create angled stem
+- Modified **ncaron** - decreased width of upper terminal to create angled stem
+- Modified **ncommaaccent** - decreased width of upper terminal to create angled stem
 - Modified **ntilde** - adjusted curves
 - Modified **ohorn** - adjusted curves
 - Modified **ohungarumlaut** - adjusted curves
@@ -115,19 +118,22 @@ START WITH ARABIC SET
 - Modified **oslash** - adjusted curves
 - Modified **oslashacute** - adjusted curves
 - Modified **otilde** - adjusted curves
-- Modified **racute** - adjusted curves
-- Modified **rcaron** - adjusted curves
-- Modified **rcommaaccent** - adjusted curves
+- Modified **racute** - adjusted curves, decreased width of upper terminal to create angled stem
+- Modified **rcaron** - adjusted curves, decreased width of upper terminal to create angled stem
+- Modified **rcommaaccent** - adjusted curves, decreased width of upper terminal to create angled stem
 - Modified **sacute** - adjusted curves
 - Modified **scedila** - adjusted curves
 - Modified **scommaaccent** - adjusted curves
-- Modified **tcommaaccent** - adjusted curves
-- Modified **uhorn** - adjusted curves
-- Modified **uhungarumlaut** - adjusted curves
-- Modified **umacron** - adjusted curves
-- Modified **uogonek** - adjusted curves
-- Modified **uring** - adjusted curves
-- Modified **utilde** - adjusted curves
+- Modified **lowercase t** - decreased length of the left terminal to angle the horizontal stem
+- Modified **tbar** - decreased length of the left terminal to angle the horizontal stem
+- Modified **tcaron** - decreased length of the left terminal to angle the horizontal stem
+- Modified **tcommaaccent** - adjusted curves, decreased length of the left terminal to angle the horizontal stem
+- Modified **uhorn** - adjusted curves, decreased width of lower terminal to create angled stem
+- Modified **uhungarumlaut** - adjusted curves, decreased width of lower terminal to create angled stem
+- Modified **umacron** - adjusted curves, decreased width of lower terminal to create angled stem
+- Modified **uogonek** - adjusted curves, decreased width of lower terminal to create angled stem
+- Modified **uring** - adjusted curves, decreased width of lower terminal to create angled stem
+- Modified **utilde** - adjusted curves, decreased width of lower terminal to create angled stem
 - Modified **yacute** - adjusted curves
 - Modified **ycircumflex** - adjusted curves
 - Modified **ydieresis** - adjusted curves
@@ -142,6 +148,7 @@ START WITH ARABIC SET
 - Modified **exclamdown** - rounded corners of the dot
 - Modified **dieresis** - rounded corners
 - Modified **questionmarkdown** - rounded corners of the dot
+- Modified **ordfeminine** - decreased width of lower terminal on the a character to create angled stem
 - Modified **Adieresis** - rounded corners of dieresis component of glyph
 - Modified **Edieresis** - rounded corners of dieresis component of glyph
 - Modified **Idieresis** - rounded corners of dieresis component of glyph
