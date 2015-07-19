@@ -4,7 +4,7 @@ TODO:
 
 START WITH ARABIC SET
 
-- all new chars for bold, oblique, and boldoblique set
+- all new chars for oblique, and boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
 - adjust dots to curved dots for new glyphs
