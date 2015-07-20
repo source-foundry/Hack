@@ -36,6 +36,7 @@ START WITH ARABIC SET
 - New **imacron**
 - New **iogonek**
 - New **itilde**
+- New **uppercase upsilon**
 - New uni0069
 - New uni0457
 - New uni0458
@@ -52,7 +53,7 @@ START WITH ARABIC SET
 - Modified **lowercase d** - decreased width of terminal, opened angle
 - Modified **lowercase g** - decreased width of terminal, opened angle
 - Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
-- Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height
+- Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height, decreased width of horizontal stem
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
 - Modified **lowercase m** - decreased width of terminal, opened angle
 - Modified **lowercase n** - decreased width of terminal, opened angle
@@ -105,6 +106,14 @@ START WITH ARABIC SET
 - Modified **gcommaaccent** - modified curves of bowl and tail, decreased width of upper terminal to create angled stem
 - Modified **gdotaccent** - modified curves of bowl and tail, decreased width of upper terminal to create angled stem
 - Modified **hbar** - adjusted curves
+- Modified **dotlessi** - decreased width of horizontal stem
+- Modified **iacute** - decreased width of horizontal stem
+- Modified **icircumflex** - decreased width of horizontal stem
+- Modified **idieresis** - decreased width of horitontal stem
+- Modified **igrave** - decreased width of horizontal stem
+- Modified **imacron** - decreased width of horizontal stem
+- Modified **iogonek** - decreased width of horizontal stem
+- Modified **itilde** -decreased width of horizontal stem
 - Modified **nacute** - adjusted curves
 - Modified **ncaron** - adjusted curves
 - Modified **ncommaaccent** - adjusted curves
@@ -284,6 +293,7 @@ START WITH ARABIC SET
 - Modified **uppercase Z** - reduced left sidebearing for bold oblique set, not necessary to make this equal as with above sets
 - Modified **lowercase a** - reduced left sidebearing
 - Modified **lowercase c** - reduced left sidebearing
+- Modified **lowercase i** - increased left sidebearing
 - Modified **lowercase k** - reduced left sidebearing
 - Modified **lowercase r** - reduced left sidebearing
 - Modified **Zacute** - centered glyph (reduced left sidebearing, increased right sidebearing)
