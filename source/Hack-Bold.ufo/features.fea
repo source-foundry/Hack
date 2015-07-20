@@ -7,10 +7,10 @@ languagesystem latn MOL;
 
 feature aalt {
 # automatic
+feature locl;
 feature sups;
 feature frac;
 feature ordn;
-feature locl;
 feature case;
 feature init;
 feature medi;
