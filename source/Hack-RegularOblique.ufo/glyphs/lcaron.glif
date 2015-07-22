@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="013E"/>
+  <note>
+	lcaron
+  </note>
+  <outline>
+    <contour>
+      <point x="1017" y="1568" type="line"/>
+      <point x="1236" y="1568" type="line"/>
+      <point x="1028" y="1192" type="line"/>
+      <point x="872" y="1192" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="408" type="line" smooth="yes"/>
+      <point x="591" y="361"/>
+      <point x="586" y="325"/>
+      <point x="586" y="301" type="curve" smooth="yes"/>
+      <point x="586" y="204"/>
+      <point x="645" y="156"/>
+      <point x="766" y="156" type="curve" smooth="yes"/>
+      <point x="977" y="156" type="line"/>
+      <point x="946" y="0" type="line"/>
+      <point x="739" y="0" type="line" smooth="yes"/>
+      <point x="508" y="0"/>
+      <point x="397" y="83"/>
+      <point x="397" y="258" type="curve" smooth="yes"/>
+      <point x="397" y="295"/>
+      <point x="404" y="351"/>
+      <point x="416" y="412" type="curve" smooth="yes"/>
+      <point x="627" y="1423" type="line"/>
+      <point x="311" y="1423" type="line"/>
+      <point x="340" y="1567" type="line"/>
+      <point x="840" y="1567" type="line"/>
+    </contour>
+  </outline>
+</glyph>
