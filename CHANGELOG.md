@@ -2,7 +2,7 @@
 
 TODO:
 
-- all new chars for oblique, and boldoblique set
+- all new chars boldoblique set
 - adjust the width terminals/angle on the new glyphs
 - harmonize curves of the new glyphs
 - adjust dots to curved dots for new glyphs
