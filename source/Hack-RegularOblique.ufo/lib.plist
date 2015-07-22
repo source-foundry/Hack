@@ -945,26 +945,63 @@
 		<string>comma</string>
 		<string>ellipsis</string>
 		<string>exclam</string>
+		<string>exclamdbl</string>
 		<string>exclamdown</string>
 		<string>numbersign</string>
 		<string>period</string>
 		<string>question</string>
+		<string>uni2047</string>
 		<string>questiondown</string>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 		<string>semicolon</string>
 		<string>slash</string>
 		<string>underscore</string>
+		<string>underscoredbl</string>
+		<string>uni2016</string>
+		<string>uni2023</string>
+		<string>uni203D</string>
+		<string>uni203E</string>
+		<string>uni203F</string>
+		<string>uni2045</string>
+		<string>uni2046</string>
+		<string>uni2048</string>
+		<string>uni2049</string>
+		<string>uni204B</string>
+		<string>uni2E18</string>
+		<string>uni2E1F</string>
+		<string>uni2E2E</string>
+		<string>exclamdown.case</string>
+		<string>uni2E18.case</string>
+		<string>questiondown.case</string>
+		<string>uni208D</string>
+		<string>uni208E</string>
 		<string>braceleft</string>
 		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
+		<string>uni2E24</string>
+		<string>uni2E25</string>
+		<string>uni2E22</string>
+		<string>uni2E23</string>
 		<string>parenleft</string>
 		<string>parenright</string>
+		<string>uni207D</string>
+		<string>uni207E</string>
+		<string>uni27C5</string>
+		<string>uni27C6</string>
+		<string>uni2987</string>
+		<string>uni2988</string>
+		<string>uni2997</string>
+		<string>uni2998</string>
 		<string>emdash</string>
 		<string>endash</string>
+		<string>figuredash</string>
 		<string>hyphen</string>
 		<string>sfthyphen</string>
+		<string>uni2010</string>
+		<string>uni2011</string>
+		<string>uni2015</string>
 		<string>guillemotleft</string>
 		<string>guillemotright</string>
 		<string>guilsinglleft</string>
@@ -973,8 +1010,20 @@
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quoteleft</string>
+		<string>quotereversed</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
+		<string>uni201F</string>
+		<string>uni2034</string>
+		<string>uni2035</string>
+		<string>uni2036</string>
+		<string>uni2037</string>
+		<string>uni27E6</string>
+		<string>uni27E7</string>
+		<string>uni27E8</string>
+		<string>uni27E9</string>
+		<string>uni27EA</string>
+		<string>uni27EB</string>
 		<string>uni10FB</string>
 		<string>uni055A</string>
 		<string>uni055B</string>
@@ -986,39 +1035,286 @@
 		<string>uni058A</string>
 		<string>anoteleia</string>
 		<string>uni037E</string>
+		<string>uni205F</string>
 		<string>space</string>
 		<string>nonbreakingspace</string>
+		<string>uni00A0</string>
+		<string>uni2000</string>
+		<string>uni2001</string>
+		<string>uni2002</string>
+		<string>uni2003</string>
+		<string>uni2004</string>
+		<string>uni2005</string>
+		<string>uni2006</string>
+		<string>uni2007</string>
+		<string>uni2008</string>
+		<string>uni2009</string>
+		<string>uni200A</string>
+		<string>uni202F</string>
+		<string>uni000D</string>
 		<string>.notdef</string>
 		<string>.null</string>
 		<string>Euro</string>
 		<string>cent</string>
+		<string>colonmonetary</string>
 		<string>currency</string>
 		<string>dollar</string>
+		<string>dong</string>
 		<string>florin</string>
+		<string>franc</string>
+		<string>lira</string>
+		<string>peseta</string>
 		<string>sterling</string>
+		<string>uni0E3F</string>
+		<string>uni20A0</string>
+		<string>uni20A2</string>
+		<string>uni20A5</string>
+		<string>uni20A6</string>
+		<string>uni20A8</string>
+		<string>uni20A9</string>
+		<string>uni20AA</string>
+		<string>uni20B0</string>
+		<string>uni20B1</string>
+		<string>uni20B2</string>
+		<string>uni20B3</string>
+		<string>uni20B4</string>
+		<string>uni20B5</string>
+		<string>uni20B8</string>
+		<string>uni20B9</string>
 		<string>yen</string>
+		<string>angle</string>
 		<string>approxequal</string>
+		<string>asteriskmath</string>
 		<string>asciitilde</string>
+		<string>circlemultiply</string>
+		<string>circleplus</string>
+		<string>congruent</string>
 		<string>divide</string>
+		<string>dotmath</string>
+		<string>element</string>
+		<string>emptyset</string>
 		<string>equal</string>
+		<string>equivalence</string>
+		<string>existential</string>
+		<string>gradient</string>
 		<string>greater</string>
 		<string>greaterequal</string>
 		<string>infinity</string>
 		<string>integral</string>
+		<string>integralbt</string>
+		<string>integraltp</string>
+		<string>intersection</string>
 		<string>less</string>
 		<string>lessequal</string>
+		<string>logicaland</string>
 		<string>logicalnot</string>
+		<string>logicalor</string>
 		<string>minus</string>
 		<string>multiply</string>
+		<string>notelement</string>
 		<string>notequal</string>
+		<string>notsubset</string>
+		<string>orthogonal</string>
 		<string>partialdiff</string>
 		<string>percent</string>
+		<string>perpendicular</string>
 		<string>perthousand</string>
 		<string>plus</string>
 		<string>plusminus</string>
 		<string>product</string>
+		<string>propersubset</string>
+		<string>propersuperset</string>
+		<string>proportional</string>
 		<string>radical</string>
+		<string>reflexsubset</string>
+		<string>reflexsuperset</string>
+		<string>revlogicalnot</string>
+		<string>similar</string>
+		<string>suchthat</string>
 		<string>summation</string>
+		<string>therefore</string>
+		<string>uni2031</string>
+		<string>uni207A</string>
+		<string>uni207B</string>
+		<string>uni207C</string>
+		<string>uni208A</string>
+		<string>uni208B</string>
+		<string>uni208C</string>
+		<string>uni2126</string>
+		<string>uni2201</string>
+		<string>uni2204</string>
+		<string>uni220A</string>
+		<string>uni220C</string>
+		<string>uni220D</string>
+		<string>uni220E</string>
+		<string>uni2210</string>
+		<string>uni2213</string>
+		<string>uni2215</string>
+		<string>uni2218</string>
+		<string>uni2219</string>
+		<string>uni221B</string>
+		<string>uni221C</string>
+		<string>uni2223</string>
+		<string>uni222C</string>
+		<string>uni222D</string>
+		<string>uni2235</string>
+		<string>uni2236</string>
+		<string>uni2237</string>
+		<string>uni2238</string>
+		<string>uni2239</string>
+		<string>uni223A</string>
+		<string>uni223B</string>
+		<string>uni223D</string>
+		<string>uni2241</string>
+		<string>uni2242</string>
+		<string>uni2243</string>
+		<string>uni2244</string>
+		<string>uni2246</string>
+		<string>uni2247</string>
+		<string>uni2249</string>
+		<string>uni224A</string>
+		<string>uni224B</string>
+		<string>uni224C</string>
+		<string>uni224D</string>
+		<string>uni224E</string>
+		<string>uni224F</string>
+		<string>uni2250</string>
+		<string>uni2251</string>
+		<string>uni2252</string>
+		<string>uni2253</string>
+		<string>uni2254</string>
+		<string>uni2255</string>
+		<string>uni2256</string>
+		<string>uni2257</string>
+		<string>uni2258</string>
+		<string>uni2259</string>
+		<string>uni225A</string>
+		<string>uni225B</string>
+		<string>uni225C</string>
+		<string>uni225D</string>
+		<string>uni225E</string>
+		<string>uni225F</string>
+		<string>uni2262</string>
+		<string>uni2263</string>
+		<string>uni2266</string>
+		<string>uni2267</string>
+		<string>uni2268</string>
+		<string>uni2269</string>
+		<string>uni226D</string>
+		<string>uni226E</string>
+		<string>uni226F</string>
+		<string>uni2270</string>
+		<string>uni2271</string>
+		<string>uni2272</string>
+		<string>uni2273</string>
+		<string>uni2274</string>
+		<string>uni2275</string>
+		<string>uni2276</string>
+		<string>uni2277</string>
+		<string>uni2278</string>
+		<string>uni2279</string>
+		<string>uni227A</string>
+		<string>uni227B</string>
+		<string>uni227C</string>
+		<string>uni227D</string>
+		<string>uni227E</string>
+		<string>uni227F</string>
+		<string>uni2280</string>
+		<string>uni2281</string>
+		<string>uni2285</string>
+		<string>uni2288</string>
+		<string>uni2289</string>
+		<string>uni228A</string>
+		<string>uni228B</string>
+		<string>uni228D</string>
+		<string>uni228E</string>
+		<string>uni228F</string>
+		<string>uni2290</string>
+		<string>uni2291</string>
+		<string>uni2292</string>
+		<string>uni2293</string>
+		<string>uni2294</string>
+		<string>uni2296</string>
+		<string>uni2298</string>
+		<string>uni2299</string>
+		<string>uni229A</string>
+		<string>uni229B</string>
+		<string>uni229C</string>
+		<string>uni229D</string>
+		<string>uni229E</string>
+		<string>uni229F</string>
+		<string>uni22A0</string>
+		<string>uni22A1</string>
+		<string>uni22A2</string>
+		<string>uni22A3</string>
+		<string>uni22A4</string>
+		<string>uni22B2</string>
+		<string>uni22B3</string>
+		<string>uni22B4</string>
+		<string>uni22B5</string>
+		<string>uni22B8</string>
+		<string>uni22C2</string>
+		<string>uni22C3</string>
+		<string>uni22C4</string>
+		<string>uni22C6</string>
+		<string>uni22CD</string>
+		<string>uni22CE</string>
+		<string>uni22CF</string>
+		<string>uni22D0</string>
+		<string>uni22D1</string>
+		<string>uni22DA</string>
+		<string>uni22DB</string>
+		<string>uni22DC</string>
+		<string>uni22DD</string>
+		<string>uni22DE</string>
+		<string>uni22DF</string>
+		<string>uni22E0</string>
+		<string>uni22E1</string>
+		<string>uni22E2</string>
+		<string>uni22E3</string>
+		<string>uni22E4</string>
+		<string>uni22E5</string>
+		<string>uni22E6</string>
+		<string>uni22E7</string>
+		<string>uni22E8</string>
+		<string>uni22E9</string>
+		<string>uni22EF</string>
+		<string>uni2308</string>
+		<string>uni2309</string>
+		<string>uni230A</string>
+		<string>uni230B</string>
+		<string>uni239B</string>
+		<string>uni239C</string>
+		<string>uni239D</string>
+		<string>uni239E</string>
+		<string>uni239F</string>
+		<string>uni23A0</string>
+		<string>uni23A1</string>
+		<string>uni23A2</string>
+		<string>uni23A3</string>
+		<string>uni23A4</string>
+		<string>uni23A5</string>
+		<string>uni23A6</string>
+		<string>uni23A7</string>
+		<string>uni23A8</string>
+		<string>uni23A9</string>
+		<string>uni23AA</string>
+		<string>uni23AB</string>
+		<string>uni23AC</string>
+		<string>uni23AD</string>
+		<string>uni23AE</string>
+		<string>uni27C2</string>
+		<string>uni27DC</string>
+		<string>uni27E0</string>
+		<string>uni29EB</string>
+		<string>uni29FA</string>
+		<string>uni29FB</string>
+		<string>uni2A00</string>
+		<string>uni2A2F</string>
+		<string>uni2A6A</string>
+		<string>uni2A6B</string>
+		<string>union</string>
+		<string>universal</string>
 		<string>lozenge</string>
 		<string>bar</string>
 		<string>brokenbar</string>
