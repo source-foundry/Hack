@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="invbullet" format="1">
+  <advance width="1233"/>
+  <unicode hex="25D8"/>
+  <note>
+	invbullet
+  </note>
+  <outline>
+    <contour>
+      <point x="256" y="663"/>
+      <point x="293" y="574"/>
+      <point x="360" y="506" type="curve" smooth="yes"/>
+      <point x="429" y="437"/>
+      <point x="518" y="399"/>
+      <point x="614" y="399" type="curve" smooth="yes"/>
+      <point x="711" y="399"/>
+      <point x="802" y="437"/>
+      <point x="870" y="506" type="curve" smooth="yes"/>
+      <point x="939" y="575"/>
+      <point x="977" y="665"/>
+      <point x="977" y="762" type="curve" smooth="yes"/>
+      <point x="977" y="858"/>
+      <point x="941" y="947"/>
+      <point x="870" y="1016" type="curve" smooth="yes"/>
+      <point x="803" y="1083"/>
+      <point x="713" y="1120"/>
+      <point x="616" y="1120" type="curve" smooth="yes"/>
+      <point x="520" y="1120"/>
+      <point x="434" y="1084"/>
+      <point x="362" y="1016" type="curve" smooth="yes"/>
+      <point x="294" y="949"/>
+      <point x="256" y="859"/>
+      <point x="256" y="762" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-20" y="-20" type="line"/>
+      <point x="-20" y="1576" type="line"/>
+      <point x="1253" y="1576" type="line"/>
+      <point x="1253" y="-20" type="line"/>
+    </contour>
+  </outline>
+</glyph>
