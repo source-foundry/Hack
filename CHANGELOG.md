@@ -8,6 +8,7 @@ TODO:
 - adjust dots to curved dots for new glyphs
 - add new lowercase i glyphs
 - adjust t horizontal stem so that it has an angle
+- spacing
 - fix punctuation
 
 ### New Glyphs
