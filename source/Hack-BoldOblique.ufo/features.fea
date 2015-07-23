@@ -1,26 +1,48 @@
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
 
 feature aalt {
 # automatic
 feature sups;
 feature frac;
 feature ordn;
+feature locl;
+feature case;
 } aalt;
+
+feature locl {
+# automatic
+script latn;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+} locl;
 
 feature sups {
 # automatic
+sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
-sub one by onesuperior;
 } sups;
 
 feature frac {
 # automatic
+sub one slash eight by oneeighth;
 sub one slash four by onequarter;
+sub three slash eight by threeeighths;
 sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
 sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+sub one slash three by onethird;
+sub two slash three by twothirds;
 } frac;
 
 feature ordn {
@@ -28,6 +50,19 @@ feature ordn {
 sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 } ordn;
+
+feature case {
+# automatic
+sub exclamdown by exclamdown.case;
+sub uni2E18 by uni2E18.case;
+sub questiondown by questiondown.case;
+sub uni0306 by uni0306.case;
+sub uni0311 by uni0311.case;
+sub uni030F by uni030F.case;
+sub uni0307 by uni0307.case;
+sub uni030B by uni030B.case;
+sub uni0304 by uni0304.case;
+} case;
 
 feature liga {
 # automatic
