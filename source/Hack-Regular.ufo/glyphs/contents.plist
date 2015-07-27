@@ -604,6 +604,8 @@
 	<string>egrave.glif</string>
 	<key>eight</key>
 	<string>eight.glif</string>
+	<key>eightinferior</key>
+	<string>eightinferior.glif</string>
 	<key>eightsuperior</key>
 	<string>eightsuperior.glif</string>
 	<key>element</key>
@@ -662,6 +664,8 @@
 	<string>five.glif</string>
 	<key>fiveeighths</key>
 	<string>fiveeighths.glif</string>
+	<key>fiveinferior</key>
+	<string>fiveinferior.glif</string>
 	<key>fivesuperior</key>
 	<string>fivesuperior.glif</string>
 	<key>fl</key>
@@ -670,6 +674,8 @@
 	<string>florin.glif</string>
 	<key>four</key>
 	<string>four.glif</string>
+	<key>fourinferior</key>
+	<string>fourinferior.glif</string>
 	<key>foursuperior</key>
 	<string>foursuperior.glif</string>
 	<key>fraction</key>
@@ -816,6 +822,8 @@
 	<string>ncommaaccent.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
+	<key>nineinferior</key>
+	<string>nineinferior.glif</string>
 	<key>ninesuperior</key>
 	<string>ninesuperior.glif</string>
 	<key>nonbreakingspace</key>
@@ -870,6 +878,8 @@
 	<string>oneeighth.glif</string>
 	<key>onehalf</key>
 	<string>onehalf.glif</string>
+	<key>oneinferior</key>
+	<string>oneinferior.glif</string>
 	<key>onequarter</key>
 	<string>onequarter.glif</string>
 	<key>onesuperior</key>
@@ -1002,6 +1012,8 @@
 	<string>seven.glif</string>
 	<key>seveneighths</key>
 	<string>seveneighths.glif</string>
+	<key>seveninferior</key>
+	<string>seveninferior.glif</string>
 	<key>sevensuperior</key>
 	<string>sevensuperior.glif</string>
 	<key>sfthyphen</key>
@@ -1016,6 +1028,8 @@
 	<string>similar.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
+	<key>sixinferior</key>
+	<string>sixinferior.glif</string>
 	<key>sixsuperior</key>
 	<string>sixsuperior.glif</string>
 	<key>slash</key>
@@ -1050,6 +1064,8 @@
 	<string>three.glif</string>
 	<key>threeeighths</key>
 	<string>threeeighths.glif</string>
+	<key>threeinferior</key>
+	<string>threeinferior.glif</string>
 	<key>threequarters</key>
 	<string>threequarters.glif</string>
 	<key>threesuperior</key>
@@ -1072,6 +1088,8 @@
 	<string>triagup.glif</string>
 	<key>two</key>
 	<string>two.glif</string>
+	<key>twoinferior</key>
+	<string>twoinferior.glif</string>
 	<key>twosuperior</key>
 	<string>twosuperior.glif</string>
 	<key>twothirds</key>
@@ -2576,8 +2594,6 @@
 	<string>uni204B_.glif</string>
 	<key>uni205F</key>
 	<string>uni205F_.glif</string>
-	<key>uni2070</key>
-	<string>uni2070.glif</string>
 	<key>uni207A</key>
 	<string>uni207A_.glif</string>
 	<key>uni207B</key>
@@ -2588,26 +2604,6 @@
 	<string>uni207D_.glif</string>
 	<key>uni207E</key>
 	<string>uni207E_.glif</string>
-	<key>uni2080</key>
-	<string>uni2080.glif</string>
-	<key>uni2081</key>
-	<string>uni2081.glif</string>
-	<key>uni2082</key>
-	<string>uni2082.glif</string>
-	<key>uni2083</key>
-	<string>uni2083.glif</string>
-	<key>uni2084</key>
-	<string>uni2084.glif</string>
-	<key>uni2085</key>
-	<string>uni2085.glif</string>
-	<key>uni2086</key>
-	<string>uni2086.glif</string>
-	<key>uni2087</key>
-	<string>uni2087.glif</string>
-	<key>uni2088</key>
-	<string>uni2088.glif</string>
-	<key>uni2089</key>
-	<string>uni2089.glif</string>
 	<key>uni208A</key>
 	<string>uni208A_.glif</string>
 	<key>uni208B</key>
@@ -4274,6 +4270,10 @@
 	<string>zdotaccent.glif</string>
 	<key>zero</key>
 	<string>zero.glif</string>
+	<key>zeroinferior</key>
+	<string>zeroinferior.glif</string>
+	<key>zerosuperior</key>
+	<string>zerosuperior.glif</string>
 	<key>zeta</key>
 	<string>zeta.glif</string>
 </dict>

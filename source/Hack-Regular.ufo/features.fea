@@ -8,6 +8,7 @@ languagesystem latn MOL;
 feature aalt {
 # automatic
 feature locl;
+feature subs;
 feature sups;
 feature frac;
 feature ordn;
@@ -28,11 +29,26 @@ sub Scedilla by Scommaaccent;
 sub scedilla by scommaaccent;
 } locl;
 
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+} subs;
+
 feature sups {
 # automatic
 sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
+sub zero by zerosuperior;
 sub four by foursuperior;
 sub five by fivesuperior;
 sub six by sixsuperior;

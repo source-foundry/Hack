@@ -2,13 +2,6 @@
 
 TODO:
 
-- e increased left SB
-- f SB changes
-- g increased left SB
-- i bring below baseline
-- j SB changes
-- l bring below baseline
-- t bring below baseline
 - remove fi & fl ligatures
 - fix punctuation
 
