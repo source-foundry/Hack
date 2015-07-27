@@ -15,6 +15,7 @@ feature case;
 feature init;
 feature medi;
 feature fina;
+feature subs;
 } aalt;
 
 feature locl {
@@ -28,11 +29,32 @@ sub Scedilla by Scommaaccent;
 sub scedilla by scommaaccent;
 } locl;
 
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+} subs;
+
 feature sups {
 # automatic
 sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
+sub zero by zerosuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
 } sups;
 
 feature frac {
@@ -46,6 +68,11 @@ sub three slash four by threequarters;
 sub seven slash eight by seveneighths;
 sub one slash three by onethird;
 sub two slash three by twothirds;
+sub one slash five by onefifth;
+sub three slash five by threefifths;
+sub four slash five by fourfifths;
+sub one slash six by onesixth;
+sub five slash six by fivesixths;
 } frac;
 
 feature ordn {

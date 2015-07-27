@@ -2,13 +2,14 @@
 
 TODO:
 
-- all new chars boldoblique set
-- adjust the width terminals/angle on the new glyphs
-- harmonize curves of the new glyphs
-- adjust dots to curved dots for new glyphs
-- add new lowercase i glyphs
-- adjust t horizontal stem so that it has an angle
-- adjust spacing
+- e increased left SB
+- f SB changes
+- g increased left SB
+- i bring below baseline
+- j SB changes
+- l bring below baseline
+- t bring below baseline
+- remove fi & fl ligatures
 - fix punctuation
 
 ### New Glyphs
@@ -51,15 +52,15 @@ TODO:
 - Modified **lowercase b** - decreased width of terminal, opened angle
 - Modified **lowercase d** - decreased width of terminal, opened angle
 - Modified **lowercase g** - decreased width of terminal, opened angle
-- Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
-- Modified **lowercase i** - adjusted vertical position of the horizontal stem to x-height, decreased width of horizontal stem
+- Modified **lowercase i** - rounded corners of the dot, oriented dot position left of center relative to vertical stem, adjusted vertical position of the horizontal stem to x-height, lengthened the vertical stem to slightly overshoot baseline with the curved tail, decreased width of horizontal stem
 - Modified **lowercase j** - rounded corners of the dot, oriented dot position left of center relative to vertical stem
+- Modified **lowercase l** - lengthened the vertical stem to overshoot the baseline with the curved tail
 - Modified **lowercase m** - decreased width of terminal, opened angle
 - Modified **lowercase n** - decreased width of terminal, opened angle
 - Modified **lowercase p** - decreased width of terminal, opened angle
 - Modified **lowercase q** - decreased width of terminal, opened angle
 - Modified **lowercase r** - decreased width of terminal, opened angle
-- Modified **lowercase t** - added angle to left side of horizontal stem
+- Modified **lowercase t** - added angle to left side of horizontal stem, increased length of the vertical stem to allow the curved tail to slightly overshoot the baseline
 - Modified **lowercase y** - modified curves
 - Modified **Abreve** - modified curves
 - Modified **Aogonek** - modified curve, decreased the width of the tail to meet typeface metrics
@@ -293,7 +294,10 @@ TODO:
 - Modified **uppercase Z** - reduced left sidebearing for bold oblique set, not necessary to make this equal as with above sets
 - Modified **lowercase a** - reduced left sidebearing
 - Modified **lowercase c** - reduced left sidebearing
+- Modified **lowercase e** - increased left sidebearing
+- Modified **lowercase g** - increased left sidebearing
 - Modified **lowercase i** - increased left sidebearing
+- Modified **lowercase j** - increased left sidebearing
 - Modified **lowercase k** - reduced left sidebearing
 - Modified **lowercase r** - reduced left sidebearing
 - Modified **Zacute** - centered glyph (reduced left sidebearing, increased right sidebearing)
