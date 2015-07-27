@@ -19,6 +19,9 @@ TODO:
 - New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
 - New number glyphs
+- New scientific inferior numerals
+- New superscript numerals
+- New subscript numerals
 - New symbol glyphs
 - New Powerline glyphs
 - New **dotlessi**
@@ -313,6 +316,10 @@ TODO:
 - Modified **Zeta** - reduced left sidebearing to center the glyph
 - Modified **Rho** - reduced left sidebearing
 - Modified **Phi** - increased left sidebearing
+- Modified **left guillemet** - increased right sidebearing
+- Modified **right guillemet** - increased left sidebearing
+- Modified **left brace** - increased right sidebearing
+- Modified **right brace** - increased left sidebearing
 
 
 # Version 1.3
