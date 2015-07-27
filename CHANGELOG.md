@@ -2,7 +2,6 @@
 
 TODO:
 
-- remove fi & fl ligatures
 - fix punctuation
 
 ### New Glyphs
@@ -18,12 +17,12 @@ TODO:
 - New glyphs for Armenian character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
+- New Powerline glyphs
 - New number glyphs
 - New scientific inferior numerals
 - New superscript numerals
 - New subscript numerals
 - New symbol glyphs
-- New Powerline glyphs
 - New **dotlessi**
 - New **iacute**
 - New **icircumflex**
@@ -320,6 +319,10 @@ TODO:
 - Modified **right guillemet** - increased left sidebearing
 - Modified **left brace** - increased right sidebearing
 - Modified **right brace** - increased left sidebearing
+
+### Removed
+
+- Removed **fi** and **fl** ligatures. Spacing issues that require these ligatures are not present in this monospaced typeface
 
 
 # Version 1.3
