@@ -9,6 +9,7 @@ feature aalt {
 # automatic
 feature locl;
 feature subs;
+feature sinf;
 feature sups;
 feature frac;
 feature ordn;
@@ -31,17 +32,31 @@ sub scedilla by scommaaccent;
 
 feature subs {
 # automatic
-sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
 } subs;
+
+feature sinf {
+# automatic
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} sinf;
 
 feature sups {
 # automatic
