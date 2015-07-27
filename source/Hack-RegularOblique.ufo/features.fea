@@ -7,11 +7,12 @@ languagesystem latn MOL;
 
 feature aalt {
 # automatic
+feature locl;
 feature sups;
 feature frac;
 feature ordn;
-feature locl;
 feature case;
+feature subs;
 } aalt;
 
 feature locl {
@@ -25,6 +26,20 @@ sub Scedilla by Scommaaccent;
 sub scedilla by scommaaccent;
 } locl;
 
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+} subs;
+
 feature sups {
 # automatic
 sub one by onesuperior;
@@ -36,6 +51,7 @@ sub six by sixsuperior;
 sub seven by sevensuperior;
 sub eight by eightsuperior;
 sub nine by ninesuperior;
+sub zero by zerosuperior;
 } sups;
 
 feature frac {
@@ -49,6 +65,12 @@ sub three slash four by threequarters;
 sub seven slash eight by seveneighths;
 sub one slash three by onethird;
 sub two slash three by twothirds;
+sub one slash five by onefifth;
+sub two slash five by twofifths;
+sub three slash five by threefifths;
+sub four slash five by fourfifths;
+sub one slash six by onesixth;
+sub five slash six by fivesixths;
 } frac;
 
 feature ordn {

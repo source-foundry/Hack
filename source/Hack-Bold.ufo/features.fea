@@ -8,6 +8,7 @@ languagesystem latn MOL;
 feature aalt {
 # automatic
 feature locl;
+feature subs;
 feature sups;
 feature frac;
 feature ordn;
@@ -15,7 +16,6 @@ feature case;
 feature init;
 feature medi;
 feature fina;
-feature subs;
 } aalt;
 
 feature locl {
