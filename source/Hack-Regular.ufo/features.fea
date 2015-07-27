@@ -83,6 +83,12 @@ sub three slash four by threequarters;
 sub seven slash eight by seveneighths;
 sub one slash three by onethird;
 sub two slash three by twothirds;
+sub one slash five by onefifth;
+sub two slash five by twofifths;
+sub three slash five by threefifths;
+sub four slash five by fourfifths;
+sub one slash six by onesixth;
+sub five slash six by fivesixths;
 } frac;
 
 feature ordn {
@@ -114,10 +120,4 @@ sub uni066E by uni066E.fina;
 sub uni06A1 by uni06A1.fina;
 sub uni066F by uni066F.fina;
 } fina;
-
-feature liga {
-# automatic
-sub f i by fi;
-sub f l by fl;
-} liga;
 

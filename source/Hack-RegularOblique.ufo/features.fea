@@ -9,11 +9,11 @@ feature aalt {
 # automatic
 feature locl;
 feature subs;
+feature sinf;
 feature sups;
 feature frac;
 feature ordn;
 feature case;
-feature sinf;
 } aalt;
 
 feature locl {
@@ -106,10 +106,4 @@ sub uni0307 by uni0307.case;
 sub uni030B by uni030B.case;
 sub uni0304 by uni0304.case;
 } case;
-
-feature liga {
-# automatic
-sub f i by fi;
-sub f l by fl;
-} liga;
 
