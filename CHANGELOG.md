@@ -57,6 +57,7 @@ TODO:
 - Modified **lowercase r** - decreased width of terminal, opened angle
 - Modified **lowercase t** - added angle to left side of horizontal stem, increased length of the vertical stem to allow the curved tail to slightly overshoot the baseline
 - Modified **lowercase y** - modified curves
+- Modified **2** - rounded the upper left corner of the base, decreased width of the spine of the hook
 - Modified **Abreve** - modified curves
 - Modified **Aogonek** - modified curve, decreased the width of the tail to meet typeface metrics
 - Modified **Eogonek** - modified tail curve

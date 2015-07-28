@@ -9,15 +9,15 @@
     <contour>
       <point x="920" y="0" type="line"/>
       <point x="952" y="170" type="line"/>
-      <point x="268" y="170" type="line"/>
+      <point x="258" y="170" type="line"/>
       <point x="588" y="444" type="line" smooth="yes"/>
-      <point x="707" y="546"/>
-      <point x="790" y="619"/>
+      <point x="622" y="472"/>
+      <point x="723" y="556"/>
       <point x="854" y="678" type="curve" smooth="yes"/>
       <point x="920" y="739"/>
       <point x="949" y="770"/>
       <point x="973" y="799" type="curve" smooth="yes"/>
-      <point x="1023" y="859"/>
+      <point x="1025" y="862"/>
       <point x="1064" y="926"/>
       <point x="1090" y="989" type="curve" smooth="yes"/>
       <point x="1116" y="1052"/>
@@ -52,7 +52,10 @@
       <point x="738" y="792"/>
       <point x="389" y="479" type="curve" smooth="yes"/>
       <point x="350" y="444" type="line"/>
-      <point x="39" y="170" type="line"/>
+      <point x="65" y="193" type="line" smooth="yes"/>
+      <point x="48" y="178"/>
+      <point x="37" y="162"/>
+      <point x="32" y="136" type="curve" smooth="yes"/>
       <point x="6" y="0" type="line"/>
     </contour>
   </outline>
