@@ -57,6 +57,7 @@ TODO:
 - Modified **lowercase r** - decreased width of terminal, opened angle
 - Modified **lowercase t** - added angle to left side of horizontal stem, increased length of the vertical stem to allow the curved tail to slightly overshoot the baseline
 - Modified **lowercase y** - modified curves
+- Modified **0** - modified width and length of central oval fill, improved symmetry of the oval fill in all sets
 - Modified **2** - rounded the upper left corner of the base, decreased width of the spine of the hook
 - Modified **Abreve** - modified curves
 - Modified **Aogonek** - modified curve, decreased the width of the tail to meet typeface metrics
@@ -296,6 +297,7 @@ TODO:
 - Modified **lowercase j** - increased left sidebearing
 - Modified **lowercase k** - reduced left sidebearing
 - Modified **lowercase r** - reduced left sidebearing
+- Modified **3** - increased left sidebearing
 - Modified **Zacute** - centered glyph (reduced left sidebearing, increased right sidebearing)
 - Modified **Zcaron** - centered glyph (reduced left sidebearing, increased right sidebearing)
 - Modified **Zdotaccent** - centered glyph (reduced left sidebearing, increased right sidebearing)
