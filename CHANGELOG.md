@@ -2,7 +2,7 @@
 
 TODO:
 
-- fix punctuation
+- reposition diacritics bold, oblique, bold-oblique sets
 
 ### New Glyphs
 
