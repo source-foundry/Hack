@@ -2,7 +2,7 @@
 
 TODO:
 
-- reposition diacritics bold, oblique, bold-oblique sets
+- reposition diacritics bold-oblique sets
 
 ### New Glyphs
 
@@ -322,6 +322,7 @@ TODO:
 - Modified **right guillemet** - increased left sidebearing
 - Modified **left brace** - increased right sidebearing
 - Modified **right brace** - increased left sidebearing
+- Adjusted spacing on all diacritic marks in the regular, bold, oblique, and bold oblique set
 
 ### Removed
 
