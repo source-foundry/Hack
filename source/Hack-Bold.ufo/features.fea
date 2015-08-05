@@ -14,9 +14,6 @@ feature sups;
 feature frac;
 feature ordn;
 feature case;
-feature init;
-feature medi;
-feature fina;
 } aalt;
 
 feature locl {
@@ -108,21 +105,4 @@ sub uni0307 by uni0307.case;
 sub uni030B by uni030B.case;
 sub uni0304 by uni0304.case;
 } case;
-
-feature init {
-# automatic
-sub uni06A1 by uni06A1.init;
-} init;
-
-feature medi {
-# automatic
-sub uni06A1 by uni06A1.medi;
-} medi;
-
-feature fina {
-# automatic
-sub uni066E by uni066E.fina;
-sub uni06A1 by uni06A1.fina;
-sub uni066F by uni066F.fina;
-} fina;
 
