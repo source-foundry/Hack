@@ -2,7 +2,6 @@
 
 TODO:
 
-- reposition diacritics bold-oblique sets
 
 ### New Glyphs
 
