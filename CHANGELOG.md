@@ -1,8 +1,5 @@
 # Version 2.0
 
-TODO:
-
-
 ### New Glyphs
 
 - New glyphs for Revised Western European (ISO-8859-15, Latin-9) character set (shapes from DejaVu Sans Mono typeface)
