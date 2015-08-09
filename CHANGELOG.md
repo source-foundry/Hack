@@ -42,7 +42,7 @@ TODO:
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
-- Modified **lowercase a** - decreased width of terminal, opened angle
+- Modified **lowercase a** - added curved tail
 - Modified **lowercase b** - decreased width of terminal, opened angle
 - Modified **lowercase d** - decreased width of terminal, opened angle
 - Modified **lowercase g** - decreased width of terminal, opened angle
