@@ -54,7 +54,7 @@ TODO:
 - Modified **lowercase p** - decreased width of terminal, opened angle
 - Modified **lowercase q** - decreased width of terminal, opened angle
 - Modified **lowercase r** - decreased width of terminal, opened angle
-- Modified **lowercase t** - added angle to left side of horizontal stem, increased length of the vertical stem to allow the curved tail to slightly overshoot the baseline
+- Modified **lowercase t** - added angle to the upper terminal, increased length of the vertical stem to allow the curved tail to slightly overshoot the baseline
 - Modified **lowercase y** - modified curves
 - Modified **0** - modified width and length of central oval fill, improved symmetry of the oval fill in all sets
 - Modified **2** - rounded the upper left corner of the base, decreased width of the spine of the hook
@@ -321,6 +321,10 @@ TODO:
 - Modified **right guillemet** - increased left sidebearing
 - Modified **left brace** - increased right sidebearing
 - Modified **right brace** - increased left sidebearing
+- Modified **left bracket** - increased right sidebearing
+- Modified **right bracket** - increased left sidebearing
+- Modified **left parenthesis** - increased right sidebearing
+- Modified **right parenthesis** - increased left sidebearing
 - Adjusted spacing on all diacritic marks in the regular, bold, oblique, and bold oblique set
 
 ### Removed
