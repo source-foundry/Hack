@@ -12,6 +12,8 @@
 	<integer>-492</integer>
 	<key>familyName</key>
 	<string>Hack</string>
+	<key>isFixedPitch</key>
+	<true/>
 	<key>license</key>
 	<string>Modified Version ("Hack") Copyright (c) 2015, Christopher Simpkins with Reserved Font Name Hack.
 
@@ -111,12 +113,12 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>11</integer>
 		<integer>6</integer>
 		<integer>9</integer>
-		<integer>6</integer>
-		<integer>5</integer>
+		<integer>3</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>2</integer>
 		<integer>4</integer>
-		<integer>8</integer>
-		<integer>3</integer>
-		<integer>3</integer>
 	</array>
 	<key>postscriptBlueValues</key>
 	<array>
@@ -161,7 +163,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>7</integer>
+	<integer>8</integer>
 	<key>xHeight</key>
 	<integer>1120</integer>
 </dict>
