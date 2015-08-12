@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni039A" format="1">
+  <advance width="1233"/>
+  <unicode hex="039A"/>
+  <note>
+	Kappa
+  </note>
+  <outline>
+    <contour>
+      <point x="340" y="0" type="line"/>
+      <point x="340" y="584" type="line"/>
+      <point x="494" y="748" type="line"/>
+      <point x="981" y="0" type="line"/>
+      <point x="1225" y="0" type="line"/>
+      <point x="627" y="883" type="line"/>
+      <point x="1208" y="1493" type="line"/>
+      <point x="971" y="1493" type="line"/>
+      <point x="340" y="829" type="line"/>
+      <point x="340" y="1493" type="line"/>
+      <point x="137" y="1493" type="line"/>
+      <point x="137" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
