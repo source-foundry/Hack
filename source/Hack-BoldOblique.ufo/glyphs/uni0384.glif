@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0384" format="1">
+  <advance width="1233"/>
+  <unicode hex="0384"/>
+  <note>
+	tonos
+  </note>
+  <outline>
+    <contour>
+      <point x="766" y="1262" type="line"/>
+      <point x="1208" y="1638" type="line"/>
+      <point x="887" y="1638" type="line"/>
+      <point x="569" y="1262" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
