@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0389" format="1">
+  <advance width="1233"/>
+  <unicode hex="0389"/>
+  <note>
+	Etatonos
+  </note>
+  <outline>
+    <contour>
+      <point x="432" y="0" type="line"/>
+      <point x="432" y="664" type="line"/>
+      <point x="801" y="664" type="line"/>
+      <point x="801" y="0" type="line"/>
+      <point x="1096" y="0" type="line"/>
+      <point x="1096" y="1493" type="line"/>
+      <point x="801" y="1493" type="line"/>
+      <point x="801" y="924" type="line"/>
+      <point x="432" y="924" type="line"/>
+      <point x="432" y="1493" type="line"/>
+      <point x="137" y="1493" type="line"/>
+      <point x="137" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-194" y="1262" type="line"/>
+      <point x="174" y="1638" type="line"/>
+      <point x="-108" y="1638" type="line"/>
+      <point x="-391" y="1262" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
