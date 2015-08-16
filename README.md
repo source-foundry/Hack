@@ -17,7 +17,7 @@ Hack has deep roots in the libre, open source typeface community and expands upo
 
 ### Data
 
-- **Reserved Font Name**: Hack
+- **Typeface Name**: Hack
 - **Category**: Monospaced
 - **Language Support**: Extended Latin, modern Greek, Cyrillic character sets
 - **Powerline Support**: Yes
