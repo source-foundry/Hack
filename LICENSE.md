@@ -4,6 +4,10 @@ Modified Version ("Hack") Copyright (c) 2015, Christopher Simpkins with Reserved
 
 Original Version Copyright (c) 2003 Bitstream Inc. and licensed under the Bitstream Vera License
 
+DejaVu modifications of the original Bitstream Vera Mono typeface have been committed to the public domain.
+
+
+
 This Font Software is licensed under a modified version of the SIL Open Font License, Version 1.1 and the Bitstream Vera License.
 
 The modifications to the SIL Open Font License permit the use of multiple font licenses for the release of modified or unmodified
