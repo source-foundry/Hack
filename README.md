@@ -1,5 +1,5 @@
 
-# Hack: a monospaced typeface designed for source code
+# Hack: a typeface designed for source code
 
 <img src="img/hack-specimen.png" alt="Hack-a monospaced sans-serif font for source code" width="728">
 
