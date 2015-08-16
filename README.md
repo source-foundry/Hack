@@ -1,6 +1,6 @@
 
 # Hack
-## A typeface designed for source code
+### A typeface designed for source code
 
 <img src="img/hack-specimen.png" alt="Hack-a monospaced sans-serif font for source code" width="728">
 <br>
@@ -19,10 +19,10 @@ Hack is an open source derivative of the fantastic Bitstream Vera Sans Mono type
 
 - **Reserved Font Name**: Hack
 - **Category**: Monospaced
-- **Full Language Support**: Basic Latin, Euro, Turkish, Western European
-- **Glyph Number**: 269
-- **Included Variants**: Regular, Bold, Regular Oblique, Bold Oblique
-- **Included Font Binaries**: `.eot`, `.otf`, `.svg`, `.ttf`, `.woff`, `.woff2`
+- **Language Support**: Extended Latin, modern Greek, Cyrillic character sets
+- **Powerline Support**: Yes
+- **Glyph Number**: 1534
+- **Included Styles**: Regular, Bold, Oblique, Bold Oblique
 
 
 ### Specimen
