@@ -43,11 +43,13 @@ Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master
 
 ### Usage
 
-#### Recommended Binaries by Platform
+#### Recommended Binaries for OS X Users
 
-The .ttf files are recommended for Windows and Linux users.
+The .otf or .ttf files may be used on OS X platforms.
 
-OS X users can install either the .otf or .ttf files.
+#### Recommended Binaries for Linux and Windows Users
+
+The .ttf files are recommended for Linux and Windows users.
 
 
 ### Build Binaries
