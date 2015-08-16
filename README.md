@@ -13,7 +13,7 @@
 
 ### About
 
-No frills. No gimmicks.  Hack is hand groomed and optically balanced to be a workhorse code face.
+No frills. No gimmicks.  Hack is hand groomed and optically balanced to be a workhorse face for code.
 
 It has deep roots in the libre, open source typeface community and expands upon the contributions of the Bitstream Vera &amp; DejaVu projects.  The face has been re-designed with a larger glyph set, modifications of the original glyph shapes (including distinct point styles and semi-bold punctuation weight in the regular set to make analphabetic characters less transparent), and meticulous attention to metrics (including numerous spacing adjustments to improve the rhythm of the face and the legibility of code at small text sizes).  The large x-height + wide aperture + low contrast design combined with Type 1 hinting/hint replacement programs and a TrueType instruction set make it highly legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 12px range on modern desktop and laptop monitors.  Combine it with an HD monitor and you can comfortably work at 6 or 7px sizes.
 
@@ -23,7 +23,7 @@ The font binaries are released under a license that permits unlimited print, des
 
 - **Typeface Name**: Hack
 - **Category**: Monospaced
-- **Language Support**: Extended Latin, modern Greek, Cyrillic character sets
+- **Character Set Support**: Extended Latin, modern Greek, Cyrillic, Vietnamese, pan-African, Georgian, Armenian
 - **Powerline Support**: Yes
 - **Glyph Number**: 1534
 - **Included Styles**: Regular, Bold, Oblique, Bold Oblique
@@ -39,6 +39,18 @@ Click the image for the full type specimen.
 ### Changes
 
 Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
+
+
+### Download and Install for Desktop Use
+
+#### Desktop Use
+
+The .ttf files are recommended for Windows and Linux users.  OS X users can install the .ttf or .otf files.
+
+
+### Web Font Use
+
+DESCRIPTION
 
 
 ### Build Binaries

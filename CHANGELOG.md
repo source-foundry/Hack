@@ -1,4 +1,4 @@
-# Version 2.0
+# Version 2.009
 
 ### New Glyphs
 
@@ -9,7 +9,6 @@
 - New glyphs for Pan African Latin character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Cyrillic (ISO-8859-5) character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Greek (ISO-8859-7) character set (shapes from DejaVu Sans Mono typeface)
-- New glyphs for Arabic (ISO-8859-6) character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Armenian character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
 - New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
@@ -28,6 +27,7 @@
 - New **iogonek**
 - New **itilde**
 - New **uppercase upsilon**
+- New **uppercase upsilon tonos**
 - New uni0069
 - New uni0457
 - New uni0458
@@ -39,7 +39,7 @@
 
 - Modified **uppercase Q** - added flared tail and modified tail angle
 - Modified **uppercase F** - central arm lowered to fill open gap at the base
-- Modified **lowercase a** - added curved tail
+- Modified **lowercase a** - added curved tail/spur
 - Modified **lowercase b** - decreased width of terminal, opened angle
 - Modified **lowercase d** - decreased width of terminal, opened angle
 - Modified **lowercase g** - decreased width of terminal, opened angle
