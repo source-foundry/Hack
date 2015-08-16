@@ -1,9 +1,14 @@
 
-## Hack: a typeface designed for source code
+# Hack
+## A typeface designed for source code
 
 <img src="img/hack-specimen.png" alt="Hack-a monospaced sans-serif font for source code" width="728">
 <br>
 <img src="img/c-mockup.png" alt="C source code example" width="728">
+<br>
+<img src="img/python-mockup.png" alt="Python source code example" width="728">
+<br>
+<img src="img/js-mockup.png" alt="JavaScript source code example" width="728">
 
 
 ### About
