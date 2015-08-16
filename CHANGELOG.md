@@ -282,6 +282,7 @@
 
 ### Metrics Changes
 
+- Changed line gap / typo line gap to 275 units
 - Modified **uppercase P** - increased right sidebearing to equal sidebearing of uppercase O glyph
 - Modified **uppercase Z** - changed to right = left sidebearing (shifts orientation to left) for regular, bold, oblique sets
 - Modified **uppercase Z** - reduced left sidebearing for bold oblique set, not necessary to make this equal as with above sets

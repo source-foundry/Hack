@@ -38,19 +38,16 @@ Click the image for the full type specimen.
 
 ### Changes
 
-Font changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
+Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
 
 
-### Download and Install for Desktop Use
+### Usage
 
-#### Desktop Use
+#### Recommended Binaries by Platform
 
-The .ttf files are recommended for Windows and Linux users.  OS X users can install the .ttf or .otf files.
+The .ttf files are recommended for Windows and Linux users.
 
-
-### Web Font Use
-
-DESCRIPTION
+OS X users can install either the .otf or .ttf files.
 
 
 ### Build Binaries
