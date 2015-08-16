@@ -13,7 +13,7 @@
 
 ### About
 
-Hack has deep roots in the libre, open source typeface community and expands upon the contributions of the Bitstream Vera &amp; DejaVu projects.  The face has been re-designed with an expanded glyph set, modifications of the original glyph shapes, and meticulous attention to metrics.
+Hack has deep roots in the libre, open source typeface community and expands upon the contributions of the Bitstream Vera &amp; DejaVu projects.  The face has been re-designed with a larger glyph set, modifications of the original glyph shapes, and meticulous attention to metrics.
 
 ### Data
 
