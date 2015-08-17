@@ -92,6 +92,11 @@
 	font: 11px/12px "Courier New", Courier, mono;
 }
 
+.dark-code{
+    background-color: #2B303B !important;
+    color: #FFF !important;
+}
+
 .size6{ font-size: 6px;}
 .size7{ font-size: 7px;}
 .size8{ font-size: 8px;}
