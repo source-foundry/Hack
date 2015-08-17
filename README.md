@@ -31,7 +31,7 @@ The font binaries are released under a license that permits unlimited print, des
 
 ### Specimen
 
-<a href="http://chrissimpkins.github.io/Hack/font-specimen.html"><img src="img/specimen-1_002.png" alt="Hack font specimen" width="728"></a>
+<a href="http://chrissimpkins.github.io/Hack/font-specimen.html"><img src="img/hack-waterfall.png" alt="Hack font specimen" width="728"></a>
 
 Click the image for the full type specimen.
 
