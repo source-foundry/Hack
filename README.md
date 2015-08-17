@@ -74,13 +74,13 @@ The web fonts are available in subdirectories of the build directory.
 
 #### Desktop Fonts
 
-##### TrueType
+##### TTF Builds
 - `build/ttf/Hack-Regular.ttf`
 - `build/ttf/Hack-Bold.ttf`
 - `build/ttf/Hack-Oblique.ttf`
 - `build/ttf/Hack-BoldOblique.ttf`
 
-##### OpenType
+##### OTF Builds
 - `build/otf/Hack-Regular.otf`
 - `build/otf/Hack-Bold.otf`
 - `build/otf/Hack-Oblique.otf`
