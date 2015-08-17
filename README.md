@@ -93,7 +93,6 @@ The web fonts are available in subdirectories of the build directory.
 - `build/eot/hack-bold-webfont.eot`
 - `build/eot/hack-regularoblique-webfont.eot`
 - `build/eot/hack-boldoblique-webfont.eot`
-
 - `build/eot/latin/hack-regular-latin-webfont.eot`
 - `build/eot/latin/hack-bold-latin-webfont.eot`
 - `build/eot/latin/hack-regularoblique-latin-webfont.eot`
@@ -104,7 +103,6 @@ The web fonts are available in subdirectories of the build directory.
 - `build/svg/hack-bold-webfont.svg`
 - `build/svg/hack-regularoblique-webfont.svg`
 - `build/svg/hack-boldoblique-webfont.svg`
-
 - `build/svg/latin/hack-regular-latin-webfont.svg`
 - `build/svg/latin/hack-bold-latin-webfont.svg`
 - `build/svg/latin/hack-regularoblique-latin-webfont.svg`
@@ -115,7 +113,6 @@ The web fonts are available in subdirectories of the build directory.
 - `build/web-ttf/hack-bold-webfont.ttf`
 - `build/web-ttf/hack-regularoblique-webfont.ttf`
 - `build/web-ttf/hack-boldoblique-webfont.ttf`
-
 - `build/web-ttf/latin/hack-regular-latin-webfont.ttf`
 - `build/web-ttf/latin/hack-bold-latin-webfont.ttf`
 - `build/web-ttf/latin/hack-regularoblique-latin-webfont.ttf`
@@ -126,7 +123,6 @@ The web fonts are available in subdirectories of the build directory.
 - `build/woff/hack-bold-webfont.woff`
 - `build/woff/hack-regularoblique-webfont.woff`
 - `build/woff/hack-boldoblique-webfont.woff`
-
 - `build/woff/latin/hack-regular-latin-webfont.woff`
 - `build/woff/latin/hack-bold-latin-webfont.woff`
 - `build/woff/latin/hack-regularoblique-latin-webfont.woff`
@@ -137,7 +133,6 @@ The web fonts are available in subdirectories of the build directory.
 - `build/woff2/hack-bold-webfont.woff2`
 - `build/woff2/hack-regularoblique-webfont.woff2`
 - `build/woff2/hack-boldoblique-webfont.woff2`
-
 - `build/woff2/latin/hack-regular-latin-webfont.woff2`
 - `build/woff2/latin/hack-bold-latin-webfont.woff2`
 - `build/woff2/latin/hack-regularoblique-latin-webfont.woff2`
