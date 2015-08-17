@@ -41,15 +41,33 @@ Click the image for the full type specimen.
 Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
 
 
-### Usage
+### Desktop Usage
 
 #### Recommended Binaries for OS X Users
 
 The .otf or .ttf files may be used on OS X platforms.
 
+- [Download .otf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/otf)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/ttf)
+
 #### Recommended Binaries for Linux and Windows Users
 
 The .ttf files are recommended for Linux and Windows users.
+
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/ttf)
+
+
+### Webfont Usage
+
+Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set builds and smaller (filesize) basic Latin character set builds for those who do not need expanded character sets and would like to limit filesize.
+
+The web fonts are available in subdirectories of the repository build directory.
+
+- [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
+- [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/web-ttf) - note that these differ from the desktop versions and are intended for web use
+- [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff)
+- [Download .woff2 fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff2)
 
 
 ### Build Binaries
@@ -76,11 +94,32 @@ The .ttf files are recommended for Linux and Windows users.
 - `build/eot/hack-regularoblique-webfont.eot`
 - `build/eot/hack-boldoblique-webfont.eot`
 
+- `build/eot/latin/hack-regular-latin-webfont.eot`
+- `build/eot/latin/hack-bold-latin-webfont.eot`
+- `build/eot/latin/hack-regularoblique-latin-webfont.eot`
+- `build/eot/latin/hack-boldoblique-latin-webfont.eot`
+
 ##### SVG
 - `build/svg/hack-regular-webfont.svg`
 - `build/svg/hack-bold-webfont.svg`
 - `build/svg/hack-regularoblique-webfont.svg`
 - `build/svg/hack-boldoblique-webfont.svg`
+
+- `build/svg/latin/hack-regular-latin-webfont.svg`
+- `build/svg/latin/hack-bold-latin-webfont.svg`
+- `build/svg/latin/hack-regularoblique-latin-webfont.svg`
+- `build/svg/latin/hack-boldoblique-latin-webfont.svg`
+
+##### Web TTF
+- `build/web-ttf/hack-regular-webfont.ttf`
+- `build/web-ttf/hack-bold-webfont.ttf`
+- `build/web-ttf/hack-regularoblique-webfont.ttf`
+- `build/web-ttf/hack-boldoblique-webfont.ttf`
+
+- `build/web-ttf/latin/hack-regular-latin-webfont.ttf`
+- `build/web-ttf/latin/hack-bold-latin-webfont.ttf`
+- `build/web-ttf/latin/hack-regularoblique-latin-webfont.ttf`
+- `build/web-ttf/latin/hack-boldoblique-latin-webfont.ttf`
 
 ##### WOFF
 - `build/woff/hack-regular-webfont.woff`
@@ -88,11 +127,21 @@ The .ttf files are recommended for Linux and Windows users.
 - `build/woff/hack-regularoblique-webfont.woff`
 - `build/woff/hack-boldoblique-webfont.woff`
 
+- `build/woff/latin/hack-regular-latin-webfont.woff`
+- `build/woff/latin/hack-bold-latin-webfont.woff`
+- `build/woff/latin/hack-regularoblique-latin-webfont.woff`
+- `build/woff/latin/hack-boldoblique-latin-webfont.woff`
+
 ##### WOFF2
 - `build/woff2/hack-regular-webfont.woff2`
 - `build/woff2/hack-bold-webfont.woff2`
 - `build/woff2/hack-regularoblique-webfont.woff2`
 - `build/woff2/hack-boldoblique-webfont.woff2`
+
+- `build/woff2/latin/hack-regular-latin-webfont.woff2`
+- `build/woff2/latin/hack-bold-latin-webfont.woff2`
+- `build/woff2/latin/hack-regularoblique-latin-webfont.woff2`
+- `build/woff2/latin/hack-boldoblique-latin-webfont.woff2`
 
 
 ### License
