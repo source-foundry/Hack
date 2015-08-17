@@ -239,7 +239,7 @@
 - Modified **uni04D1** - decreased width of lower terminal to create angle
 - Modified **uni04D3** - decreased width of lower terminal to create angle
 - Modified **uni051B** - decreased width of upper terminal to create angle
-- Numberous metrics changes to better align the Cyrillic glyphs in a fixed width format
+- Numerous metrics changes to better align the Cyrillic glyphs in a fixed width format
 
 ##### Armenian Character Set
 
