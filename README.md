@@ -47,14 +47,14 @@ Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master
 
 The .otf or .ttf files may be used on OS X platforms.
 
-- [Download .otf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/otf)
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/ttf)
+- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-otf.zip)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-ttf.zip)
 
 #### Recommended Binaries for Linux and Windows Users
 
 The .ttf files are recommended for Linux and Windows users.
 
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/ttf)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-ttf.zip)
 
 
 ### Webfont Usage
@@ -65,6 +65,7 @@ You can view the rendering of the web fonts at a range of sizes on the [Hack typ
 
 The web fonts are available in subdirectories of the build directory.
 
+- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-webfonts.zip)
 - [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
 - [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
 - [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
