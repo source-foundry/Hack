@@ -63,9 +63,12 @@ Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They inc
 
 You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
-The web fonts are available in subdirectories of the build directory.
+You can directly download the entire web font archive at this link:
 
 - [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-webfonts.zip)
+
+Or you can select the fonts that you need in subdirectories of the build directory:
+
 - [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
 - [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
 - [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
