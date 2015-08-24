@@ -59,7 +59,7 @@ The .ttf files are recommended for Linux and Windows users.
 
 ### Webfont Usage
 
-Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set builds and smaller basic Latin character set builds for those who do not need the expanded character sets and want smaller file sizes.
+Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set and smaller basic Latin character set builds (smaller file size = faster site if you do not need the entire character set).
 
 You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
@@ -67,7 +67,7 @@ You can view the rendering of the web fonts at a range of sizes on the [Hack typ
 
 Thanks to the generous support of the fine folks at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a single line of code.  There is no need to download font files from the repository or serve them from your web server.
 
-Include **one** of the following lines in the `<head>` section of your site:
+Include **one** of the following lines in the `<head>` section of your site's HTML:
 
 ##### Smaller Basic Latin Character Set
 
