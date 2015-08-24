@@ -59,13 +59,13 @@ The .ttf files are recommended for Linux and Windows users.
 
 ### Webfont Usage
 
-Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set and smaller basic Latin character set builds (smaller file size = faster site if you do not need the entire character set).
+Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set and smaller basic Latin character set builds (smaller file size = shorter load times if you do not need the entire character set).
 
 You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
 #### Hack by CDN
 
-Thanks to the generous support of the fine folks at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a single line of code.  There is no need to download font files from the repository or serve them from your web server.
+Thanks to the generous crew at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a simple, single line of code.  There is no need to download font files from the repository or serve them from your web server.
 
 Include **one** of the following lines in the `<head>` section of your site's HTML:
 
@@ -94,11 +94,11 @@ The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatte
 
 #### Host Hack Font Files on Your Server
 
-You can directly download the entire web font archive at this link:
+Download the entire web font archive at this link:
 
 - [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-webfonts.zip)
 
-Or you can select the fonts that you need in subdirectories of the build directory:
+Or select the fonts that you need in subdirectories of the build directory:
 
 - [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
 - [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
