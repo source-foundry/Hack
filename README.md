@@ -69,7 +69,7 @@ Thanks to the generous support of the fine folks at [jsDelivr](https://github.co
 
 Include **one** of the following lines in the `<head>` section of your site's HTML:
 
-##### Smaller Basic Latin Character Set
+##### Basic Latin Character Set
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack.min.css">
