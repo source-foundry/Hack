@@ -59,9 +59,40 @@ The .ttf files are recommended for Linux and Windows users.
 
 ### Webfont Usage
 
-Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set builds and smaller basic Latin character set builds for those who do not need the expanded character sets and would like to limit the filesizes of their font binaries.
+Hack web fonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set builds and smaller basic Latin character set builds for those who do not need the expanded character sets and want smaller file sizes.
 
 You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
+
+#### Hack by CDN
+
+Thanks to the generous support of the fine folks at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a single line of code.  There is no need to download font files from the repository or serve them from your web server.
+
+Include **one** of the following lines in the `<head>` section of your site:
+
+##### Smaller Basic Latin Character Set
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack.min.css">
+```
+
+##### Full Character Set
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css">
+```
+
+Then style your text by including `Hack` in the appropriate `font-family` property of your CSS.  For example:
+
+```css
+code {
+	font-family: Hack, monospace;
+}
+```
+
+The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
+
+
+#### Host Hack Font Files on Your Server
 
 You can directly download the entire web font archive at this link:
 
