@@ -10,6 +10,20 @@
 <br>
 <a href="https://sourcefoundry.org/hack/"><img src="img/js-mockup.png" alt="JavaScript source code example" width="728"></a>
 
+## Contents
+
+- [About](https://github.com/chrissimpkins/Hack#about)
+- [Typeface Data](https://github.com/chrissimpkins/Hack#data)
+- [Type Specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
+- [Desktop Usage](https://github.com/chrissimpkins/Hack#desktop-usage)
+- [Web Font Usage](https://github.com/chrissimpkins/Hack#webfont-usage)
+	- [Hack by CDN](https://github.com/chrissimpkins/Hack#hack-by-cdn)
+	- [Self-Hosted Font Files](https://github.com/chrissimpkins/Hack#host-hack-font-files-on-your-server)
+- [Build Binary List](https://github.com/chrissimpkins/Hack#build-binaries)
+- [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md)
+- [Contributors](https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
+- [License](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+
 
 ### About
 
@@ -34,11 +48,6 @@ The font binaries are released under a license that permits unlimited print, des
 <a href="http://chrissimpkins.github.io/Hack/font-specimen.html"><img src="img/hack-waterfall.png" alt="Hack font specimen" width="728"></a>
 
 Click the image for the full type specimen.
-
-
-### Changes
-
-Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
 
 
 ### Desktop Usage
@@ -174,6 +183,11 @@ Or select the fonts that you need in subdirectories of the build directory:
 - `build/woff2/latin/hack-bold-latin-webfont.woff2`
 - `build/woff2/latin/hack-regularoblique-latin-webfont.woff2`
 - `build/woff2/latin/hack-boldoblique-latin-webfont.woff2`
+
+
+### Changes
+
+Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md).
 
 
 ### License
