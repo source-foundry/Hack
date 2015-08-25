@@ -179,7 +179,7 @@ The web font archive download is structured like this:
             └── hack-regularoblique-latin-webfont.woff2
 ```
 
-Push the `css` and `fonts` directories to your webserver, then import **one** of the included CSS files in `head` section of the HTML where you would like to use it.
+Push the `css` and `fonts` directories to your web server, then import **one** of the included CSS files in the `head` section of the HTML where you would like to use it.
 
 Replace `path/to/` with the actual path to your css directory.
 
