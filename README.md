@@ -115,6 +115,83 @@ Or select the fonts that you need in subdirectories of the build directory:
 - [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff)
 - [Download .woff2 fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff2)
 
+The web font archive download is structured like this:
+
+```
+.
+├── css
+│   ├── hack-extended.css
+│   ├── hack-extended.min.css
+│   ├── hack.css
+│   └── hack.min.css
+└── fonts
+    ├── eot
+    │   ├── hack-bold-webfont.eot
+    │   ├── hack-boldoblique-webfont.eot
+    │   ├── hack-regular-webfont.eot
+    │   ├── hack-regularoblique-webfont.eot
+    │   └── latin
+    │       ├── hack-bold-latin-webfont.eot
+    │       ├── hack-boldoblique-latin-webfont.eot
+    │       ├── hack-regular-latin-webfont.eot
+    │       └── hack-regularoblique-latin-webfont.eot
+    ├── svg
+    │   ├── hack-bold-webfont.svg
+    │   ├── hack-boldoblique-webfont.svg
+    │   ├── hack-regular-webfont.svg
+    │   ├── hack-regularoblique-webfont.svg
+    │   └── latin
+    │       ├── hack-bold-latin-webfont.svg
+    │       ├── hack-boldoblique-latin-webfont.svg
+    │       ├── hack-regular-latin-webfont.svg
+    │       └── hack-regularoblique-latin-webfont.svg
+    ├── ttf
+    │   ├── hack-bold-webfont.ttf
+    │   ├── hack-boldoblique-webfont.ttf
+    │   ├── hack-regular-webfont.ttf
+    │   ├── hack-regularoblique-webfont.ttf
+    │   └── latin
+    │       ├── hack-bold-latin-webfont.ttf
+    │       ├── hack-boldoblique-latin-webfont.ttf
+    │       ├── hack-regular-latin-webfont.ttf
+    │       └── hack-regularoblique-latin-webfont.ttf
+    ├── woff
+    │   ├── hack-bold-webfont.woff
+    │   ├── hack-boldoblique-webfont.woff
+    │   ├── hack-regular-webfont.woff
+    │   ├── hack-regularoblique-webfont.woff
+    │   └── latin
+    │       ├── hack-bold-latin-webfont.woff
+    │       ├── hack-boldoblique-latin-webfont.woff
+    │       ├── hack-regular-latin-webfont.woff
+    │       └── hack-regularoblique-latin-webfont.woff
+    └── woff2
+        ├── hack-bold-webfont.woff2
+        ├── hack-boldoblique-webfont.woff2
+        ├── hack-regular-webfont.woff2
+        ├── hack-regularoblique-webfont.woff2
+        └── latin
+            ├── hack-bold-latin-webfont.woff2
+            ├── hack-boldoblique-latin-webfont.woff2
+            ├── hack-regular-latin-webfont.woff2
+            └── hack-regularoblique-latin-webfont.woff2
+```
+
+Push the `css` and `fonts` directories to your webserver, then import **one** of the included CSS files in `head` section of the HTML where you would like to use it.
+
+Replace `path/to/` with the actual path to your css directory.
+
+##### Basic Latin Character Set
+
+<link rel="stylesheet" href="path/to/css/hack.min.css">
+
+
+##### Full Character Set
+
+<link rel="stylesheet" href="path/to/css/hack-extended.min.css">
+
+You can alter the path to the Hack files (e.g. place the files in a `hack` resource subdirectory); however, please make sure that you preserve the relative file paths included in the release archive (*or be prepared to modify the paths to the font files*).
+
 
 ### Build Binaries
 
