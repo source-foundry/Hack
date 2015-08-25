@@ -74,7 +74,7 @@ You can view the rendering of the web fonts at a range of sizes on the [Hack typ
 
 #### Hack by CDN
 
-Thanks to the generous crew at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a simple, single line of code.  There is no need to download font files from the repository or serve them from your web server.
+Thanks to the generous crew at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to add Hack to your website with a single stylesheet link in the head of your HTML files.  There is no need to download font files from the repository or serve them from your web server.
 
 Include **one** of the following lines in the `<head>` section of your site's HTML:
 
