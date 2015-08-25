@@ -61,7 +61,7 @@ The .otf or .ttf files may be used on OS X platforms.
 
 #### Recommended Binaries for Linux and Windows Users
 
-The .ttf files are recommended for Linux and Windows users.
+The .ttf files are recommended for screen use on Linux and Windows platforms.
 
 - [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.010/Hack-v2_010-ttf.zip)
 
