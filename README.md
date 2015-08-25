@@ -183,12 +183,16 @@ Replace `path/to/` with the actual path to your css directory.
 
 ##### Basic Latin Character Set
 
+```html
 <link rel="stylesheet" href="path/to/css/hack.min.css">
+```
 
 
 ##### Full Character Set
 
+```html
 <link rel="stylesheet" href="path/to/css/hack-extended.min.css">
+```
 
 You can alter the path to the Hack files (e.g. place the files in a `hack` resource subdirectory); however, please make sure that you preserve the relative file paths included in the release archive (*or be prepared to modify the paths to the font files*).
 
