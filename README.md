@@ -1,4 +1,4 @@
-
+<img src="img/webfont-notice.png" alt="Hack webfonts are now available by CDN" width="728">
 
 # Hack
 ### A typeface designed for source code
