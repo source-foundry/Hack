@@ -196,6 +196,16 @@ Replace `path/to/` with the actual path to your css directory.
 
 You can alter the path to the Hack files (e.g. place the files in a `hack` resource subdirectory); however, please make sure that you preserve the relative file paths included in the release archive (*or be prepared to modify the paths to the font files*).
 
+Then style your text by including `Hack` in the appropriate `font-family` property of your CSS.  For example:
+
+```css
+code {
+	font-family: Hack, monospace;
+}
+```
+
+The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
+
 
 ### Build Binaries
 
