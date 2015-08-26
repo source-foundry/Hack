@@ -209,6 +209,21 @@ code {
 The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
 
 
+##### Webfont Caching and gzip Compression with Cloudflare
+
+*The following information applies to both paid and free accounts*
+
+If you use [Cloudflare](https://cloudflare.com), woff files are cached by default.  To cache the remaining webfont files, add a new page rule for the path to your fonts directory:
+
+```
+yoursite.com/path/to/fonts/
+```
+
+ and set the rule to `Cache Everything`.
+
+ Cloudflare automates gzip compression of ttf, eot, woff, and svg font files.  The service does not gzip compress woff2 files.
+
+
 ### Build Binaries
 
 #### Desktop Fonts
