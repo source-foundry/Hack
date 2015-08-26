@@ -68,7 +68,7 @@ The .ttf files are recommended for screen use on Linux and Windows platforms.
 
 ### Webfont Usage
 
-Hack webfonts are released in svg, eot, ttf, woff, and woff2 formats.  They include complete character set and smaller basic Latin character set builds (smaller file size = shorter load times if you do not need the entire character set).
+Hack webfonts are released in svg, eot, ttf, woff, and woff2 formats.  They include a complete Hack character set build and a smaller [basic Latin](http://www.fileformat.info/info/unicode/block/basic_latin/utf8test.htm) + [Latin-1 supplement](http://www.fileformat.info/info/unicode/block/latin_supplement/utf8test.htm) Unicode character block build.  The latter build set is smaller in size and is intended to improve page loading times when you do not need the entire Hack character set.
 
 You can view the rendering of the webfonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
@@ -80,7 +80,7 @@ Average latency, average uptime, and total downtime data for jsDelivr vs. other 
 
 Include **one** of the following lines in the `<head>` section of your site's HTML:
 
-##### Basic Latin Character Set
+##### Basic Latin + Latin-1 Supplement Character Set
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack.min.css">
