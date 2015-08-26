@@ -183,7 +183,7 @@ Push the `css` and `fonts` directories to your web server, then import **one** o
 
 Replace `path/to/` with the actual path to your css directory.
 
-##### Basic Latin Character Set
+##### Basic Latin + Latin-1 Supplement Character Set
 
 ```html
 <link rel="stylesheet" href="path/to/css/hack.min.css">
