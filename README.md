@@ -68,7 +68,7 @@ The .ttf files are recommended for screen use on Linux and Windows platforms.
 
 ### Webfont Usage
 
-Hack webfonts are released in svg, eot, ttf, woff, and woff2 formats.  They include a complete Hack character set build and a smaller [basic Latin](http://www.fileformat.info/info/unicode/block/basic_latin/utf8test.htm) + [Latin-1 supplement](http://www.fileformat.info/info/unicode/block/latin_supplement/utf8test.htm) Unicode character block build.  The latter build set is smaller in size and is intended to improve page loading times when you do not need the entire Hack character set.
+Hack webfonts are released in svg, eot, ttf, woff, and woff2 formats.  They include a complete Hack character set build and a smaller [basic Latin](http://www.unicode.org/charts/PDF/U0000.pdf) + [Latin-1 supplement](http://www.unicode.org/charts/PDF/U0080.pdf) Unicode character block build.  The latter build set is smaller in size and is intended to improve page loading times when you do not need the entire Hack character set.
 
 You can view the rendering of the webfonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
