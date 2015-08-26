@@ -11,7 +11,7 @@ Turn your firewall on, then attempt to install the font again.
 
 ### Appearance Issues
 
-###### The oblique style does not look correct in my JetBrains text editor (IntelliJ IDEA, WebStorm, PyCharm, etc) on OS X.  What is going on?
+##### The oblique style does not look correct in my JetBrains text editor (IntelliJ IDEA, WebStorm, PyCharm, etc) on OS X.  What is going on?
 
 Reported in https://github.com/chrissimpkins/Hack/issues/26
 
