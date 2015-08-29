@@ -325,6 +325,10 @@
 - Modified **right parenthesis** - increased left sidebearing
 - Adjusted spacing on all diacritic marks in the regular, bold, oblique, and bold oblique set
 
+### True Type Instructions / PostScript Hinting
+
+- New TrueType instructions / PostScript hinting across the entire glyph set
+
 ### Removed
 
 - Removed **fi** and **fl** ligatures. Spacing issues that require these ligatures are not present in this monospaced typeface
