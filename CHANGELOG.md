@@ -11,7 +11,7 @@
 - New glyphs for Greek (ISO-8859-7) character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Armenian character set (shapes from DejaVu Sans Mono typeface)
 - New glyphs for Georgian character set (shapes from DejaVu Sans Mono typeface)
-- New punctuation glyphs (shapes from DejaVu Sans Mono typeface)
+- New punctuation glyphs
 - New Powerline glyphs
 - New number glyphs
 - New scientific inferior numerals
