@@ -1,3 +1,8 @@
+# Version 2.011 (Development Branch)
+
+- fixed missing middle dot glyph (U+00B7), too wide U+00B7 em box bug that caused spacing issues in editors that highlight empty spaces (Issues 27 & 46)
+
+
 # Version 2.010
 
 ### New Glyphs
