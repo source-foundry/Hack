@@ -112,7 +112,6 @@ Download the entire web font archive at this link:
 
 Or select the fonts that you need in subdirectories of the build directory:
 
-- [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
 - [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
 - [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
 - [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff)
