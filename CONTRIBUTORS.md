@@ -1,12 +1,53 @@
-## Contributors
+# Contributors
 
-### Hack
+## Hack
 
 - Christopher Simpkins
-- Nikos Tzanos
-- Jason Evans
 
-### DejaVu
+### Hinting and Instruction Sets
+- Werner Lemberg
+
+### Powerline Glyphs
+- Carlo Abelli
+- Justin Anderson
+- Matthias Bilger
+- Alpha Chen
+- Benjamin Chrétien
+- Marvin Frommhold
+- Tim Heckman
+- Serkan Hosca
+- Jon Linklater-Johnson
+- Robin McCorkell
+- Daniele Tricoli
+
+### Language Set Suggestions, Design, and Proofing
+- Nikos Tzanos - Greek set
+
+### Testing
+- Jameel Al-Aziz
+- Jason Evans
+- Thilo Frommeyer
+- Trevor Hayes
+- Jorg Heymans
+- Ken J.
+- Jacek Jędrzejewski
+- Markus Jevring
+- Pete Johanson
+- Serg Koles
+- Zach Langbert
+- Dave Merrill
+- Adam Quaile
+- Marek Šesták
+- Rogier Spieker
+- Günther Stadler
+- Christopher J. Stehno
+- James Taylor
+- Gustaf Zetterlund
+- 张标 (@angrilove)
+- @iamklutch
+- @Paul-v-H
+
+## DejaVu
 
 - Štěpán Roh
 - Sander Vesik
@@ -27,6 +68,6 @@
 - John Karp
 - Lars Christensen
 
-### Bitstream Vera
+## Bitstream Vera
 
 - Jim Lyles
