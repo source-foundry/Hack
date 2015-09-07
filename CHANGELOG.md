@@ -5,10 +5,12 @@
 	- incorrect oblique rendering with Java type renderers on OS X (Issue #26)
 	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
 	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
-- Changed license name from "Modified SIL Open Font License" to "Hack Open Font License", removed all references to SIL, and removed the SIL OFL preamble in order to comply with SIL regulations for modifications of the SIL Open Font License
-- Removed the following statement from Hack Open Font License condition #3: "This restriction only applies to the primary font name as presented to the users." to address a conflict with the Bitstream Vera license
+- Changed license name from "Modified SIL Open Font License" to "Hack Open Font License" to comply with SIL regulations for SIL Open Font License modifications
+- Removed all references to SIL to comply with SIL regulations for modifications of the SIL Open Font License
+- Removed SIL Open Font License preamble from the Hack Open Font License to comply with SIL regulations for modifications of the SIL Open Font License
+- Removed the following statement from Hack Open Font License condition #3: "This restriction only applies to the primary font name as presented to the users." to address a reserved font name conflict with the Bitstream Vera license
 
-# Version 2.012 (development build)
+# Version 2.012 (development build - ttf only)
 
 - Powerline glyph alignment and size adjustments (Issue #33)
 - Fixed name tables to address:
@@ -16,7 +18,7 @@
 	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
 	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
 
-# Version 2.011 (development build)
+# Version 2.011 (development build - ttf only)
 
 - fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues 27 & 46)
 
