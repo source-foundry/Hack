@@ -4,7 +4,7 @@
 
 - Christopher Simpkins
 
-### Hinting and Instruction Sets
+### Hinting / Instruction Sets
 - Werner Lemberg
 
 ### Powerline Glyphs
