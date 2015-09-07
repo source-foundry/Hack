@@ -1,6 +1,24 @@
-# Version 2.011 (development Branch)
+# Version 2.013 (release build)
+- Fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues 27 & 46)
+- Powerline glyph alignment and size adjustments (Issue #33)
+- Fixed name tables to address:
+	- incorrect oblique rendering with Java type renderers on OS X (Issue #26)
+	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
+	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
+- Changed license name from "Modified SIL Open Font License" to "Hack Open Font License", removed all references to SIL, and removed the SIL OFL preamble in order to comply with SIL regulations for modifications of the SIL Open Font License
+- Removed the following statement from Hack Open Font License condition #3: "This restriction only applies to the primary font name as presented to the users." to address a conflict with the Bitstream Vera license
 
-- fixed missing middle dot glyph (U+00B7), too wide U+00B7 em box bug that caused spacing issues in editors that highlight empty spaces (Issues 27 & 46)
+# Version 2.012 (development build)
+
+- Powerline glyph alignment and size adjustments (Issue #33)
+- Fixed name tables to address:
+	- incorrect oblique rendering with Java type renderers on OS X (Issue #26)
+	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
+	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
+
+# Version 2.011 (development build)
+
+- fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues 27 & 46)
 
 
 # Version 2.010
