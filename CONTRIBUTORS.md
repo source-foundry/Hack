@@ -21,7 +21,12 @@
 - Daniele Tricoli
 
 ### Language Set Suggestions, Design, and Proofing
+- Perry E. Metzger - Greek set
+- Timothée Poisot - Greek set
+- Roman Sotnikov - Cyrillic set
+- Ivan Starkov - Cyrillic set
 - Nikos Tzanos - Greek set
+- Alexei Volkov - Cyrillic set
 
 ### Testing
 - Jameel Al-Aziz
