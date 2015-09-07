@@ -1,0 +1,38 @@
+/*!
+ *  Hack v2.013 - https://sourcefoundry.org/hack/
+ *  Licenses - Fonts: Hack Open Font License + Bitstream Vera license, CSS: MIT License
+ */
+/* FONT PATHS
+ * -------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/hack-regular-webfont.eot?v=2.013');
+  src: url('../fonts/eot/hack-regular-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/hack-regular-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/hack-regular-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/hack-regular-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/hack-regular-webfont.svg?v=2.013#hackregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/hack-bold-webfont.eot?v=2.013');
+  src: url('../fonts/eot/hack-bold-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/hack-bold-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/hack-bold-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/hack-bold-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/hack-bold-webfont.svg?v=2.013#hackbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/hack-italic-webfont.eot?v=2.013');
+  src: url('../fonts/eot/hack-italic-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/hack-italic-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/hack-italic-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/hack-italic-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/hack-italic-webfont.svg?v=2.013#hackitalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/hack-bolditalic-webfont.eot?v=2.013');
+  src: url('../fonts/eot/hack-bolditalic-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/hack-bolditalic-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/hack-bolditalic-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/hack-bolditalic-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/hack-bolditalic-webfont.svg?v=2.010#hackbolditalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+

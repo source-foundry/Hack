@@ -1,0 +1,37 @@
+/*!
+ *  Hack v2.013 - https://sourcefoundry.org/hack/
+ *  Licenses - Fonts: Hack Open Font License + Bitstream Vera license, CSS: MIT License
+ */
+/* FONT PATHS
+ * -------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/latin/hack-regular-latin-webfont.eot?v=2.013');
+  src: url('../fonts/eot/latin/hack-regular-latin-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/latin/hack-regular-latin-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/latin/hack-regular-latin-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/latin/hack-regular-latin-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/latin/hack-regular-latin-webfont.svg?v=2.013#hackregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/latin/hack-bold-latin-webfont.eot?v=2.013');
+  src: url('../fonts/eot/latin/hack-bold-latin-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/latin/hack-bold-latin-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/latin/hack-bold-latin-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/latin/hack-bold-latin-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/latin/hack-bold-latin-webfont.svg?v=2.013#hackbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/latin/hack-italic-latin-webfont.eot?v=2.013');
+  src: url('../fonts/eot/latin/hack-italic-latin-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/latin/hack-italic-latin-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/latin/hack-italic-latin-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/latin/hack-italic-latin-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/latin/hack-italic-latin-webfont.svg?v=2.013#hackitalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/eot/latin/hack-bolditalic-latin-webfont.eot?v=2.013');
+  src: url('../fonts/eot/latin/hack-bolditalic-latin-webfont.eot?#iefix&v=2.013') format('embedded-opentype'), url('../fonts/woff2/latin/hack-bolditalic-latin-webfont.woff2?v=2.013') format('woff2'), url('../fonts/woff/latin/hack-bolditalic-latin-webfont.woff?v=2.013') format('woff'), url('../fonts/ttf/latin/hack-bolditalic-latin-webfont.ttf?v=2.013') format('truetype'), url('../fonts/svg/latin/hack-bolditalic-latin-webfont.svg?v=2.013#hackbolditalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
