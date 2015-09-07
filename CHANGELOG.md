@@ -1,7 +1,7 @@
 # Version 2.013 (release build)
 
 - ttf, otf, webfont builds
-- Fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues 27 & 46)
+- Fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues #27 & 46)
 - Powerline glyph alignment and size adjustments (Issue #33)
 - Fixed name tables to address:
 	- incorrect oblique rendering with Java type renderers on OS X (Issue #26)
