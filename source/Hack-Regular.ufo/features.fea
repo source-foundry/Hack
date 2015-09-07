@@ -2,33 +2,53 @@
 # automatic
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-languagesystem latn ROM;
 languagesystem latn MOL;
-
-feature aalt {
-# automatic
-feature locl;
-feature subs;
-feature sinf;
-feature sups;
-feature frac;
-feature ordn;
-feature case;
-} aalt;
+languagesystem latn ROM;
 
 feature locl {
-# automatic
 script latn;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
+language MOL ;
+sub Scedilla by uni0218;
+sub scedilla by uni0219;
+language ROM ;
+sub Scedilla by uni0218;
+sub scedilla by uni0219;
 } locl;
 
 feature subs {
-# automatic
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+script latn;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language MOL ;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language ROM ;
 sub zero by zero.subs;
 sub one by one.subs;
 sub two by two.subs;
@@ -42,7 +62,39 @@ sub nine by nine.subs;
 } subs;
 
 feature sinf {
-# automatic
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+script latn;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language MOL ;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language ROM ;
 sub zero by zero.subs;
 sub one by one.subs;
 sub two by two.subs;
@@ -56,48 +108,157 @@ sub nine by nine.subs;
 } sinf;
 
 feature sups {
-# automatic
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub zero by zerosuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
+sub zero by onesuperior;
+sub one by twosuperior;
+sub two by threesuperior;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+script latn;
+sub zero by onesuperior;
+sub one by twosuperior;
+sub two by threesuperior;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+language MOL ;
+sub zero by onesuperior;
+sub one by twosuperior;
+sub two by threesuperior;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+language ROM ;
+sub zero by onesuperior;
+sub one by twosuperior;
+sub two by threesuperior;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
 } sups;
 
 feature frac {
-# automatic
-sub one slash eight by oneeighth;
-sub one slash four by onequarter;
-sub three slash eight by threeeighths;
 sub one slash two by onehalf;
-sub five slash eight by fiveeighths;
-sub three slash four by threequarters;
-sub seven slash eight by seveneighths;
 sub one slash three by onethird;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
 sub two slash three by twothirds;
-sub one slash five by onefifth;
-sub two slash five by twofifths;
-sub three slash five by threefifths;
-sub four slash five by fourfifths;
-sub one slash six by onesixth;
-sub five slash six by fivesixths;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+script latn;
+sub one slash two by onehalf;
+sub one slash three by onethird;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by twothirds;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+language MOL ;
+sub one slash two by onehalf;
+sub one slash three by onethird;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by twothirds;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+language ROM ;
+sub one slash two by onehalf;
+sub one slash three by onethird;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by twothirds;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
 } frac;
 
 feature ordn {
-# automatic
-sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+script latn;
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+language MOL ;
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+language ROM ;
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
 } ordn;
 
 feature case {
-# automatic
 sub exclamdown by exclamdown.case;
-sub uni2E18 by uni2E18.case;
 sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+script latn;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+language MOL ;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+language ROM ;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
 } case;
+
+feature aalt {
+# automatic
+feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature case;
+} aalt;
 

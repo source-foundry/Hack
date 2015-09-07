@@ -7,6 +7,7 @@
   </note>
   <outline>
     <contour>
+      <point x="525" y="-426" type="line"/>
       <point x="709" y="-426" type="line"/>
       <point x="709" y="-29" type="line"/>
       <point x="1002" y="0"/>
@@ -24,24 +25,23 @@
       <point x="104" y="159"/>
       <point x="232" y="0"/>
       <point x="525" y="-29" type="curve"/>
-      <point x="525" y="-426" type="line"/>
     </contour>
     <contour>
-      <point x="365" y="160"/>
+      <point x="525" y="127" type="line"/>
+      <point x="365" y="159"/>
       <point x="299" y="232"/>
       <point x="299" y="559" type="curve" smooth="yes"/>
-      <point x="299" y="886"/>
-      <point x="365" y="949"/>
+      <point x="299" y="885"/>
+      <point x="365" y="950"/>
       <point x="525" y="982" type="curve"/>
-      <point x="525" y="127" type="line"/>
     </contour>
     <contour>
       <point x="709" y="982" type="line"/>
-      <point x="869" y="949"/>
-      <point x="935" y="886"/>
+      <point x="869" y="950"/>
+      <point x="935" y="885"/>
       <point x="935" y="559" type="curve" smooth="yes"/>
       <point x="935" y="232"/>
-      <point x="869" y="160"/>
+      <point x="869" y="159"/>
       <point x="709" y="127" type="curve"/>
     </contour>
   </outline>
