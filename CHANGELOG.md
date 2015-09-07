@@ -7,10 +7,15 @@
 	- incorrect oblique rendering with Java type renderers on OS X (Issue #26)
 	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
 	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
+- Changed oblique and bold oblique font names to "Hack Italic" and "Hack Bold Italic" to address Windows listings
+- Changed oblique and bold oblique webfont names to "hack-italic-webfont.[xxx]" and "hack-bolditalic-webfont.[xxx]"
+- Changed oblique and bold oblique basic Latin + Latin-1 webfont subsets to the names "hack-italic-latin-webfont.[xxx]" and "hack-bolditalic-latin-webfont.[xxx]"
 - Changed license name from "Modified SIL Open Font License" to "Hack Open Font License" to comply with SIL regulations for SIL Open Font License modifications
 - Removed all license references to SIL to comply with SIL regulations for modifications of the SIL Open Font License
 - Removed SIL Open Font License preamble from the Hack Open Font License to comply with SIL regulations for modifications of the SIL Open Font License
 - Removed the following statement from Hack Open Font License condition #3: "This restriction only applies to the primary font name as presented to the users." to address a reserved font name conflict with the Bitstream Vera license
+- Modified the build directory structure for the Hack web fonts
+- Added Hack webfont CSS files to the build directory
 
 # Version 2.012 (development build)
 
