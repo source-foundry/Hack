@@ -112,11 +112,11 @@ Download the entire web font archive at this link:
 
 Or select the fonts that you need in subdirectories of the build directory:
 
-- [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/svg)
-- [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/eot)
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
-- [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff)
-- [Download .woff2 fonts](https://github.com/chrissimpkins/Hack/tree/master/build/woff2)
+- [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/svg)
+- [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/eot)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
+- [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/woff)
+- [Download .woff2 fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/woff2)
 
 The web font archive download is structured like this:
 
@@ -130,54 +130,54 @@ The web font archive download is structured like this:
 └── fonts
     ├── eot
     │   ├── hack-bold-webfont.eot
-    │   ├── hack-boldoblique-webfont.eot
+    │   ├── hack-bolditalic-webfont.eot
     │   ├── hack-regular-webfont.eot
-    │   ├── hack-regularoblique-webfont.eot
+    │   ├── hack-italic-webfont.eot
     │   └── latin
     │       ├── hack-bold-latin-webfont.eot
-    │       ├── hack-boldoblique-latin-webfont.eot
+    │       ├── hack-bolditalic-latin-webfont.eot
     │       ├── hack-regular-latin-webfont.eot
-    │       └── hack-regularoblique-latin-webfont.eot
+    │       └── hack-italic-latin-webfont.eot
     ├── svg
     │   ├── hack-bold-webfont.svg
-    │   ├── hack-boldoblique-webfont.svg
+    │   ├── hack-bolditalic-webfont.svg
     │   ├── hack-regular-webfont.svg
-    │   ├── hack-regularoblique-webfont.svg
+    │   ├── hack-italic-webfont.svg
     │   └── latin
     │       ├── hack-bold-latin-webfont.svg
-    │       ├── hack-boldoblique-latin-webfont.svg
+    │       ├── hack-bolditalic-latin-webfont.svg
     │       ├── hack-regular-latin-webfont.svg
-    │       └── hack-regularoblique-latin-webfont.svg
+    │       └── hack-italic-latin-webfont.svg
     ├── ttf
     │   ├── hack-bold-webfont.ttf
-    │   ├── hack-boldoblique-webfont.ttf
+    │   ├── hack-bolditalic-webfont.ttf
     │   ├── hack-regular-webfont.ttf
-    │   ├── hack-regularoblique-webfont.ttf
+    │   ├── hack-italic-webfont.ttf
     │   └── latin
     │       ├── hack-bold-latin-webfont.ttf
-    │       ├── hack-boldoblique-latin-webfont.ttf
+    │       ├── hack-bolditalic-latin-webfont.ttf
     │       ├── hack-regular-latin-webfont.ttf
-    │       └── hack-regularoblique-latin-webfont.ttf
+    │       └── hack-italic-latin-webfont.ttf
     ├── woff
     │   ├── hack-bold-webfont.woff
-    │   ├── hack-boldoblique-webfont.woff
+    │   ├── hack-bolditalic-webfont.woff
     │   ├── hack-regular-webfont.woff
-    │   ├── hack-regularoblique-webfont.woff
+    │   ├── hack-italic-webfont.woff
     │   └── latin
     │       ├── hack-bold-latin-webfont.woff
-    │       ├── hack-boldoblique-latin-webfont.woff
+    │       ├── hack-bolditalic-latin-webfont.woff
     │       ├── hack-regular-latin-webfont.woff
-    │       └── hack-regularoblique-latin-webfont.woff
+    │       └── hack-italic-latin-webfont.woff
     └── woff2
         ├── hack-bold-webfont.woff2
-        ├── hack-boldoblique-webfont.woff2
+        ├── hack-bolditalic-webfont.woff2
         ├── hack-regular-webfont.woff2
-        ├── hack-regularoblique-webfont.woff2
+        ├── hack-italic-webfont.woff2
         └── latin
             ├── hack-bold-latin-webfont.woff2
-            ├── hack-boldoblique-latin-webfont.woff2
+            ├── hack-bolditalic-latin-webfont.woff2
             ├── hack-regular-latin-webfont.woff2
-            └── hack-regularoblique-latin-webfont.woff2
+            └── hack-italic-latin-webfont.woff2
 ```
 
 Push the `css` and `fonts` directories to your web server, then import **one** of the included CSS files in the `head` section of the HTML where you would like to use it.
@@ -232,66 +232,66 @@ yoursite.com/path/to/fonts/
 ##### TTF Builds
 - `build/ttf/Hack-Regular.ttf`
 - `build/ttf/Hack-Bold.ttf`
-- `build/ttf/Hack-Oblique.ttf`
-- `build/ttf/Hack-BoldOblique.ttf`
+- `build/ttf/Hack-Italic.ttf`
+- `build/ttf/Hack-BoldItalic.ttf`
 
 ##### OTF Builds
 - `build/otf/Hack-Regular.otf`
 - `build/otf/Hack-Bold.otf`
-- `build/otf/Hack-Oblique.otf`
-- `build/otf/Hack-BoldOblique.otf`
+- `build/otf/Hack-Italic.otf`
+- `build/otf/Hack-BoldItalic.otf`
 
 #### Web Fonts
 
 ##### EOT
 - `build/eot/hack-regular-webfont.eot`
 - `build/eot/hack-bold-webfont.eot`
-- `build/eot/hack-regularoblique-webfont.eot`
-- `build/eot/hack-boldoblique-webfont.eot`
+- `build/eot/hack-italic-webfont.eot`
+- `build/eot/hack-bolditalic-webfont.eot`
 - `build/eot/latin/hack-regular-latin-webfont.eot`
 - `build/eot/latin/hack-bold-latin-webfont.eot`
-- `build/eot/latin/hack-regularoblique-latin-webfont.eot`
-- `build/eot/latin/hack-boldoblique-latin-webfont.eot`
+- `build/eot/latin/hack-italic-latin-webfont.eot`
+- `build/eot/latin/hack-bolditalic-latin-webfont.eot`
 
 ##### SVG
 - `build/svg/hack-regular-webfont.svg`
 - `build/svg/hack-bold-webfont.svg`
-- `build/svg/hack-regularoblique-webfont.svg`
-- `build/svg/hack-boldoblique-webfont.svg`
+- `build/svg/hack-italic-webfont.svg`
+- `build/svg/hack-bolditalic-webfont.svg`
 - `build/svg/latin/hack-regular-latin-webfont.svg`
 - `build/svg/latin/hack-bold-latin-webfont.svg`
-- `build/svg/latin/hack-regularoblique-latin-webfont.svg`
-- `build/svg/latin/hack-boldoblique-latin-webfont.svg`
+- `build/svg/latin/hack-italic-latin-webfont.svg`
+- `build/svg/latin/hack-bolditalic-latin-webfont.svg`
 
 ##### Web TTF
 - `build/web-ttf/hack-regular-webfont.ttf`
 - `build/web-ttf/hack-bold-webfont.ttf`
-- `build/web-ttf/hack-regularoblique-webfont.ttf`
-- `build/web-ttf/hack-boldoblique-webfont.ttf`
+- `build/web-ttf/hack-italic-webfont.ttf`
+- `build/web-ttf/hack-bolditalic-webfont.ttf`
 - `build/web-ttf/latin/hack-regular-latin-webfont.ttf`
 - `build/web-ttf/latin/hack-bold-latin-webfont.ttf`
-- `build/web-ttf/latin/hack-regularoblique-latin-webfont.ttf`
-- `build/web-ttf/latin/hack-boldoblique-latin-webfont.ttf`
+- `build/web-ttf/latin/hack-italic-latin-webfont.ttf`
+- `build/web-ttf/latin/hack-bolditalic-latin-webfont.ttf`
 
 ##### WOFF
 - `build/woff/hack-regular-webfont.woff`
 - `build/woff/hack-bold-webfont.woff`
-- `build/woff/hack-regularoblique-webfont.woff`
-- `build/woff/hack-boldoblique-webfont.woff`
+- `build/woff/hack-italic-webfont.woff`
+- `build/woff/hack-bolditalic-webfont.woff`
 - `build/woff/latin/hack-regular-latin-webfont.woff`
 - `build/woff/latin/hack-bold-latin-webfont.woff`
-- `build/woff/latin/hack-regularoblique-latin-webfont.woff`
-- `build/woff/latin/hack-boldoblique-latin-webfont.woff`
+- `build/woff/latin/hack-italic-latin-webfont.woff`
+- `build/woff/latin/hack-bolditalic-latin-webfont.woff`
 
 ##### WOFF2
 - `build/woff2/hack-regular-webfont.woff2`
 - `build/woff2/hack-bold-webfont.woff2`
-- `build/woff2/hack-regularoblique-webfont.woff2`
-- `build/woff2/hack-boldoblique-webfont.woff2`
+- `build/woff2/hack-italic-webfont.woff2`
+- `build/woff2/hack-bolditalic-webfont.woff2`
 - `build/woff2/latin/hack-regular-latin-webfont.woff2`
 - `build/woff2/latin/hack-bold-latin-webfont.woff2`
-- `build/woff2/latin/hack-regularoblique-latin-webfont.woff2`
-- `build/woff2/latin/hack-boldoblique-latin-webfont.woff2`
+- `build/woff2/latin/hack-italic-latin-webfont.woff2`
+- `build/woff2/latin/hack-bolditalic-latin-webfont.woff2`
 
 
 ### Changes
@@ -301,10 +301,10 @@ Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master
 
 ### License
 
-Modified Version ("Hack") Copyright (c) 2015, Christopher Simpkins with Reserved Font Name Hack.<br>
-MODIFIED SIL OPEN FONT LICENSE & BITSTREAM VERA LICENSE
+Hack Copyright 2015, Christopher Simpkins with Reserved Font Name Hack.<br>
+HACK OPEN FONT LICENSE & BITSTREAM VERA LICENSE
 
-Original Version ("Bitstream Vera Sans Mono") Copyright (c) 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
+Bitstream Vera Sans Mono Copyright 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
 BITSTREAM VERA LICENSE
 
 The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
