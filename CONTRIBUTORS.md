@@ -17,7 +17,11 @@
 - Tim Heckman
 - Serkan Hosca
 - Jon Linklater-Johnson
+- Giovanni Lanzani
+- Caleb Maclennan
+- Joel McCance
 - Robin McCorkell
+- Mack Stump
 - Daniele Tricoli
 
 ### Language Set Suggestions, Design, and Proofing
@@ -42,6 +46,7 @@
 - Zach Langbert
 - Dave Merrill
 - Adam Quaile
+- Christopher Rucinski
 - Marek Šesták
 - Rogier Spieker
 - Günther Stadler
