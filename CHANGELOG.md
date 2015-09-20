@@ -1,3 +1,14 @@
+# Version 2.014 (development build)
+
+- ttf only build for testing
+- adjusted vertical metrics
+- centered, increased width, & adjusted vertical position of underscore
+- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC)
+- increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
+- increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
+- decreased vertical position of the asterisk (U+002A)
+- new design for ascii tilde (U+007E)
+
 # Version 2.013 (release build)
 
 - ttf, otf, webfont builds
