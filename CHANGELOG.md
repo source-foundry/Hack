@@ -1,6 +1,7 @@
 # Version 2.014 (development build)
 
 - ttf only build for testing
+- updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes)
 - adjusted vertical metrics
 - centered, increased width, & adjusted vertical position of underscore
 - increased vertical position of dieresis mark on lowercase u dieresis (U+00FC)
