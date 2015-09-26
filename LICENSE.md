@@ -22,9 +22,11 @@ These licenses are copied below.
 Copyright 2015 by Christopher Simpkins. All Rights Reserved.
 
 DEFINITIONS
+
 "Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
 
 PERMISSION AND CONDITIONS
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license ("Fonts") and associated font source, source code, documentation, and binary files (the "Font Software"), to reproduce and distribute the modifications to the Bitstream Vera Font Software, including without limitation the rights to use, study, copy, merge, embed, modify, redistribute, and/or sell modified or unmodified copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:
 
 (1) The above copyright notice and this permission notice shall be included in all copies of the Font Software typefaces. These notices can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
@@ -34,11 +36,12 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 (3) Neither the Font Software nor any of its individual components, in original or modified versions, may be sold by itself.
 
 TERMINATION
+
 This license becomes null and void if any of the above conditions are not met.
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 
-Except as contained in this notice, the names of Christopher Simpkins and the Author(s) of the Font Software shall not be used to promote, endorse or advertise any modified version, except to acknowledge the contribution(s) of the Christopher Simpkins and the Author(s) or with their explicit written permission.  For further information, contact: chris at sourcefoundry dot org.
+Except as contained in this notice, the names of Christopher Simpkins and the Author(s) of the Font Software shall not be used to promote, endorse or advertise any modified version, except to acknowledge the contribution(s) of Christopher Simpkins and the Author(s) or with their explicit written permission.  For further information, contact: chris at sourcefoundry dot org.
 
 
 
