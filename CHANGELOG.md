@@ -5,10 +5,10 @@ ttf, otf, webfont builds
 Changes vs. release v2.013:
 
 - adjusted vertical metrics to decrease line spacing height - Issues #28, #32, #39, #41, #95, #103
-- updated vertical positon of the colon (U+003A) - Issue #66
+- adjusted vertical position of the colon to higher position, improve alignment with other punctuation glyphs (U+003A) - Issue #66
 - changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
-- updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes) - Issue #84
-- centered, increased width, & adjusted vertical position of underscore - Issues #97, #98, #100, 103,
+- updated hinting algorithm for bold set (improved point position over stem of lowercase j/i for some text sizes) - Issue #84
+- underscore (U+005F) centered, increased width, increased height & aligned vertical position closer to baseline - Issues #97, #98, #100, 103,
 - increased vertical position of dieresis mark on lowercase u dieresis (U+00FC) - Issue #61
 - increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
