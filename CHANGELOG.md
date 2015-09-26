@@ -1,14 +1,30 @@
+# Version 2.015 (release build)
+
+ttf, otf, webfont builds
+
+Changes from last release (vs. v2.013):
+
+- updated vertical positon of the colon (U+003A) - Issue #66
+- changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
+- adjusted vertical metrics - Issues #28, #32, #39, #41, #95, #103
+- centered, increased width, & adjusted vertical position of underscore - Issues #97, #98, #100, 103,
+- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC) - Issue #61
+- increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
+- increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
+- decreased vertical position of the asterisk (U+002A) - Issue #34
+- new design for ascii tilde (U+007E) - Issue #37
+
 # Version 2.014 (development build)
 
 - ttf only build for testing
-- updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes)
-- adjusted vertical metrics
-- centered, increased width, & adjusted vertical position of underscore
-- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC)
+- updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes) - Issue #84
+- adjusted vertical metrics - Issues #28, #32, #39, #41, #95, #103
+- centered, increased width, & adjusted vertical position of underscore - Issues #97, #98, #100, 103,
+- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC) - Issue #61
 - increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
-- decreased vertical position of the asterisk (U+002A)
-- new design for ascii tilde (U+007E)
+- decreased vertical position of the asterisk (U+002A) - Issue #34
+- new design for ascii tilde (U+007E) - Issue #37
 
 # Version 2.013 (release build)
 
