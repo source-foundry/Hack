@@ -1,85 +1,44 @@
 ## License
 
-Hack Copyright 2015, Christopher Simpkins with Reserved Font Name Hack.
+Hack Copyright 2015, Christopher Simpkins with Reserved Font Name "Hack".
 
-Bitstream Vera Sans Mono Copyright 2003 Bitstream Inc. and licensed under the Bitstream Vera License with Reserved Font Names Bitstream and Vera
+Bitstream Vera Sans Mono Copyright 2003 Bitstream Inc. and licensed under the Bitstream Vera License with Reserved Font Names "Bitstream" and "Vera"
 
 DejaVu modifications of the original Bitstream Vera Sans Mono typeface have been committed to the public domain.
 
 
 
-This Font Software is licensed under the Hack Open Font License and the Bitstream Vera License.
+This Font Software is licensed under the Hack Open Font License v2.0 and the Bitstream Vera License.
 
 These licenses are copied below.
 
-### Hack Open Font License
 
-(Version v.1.0 - 06 September 2015)
+### Hack Open Font License v2.0
+
+(Version 1.0 - 06 September 2015)
+
+(Version 2.0 - 26 September 2015)
+
+Copyright 2015 by Christopher Simpkins. All Rights Reserved.
 
 DEFINITIONS
-"Font Software" refers to the set of files released by the Copyright
-Holder(s) under this license and clearly marked as such. This may
-include source files, build scripts and documentation.
+"Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
 
-"Reserved Font Name" refers to any names specified as such after the
-copyright statement(s).
+PERMISSION AND CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license ("Fonts") and associated font source, source code, documentation, and binary files (the "Font Software"), to reproduce and distribute the modifications to the Bitstream Vera Font Software, including without limitation the rights to use, study, copy, merge, embed, modify, redistribute, and/or sell modified or unmodified copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:
 
-"Original Version" refers to the collection of Font Software components as
-distributed by the Copyright Holder(s).
+(1) The above copyright notice and this permission notice shall be included in all copies of the Font Software typefaces. These notices can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
 
-"Modified Version" refers to any derivative made by adding to, deleting,
-or substituting -- in part or in whole -- any of the components of the
-Original Version, by changing formats or by porting the Font Software to a
-new environment.
+(2) The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing the word "Hack".
 
-"Author" refers to any designer, engineer, programmer, technical
-writer or other person who contributed to the Font Software.
-
-PERMISSION & CONDITIONS
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of the Font Software, to use, study, copy, merge, embed, modify,
-redistribute, and sell modified and unmodified copies of the Font
-Software, subject to the following conditions:
-
-1) Neither the Font Software nor any of its individual components,
-in Original or Modified Versions, may be sold by itself.
-
-2) Original or Modified Versions of the Font Software may be bundled,
-redistributed and/or sold with any software, provided that each copy
-contains the above copyright notice and this license. These can be
-included either as stand-alone text files, human-readable headers or
-in the appropriate machine-readable metadata fields within text or
-binary files as long as those fields can be easily viewed by the user.
-
-3) No Modified Version of the Font Software may use the Reserved Font
-Name(s) unless explicit written permission is granted by the corresponding
-Copyright Holder(s).
-
-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-Software shall not be used to promote, endorse or advertise any
-Modified Version, except to acknowledge the contribution(s) of the
-Copyright Holder(s) and the Author(s) or with their explicit written
-permission.
-
-5) The Font Software, modified or unmodified, in part or in whole,
-must be distributed under this license. The requirement for fonts to
-remain under this license does not apply to any document created
-using the Font Software.
+(3) Neither the Font Software nor any of its individual components, in original or modified versions, may be sold by itself.
 
 TERMINATION
-This license becomes null and void if any of the above conditions are
-not met.
+This license becomes null and void if any of the above conditions are not met.
 
-DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+Except as contained in this notice, the names of Christopher Simpkins and the Author(s) of the Font Software shall not be used to promote, endorse or advertise any modified version, except to acknowledge the contribution(s) of the Christopher Simpkins and the Author(s) or with their explicit written permission.  For further information, contact: chris at sourcefoundry dot org.
 
 
 
