@@ -2,7 +2,7 @@
 
 ttf, otf, webfont builds
 
-Changes from last release (vs. v2.013):
+Changes vs. release v2.013:
 
 - updated vertical positon of the colon (U+003A) - Issue #66
 - changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
@@ -28,7 +28,10 @@ Changes from last release (vs. v2.013):
 
 # Version 2.013 (release build)
 
-- ttf, otf, webfont builds
+ttf, otf, webfont builds
+
+Changes vs. release v2.010
+
 - Fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues #27 & 46)
 - Powerline glyph alignment and size adjustments (Issue #33)
 - Fixed name tables to address:
