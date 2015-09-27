@@ -14,6 +14,7 @@ Changes vs. release v2.013:
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
 - decreased vertical position of the asterisk (U+002A) - Issue #34
 - new design for ascii tilde - broader curves, taller glyph with goal to improve appearance at small text sizes where it tended to render like a dash (U+007E) - Issue #37
+- Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license.
 
 # Version 2.014 (development build)
 
