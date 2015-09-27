@@ -17,7 +17,7 @@ These licenses are copied below.
 
 (Version 1.0 - 06 September 2015)
 
-(Version 2.0 - 26 September 2015)
+(Version 2.0 - 27 September 2015)
 
 Copyright 2015 by Christopher Simpkins. All Rights Reserved.
 
@@ -27,7 +27,7 @@ DEFINITIONS
 
 PERMISSION AND CONDITIONS
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license ("Fonts") and associated font source, source code, documentation, and binary files (the "Font Software"), to reproduce and distribute the modifications to the Bitstream Vera Font Software, including without limitation the rights to use, study, copy, merge, embed, modify, redistribute, and/or sell modified or unmodified copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license ("Fonts") and associated source code, documentation, and binary files (the "Font Software"), to reproduce and distribute the modifications to the Bitstream Vera Font Software, including without limitation the rights to use, study, copy, merge, embed, modify, redistribute, and/or sell modified or unmodified copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:
 
 (1) The above copyright notice and this permission notice shall be included in all copies of the Font Software typefaces. These notices can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
 
