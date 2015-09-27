@@ -5,7 +5,7 @@ ttf, otf, webfont builds
 Changes vs. release v2.013:
 
 - adjusted vertical metrics to decrease line spacing height - Issues #28, #32, #39, #41, #95, #103
-- adjusted vertical position of the colon to higher position, improve alignment with other punctuation glyphs (U+003A) - Issue #66
+- adjusted vertical position of the colon to higher position, improves alignment with other punctuation glyphs (U+003A) - Issue #66
 - changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
 - updated hinting algorithm for bold set (improved point position over stem of lowercase j/i for some text sizes) - Issue #84
 - underscore (U+005F) centered, increased width, increased height & aligned vertical position closer to baseline - Issues #97, #98, #100, 103,
@@ -14,7 +14,7 @@ Changes vs. release v2.013:
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
 - decreased vertical position of the asterisk (U+002A) - Issue #34
 - new design for ascii tilde - broader curves, taller glyph with goal to improve appearance at small text sizes where it tended to render like a dash (U+007E) - Issue #37
-- Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license.
+- Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license under which the Hack typeface is co-licensed.
 
 # Version 2.014 (development build)
 
