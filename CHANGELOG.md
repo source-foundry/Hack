@@ -4,7 +4,7 @@ ttf, otf, webfont builds
 
 Changes vs. release v2.013:
 
-- adjusted vertical metrics to decrease line spacing height - Issues #28, #32, #39, #41, #95, #103
+- new vertical metrics = decreased line spacing height - Issues #28, #32, #39, #41, #95, #103
 - adjusted vertical position of the colon to higher position, improves alignment with other punctuation glyphs (U+003A) - Issue #66
 - changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
 - updated hinting algorithm for bold set (improved point position over stem of lowercase j/i for some text sizes) - Issue #84
