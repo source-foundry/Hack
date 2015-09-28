@@ -5,7 +5,7 @@ ttf, otf, webfont builds
 Changes vs. release v2.013:
 
 - new vertical metrics = decreased line spacing height - Issues #28, #32, #39, #41, #95, #103
-- adjusted vertical position of the colon to higher position, improves alignment with other punctuation glyphs (U+003A) - Issue #66
+- adjusted vertical position of the colon to a higher position, improves alignment with other punctuation glyphs (U+003A) - Issue #66
 - changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
 - updated hinting algorithm for bold set (improved point position over stem of lowercase j/i for some text sizes) - Issue #84
 - underscore (U+005F) centered, increased width, increased height & aligned vertical position closer to baseline - Issues #97, #98, #100, 103,
@@ -20,7 +20,8 @@ Changes vs. release v2.013:
 - new web font release script (./postbuild_processing/webfonts/releasewebfonts.sh)
 - new vfb to UFO source file conversion script (./tools/makeufo.sh)
 - new UFO source file types - includes separate source files for TrueType (`*-TT.ufo`) and PostScript (`*-PS.ufo`) releases
-- Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license under which the Hack typeface is co-licensed.
+- source file path changes: now includes separate `ufo` and `vfb` directories under the `./source` repository directory
+- Hack Open Font license updated to version 2.0.  The license changes better define the Hack project as a derivative project of the Bitstream Vera Sans Mono typeface project and are intended to make the license more consistent with the Bitstream Vera libre, open source license under which Hack is co-licensed.  There are no new restrictions on use of the fonts with these license changes.  Embedding permissions are made explicit in this version of the Hack Open Font license.
 
 
 # Version 2.014 (development build)
