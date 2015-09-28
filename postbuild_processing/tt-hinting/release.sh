@@ -1,3 +1,14 @@
+# ------------------------------------------------------------------
+#
+#  release.sh
+#  Copyright 2015 Christopher Simpkins
+#  MIT license
+#
+# ------------------------------------------------------------------
+
+# DESCRIPTION
+# Moves release ttf build files (after hinting) to the build/ttf path of the repository
+
 cp ../posthinted_builds/Hack-Regular.ttf ../../build/ttf/Hack-Regular.ttf
 echo "moved hinted version of Hack-Regular.ttf to ../../build/ttf/Hack-Regular.ttf"
 cp ../posthinted_builds/Hack-Bold.ttf ../../build/ttf/Hack-Bold.ttf
