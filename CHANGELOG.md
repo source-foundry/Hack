@@ -14,6 +14,11 @@ Changes vs. release v2.013:
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
 - decreased vertical position of the asterisk (U+002A) - Issue #34
 - new design for ascii tilde - broader curves, taller glyph with goal to improve appearance at small text sizes where it tended to render like a dash (U+007E) - Issue #37
+- new ttf build autohinting script (./postbuild_processing/tt-hinting/autohint.sh)
+- new ttf build autohinting Control Instructions File - bold set (./postbuild_processing/tt-hinting/Hack-Bold-TA.txt)
+- new ttf build release script (./postbuild_processing/tt-hinting/release.sh)
+- new afb to ufo source file conversion script (./tools/makeufo.sh)
+- new UFO source file types - includes separate source files for TrueType (`*-TT.ufo`) and PostScript (`*-PS.ufo`) releases
 - Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license under which the Hack typeface is co-licensed.
 
 # Version 2.014 (development build)
