@@ -17,6 +17,7 @@ Changes vs. release v2.013:
 - new ttf build autohinting script (./postbuild_processing/tt-hinting/autohint.sh)
 - new ttf build autohinting Control Instructions File - bold set (./postbuild_processing/tt-hinting/Hack-Bold-TA.txt)
 - new ttf build release script (./postbuild_processing/tt-hinting/release.sh)
+- new web font release script (./postbuild_processing/webfonts/releasewebfonts.sh)
 - new vfb to UFO source file conversion script (./tools/makeufo.sh)
 - new UFO source file types - includes separate source files for TrueType (`*-TT.ufo`) and PostScript (`*-PS.ufo`) releases
 - Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license under which the Hack typeface is co-licensed.
