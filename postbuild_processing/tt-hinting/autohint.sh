@@ -1,3 +1,16 @@
+# ------------------------------------------------------------------
+#
+#  autohint.sh
+#  Copyright 2015 Christopher Simpkins
+#  MIT license
+#
+# ------------------------------------------------------------------
+
+# DESCRIPTION
+# Applies hints to the Hack ttf font builds with ttfautohint
+# Executable: ttfautohint (http://www.freetype.org/ttfautohint/doc/ttfautohint.html)
+
+
 # Hack-Regular.ttf
 ttfautohint -l 4 -r 80 -G 350 -x 0 -H 181 -D latn -f latn -w G -W -t -X "" -I "../prehinted_builds/Hack-Regular.ttf" "../posthinted_builds/Hack-Regular.ttf"
 echo "Hack-Regular.ttf hinted and moved to ../posthinted_builds/Hack-Regular.ttf"

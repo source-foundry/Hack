@@ -8,7 +8,7 @@
 
 # DESCRIPTION
 # Creates UFO font source files from FontLab Studio .vfb source files
-# Dependency: vfb2ufo (http://blog.fontlab.com/font-utility/vfb2ufo/)
+# Executable: vfb2ufo (http://blog.fontlab.com/font-utility/vfb2ufo/)
 
 # PostScript Source Files
 vfb2ufo -fo -ttx -64 -p ../source/ufo ../source/vfb/Hack-Regular-PS.vfb
