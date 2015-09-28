@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="odieresis" format="1">
+  <advance width="1233"/>
+  <unicode hex="00F6"/>
+  <outline>
+    <contour>
+      <point x="349" y="1350" type="line" name="dv03"/>
+      <point x="319" y="1350"/>
+      <point x="319" y="1380" type="qcurve" name="sh01"/>
+      <point x="319" y="1522" type="line"/>
+      <point x="319" y="1552"/>
+      <point x="349" y="1552" type="qcurve" name="dv04"/>
+      <point x="492" y="1552" type="line"/>
+      <point x="522" y="1552"/>
+      <point x="522" y="1522" type="qcurve"/>
+      <point x="522" y="1380" type="line" name="sh02"/>
+      <point x="522" y="1350"/>
+      <point x="492" y="1350" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="741" y="1350" type="line" name="sv01"/>
+      <point x="711" y="1350"/>
+      <point x="711" y="1380" type="qcurve" name="dh03"/>
+      <point x="711" y="1522" type="line"/>
+      <point x="711" y="1552"/>
+      <point x="741" y="1552" type="qcurve" name="sv02"/>
+      <point x="883" y="1552" type="line"/>
+      <point x="913" y="1552"/>
+      <point x="913" y="1522" type="qcurve"/>
+      <point x="913" y="1380" type="line" name="dh04"/>
+      <point x="913" y="1350"/>
+      <point x="883" y="1350" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="616" y="-29" type="qcurve" name="dv01"/>
+      <point x="501" y="-29"/>
+      <point x="322" y="46"/>
+      <point x="260" y="121" type="qcurve"/>
+      <point x="197" y="199"/>
+      <point x="137" y="420"/>
+      <point x="137" y="560" type="qcurve" name="dh01"/>
+      <point x="137" y="844"/>
+      <point x="260" y="996" type="qcurve"/>
+      <point x="383" y="1147"/>
+      <point x="616" y="1147" type="qcurve" name="dv06"/>
+      <point x="736" y="1147"/>
+      <point x="913" y="1070"/>
+      <point x="973" y="996" type="qcurve"/>
+      <point x="1096" y="844"/>
+      <point x="1096" y="561" type="qcurve" name="sh03"/>
+      <point x="1096" y="418"/>
+      <point x="1035" y="196"/>
+      <point x="973" y="121" type="qcurve"/>
+      <point x="913" y="47"/>
+      <point x="734" y="-29"/>
+    </contour>
+    <contour>
+      <point x="616" y="127" type="qcurve" name="dv02"/>
+      <point x="757" y="127"/>
+      <point x="829" y="237" type="qcurve"/>
+      <point x="901" y="346"/>
+      <point x="901" y="559" type="qcurve" name="sh04"/>
+      <point x="901" y="772"/>
+      <point x="829" y="882" type="qcurve"/>
+      <point x="757" y="991"/>
+      <point x="616" y="991" type="qcurve" name="dv05"/>
+      <point x="476" y="991"/>
+      <point x="404" y="882" type="qcurve"/>
+      <point x="332" y="772"/>
+      <point x="332" y="559" type="qcurve" name="dh02"/>
+      <point x="332" y="346"/>
+      <point x="404" y="237" type="qcurve"/>
+      <point x="476" y="127"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZWgiIHBvaW50MT0iZGgwMyIg
+cG9pbnQyPSJkaDA0IiBzdGVtPSJYOiAyMDMiLz4K
+ICAgIDx0dGMgY29kZT0ibWRlbHRhaCIgcG9pbnQ9
+ImRoMDIiIGRlbHRhPSItMiIgcHBtMT0iOSIgcHBt
+Mj0iOSIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGVo
+IiBwb2ludDE9ImRoMDIiIHBvaW50Mj0ic2gwMSIg
+YWxpZ249InJvdW5kIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZWgiIHBvaW50MT0iZGgwMiIgcG9pbnQy
+PSJzaDAyIiBzdGVtPSJYOiAyMDMiLz4KICAgIDx0
+dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQxPSJkaDA0
+IiBwb2ludDI9InNoMDMiIHN0ZW09Ilg6IDIwMyIv
+PgogICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2lu
+dDE9ImRoMDQiIHBvaW50Mj0ic2gwNCIgYWxpZ249
+InJvdW5kIi8+CiAgICA8dHRjIGNvZGU9ImRvdWJs
+ZXYiIHBvaW50MT0iZHYwMSIgcG9pbnQyPSJkdjAy
+IiBzdGVtPSJZOiAxNTYiLz4KICAgIDx0dGMgY29k
+ZT0iZG91YmxldiIgcG9pbnQxPSJkdjAzIiBwb2lu
+dDI9ImR2MDQiIHN0ZW09Ink6IDE3MCIvPgogICAg
+PHR0YyBjb2RlPSJkb3VibGV2IiBwb2ludDE9ImR2
+MDUiIHBvaW50Mj0iZHYwNiIgc3RlbT0iWTogMTU2
+Ii8+CiAgICA8dHRjIGNvZGU9InNpbmdsZXYiIHBv
+aW50MT0iZHYwMyIgcG9pbnQyPSJzdjAxIi8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50MT0i
+ZHYwNCIgcG9pbnQyPSJzdjAyIi8+CiAgPC90dFBy
+b2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
+dD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

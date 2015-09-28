@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="1">
+  <advance width="1233"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="612" y="-42" type="qcurve" name="dv01"/>
+      <point x="573" y="-42"/>
+      <point x="513" y="-15"/>
+      <point x="488" y="10" type="qcurve"/>
+      <point x="436" y="62"/>
+      <point x="436" y="141" type="qcurve" name="dh01"/>
+      <point x="436" y="223"/>
+      <point x="488" y="275" type="qcurve"/>
+      <point x="539" y="326"/>
+      <point x="613" y="326" type="qcurve" name="dv02"/>
+      <point x="649" y="326"/>
+      <point x="713" y="301"/>
+      <point x="739" y="275" type="qcurve"/>
+      <point x="790" y="224"/>
+      <point x="790" y="141" type="qcurve" name="dh02"/>
+      <point x="790" y="61"/>
+      <point x="739" y="10" type="qcurve"/>
+      <point x="687" y="-42"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAyIiBk
+ZWx0YT0iLTIiIHBwbTE9IjkiIHBwbTI9IjEwIi8+
+CiAgICA8dHRjIGNvZGU9ImRvdWJsZXYiIHBvaW50
+MT0iZHYwMSIgcG9pbnQyPSJkdjAyIiBzdGVtPSJ5
+OiAyNjAiLz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii00MiIgd2lkdGg9IjM2OCIgLz4KICAgICAg
+PHZzdGVtIHBvcz0iNDM2IiB3aWR0aD0iMzU0IiAv
+PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
+c3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

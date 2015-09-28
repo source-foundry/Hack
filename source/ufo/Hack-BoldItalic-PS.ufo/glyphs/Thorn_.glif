@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="1">
+  <advance width="1233"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="16" y="0" type="line"/>
+      <point x="311" y="0" type="line" name="ab01"/>
+      <point x="375" y="332" type="line"/>
+      <point x="539" y="332" type="line" smooth="yes" name="dv01"/>
+      <point x="671" y="332"/>
+      <point x="761" y="346"/>
+      <point x="840" y="374" type="curve" smooth="yes"/>
+      <point x="913" y="401" name="dh02"/>
+      <point x="975" y="437"/>
+      <point x="1034" y="506" type="curve" smooth="yes" name="sv02"/>
+      <point x="1073" y="551"/>
+      <point x="1104" y="606"/>
+      <point x="1129" y="683" type="curve" smooth="yes" name="at01"/>
+      <point x="1153" y="758"/>
+      <point x="1165" y="834"/>
+      <point x="1165" y="902" type="curve" smooth="yes" name="sv01"/>
+      <point x="1165" y="1023"/>
+      <point x="1126" y="1111" name="dh01"/>
+      <point x="1042" y="1174" type="curve" smooth="yes"/>
+      <point x="959" y="1235" name="dv02"/>
+      <point x="839" y="1266"/>
+      <point x="682" y="1266" type="curve" smooth="yes" name="sh01"/>
+      <point x="555" y="1266" type="line"/>
+      <point x="602" y="1493" type="line" name="hr01"/>
+      <point x="307" y="1493" type="line"/>
+    </contour>
+    <contour>
+      <point x="424" y="580" type="line"/>
+      <point x="510" y="1018" type="line"/>
+      <point x="631" y="1018" type="line" smooth="yes"/>
+      <point x="716" y="1018"/>
+      <point x="771" y="1005"/>
+      <point x="806" y="980" type="curve" smooth="yes"/>
+      <point x="841" y="956"/>
+      <point x="858" y="916"/>
+      <point x="858" y="843" type="curve" smooth="yes"/>
+      <point x="858" y="759"/>
+      <point x="834" y="692"/>
+      <point x="786" y="647" type="curve" smooth="yes"/>
+      <point x="739" y="602"/>
+      <point x="667" y="580"/>
+      <point x="569" y="580" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAxIiBk
+ZWx0YT0iMiIgcHBtMT0iOSIgcHBtMj0iOSIvPgog
+ICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9
+ImRoMDIiIHBvaW50Mj0ic2gwMSIgcm91bmQ9InRy
+dWUiLz4KICAgIDx0dGMgY29kZT0iYWxpZ250IiBw
+b2ludD0iYXQwMSIgem9uZT0idDogMSIvPgogICAg
+PHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50PSJhYjAx
+IiB6b25lPSJiOiAwIi8+CiAgICA8dHRjIGNvZGU9
+ImRvdWJsZXYiIHBvaW50MT0iZHYwMSIgcG9pbnQy
+PSJkdjAyIiBzdGVtPSJ5OiAyNjAiLz4KICAgIDx0
+dGMgY29kZT0ic2luZ2xldiIgcG9pbnQxPSJhdDAx
+IiBwb2ludDI9InN2MDEiIHN0ZW09Ink6IDI2MCIv
+PgogICAgPHR0YyBjb2RlPSJzaW5nbGV2IiBwb2lu
+dDE9InN2MDEiIHBvaW50Mj0ic3YwMiIgc3RlbT0i
+eTogMjYwIi8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIzMzIiIHdpZHRoPSIyNDgiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjEwMTgiIHdpZHRo
+PSI0NzUiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg1
+OCIgd2lkdGg9IjMwNyIgLz4KICAgIDwvaGludHNl
+dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

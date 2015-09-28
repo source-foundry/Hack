@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="010F"/>
+  <outline>
+    <contour>
+      <point x="1045" y="1181" type="line"/>
+      <point x="1199" y="1181" type="line" name="sv01"/>
+      <point x="1312" y="1557" type="line"/>
+      <point x="1114" y="1557" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="526" y="-29" type="curve" smooth="yes"/>
+      <point x="663" y="-29" name="sh03"/>
+      <point x="767" y="29"/>
+      <point x="828" y="141" type="curve" name="ab01"/>
+      <point x="846" y="0" type="line" name="sh02"/>
+      <point x="1012" y="0" type="line" name="ah02"/>
+      <point x="1012" y="1556" type="line" name="iv01"/>
+      <point x="828" y="1556" type="line" name="dv02"/>
+      <point x="828" y="977" type="line" name="sh01"/>
+      <point x="768" y="1089" name="sv03"/>
+      <point x="666" y="1147"/>
+      <point x="527" y="1147" type="curve" smooth="yes" name="sh05"/>
+      <point x="260" y="1147" name="dv01"/>
+      <point x="93" y="927" name="sh04"/>
+      <point x="93" y="561" type="curve" smooth="yes" name="sv02"/>
+      <point x="93" y="194" name="ah01"/>
+      <point x="259" y="-29" name="sh06"/>
+    </contour>
+    <contour>
+      <point x="556" y="127" type="curve" smooth="yes"/>
+      <point x="377" y="127"/>
+      <point x="287" y="272"/>
+      <point x="287" y="559" type="curve" smooth="yes"/>
+      <point x="287" y="846"/>
+      <point x="377" y="991"/>
+      <point x="556" y="991" type="curve" smooth="yes"/>
+      <point x="735" y="991"/>
+      <point x="828" y="844"/>
+      <point x="828" y="559" type="curve" smooth="yes"/>
+      <point x="828" y="274"/>
+      <point x="735" y="127"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmgiIHBvaW50PSJhaDAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ25oIiBw
+b2ludD0iYWgwMiIgYWxpZ249InJvdW5kIi8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZWgiIHBvaW50MT0i
+YWgwMSIgcG9pbnQyPSJzaDAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0ic2luZ2xlaCIg
+cG9pbnQxPSJhaDAyIiBwb2ludDI9InNoMDIiIHN0
+ZW09Ilg6IDE4NCIvPgogICAgPHR0YyBjb2RlPSJz
+aW5nbGVoIiBwb2ludDE9ImFoMDIiIHBvaW50Mj0i
+c2gwMyIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGVo
+IiBwb2ludDE9ImFoMDIiIHBvaW50Mj0ic2gwNCIv
+PgogICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2lu
+dDE9InNoMDEiIHBvaW50Mj0ic2gwNSIgc3RlbT0i
+WDogMjAzIi8+CiAgICA8dHRjIGNvZGU9Im1kZWx0
+YWgiIHBvaW50PSJzaDA1IiBkZWx0YT0iLTIiIHBw
+bTE9IjkiIHBwbTI9IjkiLz4KICAgIDx0dGMgY29k
+ZT0ic2luZ2xlaCIgcG9pbnQxPSJzaDAyIiBwb2lu
+dDI9InNoMDYiIHJvdW5kPSJ0cnVlIi8+CiAgICA8
+dHRjIGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEi
+IHpvbmU9InQ6IDIiLz4KICAgIDx0dGMgY29kZT0i
+YWxpZ250IiBwb2ludD0iYWgwMiIgem9uZT0idDog
+MiIvPgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBv
+aW50PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8
+dHRjIGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYw
+MSIgcG9pbnQyPSJkdjAyIiBzdGVtPSJZOiAxNTYi
+Lz4KICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9p
+bnQxPSJhdDAxIiBwb2ludDI9InN2MDEiIHJvdW5k
+PSJ0cnVlIi8+CiAgICA8dHRjIGNvZGU9InNpbmds
+ZXYiIHBvaW50MT0iYWIwMSIgcG9pbnQyPSJzdjAy
+IiBzdGVtPSJ5OiAxNDMiLz4KICAgIDx0dGMgY29k
+ZT0ibWRlbHRhdiIgcG9pbnQ9InN2MDIiIGRlbHRh
+PSItMSIgcHBtMT0iOSIgcHBtMj0iOSIvPgogICAg
+PHR0YyBjb2RlPSJzaW5nbGV2IiBwb2ludDE9InN2
+MDIiIHBvaW50Mj0ic3YwMyIgc3RlbT0iWTogMTU2
+Ii8+CiAgICA8dHRjIGNvZGU9ImludGVycG9sYXRl
+diIgcG9pbnQ9Iml2MDEiIHBvaW50MT0iYWIwMSIg
+cG9pbnQyPSJhdDAxIi8+CiAgICA8dHRjIGNvZGU9
+ImludGVycG9sYXRldiIgcG9pbnQ9InNoMDMiIHBv
+aW50MT0iYWIwMSIgcG9pbnQyPSJhdDAxIi8+CiAg
+PC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0ic2gwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxMjciIC8+CiAgICAgIDxo
+c3RlbSBwb3M9Ijk5MSIgd2lkdGg9IjE1NiIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTU1NiIgd2lkdGg9
+Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iOTMi
+IHdpZHRoPSIxOTQiIC8+CiAgICAgIDx2c3RlbSBw
+b3M9IjgyOCIgd2lkdGg9IjE4NCIgLz4KICAgIDwv
+aGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFn
+PSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iLTI5
+IiB3aWR0aD0iMTU2IiAvPgogICAgICA8aHN0ZW0g
+cG9zPSI5OTEiIHdpZHRoPSIxNTYiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjExODEiIHdpZHRoPSIzNzYi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjkzIiB3aWR0
+aD0iMTk0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+MjgiIHdpZHRoPSIxODQiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

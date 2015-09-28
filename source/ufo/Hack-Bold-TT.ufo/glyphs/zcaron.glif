@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="017E"/>
+  <outline>
+    <contour>
+      <point x="240" y="1645" type="line" name="av01"/>
+      <point x="418" y="1645" type="line"/>
+      <point x="616" y="1418" type="line"/>
+      <point x="815" y="1645" type="line" name="av02"/>
+      <point x="993" y="1645" type="line"/>
+      <point x="737" y="1269" type="line"/>
+      <point x="496" y="1269" type="line"/>
+    </contour>
+    <contour>
+      <point x="162" y="229" type="line"/>
+      <point x="752" y="901" type="line" name="sv01"/>
+      <point x="186" y="901" type="line"/>
+      <point x="186" y="1120" type="line" name="at01"/>
+      <point x="1081" y="1120" type="line"/>
+      <point x="1081" y="891" type="line"/>
+      <point x="492" y="219" type="line" name="sv02"/>
+      <point x="1081" y="219" type="line"/>
+      <point x="1081" y="0" type="line" name="ab01"/>
+      <point x="162" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnYiIHBvaW50PSJhdjAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ252IiBw
+b2ludD0iYXYwMiIgYWxpZ249InJvdW5kIi8+CiAg
+ICA8dHRjIGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0
+MDEiIHpvbmU9InQ6IDAiLz4KICAgIDx0dGMgY29k
+ZT0iYWxpZ25iIiBwb2ludD0iYWIwMSIgem9uZT0i
+YjogMCIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGV2
+IiBwb2ludDE9ImF0MDEiIHBvaW50Mj0ic3YwMSIg
+c3RlbT0ieTogMjI1Ii8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZXYiIHBvaW50MT0iYWIwMSIgcG9pbnQy
+PSJzdjAyIiBzdGVtPSJ5OiAyMjUiLz4KICA8L3R0
+UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIyMTkiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjkwMSIgd2lkdGg9IjIxOSIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTY0NSIgd2lkdGg9
+Ii0yMCIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
+bnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

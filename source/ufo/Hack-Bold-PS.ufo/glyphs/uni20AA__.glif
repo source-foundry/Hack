@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20AA" format="1">
+  <advance width="1233"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="4" y="-28" type="line" name="sv02"/>
+      <point x="261" y="-28" type="line" name="av01"/>
+      <point x="263" y="1210" type="line" name="dh02"/>
+      <point x="468" y="1210" type="line" smooth="yes" name="sv01"/>
+      <point x="636" y="1210"/>
+      <point x="675" y="1113" name="dh05"/>
+      <point x="675" y="866" type="curve" smooth="yes" name="dh06"/>
+      <point x="675" y="521" type="line"/>
+      <point x="866" y="521" type="line"/>
+      <point x="866" y="866" type="line" smooth="yes" name="dh01"/>
+      <point x="866" y="1289" name="dh08"/>
+      <point x="726" y="1493"/>
+      <point x="435" y="1493" type="curve" smooth="yes" name="at01"/>
+      <point x="4" y="1493" type="line" name="dh07"/>
+    </contour>
+    <contour>
+      <point x="1231" y="-29" type="line" name="dv02"/>
+      <point x="1231" y="1493" type="line" name="dh04"/>
+      <point x="973" y="1493" type="line"/>
+      <point x="973" y="254" type="line" name="hr02"/>
+      <point x="766" y="254" type="line" smooth="yes" name="dh03"/>
+      <point x="598" y="254" name="dv01"/>
+      <point x="559" y="351"/>
+      <point x="559" y="598" type="curve" smooth="yes" name="sh01"/>
+      <point x="559" y="943" type="line"/>
+      <point x="368" y="943" type="line"/>
+      <point x="368" y="598" type="line" smooth="yes" name="hr03"/>
+      <point x="368" y="166"/>
+      <point x="515" y="-28"/>
+      <point x="799" y="-28" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjM2Ii8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZWgiIHBvaW50MT0iZGgwMyIg
+cG9pbnQyPSJkaDA0IiBzdGVtPSJYOiAxNjAiLz4K
+ICAgIDx0dGMgY29kZT0iZG91YmxlaCIgcG9pbnQx
+PSJkaDA1IiBwb2ludDI9ImRoMDYiIHN0ZW09Ilg6
+IDE2MCIvPgogICAgPHR0YyBjb2RlPSJkb3VibGVo
+IiBwb2ludDE9ImRoMDciIHBvaW50Mj0iZGgwOCIg
+c3RlbT0iWDogMjM2Ii8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZWgiIHBvaW50MT0iZGgwOCIgcG9pbnQy
+PSJzaDAxIiByb3VuZD0idHJ1ZSIvPgogICAgPHR0
+YyBjb2RlPSJhbGlnbnYiIHBvaW50PSJhdjAxIiBh
+bGlnbj0icm91bmQiLz4KICAgIDx0dGMgY29kZT0i
+YWxpZ252IiBwb2ludD0iZGgwOCIgYWxpZ249InJv
+dW5kIi8+CiAgICA8dHRjIGNvZGU9ImFsaWdudCIg
+cG9pbnQ9ImRoMDEiIHpvbmU9InQ6IDEiLz4KICAg
+IDx0dGMgY29kZT0iYWxpZ250IiBwb2ludD0iYXQw
+MSIgem9uZT0idDogMSIvPgogICAgPHR0YyBjb2Rl
+PSJkb3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50
+Mj0iZHYwMiIgc3RlbT0ieTogMjYwIi8+CiAgICA8
+dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50MT0iZGgw
+MSIgcG9pbnQyPSJzdjAxIiBzdGVtPSJ5OiAyNjAi
+Lz4KICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9p
+bnQxPSJkdjAxIiBwb2ludDI9InN2MDIiLz4KICA8
+L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii04IiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIxMjEwIiB3aWR0aD0iMjgzIiAv
+PgogICAgICA8dnN0ZW0gcG9zPSI0IiB3aWR0aD0i
+MjU4IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNjgi
+IHdpZHRoPSIxOTEiIC8+CiAgICAgIDx2c3RlbSBw
+b3M9IjY3NSIgd2lkdGg9IjE5MSIgLz4KICAgICAg
+PHZzdGVtIHBvcz0iOTczIiB3aWR0aD0iMjU4IiAv
+PgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQg
+cG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
+cG9zPSItMjgiIHdpZHRoPSIyODIiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjEyMTAiIHdpZHRoPSIyODMi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQiIHdpZHRo
+PSIyNTgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM2
+OCIgd2lkdGg9IjE5MSIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iNjc1IiB3aWR0aD0iMTkxIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSI5NzMiIHdpZHRoPSIyNTgi
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
+dCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3Rl
+bSBwb3M9Ii04IiB3aWR0aD0iLTIxIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMjEwIiB3aWR0aD0iMjgz
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0IiB3aWR0
+aD0iMjU4IiAvPgogICAgICA8dnN0ZW0gcG9zPSIz
+NjgiIHdpZHRoPSIxOTEiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjY3NSIgd2lkdGg9IjE5MSIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iOTczIiB3aWR0aD0iMjU4
+IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+dExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="013D"/>
+  <outline>
+    <contour>
+      <point x="215" y="1493" type="line" name="dh01"/>
+      <point x="418" y="1493" type="line" name="dh02"/>
+      <point x="418" y="170" type="line" name="sv01"/>
+      <point x="1139" y="170" type="line"/>
+      <point x="1139" y="0" type="line" name="ab01"/>
+      <point x="215" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="718" y="1491" type="line" name="at01"/>
+      <point x="916" y="1491" type="line"/>
+      <point x="803" y="1115" type="line" name="sv02"/>
+      <point x="649" y="1115" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudCIgcG9pbnQ9ImRoMDEiIHpv
+bmU9InQ6IDEiLz4KICAgIDx0dGMgY29kZT0iYWxp
+Z250IiBwb2ludD0iYXQwMSIgem9uZT0idDogMSIv
+PgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50
+PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZXYiIHBvaW50MT0iYWIwMSIg
+cG9pbnQyPSJzdjAxIiBzdGVtPSJ5OiAxNzAiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJhdDAxIiBwb2ludDI9InN2MDIiIHJvdW5kPSJ0
+cnVlIi8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjExMTUiIHdpZHRoPSIzNzgiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9IjIxNSIgd2lkdGg9
+IjIwMyIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
+bnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

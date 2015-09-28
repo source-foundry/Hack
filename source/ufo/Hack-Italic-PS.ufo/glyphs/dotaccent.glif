@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="809" y="1348" type="line" smooth="yes" name="sv01"/>
+      <point x="827" y="1348"/>
+      <point x="838" y="1357"/>
+      <point x="841" y="1375" type="curve" smooth="yes"/>
+      <point x="870" y="1519" type="line" smooth="yes"/>
+      <point x="871" y="1521" name="dv02"/>
+      <point x="871" y="1524"/>
+      <point x="871" y="1528" type="curve" smooth="yes"/>
+      <point x="871" y="1544"/>
+      <point x="862" y="1552" name="dv01"/>
+      <point x="844" y="1552" type="curve" smooth="yes"/>
+      <point x="699" y="1552" type="line" smooth="yes"/>
+      <point x="680" y="1552"/>
+      <point x="670" y="1543"/>
+      <point x="667" y="1525" type="curve" smooth="yes"/>
+      <point x="638" y="1381" type="line" smooth="yes"/>
+      <point x="637" y="1379"/>
+      <point x="637" y="1376"/>
+      <point x="637" y="1372" type="curve" smooth="yes"/>
+      <point x="637" y="1356"/>
+      <point x="646" y="1348"/>
+      <point x="664" y="1348" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50Mj0i
+ZHYwMiIgc3RlbT0ieTogMTcwIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZXYiIHBvaW50MT0iZHYwMSIg
+cG9pbnQyPSJzdjAxIi8+CiAgPC90dFByb2dyYW0+
+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzNDgiIHdpZHRoPSIyMDQiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

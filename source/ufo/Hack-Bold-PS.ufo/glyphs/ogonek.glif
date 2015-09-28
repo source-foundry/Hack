@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonek" format="1">
+  <advance width="1233"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="681" y="-401" type="curve" smooth="yes"/>
+      <point x="713" y="-401"/>
+      <point x="756" y="-399"/>
+      <point x="773" y="-396" type="curve" name="dh02"/>
+      <point x="799" y="-393"/>
+      <point x="849" y="-385"/>
+      <point x="874" y="-379" type="curve"/>
+      <point x="874" y="-223" type="line"/>
+      <point x="845" y="-235"/>
+      <point x="816" y="-243" name="ih01"/>
+      <point x="796" y="-247" type="curve" smooth="yes"/>
+      <point x="769" y="-252"/>
+      <point x="743" y="-254" name="dh01"/>
+      <point x="724" y="-254" type="curve" smooth="yes"/>
+      <point x="689" y="-254" name="dv01"/>
+      <point x="659" y="-247"/>
+      <point x="638" y="-230" type="curve" smooth="yes"/>
+      <point x="622" y="-217"/>
+      <point x="608" y="-194"/>
+      <point x="608" y="-166" type="curve" smooth="yes"/>
+      <point x="608" y="-149"/>
+      <point x="614" y="-129"/>
+      <point x="627" y="-106" type="curve" smooth="yes"/>
+      <point x="638" y="-87"/>
+      <point x="652" y="-62"/>
+      <point x="698" y="0" type="curve" name="hr01"/>
+      <point x="557" y="0" type="line"/>
+      <point x="520" y="-41"/>
+      <point x="494" y="-76"/>
+      <point x="474" y="-116" type="curve" smooth="yes"/>
+      <point x="457" y="-151"/>
+      <point x="446" y="-182"/>
+      <point x="446" y="-223" type="curve" smooth="yes"/>
+      <point x="446" y="-280"/>
+      <point x="467" y="-324"/>
+      <point x="508" y="-355" type="curve" smooth="yes"/>
+      <point x="549" y="-386"/>
+      <point x="609" y="-401"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9ImludGVycG9sYXRlaCIgcG9pbnQ9Imlo
+MDEiIHBvaW50MT0iZGgwMSIgcG9pbnQyPSJkaDAy
+Ii8+CiAgICA8dHRjIGNvZGU9ImRvdWJsZXYiIHBv
+aW50MT0iZHYwMSIgcG9pbnQyPSJpaDAxIiBzdGVt
+PSJ5OiAyNjAiLz4KICAgIDx0dGMgY29kZT0iaW50
+ZXJwb2xhdGV2IiBwb2ludD0iZGgwMiIgcG9pbnQx
+PSJkdjAxIiBwb2ludDI9ImloMDEiLz4KICA8L3R0
+UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii00MDEiIHdpZHRoPSIxNDciIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjQ0NiIgd2lkdGg9IjQyOCIg
+Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
+aXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

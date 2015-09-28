@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="1">
+  <advance width="1233"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="548" y="476" type="line"/>
+      <point x="687" y="476" type="line"/>
+      <point x="755" y="1052" type="line" name="sh01"/>
+      <point x="755" y="1508" type="line"/>
+      <point x="470" y="1508" type="line" name="at01"/>
+      <point x="470" y="1052" type="line" name="ih01"/>
+    </contour>
+    <contour>
+      <point x="615" y="-72" type="curve" smooth="yes"/>
+      <point x="638" y="-72"/>
+      <point x="660" y="-70"/>
+      <point x="683" y="-59" type="curve"/>
+      <point x="706" y="-50"/>
+      <point x="720" y="-40" name="dh02"/>
+      <point x="739" y="-20" type="curve" smooth="yes"/>
+      <point x="755" y="-3" name="dv02"/>
+      <point x="759" y="3"/>
+      <point x="767" y="18" type="curve" smooth="yes"/>
+      <point x="778" y="37"/>
+      <point x="781" y="46"/>
+      <point x="784" y="63" type="curve" smooth="yes"/>
+      <point x="787" y="80" name="dh01"/>
+      <point x="789" y="96"/>
+      <point x="789" y="112" type="curve" smooth="yes" name="dv01"/>
+      <point x="789" y="167"/>
+      <point x="773" y="212"/>
+      <point x="740" y="245" type="curve" smooth="yes"/>
+      <point x="708" y="278"/>
+      <point x="662" y="296"/>
+      <point x="617" y="296" type="curve" smooth="yes"/>
+      <point x="606" y="296"/>
+      <point x="594" y="295"/>
+      <point x="586" y="294" type="curve"/>
+      <point x="560" y="288" type="line"/>
+      <point x="535" y="278" type="line" smooth="yes"/>
+      <point x="526" y="274"/>
+      <point x="517" y="268"/>
+      <point x="512" y="264" type="curve" smooth="yes"/>
+      <point x="507" y="259"/>
+      <point x="506" y="259"/>
+      <point x="491" y="244" type="curve" smooth="yes"/>
+      <point x="458" y="211"/>
+      <point x="441" y="168"/>
+      <point x="441" y="113" type="curve" smooth="yes"/>
+      <point x="441" y="57"/>
+      <point x="458" y="12"/>
+      <point x="491" y="-21" type="curve" smooth="yes"/>
+      <point x="522" y="-52"/>
+      <point x="564" y="-72"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAyIiBk
+ZWx0YT0iLTIiIHBwbTE9IjkiIHBwbTI9IjEwIi8+
+CiAgICA8dHRjIGNvZGU9ImludGVycG9sYXRlaCIg
+cG9pbnQ9ImloMDEiIHBvaW50MT0iZGgwMSIgcG9p
+bnQyPSJkaDAyIiBhbGlnbj0icm91bmQiLz4KICAg
+IDx0dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQxPSJp
+aDAxIiBwb2ludDI9InNoMDEiIHN0ZW09Ilg6IDI5
+MyIvPgogICAgPHR0YyBjb2RlPSJhbGlnbnQiIHBv
+aW50PSJhdDAxIiB6b25lPSJ0OiAxIi8+CiAgICA8
+dHRjIGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYw
+MSIgcG9pbnQyPSJkdjAyIiBzdGVtPSJ5OiAyNjAi
+Lz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii03MiIgd2lkdGg9IjM2OCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTUwOCIgd2lkdGg9Ii0yMCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iNDQxIiB3aWR0
+aD0iMzQ4IiAvPgogICAgPC9oaW50c2V0PgogIDwv
+aGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="1233"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="349" y="-401" type="qcurve" name="dv01"/>
+      <point x="323" y="-401"/>
+      <point x="266" y="-397"/>
+      <point x="249" y="-395" type="qcurve"/>
+      <point x="243" y="-394"/>
+      <point x="216" y="-390"/>
+      <point x="186" y="-384"/>
+      <point x="157" y="-378"/>
+      <point x="150" y="-375" type="qcurve"/>
+      <point x="178" y="-219" type="line"/>
+      <point x="200" y="-227"/>
+      <point x="242" y="-240"/>
+      <point x="262" y="-245" type="qcurve"/>
+      <point x="302" y="-254"/>
+      <point x="339" y="-254" type="qcurve" name="dv02"/>
+      <point x="373" y="-254"/>
+      <point x="426" y="-240"/>
+      <point x="443" y="-227" type="qcurve"/>
+      <point x="479" y="-200"/>
+      <point x="479" y="-151" type="qcurve"/>
+      <point x="479" y="-123"/>
+      <point x="466" y="-90" type="qcurve"/>
+      <point x="460" y="-74"/>
+      <point x="438" y="-28"/>
+      <point x="422" y="0" type="qcurve" name="sv01"/>
+      <point x="563" y="0" type="line"/>
+      <point x="599" y="-49"/>
+      <point x="617" y="-94" type="qcurve"/>
+      <point x="635" y="-141"/>
+      <point x="635" y="-185" type="qcurve"/>
+      <point x="635" y="-232"/>
+      <point x="598" y="-313"/>
+      <point x="560" y="-342" type="qcurve"/>
+      <point x="523" y="-371"/>
+      <point x="416" y="-401"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50Mj0i
+ZHYwMiIgc3RlbT0iWTogMTcyIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZXYiIHBvaW50MT0iZHYwMSIg
+cG9pbnQyPSJzdjAxIiBzdGVtPSJ5OiAyNjAiLz4K
+ICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
+dD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

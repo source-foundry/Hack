@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0159"/>
+  <outline>
+    <contour>
+      <point x="337" y="1673" type="line" name="ih01"/>
+      <point x="476" y="1673" type="line"/>
+      <point x="656" y="1428" type="line" name="iv01"/>
+      <point x="837" y="1673" type="line" name="av01"/>
+      <point x="976" y="1673" type="line"/>
+      <point x="730" y="1297" type="line"/>
+      <point x="583" y="1297" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="1120" type="line" name="dh01"/>
+      <point x="469" y="1120" type="line" name="hr01"/>
+      <point x="487" y="901" type="line" name="dh02"/>
+      <point x="532" y="1017"/>
+      <point x="719" y="1147"/>
+      <point x="856" y="1147" type="qcurve" name="sv02"/>
+      <point x="923" y="1147"/>
+      <point x="1041" y="1113"/>
+      <point x="1095" y="1077" type="qcurve"/>
+      <point x="1095" y="889" type="line" name="iv02"/>
+      <point x="1035" y="935"/>
+      <point x="914" y="977"/>
+      <point x="841" y="977" type="qcurve" name="sv01"/>
+      <point x="668" y="977"/>
+      <point x="487" y="762"/>
+      <point x="487" y="557" type="qcurve" name="sh01"/>
+      <point x="487" y="0" type="line" name="ab01"/>
+      <point x="302" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMTg0Ii8+CiAgICA8dHRj
+IGNvZGU9ImludGVycG9sYXRlaCIgcG9pbnQ9Imlo
+MDEiIHBvaW50MT0iZGgwMSIgcG9pbnQyPSJkaDAy
+Ii8+CiAgICA8dHRjIGNvZGU9InNpbmdsZWgiIHBv
+aW50MT0iZGgwMiIgcG9pbnQyPSJzaDAxIi8+CiAg
+ICA8dHRjIGNvZGU9ImFsaWdudiIgcG9pbnQ9Imlo
+MDEiIGFsaWduPSJyb3VuZCIvPgogICAgPHR0YyBj
+b2RlPSJhbGlnbnYiIHBvaW50PSJhdjAxIiBhbGln
+bj0icm91bmQiLz4KICAgIDx0dGMgY29kZT0iYWxp
+Z250IiBwb2ludD0iZGgwMSIgem9uZT0idDogMCIv
+PgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50
+PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8dHRj
+IGNvZGU9ImludGVycG9sYXRldiIgcG9pbnQ9Iml2
+MDEiIHBvaW50MT0iYWIwMSIgcG9pbnQyPSJpaDAx
+Ii8+CiAgICA8dHRjIGNvZGU9ImludGVycG9sYXRl
+diIgcG9pbnQ9ImRoMDIiIHBvaW50MT0iYWIwMSIg
+cG9pbnQyPSJpaDAxIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZXYiIHBvaW50MT0iZGgwMSIgcG9pbnQy
+PSJzdjAxIiBzdGVtPSJ5OiAxNDMiLz4KICAgIDx0
+dGMgY29kZT0ibWRlbHRhdiIgcG9pbnQ9InN2MDEi
+IGRlbHRhPSIxIiBwcG0xPSI5IiBwcG0yPSI5Ii8+
+CiAgICA8dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50
+MT0ic3YwMSIgcG9pbnQyPSJzdjAyIiBzdGVtPSJ5
+OiAxNzAiLz4KICAgIDx0dGMgY29kZT0iaW50ZXJw
+b2xhdGV2IiBwb2ludD0iaXYwMiIgcG9pbnQxPSJh
+YjAxIiBwb2ludDI9ImloMDEiLz4KICA8L3R0UHJv
+Z3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI5NzciIHdpZHRoPSIxNDMiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE2NzMiIHdpZHRo
+PSItMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjMw
+MiIgd2lkdGg9IjE4NSIgLz4KICAgIDwvaGludHNl
+dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

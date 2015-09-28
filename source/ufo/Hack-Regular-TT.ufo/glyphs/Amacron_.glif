@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Amacron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0100"/>
+  <outline>
+    <contour>
+      <point x="317" y="1800" type="line" name="hr00"/>
+      <point x="915" y="1800" type="line" name="dv02"/>
+      <point x="915" y="1652" type="line" name="dv01"/>
+      <point x="317" y="1652" type="line"/>
+    </contour>
+    <contour>
+      <point x="494" y="1493" type="line" name="at01"/>
+      <point x="739" y="1493" type="line"/>
+      <point x="1196" y="0" type="line" name="ab01"/>
+      <point x="987" y="0" type="line"/>
+      <point x="877" y="389" type="line" name="dv03"/>
+      <point x="354" y="389" type="line"/>
+      <point x="246" y="0" type="line" name="ab02"/>
+      <point x="37" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="829" y="551" type="line" name="dv04"/>
+      <point x="616" y="1315" type="line"/>
+      <point x="403" y="551" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnQiIHBvaW50PSJhdDAxIiB6b25lPSJ0OiAx
+Ii8+CiAgICA8dHRjIGNvZGU9ImFsaWduYiIgcG9p
+bnQ9ImFiMDEiIHpvbmU9ImI6IDAiLz4KICAgIDx0
+dGMgY29kZT0iYWxpZ25iIiBwb2ludD0iYWIwMiIg
+em9uZT0iYjogMCIvPgogICAgPHR0YyBjb2RlPSJk
+b3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50Mj0i
+ZHYwMiIgc3RlbT0ieTogMTQzIi8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYwMyIg
+cG9pbnQyPSJkdjA0IiBzdGVtPSJZOiAxNTYiLz4K
+ICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIzODkiIHdpZHRoPSIxNjIiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE0OTMiIHdpZHRo
+PSItMjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
+NTIiIHdpZHRoPSIxNDgiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

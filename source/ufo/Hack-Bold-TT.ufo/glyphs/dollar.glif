@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="1">
+  <advance width="1233"/>
+  <unicode hex="0024"/>
+  <outline>
+    <contour>
+      <point x="552" y="0" type="line" name="sh01"/>
+      <point x="467" y="3"/>
+      <point x="370" y="26" type="qcurve"/>
+      <point x="275" y="48"/>
+      <point x="172" y="92" type="qcurve" name="sh02"/>
+      <point x="172" y="354" type="line" name="ih01"/>
+      <point x="275" y="293"/>
+      <point x="372" y="260" type="qcurve"/>
+      <point x="423" y="243"/>
+      <point x="511" y="227"/>
+      <point x="553" y="226" type="qcurve" name="dh03"/>
+      <point x="553" y="555" type="line"/>
+      <point x="356" y="594"/>
+      <point x="260" y="690" type="qcurve"/>
+      <point x="164" y="784"/>
+      <point x="164" y="943" type="qcurve" name="dh01"/>
+      <point x="164" y="1109"/>
+      <point x="266" y="1208" type="qcurve"/>
+      <point x="368" y="1307"/>
+      <point x="553" y="1319" type="qcurve" name="sh03"/>
+      <point x="553" y="1556" type="line" name="sh05"/>
+      <point x="694" y="1556" type="line" name="sh06"/>
+      <point x="695" y="1319" type="line"/>
+      <point x="767" y="1314"/>
+      <point x="843" y="1301" type="qcurve"/>
+      <point x="877" y="1295"/>
+      <point x="954" y="1276"/>
+      <point x="999" y="1262" type="qcurve"/>
+      <point x="999" y="1006" type="line" name="sh07"/>
+      <point x="966" y="1028"/>
+      <point x="895" y="1059"/>
+      <point x="861" y="1070" type="qcurve"/>
+      <point x="822" y="1082"/>
+      <point x="740" y="1097"/>
+      <point x="694" y="1100" type="qcurve" name="sh08"/>
+      <point x="694" y="793" type="line"/>
+      <point x="893" y="761"/>
+      <point x="992" y="659" type="qcurve"/>
+      <point x="1043" y="607"/>
+      <point x="1092" y="469"/>
+      <point x="1092" y="386" type="qcurve" name="dh06"/>
+      <point x="1092" y="300"/>
+      <point x="1038" y="167"/>
+      <point x="984" y="114" type="qcurve"/>
+      <point x="923" y="55"/>
+      <point x="776" y="5"/>
+      <point x="695" y="0" type="qcurve" name="sh09"/>
+      <point x="694" y="-301" type="line" name="av01"/>
+      <point x="553" y="-301" type="line" name="sh10"/>
+    </contour>
+    <contour>
+      <point x="553" y="1100" type="line" name="sh04"/>
+      <point x="492" y="1093"/>
+      <point x="460" y="1059" type="qcurve"/>
+      <point x="446" y="1045"/>
+      <point x="428" y="999"/>
+      <point x="428" y="967" type="qcurve" name="dh02"/>
+      <point x="428" y="910"/>
+      <point x="460" y="872" type="qcurve"/>
+      <point x="493" y="833"/>
+      <point x="553" y="817" type="qcurve" name="ih02"/>
+    </contour>
+    <contour>
+      <point x="694" y="226" type="line" name="dh04"/>
+      <point x="730" y="231"/>
+      <point x="776" y="257"/>
+      <point x="792" y="275" type="qcurve"/>
+      <point x="827" y="315"/>
+      <point x="827" y="376" type="qcurve" name="dh05"/>
+      <point x="827" y="437"/>
+      <point x="793" y="477" type="qcurve"/>
+      <point x="777" y="495"/>
+      <point x="729" y="521"/>
+      <point x="694" y="528" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjM2Ii8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZWgiIHBvaW50MT0iZGgwMyIg
+cG9pbnQyPSJkaDA0IiBzdGVtPSJYOiAxNjAiLz4K
+ICAgIDx0dGMgY29kZT0iZG91YmxlaCIgcG9pbnQx
+PSJkaDA1IiBwb2ludDI9ImRoMDYiIHN0ZW09Ilg6
+IDI5MyIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGVo
+IiBwb2ludDE9ImRoMDMiIHBvaW50Mj0ic2gwMSIg
+YWxpZ249InJvdW5kIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZWgiIHBvaW50MT0iZGgwMSIgcG9pbnQy
+PSJzaDAyIiBhbGlnbj0icm91bmQiLz4KICAgIDx0
+dGMgY29kZT0ibWRlbHRhaCIgcG9pbnQ9ImRoMDIi
+IGRlbHRhPSItMiIgcHBtMT0iOSIgcHBtMj0iOSIv
+PgogICAgPHR0YyBjb2RlPSJpbnRlcnBvbGF0ZWgi
+IHBvaW50PSJpaDAxIiBwb2ludDE9ImRoMDEiIHBv
+aW50Mj0iZGgwMiIvPgogICAgPHR0YyBjb2RlPSJz
+aW5nbGVoIiBwb2ludDE9ImRoMDMiIHBvaW50Mj0i
+c2gwMyIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGVo
+IiBwb2ludDE9ImRoMDMiIHBvaW50Mj0ic2gwNCIv
+PgogICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2lu
+dDE9InNoMDQiIHBvaW50Mj0ic2gwNSIvPgogICAg
+PHR0YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9ImRo
+MDQiIHBvaW50Mj0ic2gwNiIvPgogICAgPHR0YyBj
+b2RlPSJzaW5nbGVoIiBwb2ludDE9ImRoMDMiIHBv
+aW50Mj0ic2gwNyIgc3RlbT0iWDogMjk1Ii8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZWgiIHBvaW50MT0i
+ZGgwNCIgcG9pbnQyPSJzaDA4Ii8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZWgiIHBvaW50MT0iZGgwNCIg
+cG9pbnQyPSJzaDA5IiBhbGlnbj0icm91bmQiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQx
+PSJzaDA0IiBwb2ludDI9InNoMTAiLz4KICAgIDx0
+dGMgY29kZT0iaW50ZXJwb2xhdGVoIiBwb2ludD0i
+aWgwMiIgcG9pbnQxPSJkaDAxIiBwb2ludDI9ImRo
+MDYiLz4KICAgIDx0dGMgY29kZT0ibWRlbHRhaCIg
+cG9pbnQ9ImRoMDUiIGRlbHRhPSIyIiBwcG0xPSI5
+IiBwcG0yPSI5Ii8+CiAgICA8dHRjIGNvZGU9InNp
+bmdsZWgiIHBvaW50MT0iZGgwNiIgcG9pbnQyPSJy
+c2IiIHJvdW5kPSJ0cnVlIi8+CiAgICA8dHRjIGNv
+ZGU9ImFsaWdudiIgcG9pbnQ9ImF2MDEiIGFsaWdu
+PSJyb3VuZCIvPgogICAgPHR0YyBjb2RlPSJhbGln
+bnQiIHBvaW50PSJzaDA1IiB6b25lPSJ0OiAyIi8+
+CiAgICA8dHRjIGNvZGU9ImludGVycG9sYXRldiIg
+cG9pbnQ9ImloMDEiIHBvaW50MT0iYXYwMSIgcG9p
+bnQyPSJzaDA1Ii8+CiAgICA8dHRjIGNvZGU9Imlu
+dGVycG9sYXRldiIgcG9pbnQ9InNoMDciIHBvaW50
+MT0iYXYwMSIgcG9pbnQyPSJzaDA1Ii8+CiAgICA8
+dHRjIGNvZGU9ImludGVycG9sYXRldiIgcG9pbnQ9
+ImloMDIiIHBvaW50MT0iYXYwMSIgcG9pbnQyPSJz
+aDA1Ii8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZGgwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yODAiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjE1NTYiIHdpZHRoPSItMjAi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjE2NCIgd2lk
+dGg9IjI2NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+NTUzIiB3aWR0aD0iNDQ2IiAvPgogICAgPC9oaW50
+c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImRo
+MDYiPgogICAgICA8aHN0ZW0gcG9zPSItMjgwIiB3
+aWR0aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9z
+PSIxNTU2IiB3aWR0aD0iLTIwIiAvPgogICAgICA8
+dnN0ZW0gcG9zPSIxNjQiIHdpZHRoPSIyNjQiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9IjU1MyIgd2lkdGg9
+IjE0MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iODI3
+IiB3aWR0aD0iMjY1IiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

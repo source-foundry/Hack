@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="1">
+  <advance width="1233"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="243" y="-270" type="line" name="av01"/>
+      <point x="476" y="43"/>
+      <point x="593" y="344" type="qcurve"/>
+      <point x="710" y="645"/>
+      <point x="710" y="939" type="qcurve" name="dh01"/>
+      <point x="710" y="1010"/>
+      <point x="696" y="1157"/>
+      <point x="682" y="1235" type="qcurve"/>
+      <point x="653" y="1390"/>
+      <point x="597" y="1554" type="qcurve" name="at01"/>
+      <point x="822" y="1554" type="line"/>
+      <point x="904" y="1381"/>
+      <point x="944" y="1218" type="qcurve"/>
+      <point x="964" y="1135"/>
+      <point x="984" y="972"/>
+      <point x="984" y="892" type="qcurve" name="dh02"/>
+      <point x="984" y="746"/>
+      <point x="920" y="456"/>
+      <point x="855" y="310" type="qcurve"/>
+      <point x="791" y="166"/>
+      <point x="597" y="-124"/>
+      <point x="468" y="-270" type="qcurve" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjg2Ii8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAxIiBk
+ZWx0YT0iMiIgcHBtMT0iOSIgcHBtMj0iOSIvPgog
+ICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9
+ImRoMDIiIHBvaW50Mj0icnNiIiByb3VuZD0idHJ1
+ZSIvPgogICAgPHR0YyBjb2RlPSJhbGlnbnYiIHBv
+aW50PSJhdjAxIiBhbGlnbj0icm91bmQiLz4KICAg
+IDx0dGMgY29kZT0iYWxpZ252IiBwb2ludD0iYXYw
+MiIgYWxpZ249InJvdW5kIi8+CiAgICA8dHRjIGNv
+ZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEiIHpvbmU9
+InQ6IDIiLz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yNDkiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjE1NTQiIHdpZHRoPSItMjAi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjcxMCIgd2lk
+dGg9IjI3NCIgLz4KICAgIDwvaGludHNldD4KICA8
+L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

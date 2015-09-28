@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="invbullet" format="1">
+  <advance width="1233"/>
+  <unicode hex="25D8"/>
+  <outline>
+    <contour>
+      <point x="-20" y="-20" type="line" name="sh02"/>
+      <point x="1253" y="-20" type="line" name="sh01"/>
+      <point x="1253" y="1576" type="line"/>
+      <point x="-20" y="1576" type="line" name="av01"/>
+    </contour>
+    <contour>
+      <point x="614" y="465" type="curve" smooth="yes"/>
+      <point x="449" y="465" name="sh03"/>
+      <point x="319" y="596"/>
+      <point x="319" y="761" type="curve" smooth="yes" name="ah02"/>
+      <point x="319" y="926" name="sv01"/>
+      <point x="450" y="1057" name="ah01"/>
+      <point x="615" y="1057" type="curve" smooth="yes" name="sh04"/>
+      <point x="782" y="1057"/>
+      <point x="913" y="926"/>
+      <point x="913" y="762" type="curve" smooth="yes"/>
+      <point x="913" y="597"/>
+      <point x="782" y="465"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmgiIHBvaW50PSJhaDAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ25oIiBw
+b2ludD0iYWgwMiIgYWxpZ249InJvdW5kIi8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZWgiIHBvaW50MT0i
+YWgwMiIgcG9pbnQyPSJzaDAxIiBzdGVtPSJYOiAy
+MDMiLz4KICAgIDx0dGMgY29kZT0ic2luZ2xlaCIg
+cG9pbnQxPSJhaDAxIiBwb2ludDI9InNoMDIiIGFs
+aWduPSJyb3VuZCIvPgogICAgPHR0YyBjb2RlPSJz
+aW5nbGVoIiBwb2ludDE9InNoMDIiIHBvaW50Mj0i
+c2gwMyIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZWgiIHBvaW50MT0ic2gwMSIg
+cG9pbnQyPSJzaDA0IiByb3VuZD0idHJ1ZSIvPgog
+ICAgPHR0YyBjb2RlPSJhbGlnbnYiIHBvaW50PSJh
+djAxIiBhbGlnbj0icm91bmQiLz4KICAgIDx0dGMg
+Y29kZT0iYWxpZ25iIiBwb2ludD0ic2gwMSIgem9u
+ZT0iYjogMCIvPgogICAgPHR0YyBjb2RlPSJzaW5n
+bGV2IiBwb2ludDE9InNoMDEiIHBvaW50Mj0ic3Yw
+MSIgcm91bmQ9InRydWUiLz4KICAgIDx0dGMgY29k
+ZT0ibWRlbHRhdiIgcG9pbnQ9InN2MDEiIGRlbHRh
+PSItMSIgcHBtMT0iOSIgcHBtMj0iMjEiLz4KICAg
+IDx0dGMgY29kZT0ibWRlbHRhdiIgcG9pbnQ9InN2
+MDEiIGRlbHRhPSItMiIgcHBtMT0iMjIiIHBwbTI9
+IjIzIi8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0ic2gwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yMCIgd2lkdGg9IjQ4NSIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTU3NiIgd2lkdGg9Ii0yMCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iLTIwIiB3aWR0
+aD0iMzM5IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5
+MTMiIHdpZHRoPSIzNDAiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

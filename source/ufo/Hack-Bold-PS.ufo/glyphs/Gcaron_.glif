@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="01E6"/>
+  <outline>
+    <contour>
+      <point x="558" y="1588" type="line"/>
+      <point x="867" y="1588" type="line"/>
+      <point x="1090" y="1852" type="line" name="ih02"/>
+      <point x="912" y="1852" type="line" name="av01"/>
+      <point x="713" y="1690" type="line"/>
+      <point x="515" y="1852" type="line"/>
+      <point x="337" y="1852" type="line" name="ih01"/>
+    </contour>
+    <contour>
+      <point x="719" y="-29" type="curve" smooth="yes"/>
+      <point x="878" y="-29"/>
+      <point x="1015" y="20" name="dh04"/>
+      <point x="1130" y="119" type="curve" name="dh03"/>
+      <point x="1130" y="803" type="line" name="dv03"/>
+      <point x="670" y="803" type="line"/>
+      <point x="670" y="555" type="line" name="sh01"/>
+      <point x="872" y="555" type="line" name="dv02"/>
+      <point x="872" y="270" type="line" name="dh02"/>
+      <point x="844" y="247" name="sv01"/>
+      <point x="796" y="236" name="ih03"/>
+      <point x="743" y="236" type="curve" smooth="yes"/>
+      <point x="528" y="236" name="at01"/>
+      <point x="424" y="411" name="dh01"/>
+      <point x="424" y="747" type="curve" smooth="yes" name="dv01"/>
+      <point x="424" y="1086"/>
+      <point x="535" y="1255" name="sh02"/>
+      <point x="758" y="1255" type="curve" smooth="yes"/>
+      <point x="887" y="1255"/>
+      <point x="994" y="1201"/>
+      <point x="1077" y="1094" type="curve"/>
+      <point x="1077" y="1421" type="line"/>
+      <point x="970" y="1488"/>
+      <point x="862" y="1520"/>
+      <point x="727" y="1520" type="curve" smooth="yes"/>
+      <point x="342" y="1520"/>
+      <point x="117" y="1247"/>
+      <point x="117" y="747" type="curve" smooth="yes"/>
+      <point x="117" y="251"/>
+      <point x="338" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZWgiIHBvaW50MT0iZGgwMyIg
+cG9pbnQyPSJkaDA0IiBzdGVtPSJYOiAyOTUiLz4K
+ICAgIDx0dGMgY29kZT0ibWRlbHRhaCIgcG9pbnQ9
+ImRoMDIiIGRlbHRhPSItMiIgcHBtMT0iOSIgcHBt
+Mj0iMTAiLz4KICAgIDx0dGMgY29kZT0iaW50ZXJw
+b2xhdGVoIiBwb2ludD0iaWgwMSIgcG9pbnQxPSJk
+aDAxIiBwb2ludDI9ImRoMDIiLz4KICAgIDx0dGMg
+Y29kZT0iaW50ZXJwb2xhdGVoIiBwb2ludD0iaWgw
+MiIgcG9pbnQxPSJkaDAzIiBwb2ludDI9ImRoMDQi
+Lz4KICAgIDx0dGMgY29kZT0iaW50ZXJwb2xhdGVo
+IiBwb2ludD0iaWgwMyIgcG9pbnQxPSJkaDAzIiBw
+b2ludDI9ImRoMDQiLz4KICAgIDx0dGMgY29kZT0i
+c2luZ2xlaCIgcG9pbnQxPSJkaDA0IiBwb2ludDI9
+InNoMDEiIHN0ZW09Ilg6IDIzNiIvPgogICAgPHR0
+YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9ImRoMDQi
+IHBvaW50Mj0ic2gwMiIgcm91bmQ9InRydWUiLz4K
+ICAgIDx0dGMgY29kZT0iYWxpZ252IiBwb2ludD0i
+aWgwMSIgYWxpZ249InJvdW5kIi8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudiIgcG9pbnQ9ImF2MDEiIGFs
+aWduPSJyb3VuZCIvPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnQiIHBvaW50PSJhdDAxIiB6b25lPSJ0OiAx
+Ii8+CiAgICA8dHRjIGNvZGU9ImRvdWJsZXYiIHBv
+aW50MT0iZHYwMSIgcG9pbnQyPSJkdjAyIiBzdGVt
+PSJ5OiAyNjAiLz4KICAgIDx0dGMgY29kZT0iZG91
+YmxldiIgcG9pbnQxPSJkdjAzIiBwb2ludDI9ImRo
+MDMiIHN0ZW09Ink6IDI2MCIvPgogICAgPHR0YyBj
+b2RlPSJzaW5nbGV2IiBwb2ludDE9ImF0MDEiIHBv
+aW50Mj0ic3YwMSIgc3RlbT0ieTogMjYwIi8+CiAg
+ICA8dHRjIGNvZGU9Im1kZWx0YXYiIHBvaW50PSJz
+djAxIiBkZWx0YT0iMSIgcHBtMT0iOSIgcHBtMj0i
+OSIvPgogIDwvdHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjI2NSIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iNTU1IiB3aWR0aD0iMjQ4IiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxMjU1IiB3aWR0
+aD0iMjY1IiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
+ODUyIiB3aWR0aD0iLTIwIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSIxMTciIHdpZHRoPSIzMDciIC8+CiAg
+ICAgIDx2c3RlbSBwb3M9Ijg3MiIgd2lkdGg9IjI1
+OCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+ZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

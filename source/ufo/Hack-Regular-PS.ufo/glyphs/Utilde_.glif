@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Utilde" format="1">
+  <advance width="1233"/>
+  <unicode hex="0168"/>
+  <outline>
+    <contour>
+      <point x="412" y="1633" type="line"/>
+      <point x="412" y="1639" type="line" smooth="yes"/>
+      <point x="412" y="1699" name="dv03"/>
+      <point x="441" y="1734"/>
+      <point x="486" y="1734" type="curve" smooth="yes" name="hr01"/>
+      <point x="505" y="1734" name="dv05"/>
+      <point x="522" y="1728"/>
+      <point x="555" y="1709" type="curve" smooth="yes" name="sv02"/>
+      <point x="612" y="1676" type="line"/>
+      <point x="673" y="1644" name="dv06"/>
+      <point x="710" y="1633"/>
+      <point x="753" y="1633" type="curve" smooth="yes" name="hr02"/>
+      <point x="877" y="1633" name="dv04"/>
+      <point x="941" y="1721" name="sv01"/>
+      <point x="946" y="1852" type="curve" name="hr03"/>
+      <point x="821" y="1852" type="line"/>
+      <point x="821" y="1846" type="line" smooth="yes"/>
+      <point x="821" y="1790" name="sh05"/>
+      <point x="791" y="1754"/>
+      <point x="750" y="1754" type="curve" smooth="yes" name="at02"/>
+      <point x="731" y="1754" name="ah02"/>
+      <point x="707" y="1762" name="sh04"/>
+      <point x="678" y="1779" type="curve"/>
+      <point x="621" y="1809" type="line" smooth="yes" name="dv02"/>
+      <point x="570" y="1836"/>
+      <point x="535" y="1852" name="sh03"/>
+      <point x="482" y="1852" type="curve" smooth="yes" name="sh02"/>
+      <point x="357" y="1852"/>
+      <point x="287" y="1769" name="at01"/>
+      <point x="287" y="1633" type="curve" name="sh01"/>
+    </contour>
+    <contour>
+      <point x="618" y="-29" type="curve" smooth="yes"/>
+      <point x="686" y="-29"/>
+      <point x="749" y="-19" name="dv01"/>
+      <point x="807" y="0" type="curve" smooth="yes" name="ah01"/>
+      <point x="912" y="35" name="sh06"/>
+      <point x="1014" y="108"/>
+      <point x="1056" y="248" type="curve"/>
+      <point x="1075" y="316"/>
+      <point x="1085" y="405"/>
+      <point x="1085" y="573" type="curve" smooth="yes"/>
+      <point x="1085" y="1493" type="line"/>
+      <point x="883" y="1493" type="line"/>
+      <point x="883" y="479" type="line" smooth="yes"/>
+      <point x="883" y="407"/>
+      <point x="881" y="356"/>
+      <point x="877" y="325" type="curve" smooth="yes"/>
+      <point x="873" y="294"/>
+      <point x="865" y="270"/>
+      <point x="857" y="254" type="curve" smooth="yes"/>
+      <point x="820" y="178"/>
+      <point x="729" y="135"/>
+      <point x="616" y="135" type="curve" smooth="yes"/>
+      <point x="560" y="135"/>
+      <point x="509" y="145"/>
+      <point x="470" y="164" type="curve" smooth="yes"/>
+      <point x="391" y="201"/>
+      <point x="364" y="269"/>
+      <point x="356" y="326" type="curve" smooth="yes"/>
+      <point x="352" y="357"/>
+      <point x="350" y="408"/>
+      <point x="350" y="481" type="curve" smooth="yes"/>
+      <point x="350" y="1493" type="line"/>
+      <point x="147" y="1493" type="line"/>
+      <point x="147" y="573" type="line" smooth="yes"/>
+      <point x="147" y="409"/>
+      <point x="157" y="313"/>
+      <point x="176" y="250" type="curve" smooth="yes"/>
+      <point x="195" y="186"/>
+      <point x="226" y="131"/>
+      <point x="274" y="87" type="curve" smooth="yes"/>
+      <point x="354" y="15"/>
+      <point x="473" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmgiIHBvaW50PSJhaDAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ25oIiBw
+b2ludD0iYWgwMiIgYWxpZ249InJvdW5kIi8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZWgiIHBvaW50MT0i
+YWgwMSIgcG9pbnQyPSJzaDAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0ic2luZ2xlaCIg
+cG9pbnQxPSJzaDAxIiBwb2ludDI9InNoMDIiIHN0
+ZW09Ilg6IDIwMyIvPgogICAgPHR0YyBjb2RlPSJz
+aW5nbGVoIiBwb2ludDE9InNoMDIiIHBvaW50Mj0i
+c2gwMyIgYWxpZ249InJvdW5kIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZWgiIHBvaW50MT0iYWgwMiIg
+cG9pbnQyPSJzaDA0IiBhbGlnbj0icm91bmQiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQx
+PSJhaDAyIiBwb2ludDI9InNoMDUiIHN0ZW09Ilg6
+IDIwMyIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGVo
+IiBwb2ludDE9InNoMDUiIHBvaW50Mj0ic2gwNiIg
+cm91bmQ9InRydWUiLz4KICAgIDx0dGMgY29kZT0i
+YWxpZ250IiBwb2ludD0iYXQwMSIgem9uZT0idDog
+MSIvPgogICAgPHR0YyBjb2RlPSJhbGlnbnQiIHBv
+aW50PSJhdDAyIiB6b25lPSJ0OiAxIi8+CiAgICA8
+dHRjIGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYw
+MSIgcG9pbnQyPSJkdjAyIiBzdGVtPSJ5OiAxNzAi
+Lz4KICAgIDx0dGMgY29kZT0iZG91YmxldiIgcG9p
+bnQxPSJkdjAzIiBwb2ludDI9ImR2MDQiIHN0ZW09
+Ink6IDE0MyIvPgogICAgPHR0YyBjb2RlPSJkb3Vi
+bGV2IiBwb2ludDE9ImR2MDUiIHBvaW50Mj0iZHYw
+NiIgc3RlbT0ieTogMTQzIi8+CiAgICA8dHRjIGNv
+ZGU9InNpbmdsZXYiIHBvaW50MT0iZHYwNSIgcG9p
+bnQyPSJzdjAxIi8+CiAgICA8dHRjIGNvZGU9InNp
+bmdsZXYiIHBvaW50MT0iZHYwNCIgcG9pbnQyPSJz
+djAyIi8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjE2NCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTQ5MyIgd2lkdGg9Ii0yMCIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMTczNCIgd2lk
+dGg9IjExOCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+MTQ3IiB3aWR0aD0iMjAzIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI4ODMiIHdpZHRoPSIyMDIiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
+dFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9
+Ii0yOSIgd2lkdGg9IjE2NCIgLz4KICAgICAgPGhz
+dGVtIHBvcz0iMTQ5MyIgd2lkdGg9Ii0yMCIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTYzMyIgd2lkdGg9
+IjEyMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTQ3
+IiB3aWR0aD0iMjAzIiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI4ODMiIHdpZHRoPSIyMDIiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRh
+Zz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0y
+OSIgd2lkdGg9IjE2NCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTQ5MyIgd2lkdGg9Ii0yMCIgLz4KICAg
+ICAgPGhzdGVtIHBvcz0iMTczNCIgd2lkdGg9IjEx
+OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTQ3IiB3
+aWR0aD0iMjAzIiAvPgogICAgICA8dnN0ZW0gcG9z
+PSI4ODMiIHdpZHRoPSIyMDIiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
+YXQwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIg
+d2lkdGg9IjE2NCIgLz4KICAgICAgPGhzdGVtIHBv
+cz0iMTQ5MyIgd2lkdGg9Ii0yMCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTYzMyIgd2lkdGg9IjEyMSIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iMTQ3IiB3aWR0
+aD0iMjAzIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+ODMiIHdpZHRoPSIyMDIiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0ic2gw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
+dGg9IjE2NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+MTQ5MyIgd2lkdGg9Ii0yMCIgLz4KICAgICAgPGhz
+dGVtIHBvcz0iMTczNCIgd2lkdGg9IjExOCIgLz4K
+ICAgICAgPHZzdGVtIHBvcz0iMTQ3IiB3aWR0aD0i
+MjAzIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4ODMi
+IHdpZHRoPSIyMDIiIC8+CiAgICA8L2hpbnRzZXQ+
+CiAgICA8aGludHNldCBwb2ludFRhZz0ic2gwMSI+
+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lkdGg9
+IjE2NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTQ5
+MyIgd2lkdGg9Ii0yMCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTYzMyIgd2lkdGg9IjEyMSIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMTQ3IiB3aWR0aD0iMjAz
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4ODMiIHdp
+ZHRoPSIyMDIiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

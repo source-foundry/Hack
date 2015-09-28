@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ycircumflex" format="1">
+  <advance width="1233"/>
+  <unicode hex="0177"/>
+  <outline>
+    <contour>
+      <point x="507" y="1646" type="line" name="av01"/>
+      <point x="748" y="1646" type="line"/>
+      <point x="1004" y="1270" type="line" name="iv01"/>
+      <point x="826" y="1270" type="line"/>
+      <point x="627" y="1495" type="line"/>
+      <point x="429" y="1270" type="line"/>
+      <point x="251" y="1270" type="line" name="iv02"/>
+    </contour>
+    <contour>
+      <point x="137" y="-201" type="line" name="sv01"/>
+      <point x="256" y="-201" type="line"/>
+      <point x="300" y="-201"/>
+      <point x="364" y="-188"/>
+      <point x="413" y="-151"/>
+      <point x="453" y="-84"/>
+      <point x="473" y="-29" type="qcurve"/>
+      <point x="495" y="31" type="line"/>
+      <point x="69" y="1120" type="line" name="at01"/>
+      <point x="377" y="1120" type="line"/>
+      <point x="633" y="393" type="line" name="iv03"/>
+      <point x="878" y="1120" type="line" name="at02"/>
+      <point x="1186" y="1120" type="line" name="iv04"/>
+      <point x="721" y="-121" type="line"/>
+      <point x="662" y="-279"/>
+      <point x="497" y="-424"/>
+      <point x="379" y="-424" type="qcurve" name="ab01"/>
+      <point x="137" y="-424" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnYiIHBvaW50PSJhdjAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ250IiBw
+b2ludD0iYXQwMSIgem9uZT0idDogMCIvPgogICAg
+PHR0YyBjb2RlPSJhbGlnbnQiIHBvaW50PSJhdDAy
+IiB6b25lPSJ0OiAwIi8+CiAgICA8dHRjIGNvZGU9
+ImFsaWduYiIgcG9pbnQ9ImFiMDEiIHpvbmU9ImI6
+IDIiLz4KICAgIDx0dGMgY29kZT0iaW50ZXJwb2xh
+dGV2IiBwb2ludD0iaXYwMSIgcG9pbnQxPSJhYjAx
+IiBwb2ludDI9ImF2MDEiLz4KICAgIDx0dGMgY29k
+ZT0iaW50ZXJwb2xhdGV2IiBwb2ludD0iaXYwMiIg
+cG9pbnQxPSJhYjAxIiBwb2ludDI9ImF2MDEiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJhYjAxIiBwb2ludDI9InN2MDEiIHN0ZW09Ink6
+IDIyNSIvPgogICAgPHR0YyBjb2RlPSJpbnRlcnBv
+bGF0ZXYiIHBvaW50PSJpdjAzIiBwb2ludDE9ImFi
+MDEiIHBvaW50Mj0iYXYwMSIvPgogICAgPHR0YyBj
+b2RlPSJpbnRlcnBvbGF0ZXYiIHBvaW50PSJpdjA0
+IiBwb2ludDE9ImFiMDEiIHBvaW50Mj0iYXYwMSIv
+PgogIDwvdHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii00MjQiIHdpZHRoPSIyMjMiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjExMjAiIHdpZHRoPSItMjAi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2NDYiIHdp
+ZHRoPSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

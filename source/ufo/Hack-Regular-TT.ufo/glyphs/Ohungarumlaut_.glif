@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohungarumlaut" format="1">
+  <advance width="1233"/>
+  <unicode hex="0150"/>
+  <outline>
+    <contour>
+      <point x="541" y="1859" type="line" name="dv04"/>
+      <point x="727" y="1859" type="line" name="ih01"/>
+      <point x="498" y="1595" type="line" name="dv03"/>
+      <point x="344" y="1595" type="line" name="ih02"/>
+    </contour>
+    <contour>
+      <point x="860" y="1859" type="line" name="sv01"/>
+      <point x="1046" y="1859" type="line" name="ih03"/>
+      <point x="817" y="1595" type="line" name="sv02"/>
+      <point x="663" y="1595" type="line" name="ih04"/>
+    </contour>
+    <contour>
+      <point x="615" y="-29" type="qcurve" name="dv01"/>
+      <point x="364" y="-29"/>
+      <point x="117" y="352"/>
+      <point x="117" y="744" type="qcurve" name="sh01"/>
+      <point x="117" y="1136"/>
+      <point x="364" y="1520"/>
+      <point x="616" y="1520" type="qcurve" name="at01"/>
+      <point x="869" y="1520"/>
+      <point x="1116" y="1136"/>
+      <point x="1116" y="745" type="qcurve" name="sh02"/>
+      <point x="1116" y="355"/>
+      <point x="868" y="-29"/>
+    </contour>
+    <contour>
+      <point x="616" y="135" type="qcurve" name="dv02"/>
+      <point x="770" y="135"/>
+      <point x="838" y="276" type="qcurve"/>
+      <point x="905" y="414"/>
+      <point x="905" y="745" type="qcurve" name="ah01"/>
+      <point x="905" y="1075"/>
+      <point x="838" y="1215" type="qcurve"/>
+      <point x="770" y="1356"/>
+      <point x="616" y="1356" type="qcurve" name="sv03"/>
+      <point x="463" y="1356"/>
+      <point x="396" y="1215" type="qcurve"/>
+      <point x="328" y="1073"/>
+      <point x="328" y="745" type="qcurve" name="sh03"/>
+      <point x="328" y="418"/>
+      <point x="396" y="276" type="qcurve"/>
+      <point x="463" y="135"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmgiIHBvaW50PSJsc2IiIGFsaWduPSJyb3Vu
+ZCIvPgogICAgPHR0YyBjb2RlPSJhbGlnbmgiIHBv
+aW50PSJhaDAxIiBhbGlnbj0icm91bmQiLz4KICAg
+IDx0dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQxPSJs
+c2IiIHBvaW50Mj0ic2gwMSIgYWxpZ249InJvdW5k
+Ii8+CiAgICA8dHRjIGNvZGU9Im1kZWx0YWgiIHBv
+aW50PSJhaDAxIiBkZWx0YT0iMiIgcHBtMT0iOSIg
+cHBtMj0iOSIvPgogICAgPHR0YyBjb2RlPSJzaW5n
+bGVoIiBwb2ludDE9ImFoMDEiIHBvaW50Mj0ic2gw
+MiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRjIGNv
+ZGU9ImludGVycG9sYXRlaCIgcG9pbnQ9ImloMDEi
+IHBvaW50MT0ic2gwMSIgcG9pbnQyPSJzaDAyIi8+
+CiAgICA8dHRjIGNvZGU9ImludGVycG9sYXRlaCIg
+cG9pbnQ9ImloMDIiIHBvaW50MT0ic2gwMSIgcG9p
+bnQyPSJzaDAyIi8+CiAgICA8dHRjIGNvZGU9Imlu
+dGVycG9sYXRlaCIgcG9pbnQ9ImloMDMiIHBvaW50
+MT0iYWgwMSIgcG9pbnQyPSJzaDAyIi8+CiAgICA8
+dHRjIGNvZGU9ImludGVycG9sYXRlaCIgcG9pbnQ9
+ImloMDQiIHBvaW50MT0ic2gwMSIgcG9pbnQyPSJz
+aDAyIi8+CiAgICA8dHRjIGNvZGU9InNpbmdsZWgi
+IHBvaW50MT0ic2gwMSIgcG9pbnQyPSJzaDAzIiBz
+dGVtPSJYOiAyMDMiLz4KICAgIDx0dGMgY29kZT0i
+bWRlbHRhaCIgcG9pbnQ9InNoMDMiIGRlbHRhPSIt
+MiIgcHBtMT0iOSIgcHBtMj0iOSIvPgogICAgPHR0
+YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9InNoMDIi
+IHBvaW50Mj0icnNiIiByb3VuZD0idHJ1ZSIvPgog
+ICAgPHR0YyBjb2RlPSJhbGlnbnQiIHBvaW50PSJh
+dDAxIiB6b25lPSJ0OiAxIi8+CiAgICA8dHRjIGNv
+ZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYwMSIgcG9p
+bnQyPSJkdjAyIiBzdGVtPSJ5OiAxNzAiLz4KICAg
+IDx0dGMgY29kZT0iZG91YmxldiIgcG9pbnQxPSJk
+djAzIiBwb2ludDI9ImR2MDQiIHN0ZW09Ink6IDE3
+MCIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGV2IiBw
+b2ludDE9ImR2MDQiIHBvaW50Mj0ic3YwMSIvPgog
+ICAgPHR0YyBjb2RlPSJzaW5nbGV2IiBwb2ludDE9
+ImR2MDMiIHBvaW50Mj0ic3YwMiIvPgogICAgPHR0
+YyBjb2RlPSJzaW5nbGV2IiBwb2ludDE9ImF0MDEi
+IHBvaW50Mj0ic3YwMyIgc3RlbT0ieTogMTcwIi8+
+CiAgICA8dHRjIGNvZGU9Im1kZWx0YXYiIHBvaW50
+PSJzdjAzIiBkZWx0YT0iMSIgcHBtMT0iOSIgcHBt
+Mj0iOSIvPgogIDwvdHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwNCI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjE2NCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTM1NiIgd2lkdGg9IjE2NCIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMTU5NSIgd2lk
+dGg9IjI2NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+MTE3IiB3aWR0aD0iMjExIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI5MDUiIHdpZHRoPSIyMTEiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

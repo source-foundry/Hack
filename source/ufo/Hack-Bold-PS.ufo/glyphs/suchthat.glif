@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="suchthat" format="1">
+  <advance width="1233"/>
+  <unicode hex="220B"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line" name="hr00"/>
+      <point x="597" y="0" type="line" smooth="yes" name="ab01"/>
+      <point x="694" y="0"/>
+      <point x="784" y="34"/>
+      <point x="866" y="102" type="curve" smooth="yes"/>
+      <point x="1029" y="239" name="dv02"/>
+      <point x="1133" y="485"/>
+      <point x="1133" y="764" type="curve" smooth="yes"/>
+      <point x="1133" y="901" name="dv01"/>
+      <point x="1109" y="1028"/>
+      <point x="1061" y="1145" type="curve" smooth="yes" name="dv04"/>
+      <point x="965" y="1379"/>
+      <point x="791" y="1524"/>
+      <point x="597" y="1524" type="curve" smooth="yes" name="dv03"/>
+      <point x="100" y="1524" type="line"/>
+      <point x="100" y="1294" type="line"/>
+      <point x="597" y="1294" type="line" smooth="yes" name="sv01"/>
+      <point x="652" y="1294"/>
+      <point x="704" y="1270"/>
+      <point x="751" y="1223" type="curve" smooth="yes"/>
+      <point x="847" y="1127"/>
+      <point x="883" y="979"/>
+      <point x="896" y="877" type="curve"/>
+      <point x="100" y="877" type="line"/>
+      <point x="100" y="647" type="line"/>
+      <point x="896" y="647" type="line"/>
+      <point x="889" y="594"/>
+      <point x="878" y="543"/>
+      <point x="862" y="495" type="curve" smooth="yes"/>
+      <point x="806" y="330"/>
+      <point x="707" y="230"/>
+      <point x="597" y="230" type="curve" smooth="yes"/>
+      <point x="100" y="230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmIiIHBvaW50PSJhYjAxIiB6b25lPSJiOiAw
+Ii8+CiAgICA8dHRjIGNvZGU9ImRvdWJsZXYiIHBv
+aW50MT0iZHYwMSIgcG9pbnQyPSJkdjAyIiBzdGVt
+PSJ5OiAyMjUiLz4KICAgIDx0dGMgY29kZT0iZG91
+YmxldiIgcG9pbnQxPSJkdjAzIiBwb2ludDI9ImR2
+MDQiIHN0ZW09Ink6IDIyNSIvPgogICAgPHR0YyBj
+b2RlPSJzaW5nbGV2IiBwb2ludDE9ImFiMDEiIHBv
+aW50Mj0ic3YwMSIgc3RlbT0ieTogMjI1Ii8+CiAg
+PC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbTMg
+c3RlbTNMaXN0PSIwLDIzMCw2NDcsMjMwLDEyOTQs
+MjMwIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGlu
+dFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

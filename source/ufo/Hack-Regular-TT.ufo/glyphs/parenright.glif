@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="1">
+  <advance width="1233"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="478" y="-270" type="line" name="av01"/>
+      <point x="610" y="-39"/>
+      <point x="677" y="189" type="qcurve"/>
+      <point x="708" y="296"/>
+      <point x="742" y="526"/>
+      <point x="742" y="643" type="qcurve" name="dh01"/>
+      <point x="742" y="755"/>
+      <point x="709" y="986"/>
+      <point x="677" y="1098" type="qcurve"/>
+      <point x="646" y="1205"/>
+      <point x="547" y="1435"/>
+      <point x="478" y="1554" type="qcurve" name="at01"/>
+      <point x="638" y="1554" type="line"/>
+      <point x="791" y="1317"/>
+      <point x="863" y="1092" type="qcurve"/>
+      <point x="937" y="864"/>
+      <point x="937" y="643" type="qcurve" name="dh02"/>
+      <point x="937" y="420"/>
+      <point x="863" y="192" type="qcurve"/>
+      <point x="789" y="-35"/>
+      <point x="638" y="-270" type="qcurve" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAxIiBk
+ZWx0YT0iMiIgcHBtMT0iOSIgcHBtMj0iOSIvPgog
+ICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9
+ImRoMDIiIHBvaW50Mj0icnNiIiByb3VuZD0idHJ1
+ZSIvPgogICAgPHR0YyBjb2RlPSJhbGlnbnYiIHBv
+aW50PSJhdjAxIiBhbGlnbj0icm91bmQiLz4KICAg
+IDx0dGMgY29kZT0iYWxpZ252IiBwb2ludD0iYXYw
+MiIgYWxpZ249InJvdW5kIi8+CiAgICA8dHRjIGNv
+ZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEiIHpvbmU9
+InQ6IDIiLz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yNDkiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjE1NTQiIHdpZHRoPSItMjAi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc0MiIgd2lk
+dGg9IjE5NSIgLz4KICAgIDwvaGludHNldD4KICA8
+L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

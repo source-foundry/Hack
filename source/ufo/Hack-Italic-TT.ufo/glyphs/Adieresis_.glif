@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis" format="1">
+  <advance width="1233"/>
+  <unicode hex="00C4"/>
+  <outline>
+    <contour>
+      <point x="500" y="1620" type="line" name="dv01"/>
+      <point x="485" y="1620"/>
+      <point x="470" y="1638"/>
+      <point x="473" y="1653" type="qcurve"/>
+      <point x="501" y="1796" type="line"/>
+      <point x="505" y="1823"/>
+      <point x="533" y="1823" type="qcurve" name="dv02"/>
+      <point x="677" y="1823" type="line"/>
+      <point x="704" y="1823"/>
+      <point x="704" y="1799" type="qcurve"/>
+      <point x="704" y="1793"/>
+      <point x="703" y="1790" type="qcurve"/>
+      <point x="674" y="1647" type="line"/>
+      <point x="668" y="1620"/>
+      <point x="642" y="1620" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="891" y="1620" type="line" name="sv01"/>
+      <point x="876" y="1620"/>
+      <point x="861" y="1638"/>
+      <point x="864" y="1653" type="qcurve"/>
+      <point x="892" y="1796" type="line"/>
+      <point x="896" y="1823"/>
+      <point x="924" y="1823" type="qcurve" name="sv02"/>
+      <point x="1067" y="1823" type="line"/>
+      <point x="1082" y="1823"/>
+      <point x="1097" y="1805"/>
+      <point x="1094" y="1790" type="qcurve"/>
+      <point x="1066" y="1647" type="line"/>
+      <point x="1061" y="1620"/>
+      <point x="1034" y="1620" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="639" y="1493" type="line" name="at01"/>
+      <point x="885" y="1493" type="line"/>
+      <point x="1051" y="0" type="line" name="ab01"/>
+      <point x="850" y="0" type="line"/>
+      <point x="815" y="389" type="line" name="dv03"/>
+      <point x="295" y="389" type="line"/>
+      <point x="111" y="0" type="line" name="ab02"/>
+      <point x="-106" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="801" y="551" type="line" name="dv04"/>
+      <point x="735" y="1325" type="line"/>
+      <point x="371" y="551" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnQiIHBvaW50PSJhdDAxIiB6b25lPSJ0OiAx
+Ii8+CiAgICA8dHRjIGNvZGU9ImFsaWduYiIgcG9p
+bnQ9ImFiMDEiIHpvbmU9ImI6IDAiLz4KICAgIDx0
+dGMgY29kZT0iYWxpZ25iIiBwb2ludD0iYWIwMiIg
+em9uZT0iYjogMCIvPgogICAgPHR0YyBjb2RlPSJk
+b3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50Mj0i
+ZHYwMiIgc3RlbT0ieTogMTcwIi8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYwMyIg
+cG9pbnQyPSJkdjA0IiBzdGVtPSJZOiAxNTYiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJkdjAxIiBwb2ludDI9InN2MDEiLz4KICAgIDx0
+dGMgY29kZT0ic2luZ2xldiIgcG9pbnQxPSJkdjAy
+IiBwb2ludDI9InN2MDIiLz4KICA8L3R0UHJvZ3Jh
+bT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIzODkiIHdpZHRoPSIxNjIiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE0OTMiIHdpZHRo
+PSItMjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
+MjAiIHdpZHRoPSIyMDMiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

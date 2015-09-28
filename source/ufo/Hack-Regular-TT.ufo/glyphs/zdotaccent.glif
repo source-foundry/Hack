@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="017C"/>
+  <outline>
+    <contour>
+      <point x="543" y="1322" type="line" name="dv01"/>
+      <point x="513" y="1322"/>
+      <point x="513" y="1352" type="qcurve" name="dh01"/>
+      <point x="513" y="1496" type="line"/>
+      <point x="513" y="1526"/>
+      <point x="543" y="1526" type="qcurve" name="dv02"/>
+      <point x="688" y="1526" type="line"/>
+      <point x="718" y="1526"/>
+      <point x="718" y="1496" type="qcurve"/>
+      <point x="718" y="1352" type="line" name="dh02"/>
+      <point x="718" y="1322"/>
+      <point x="688" y="1322" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="203" y="170" type="line"/>
+      <point x="846" y="975" type="line" name="sv01"/>
+      <point x="227" y="975" type="line"/>
+      <point x="227" y="1122" type="line" name="at01"/>
+      <point x="1040" y="1122" type="line"/>
+      <point x="1040" y="954" type="line"/>
+      <point x="397" y="150" type="line" name="sv02"/>
+      <point x="1040" y="150" type="line"/>
+      <point x="1040" y="0" type="line" name="ab01"/>
+      <point x="203" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEiIHpv
+bmU9InQ6IDAiLz4KICAgIDx0dGMgY29kZT0iYWxp
+Z25iIiBwb2ludD0iYWIwMSIgem9uZT0iYjogMCIv
+PgogICAgPHR0YyBjb2RlPSJkb3VibGV2IiBwb2lu
+dDE9ImR2MDEiIHBvaW50Mj0iZHYwMiIgc3RlbT0i
+eTogMTcwIi8+CiAgICA8dHRjIGNvZGU9InNpbmds
+ZXYiIHBvaW50MT0iYXQwMSIgcG9pbnQyPSJzdjAx
+IiBzdGVtPSJ5OiAxNDMiLz4KICAgIDx0dGMgY29k
+ZT0ic2luZ2xldiIgcG9pbnQxPSJhYjAxIiBwb2lu
+dDI9InN2MDIiIHN0ZW09Ilk6IDE1NiIvPgogIDwv
+dHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNTAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9Ijk3NSIgd2lkdGg9IjE0NyIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTMyMiIgd2lkdGg9
+IjIwNCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTEz
+IiB3aWR0aD0iMjA1IiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

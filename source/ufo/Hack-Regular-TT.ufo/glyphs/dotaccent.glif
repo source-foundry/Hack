@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="689" y="1552" type="line" name="dv02"/>
+      <point x="719" y="1552"/>
+      <point x="719" y="1522" type="qcurve"/>
+      <point x="719" y="1378" type="line" name="dh02"/>
+      <point x="719" y="1348"/>
+      <point x="689" y="1348" type="qcurve" name="dv01"/>
+      <point x="544" y="1348" type="line"/>
+      <point x="514" y="1348"/>
+      <point x="514" y="1378" type="qcurve" name="dh01"/>
+      <point x="514" y="1522" type="line"/>
+      <point x="514" y="1552"/>
+      <point x="544" y="1552" type="qcurve" name="sv01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYwMSIg
+cG9pbnQyPSJkdjAyIiBzdGVtPSJ5OiAxNzAiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJkdjAyIiBwb2ludDI9InN2MDEiLz4KICA8L3R0
+UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzNDgiIHdpZHRoPSIyMDQiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjUxNCIgd2lkdGg9IjIwNSIg
+Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
+aXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

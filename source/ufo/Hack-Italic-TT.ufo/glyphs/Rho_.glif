@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rho" format="1">
+  <advance width="1233"/>
+  <unicode hex="03A1"/>
+  <outline>
+    <contour>
+      <point x="342" y="1493" type="line" name="at01"/>
+      <point x="782" y="1493" type="line"/>
+      <point x="987" y="1493"/>
+      <point x="1204" y="1311"/>
+      <point x="1204" y="1122" type="qcurve" name="dh02"/>
+      <point x="1204" y="1005"/>
+      <point x="1121" y="813"/>
+      <point x="966" y="675"/>
+      <point x="744" y="600"/>
+      <point x="604" y="600" type="qcurve" name="dv01"/>
+      <point x="371" y="600" type="line"/>
+      <point x="254" y="0" type="line" name="ab01"/>
+      <point x="51" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="637" y="766" type="line" name="dv02"/>
+      <point x="719" y="766"/>
+      <point x="853" y="816"/>
+      <point x="948" y="907"/>
+      <point x="999" y="1034"/>
+      <point x="999" y="1110" type="qcurve" name="dh01"/>
+      <point x="999" y="1222"/>
+      <point x="877" y="1327"/>
+      <point x="745" y="1327" type="qcurve" name="sv01"/>
+      <point x="512" y="1327" type="line"/>
+      <point x="403" y="766" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMTk0Ii8+CiAgICA8dHRj
+IGNvZGU9Im1kZWx0YWgiIHBvaW50PSJkaDAxIiBk
+ZWx0YT0iMyIgcHBtMT0iMTciIHBwbTI9IjE4Ii8+
+CiAgICA8dHRjIGNvZGU9Im1kZWx0YWgiIHBvaW50
+PSJkaDAxIiBkZWx0YT0iMiIgcHBtMT0iOSIgcHBt
+Mj0iMTYiLz4KICAgIDx0dGMgY29kZT0ic2luZ2xl
+aCIgcG9pbnQxPSJkaDAyIiBwb2ludDI9InJzYiIg
+cm91bmQ9InRydWUiLz4KICAgIDx0dGMgY29kZT0i
+YWxpZ250IiBwb2ludD0iYXQwMSIgem9uZT0idDog
+MSIvPgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBv
+aW50PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8
+dHRjIGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZHYw
+MSIgcG9pbnQyPSJkdjAyIiBzdGVtPSJ5OiAxNzAi
+Lz4KICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9p
+bnQxPSJhdDAxIiBwb2ludDI9InN2MDEiIHN0ZW09
+Ink6IDE3MCIvPgogIDwvdHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXQwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI2MDAiIHdpZHRoPSIxNjYiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjEzMjciIHdpZHRo
+PSIxNjYiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijk5
+OSIgd2lkdGg9IjIwNSIgLz4KICAgIDwvaGludHNl
+dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

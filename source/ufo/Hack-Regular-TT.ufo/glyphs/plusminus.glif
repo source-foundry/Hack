@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plusminus" format="1">
+  <advance width="1233"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="532" y="672" type="line" name="dh01"/>
+      <point x="88" y="672" type="line"/>
+      <point x="88" y="842" type="line"/>
+      <point x="532" y="842" type="line" name="sh01"/>
+      <point x="532" y="1171" type="line" name="av01"/>
+      <point x="700" y="1171" type="line" name="sh02"/>
+      <point x="700" y="842" type="line" name="sv01"/>
+      <point x="1145" y="842" type="line"/>
+      <point x="1145" y="672" type="line" name="sv02"/>
+      <point x="700" y="672" type="line" name="dh02"/>
+      <point x="700" y="340" type="line"/>
+      <point x="532" y="340" type="line"/>
+    </contour>
+    <contour>
+      <point x="88" y="170" type="line" name="sv03"/>
+      <point x="1145" y="170" type="line"/>
+      <point x="1145" y="0" type="line" name="ab01"/>
+      <point x="88" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMTYwIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZWgiIHBvaW50MT0iZGgwMSIg
+cG9pbnQyPSJzaDAxIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZWgiIHBvaW50MT0iZGgwMiIgcG9pbnQy
+PSJzaDAyIi8+CiAgICA8dHRjIGNvZGU9ImFsaWdu
+diIgcG9pbnQ9ImF2MDEiIGFsaWduPSJyb3VuZCIv
+PgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50
+PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8dHRj
+IGNvZGU9ImRvdWJsZXYiIHBvaW50MT0iZGgwMSIg
+cG9pbnQyPSJzaDAxIiBzdGVtPSJ5OiAxNzAiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJzaDAxIiBwb2ludDI9InN2MDEiLz4KICAgIDx0
+dGMgY29kZT0ic2luZ2xldiIgcG9pbnQxPSJkaDAx
+IiBwb2ludDI9InN2MDIiLz4KICAgIDx0dGMgY29k
+ZT0ic2luZ2xldiIgcG9pbnQxPSJhYjAxIiBwb2lu
+dDI9InN2MDMiIHN0ZW09Ink6IDE3MCIvPgogIDwv
+dHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjY3MiIgd2lkdGg9IjE3MCIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTE3MSIgd2lkdGg9
+Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTMy
+IiB3aWR0aD0iMTY4IiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="1">
+  <advance width="1233"/>
+  <unicode hex="012A"/>
+  <outline>
+    <contour>
+      <point x="301" y="1820" type="line" name="hr00"/>
+      <point x="932" y="1820" type="line" name="dv02"/>
+      <point x="932" y="1632" type="line" name="dv01"/>
+      <point x="301" y="1632" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="260" type="line" name="sv01"/>
+      <point x="469" y="260" type="line" name="dh01"/>
+      <point x="469" y="1233" type="line" name="sv02"/>
+      <point x="172" y="1233" type="line"/>
+      <point x="172" y="1493" type="line" name="at01"/>
+      <point x="1061" y="1493" type="line"/>
+      <point x="1061" y="1233" type="line" name="sv03"/>
+      <point x="764" y="1233" type="line" name="sv04"/>
+      <point x="764" y="260" type="line" name="dh02"/>
+      <point x="1061" y="260" type="line" name="sv05"/>
+      <point x="1061" y="0" type="line" name="ab01"/>
+      <point x="172" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjk1Ii8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEiIHpv
+bmU9InQ6IDEiLz4KICAgIDx0dGMgY29kZT0iYWxp
+Z25iIiBwb2ludD0iYWIwMSIgem9uZT0iYjogMCIv
+PgogICAgPHR0YyBjb2RlPSJkb3VibGV2IiBwb2lu
+dDE9ImR2MDEiIHBvaW50Mj0iZHYwMiIgc3RlbT0i
+WTogMTcyIi8+CiAgICA8dHRjIGNvZGU9InNpbmds
+ZXYiIHBvaW50MT0iYWIwMSIgcG9pbnQyPSJzdjAx
+IiBzdGVtPSJ5OiAyNjAiLz4KICAgIDx0dGMgY29k
+ZT0ic2luZ2xldiIgcG9pbnQxPSJhdDAxIiBwb2lu
+dDI9InN2MDIiIHN0ZW09Ink6IDI2MCIvPgogICAg
+PHR0YyBjb2RlPSJzaW5nbGV2IiBwb2ludDE9InN2
+MDIiIHBvaW50Mj0ic3YwMyIvPgogICAgPHR0YyBj
+b2RlPSJzaW5nbGV2IiBwb2ludDE9InN2MDMiIHBv
+aW50Mj0ic3YwNCIvPgogICAgPHR0YyBjb2RlPSJz
+aW5nbGV2IiBwb2ludDE9InN2MDEiIHBvaW50Mj0i
+ZGgwMiIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGV2
+IiBwb2ludDE9ImRoMDIiIHBvaW50Mj0ic3YwNSIv
+PgogIDwvdHRQcm9ncmFtPgo=
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE2MzIiIHdpZHRo
+PSIxODgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ2
+OSIgd2lkdGg9IjI5NSIgLz4KICAgIDwvaGludHNl
+dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

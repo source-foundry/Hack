@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="017E"/>
+  <outline>
+    <contour>
+      <point x="297" y="1649" type="line" name="av01"/>
+      <point x="436" y="1649" type="line"/>
+      <point x="616" y="1404" type="line" name="iv01"/>
+      <point x="797" y="1649" type="line" name="av02"/>
+      <point x="936" y="1649" type="line"/>
+      <point x="690" y="1273" type="line"/>
+      <point x="543" y="1273" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="170" type="line"/>
+      <point x="846" y="975" type="line" name="sv01"/>
+      <point x="227" y="975" type="line"/>
+      <point x="227" y="1122" type="line" name="at01"/>
+      <point x="1040" y="1122" type="line"/>
+      <point x="1040" y="954" type="line"/>
+      <point x="397" y="150" type="line" name="sv02"/>
+      <point x="1040" y="150" type="line"/>
+      <point x="1040" y="0" type="line" name="ab01"/>
+      <point x="203" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnYiIHBvaW50PSJhdjAxIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ252IiBw
+b2ludD0iYXYwMiIgYWxpZ249InJvdW5kIi8+CiAg
+ICA8dHRjIGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0
+MDEiIHpvbmU9InQ6IDAiLz4KICAgIDx0dGMgY29k
+ZT0iYWxpZ25iIiBwb2ludD0iYWIwMSIgem9uZT0i
+YjogMCIvPgogICAgPHR0YyBjb2RlPSJpbnRlcnBv
+bGF0ZXYiIHBvaW50PSJpdjAxIiBwb2ludDE9ImFi
+MDEiIHBvaW50Mj0iYXYwMSIvPgogICAgPHR0YyBj
+b2RlPSJzaW5nbGV2IiBwb2ludDE9ImF0MDEiIHBv
+aW50Mj0ic3YwMSIgc3RlbT0ieTogMTQzIi8+CiAg
+ICA8dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50MT0i
+YWIwMSIgcG9pbnQyPSJzdjAyIiBzdGVtPSJZOiAx
+NTYiLz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNTAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9Ijk3NSIgd2lkdGg9IjE0NyIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTY0OSIgd2lkdGg9
+Ii0yMCIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
+bnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

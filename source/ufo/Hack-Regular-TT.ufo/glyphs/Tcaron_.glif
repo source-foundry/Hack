@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0164"/>
+  <outline>
+    <contour>
+      <point x="317" y="1852" type="line" name="av01"/>
+      <point x="457" y="1852" type="line"/>
+      <point x="622" y="1674" type="line"/>
+      <point x="788" y="1852" type="line" name="av02"/>
+      <point x="928" y="1852" type="line"/>
+      <point x="717" y="1586" type="line"/>
+      <point x="528" y="1586" type="line"/>
+    </contour>
+    <contour>
+      <point x="516" y="1323" type="line" name="dh01"/>
+      <point x="47" y="1323" type="line"/>
+      <point x="47" y="1493" type="line" name="at01"/>
+      <point x="1186" y="1493" type="line"/>
+      <point x="1186" y="1323" type="line" name="sv01"/>
+      <point x="719" y="1323" type="line" name="dh02"/>
+      <point x="719" y="0" type="line" name="ab01"/>
+      <point x="516" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjAzIi8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudiIgcG9pbnQ9ImF2MDEiIGFs
+aWduPSJyb3VuZCIvPgogICAgPHR0YyBjb2RlPSJh
+bGlnbnYiIHBvaW50PSJhdjAyIiBhbGlnbj0icm91
+bmQiLz4KICAgIDx0dGMgY29kZT0iYWxpZ250IiBw
+b2ludD0iYXQwMSIgem9uZT0idDogMSIvPgogICAg
+PHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50PSJhYjAx
+IiB6b25lPSJiOiAwIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZXYiIHBvaW50MT0iYXQwMSIgcG9pbnQy
+PSJkaDAxIiBzdGVtPSJ5OiAxNzAiLz4KICAgIDx0
+dGMgY29kZT0ic2luZ2xldiIgcG9pbnQxPSJkaDAx
+IiBwb2ludDI9InN2MDEiLz4KICAgIDx0dGMgY29k
+ZT0ic2luZ2xldiIgcG9pbnQxPSJzdjAxIiBwb2lu
+dDI9ImRoMDIiLz4KICA8L3R0UHJvZ3JhbT4K
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIxMzIzIiB3aWR0aD0iMTcwIiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxODUyIiB3aWR0
+aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI1
+MTYiIHdpZHRoPSIyMDMiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

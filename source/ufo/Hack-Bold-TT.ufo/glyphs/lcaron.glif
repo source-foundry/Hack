@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="013E"/>
+  <outline>
+    <contour>
+      <point x="778" y="-8" type="line" name="ab01"/>
+      <point x="673" y="-8"/>
+      <point x="525" y="44"/>
+      <point x="431" y="156"/>
+      <point x="387" y="333"/>
+      <point x="387" y="459" type="qcurve" name="dh01"/>
+      <point x="387" y="1331" type="line" name="sv01"/>
+      <point x="90" y="1331" type="line"/>
+      <point x="90" y="1556" type="line" name="at01"/>
+      <point x="680" y="1556" type="line"/>
+      <point x="680" y="459" type="line" name="dh02"/>
+      <point x="680" y="393"/>
+      <point x="699" y="301"/>
+      <point x="742" y="243"/>
+      <point x="811" y="217"/>
+      <point x="860" y="217" type="qcurve" name="sv02"/>
+      <point x="1094" y="217" type="line"/>
+      <point x="1094" y="-8" type="line"/>
+    </contour>
+    <contour>
+      <point x="908" y="1556" type="line" name="at02"/>
+      <point x="1190" y="1556" type="line"/>
+      <point x="1029" y="1180" type="line" name="sv03"/>
+      <point x="832" y="1180" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGVoIiBwb2ludDE9ImRoMDEiIHBvaW50Mj0i
+ZGgwMiIgc3RlbT0iWDogMjkzIi8+CiAgICA8dHRj
+IGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEiIHpv
+bmU9InQ6IDIiLz4KICAgIDx0dGMgY29kZT0iYWxp
+Z250IiBwb2ludD0iYXQwMiIgem9uZT0idDogMiIv
+PgogICAgPHR0YyBjb2RlPSJhbGlnbmIiIHBvaW50
+PSJhYjAxIiB6b25lPSJiOiAwIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZXYiIHBvaW50MT0iYXQwMSIg
+cG9pbnQyPSJzdjAxIiBzdGVtPSJ5OiAyMjUiLz4K
+ICAgIDx0dGMgY29kZT0ic2luZ2xldiIgcG9pbnQx
+PSJhYjAxIiBwb2ludDI9InN2MDIiIHN0ZW09Ink6
+IDIyNSIvPgogICAgPHR0YyBjb2RlPSJzaW5nbGV2
+IiBwb2ludDE9ImF0MDIiIHBvaW50Mj0ic3YwMyIg
+c3RlbT0ieTogMjYwIi8+CiAgPC90dFByb2dyYW0+
+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii04IiB3aWR0aD0iMjI1IiAvPgogICAgICA8
+aHN0ZW0gcG9zPSItOCIgd2lkdGg9IjIyNSIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTE4MCIgd2lkdGg9
+IjM3NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTMz
+MSIgd2lkdGg9IjIyNSIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iMzg3IiB3aWR0aD0iMjkzIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSIzODciIHdpZHRoPSIyOTMi
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
+TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

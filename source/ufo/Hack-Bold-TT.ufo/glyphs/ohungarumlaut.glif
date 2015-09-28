@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohungarumlaut" format="1">
+  <advance width="1233"/>
+  <unicode hex="0151"/>
+  <outline>
+    <contour>
+      <point x="492" y="1673" type="line" name="dv04"/>
+      <point x="709" y="1673" type="line" name="ih01"/>
+      <point x="461" y="1297" type="line" name="dv03"/>
+      <point x="297" y="1297" type="line" name="ih02"/>
+    </contour>
+    <contour>
+      <point x="854" y="1673" type="line" name="sh04"/>
+      <point x="1085" y="1673" type="line" name="ih03"/>
+      <point x="813" y="1297" type="line" name="sv01"/>
+      <point x="639" y="1297" type="line"/>
+    </contour>
+    <contour>
+      <point x="616" y="-29" type="qcurve" name="dv01"/>
+      <point x="497" y="-29"/>
+      <point x="306" y="53"/>
+      <point x="171" y="206"/>
+      <point x="98" y="424"/>
+      <point x="98" y="559" type="qcurve" name="sh01"/>
+      <point x="98" y="694"/>
+      <point x="171" y="912"/>
+      <point x="306" y="1065"/>
+      <point x="497" y="1147"/>
+      <point x="616" y="1147" type="qcurve" name="at01"/>
+      <point x="735" y="1147"/>
+      <point x="927" y="1065"/>
+      <point x="1062" y="912"/>
+      <point x="1135" y="694"/>
+      <point x="1135" y="559" type="qcurve" name="sh02"/>
+      <point x="1135" y="424"/>
+      <point x="1062" y="206"/>
+      <point x="927" y="53"/>
+      <point x="735" y="-29"/>
+    </contour>
+    <contour>
+      <point x="616" y="209" type="qcurve" name="dv02"/>
+      <point x="669" y="209"/>
+      <point x="753" y="256"/>
+      <point x="811" y="346"/>
+      <point x="842" y="476"/>
+      <point x="842" y="559" type="qcurve" name="ah01"/>
+      <point x="842" y="641"/>
+      <point x="811" y="771"/>
+      <point x="753" y="861"/>
+      <point x="669" y="909"/>
+      <point x="616" y="909" type="qcurve" name="sv02"/>
+      <point x="563" y="909"/>
+      <point x="480" y="861"/>
+      <point x="422" y="771"/>
+      <point x="391" y="641"/>
+      <point x="391" y="559" type="qcurve" name="sh03"/>
+      <point x="391" y="476"/>
+      <point x="422" y="346"/>
+      <point x="480" y="256"/>
+      <point x="563" y="209"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJh
+bGlnbmgiIHBvaW50PSJsc2IiIGFsaWduPSJyb3Vu
+ZCIvPgogICAgPHR0YyBjb2RlPSJhbGlnbmgiIHBv
+aW50PSJhaDAxIiBhbGlnbj0icm91bmQiLz4KICAg
+IDx0dGMgY29kZT0ic2luZ2xlaCIgcG9pbnQxPSJs
+c2IiIHBvaW50Mj0ic2gwMSIgYWxpZ249InJvdW5k
+Ii8+CiAgICA8dHRjIGNvZGU9Im1kZWx0YWgiIHBv
+aW50PSJhaDAxIiBkZWx0YT0iMiIgcHBtMT0iOSIg
+cHBtMj0iOSIvPgogICAgPHR0YyBjb2RlPSJzaW5n
+bGVoIiBwb2ludDE9ImFoMDEiIHBvaW50Mj0ic2gw
+MiIgc3RlbT0iWDogMjkzIi8+CiAgICA8dHRjIGNv
+ZGU9ImludGVycG9sYXRlaCIgcG9pbnQ9ImloMDEi
+IHBvaW50MT0ic2gwMSIgcG9pbnQyPSJzaDAyIi8+
+CiAgICA8dHRjIGNvZGU9InNpbmdsZWgiIHBvaW50
+MT0ic2gwMSIgcG9pbnQyPSJzaDAzIiBzdGVtPSJY
+OiAyOTMiLz4KICAgIDx0dGMgY29kZT0ibWRlbHRh
+aCIgcG9pbnQ9InNoMDMiIGRlbHRhPSItMiIgcHBt
+MT0iOSIgcHBtMj0iOSIvPgogICAgPHR0YyBjb2Rl
+PSJpbnRlcnBvbGF0ZWgiIHBvaW50PSJpaDAyIiBw
+b2ludDE9InNoMDEiIHBvaW50Mj0ic2gwMyIvPgog
+ICAgPHR0YyBjb2RlPSJzaW5nbGVoIiBwb2ludDE9
+ImFoMDEiIHBvaW50Mj0ic2gwNCIgYWxpZ249InJv
+dW5kIi8+CiAgICA8dHRjIGNvZGU9ImludGVycG9s
+YXRlaCIgcG9pbnQ9ImloMDMiIHBvaW50MT0iYWgw
+MSIgcG9pbnQyPSJzaDAyIi8+CiAgICA8dHRjIGNv
+ZGU9InNpbmdsZWgiIHBvaW50MT0ic2gwMiIgcG9p
+bnQyPSJyc2IiIHJvdW5kPSJ0cnVlIi8+CiAgICA8
+dHRjIGNvZGU9ImFsaWdudCIgcG9pbnQ9ImF0MDEi
+IHpvbmU9InQ6IDAiLz4KICAgIDx0dGMgY29kZT0i
+ZG91YmxldiIgcG9pbnQxPSJkdjAxIiBwb2ludDI9
+ImR2MDIiIHN0ZW09Ink6IDIyNSIvPgogICAgPHR0
+YyBjb2RlPSJkb3VibGV2IiBwb2ludDE9ImR2MDMi
+IHBvaW50Mj0iZHYwNCIgc3RlbT0ieTogMjYwIi8+
+CiAgICA8dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50
+MT0iZHYwNCIgcG9pbnQyPSJzaDA0Ii8+CiAgICA8
+dHRjIGNvZGU9InNpbmdsZXYiIHBvaW50MT0iZHYw
+MyIgcG9pbnQyPSJzdjAxIi8+CiAgICA8dHRjIGNv
+ZGU9InNpbmdsZXYiIHBvaW50MT0iYXQwMSIgcG9p
+bnQyPSJzdjAyIiBzdGVtPSJ5OiAyMjUiLz4KICAg
+IDx0dGMgY29kZT0ibWRlbHRhdiIgcG9pbnQ9InN2
+MDIiIGRlbHRhPSIxIiBwcG0xPSI5IiBwcG0yPSI5
+Ii8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwNCI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjIzOCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iOTA5IiB3aWR0aD0iMjM4IiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxMjk3IiB3aWR0
+aD0iMzc2IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5
+OCIgd2lkdGg9IjI5MyIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iODQyIiB3aWR0aD0iMjkzIiAvPgogICAg
+PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

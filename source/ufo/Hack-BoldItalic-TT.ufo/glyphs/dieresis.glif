@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="1233"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="449" y="1339" type="line" name="dv01"/>
+      <point x="434" y="1339"/>
+      <point x="419" y="1357"/>
+      <point x="422" y="1372" type="qcurve"/>
+      <point x="458" y="1558" type="line"/>
+      <point x="462" y="1585"/>
+      <point x="490" y="1585" type="qcurve" name="dv02"/>
+      <point x="667" y="1585" type="line"/>
+      <point x="694" y="1585"/>
+      <point x="694" y="1561" type="qcurve"/>
+      <point x="694" y="1555"/>
+      <point x="693" y="1552" type="qcurve"/>
+      <point x="656" y="1366" type="line"/>
+      <point x="651" y="1339"/>
+      <point x="624" y="1339" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="844" y="1339" type="line" name="sv01"/>
+      <point x="829" y="1339"/>
+      <point x="814" y="1357"/>
+      <point x="817" y="1372" type="qcurve"/>
+      <point x="853" y="1558" type="line"/>
+      <point x="857" y="1585"/>
+      <point x="885" y="1585" type="qcurve" name="sv02"/>
+      <point x="1063" y="1585" type="line"/>
+      <point x="1090" y="1585"/>
+      <point x="1090" y="1561" type="qcurve"/>
+      <point x="1090" y="1555"/>
+      <point x="1089" y="1552" type="qcurve"/>
+      <point x="1052" y="1366" type="line"/>
+      <point x="1047" y="1339"/>
+      <point x="1020" y="1339" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+ICA8dHRQcm9ncmFtPgogICAgPHR0YyBjb2RlPSJk
+b3VibGV2IiBwb2ludDE9ImR2MDEiIHBvaW50Mj0i
+ZHYwMiIgc3RlbT0ieTogMjYwIi8+CiAgICA8dHRj
+IGNvZGU9InNpbmdsZXYiIHBvaW50MT0iZHYwMSIg
+cG9pbnQyPSJzdjAxIi8+CiAgICA8dHRjIGNvZGU9
+InNpbmdsZXYiIHBvaW50MT0iZHYwMiIgcG9pbnQy
+PSJzdjAyIi8+CiAgPC90dFByb2dyYW0+Cg==
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzMzkiIHdpZHRoPSIyNDYiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>
