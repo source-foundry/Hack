@@ -22,6 +22,7 @@ Changes vs. release v2.013:
 - new UFO source file types - includes separate source files for TrueType (`*-TT.ufo`) and PostScript (`*-PS.ufo`) releases
 - Hack Open Font license updated to version 2.0.  The changes better align the Hack Open Font license with the Bitstream Vera license under which the Hack typeface is co-licensed.
 
+
 # Version 2.014 (development build)
 
 - ttf only build for testing
@@ -33,6 +34,7 @@ Changes vs. release v2.013:
 - increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
 - decreased vertical position of the asterisk (U+002A) - Issue #34
 - new design for ascii tilde (U+007E) - Issue #37
+
 
 # Version 2.013 (release build)
 
