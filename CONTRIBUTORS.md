@@ -68,6 +68,7 @@
 - Matthew Wesley
 - Gustaf Zetterlund
 - 张标 (@angrilove)
+- @hrj
 - @iamklutch
 - @legovini
 - @MaxKh
