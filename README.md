@@ -2,7 +2,7 @@
 # Hack
 ### A typeface designed for source code
 
-<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen.png" alt="Hack-a monospaced sans-serif font for source code" width="728"></a>
+<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack-a monospaced sans-serif font for source code" width="728"></a>
 <br>
 <a href="https://sourcefoundry.org/hack/"><img src="img/c-mockup.png" alt="C source code example" width="728"></a>
 <br>
