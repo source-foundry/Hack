@@ -34,9 +34,12 @@
 
 ### Testing
 - Jameel Al-Aziz
+- Serj Alimsky
+- Aric Belsito
 - Sven Busse
 - P.F. Chimento
 - Ryan Dlugosz
+- Felix Dreissig
 - Gavin Eadie
 - Jason Evans
 - Thilo Frommeyer
@@ -60,6 +63,7 @@
 - Günther Stadler
 - Christopher J. Stehno
 - James Taylor
+- Manuel Uberti
 - David Van Gemeren
 - Matthew Wesley
 - Gustaf Zetterlund
@@ -68,6 +72,8 @@
 - @legovini
 - @MaxKh
 - @Paul-v-H
+- @ScuzzyEye
+- @tbrisbane
 
 ## DejaVu
 
