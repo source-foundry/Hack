@@ -34,6 +34,9 @@
 
 ### Testing
 - Jameel Al-Aziz
+- Sven Busse
+- P.F. Chimento
+- Ryan Dlugosz
 - Jason Evans
 - Thilo Frommeyer
 - Trevor Hayes
@@ -45,6 +48,8 @@
 - Serg Koles
 - Zach Langbert
 - Dave Merrill
+- Darius Niemczyk
+- Fernanda Parisi
 - Adam Quaile
 - Christopher Rucinski
 - Marek Šesták
