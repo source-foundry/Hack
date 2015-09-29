@@ -37,16 +37,19 @@
 - Sven Busse
 - P.F. Chimento
 - Ryan Dlugosz
+- Gavin Eadie
 - Jason Evans
 - Thilo Frommeyer
 - Trevor Hayes
 - Jorg Heymans
+- Alexander Hofbauer
 - Ken J.
 - Jacek Jędrzejewski
 - Markus Jevring
 - Pete Johanson
 - Serg Koles
 - Zach Langbert
+- Jesús Martínez
 - Dave Merrill
 - Darius Niemczyk
 - Fernanda Parisi
@@ -57,9 +60,13 @@
 - Günther Stadler
 - Christopher J. Stehno
 - James Taylor
+- David Van Gemeren
+- Matthew Wesley
 - Gustaf Zetterlund
 - 张标 (@angrilove)
 - @iamklutch
+- @legovini
+- @MaxKh
 - @Paul-v-H
 
 ## DejaVu
