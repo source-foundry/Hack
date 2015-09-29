@@ -178,7 +178,7 @@ Changes vs. release v2.010
 - Modified **dotlessi** - decreased width of horizontal stem
 - Modified **iacute** - decreased width of horizontal stem
 - Modified **icircumflex** - decreased width of horizontal stem
-- Modified **idieresis** - decreased width of horitontal stem
+- Modified **idieresis** - decreased width of horizontal stem
 - Modified **igrave** - decreased width of horizontal stem
 - Modified **imacron** - decreased width of horizontal stem
 - Modified **iogonek** - decreased width of horizontal stem
