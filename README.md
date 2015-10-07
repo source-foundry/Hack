@@ -9,6 +9,8 @@
 <a href="https://sourcefoundry.org/hack/"><img src="img/python-mockup.png" alt="Python source code example" width="728"></a>
 <br>
 <a href="https://sourcefoundry.org/hack/"><img src="img/js-mockup.png" alt="JavaScript source code example" width="728"></a>
+<br>
+<a href="https://sourcefoundry.org/hack/playground.html"><img src="img/font-playground.png" alt="Click to Try Hack in the Font Playground" width="728"></a>
 
 ## Contents
 
