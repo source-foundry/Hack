@@ -1,0 +1,394 @@
+feature locl {
+script latn;
+language MOL ;
+sub Scedilla by uni0218;
+sub scedilla by uni0219;
+language ROM ;
+sub Scedilla by uni0218;
+sub scedilla by uni0219;
+} locl;
+
+feature subs {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+script latn;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language MOL ;
+lookup subs0 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} subs0;
+lookup subs1 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} subs1;
+language ROM ;
+lookup subs2 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} subs2;
+lookup subs3 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} subs3;
+} subs;
+
+feature sinf {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+script latn;
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+language MOL ;
+lookup sinf0 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} sinf0;
+lookup sinf1 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} sinf1;
+language ROM ;
+lookup sinf2 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} sinf2;
+lookup sinf3 {
+sub zero by zero.subs;
+sub one by one.subs;
+sub two by two.subs;
+sub three by three.subs;
+sub four by four.subs;
+sub five by five.subs;
+sub six by six.subs;
+sub seven by seven.subs;
+sub eight by eight.subs;
+sub nine by nine.subs;
+} sinf3;
+} sinf;
+
+feature sups {
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+script latn;
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+language MOL ;
+lookup sups0 {
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+} sups0;
+lookup sups1 {
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+} sups1;
+language ROM ;
+lookup sups2 {
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+} sups2;
+lookup sups3 {
+sub zero by uni00B9;
+sub one by uni00B2;
+sub two by uni00B3;
+sub three by uni2070;
+sub four by uni2074;
+sub five by uni2075;
+sub six by uni2076;
+sub seven by uni2077;
+sub eight by uni2078;
+sub nine by uni2079;
+} sups3;
+} sups;
+
+feature frac {
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+script latn;
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+language MOL ;
+lookup frac0 {
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+} frac0;
+lookup frac1 {
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+} frac1;
+language ROM ;
+lookup frac2 {
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+} frac2;
+lookup frac3 {
+sub one slash two by onehalf;
+sub one slash three by uni2153;
+sub one slash four by onequarter;
+sub one slash five by uni2155;
+sub one slash six by uni2159;
+sub one slash eight by oneeighth;
+sub two slash three by uni2154;
+sub two slash five by uni2156;
+sub three slash four by threequarters;
+sub three slash five by uni2157;
+sub three slash eight by threeeighths;
+sub four slash five by uni2158;
+sub five slash six by uni215A;
+sub five slash eight by fiveeighths;
+sub seven slash eight by seveneighths;
+} frac3;
+} frac;
+
+feature ordn {
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+script latn;
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+language MOL ;
+lookup ordn0 {
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+} ordn0;
+lookup ordn1 {
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+} ordn1;
+language ROM ;
+lookup ordn2 {
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+} ordn2;
+lookup ordn3 {
+sub [zero one two three four five six seven eight nine ] [a A ]' by [ordfeminine ordfeminine ];
+sub [zero one two three four five six seven eight nine ] [O o ]' by [ordmasculine ordmasculine ];
+} ordn3;
+} ordn;
+
+feature case {
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+script latn;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+language MOL ;
+lookup case0 {
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+} case0;
+lookup case1 {
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+} case1;
+language ROM ;
+lookup case2 {
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+} case2;
+lookup case3 {
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub uni2E18 by uni2E18.case;
+} case3;
+} case;
+
