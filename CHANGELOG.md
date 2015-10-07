@@ -1,6 +1,7 @@
 # Version 2.016
 
 - adjusted vertical position of the tilde to a higher position to improve alignment with other glyphs (U+007E)
+- updated ttfautohint to version 2.014 for TrueType (.ttf) build hints
 
 
 # Version 2.015 (release build)
