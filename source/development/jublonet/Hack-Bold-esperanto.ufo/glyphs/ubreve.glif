@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ubreve" format="1">
+  <advance width="1233"/>
+  <unicode hex="016D"/>
+  <note>
+	ubreve
+  </note>
+  <outline>
+    <contour>
+      <point x="403" y="1299"/>
+      <point x="283" y="1407"/>
+      <point x="275" y="1596" type="curve"/>
+      <point x="416" y="1596" type="line"/>
+      <point x="429" y="1504"/>
+      <point x="499" y="1452"/>
+      <point x="611" y="1452" type="curve" smooth="yes"/>
+      <point x="722" y="1452"/>
+      <point x="790" y="1503"/>
+      <point x="803" y="1596" type="curve"/>
+      <point x="946" y="1596" type="line"/>
+      <point x="938" y="1405"/>
+      <point x="818" y="1299"/>
+      <point x="610" y="1299" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="270" y="-29"/>
+      <point x="160" y="114"/>
+      <point x="160" y="391" type="curve" smooth="yes"/>
+      <point x="160" y="1120" type="line"/>
+      <point x="453" y="1120" type="line"/>
+      <point x="453" y="436" type="line" smooth="yes"/>
+      <point x="453" y="275"/>
+      <point x="495" y="211"/>
+      <point x="598" y="211" type="curve" smooth="yes"/>
+      <point x="706" y="211"/>
+      <point x="768" y="309"/>
+      <point x="768" y="477" type="curve" smooth="yes"/>
+      <point x="768" y="1120" type="line"/>
+      <point x="1061" y="1120" type="line"/>
+      <point x="1061" y="0" type="line"/>
+      <point x="797" y="0" type="line"/>
+      <point x="768" y="166" type="line"/>
+      <point x="725" y="41"/>
+      <point x="624" y="-29"/>
+      <point x="481" y="-29" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
