@@ -1,6 +1,7 @@
 # Version 2.016
 
-- adjusted vertical position of the tilde to a higher position to improve alignment with other glyphs (U+007E)
+- adjusted vertical position of the tilde to a higher position to improve alignment with other glyphs (U+007E) - Issue #23
+- increased width of the vertical stroke on the dollar symbol (U+0024) - Issue #92
 - updated ttfautohint to version 1.4 for TrueType (.ttf) build hints
 
 
