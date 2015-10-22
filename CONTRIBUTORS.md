@@ -2,7 +2,11 @@
 
 ## Hack
 
-- Christopher Simpkins
+### Core Development Team
+
+- Chris Simpkins (@chrissimpkins) - project lead
+- David van Gemeren (@burodepeper) - typeface usability
+- JM (@jublo) - typeface design, web development
 
 ### Hinting / Instruction Sets
 - Werner Lemberg
