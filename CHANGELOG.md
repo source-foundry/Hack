@@ -37,7 +37,7 @@ Changes vs. release v2.015:
 - added U+016C (upper case U breve) - Issue #21
 - added U+016D (lower case u breve) - Issue #21
 - added U+20B7 (spesmilo) - Issue #21
-- modified ttf instruction sets on U+002B (plus) to adjust the horizontal stroke to appropriate position at some text sizes, all sets - Issue #130
+- modified ttf instruction sets on U+002B (plus) to move the horizontal stroke to appropriate position at some text sizes, all sets - Issue #130
 - updated ttfautohint to version 1.4.1 for TrueType (.ttf) build instruction sets
 
 # Version 2.016 (testing build)
