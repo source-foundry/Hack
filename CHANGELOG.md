@@ -37,6 +37,7 @@ Changes vs. release v.2015:
 - added U+016C (upper case U breve) - Issue #21
 - added U+016D (lower case u breve) - Issue #21
 - added U+20B7 (spesmilo) - Issue #21
+- modified ttf instructions on U+002B (plus) with ttfautohint CIF - Issue #130
 - updated ttfautohint to version 1.4.1 for TrueType (.ttf) build instruction sets
 
 # Version 2.016
