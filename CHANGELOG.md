@@ -2,7 +2,7 @@
 
 ttf, otf, webfont builds
 
-Changes vs. release v.2015:
+Changes vs. release v2.015:
 
 - increased vertical position of the tilde (U+007E) to improve alignment with other glyphs - Issue #23
 - increased width of the vertical stroke on the dollar symbol (U+0024) - Issue #92
@@ -37,7 +37,7 @@ Changes vs. release v.2015:
 - added U+016C (upper case U breve) - Issue #21
 - added U+016D (lower case u breve) - Issue #21
 - added U+20B7 (spesmilo) - Issue #21
-- modified ttf instructions on U+002B (plus) with ttfautohint CIF - Issue #130
+- modified ttf instruction sets on U+002B (plus) to adjust the horizontal stroke to appropriate position at some text sizes, all sets - Issue #130
 - updated ttfautohint to version 1.4.1 for TrueType (.ttf) build instruction sets
 
 # Version 2.016
