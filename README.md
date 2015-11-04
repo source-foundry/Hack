@@ -25,7 +25,6 @@
 - [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md)
 - [Contributors](https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 - [License](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
-- [FAQ](https://github.com/chrissimpkins/Hack/blob/master/FAQ.md)
 
 
 ### About
