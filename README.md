@@ -57,14 +57,14 @@ Click the image for the full type specimen.
 
 The .otf or .ttf files may be used on OS X platforms.
 
-- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.015/Hack-v2_015-otf.zip)
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.015/Hack-v2_015-ttf.zip)
+- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-otf.zip)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-ttf.zip)
 
 #### Recommended Binaries for Linux and Windows Users
 
 The .ttf files are recommended for screen use on Linux and Windows platforms.
 
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.015/Hack-v2_015-ttf.zip)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-ttf.zip)
 
 
 ### Webfont Usage
@@ -84,13 +84,13 @@ Include **one** of the following lines in the `<head>` section of your site's HT
 ##### Basic Latin + Latin-1 Supplement Character Set
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.015/css/hack.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.017/css/hack.min.css">
 ```
 
 ##### Full Character Set
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.015/css/hack-extended.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.017/css/hack-extended.min.css">
 ```
 
 Then style your text by including `Hack` in the appropriate `font-family` property of your CSS.  For example:
@@ -108,7 +108,7 @@ The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatte
 
 Download the entire web font archive at this link:
 
-- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.015/Hack-v2_015-webfonts.zip)
+- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-webfonts.zip)
 
 Or select the fonts that you need in subdirectories of the build directory:
 
