@@ -1,3 +1,75 @@
+# Version 2.017 (release build)
+
+ttf, otf, webfont builds
+
+Changes vs. release v2.015:
+
+- increased vertical position of the tilde (U+007E) to improve alignment with other glyphs - Issue #23
+- increased width of the vertical stroke on the dollar symbol (U+0024) - Issue #92
+- modified Cyrillic upper case C (U+0421) to differentiate from Latin C - Issues #22 & #29
+- modified Cyrillic lower case c (U+0441) to differentiate from Latin c - Issues #22 & #29
+- modified upper case theta (U+0398) to differentiate from lower case theta - Issue #36
+- added U+0132 (IJ) glyph - Issue #52
+- added U+0133 (ij) glyph - Issue #52
+- added U+013F (upper case L dot) glyph - Issue #52
+- added U+0140 (lower case l dot) glyph - Issue #52
+- added U+0162 (upper case T cedilla) glyph - Issue #52
+- added U+0163 (lower case t cedilla) glyph - Issue #52
+- added U+0138 (kgreenlandic) glyph - Issue #52
+- added U+266A (musical note) glyph - Issue #52
+- added U+0149 (lower case n apostrophe) - Issue #52
+- added U+1EF9 (lower case y tilde) glyph - Issue #102
+- added U+1EF8 (upper case Y tilde) glyph - Issue #102
+- added U+1EBD (lower case e tilde) glyph - Issue #102
+- added U+1EBC (upper case E tilde) glyph - Issue #102
+- added U+2116 (numero) glyph - Issues #22 & #114
+- added U+01A4 (p hook) glyph - Issue #105
+- added U+0108 (upper case C circumflex) - Issue #21
+- added U+0109 (lower case c circumflex) - Issue #21
+- added U+011C (upper case G circumflex) - Issue #21
+- added U+011D (lower case g circumflex) - Issue #21
+- added U+0124 (upper case H circumflex) - Issue #21
+- added U+0125 (lower case h circumflex) - Issue #21
+- added U+0134 (upper case J circumflex) - Issue #21
+- added U+0135 (lower case j circumflex) - Issue #21
+- added U+015C (upper case S circumflex) - Issue #21
+- added U+015D (lower case s circumflex) - Issue #21
+- added U+016C (upper case U breve) - Issue #21
+- added U+016D (lower case u breve) - Issue #21
+- added U+20B7 (spesmilo) - Issue #21
+- fixed missing null glyph (U+0000) in regular, italic, bolditalic sets
+- removed duplicate CR glyph (U+000D) in all sets - Issue #149
+- updated ttfautohint to version 1.4.1 for TrueType (.ttf) build instruction sets
+
+# Version 2.016 (testing build)
+
+- increased vertical position of the tilde (U+007E) to improve alignment with other glyphs - Issue #23
+- increased width of the vertical stroke on the dollar symbol (U+0024) - Issue #92
+- modified Cyrillic upper case C (U+0421) to differentiate from Latin C - Issues #22 & #29
+- modified Cyrillic lower case c (U+0441) to differentiate from Latin c - Issues #22 & #29
+- modified upper case theta (U+0398) to differentiate from lower case theta - Issue #36
+- added U+1EF9 (lower case y tilde) glyph - Issue #102
+- added U+1EF8 (upper case Y tilde) glyph - Issue #102
+- added U+1EBD (lower case e tilde) glyph - Issue #102
+- added U+1EBC (upper case E tilde) glyph - Issue #102
+- added U+2116 (numero) glyph - Issues #22 & #114
+- added U+01A4 (p hook) glyph - Issue #105
+- added U+0108 (upper case C circumflex) - Issue #21
+- added U+0109 (lower case c circumflex) - Issue #21
+- added U+011C (upper case G circumflex) - Issue #21
+- added U+011D (lower case g circumflex) - Issue #21
+- added U+0124 (upper case H circumflex) - Issue #21
+- added U+0125 (lower case h circumflex) - Issue #21
+- added U+0134 (upper case J circumflex) - Issue #21
+- added U+0135 (lower case j circumflex) - Issue #21
+- added U+015C (upper case S circumflex) - Issue #21
+- added U+015D (lower case s circumflex) - Issue #21
+- added U+016C (upper case U breve) - Issue #21
+- added U+016D (lower case u breve) - Issue #21
+- added U+20B7 (spesmilo) - Issue #21
+- updated ttfautohint to version 1.4 for TrueType (.ttf) build instruction sets
+
+
 # Version 2.015 (release build)
 
 ttf, otf, webfont builds
@@ -24,7 +96,7 @@ Changes vs. release v2.013:
 - Hack Open Font license updated to version 2.0.  The license changes better define the Hack project as a derivative project of the Bitstream Vera Sans Mono typeface project and are intended to make the license more consistent with the Bitstream Vera libre, open source license under which Hack is co-licensed.  There are no new restrictions on use of the fonts with these license changes.  Embedding permissions are made explicit in this version of the Hack Open Font license.
 
 
-# Version 2.014 (development build)
+# Version 2.014 (testing build)
 
 - ttf only build for testing
 - updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes) - Issue #84
@@ -59,7 +131,7 @@ Changes vs. release v2.010
 - Modified the build directory structure for the Hack web fonts
 - Added Hack webfont CSS files to the build directory
 
-# Version 2.012 (development build)
+# Version 2.012 (testing build)
 
 - ttf only build for testing
 - Powerline glyph alignment and size adjustments (Issue #33)
@@ -68,7 +140,7 @@ Changes vs. release v2.010
 	- incorrect italic + bold + bold oblique rendering in some syntax highlighters (Issues #42, #50, #60)
 	- backslash character took inappropriate vertical alignment because of incorrect slant angle in some editors (Issue #67)
 
-# Version 2.011 (development build)
+# Version 2.011 (testing build)
 
 - ttf only build for testing
 - fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues 27 & 46)

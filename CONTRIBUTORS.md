@@ -29,12 +29,19 @@
 - Daniele Tricoli
 
 ### Language Set Suggestions, Design, and Proofing
+- Dmitry Maslennikov - Cyrillic set
 - Perry E. Metzger - Greek set
 - Timothée Poisot - Greek set
+- Damien Pollet - Esperanto set
+- Michael Schierl - MES-1 set, Esperanto set
 - Roman Sotnikov - Cyrillic set
 - Ivan Starkov - Cyrillic set
 - Nikos Tzanos - Greek set
 - Alexei Volkov - Cyrillic set
+- @achkasov - Cyrillic set
+- @Bfgeshka - Cyrillic set
+- @rafaeln - Kĩsêdjê set
+- @xstee (Leonid) - Cyrillic set
 
 ### Testing
 - Jameel Al-Aziz
@@ -46,6 +53,7 @@
 - Felix Dreissig
 - Gavin Eadie
 - Jason Evans
+- Daniel Fitzpatrick
 - Thilo Frommeyer
 - Trevor Hayes
 - Jorg Heymans
@@ -56,6 +64,7 @@
 - Pete Johanson
 - Serg Koles
 - Zach Langbert
+- Fabio Alessandro Locati
 - Jesús Martínez
 - Dave Merrill
 - Darius Niemczyk
@@ -72,11 +81,13 @@
 - Matthew Wesley
 - Gustaf Zetterlund
 - 张标 (@angrilove)
+- @duud
 - @hrj
 - @iamklutch
 - @legovini
 - @MaxKh
 - @Paul-v-H
+- @schauveau
 - @ScuzzyEye
 - @tbrisbane
 

@@ -39,10 +39,9 @@ The font binaries are released under a license that permits unlimited print, des
 
 - **Typeface Name**: Hack
 - **Category**: Monospaced
-- **Character Set Support**: Extended Latin, modern Greek, Cyrillic, Vietnamese, pan-African, Georgian, Armenian
 - **Powerline Support**: Yes
-- **Glyph Number**: 1534
-- **Included Styles**: Regular, Bold, Oblique, Bold Oblique
+- **Glyph Number**: 1559
+- **Included Styles**: Regular, Bold, Italic, Bold Italic
 
 
 ### Specimen

@@ -1,0 +1,3 @@
+# adjust horizontal stem in plus glyph (U+002B)
+plus touch 0,1,2,3,6,7,8,9  y 0.5  @  7, 10, 11
+plus touch 0,1,2,3,6,7,8,9  y -0.5  @ 12, 13, 15, 16
