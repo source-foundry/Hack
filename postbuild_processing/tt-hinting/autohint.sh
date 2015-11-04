@@ -20,7 +20,7 @@ ttfautohint -l 4 -r 80 -G 350 -x 0 -H 260 -D latn -f latn -w G -W -t -X "" -I -m
 echo "Hack-Bold.ttf hinted and moved to ../posthinted_builds/Hack-Bold.ttf"
 
 # Hack-Italic.ttf
-ttfautohint -l 4 -r 80 -G 350 -x 0 -H 145 -D latn -f latn -w G -W -t -X "" -I -m "../prehinted_builds/Hack-Italic.ttf" "../posthinted_builds/Hack-Italic.ttf"
+ttfautohint -l 4 -r 80 -G 350 -x 0 -H 145 -D latn -f latn -w G -W -t -X "" -I "../prehinted_builds/Hack-Italic.ttf" "../posthinted_builds/Hack-Italic.ttf"
 echo "Hack-Italic.ttf hinted and moved to ../posthinted_builds/Hack-Italic.ttf"
 
 # Hack-BoldItalic.ttf
