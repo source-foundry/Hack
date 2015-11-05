@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="307" y="1493" type="line" name="at01"/>
-      <point x="602" y="1493" type="line" name="hr01"/>
+      <point x="602" y="1493" type="line"/>
       <point x="555" y="1266" type="line"/>
       <point x="682" y="1266" type="line" name="sv02"/>
       <point x="917" y="1266"/>
@@ -38,11 +38,11 @@
       <point x="858" y="843" type="qcurve" name="dh01"/>
       <point x="858" y="898"/>
       <point x="832" y="962"/>
-      <point x="806" y="980" type="qcurve"/>
+      <point x="806" y="980" type="qcurve" name="hr01"/>
       <point x="780" y="999"/>
       <point x="695" y="1018"/>
       <point x="631" y="1018" type="qcurve" name="sv01"/>
-      <point x="510" y="1018" type="line"/>
+      <point x="510" y="1018" type="line" name="hr02"/>
       <point x="424" y="580" type="line"/>
     </contour>
   </outline>
@@ -76,9 +76,16 @@ b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIzMzIiIHdpZHRoPSIyNDgiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjEwMTgiIHdpZHRo
-PSI0NzUiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg1
+PSIyNDgiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg1
 OCIgd2lkdGg9IjMwNyIgLz4KICAgIDwvaGludHNl
-dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+dD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAy
+Ij4KICAgICAgPGhzdGVtIHBvcz0iMjEiIHdpZHRo
+PSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMz
+MiIgd2lkdGg9IjI0OCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTAxOCIgd2lkdGg9IjQ3NSIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iODU4IiB3aWR0aD0iMzA3
+IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+dExpc3Q+Cg==
   </data>
   </dict>
   </lib>

@@ -18,7 +18,7 @@
     </contour>
     <contour>
       <point x="802" y="858" type="line" name="ih01"/>
-      <point x="616" y="1042" type="line"/>
+      <point x="616" y="1042" type="line" name="hr01"/>
       <point x="432" y="858" type="line" name="ih02"/>
     </contour>
     <contour>
@@ -29,7 +29,7 @@
       <point x="524" y="759" type="line"/>
       <point x="524" y="190" type="line" name="dh02"/>
       <point x="314" y="190" type="line"/>
-      <point x="314" y="90" type="line"/>
+      <point x="314" y="90" type="line" name="hr03"/>
     </contour>
   </outline>
   <lib>
@@ -73,25 +73,33 @@ b2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwNCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSI5MCIgLz4KICAgICAgPGhz
 dGVtIHBvcz0iMTkwIiB3aWR0aD0iOTAiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9Ijc1OSIgd2lkdGg9Ijk5
 IiAvPgogICAgICA8aHN0ZW0gcG9zPSIxMTYyIiB3
 aWR0aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9z
-PSI0MjQiIHdpZHRoPSIxMDAiIC8+CiAgICAgIDx2
-c3RlbSBwb3M9IjcwOCIgd2lkdGg9IjEwMCIgLz4K
+PSIyMjQiIHdpZHRoPSIzMDAiIC8+CiAgICAgIDx2
+c3RlbSBwb3M9IjcwOCIgd2lkdGg9IjMwMiIgLz4K
 ICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBv
-aW50VGFnPSJkaDAxIj4KICAgICAgPGhzdGVtIHBv
+aW50VGFnPSJzdjAyIj4KICAgICAgPGhzdGVtIHBv
 cz0iMCIgd2lkdGg9IjkwIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSIxOTAiIHdpZHRoPSI5MCIgLz4KICAg
 ICAgPGhzdGVtIHBvcz0iNzU5IiB3aWR0aD0iOTki
 IC8+CiAgICAgIDxoc3RlbSBwb3M9IjExNjIiIHdp
 ZHRoPSItMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-IjIyNCIgd2lkdGg9IjMwMCIgLz4KICAgICAgPHZz
+IjQyNCIgd2lkdGg9IjEwMCIgLz4KICAgICAgPHZz
 dGVtIHBvcz0iNzA4IiB3aWR0aD0iMTAwIiAvPgog
-ICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
-Cg==
+ICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9p
+bnRUYWc9ImhyMDMiPgogICAgICA8aHN0ZW0gcG9z
+PSIwIiB3aWR0aD0iOTAiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjE5MCIgd2lkdGg9IjkwIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSI3NTkiIHdpZHRoPSI5OSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMTE2MiIgd2lk
+dGg9Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+MjI0IiB3aWR0aD0iMzAwIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI3MDgiIHdpZHRoPSIxMDAiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

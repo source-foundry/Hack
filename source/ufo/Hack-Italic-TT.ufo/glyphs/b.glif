@@ -12,7 +12,7 @@
       <point x="224" y="0" type="line" name="ab02"/>
       <point x="59" y="0" type="line"/>
       <point x="362" y="1556" type="line" name="at01"/>
-      <point x="547" y="1556" type="line" name="hr01"/>
+      <point x="547" y="1556" type="line"/>
       <point x="434" y="977" type="line" name="iv02"/>
       <point x="495" y="1060"/>
       <point x="578" y="1104" type="qcurve"/>
@@ -60,7 +60,7 @@
       <point x="438" y="812" type="qcurve"/>
       <point x="412" y="766"/>
       <point x="375" y="666"/>
-      <point x="361" y="611" type="qcurve"/>
+      <point x="361" y="611" type="qcurve" name="hr01"/>
       <point x="347" y="552"/>
       <point x="332" y="438"/>
       <point x="332" y="389" type="qcurve"/>
@@ -111,19 +111,17 @@ PgogIDwvdHRQcm9ncmFtPgo=
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSI5OTMiIHdpZHRoPSIxNTQiIC8+
-CiAgICAgIDxoc3RlbSBwb3M9IjE1NTYiIHdpZHRo
-PSItMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijkx
-MSIgd2lkdGg9IjE5NyIgLz4KICAgIDwvaGludHNl
-dD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJkdjAx
-Ij4KICAgICAgPGhzdGVtIHBvcz0iLTI5IiB3aWR0
-aD0iMTU2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5
-OTMiIHdpZHRoPSIxNTQiIC8+CiAgICAgIDxoc3Rl
-bSBwb3M9IjE1NTYiIHdpZHRoPSItMjAiIC8+CiAg
-ICAgIDx2c3RlbSBwb3M9IjkxMSIgd2lkdGg9IjE5
-NyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
-ZXRMaXN0Pgo=
+b3M9Ii0yOSIgd2lkdGg9IjE1NiIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMjEiIHdpZHRoPSItMjEiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9Ijk5MyIgd2lkdGg9
+IjE1NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iOTkz
+IiB3aWR0aD0iMTU0IiAvPgogICAgICA8aHN0ZW0g
+cG9zPSIxNTU2IiB3aWR0aD0iLTIwIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxNTU2IiB3aWR0aD0iLTIw
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5MTEiIHdp
+ZHRoPSIxOTciIC8+CiAgICAgIDx2c3RlbSBwb3M9
+IjkxMSIgd2lkdGg9IjE5NyIgLz4KICAgIDwvaGlu
+dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

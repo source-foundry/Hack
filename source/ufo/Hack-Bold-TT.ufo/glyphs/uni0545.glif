@@ -13,7 +13,7 @@
       <point x="127" y="436" type="qcurve"/>
       <point x="127" y="445" type="line"/>
       <point x="425" y="445" type="line" name="sv01"/>
-      <point x="425" y="436" type="line"/>
+      <point x="425" y="436" type="line" name="hr01"/>
       <point x="425" y="394"/>
       <point x="455" y="319"/>
       <point x="484" y="290" type="qcurve"/>
@@ -22,14 +22,14 @@
       <point x="657" y="226" type="qcurve" name="dv02"/>
       <point x="717" y="226"/>
       <point x="805" y="262"/>
-      <point x="833" y="293" type="qcurve" name="hr02"/>
+      <point x="833" y="293" type="qcurve"/>
       <point x="860" y="323"/>
       <point x="884" y="406"/>
       <point x="884" y="449" type="qcurve" name="ih01"/>
       <point x="884" y="551"/>
       <point x="765" y="662"/>
       <point x="653" y="662" type="qcurve" name="dv03"/>
-      <point x="50" y="662" type="line"/>
+      <point x="50" y="662" type="line" name="hr02"/>
       <point x="50" y="922" type="line"/>
       <point x="653" y="922" type="line" name="dv04"/>
       <point x="701" y="922"/>
@@ -52,7 +52,7 @@
       <point x="652" y="1518" type="qcurve" name="at01"/>
       <point x="758" y="1518"/>
       <point x="932" y="1459"/>
-      <point x="995" y="1404" type="qcurve" name="hr01"/>
+      <point x="995" y="1404" type="qcurve"/>
       <point x="1060" y="1347"/>
       <point x="1127" y="1192"/>
       <point x="1127" y="1098" type="qcurve" name="dh04"/>
@@ -124,16 +124,32 @@ PGhzdGVtIHBvcz0iNjYyIiB3aWR0aD0iMjYwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDk0IiB3aWR0
 aD0iNDI0IiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
 ODIiIHdpZHRoPSIyOTgiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9Ijg4NCIgd2lkdGg9IjI5OCIgLz4KICAg
+bSBwb3M9IjgyOSIgd2lkdGg9IjI5OCIgLz4KICAg
 IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50
 VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0i
 LTI5IiB3aWR0aD0iMjU1IiAvPgogICAgICA8aHN0
 ZW0gcG9zPSI2NjIiIHdpZHRoPSIyNjAiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjEwOTQiIHdpZHRoPSI0
-MjQiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE4MiIg
+ICAgIDxoc3RlbSBwb3M9IjEyNjMiIHdpZHRoPSIy
+NTUiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE4MiIg
 d2lkdGg9IjI5OCIgLz4KICAgICAgPHZzdGVtIHBv
 cz0iODI5IiB3aWR0aD0iMjk4IiAvPgogICAgPC9o
-aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
+ImRoMDEiPgogICAgICA8aHN0ZW0gcG9zPSItMjki
+IHdpZHRoPSIyNTUiIC8+CiAgICAgIDxoc3RlbSBw
+b3M9IjY2MiIgd2lkdGg9IjI2MCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTA5NCIgd2lkdGg9IjQyNCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iMTgyIiB3aWR0
+aD0iMjk4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+ODQiIHdpZHRoPSIyOTgiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaWgw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
+dGg9IjI1NSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+NjYyIiB3aWR0aD0iMjYwIiAvPgogICAgICA8aHN0
+ZW0gcG9zPSIxMDk0IiB3aWR0aD0iNDI0IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSIxODIiIHdpZHRoPSIy
+OTgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjgyOSIg
+d2lkdGg9IjI5OCIgLz4KICAgIDwvaGludHNldD4K
+ICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

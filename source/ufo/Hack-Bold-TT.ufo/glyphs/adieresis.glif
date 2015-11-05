@@ -26,7 +26,7 @@
       <point x="726" y="1595" type="qcurve" name="sv02"/>
       <point x="902" y="1595" type="line"/>
       <point x="932" y="1595"/>
-      <point x="932" y="1565" type="qcurve"/>
+      <point x="932" y="1565" type="qcurve" name="hr01"/>
       <point x="932" y="1379" type="line" name="dh04"/>
       <point x="932" y="1349"/>
       <point x="902" y="1349" type="qcurve"/>
@@ -86,7 +86,7 @@
       <point x="1106" y="197" type="qcurve" name="sh04"/>
       <point x="1108" y="177"/>
       <point x="1111" y="138"/>
-      <point x="1113" y="125" type="qcurve"/>
+      <point x="1113" y="125" type="qcurve" name="hr02"/>
       <point x="1116" y="105"/>
       <point x="1124" y="68"/>
       <point x="1127" y="58" type="qcurve"/>
@@ -182,16 +182,25 @@ MiIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwNiI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0yOSIgd2lkdGg9IjIwMyIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iNTI2IiB3aWR0aD0iMjExIiAv
-PgogICAgICA8aHN0ZW0gcG9zPSI5MzAiIHdpZHRo
-PSIyMTgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEz
-NTkiIHdpZHRoPSIyNDYiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9Ijk1IiB3aWR0aD0iMzEyIiAvPgogICAg
-ICA8dnN0ZW0gcG9zPSI4MTgiIHdpZHRoPSIyOTEi
-IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
-TGlzdD4K
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI1MjYiIHdpZHRoPSIyMTEiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjkzMCIgd2lkdGg9
+IjIxOCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTM0
+OSIgd2lkdGg9IjI0NiIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iOTUiIHdpZHRoPSIzMTIiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjgxOCIgd2lkdGg9IjI5MSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTI5IiB3aWR0aD0iMjAzIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSI1MjYiIHdpZHRoPSIyMTEi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9IjkzMCIgd2lk
+dGg9IjIxOCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+MTM0OSIgd2lkdGg9IjI0NiIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iMzAxIiB3aWR0aD0iMjM2IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI2OTYiIHdpZHRoPSIy
+MzYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
+U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

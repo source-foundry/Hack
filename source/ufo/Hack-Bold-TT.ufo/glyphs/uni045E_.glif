@@ -21,7 +21,7 @@
     </contour>
     <contour>
       <point x="137" y="-201" type="line" name="sv03"/>
-      <point x="256" y="-201" type="line" name="hr01"/>
+      <point x="256" y="-201" type="line"/>
       <point x="300" y="-201"/>
       <point x="364" y="-188"/>
       <point x="413" y="-151"/>
@@ -33,7 +33,7 @@
       <point x="633" y="393" type="line" name="iv01"/>
       <point x="878" y="1120" type="line" name="at02"/>
       <point x="1186" y="1120" type="line" name="iv02"/>
-      <point x="721" y="-121" type="line"/>
+      <point x="721" y="-121" type="line" name="hr01"/>
       <point x="662" y="-279"/>
       <point x="497" y="-424"/>
       <point x="379" y="-424" type="qcurve" name="ab01"/>
@@ -77,7 +77,7 @@ b3M9Ii00MjQiIHdpZHRoPSIyMjMiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjExMjAiIHdpZHRoPSItMjAi
 IC8+CiAgICAgIDxoc3RlbSBwb3M9IjEyNzAiIHdp
 ZHRoPSIxNTMiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
-ICA8aGludHNldCBwb2ludFRhZz0iYXQwNCI+CiAg
+ICA8aGludHNldCBwb2ludFRhZz0iYWIwMSI+CiAg
 ICAgIDxoc3RlbSBwb3M9Ii00MjQiIHdpZHRoPSIy
 MjMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjExMjAi
 IHdpZHRoPSItMjAiIC8+CiAgICAgIDxoc3RlbSBw

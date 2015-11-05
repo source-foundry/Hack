@@ -4,20 +4,20 @@
   <unicode hex="208E"/>
   <outline>
     <contour>
-      <point x="589" y="-151" type="line" name="av03"/>
-      <point x="722" y="22" name="dh02"/>
-      <point x="787" y="185"/>
-      <point x="787" y="360" type="curve" smooth="yes" name="av01"/>
-      <point x="787" y="532" name="dh01"/>
-      <point x="721" y="702" name="av02"/>
-      <point x="589" y="870" type="curve"/>
-      <point x="446" y="870" type="line"/>
-      <point x="558" y="690"/>
-      <point x="609" y="529"/>
+      <point x="446" y="-151" type="line" name="av02"/>
+      <point x="558" y="29" name="dh01"/>
+      <point x="609" y="194" name="av01"/>
       <point x="609" y="362" type="curve" smooth="yes"/>
-      <point x="609" y="194"/>
-      <point x="558" y="29"/>
-      <point x="446" y="-151" type="curve"/>
+      <point x="609" y="529" name="dh02"/>
+      <point x="558" y="690" name="av03"/>
+      <point x="446" y="870" type="curve"/>
+      <point x="589" y="870" type="line"/>
+      <point x="721" y="702"/>
+      <point x="787" y="532"/>
+      <point x="787" y="360" type="curve" smooth="yes"/>
+      <point x="787" y="185"/>
+      <point x="722" y="22"/>
+      <point x="589" y="-151" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -41,7 +41,7 @@ bGlnbj0icm91bmQiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMyI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXYwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xMzAiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ijg3MCIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iNjA5IiB3aWR0

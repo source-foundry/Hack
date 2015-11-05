@@ -4,31 +4,31 @@
   <unicode hex="0414"/>
   <outline>
     <contour>
-      <point x="40" y="-322" type="line"/>
-      <point x="295" y="-322" type="line" name="av01"/>
-      <point x="295" y="0" type="line" name="dh02"/>
-      <point x="937" y="0" type="line" name="ab01"/>
-      <point x="937" y="-322" type="line" name="ih02"/>
-      <point x="1192" y="-322" type="line" name="sh01"/>
-      <point x="1192" y="260" type="line" name="sv01"/>
-      <point x="1055" y="260" type="line" name="dh04"/>
-      <point x="1055" y="1493" type="line"/>
-      <point x="207" y="1493" type="line" name="at01"/>
-      <point x="207" y="497" type="line" name="ih01"/>
-      <point x="207" y="395" type="line" smooth="yes"/>
-      <point x="207" y="329"/>
-      <point x="172" y="260" name="dh01"/>
-      <point x="140" y="260" type="curve" smooth="yes" name="ih03"/>
-      <point x="40" y="260" type="line" name="sh02"/>
+      <point x="40" y="260" type="line" name="dh01"/>
+      <point x="140" y="260" type="line" smooth="yes"/>
+      <point x="172" y="260"/>
+      <point x="207" y="329" name="ih01"/>
+      <point x="207" y="395" type="curve" smooth="yes" name="at01"/>
+      <point x="207" y="497" type="line"/>
+      <point x="207" y="1493" type="line" name="dh04"/>
+      <point x="1055" y="1493" type="line" name="sv01"/>
+      <point x="1055" y="260" type="line" name="sh01"/>
+      <point x="1192" y="260" type="line" name="ih02"/>
+      <point x="1192" y="-322" type="line" name="ab01"/>
+      <point x="937" y="-322" type="line" name="dh02"/>
+      <point x="937" y="0" type="line" name="av01"/>
+      <point x="295" y="0" type="line"/>
+      <point x="295" y="-322" type="line" name="dh03"/>
+      <point x="40" y="-322" type="line" name="sv02"/>
     </contour>
     <contour>
-      <point x="472" y="260" type="line"/>
-      <point x="492" y="324" name="sv02"/>
-      <point x="502" y="403" name="dh03"/>
-      <point x="502" y="497" type="curve" smooth="yes" name="hr03"/>
-      <point x="502" y="1233" type="line" name="sh03"/>
-      <point x="760" y="1233" type="line"/>
       <point x="760" y="260" type="line"/>
+      <point x="760" y="1233" type="line" name="sh02"/>
+      <point x="502" y="1233" type="line" name="ih03"/>
+      <point x="502" y="497" type="line" smooth="yes"/>
+      <point x="502" y="403" name="sh03"/>
+      <point x="492" y="324"/>
+      <point x="472" y="260" type="curve" name="hr03"/>
     </contour>
   </outline>
   <lib>
@@ -78,30 +78,30 @@ bnQyPSJpaDAzIi8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwNCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0zMDEiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjEyMzMiIHdpZHRo
-PSIyNjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjIw
-NyIgd2lkdGg9IjI5NSIgLz4KICAgICAgPHZzdGVt
-IHBvcz0iNzYwIiB3aWR0aD0iMjk1IiAvPgogICAg
-PC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRU
-YWc9InNoMDIiPgogICAgICA8aHN0ZW0gcG9zPSIt
-MzAxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8aHN0
-ZW0gcG9zPSIwIiB3aWR0aD0iMjYwIiAvPgogICAg
-ICA8aHN0ZW0gcG9zPSIxMjMzIiB3aWR0aD0iMjYw
-IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MCIgd2lk
-dGg9IjI1NSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+PSIyNjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQw
+IiB3aWR0aD0iMjU1IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI5MzciIHdpZHRoPSIyNTUiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRh
+Zz0iZGgwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0z
+MDEiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjIwNyIgd2lk
+dGg9IjI5NSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
 NzYwIiB3aWR0aD0iMjk1IiAvPgogICAgPC9oaW50
 c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9Imhy
 MDMiPgogICAgICA8aHN0ZW0gcG9zPSItMzAxIiB3
 aWR0aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9z
 PSIwIiB3aWR0aD0iMjYwIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSIxMjMzIiB3aWR0aD0iMjYwIiAvPgog
-ICAgICA8dnN0ZW0gcG9zPSIyMDciIHdpZHRoPSIy
-OTUiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc2MCIg
-d2lkdGg9IjI5NSIgLz4KICAgIDwvaGludHNldD4K
-ICA8L2hpbnRTZXRMaXN0Pgo=
+ICAgICA8dnN0ZW0gcG9zPSI0MCIgd2lkdGg9IjI1
+NSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzYwIiB3
+aWR0aD0iMjk1IiAvPgogICAgPC9oaW50c2V0Pgog
+IDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

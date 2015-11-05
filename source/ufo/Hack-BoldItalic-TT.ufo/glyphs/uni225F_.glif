@@ -42,19 +42,19 @@
       <point x="492" y="1268" type="line" name="sh03"/>
       <point x="672" y="1268" type="line" name="sh04"/>
       <point x="672" y="1090" type="line" name="dv07"/>
-      <point x="492" y="1090" type="line"/>
+      <point x="492" y="1090" type="line" name="hr01"/>
     </contour>
     <contour>
       <point x="86" y="987" type="line"/>
       <point x="1144" y="987" type="line" name="dv06"/>
       <point x="1144" y="752" type="line" name="dv05"/>
-      <point x="86" y="752" type="line" name="hr01"/>
+      <point x="86" y="752" type="line"/>
     </contour>
     <contour>
-      <point x="86" y="532" type="line"/>
+      <point x="86" y="532" type="line" name="hr02"/>
       <point x="1144" y="532" type="line" name="dv02"/>
       <point x="1144" y="295" type="line" name="dv01"/>
-      <point x="86" y="295" type="line"/>
+      <point x="86" y="295" type="line" name="hr03"/>
     </contour>
   </outline>
   <lib>
@@ -101,7 +101,7 @@ aD0iMTc4IiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
 NzE4IiB3aWR0aD0iMTMyIiAvPgogICAgICA8dnN0
 ZW0gcG9zPSIzODgiIHdpZHRoPSI0NTciIC8+CiAg
 ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
-dFRhZz0iZGgwMiI+CiAgICAgIDxoc3RlbSBwb3M9
+dFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9
 IjI5NSIgd2lkdGg9IjIzNyIgLz4KICAgICAgPGhz
 dGVtIHBvcz0iNzUyIiB3aWR0aD0iMjM1IiAvPgog
 ICAgICA8aHN0ZW0gcG9zPSIxMDkwIiB3aWR0aD0i
@@ -109,7 +109,7 @@ MTc4IiAvPgogICAgICA8aHN0ZW0gcG9zPSIxMzQy
 IiB3aWR0aD0iNTA4IiAvPgogICAgICA8dnN0ZW0g
 cG9zPSI2NjQiIHdpZHRoPSIxODEiIC8+CiAgICA8
 L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRh
-Zz0iaWgwMSI+CiAgICAgIDxoc3RlbSBwb3M9IjI5
+Zz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9IjI5
 NSIgd2lkdGg9IjIzNyIgLz4KICAgICAgPGhzdGVt
 IHBvcz0iNzUyIiB3aWR0aD0iMjM1IiAvPgogICAg
 ICA8aHN0ZW0gcG9zPSIxMDkwIiB3aWR0aD0iMTc4

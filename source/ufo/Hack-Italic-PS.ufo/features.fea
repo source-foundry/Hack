@@ -21,6 +21,15 @@ languagesystem latn ROM ;
 
 
 
+
+
+
+
+
+
+
+
+
 feature aalt{
   feature locl;
   feature subs;
@@ -121,6 +130,15 @@ feature case { # Case-Sensitive Forms
  language MOL ; # Moldavian
  language ROM ; # Romanian
 } case;
+
+
+
+
+
+
+
+
+
 
 
 

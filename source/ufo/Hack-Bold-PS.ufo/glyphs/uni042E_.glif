@@ -4,51 +4,51 @@
   <unicode hex="042E"/>
   <outline>
     <contour>
-      <point x="820" y="-29" type="curve" smooth="yes"/>
-      <point x="1058" y="-29"/>
-      <point x="1227" y="246"/>
-      <point x="1232" y="745" type="curve" smooth="yes" name="at02"/>
-      <point x="1235" y="979" name="sh04"/>
-      <point x="1198" y="1197"/>
-      <point x="1134" y="1324" type="curve" name="sh03"/>
-      <point x="1071" y="1452" name="at01"/>
-      <point x="972" y="1520" name="sh01"/>
-      <point x="843" y="1520" type="curve" smooth="yes" name="sh02"/>
-      <point x="558" y="1520"/>
-      <point x="444" y="1186" name="ah02"/>
-      <point x="416" y="911" type="curve"/>
-      <point x="301" y="911" type="line" name="av01"/>
-      <point x="301" y="1493" type="line" name="hr01"/>
-      <point x="6" y="1493" type="line" name="sh05"/>
-      <point x="6" y="0" type="line"/>
-      <point x="301" y="0" type="line" name="sv01"/>
-      <point x="301" y="651" type="line"/>
-      <point x="412" y="651" type="line"/>
-      <point x="423" y="458"/>
-      <point x="465" y="296" name="ah01"/>
-      <point x="537" y="167" type="curve"/>
-      <point x="606" y="31"/>
+      <point x="820" y="-29" type="curve" smooth="yes" name="av01"/>
       <point x="708" y="-29"/>
+      <point x="606" y="31" name="ah02"/>
+      <point x="537" y="167" type="curve"/>
+      <point x="465" y="296" name="sh02"/>
+      <point x="423" y="458" name="sh01"/>
+      <point x="412" y="651" type="curve" name="at01"/>
+      <point x="301" y="651" type="line" name="sh03"/>
+      <point x="301" y="0" type="line"/>
+      <point x="6" y="0" type="line" name="sh04"/>
+      <point x="6" y="1493" type="line" name="at02"/>
+      <point x="301" y="1493" type="line"/>
+      <point x="301" y="911" type="line"/>
+      <point x="416" y="911" type="line"/>
+      <point x="444" y="1186"/>
+      <point x="558" y="1520"/>
+      <point x="843" y="1520" type="curve" smooth="yes"/>
+      <point x="972" y="1520" name="sv01"/>
+      <point x="1071" y="1452"/>
+      <point x="1134" y="1324" type="curve" name="sh05"/>
+      <point x="1198" y="1197"/>
+      <point x="1235" y="979" name="ah01"/>
+      <point x="1232" y="745" type="curve" smooth="yes"/>
+      <point x="1227" y="246"/>
+      <point x="1058" y="-29"/>
     </contour>
     <contour>
       <point x="739" y="356" type="curve" smooth="yes"/>
-      <point x="711" y="441"/>
-      <point x="697" y="573"/>
-      <point x="697" y="740" type="curve" smooth="yes"/>
-      <point x="697" y="907"/>
-      <point x="711" y="1031"/>
-      <point x="739" y="1134" type="curve"/>
-      <point x="756" y="1211"/>
-      <point x="783" y="1255"/>
-      <point x="822" y="1255" type="curve" smooth="yes" name="hr02"/>
-      <point x="861" y="1255"/>
-      <point x="887" y="1214"/>
-      <point x="910" y="1134" type="curve" smooth="yes"/>
-      <point x="970" y="922"/>
-      <point x="962" y="520"/>
-      <point x="910" y="356" type="curve"/>
-      <point x="870" y="205"/>
       <point x="787" y="212"/>
+      <point x="870" y="205"/>
+      <point x="910" y="356" type="curve"/>
+      <point x="962" y="520"/>
+      <point x="970" y="922"/>
+      <point x="910" y="1134" type="curve" smooth="yes"/>
+      <point x="887" y="1214"/>
+      <point x="861" y="1255"/>
+      <point x="822" y="1255" type="curve" smooth="yes"/>
+      <point x="783" y="1255"/>
+      <point x="756" y="1211"/>
+      <point x="739" y="1134" type="curve"/>
+      <point x="711" y="1031"/>
+      <point x="697" y="907"/>
+      <point x="697" y="740" type="curve" smooth="yes"/>
+      <point x="697" y="573"/>
+      <point x="711" y="441"/>
     </contour>
   </outline>
   <lib>
@@ -93,15 +93,7 @@ ICAgICAgPGhzdGVtIHBvcz0iMTQ5MyIgd2lkdGg9
 Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNiIg
 d2lkdGg9IjI5NSIgLz4KICAgICAgPHZzdGVtIHBv
 cz0iNDEyIiB3aWR0aD0iMjg1IiAvPgogICAgPC9o
-aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
-ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSItOCIg
-d2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBv
-cz0iMjEiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjEyNTUiIHdpZHRoPSIyNjUiIC8+
-CiAgICAgIDx2c3RlbSBwb3M9IjYiIHdpZHRoPSIy
-OTUiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQxMiIg
-d2lkdGg9IjI4NSIgLz4KICAgIDwvaGludHNldD4K
-ICA8L2hpbnRTZXRMaXN0Pgo=
+aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

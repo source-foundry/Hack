@@ -12,7 +12,7 @@
       <point x="27" y="355" type="qcurve"/>
       <point x="59" y="538"/>
       <point x="339" y="734"/>
-      <point x="585" y="734" type="qcurve" name="hr01"/>
+      <point x="585" y="734" type="qcurve"/>
       <point x="787" y="734" type="line" name="dv04"/>
       <point x="802" y="810" type="line" name="dv05"/>
       <point x="600" y="810" type="line"/>
@@ -20,7 +20,7 @@
       <point x="180" y="1098" type="qcurve" name="ih01"/>
       <point x="180" y="1119"/>
       <point x="185" y="1167"/>
-      <point x="190" y="1193" type="qcurve"/>
+      <point x="190" y="1193" type="qcurve" name="hr01"/>
       <point x="226" y="1372"/>
       <point x="502" y="1551"/>
       <point x="747" y="1551" type="qcurve" name="dv02"/>
@@ -119,28 +119,20 @@ ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyMDkiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjAiIHdpZHRoPSIyMDkiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMDki
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjUxOCIgd2lk
-dGg9IjIxNiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-NTE4IiB3aWR0aD0iMjE2IiAvPgogICAgICA8aHN0
-ZW0gcG9zPSI1MTgiIHdpZHRoPSIyMTYiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjgxMCIgd2lkdGg9IjIx
-NyIgLz4KICAgICAgPGhzdGVtIHBvcz0iODEwIiB3
-aWR0aD0iMjE3IiAvPgogICAgICA8aHN0ZW0gcG9z
+ICAgIDxoc3RlbSBwb3M9IjUxOCIgd2lkdGg9IjIx
+NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTE4IiB3
+aWR0aD0iMjE2IiAvPgogICAgICA8aHN0ZW0gcG9z
 PSI4MTAiIHdpZHRoPSIyMTciIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjEzNDAiIHdpZHRoPSIyMTEiIC8+
-CiAgICAgIDxoc3RlbSBwb3M9IjEzNDAiIHdpZHRo
-PSIyMTEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEz
-NDAiIHdpZHRoPSIyMTEiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjE5IiB3aWR0aD0iMzAxIiAvPgogICAg
-ICA8dnN0ZW0gcG9zPSIxOSIgd2lkdGg9IjMwMSIg
-Lz4KICAgICAgPHZzdGVtIHBvcz0iMTgwIiB3aWR0
-aD0iMzAwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
-ODAiIHdpZHRoPSIyODEiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9Ijg4MCIgd2lkdGg9IjI4MSIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iODgwIiB3aWR0aD0iMjgx
-IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-dExpc3Q+Cg==
+c3RlbSBwb3M9IjgxMCIgd2lkdGg9IjIxNyIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTM0MCIgd2lkdGg9
+IjIxMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTM0
+MCIgd2lkdGg9IjIxMSIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iMTkiIHdpZHRoPSIzMDEiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjE4MCIgd2lkdGg9IjMwMCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iODgwIiB3aWR0
+aD0iMjgxIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+ODAiIHdpZHRoPSIyODEiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

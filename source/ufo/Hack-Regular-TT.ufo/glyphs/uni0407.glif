@@ -26,7 +26,7 @@
       <point x="741" y="1852" type="qcurve" name="sv02"/>
       <point x="883" y="1852" type="line"/>
       <point x="913" y="1852"/>
-      <point x="913" y="1822" type="qcurve"/>
+      <point x="913" y="1822" type="qcurve" name="hr01"/>
       <point x="913" y="1679" type="line" name="sh03"/>
       <point x="913" y="1649"/>
       <point x="883" y="1649" type="qcurve"/>
@@ -89,8 +89,15 @@ ICA8L3R0UHJvZ3JhbT4K
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE2NDkiIHdpZHRo
+PSIyMDMiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjMx
+OSIgd2lkdGg9IjIwMyIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iNzExIiB3aWR0aD0iMjAyIiAvPgogICAg
+PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

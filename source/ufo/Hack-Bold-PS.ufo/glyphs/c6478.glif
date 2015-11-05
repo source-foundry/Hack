@@ -3,22 +3,22 @@
   <advance width="1233"/>
   <outline>
     <contour>
-      <point x="639" y="668" type="line" name="hr00"/>
-      <point x="825" y="668" type="line" name="av01"/>
-      <point x="825" y="848" type="line" name="dh02"/>
-      <point x="934" y="848" type="line" name="sv02"/>
-      <point x="934" y="991" type="line"/>
-      <point x="825" y="991" type="line" name="sv01"/>
-      <point x="825" y="1503" type="line" name="sh01"/>
-      <point x="621" y="1503" type="line" name="at01"/>
-      <point x="246" y="1010" type="line"/>
-      <point x="246" y="848" type="line"/>
       <point x="639" y="848" type="line" name="dh01"/>
+      <point x="246" y="848" type="line"/>
+      <point x="246" y="1010" type="line"/>
+      <point x="621" y="1503" type="line" name="at01"/>
+      <point x="825" y="1503" type="line" name="sh01"/>
+      <point x="825" y="991" type="line" name="sv01"/>
+      <point x="934" y="991" type="line"/>
+      <point x="934" y="848" type="line" name="sv02"/>
+      <point x="825" y="848" type="line" name="dh02"/>
+      <point x="825" y="668" type="line" name="av01"/>
+      <point x="639" y="668" type="line"/>
     </contour>
     <contour>
-      <point x="389" y="991" type="line"/>
-      <point x="639" y="1321" type="line"/>
       <point x="639" y="991" type="line" name="sh02"/>
+      <point x="639" y="1321" type="line"/>
+      <point x="389" y="991" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -46,7 +46,7 @@ bT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjY4OSIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iODQ4IiB3aWR0aD0iMTQzIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxNTAzIiB3aWR0

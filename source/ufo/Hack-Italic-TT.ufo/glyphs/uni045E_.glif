@@ -19,7 +19,7 @@
       <point x="876" y="1398"/>
       <point x="980" y="1473"/>
       <point x="1009" y="1548" type="qcurve" name="sv02"/>
-      <point x="1128" y="1548" type="line" name="hr02"/>
+      <point x="1128" y="1548" type="line"/>
       <point x="1095" y="1404"/>
       <point x="916" y="1261"/>
     </contour>
@@ -31,13 +31,13 @@
       <point x="302" y="-197"/>
       <point x="359" y="-119"/>
       <point x="386" y="-66" type="qcurve"/>
-      <point x="429" y="18" type="line" name="hr01"/>
+      <point x="429" y="18" type="line"/>
       <point x="212" y="1120" type="line" name="at01"/>
       <point x="395" y="1120" type="line"/>
       <point x="567" y="258" type="line" name="ih01"/>
       <point x="1050" y="1120" type="line" name="at02"/>
       <point x="1255" y="1120" type="line"/>
-      <point x="816" y="360" type="line"/>
+      <point x="816" y="360" type="line" name="hr01"/>
       <point x="791" y="317"/>
       <point x="742" y="231"/>
       <point x="698" y="154"/>
@@ -45,7 +45,7 @@
       <point x="651" y="72" type="qcurve"/>
       <point x="572" y="-66"/>
       <point x="473" y="-234"/>
-      <point x="442" y="-276" type="qcurve"/>
+      <point x="442" y="-276" type="qcurve" name="hr02"/>
       <point x="382" y="-355"/>
       <point x="230" y="-426"/>
       <point x="139" y="-426" type="qcurve" name="dv01"/>

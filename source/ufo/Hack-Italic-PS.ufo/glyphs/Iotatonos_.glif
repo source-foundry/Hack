@@ -4,24 +4,24 @@
   <unicode hex="038A"/>
   <outline>
     <contour>
-      <point x="-125" y="1262" type="line" name="iv01"/>
-      <point x="31" y="1262" type="line"/>
-      <point x="426" y="1638" type="line" name="dv02"/>
       <point x="207" y="1638" type="line"/>
+      <point x="426" y="1638" type="line" name="dv02"/>
+      <point x="31" y="1262" type="line"/>
+      <point x="-125" y="1262" type="line" name="iv01"/>
     </contour>
     <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="887" y="0" type="line" name="ab01"/>
-      <point x="920" y="170" type="line" name="sv06"/>
-      <point x="606" y="170" type="line" name="sv05"/>
-      <point x="829" y="1323" type="line" name="sv04"/>
-      <point x="1143" y="1323" type="line" name="sv03"/>
-      <point x="1176" y="1493" type="line" name="hr01"/>
-      <point x="346" y="1493" type="line" name="at01"/>
-      <point x="313" y="1323" type="line" name="dv01"/>
-      <point x="627" y="1323" type="line" name="sv02"/>
-      <point x="403" y="170" type="line"/>
       <point x="90" y="170" type="line" name="sv01"/>
+      <point x="403" y="170" type="line"/>
+      <point x="627" y="1323" type="line" name="sv02"/>
+      <point x="313" y="1323" type="line" name="dv01"/>
+      <point x="346" y="1493" type="line" name="at01"/>
+      <point x="1176" y="1493" type="line"/>
+      <point x="1143" y="1323" type="line" name="sv03"/>
+      <point x="829" y="1323" type="line" name="sv04"/>
+      <point x="606" y="170" type="line" name="sv05"/>
+      <point x="920" y="170" type="line" name="sv06"/>
+      <point x="887" y="0" type="line" name="ab01"/>
+      <point x="57" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -53,9 +53,13 @@ MDYiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iYWIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIzMTUiIC8+
 CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
 dD4K
   </data>

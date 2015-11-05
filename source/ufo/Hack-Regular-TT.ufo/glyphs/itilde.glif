@@ -59,7 +59,7 @@
       <point x="834" y="148"/>
       <point x="877" y="148" type="qcurve" name="sv04"/>
       <point x="1092" y="148" type="line"/>
-      <point x="1092" y="-8" type="line"/>
+      <point x="1092" y="-8" type="line" name="hr02"/>
     </contour>
   </outline>
   <lib>
@@ -90,8 +90,21 @@ dGVtPSJZOiAxNTYiLz4KICA8L3R0UHJvZ3JhbT4K
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii04IiB3aWR0aD0iMTU2IiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI5NzYiIHdpZHRoPSIxNDQiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjEyNTkiIHdpZHRo
+PSIyODIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjUx
+MyIgd2lkdGg9IjE4NCIgLz4KICAgIDwvaGludHNl
+dD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAy
+Ij4KICAgICAgPGhzdGVtIHBvcz0iLTgiIHdpZHRo
+PSIxNTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijk3
+NiIgd2lkdGg9IjE0NCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTI1OSIgd2lkdGg9IjI4MiIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMjY4IiB3aWR0aD0iNDI5
+IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+dExpc3Q+Cg==
   </data>
   </dict>
   </lib>

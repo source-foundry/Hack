@@ -23,7 +23,7 @@
       <point x="8" y="182"/>
       <point x="8" y="391" type="qcurve" name="dh01"/>
       <point x="8" y="1120" type="line" name="at01"/>
-      <point x="301" y="1120" type="line" name="hr01"/>
+      <point x="301" y="1120" type="line"/>
       <point x="301" y="436" type="line" name="dh02"/>
       <point x="301" y="319"/>
       <point x="367" y="211"/>
@@ -97,14 +97,23 @@ Pgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjAiIHdpZHRoPSIyMTEiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjczOSIgd2lkdGg9IjQyOCIgLz4K
-ICAgICAgPHZzdGVtIHBvcz0iOCIgd2lkdGg9IjI5
-MyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjE2IiB3
-aWR0aD0iMjkzIiAvPgogICAgICA8dnN0ZW0gcG9z
-PSIxMDc4IiB3aWR0aD0iMTQ3IiAvPgogICAgPC9o
-aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjI0MCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iNzM5IiB3aWR0aD0iMTY0IiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxMTIwIiB3aWR0
+aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+IiB3aWR0aD0iMjkzIiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI2MTYiIHdpZHRoPSIyOTMiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjEwNzgiIHdpZHRoPSIxNDci
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
+dCBwb2ludFRhZz0ic2gwMiI+CiAgICAgIDxoc3Rl
+bSBwb3M9IjAiIHdpZHRoPSIyMTEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjczOSIgd2lkdGg9IjQyOCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iOCIgd2lkdGg9
+IjI5MyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjE2
+IiB3aWR0aD0iMjkzIiAvPgogICAgICA8dnN0ZW0g
+cG9zPSIxMDc4IiB3aWR0aD0iMTQ3IiAvPgogICAg
+PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

@@ -4,27 +4,27 @@
   <unicode hex="00CE"/>
   <outline>
     <contour>
-      <point x="240" y="1588" type="line" name="iv02"/>
-      <point x="418" y="1588" type="line"/>
-      <point x="616" y="1749" type="line"/>
-      <point x="815" y="1588" type="line"/>
-      <point x="993" y="1588" type="line" name="iv01"/>
-      <point x="770" y="1852" type="line"/>
       <point x="461" y="1852" type="line" name="av01"/>
+      <point x="770" y="1852" type="line"/>
+      <point x="993" y="1588" type="line" name="iv01"/>
+      <point x="815" y="1588" type="line"/>
+      <point x="616" y="1749" type="line"/>
+      <point x="418" y="1588" type="line"/>
+      <point x="240" y="1588" type="line" name="iv02"/>
     </contour>
     <contour>
-      <point x="172" y="0" type="line"/>
-      <point x="1061" y="0" type="line" name="ab01"/>
-      <point x="1061" y="260" type="line" name="sv05"/>
-      <point x="764" y="260" type="line" name="dh02"/>
-      <point x="764" y="1233" type="line" name="sv04"/>
-      <point x="1061" y="1233" type="line" name="sv03"/>
-      <point x="1061" y="1493" type="line"/>
-      <point x="172" y="1493" type="line" name="at01"/>
-      <point x="172" y="1233" type="line"/>
-      <point x="469" y="1233" type="line" name="sv02"/>
-      <point x="469" y="260" type="line" name="dh01"/>
       <point x="172" y="260" type="line" name="sv01"/>
+      <point x="469" y="260" type="line" name="dh01"/>
+      <point x="469" y="1233" type="line" name="sv02"/>
+      <point x="172" y="1233" type="line"/>
+      <point x="172" y="1493" type="line" name="at01"/>
+      <point x="1061" y="1493" type="line"/>
+      <point x="1061" y="1233" type="line" name="sv03"/>
+      <point x="764" y="1233" type="line" name="sv04"/>
+      <point x="764" y="260" type="line" name="dh02"/>
+      <point x="1061" y="260" type="line" name="sv05"/>
+      <point x="1061" y="0" type="line" name="ab01"/>
+      <point x="172" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -60,7 +60,7 @@ PSJzdjA1Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaXYwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE4NTIiIHdpZHRo

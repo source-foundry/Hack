@@ -4,42 +4,42 @@
   <unicode hex="21EF"/>
   <outline>
     <contour>
-      <point x="224" y="0" type="line"/>
-      <point x="1010" y="0" type="line" name="ab01"/>
-      <point x="1010" y="280" type="line" name="sh02"/>
-      <point x="808" y="280" type="line" name="hr01"/>
-      <point x="808" y="539" type="line" name="dh04"/>
-      <point x="1040" y="539" type="line" name="iv04"/>
-      <point x="807" y="759" type="line" name="ih02"/>
-      <point x="1040" y="759" type="line" name="iv03"/>
-      <point x="616" y="1162" type="line" name="av01"/>
-      <point x="194" y="759" type="line" name="iv02"/>
-      <point x="427" y="759" type="line" name="ih01"/>
-      <point x="194" y="539" type="line" name="iv01"/>
-      <point x="424" y="539" type="line"/>
-      <point x="424" y="280" type="line" name="sh01"/>
       <point x="224" y="280" type="line" name="dh01"/>
+      <point x="424" y="280" type="line" name="sh01"/>
+      <point x="424" y="539" type="line"/>
+      <point x="194" y="539" type="line" name="iv01"/>
+      <point x="427" y="759" type="line" name="ih01"/>
+      <point x="194" y="759" type="line" name="iv02"/>
+      <point x="616" y="1162" type="line" name="av01"/>
+      <point x="1040" y="759" type="line" name="iv03"/>
+      <point x="807" y="759" type="line" name="ih02"/>
+      <point x="1040" y="539" type="line" name="iv04"/>
+      <point x="808" y="539" type="line" name="dh04"/>
+      <point x="808" y="280" type="line"/>
+      <point x="1010" y="280" type="line" name="sh02"/>
+      <point x="1010" y="0" type="line" name="ab01"/>
+      <point x="224" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="432" y="858" type="line" name="ih04"/>
-      <point x="616" y="1042" type="line"/>
-      <point x="802" y="858" type="line" name="ih03"/>
-      <point x="708" y="858" type="line"/>
-      <point x="616" y="942" type="line"/>
       <point x="524" y="858" type="line"/>
+      <point x="616" y="942" type="line"/>
+      <point x="708" y="858" type="line"/>
+      <point x="802" y="858" type="line" name="ih03"/>
+      <point x="616" y="1042" type="line"/>
+      <point x="432" y="858" type="line" name="ih04"/>
     </contour>
     <contour>
-      <point x="314" y="90" type="line"/>
-      <point x="314" y="190" type="line" name="sv04"/>
-      <point x="524" y="190" type="line" name="dh02"/>
-      <point x="524" y="638" type="line" name="hr03"/>
-      <point x="432" y="638" type="line" name="ih05"/>
-      <point x="616" y="802" type="line"/>
-      <point x="802" y="638" type="line" name="sv01"/>
-      <point x="708" y="638" type="line" name="dh03"/>
-      <point x="708" y="190" type="line" name="sv03"/>
-      <point x="920" y="190" type="line" name="dv01"/>
       <point x="920" y="90" type="line" name="sv02"/>
+      <point x="920" y="190" type="line" name="dv01"/>
+      <point x="708" y="190" type="line" name="sv03"/>
+      <point x="708" y="638" type="line" name="dh03"/>
+      <point x="802" y="638" type="line" name="sv01"/>
+      <point x="616" y="802" type="line"/>
+      <point x="432" y="638" type="line" name="ih05"/>
+      <point x="524" y="638" type="line"/>
+      <point x="524" y="190" type="line" name="dh02"/>
+      <point x="314" y="190" type="line" name="sv04"/>
+      <point x="314" y="90" type="line" name="hr04"/>
     </contour>
   </outline>
   <lib>
@@ -109,30 +109,38 @@ Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSI5MCIgLz4KICAgICAgPGhz
-dGVtIHBvcz0iMTkwIiB3aWR0aD0iOTAiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjExNjIiIHdpZHRoPSIt
-MjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQyNCIg
-d2lkdGg9IjEwMCIgLz4KICAgICAgPHZzdGVtIHBv
-cz0iNzA4IiB3aWR0aD0iMTAwIiAvPgogICAgPC9o
-aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
-ImRoMDEiPgogICAgICA8aHN0ZW0gcG9zPSIwIiB3
+dGVtIHBvcz0iMTkwIiB3aWR0aD0iNDQ4IiAvPgog
+ICAgICA8aHN0ZW0gcG9zPSIxMTYyIiB3aWR0aD0i
+LTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMjQi
+IHdpZHRoPSIzMDAiIC8+CiAgICAgIDx2c3RlbSBw
+b3M9IjcwOCIgd2lkdGg9IjEwMCIgLz4KICAgIDwv
+aGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFn
+PSJpaDAzIj4KICAgICAgPGhzdGVtIHBvcz0iMCIg
+d2lkdGg9IjkwIiAvPgogICAgICA8aHN0ZW0gcG9z
+PSIxOTAiIHdpZHRoPSI5MCIgLz4KICAgICAgPGhz
+dGVtIHBvcz0iMTE2MiIgd2lkdGg9Ii0yMCIgLz4K
+ICAgICAgPHZzdGVtIHBvcz0iMjI0IiB3aWR0aD0i
+MzAwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3MDgi
+IHdpZHRoPSIzMDIiIC8+CiAgICA8L2hpbnRzZXQ+
+CiAgICA8aGludHNldCBwb2ludFRhZz0iaWgwNCI+
+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI5
+MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTkwIiB3
 aWR0aD0iOTAiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-IjE5MCIgd2lkdGg9IjkwIiAvPgogICAgICA8aHN0
-ZW0gcG9zPSIxMTYyIiB3aWR0aD0iLTIwIiAvPgog
-ICAgICA8dnN0ZW0gcG9zPSIyMjQiIHdpZHRoPSIz
-MDAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjcwOCIg
-d2lkdGg9IjEwMCIgLz4KICAgIDwvaGludHNldD4K
-ICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAzIj4K
-ICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ijkw
-IiAvPgogICAgICA8aHN0ZW0gcG9zPSIxOTAiIHdp
-ZHRoPSI0NDgiIC8+CiAgICAgIDxoc3RlbSBwb3M9
 IjExNjIiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2
-c3RlbSBwb3M9IjIyNCIgd2lkdGg9IjMwMCIgLz4K
+c3RlbSBwb3M9IjQyNCIgd2lkdGg9IjEwMCIgLz4K
 ICAgICAgPHZzdGVtIHBvcz0iNzA4IiB3aWR0aD0i
-MTAwIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGlu
-dFNldExpc3Q+Cg==
+MTAwIiAvPgogICAgPC9oaW50c2V0PgogICAgPGhp
+bnRzZXQgcG9pbnRUYWc9ImhyMDQiPgogICAgICA8
+aHN0ZW0gcG9zPSIwIiB3aWR0aD0iOTAiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjE5MCIgd2lkdGg9Ijkw
+IiAvPgogICAgICA8aHN0ZW0gcG9zPSIxMTYyIiB3
+aWR0aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9z
+PSIyMjQiIHdpZHRoPSIzMDAiIC8+CiAgICAgIDx2
+c3RlbSBwb3M9IjcwOCIgd2lkdGg9IjEwMCIgLz4K
+ICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0
+Pgo=
   </data>
   </dict>
   </lib>

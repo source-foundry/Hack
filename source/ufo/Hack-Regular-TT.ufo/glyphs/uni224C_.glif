@@ -14,7 +14,7 @@
       <point x="371" y="1044" type="qcurve" name="dv06"/>
       <point x="422" y="1044"/>
       <point x="518" y="1072"/>
-      <point x="578" y="1098" type="qcurve" name="hr03"/>
+      <point x="578" y="1098" type="qcurve"/>
       <point x="610" y="1112" type="line"/>
       <point x="652" y="1130"/>
       <point x="719" y="1152"/>
@@ -25,7 +25,7 @@
       <point x="950" y="1155"/>
       <point x="1026" y="1128"/>
       <point x="1103" y="1084"/>
-      <point x="1145" y="1052" type="qcurve" name="hr02"/>
+      <point x="1145" y="1052" type="qcurve"/>
       <point x="1145" y="878" type="line"/>
       <point x="1069" y="944"/>
       <point x="929" y="1001"/>
@@ -39,18 +39,18 @@
       <point x="601" y="935"/>
       <point x="598" y="933"/>
       <point x="594" y="932"/>
-      <point x="588" y="929" type="qcurve"/>
+      <point x="588" y="929" type="qcurve" name="hr01"/>
       <point x="534" y="906"/>
       <point x="438" y="878"/>
     </contour>
     <contour>
-      <point x="88" y="728" type="line"/>
+      <point x="88" y="728" type="line" name="hr02"/>
       <point x="1145" y="728" type="line" name="dv08"/>
       <point x="1145" y="556" type="line" name="dv07"/>
       <point x="88" y="556" type="line"/>
     </contour>
     <contour>
-      <point x="88" y="364" type="line" name="hr01"/>
+      <point x="88" y="364" type="line"/>
       <point x="1145" y="364" type="line" name="dv02"/>
       <point x="1145" y="192" type="line" name="dv01"/>
       <point x="88" y="192" type="line"/>
@@ -85,18 +85,27 @@ ICA8aHN0ZW0gcG9zPSIxOTIiIHdpZHRoPSIxNzIi
 IC8+CiAgICAgIDxoc3RlbSBwb3M9IjU1NiIgd2lk
 dGg9IjE3MiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
 ODc4IiB3aWR0aD0iMTY2IiAvPgogICAgPC9oaW50
-c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9Imhy
-MDMiPgogICAgICA8aHN0ZW0gcG9zPSIxOTIiIHdp
+c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImR2
+MDciPgogICAgICA8aHN0ZW0gcG9zPSIxOTIiIHdp
 ZHRoPSIxNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9
 IjU1NiIgd2lkdGg9IjE3MiIgLz4KICAgICAgPGhz
 dGVtIHBvcz0iMTAwMSIgd2lkdGg9IjE2NiIgLz4K
 ICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBv
-aW50VGFnPSJkdjA1Ij4KICAgICAgPGhzdGVtIHBv
+aW50VGFnPSJkdjAyIj4KICAgICAgPGhzdGVtIHBv
 cz0iMTkyIiB3aWR0aD0iMTcyIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSI1NTYiIHdpZHRoPSIxNzIiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9Ijg3OCIgd2lkdGg9
-IjE2NiIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
-bnRTZXRMaXN0Pgo=
+IjE2NiIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+aW50c2V0IHBvaW50VGFnPSJkdjAxIj4KICAgICAg
+PGhzdGVtIHBvcz0iMTkyIiB3aWR0aD0iMTcyIiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxOTIiIHdpZHRo
+PSIxNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU1
+NiIgd2lkdGg9IjE3MiIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iNTU2IiB3aWR0aD0iMTcyIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSI4NzgiIHdpZHRoPSIxNjYi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9IjEwMDEiIHdp
+ZHRoPSIxNjYiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

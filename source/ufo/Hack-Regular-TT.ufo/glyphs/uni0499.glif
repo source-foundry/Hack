@@ -43,7 +43,7 @@
       <point x="755" y="504"/>
       <point x="637" y="532"/>
       <point x="562" y="532" type="qcurve" name="dv05"/>
-      <point x="404" y="532" type="line" name="hr01"/>
+      <point x="404" y="532" type="line"/>
       <point x="404" y="676" type="line"/>
       <point x="569" y="676" type="line" name="dv06"/>
       <point x="706" y="676"/>
@@ -54,7 +54,7 @@
       <point x="558" y="984" type="qcurve" name="dv03"/>
       <point x="487" y="984"/>
       <point x="315" y="959"/>
-      <point x="210" y="932" type="qcurve"/>
+      <point x="210" y="932" type="qcurve" name="hr03"/>
       <point x="210" y="1099" type="line"/>
       <point x="420" y="1147"/>
       <point x="577" y="1147" type="qcurve" name="dv04"/>
@@ -121,16 +121,34 @@ bnQyPSJkdjA2Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0zOTUiIHdpZHRoPSIxMjMiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ii0yMiIgd2lkdGg9IjE2MCIg
 Lz4KICAgICAgPGhzdGVtIHBvcz0iNTMyIiB3aWR0
 aD0iMTQ0IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5
 ODQiIHdpZHRoPSIxNjMiIC8+CiAgICAgIDx2c3Rl
 bSBwb3M9IjMyOCIgd2lkdGg9IjQxNCIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iODgxIiB3aWR0aD0iMTgz
-IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-dExpc3Q+Cg==
+ICAgPHZzdGVtIHBvcz0iODQ5IiB3aWR0aD0iMTgz
+IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
+ZXQgcG9pbnRUYWc9InNoMDEiPgogICAgICA8aHN0
+ZW0gcG9zPSItMzk1IiB3aWR0aD0iMTIzIiAvPgog
+ICAgICA8aHN0ZW0gcG9zPSItMjIiIHdpZHRoPSIx
+NjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUzMiIg
+d2lkdGg9IjE0NCIgLz4KICAgICAgPGhzdGVtIHBv
+cz0iOTg0IiB3aWR0aD0iMTYzIiAvPgogICAgICA8
+dnN0ZW0gcG9zPSI2MDMiIHdpZHRoPSIxMzkiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9Ijg4MSIgd2lkdGg9
+IjE4MyIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+aW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAg
+PGhzdGVtIHBvcz0iLTM5NSIgd2lkdGg9IjEyMyIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iLTIyIiB3aWR0
+aD0iMTYwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI1
+MzIiIHdpZHRoPSIxNDQiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9Ijk4NCIgd2lkdGg9IjE2MyIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMzI4IiB3aWR0aD0iNDE0
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4ODEiIHdp
+ZHRoPSIxODMiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

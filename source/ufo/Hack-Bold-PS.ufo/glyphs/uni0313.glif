@@ -4,17 +4,17 @@
   <unicode hex="0313"/>
   <outline>
     <contour>
-      <point x="-753" y="1218" type="line" name="dv01"/>
-      <point x="-570" y="1219" name="dh02"/>
-      <point x="-479" y="1307"/>
-      <point x="-479" y="1483" type="curve" smooth="yes" name="dv02"/>
-      <point x="-479" y="1729" type="line" name="dh01"/>
-      <point x="-753" y="1729" type="line"/>
-      <point x="-753" y="1483" type="line" name="sh01"/>
-      <point x="-633" y="1483" type="line"/>
-      <point x="-633" y="1402"/>
+      <point x="-753" y="1361" type="line" name="sh01"/>
       <point x="-673" y="1361"/>
-      <point x="-753" y="1361" type="curve"/>
+      <point x="-633" y="1402" name="dh01"/>
+      <point x="-633" y="1483" type="curve" name="dv02"/>
+      <point x="-753" y="1483" type="line"/>
+      <point x="-753" y="1729" type="line" name="dh02"/>
+      <point x="-479" y="1729" type="line" name="dv01"/>
+      <point x="-479" y="1483" type="line" smooth="yes"/>
+      <point x="-479" y="1307"/>
+      <point x="-570" y="1219"/>
+      <point x="-753" y="1218" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -33,7 +33,7 @@ UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic2gwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjEyMTgiIHdpZHRoPSI1MTEiIC8+CiAgICAg
 IDx2c3RlbSBwb3M9Ii03NTMiIHdpZHRoPSIyNzQi
 IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0

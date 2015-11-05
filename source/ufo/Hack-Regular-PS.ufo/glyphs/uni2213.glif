@@ -4,24 +4,24 @@
   <unicode hex="2213"/>
   <outline>
     <contour>
-      <point x="88" y="1001" type="line" name="hr00"/>
-      <point x="1145" y="1001" type="line" name="dv01"/>
+      <point x="88" y="1171" type="line" name="hr00"/>
       <point x="1145" y="1171" type="line" name="dv02"/>
-      <point x="88" y="1171" type="line"/>
+      <point x="1145" y="1001" type="line" name="dv01"/>
+      <point x="88" y="1001" type="line"/>
     </contour>
     <contour>
-      <point x="532" y="0" type="line"/>
-      <point x="700" y="0" type="line" name="ab01"/>
-      <point x="700" y="329" type="line" name="dh02"/>
-      <point x="1145" y="329" type="line" name="sv02"/>
-      <point x="1145" y="499" type="line"/>
-      <point x="700" y="499" type="line" name="sv01"/>
-      <point x="700" y="831" type="line" name="sh02"/>
-      <point x="532" y="831" type="line"/>
-      <point x="532" y="499" type="line" name="sh01"/>
-      <point x="88" y="499" type="line"/>
-      <point x="88" y="329" type="line"/>
       <point x="532" y="329" type="line" name="dh01"/>
+      <point x="88" y="329" type="line"/>
+      <point x="88" y="499" type="line"/>
+      <point x="532" y="499" type="line" name="sh01"/>
+      <point x="532" y="831" type="line"/>
+      <point x="700" y="831" type="line" name="sh02"/>
+      <point x="700" y="499" type="line" name="sv01"/>
+      <point x="1145" y="499" type="line"/>
+      <point x="1145" y="329" type="line" name="sv02"/>
+      <point x="700" y="329" type="line" name="dh02"/>
+      <point x="700" y="0" type="line" name="ab01"/>
+      <point x="532" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -18,7 +18,7 @@
       <point x="434" y="799" type="qcurve" name="ih02"/>
       <point x="383" y="813"/>
       <point x="305" y="860"/>
-      <point x="277" y="897" type="qcurve" name="hr02"/>
+      <point x="277" y="897" type="qcurve"/>
       <point x="251" y="931"/>
       <point x="223" y="1018"/>
       <point x="223" y="1075" type="qcurve" name="ih01"/>
@@ -35,7 +35,7 @@
       <point x="1137" y="1245"/>
       <point x="1137" y="1161" type="qcurve" name="sh02"/>
       <point x="1137" y="1016"/>
-      <point x="1048" y="913" type="qcurve"/>
+      <point x="1048" y="913" type="qcurve" name="hr01"/>
       <point x="960" y="812"/>
       <point x="809" y="786" type="qcurve" name="ih04"/>
       <point x="917" y="758"/>
@@ -86,7 +86,7 @@
       <point x="629" y="668"/>
       <point x="579" y="668" type="qcurve" name="dv03"/>
       <point x="467" y="668"/>
-      <point x="397" y="593" type="qcurve" name="hr01"/>
+      <point x="397" y="593" type="qcurve"/>
       <point x="362" y="556"/>
       <point x="326" y="458"/>
       <point x="326" y="405" type="qcurve" name="dh02"/>
@@ -158,27 +158,28 @@ aD0iMjM2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIy
 MjMiIHdpZHRoPSIyNjIiIC8+CiAgICAgIDx2c3Rl
 bSBwb3M9Ijg3NyIgd2lkdGg9IjI2MCIgLz4KICAg
 IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50
-VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0i
+VGFnPSJzdjAxIj4KICAgICAgPGhzdGVtIHBvcz0i
 LTI5IiB3aWR0aD0iMjM4IiAvPgogICAgICA8aHN0
-ZW0gcG9zPSItMjkiIHdpZHRoPSIyMzgiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lkdGg9IjIz
-OCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjY4IiB3
-aWR0aD0iMjM1IiAvPgogICAgICA8aHN0ZW0gcG9z
-PSI2NjgiIHdpZHRoPSIyMzUiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjY2OCIgd2lkdGg9IjIzNSIgLz4K
-ICAgICAgPGhzdGVtIHBvcz0iMTI4NCIgd2lkdGg9
-IjIzNiIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTI4
+ZW0gcG9zPSI2NjgiIHdpZHRoPSIyMzUiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjEyODQiIHdpZHRoPSIy
+MzYiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjYzIiB3
+aWR0aD0iMjYzIiAvPgogICAgICA8dnN0ZW0gcG9z
+PSI3NzgiIHdpZHRoPSIyNjIiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
+ZHYwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIg
+d2lkdGg9IjIzOCIgLz4KICAgICAgPGhzdGVtIHBv
+cz0iLTI5IiB3aWR0aD0iMjM4IiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI2NjgiIHdpZHRoPSIyMzUiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjY2OCIgd2lkdGg9
+IjIzNSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTI4
 NCIgd2lkdGg9IjIzNiIgLz4KICAgICAgPGhzdGVt
 IHBvcz0iMTI4NCIgd2lkdGg9IjIzNiIgLz4KICAg
 ICAgPHZzdGVtIHBvcz0iNjMiIHdpZHRoPSIyNjMi
-IC8+CiAgICAgIDx2c3RlbSBwb3M9IjYzIiB3aWR0
-aD0iMjYzIiAvPgogICAgICA8dnN0ZW0gcG9zPSIy
-MjMiIHdpZHRoPSIyNjIiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9Ijc3OCIgd2lkdGg9IjI2MiIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iNzc4IiB3aWR0aD0iMjYy
-IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4NzciIHdp
-ZHRoPSIyNjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
-PC9oaW50U2V0TGlzdD4K
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjIyMyIgd2lk
+dGg9IjI2MiIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+Nzc4IiB3aWR0aD0iMjYyIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI4NzciIHdpZHRoPSIyNjAiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

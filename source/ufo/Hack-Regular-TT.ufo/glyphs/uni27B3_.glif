@@ -7,7 +7,7 @@
       <point x="221" y="533" type="line" name="dv03"/>
       <point x="221" y="590" type="line" name="dv04"/>
       <point x="88" y="789" type="line" name="sv01"/>
-      <point x="472" y="789" type="line" name="hr02"/>
+      <point x="472" y="789" type="line"/>
       <point x="605" y="590" type="line" name="sv02"/>
       <point x="883" y="590" type="line" name="sv03"/>
       <point x="883" y="788" type="line" name="iv01"/>
@@ -24,7 +24,7 @@
     </contour>
     <contour>
       <point x="307" y="590" type="line" name="sv05"/>
-      <point x="193" y="761" type="line" name="hr01"/>
+      <point x="193" y="761" type="line"/>
       <point x="150" y="761" type="line" name="iv04"/>
       <point x="264" y="590" type="line" name="sv06"/>
     </contour>
@@ -55,7 +55,7 @@
     <contour>
       <point x="278" y="362" type="line"/>
       <point x="392" y="533" type="line" name="sv12"/>
-      <point x="349" y="533" type="line" name="hr05"/>
+      <point x="349" y="533" type="line"/>
       <point x="235" y="362" type="line" name="iv09"/>
     </contour>
     <contour>
@@ -65,9 +65,9 @@
       <point x="321" y="362" type="line" name="iv10"/>
     </contour>
     <contour>
-      <point x="449" y="362" type="line"/>
+      <point x="449" y="362" type="line" name="hr03"/>
       <point x="562" y="533" type="line" name="sv14"/>
-      <point x="520" y="533" type="line"/>
+      <point x="520" y="533" type="line" name="hr04"/>
       <point x="406" y="362" type="line" name="iv11"/>
     </contour>
   </outline>
@@ -137,20 +137,20 @@ CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjUzMyIgd2lkdGg9IjU3IiAvPgogICAgPC9o
-aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
-ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSI1MzMi
-IHdpZHRoPSIyNTYiIC8+CiAgICA8L2hpbnRzZXQ+
-CiAgICA8aGludHNldCBwb2ludFRhZz0iZHYwNCI+
+b2ludFRhZz0iaXYwOCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjMzNCIgd2lkdGg9IjI1NiIgLz4KICAgIDwv
+aGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFn
+PSJzdjEyIj4KICAgICAgPGhzdGVtIHBvcz0iNTMz
+IiB3aWR0aD0iNTciIC8+CiAgICA8L2hpbnRzZXQ+
+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+
 CiAgICAgIDxoc3RlbSBwb3M9IjUzMyIgd2lkdGg9
-IjU3IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhp
-bnRzZXQgcG9pbnRUYWc9ImR2MDMiPgogICAgICA8
-aHN0ZW0gcG9zPSIzMzQiIHdpZHRoPSIyNTYiIC8+
+IjI1NiIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+aW50c2V0IHBvaW50VGFnPSJocjA0Ij4KICAgICAg
+PGhzdGVtIHBvcz0iNTMzIiB3aWR0aD0iNTciIC8+
 CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwNSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjUzMyIgd2lkdGg9IjU3IiAvPgogICAgPC9o
-aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+b2ludFRhZz0iaHIwNCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjMzNCIgd2lkdGg9IjI1NiIgLz4KICAgIDwv
+aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

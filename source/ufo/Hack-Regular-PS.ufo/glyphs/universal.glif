@@ -4,19 +4,19 @@
   <unicode hex="2200"/>
   <outline>
     <contour>
-      <point x="494" y="0" type="line" name="hr00"/>
-      <point x="739" y="0" type="line" name="ab01"/>
-      <point x="1196" y="1493" type="line"/>
-      <point x="987" y="1493" type="line" name="at02"/>
-      <point x="877" y="1104" type="line" name="dv02"/>
-      <point x="354" y="1104" type="line"/>
-      <point x="246" y="1493" type="line"/>
       <point x="37" y="1493" type="line" name="at01"/>
+      <point x="246" y="1493" type="line"/>
+      <point x="354" y="1104" type="line"/>
+      <point x="877" y="1104" type="line" name="dv02"/>
+      <point x="987" y="1493" type="line" name="at02"/>
+      <point x="1196" y="1493" type="line"/>
+      <point x="739" y="0" type="line" name="ab01"/>
+      <point x="494" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="616" y="178" type="line"/>
-      <point x="403" y="942" type="line"/>
       <point x="829" y="942" type="line" name="dv01"/>
+      <point x="403" y="942" type="line"/>
+      <point x="616" y="178" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -36,7 +36,7 @@ b2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXQwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSI5NDIiIHdpZHRoPSIxNjIiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE0OTMiIHdpZHRo

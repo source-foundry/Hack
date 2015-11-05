@@ -4,24 +4,24 @@
   <unicode hex="038A"/>
   <outline>
     <contour>
-      <point x="-223" y="1117" type="line" name="iv01"/>
-      <point x="-69" y="1117" type="line"/>
-      <point x="256" y="1493" type="line"/>
       <point x="58" y="1493" type="line" name="at01"/>
+      <point x="256" y="1493" type="line"/>
+      <point x="-69" y="1117" type="line"/>
+      <point x="-223" y="1117" type="line" name="iv01"/>
     </contour>
     <contour>
-      <point x="331" y="0" type="line"/>
-      <point x="1160" y="0" type="line" name="ab01"/>
-      <point x="1160" y="170" type="line" name="sv05"/>
-      <point x="847" y="170" type="line" name="dh02"/>
-      <point x="847" y="1323" type="line" name="sv04"/>
-      <point x="1160" y="1323" type="line" name="sv03"/>
-      <point x="1160" y="1493" type="line"/>
-      <point x="331" y="1493" type="line" name="at02"/>
-      <point x="331" y="1323" type="line"/>
-      <point x="644" y="1323" type="line" name="sv02"/>
-      <point x="644" y="170" type="line" name="dh01"/>
       <point x="331" y="170" type="line" name="sv01"/>
+      <point x="644" y="170" type="line" name="dh01"/>
+      <point x="644" y="1323" type="line" name="sv02"/>
+      <point x="331" y="1323" type="line"/>
+      <point x="331" y="1493" type="line" name="at02"/>
+      <point x="1160" y="1493" type="line"/>
+      <point x="1160" y="1323" type="line" name="sv03"/>
+      <point x="847" y="1323" type="line" name="sv04"/>
+      <point x="847" y="170" type="line" name="dh02"/>
+      <point x="1160" y="170" type="line" name="sv05"/>
+      <point x="1160" y="0" type="line" name="ab01"/>
+      <point x="331" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@ dHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXQwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
 CiAgICAgIDx2c3RlbSBwb3M9IjY0NCIgd2lkdGg9

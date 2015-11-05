@@ -4,18 +4,18 @@
   <unicode hex="039A"/>
   <outline>
     <contour>
-      <point x="137" y="0" type="line" name="hr00"/>
-      <point x="340" y="0" type="line" name="ab02"/>
-      <point x="340" y="584" type="line" name="sh01"/>
-      <point x="494" y="748" type="line"/>
-      <point x="981" y="0" type="line"/>
-      <point x="1225" y="0" type="line" name="ab01"/>
-      <point x="627" y="883" type="line"/>
-      <point x="1208" y="1493" type="line"/>
-      <point x="971" y="1493" type="line" name="at01"/>
-      <point x="340" y="829" type="line" name="iv01"/>
-      <point x="340" y="1493" type="line" name="dh02"/>
       <point x="137" y="1493" type="line" name="dh01"/>
+      <point x="340" y="1493" type="line" name="dh02"/>
+      <point x="340" y="829" type="line" name="iv01"/>
+      <point x="971" y="1493" type="line" name="at01"/>
+      <point x="1208" y="1493" type="line"/>
+      <point x="627" y="883" type="line"/>
+      <point x="1225" y="0" type="line" name="ab01"/>
+      <point x="981" y="0" type="line"/>
+      <point x="494" y="748" type="line"/>
+      <point x="340" y="584" type="line" name="sh01"/>
+      <point x="340" y="0" type="line" name="ab02"/>
+      <point x="137" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -41,7 +41,7 @@ bT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxNDkzIiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8dnN0ZW0gcG9zPSIxMzciIHdpZHRo

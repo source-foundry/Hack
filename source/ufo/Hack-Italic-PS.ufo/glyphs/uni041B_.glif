@@ -4,26 +4,26 @@
   <unicode hex="041B"/>
   <outline>
     <contour>
-      <point x="-106" y="0" type="line" name="ab02"/>
-      <point x="70" y="0"/>
-      <point x="141" y="40"/>
-      <point x="226" y="120" type="curve" smooth="yes"/>
-      <point x="398" y="284" name="sv02"/>
-      <point x="448" y="631"/>
-      <point x="536" y="1073" type="curve" smooth="yes" name="ab01"/>
-      <point x="585" y="1323" type="line"/>
-      <point x="993" y="1323" type="line" name="at01"/>
-      <point x="736" y="0" type="line"/>
-      <point x="939" y="0" type="line"/>
-      <point x="1229" y="1493" type="line" name="sv01"/>
-      <point x="415" y="1493" type="line"/>
-      <point x="332" y="1067" type="line"/>
-      <point x="276" y="785"/>
-      <point x="244" y="632"/>
-      <point x="215" y="517" type="curve"/>
-      <point x="139" y="230"/>
+      <point x="-74" y="164" type="line" name="sv01"/>
       <point x="117" y="164"/>
-      <point x="-74" y="164" type="curve"/>
+      <point x="139" y="230"/>
+      <point x="215" y="517" type="curve" name="at01"/>
+      <point x="244" y="632"/>
+      <point x="276" y="785" name="ab01"/>
+      <point x="332" y="1067" type="curve"/>
+      <point x="415" y="1493" type="line" name="sv02"/>
+      <point x="1229" y="1493" type="line"/>
+      <point x="939" y="0" type="line"/>
+      <point x="736" y="0" type="line"/>
+      <point x="993" y="1323" type="line" name="ab02"/>
+      <point x="585" y="1323" type="line"/>
+      <point x="536" y="1073" type="line" smooth="yes"/>
+      <point x="448" y="631"/>
+      <point x="398" y="284"/>
+      <point x="226" y="120" type="curve" smooth="yes"/>
+      <point x="141" y="40"/>
+      <point x="70" y="0"/>
+      <point x="-106" y="0" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -45,7 +45,7 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYWIwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNjQiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
 CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz

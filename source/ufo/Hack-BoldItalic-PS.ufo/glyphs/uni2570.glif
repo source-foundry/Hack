@@ -4,18 +4,18 @@
   <unicode hex="2570"/>
   <outline>
     <contour>
-      <point x="1253" y="618" type="line" name="sv01"/>
+      <point x="876" y="618" type="line" smooth="yes" name="dv01"/>
+      <point x="652" y="618" name="dh01"/>
+      <point x="536" y="816" name="av01"/>
+      <point x="536" y="1040" type="curve" smooth="yes"/>
+      <point x="536" y="1921" type="line" name="dh02"/>
+      <point x="696" y="1921" type="line" name="dv02"/>
+      <point x="696" y="1040" type="line" smooth="yes"/>
+      <point x="696" y="873" name="sv01"/>
+      <point x="756" y="790"/>
+      <point x="876" y="790" type="curve" smooth="yes"/>
       <point x="1253" y="790" type="line"/>
-      <point x="876" y="790" type="line" smooth="yes" name="dv02"/>
-      <point x="756" y="790" name="dh02"/>
-      <point x="696" y="873"/>
-      <point x="696" y="1040" type="curve" smooth="yes" name="av01"/>
-      <point x="696" y="1921" type="line" name="dh01"/>
-      <point x="536" y="1921" type="line" name="dv01"/>
-      <point x="536" y="1040" type="line" smooth="yes"/>
-      <point x="536" y="816"/>
-      <point x="652" y="618"/>
-      <point x="876" y="618" type="curve" smooth="yes"/>
+      <point x="1253" y="618" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -36,7 +36,7 @@ Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjYxOCIgd2lkdGg9IjE3MiIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMTkyMSIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iNTM2IiB3aWR0

@@ -4,12 +4,12 @@
   <unicode hex="221F"/>
   <outline>
     <contour>
-      <point x="126" y="287" type="line" name="hr00"/>
-      <point x="1108" y="287" type="line" name="dv01"/>
-      <point x="1108" y="457" type="line" name="dv02"/>
-      <point x="296" y="457" type="line"/>
-      <point x="296" y="1269" type="line" name="dh02"/>
       <point x="126" y="1269" type="line" name="dh01"/>
+      <point x="296" y="1269" type="line" name="dh02"/>
+      <point x="296" y="457" type="line"/>
+      <point x="1108" y="457" type="line" name="dv02"/>
+      <point x="1108" y="287" type="line" name="dv01"/>
+      <point x="126" y="287" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@ b2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjI4NyIgd2lkdGg9IjE3MCIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMTI2OSIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iMTI2IiB3aWR0

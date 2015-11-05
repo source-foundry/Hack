@@ -4,28 +4,28 @@
   <unicode hex="0576"/>
   <outline>
     <contour>
-      <point x="549" y="-27" type="curve" smooth="yes"/>
-      <point x="698" y="-27" name="iv01"/>
-      <point x="798" y="44" name="dh03"/>
-      <point x="839" y="168" type="curve" name="dh04"/>
-      <point x="839" y="0" type="line" name="hr01"/>
-      <point x="1130" y="0" type="line" name="at01"/>
-      <point x="1130" y="1120" type="line" name="sh02"/>
-      <point x="839" y="1120" type="line" name="sv02"/>
-      <point x="839" y="479" type="line" smooth="yes"/>
-      <point x="839" y="310" name="dh02"/>
-      <point x="779" y="211" name="dh01"/>
-      <point x="662" y="211" type="curve" smooth="yes"/>
-      <point x="565" y="211" name="sv01"/>
-      <point x="522" y="279" name="sh01"/>
-      <point x="522" y="438" type="curve" smooth="yes" name="ab01"/>
-      <point x="522" y="1556" type="line"/>
-      <point x="103" y="1556" type="line" name="sh03"/>
-      <point x="103" y="1331" type="line"/>
-      <point x="231" y="1331" type="line" name="hr02"/>
-      <point x="231" y="393" type="line" smooth="yes"/>
-      <point x="231" y="110"/>
-      <point x="340" y="-27"/>
+      <point x="549" y="-27" type="curve" smooth="yes" name="ab01"/>
+      <point x="340" y="-27" name="sh01"/>
+      <point x="231" y="110" name="sv01"/>
+      <point x="231" y="393" type="curve" smooth="yes"/>
+      <point x="231" y="1331" type="line" name="dh01"/>
+      <point x="103" y="1331" type="line" name="dh02"/>
+      <point x="103" y="1556" type="line"/>
+      <point x="522" y="1556" type="line" name="sv02"/>
+      <point x="522" y="438" type="line" smooth="yes" name="sh02"/>
+      <point x="522" y="279" name="at01"/>
+      <point x="565" y="211"/>
+      <point x="662" y="211" type="curve" smooth="yes" name="dh04"/>
+      <point x="779" y="211" name="dh03"/>
+      <point x="839" y="310" name="iv01"/>
+      <point x="839" y="479" type="curve" smooth="yes"/>
+      <point x="839" y="1120" type="line"/>
+      <point x="1130" y="1120" type="line" name="sh03"/>
+      <point x="1130" y="0" type="line"/>
+      <point x="839" y="0" type="line" name="hr02"/>
+      <point x="839" y="168" type="line"/>
+      <point x="798" y="44"/>
+      <point x="698" y="-27"/>
     </contour>
   </outline>
   <lib>
@@ -64,7 +64,7 @@ MiIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyMTEiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjExMjAiIHdpZHRoPSItMjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjEzMzEiIHdpZHRo

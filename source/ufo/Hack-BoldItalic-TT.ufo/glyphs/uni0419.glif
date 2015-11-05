@@ -22,12 +22,12 @@
     </contour>
     <contour>
       <point x="267" y="1493" type="line" name="at01"/>
-      <point x="527" y="1493" type="line" name="hr01"/>
+      <point x="527" y="1493" type="line"/>
       <point x="316" y="408" type="line" name="iv01"/>
       <point x="943" y="1493" type="line" name="at02"/>
       <point x="1260" y="1493" type="line"/>
       <point x="970" y="0" type="line" name="ab01"/>
-      <point x="710" y="0" type="line"/>
+      <point x="710" y="0" type="line" name="hr01"/>
       <point x="921" y="1085" type="line" name="iv02"/>
       <point x="292" y="0" type="line" name="ab02"/>
       <point x="-23" y="0" type="line"/>
@@ -65,7 +65,7 @@ b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxNDkzIiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxNTkwIiB3aWR0
 aD0iMTQ5IiAvPgogICAgPC9oaW50c2V0PgogICAg
-PGhpbnRzZXQgcG9pbnRUYWc9InN2MDIiPgogICAg
+PGhpbnRzZXQgcG9pbnRUYWc9Iml2MDIiPgogICAg
 ICA8aHN0ZW0gcG9zPSIyMSIgd2lkdGg9Ii0yMSIg
 Lz4KICAgICAgPGhzdGVtIHBvcz0iMTQ5MyIgd2lk
 dGg9Ii0yMCIgLz4KICAgICAgPGhzdGVtIHBvcz0i

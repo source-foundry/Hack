@@ -4,26 +4,26 @@
   <unicode hex="056F"/>
   <outline>
     <contour>
-      <point x="774" y="-426" type="line" name="ah02"/>
-      <point x="1067" y="-426" type="line" name="sh04"/>
-      <point x="1067" y="1120" type="line"/>
-      <point x="774" y="1120" type="line" name="at02"/>
-      <point x="774" y="477" type="line" smooth="yes" name="sh03"/>
-      <point x="774" y="308" name="dv02"/>
-      <point x="716" y="211" name="sh02"/>
-      <point x="599" y="211" type="curve" smooth="yes"/>
-      <point x="500" y="211" name="at01"/>
-      <point x="459" y="279" name="sh01"/>
-      <point x="459" y="436" type="curve" smooth="yes" name="dv01"/>
-      <point x="459" y="1556" type="line" name="iv01"/>
-      <point x="166" y="1556" type="line" name="ah01"/>
-      <point x="166" y="391" type="line" smooth="yes" name="sh05"/>
-      <point x="166" y="110"/>
+      <point x="774" y="166" type="line" name="iv01"/>
+      <point x="733" y="42" name="dv01"/>
+      <point x="636" y="-29" name="sh01"/>
+      <point x="485" y="-29" type="curve" smooth="yes" name="at01"/>
       <point x="274" y="-29"/>
-      <point x="485" y="-29" type="curve" smooth="yes"/>
-      <point x="636" y="-29"/>
-      <point x="733" y="42"/>
-      <point x="774" y="166" type="curve"/>
+      <point x="166" y="110" name="sh02"/>
+      <point x="166" y="391" type="curve" smooth="yes" name="dv02"/>
+      <point x="166" y="1556" type="line" name="sh03"/>
+      <point x="459" y="1556" type="line" name="at02"/>
+      <point x="459" y="436" type="line" smooth="yes"/>
+      <point x="459" y="279" name="sh04"/>
+      <point x="500" y="211" name="ah02"/>
+      <point x="599" y="211" type="curve" smooth="yes" name="ah01"/>
+      <point x="716" y="211" name="sh05"/>
+      <point x="774" y="308"/>
+      <point x="774" y="477" type="curve" smooth="yes"/>
+      <point x="774" y="1120" type="line"/>
+      <point x="1067" y="1120" type="line"/>
+      <point x="1067" y="-426" type="line"/>
+      <point x="774" y="-426" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -59,7 +59,7 @@ bnQyPSJkdjAyIi8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYWgwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii00MDUiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ii0yOSIgd2lkdGg9IjI0MCIg
 Lz4KICAgICAgPGhzdGVtIHBvcz0iMTEyMCIgd2lk

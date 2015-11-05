@@ -12,7 +12,7 @@
       <point x="616" y="688" type="qcurve" name="dh02"/>
       <point x="635" y="986"/>
       <point x="998" y="1284" type="qcurve" name="av02"/>
-      <point x="1238" y="1284" type="line"/>
+      <point x="1238" y="1284" type="line" name="hr01"/>
       <point x="698" y="892"/>
       <point x="698" y="0" type="qcurve" name="sh01"/>
     </contour>
@@ -39,8 +39,13 @@ MDEiLz4KICA8L3R0UHJvZ3JhbT4K
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIxMjg0IiB3aWR0aD0iLTIwIiAv
+PgogICAgICA8dnN0ZW0gcG9zPSI2MTYiIHdpZHRo
+PSI4MiIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
+bnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

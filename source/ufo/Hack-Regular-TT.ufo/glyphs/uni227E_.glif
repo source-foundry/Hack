@@ -9,26 +9,26 @@
       <point x="827" y="486"/>
       <point x="562" y="623"/>
       <point x="257" y="723"/>
-      <point x="86" y="752" type="qcurve"/>
+      <point x="86" y="752" type="qcurve" name="hr01"/>
       <point x="86" y="918" type="line"/>
       <point x="439" y="979"/>
       <point x="960" y="1254"/>
       <point x="1143" y="1457" type="qcurve" name="av01"/>
-      <point x="1143" y="1218" type="line"/>
+      <point x="1143" y="1218" type="line" name="hr02"/>
       <point x="853" y="915"/>
       <point x="448" y="835" type="qcurve"/>
       <point x="851" y="742"/>
-      <point x="1143" y="452" type="qcurve"/>
+      <point x="1143" y="452" type="qcurve" name="hr03"/>
     </contour>
     <contour>
-      <point x="86" y="60" type="line"/>
+      <point x="86" y="60" type="line" name="hr04"/>
       <point x="164" y="120"/>
       <point x="310" y="175"/>
       <point x="391" y="175" type="qcurve" name="dv04"/>
       <point x="439" y="175"/>
       <point x="553" y="153"/>
       <point x="621" y="121" type="qcurve"/>
-      <point x="653" y="106" type="line"/>
+      <point x="653" y="106" type="line" name="hr05"/>
       <point x="768" y="52"/>
       <point x="863" y="52" type="qcurve" name="dv02"/>
       <point x="932" y="52"/>
@@ -51,7 +51,7 @@
       <point x="383" y="9" type="qcurve" name="dv03"/>
       <point x="306" y="9"/>
       <point x="164" y="-46"/>
-      <point x="86" y="-114" type="qcurve" name="hr01"/>
+      <point x="86" y="-114" type="qcurve"/>
     </contour>
   </outline>
   <lib>
@@ -74,11 +74,27 @@ b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjkiIHdpZHRoPSIxNjYiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjE0NTciIHdpZHRoPSItMjAiIC8+
 CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xMTQiIHdpZHRoPSIxNjYiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjE0NTciIHdpZHRoPSItMjAi
-IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
-TGlzdD4K
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
+dCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3Rl
+bSBwb3M9IjkiIHdpZHRoPSIxNjYiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjE0NTciIHdpZHRoPSItMjAi
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
+dCBwb2ludFRhZz0iaHIwNCI+CiAgICAgIDxoc3Rl
+bSBwb3M9Ii0xMTQiIHdpZHRoPSIxNjYiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjE0NTciIHdpZHRoPSIt
+MjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwNSI+CiAgICAgIDxo
+c3RlbSBwb3M9IjkiIHdpZHRoPSIxNjYiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjE0NTciIHdpZHRoPSIt
+MjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwNSI+CiAgICAgIDxo
+c3RlbSBwb3M9Ii0xMTQiIHdpZHRoPSIxNjYiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjE0NTciIHdpZHRo
+PSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
+aW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

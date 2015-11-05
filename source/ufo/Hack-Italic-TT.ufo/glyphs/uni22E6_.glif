@@ -14,7 +14,7 @@
       <point x="300" y="79"/>
       <point x="159" y="20"/>
       <point x="86" y="-44" type="qcurve" name="iv01"/>
-      <point x="86" y="130" type="line"/>
+      <point x="86" y="130" type="line" name="hr02"/>
       <point x="164" y="190"/>
       <point x="309" y="245"/>
       <point x="391" y="245" type="qcurve" name="dv04"/>
@@ -22,7 +22,7 @@
       <point x="541" y="223"/>
       <point x="570" y="211" type="qcurve"/>
       <point x="618" y="421" type="line"/>
-      <point x="86" y="588" type="line" name="hr02"/>
+      <point x="86" y="588" type="line"/>
       <point x="86" y="756" type="line"/>
       <point x="1143" y="1087" type="line" name="av02"/>
       <point x="1143" y="903" type="line"/>
@@ -30,13 +30,13 @@
       <point x="1143" y="438" type="line"/>
       <point x="1143" y="256" type="line" name="iv03"/>
       <point x="751" y="379" type="line"/>
-      <point x="701" y="156" type="line"/>
+      <point x="701" y="156" type="line" name="hr03"/>
       <point x="788" y="122"/>
       <point x="862" y="122" type="qcurve" name="dv02"/>
       <point x="932" y="122"/>
       <point x="1068" y="182"/>
       <point x="1143" y="245" type="qcurve" name="iv04"/>
-      <point x="1143" y="70" type="line"/>
+      <point x="1143" y="70" type="line" name="hr05"/>
       <point x="1074" y="15"/>
       <point x="930" y="-44"/>
       <point x="851" y="-44" type="qcurve" name="dv01"/>
@@ -73,7 +73,7 @@ PgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaXYwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yNTQiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ijc5IiB3aWR0aD0iMTY2IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDg3IiB3aWR0
@@ -84,12 +84,22 @@ IiAvPgogICAgICA8aHN0ZW0gcG9zPSItNDQiIHdp
 ZHRoPSIxNjYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
 IjEwODciIHdpZHRoPSItMjAiIC8+CiAgICA8L2hp
 bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
-ZHYwNCI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yNTQi
+aHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yNTQi
 IHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBw
 b3M9Ijc5IiB3aWR0aD0iMTY2IiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxMDg3IiB3aWR0aD0iLTIwIiAv
-PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-c3Q+Cg==
+PgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQg
+cG9pbnRUYWc9Iml2MDQiPgogICAgICA8aHN0ZW0g
+cG9zPSItMjU0IiB3aWR0aD0iLTIxIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSItNDQiIHdpZHRoPSIxNjYi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9IjEwODciIHdp
+ZHRoPSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+ICA8aGludHNldCBwb2ludFRhZz0iaHIwNSI+CiAg
+ICAgIDxoc3RlbSBwb3M9Ii0yNTQiIHdpZHRoPSIt
+MjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijc5IiB3
+aWR0aD0iMTY2IiAvPgogICAgICA8aHN0ZW0gcG9z
+PSIxMDg3IiB3aWR0aD0iLTIwIiAvPgogICAgPC9o
+aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

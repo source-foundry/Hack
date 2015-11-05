@@ -16,7 +16,7 @@
       <point x="820" y="1743" type="qcurve" name="dv02"/>
       <point x="983" y="1743"/>
       <point x="1035" y="1854" type="qcurve" name="sv01"/>
-      <point x="1154" y="1854" type="line" name="hr02"/>
+      <point x="1154" y="1854" type="line"/>
       <point x="1119" y="1734"/>
       <point x="937" y="1612"/>
     </contour>
@@ -30,7 +30,7 @@
       <point x="1027" y="711" type="line" name="dv03"/>
       <point x="373" y="711" type="line"/>
       <point x="269" y="170" type="line" name="sv03"/>
-      <point x="971" y="170" type="line"/>
+      <point x="971" y="170" type="line" name="hr02"/>
       <point x="938" y="0" type="line" name="ab01"/>
       <point x="33" y="0" type="line"/>
     </contour>
@@ -63,7 +63,7 @@ NzAiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMyI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjcxMSIgd2lkdGg9IjE3MCIgLz4K
 ICAgICAgPGhzdGVtIHBvcz0iMTMyMyIgd2lkdGg9

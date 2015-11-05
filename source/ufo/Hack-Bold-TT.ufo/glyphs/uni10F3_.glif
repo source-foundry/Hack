@@ -18,7 +18,7 @@
       <point x="679" y="489"/>
       <point x="790" y="676"/>
       <point x="789" y="847" type="qcurve"/>
-      <point x="432" y="826" type="line"/>
+      <point x="432" y="826" type="line" name="hr01"/>
       <point x="432" y="629" type="line" name="sh02"/>
       <point x="138" y="629" type="line" name="ih01"/>
       <point x="138" y="1034" type="line"/>
@@ -88,7 +88,7 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xOTEiIHdpZHRoPSI0ODUiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjQ4OSIgd2lkdGg9IjE0MCIg
 Lz4KICAgICAgPGhzdGVtIHBvcz0iMTA2NiIgd2lk
@@ -96,21 +96,19 @@ dGg9Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
 MTM4IiB3aWR0aD0iMjk0IiAvPgogICAgICA8dnN0
 ZW0gcG9zPSI4NDIiIHdpZHRoPSIyOTQiIC8+CiAg
 ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
-dFRhZz0ic2gwMiI+CiAgICAgIDxoc3RlbSBwb3M9
-IjI5NCIgd2lkdGg9IjE5NSIgLz4KICAgICAgPGhz
-dGVtIHBvcz0iODM2IiB3aWR0aD0iMjE0IiAvPgog
-ICAgICA8dnN0ZW0gcG9zPSI5NyIgd2lkdGg9IjI5
-NCIgLz4KICAgICAgPHZzdGVtIHBvcz0iODQyIiB3
-aWR0aD0iMjk0IiAvPgogICAgPC9oaW50c2V0Pgog
-ICAgPGhpbnRzZXQgcG9pbnRUYWc9ImRoMDMiPgog
-ICAgICA8aHN0ZW0gcG9zPSItMTkxIiB3aWR0aD0i
-NDg1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0ODki
-IHdpZHRoPSIxNDAiIC8+CiAgICAgIDxoc3RlbSBw
+dFRhZz0iZGgwNCI+CiAgICAgIDxoc3RlbSBwb3M9
+Ii0xOTEiIHdpZHRoPSI0ODUiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjI5NCIgd2lkdGg9IjE5NSIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iNDg5IiB3aWR0aD0i
+MTQwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI4MzYi
+IHdpZHRoPSIyMTQiIC8+CiAgICAgIDxoc3RlbSBw
 b3M9IjgzNiIgd2lkdGg9IjIxNCIgLz4KICAgICAg
 PHZzdGVtIHBvcz0iOTciIHdpZHRoPSIyOTQiIC8+
-CiAgICAgIDx2c3RlbSBwb3M9Ijg0MiIgd2lkdGg9
-IjI5NCIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
-bnRTZXRMaXN0Pgo=
+CiAgICAgIDx2c3RlbSBwb3M9Ijk3IiB3aWR0aD0i
+Mjk0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4NDIi
+IHdpZHRoPSIyOTQiIC8+CiAgICAgIDx2c3RlbSBw
+b3M9Ijg0MiIgd2lkdGg9IjI5NCIgLz4KICAgIDwv
+aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

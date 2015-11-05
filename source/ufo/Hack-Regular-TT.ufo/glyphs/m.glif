@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="109" y="1120" type="line" name="dh01"/>
-      <point x="260" y="1120" type="line" name="hr01"/>
+      <point x="260" y="1120" type="line"/>
       <point x="276" y="1024" type="line" name="dh02"/>
       <point x="309" y="1084"/>
       <point x="359" y="1116" type="qcurve" name="at01"/>
@@ -109,7 +109,7 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYWIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxMTIwIiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8dnN0ZW0gcG9zPSIxMDkiIHdpZHRo

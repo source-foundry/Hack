@@ -13,15 +13,15 @@
       <point x="0" y="1299" type="line"/>
       <point x="29" y="1299" type="line" name="sv02"/>
       <point x="0" y="1493" type="line" name="at01"/>
-      <point x="197" y="1493" type="line" name="hr05"/>
+      <point x="197" y="1493" type="line"/>
       <point x="220" y="1299" type="line" name="sv03"/>
-      <point x="525" y="1299" type="line" name="hr04"/>
+      <point x="525" y="1299" type="line"/>
       <point x="555" y="1493" type="line" name="at02"/>
-      <point x="695" y="1493" type="line" name="hr03"/>
+      <point x="695" y="1493" type="line"/>
       <point x="725" y="1299" type="line" name="sv04"/>
-      <point x="1013" y="1299" type="line" name="hr02"/>
+      <point x="1013" y="1299" type="line"/>
       <point x="1036" y="1493" type="line" name="at03"/>
-      <point x="1233" y="1493" type="line" name="hr01"/>
+      <point x="1233" y="1493" type="line"/>
       <point x="1204" y="1299" type="line" name="sv05"/>
       <point x="1233" y="1299" type="line"/>
       <point x="1233" y="1156" type="line" name="sv06"/>
@@ -35,13 +35,13 @@
       <point x="628" y="887" type="line" name="sv10"/>
       <point x="614" y="887" type="line"/>
       <point x="414" y="0" type="line" name="ab02"/>
-      <point x="223" y="0" type="line"/>
+      <point x="223" y="0" type="line" name="hr01"/>
     </contour>
     <contour>
       <point x="475" y="1039" type="line" name="sv11"/>
       <point x="493" y="1156" type="line" name="sv12"/>
       <point x="236" y="1156" type="line" name="sv13"/>
-      <point x="250" y="1039" type="line"/>
+      <point x="250" y="1039" type="line" name="hr03"/>
     </contour>
     <contour>
       <point x="633" y="1039" type="line" name="sv14"/>
@@ -133,7 +133,7 @@ b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSI4OTYiIHdpZHRoPSIxNDMiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjExNTYiIHdpZHRo
 PSIzMzciIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAg
+aGludHNldCBwb2ludFRhZz0ic3YxMiI+CiAgICAg
 IDxoc3RlbSBwb3M9IjIxIiB3aWR0aD0iLTIxIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSI4OTYiIHdpZHRo
 PSIxNDMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEx
@@ -144,17 +144,17 @@ aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSI4
 OTYiIHdpZHRoPSIxNDMiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjExNTYiIHdpZHRoPSIzMzciIC8+CiAg
 ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
-dFRhZz0iaHIwNCI+CiAgICAgIDxoc3RlbSBwb3M9
+dFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBwb3M9
 IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSI4OTYiIHdpZHRoPSIxNDMiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjExNTYiIHdpZHRoPSIx
 NDMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
-dHNldCBwb2ludFRhZz0iaHIwNSI+CiAgICAgIDxo
+dHNldCBwb2ludFRhZz0ic3YxNSI+CiAgICAgIDxo
 c3RlbSBwb3M9IjIxIiB3aWR0aD0iLTIxIiAvPgog
 ICAgICA8aHN0ZW0gcG9zPSI4OTYiIHdpZHRoPSIx
 NDMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjExNTYi
 IHdpZHRoPSIzMzciIC8+CiAgICA8L2hpbnRzZXQ+
-CiAgICA8aGludHNldCBwb2ludFRhZz0ic3YwMiI+
+CiAgICA8aGludHNldCBwb2ludFRhZz0ic3YxNyI+
 CiAgICAgIDxoc3RlbSBwb3M9IjIxIiB3aWR0aD0i
 LTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSI4OTYi
 IHdpZHRoPSIxNDMiIC8+CiAgICAgIDxoc3RlbSBw

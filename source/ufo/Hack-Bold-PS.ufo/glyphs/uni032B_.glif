@@ -4,43 +4,43 @@
   <unicode hex="032B"/>
   <outline>
     <contour>
-      <point x="-785" y="-489" type="curve" smooth="yes"/>
-      <point x="-714" y="-489"/>
-      <point x="-658" y="-466" name="sv05"/>
-      <point x="-617" y="-419" type="curve"/>
-      <point x="-576" y="-466"/>
-      <point x="-520" y="-489" name="sv04"/>
-      <point x="-448" y="-489" type="curve" smooth="yes"/>
-      <point x="-405" y="-489" name="sv03"/>
-      <point x="-367" y="-481"/>
-      <point x="-336" y="-464" type="curve" smooth="yes" name="sv02"/>
-      <point x="-255" y="-421"/>
-      <point x="-213" y="-331" name="dv02"/>
-      <point x="-209" y="-192" type="curve" name="sv01"/>
-      <point x="-352" y="-192" type="line"/>
-      <point x="-353" y="-203"/>
-      <point x="-354" y="-215" name="dv01"/>
-      <point x="-357" y="-227" type="curve"/>
-      <point x="-371" y="-300"/>
-      <point x="-402" y="-336"/>
-      <point x="-449" y="-336" type="curve" name="hr01"/>
-      <point x="-500" y="-331"/>
-      <point x="-532" y="-283"/>
-      <point x="-545" y="-192" type="curve" name="hr02"/>
-      <point x="-688" y="-192" type="line"/>
-      <point x="-690" y="-208" type="line" smooth="yes"/>
-      <point x="-700" y="-293"/>
-      <point x="-732" y="-336"/>
-      <point x="-785" y="-336" type="curve" name="hr03"/>
-      <point x="-836" y="-331"/>
-      <point x="-868" y="-283"/>
-      <point x="-881" y="-192" type="curve" name="hr04"/>
-      <point x="-1024" y="-192" type="line"/>
-      <point x="-1023" y="-231"/>
-      <point x="-1018" y="-266"/>
-      <point x="-1011" y="-298" type="curve"/>
-      <point x="-980" y="-425"/>
+      <point x="-785" y="-489" type="curve" smooth="yes" name="dv01"/>
       <point x="-904" y="-489"/>
+      <point x="-980" y="-425"/>
+      <point x="-1011" y="-298" type="curve" name="sv01"/>
+      <point x="-1018" y="-266" name="dv02"/>
+      <point x="-1023" y="-231"/>
+      <point x="-1024" y="-192" type="curve" name="sv02"/>
+      <point x="-881" y="-192" type="line"/>
+      <point x="-868" y="-283" name="sv03"/>
+      <point x="-836" y="-331"/>
+      <point x="-785" y="-336" type="curve" name="sv04"/>
+      <point x="-732" y="-336"/>
+      <point x="-700" y="-293"/>
+      <point x="-690" y="-208" type="curve" smooth="yes" name="sv05"/>
+      <point x="-688" y="-192" type="line"/>
+      <point x="-545" y="-192" type="line" name="hr01"/>
+      <point x="-532" y="-283"/>
+      <point x="-500" y="-331"/>
+      <point x="-449" y="-336" type="curve" name="hr02"/>
+      <point x="-402" y="-336"/>
+      <point x="-371" y="-300"/>
+      <point x="-357" y="-227" type="curve"/>
+      <point x="-354" y="-215"/>
+      <point x="-353" y="-203"/>
+      <point x="-352" y="-192" type="curve"/>
+      <point x="-209" y="-192" type="line" name="hr03"/>
+      <point x="-213" y="-331"/>
+      <point x="-255" y="-421"/>
+      <point x="-336" y="-464" type="curve" smooth="yes" name="hr04"/>
+      <point x="-367" y="-481"/>
+      <point x="-405" y="-489"/>
+      <point x="-448" y="-489" type="curve" smooth="yes"/>
+      <point x="-520" y="-489"/>
+      <point x="-576" y="-466"/>
+      <point x="-617" y="-419" type="curve"/>
+      <point x="-658" y="-466"/>
+      <point x="-714" y="-489"/>
     </contour>
   </outline>
   <lib>

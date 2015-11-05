@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="216" y="1556" type="line" name="at01"/>
-      <point x="356" y="1556" type="line" name="hr01"/>
+      <point x="356" y="1556" type="line"/>
       <point x="323" y="1387" type="line"/>
       <point x="1039" y="1387" type="line" name="sv02"/>
       <point x="1015" y="1265" type="line" name="sv01"/>
@@ -28,7 +28,7 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjEyNjUiIHdpZHRoPSIxMjIiIC8+CiAgICA8
 L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>

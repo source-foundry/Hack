@@ -4,22 +4,22 @@
   <unicode hex="0179"/>
   <outline>
     <contour>
-      <point x="500" y="1589" type="line" name="iv01"/>
-      <point x="697" y="1589" type="line"/>
-      <point x="983" y="1853" type="line"/>
       <point x="699" y="1853" type="line" name="av01"/>
+      <point x="983" y="1853" type="line"/>
+      <point x="697" y="1589" type="line"/>
+      <point x="500" y="1589" type="line" name="iv01"/>
     </contour>
     <contour>
-      <point x="115" y="0" type="line"/>
-      <point x="1161" y="0" type="line" name="ab01"/>
-      <point x="1161" y="260" type="line"/>
-      <point x="455" y="260" type="line" name="sv02"/>
-      <point x="1147" y="1249" type="line"/>
-      <point x="1147" y="1493" type="line"/>
-      <point x="137" y="1493" type="line" name="at01"/>
-      <point x="137" y="1233" type="line"/>
-      <point x="786" y="1233" type="line" name="sv01"/>
       <point x="115" y="244" type="line"/>
+      <point x="786" y="1233" type="line" name="sv01"/>
+      <point x="137" y="1233" type="line"/>
+      <point x="137" y="1493" type="line" name="at01"/>
+      <point x="1147" y="1493" type="line"/>
+      <point x="1147" y="1249" type="line"/>
+      <point x="455" y="260" type="line" name="sv02"/>
+      <point x="1161" y="260" type="line"/>
+      <point x="1161" y="0" type="line" name="ab01"/>
+      <point x="115" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,7 +43,7 @@ ZW09Ink6IDI2MCIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE4NTMiIHdpZHRo

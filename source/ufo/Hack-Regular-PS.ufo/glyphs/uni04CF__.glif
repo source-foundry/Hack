@@ -4,10 +4,10 @@
   <unicode hex="04CF"/>
   <outline>
     <contour>
-      <point x="455" y="0" type="line" name="hr00"/>
-      <point x="639" y="0" type="line" name="ab01"/>
-      <point x="639" y="1567" type="line" name="dh02"/>
       <point x="455" y="1567" type="line" name="dh01"/>
+      <point x="639" y="1567" type="line" name="dh02"/>
+      <point x="639" y="0" type="line" name="ab01"/>
+      <point x="455" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,7 +25,7 @@ PgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxNTY3IiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8dnN0ZW0gcG9zPSI0NTUiIHdpZHRo

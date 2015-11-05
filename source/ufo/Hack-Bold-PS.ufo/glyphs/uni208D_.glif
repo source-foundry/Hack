@@ -4,20 +4,20 @@
   <unicode hex="208D"/>
   <outline>
     <contour>
-      <point x="787" y="-151" type="line" name="av03"/>
-      <point x="675" y="29" name="dh02"/>
-      <point x="623" y="194"/>
-      <point x="623" y="362" type="curve" smooth="yes" name="av01"/>
-      <point x="623" y="529" name="dh01"/>
-      <point x="675" y="690" name="av02"/>
-      <point x="787" y="870" type="curve"/>
-      <point x="643" y="870" type="line"/>
-      <point x="512" y="702"/>
-      <point x="446" y="532"/>
+      <point x="643" y="-151" type="line" name="av02"/>
+      <point x="510" y="22" name="dh01"/>
+      <point x="446" y="185" name="av01"/>
       <point x="446" y="360" type="curve" smooth="yes"/>
-      <point x="446" y="185"/>
-      <point x="510" y="22"/>
-      <point x="643" y="-151" type="curve"/>
+      <point x="446" y="532" name="dh02"/>
+      <point x="512" y="702" name="av03"/>
+      <point x="643" y="870" type="curve"/>
+      <point x="787" y="870" type="line"/>
+      <point x="675" y="690"/>
+      <point x="623" y="529"/>
+      <point x="623" y="362" type="curve" smooth="yes"/>
+      <point x="623" y="194"/>
+      <point x="675" y="29"/>
+      <point x="787" y="-151" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -42,7 +42,7 @@ Pgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMyI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXYwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xMzAiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ijg3MCIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iNDQ2IiB3aWR0

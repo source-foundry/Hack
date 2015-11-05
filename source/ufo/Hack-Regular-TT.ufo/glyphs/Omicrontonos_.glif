@@ -26,7 +26,7 @@
     <contour>
       <point x="676" y="135" type="qcurve" name="dv02"/>
       <point x="830" y="135"/>
-      <point x="898" y="276" type="qcurve"/>
+      <point x="898" y="276" type="qcurve" name="hr01"/>
       <point x="965" y="414"/>
       <point x="965" y="745" type="qcurve" name="ah01"/>
       <point x="965" y="1075"/>
@@ -34,7 +34,7 @@
       <point x="830" y="1356"/>
       <point x="676" y="1356" type="qcurve" name="sv01"/>
       <point x="523" y="1356"/>
-      <point x="456" y="1215" type="qcurve" name="hr01"/>
+      <point x="456" y="1215" type="qcurve"/>
       <point x="388" y="1073"/>
       <point x="388" y="745" type="qcurve" name="sh03"/>
       <point x="388" y="418"/>
@@ -87,23 +87,24 @@ cm91bmQ9InRydWUiLz4KICA8L3R0UHJvZ3JhbT4K
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9IjE2NCIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iMTQ5MyIgd2lkdGg9Ii0yMCIg
+PGhzdGVtIHBvcz0iMTExNyIgd2lkdGg9IjQwMyIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iMTc3IiB3aWR0
 aD0iMjExIiAvPgogICAgICA8dnN0ZW0gcG9zPSI5
 NjUiIHdpZHRoPSIyMTEiIC8+CiAgICA8L2hpbnRz
 ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
 MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
 dGg9IjE2NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-LTI5IiB3aWR0aD0iMTY0IiAvPgogICAgICA8aHN0
-ZW0gcG9zPSIxMTE3IiB3aWR0aD0iNDAzIiAvPgog
-ICAgICA8aHN0ZW0gcG9zPSIxMzU2IiB3aWR0aD0i
-MTY0IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxNzci
-IHdpZHRoPSIyMTEiIC8+CiAgICAgIDx2c3RlbSBw
-b3M9IjE3NyIgd2lkdGg9IjIxMSIgLz4KICAgICAg
-PHZzdGVtIHBvcz0iOTY1IiB3aWR0aD0iMjExIiAv
-PgogICAgICA8dnN0ZW0gcG9zPSI5NjUiIHdpZHRo
-PSIyMTEiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
-aW50U2V0TGlzdD4K
+MTQ5MyIgd2lkdGg9Ii0yMCIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iMTc3IiB3aWR0aD0iMjExIiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI5NjUiIHdpZHRoPSIy
+MTEiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxo
+c3RlbSBwb3M9Ii0yOSIgd2lkdGg9IjE2NCIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTExNyIgd2lkdGg9
+IjQwMyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTc3
+IiB3aWR0aD0iMjExIiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI5NjUiIHdpZHRoPSIyMTEiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

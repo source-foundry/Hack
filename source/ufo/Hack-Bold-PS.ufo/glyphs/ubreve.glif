@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ubreve" format="1">
+  <advance width="1233"/>
+  <unicode hex="016D"/>
+  <outline>
+    <contour>
+      <point x="946" y="1596" type="curve"/>
+      <point x="803" y="1596" type="line"/>
+      <point x="790" y="1503"/>
+      <point x="722" y="1452"/>
+      <point x="611" y="1452" type="curve" smooth="yes" name="hr01"/>
+      <point x="499" y="1452"/>
+      <point x="429" y="1504"/>
+      <point x="416" y="1596" type="curve" name="hr02"/>
+      <point x="275" y="1596" type="line"/>
+      <point x="283" y="1407"/>
+      <point x="403" y="1299"/>
+      <point x="610" y="1299" type="curve" smooth="yes"/>
+      <point x="818" y="1299"/>
+      <point x="938" y="1405"/>
+    </contour>
+    <contour>
+      <point x="768" y="166" type="curve"/>
+      <point x="797" y="0" type="line"/>
+      <point x="1061" y="0" type="line"/>
+      <point x="1061" y="1120" type="line"/>
+      <point x="768" y="1120" type="line"/>
+      <point x="768" y="477" type="line" smooth="yes"/>
+      <point x="768" y="309"/>
+      <point x="706" y="211"/>
+      <point x="598" y="211" type="curve" smooth="yes"/>
+      <point x="495" y="211"/>
+      <point x="453" y="275"/>
+      <point x="453" y="436" type="curve" smooth="yes"/>
+      <point x="453" y="1120" type="line"/>
+      <point x="160" y="1120" type="line"/>
+      <point x="160" y="391" type="line" smooth="yes"/>
+      <point x="160" y="114"/>
+      <point x="270" y="-29"/>
+      <point x="481" y="-29" type="curve" smooth="yes" name="hr03"/>
+      <point x="624" y="-29"/>
+      <point x="725" y="41"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjI0MCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTEyMCIgd2lkdGg9Ii0yMCIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMTI5OSIgd2lk
+dGg9IjE1MyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+MTYwIiB3aWR0aD0iMjkzIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI3NjgiIHdpZHRoPSIyOTMiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
+dFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9
+IjAiIHdpZHRoPSIyMTEiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjExMjAiIHdpZHRoPSItMjAiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjEyOTkiIHdpZHRoPSIy
+OTciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE2MCIg
+d2lkdGg9IjI5MyIgLz4KICAgICAgPHZzdGVtIHBv
+cz0iNzY4IiB3aWR0aD0iMjkzIiAvPgogICAgPC9o
+aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
+ImhyMDMiPgogICAgICA8aHN0ZW0gcG9zPSItMjki
+IHdpZHRoPSIyNDAiIC8+CiAgICAgIDxoc3RlbSBw
+b3M9IjExMjAiIHdpZHRoPSItMjAiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjEyOTkiIHdpZHRoPSIxNTMi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjE2MCIgd2lk
+dGg9IjI5MyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+NzY4IiB3aWR0aD0iMjkzIiAvPgogICAgPC9oaW50
+c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

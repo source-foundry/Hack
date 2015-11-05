@@ -4,57 +4,57 @@
   <unicode hex="0E3F"/>
   <outline>
     <contour>
-      <point x="538" y="-301" type="line"/>
-      <point x="679" y="-301" type="line" name="av01"/>
-      <point x="679" y="1" type="line" name="dh04"/>
-      <point x="983" y="14" name="sh04"/>
-      <point x="1140" y="106" name="ih01"/>
-      <point x="1140" y="355" type="curve" smooth="yes" name="dh06"/>
+      <point x="538" y="0" type="line" name="dh03"/>
+      <point x="144" y="0" type="line" name="dh01"/>
+      <point x="144" y="1307" type="line"/>
+      <point x="538" y="1307" type="line" name="sh01"/>
+      <point x="538" y="1556" type="line" name="at01"/>
+      <point x="679" y="1556" type="line" name="sh02"/>
+      <point x="679" y="1305" type="line"/>
+      <point x="929" y="1289" name="dh06"/>
+      <point x="1089" y="1196" name="ih01"/>
+      <point x="1089" y="979" type="curve" smooth="yes" name="sh04"/>
+      <point x="1089" y="808" name="dh04"/>
+      <point x="993" y="714" name="av01"/>
+      <point x="809" y="699" type="curve" name="hr01"/>
+      <point x="1034" y="678" name="sh05"/>
       <point x="1140" y="559"/>
-      <point x="1034" y="678" name="sh02"/>
-      <point x="809" y="699" type="curve" name="at01"/>
-      <point x="993" y="714" name="sh01"/>
-      <point x="1089" y="808"/>
-      <point x="1089" y="979" type="curve" smooth="yes" name="dh01"/>
-      <point x="1089" y="1196" name="dh03"/>
-      <point x="929" y="1289"/>
-      <point x="679" y="1305" type="curve" name="sh06"/>
-      <point x="679" y="1556" type="line"/>
-      <point x="538" y="1556" type="line" name="sh05"/>
-      <point x="538" y="1307" type="line"/>
-      <point x="144" y="1307" type="line" name="dh05"/>
-      <point x="144" y="0" type="line" name="sh07"/>
-      <point x="538" y="0" type="line" name="dh02"/>
+      <point x="1140" y="355" type="curve" smooth="yes" name="sh06"/>
+      <point x="1140" y="106"/>
+      <point x="983" y="14" name="sh07"/>
+      <point x="679" y="1" type="curve" name="dh05"/>
+      <point x="679" y="-301" type="line"/>
+      <point x="538" y="-301" type="line" name="sh08"/>
     </contour>
     <contour>
-      <point x="418" y="798" type="line"/>
-      <point x="418" y="1102" type="line"/>
-      <point x="538" y="1102" type="line" name="sh08"/>
       <point x="538" y="798" type="line"/>
+      <point x="538" y="1102" type="line"/>
+      <point x="418" y="1102" type="line" name="dh02"/>
+      <point x="418" y="798" type="line" name="sh09"/>
     </contour>
     <contour>
-      <point x="679" y="1097" type="line" name="sh03"/>
-      <point x="747" y="1086" name="sh09"/>
-      <point x="807" y="1057"/>
-      <point x="807" y="948" type="curve" smooth="yes" name="sh10"/>
-      <point x="807" y="842"/>
+      <point x="679" y="803" type="line" name="sh03"/>
       <point x="750" y="814"/>
-      <point x="679" y="803" type="curve"/>
+      <point x="807" y="842"/>
+      <point x="807" y="948" type="curve" smooth="yes" name="sh10"/>
+      <point x="807" y="1057"/>
+      <point x="747" y="1086"/>
+      <point x="679" y="1097" type="curve" name="hr03"/>
     </contour>
     <contour>
-      <point x="418" y="206" type="line"/>
-      <point x="418" y="593" type="line"/>
-      <point x="538" y="593" type="line"/>
       <point x="538" y="206" type="line"/>
+      <point x="538" y="593" type="line"/>
+      <point x="418" y="593" type="line"/>
+      <point x="418" y="206" type="line"/>
     </contour>
     <contour>
-      <point x="679" y="589" type="line"/>
-      <point x="779" y="576"/>
-      <point x="852" y="536"/>
-      <point x="852" y="392" type="curve" smooth="yes" name="hr02"/>
-      <point x="852" y="257"/>
+      <point x="679" y="210" type="line"/>
       <point x="787" y="221"/>
-      <point x="679" y="210" type="curve"/>
+      <point x="852" y="257"/>
+      <point x="852" y="392" type="curve" smooth="yes"/>
+      <point x="852" y="536"/>
+      <point x="779" y="576"/>
+      <point x="679" y="589" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -106,7 +106,7 @@ dDI9ImF0MDEiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yODAiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjIxIiB3aWR0aD0iLTIxIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxNTU2IiB3aWR0
@@ -115,7 +115,7 @@ NDQiIHdpZHRoPSIyNzQiIC8+CiAgICAgIDx2c3Rl
 bSBwb3M9IjUzOCIgd2lkdGg9IjE0MSIgLz4KICAg
 ICAgPHZzdGVtIHBvcz0iODA3IiB3aWR0aD0iMjgy
 IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-ZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0
+ZXQgcG9pbnRUYWc9InNoMDMiPgogICAgICA8aHN0
 ZW0gcG9zPSItMjgwIiB3aWR0aD0iLTIxIiAvPgog
 ICAgICA8aHN0ZW0gcG9zPSIyMSIgd2lkdGg9Ii0y
 MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTU1NiIg
@@ -123,8 +123,17 @@ d2lkdGg9Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBv
 cz0iMTQ0IiB3aWR0aD0iMjc0IiAvPgogICAgICA8
 dnN0ZW0gcG9zPSI1MzgiIHdpZHRoPSIxNDEiIC8+
 CiAgICAgIDx2c3RlbSBwb3M9Ijg1MiIgd2lkdGg9
-IjIzNyIgLz4KICAgIDwvaGludHNldD4KICA8L2hp
-bnRTZXRMaXN0Pgo=
+IjI4OCIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+aW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAg
+PGhzdGVtIHBvcz0iLTI4MCIgd2lkdGg9Ii0yMSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMjEiIHdpZHRo
+PSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1
+NTYiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjE0NCIgd2lkdGg9IjI3NCIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iNTM4IiB3aWR0aD0iMTQx
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MDciIHdp
+ZHRoPSIyODIiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

@@ -4,55 +4,55 @@
   <unicode hex="221D"/>
   <outline>
     <contour>
-      <point x="497" y="223" type="curve" smooth="yes" name="hr00"/>
-      <point x="614" y="223"/>
-      <point x="708" y="291" name="sv03"/>
-      <point x="781" y="428" type="curve" name="sv02"/>
-      <point x="866" y="284"/>
-      <point x="956" y="223"/>
-      <point x="1056" y="223" type="curve"/>
-      <point x="1056" y="422" type="line" name="dv03"/>
-      <point x="1031" y="422" name="dv04"/>
-      <point x="1005" y="437"/>
-      <point x="978" y="468" type="curve" name="sv01"/>
-      <point x="954" y="498" name="dh01"/>
-      <point x="928" y="537" name="dv01"/>
-      <point x="890" y="629" type="curve"/>
-      <point x="917" y="706" name="dh02"/>
-      <point x="941" y="750" name="sv04"/>
-      <point x="973" y="787" type="curve" smooth="yes"/>
-      <point x="1006" y="826"/>
-      <point x="1035" y="842" name="dv02"/>
-      <point x="1056" y="842" type="curve"/>
-      <point x="1056" y="1040" type="line"/>
-      <point x="935" y="1040"/>
-      <point x="841" y="975"/>
-      <point x="781" y="831" type="curve"/>
-      <point x="712" y="976"/>
-      <point x="615" y="1040"/>
-      <point x="494" y="1040" type="curve" smooth="yes"/>
-      <point x="302" y="1040"/>
-      <point x="177" y="875"/>
+      <point x="497" y="223" type="curve" smooth="yes" name="dv01"/>
+      <point x="313" y="223" name="dh01"/>
+      <point x="177" y="391" name="sv01"/>
       <point x="177" y="639" type="curve" smooth="yes"/>
-      <point x="177" y="391"/>
-      <point x="313" y="223"/>
+      <point x="177" y="875" name="dv04"/>
+      <point x="302" y="1040" name="dv03"/>
+      <point x="494" y="1040" type="curve" smooth="yes"/>
+      <point x="615" y="1040"/>
+      <point x="712" y="976"/>
+      <point x="781" y="831" type="curve" name="sv02"/>
+      <point x="841" y="975" name="sv03"/>
+      <point x="935" y="1040"/>
+      <point x="1056" y="1040" type="curve"/>
+      <point x="1056" y="842" type="line" name="dv02"/>
+      <point x="1035" y="842"/>
+      <point x="1006" y="826"/>
+      <point x="973" y="787" type="curve" smooth="yes" name="sv04"/>
+      <point x="941" y="750" name="dh02"/>
+      <point x="917" y="706"/>
+      <point x="890" y="629" type="curve"/>
+      <point x="928" y="537"/>
+      <point x="954" y="498"/>
+      <point x="978" y="468" type="curve"/>
+      <point x="1005" y="437"/>
+      <point x="1031" y="422"/>
+      <point x="1056" y="422" type="curve"/>
+      <point x="1056" y="223" type="line"/>
+      <point x="956" y="223"/>
+      <point x="866" y="284"/>
+      <point x="781" y="428" type="curve"/>
+      <point x="708" y="291"/>
+      <point x="614" y="223"/>
     </contour>
     <contour>
       <point x="485" y="422" type="curve" smooth="yes"/>
-      <point x="409" y="422"/>
-      <point x="360" y="503"/>
-      <point x="360" y="626" type="curve" smooth="yes"/>
-      <point x="360" y="757"/>
-      <point x="415" y="842"/>
-      <point x="494" y="842" type="curve" smooth="yes"/>
-      <point x="527" y="842"/>
-      <point x="555" y="828"/>
-      <point x="580" y="801" type="curve" smooth="yes"/>
-      <point x="605" y="774"/>
-      <point x="635" y="718"/>
-      <point x="671" y="635" type="curve"/>
-      <point x="616" y="490"/>
       <point x="556" y="422"/>
+      <point x="616" y="490"/>
+      <point x="671" y="635" type="curve"/>
+      <point x="635" y="718"/>
+      <point x="605" y="774"/>
+      <point x="580" y="801" type="curve" smooth="yes"/>
+      <point x="555" y="828"/>
+      <point x="527" y="842"/>
+      <point x="494" y="842" type="curve" smooth="yes"/>
+      <point x="415" y="842"/>
+      <point x="360" y="757"/>
+      <point x="360" y="626" type="curve" smooth="yes"/>
+      <point x="360" y="503"/>
+      <point x="409" y="422"/>
     </contour>
   </outline>
   <lib>
@@ -83,7 +83,7 @@ Lz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIyMyIgd2lkdGg9IjE5OSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iODQyIiB3aWR0aD0iMTk4IiAv
 PgogICAgICA8dnN0ZW0gcG9zPSIxNzciIHdpZHRo

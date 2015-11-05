@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="291" y="1120" type="line" name="dh01"/>
-      <point x="555" y="1120" type="line" name="hr01"/>
+      <point x="555" y="1120" type="line"/>
       <point x="584" y="946" type="line" name="dh02"/>
       <point x="627" y="1043"/>
       <point x="805" y="1147"/>
@@ -31,7 +31,7 @@
     <contour>
       <point x="341" y="-158" type="line" name="dv02"/>
       <point x="623" y="-158" type="line"/>
-      <point x="446" y="-464" type="line"/>
+      <point x="446" y="-464" type="line" name="hr01"/>
       <point x="252" y="-464" type="line" name="dv01"/>
     </contour>
   </outline>

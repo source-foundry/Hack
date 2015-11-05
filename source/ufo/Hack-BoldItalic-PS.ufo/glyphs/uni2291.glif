@@ -4,20 +4,20 @@
   <unicode hex="2291"/>
   <outline>
     <contour>
-      <point x="88" y="384" type="line" name="hr00"/>
-      <point x="1145" y="384" type="line" name="dv03"/>
-      <point x="1145" y="619" type="line" name="dv04"/>
-      <point x="323" y="619" type="line"/>
-      <point x="323" y="1067" type="line" name="dh02"/>
-      <point x="1145" y="1067" type="line" name="dv01"/>
-      <point x="1145" y="1302" type="line" name="dv02"/>
       <point x="88" y="1302" type="line" name="dh01"/>
+      <point x="1145" y="1302" type="line" name="dv02"/>
+      <point x="1145" y="1067" type="line" name="dv01"/>
+      <point x="323" y="1067" type="line" name="dh02"/>
+      <point x="323" y="619" type="line"/>
+      <point x="1145" y="619" type="line" name="dv04"/>
+      <point x="1145" y="384" type="line" name="dv03"/>
+      <point x="88" y="384" type="line"/>
     </contour>
     <contour>
-      <point x="88" y="-20" type="line"/>
-      <point x="1145" y="-20" type="line" name="ab01"/>
-      <point x="1145" y="215" type="line"/>
       <point x="88" y="215" type="line" name="sh01"/>
+      <point x="1145" y="215" type="line"/>
+      <point x="1145" y="-20" type="line" name="ab01"/>
+      <point x="88" y="-20" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -42,7 +42,7 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yMCIgd2lkdGg9IjIzNSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMzg0IiB3aWR0aD0iMjM1IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDY3IiB3aWR0

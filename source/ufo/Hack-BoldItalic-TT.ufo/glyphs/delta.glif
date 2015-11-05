@@ -41,7 +41,7 @@
       <point x="1048" y="1553"/>
       <point x="1120" y="1536"/>
       <point x="1178" y="1521" type="qcurve"/>
-      <point x="1136" y="1306" type="line"/>
+      <point x="1136" y="1306" type="line" name="hr01"/>
       <point x="1128" y="1309"/>
       <point x="1122" y="1311"/>
       <point x="1119" y="1312"/>
@@ -150,14 +150,21 @@ Pgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaWgwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9IjIzOCIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iOTA5IiB3aWR0aD0iMjM4IiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxMzY3IiB3aWR0
-aD0iMjAyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3
-MCIgd2lkdGg9IjI5NiIgLz4KICAgICAgPHZzdGVt
-IHBvcz0iODQ1IiB3aWR0aD0iMjk2IiAvPgogICAg
-PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+PGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0iMjM4IiAv
+PgogICAgICA8aHN0ZW0gcG9zPSI5MDkiIHdpZHRo
+PSIyMzgiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijkw
+OSIgd2lkdGg9IjIzOCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTM2NyIgd2lkdGg9IjIwMiIgLz4KICAg
+ICAgPGhzdGVtIHBvcz0iMTM2NyIgd2lkdGg9IjIw
+MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzAiIHdp
+ZHRoPSIyOTYiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+IjMwNiIgd2lkdGg9IjI2OCIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iODQ1IiB3aWR0aD0iMjk2IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI4NDUiIHdpZHRoPSIy
+OTYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
+U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

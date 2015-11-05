@@ -4,23 +4,23 @@
   <unicode hex="04B0"/>
   <outline>
     <contour>
-      <point x="469" y="0" type="line" name="hr00"/>
-      <point x="764" y="0" type="line" name="ab01"/>
-      <point x="764" y="264" type="line" name="dh02"/>
-      <point x="1004" y="264" type="line" name="sv02"/>
-      <point x="1004" y="524" type="line"/>
-      <point x="764" y="524" type="line" name="sv01"/>
-      <point x="764" y="588" type="line" name="sh02"/>
-      <point x="1225" y="1493" type="line"/>
-      <point x="907" y="1493" type="line" name="at02"/>
-      <point x="616" y="893" type="line" name="ih01"/>
-      <point x="326" y="1493" type="line"/>
-      <point x="8" y="1493" type="line" name="at01"/>
-      <point x="469" y="588" type="line"/>
-      <point x="469" y="524" type="line" name="sh01"/>
-      <point x="229" y="524" type="line"/>
-      <point x="229" y="264" type="line"/>
       <point x="469" y="264" type="line" name="dh01"/>
+      <point x="229" y="264" type="line"/>
+      <point x="229" y="524" type="line"/>
+      <point x="469" y="524" type="line" name="sh01"/>
+      <point x="469" y="588" type="line"/>
+      <point x="8" y="1493" type="line" name="at01"/>
+      <point x="326" y="1493" type="line"/>
+      <point x="616" y="893" type="line" name="ih01"/>
+      <point x="907" y="1493" type="line" name="at02"/>
+      <point x="1225" y="1493" type="line"/>
+      <point x="764" y="588" type="line" name="sh02"/>
+      <point x="764" y="524" type="line" name="sv01"/>
+      <point x="1004" y="524" type="line"/>
+      <point x="1004" y="264" type="line" name="sv02"/>
+      <point x="764" y="264" type="line" name="dh02"/>
+      <point x="764" y="0" type="line" name="ab01"/>
+      <point x="469" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -54,7 +54,7 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIyNjQiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE0OTMiIHdpZHRo

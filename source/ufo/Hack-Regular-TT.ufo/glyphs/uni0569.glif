@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="106" y="1120" type="line" name="dh01"/>
-      <point x="272" y="1120" type="line" name="hr01"/>
+      <point x="272" y="1120" type="line"/>
       <point x="290" y="950" type="line" name="dh02"/>
       <point x="324" y="1008"/>
       <point x="397" y="1084"/>
@@ -71,7 +71,7 @@
       <point x="593" y="254" type="qcurve" name="dh04"/>
       <point x="593" y="224"/>
       <point x="609" y="171"/>
-      <point x="626" y="151" type="qcurve"/>
+      <point x="626" y="151" type="qcurve" name="hr01"/>
       <point x="642" y="132"/>
       <point x="692" y="107"/>
     </contour>

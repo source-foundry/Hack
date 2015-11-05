@@ -4,46 +4,46 @@
   <unicode hex="0412"/>
   <outline>
     <contour>
-      <point x="-10" y="0" type="line"/>
-      <point x="471" y="0" type="line" smooth="yes" name="ab01"/>
-      <point x="730" y="0"/>
-      <point x="875" y="39" name="sh05"/>
-      <point x="971" y="127" type="curve" smooth="yes" name="sh04"/>
-      <point x="1063" y="211" name="sh03"/>
+      <point x="280" y="1495" type="line" name="at01"/>
+      <point x="762" y="1495" type="line" smooth="yes"/>
+      <point x="1045" y="1495" name="sh03"/>
+      <point x="1188" y="1387" name="sh04"/>
+      <point x="1188" y="1163" type="curve" smooth="yes" name="sh05"/>
+      <point x="1188" y="951"/>
+      <point x="1055" y="813" name="ab01"/>
+      <point x="823" y="786" type="curve"/>
+      <point x="1003" y="770" name="dv02"/>
+      <point x="1116" y="669" name="sh02"/>
+      <point x="1116" y="477" type="curve" smooth="yes" name="sv01"/>
       <point x="1116" y="345"/>
-      <point x="1116" y="477" type="curve" smooth="yes" name="at01"/>
-      <point x="1116" y="669"/>
-      <point x="1003" y="770"/>
-      <point x="823" y="786" type="curve" name="sv01"/>
-      <point x="1055" y="813" name="sh02"/>
-      <point x="1188" y="951" name="dv02"/>
-      <point x="1188" y="1163" type="curve" smooth="yes" name="hr01"/>
-      <point x="1188" y="1387"/>
-      <point x="1045" y="1495" name="dv01"/>
-      <point x="762" y="1495" type="curve" smooth="yes" name="sh01"/>
-      <point x="280" y="1495" type="line" name="sv02"/>
+      <point x="1063" y="211"/>
+      <point x="971" y="127" type="curve" smooth="yes" name="sv02"/>
+      <point x="875" y="39" name="sh01"/>
+      <point x="730" y="0" name="dv01"/>
+      <point x="471" y="0" type="curve" smooth="yes"/>
+      <point x="-10" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="452" y="913" type="line" name="ah01"/>
-      <point x="520" y="1260" type="line" name="sh06"/>
-      <point x="717" y="1260" type="line" smooth="yes"/>
-      <point x="844" y="1260"/>
-      <point x="893" y="1219"/>
-      <point x="893" y="1119" type="curve" smooth="yes"/>
+      <point x="649" y="913" type="line" smooth="yes" name="ah01"/>
+      <point x="810" y="913" name="sh06"/>
       <point x="893" y="990"/>
-      <point x="810" y="913"/>
-      <point x="649" y="913" type="curve" smooth="yes"/>
+      <point x="893" y="1119" type="curve" smooth="yes"/>
+      <point x="893" y="1219"/>
+      <point x="844" y="1260"/>
+      <point x="717" y="1260" type="curve" smooth="yes"/>
+      <point x="520" y="1260" type="line"/>
+      <point x="452" y="913" type="line"/>
     </contour>
     <contour>
-      <point x="321" y="236" type="line"/>
-      <point x="407" y="678" type="line"/>
-      <point x="604" y="678" type="line" smooth="yes"/>
-      <point x="775" y="678"/>
-      <point x="821" y="612"/>
-      <point x="821" y="496" type="curve" smooth="yes" name="hr02"/>
-      <point x="821" y="321"/>
+      <point x="518" y="236" type="line" smooth="yes"/>
       <point x="719" y="236"/>
-      <point x="518" y="236" type="curve" smooth="yes"/>
+      <point x="821" y="321"/>
+      <point x="821" y="496" type="curve" smooth="yes"/>
+      <point x="821" y="612"/>
+      <point x="775" y="678"/>
+      <point x="604" y="678" type="curve" smooth="yes" name="hr02"/>
+      <point x="407" y="678" type="line"/>
+      <point x="321" y="236" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -106,18 +106,18 @@ PSJ5OiAyMjUiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYWgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyMzYiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjY3OCIgd2lkdGg9IjIzNSIgLz4K
 ICAgICAgPGhzdGVtIHBvcz0iMTI2MCIgd2lkdGg9
 IjIzNSIgLz4KICAgICAgPHZzdGVtIHBvcz0iODkz
-IiB3aWR0aD0iMjk1IiAvPgogICAgPC9oaW50c2V0
+IiB3aWR0aD0iMjIzIiAvPgogICAgPC9oaW50c2V0
 PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIi
 PgogICAgICA8aHN0ZW0gcG9zPSIwIiB3aWR0aD0i
 MjM2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2Nzgi
 IHdpZHRoPSIyMzUiIC8+CiAgICAgIDxoc3RlbSBw
 b3M9IjEyNjAiIHdpZHRoPSIyMzUiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjgyMSIgd2lkdGg9IjI5NSIg
+IDx2c3RlbSBwb3M9Ijg5MyIgd2lkdGg9IjI5NSIg
 Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
 aXN0Pgo=
   </data>

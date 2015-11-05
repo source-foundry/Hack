@@ -13,7 +13,7 @@
       <point x="522" y="1356" type="qcurve" name="sv01"/>
       <point x="436" y="1356"/>
       <point x="333" y="1309"/>
-      <point x="304" y="1271" type="qcurve"/>
+      <point x="304" y="1271" type="qcurve" name="hr01"/>
       <point x="275" y="1233"/>
       <point x="256" y="1143"/>
       <point x="256" y="1098" type="qcurve"/>
@@ -66,8 +66,14 @@ Pgo=
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEzNTYiIHdpZHRoPSIxNjQiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9IjU0IiB3aWR0aD0i
+MjAyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3OTAi
+IHdpZHRoPSIzODkiIC8+CiAgICA8L2hpbnRzZXQ+
+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

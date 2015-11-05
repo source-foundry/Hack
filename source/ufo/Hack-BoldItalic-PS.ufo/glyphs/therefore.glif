@@ -4,22 +4,22 @@
   <unicode hex="2234"/>
   <outline>
     <contour>
-      <point x="448" y="822" type="line"/>
-      <point x="781" y="822" type="line" name="dv02"/>
-      <point x="781" y="1187" type="line" name="sh01"/>
       <point x="448" y="1187" type="line" name="ih01"/>
+      <point x="781" y="1187" type="line" name="sh01"/>
+      <point x="781" y="822" type="line" name="dv02"/>
+      <point x="448" y="822" type="line"/>
     </contour>
     <contour>
-      <point x="147" y="105" type="line" name="hr01"/>
-      <point x="480" y="105" type="line" name="dv01"/>
-      <point x="480" y="470" type="line" name="dh02"/>
       <point x="147" y="470" type="line" name="dh01"/>
+      <point x="480" y="470" type="line" name="dh02"/>
+      <point x="480" y="105" type="line" name="dv01"/>
+      <point x="147" y="105" type="line"/>
     </contour>
     <contour>
-      <point x="757" y="105" type="line"/>
-      <point x="1090" y="105" type="line" name="sv01"/>
-      <point x="1090" y="470" type="line" name="dh04"/>
       <point x="757" y="470" type="line" name="dh03"/>
+      <point x="1090" y="470" type="line" name="dh04"/>
+      <point x="1090" y="105" type="line" name="sv01"/>
+      <point x="757" y="105" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -51,13 +51,12 @@ aW50Mj0ic3YwMSIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMyI+CiAgICAgIDxoc3RlbSBw
 b3M9IjEwNSIgd2lkdGg9IjM2NSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iODIyIiB3aWR0aD0iMzY1IiAv
-PgogICAgICA8dnN0ZW0gcG9zPSIxNDciIHdpZHRo
-PSIzMzMiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc1
-NyIgd2lkdGg9IjMzMyIgLz4KICAgIDwvaGludHNl
-dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+PgogICAgICA8dnN0ZW0gcG9zPSI0NDgiIHdpZHRo
+PSIzMzMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
+aW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

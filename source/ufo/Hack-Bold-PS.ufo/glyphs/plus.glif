@@ -4,18 +4,18 @@
   <unicode hex="002B"/>
   <outline>
     <contour>
-      <point x="498" y="92" type="line" name="hr00"/>
-      <point x="735" y="92" type="line" name="av01"/>
-      <point x="735" y="524" type="line" name="dh02"/>
-      <point x="1165" y="524" type="line" name="sv02"/>
-      <point x="1165" y="762" type="line"/>
-      <point x="735" y="762" type="line" name="sv01"/>
-      <point x="735" y="1192" type="line" name="sh02"/>
-      <point x="498" y="1192" type="line" name="av02"/>
-      <point x="498" y="762" type="line" name="sh01"/>
-      <point x="66" y="762" type="line"/>
-      <point x="66" y="524" type="line"/>
       <point x="498" y="524" type="line" name="dh01"/>
+      <point x="66" y="524" type="line"/>
+      <point x="66" y="762" type="line"/>
+      <point x="498" y="762" type="line" name="sh01"/>
+      <point x="498" y="1192" type="line" name="av02"/>
+      <point x="735" y="1192" type="line" name="sh02"/>
+      <point x="735" y="762" type="line" name="sv01"/>
+      <point x="1165" y="762" type="line"/>
+      <point x="1165" y="524" type="line" name="sv02"/>
+      <point x="735" y="524" type="line" name="dh02"/>
+      <point x="735" y="92" type="line" name="av01"/>
+      <point x="498" y="92" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,7 +43,7 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjExMyIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNTI0IiB3aWR0aD0iMjM4IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMTkyIiB3aWR0

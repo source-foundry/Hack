@@ -4,22 +4,22 @@
   <unicode hex="04A2"/>
   <outline>
     <contour>
-      <point x="1020" y="-322" type="line"/>
-      <point x="1233" y="-322" type="line" name="dv01"/>
-      <point x="1233" y="170" type="line" name="sh04"/>
-      <point x="1020" y="170" type="line"/>
-      <point x="1020" y="1493" type="line" name="sh03"/>
-      <point x="817" y="1493" type="line" name="at02"/>
-      <point x="817" y="881" type="line" name="sh02"/>
-      <point x="264" y="881" type="line"/>
-      <point x="264" y="1493" type="line" name="sh01"/>
-      <point x="61" y="1493" type="line" name="at01"/>
-      <point x="61" y="0" type="line" name="dh01"/>
-      <point x="264" y="0" type="line" name="dh02"/>
-      <point x="264" y="711" type="line"/>
-      <point x="817" y="711" type="line" name="dv02"/>
-      <point x="817" y="0" type="line" name="dh03"/>
       <point x="1020" y="0" type="line" name="dh04"/>
+      <point x="817" y="0" type="line" name="dh03"/>
+      <point x="817" y="711" type="line" name="dv02"/>
+      <point x="264" y="711" type="line"/>
+      <point x="264" y="0" type="line" name="dh02"/>
+      <point x="61" y="0" type="line" name="dh01"/>
+      <point x="61" y="1493" type="line" name="at01"/>
+      <point x="264" y="1493" type="line" name="sh01"/>
+      <point x="264" y="881" type="line"/>
+      <point x="817" y="881" type="line" name="sh02"/>
+      <point x="817" y="1493" type="line" name="at02"/>
+      <point x="1020" y="1493" type="line" name="sh03"/>
+      <point x="1020" y="170" type="line"/>
+      <point x="1233" y="170" type="line" name="sh04"/>
+      <point x="1233" y="-322" type="line" name="dv01"/>
+      <point x="1020" y="-322" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@ dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXQwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSI3MTEiIHdpZHRoPSIxNzAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE0OTMiIHdpZHRo
@@ -63,7 +63,7 @@ PSItMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjYx
 IiB3aWR0aD0iMjAzIiAvPgogICAgICA8dnN0ZW0g
 cG9zPSI4MTciIHdpZHRoPSIyMDMiIC8+CiAgICA8
 L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRh
-Zz0iZGgwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0z
+Zz0iZHYwMSI+CiAgICAgIDxoc3RlbSBwb3M9Ii0z
 MjIiIHdpZHRoPSI0OTIiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjcxMSIgd2lkdGg9IjE3MCIgLz4KICAg
 ICAgPGhzdGVtIHBvcz0iMTQ5MyIgd2lkdGg9Ii0y

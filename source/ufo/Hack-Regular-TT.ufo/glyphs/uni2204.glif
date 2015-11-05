@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="268" y="0" type="line" name="ab01"/>
-      <point x="178" y="0" type="line" name="hr04"/>
+      <point x="178" y="0" type="line"/>
       <point x="178" y="170" type="line" name="sv01"/>
       <point x="316" y="170" type="line" name="sv03"/>
       <point x="455" y="662" type="line" name="dv01"/>
@@ -15,13 +15,13 @@
       <point x="640" y="1323" type="line" name="sv04"/>
       <point x="178" y="1323" type="line" name="sv05"/>
       <point x="178" y="1493" type="line" name="at01"/>
-      <point x="688" y="1493" type="line" name="hr03"/>
+      <point x="688" y="1493" type="line"/>
       <point x="715" y="1589" type="line" name="sv06"/>
       <point x="870" y="1589" type="line" name="dh01"/>
       <point x="842" y="1493" type="line" name="at02"/>
       <point x="1053" y="1493" type="line" name="dh02"/>
       <point x="1053" y="0" type="line" name="ab02"/>
-      <point x="423" y="0" type="line" name="hr01"/>
+      <point x="423" y="0" type="line"/>
       <point x="396" y="-94" type="line" name="sv07"/>
       <point x="242" y="-94" type="line"/>
     </contour>
@@ -34,7 +34,7 @@
     <contour>
       <point x="870" y="170" type="line" name="sh02"/>
       <point x="870" y="662" type="line" name="sv10"/>
-      <point x="609" y="662" type="line"/>
+      <point x="609" y="662" type="line" name="hr04"/>
       <point x="471" y="170" type="line" name="sv02"/>
     </contour>
   </outline>
@@ -90,20 +90,20 @@ PSJzdjEwIi8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYXQwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjY2MiIgd2lkdGg9IjE3MCIgLz4K
 ICAgICAgPGhzdGVtIHBvcz0iMTMyMyIgd2lkdGg9
 IjE3MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iODcw
 IiB3aWR0aD0iMTgzIiAvPgogICAgPC9oaW50c2V0
-PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImRoMDEi
+PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImF0MDIi
 PgogICAgICA8aHN0ZW0gcG9zPSItOTQiIHdpZHRo
 PSIyNjQiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY2
 MiIgd2lkdGg9IjE3MCIgLz4KICAgICAgPGhzdGVt
 IHBvcz0iMTMyMyIgd2lkdGg9IjI2NiIgLz4KICAg
 ICAgPHZzdGVtIHBvcz0iODcwIiB3aWR0aD0iMTgz
 IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-ZXQgcG9pbnRUYWc9ImhyMDMiPgogICAgICA8aHN0
+ZXQgcG9pbnRUYWc9ImFiMDIiPgogICAgICA8aHN0
 ZW0gcG9zPSItOTQiIHdpZHRoPSIyNjQiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjY2MiIgd2lkdGg9IjE3
 MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTMyMyIg
@@ -116,7 +116,7 @@ PSI2NjIiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
 CiAgICAgIDx2c3RlbSBwb3M9Ijg3MCIgd2lkdGg9
 IjE4MyIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
-aW50c2V0IHBvaW50VGFnPSJhYjAxIj4KICAgICAg
+aW50c2V0IHBvaW50VGFnPSJocjA0Ij4KICAgICAg
 PGhzdGVtIHBvcz0iLTk0IiB3aWR0aD0iMjY0IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSI2NjIiIHdpZHRo
 PSIxNzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEz

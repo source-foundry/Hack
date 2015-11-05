@@ -34,7 +34,7 @@
       <point x="599" y="628" type="qcurve"/>
       <point x="526" y="656"/>
       <point x="412" y="704"/>
-      <point x="357" y="737" type="qcurve"/>
+      <point x="357" y="737" type="qcurve" name="hr01"/>
       <point x="302" y="770"/>
       <point x="207" y="864"/>
       <point x="178" y="937" type="qcurve"/>
@@ -73,13 +73,13 @@
       <point x="545" y="969" type="qcurve"/>
       <point x="575" y="952"/>
       <point x="634" y="926"/>
-      <point x="656" y="918" type="qcurve"/>
+      <point x="656" y="918" type="qcurve" name="hr02"/>
       <point x="716" y="895"/>
       <point x="850" y="840"/>
       <point x="909" y="805" type="qcurve"/>
       <point x="967" y="770"/>
       <point x="1069" y="670"/>
-      <point x="1098" y="595" type="qcurve"/>
+      <point x="1098" y="595" type="qcurve" name="hr03"/>
       <point x="1112" y="558"/>
       <point x="1127" y="471"/>
       <point x="1127" y="424" type="qcurve" name="dh04"/>
@@ -131,20 +131,26 @@ YW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaWgwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0yOSIgd2lkdGg9IjI0NCIgLz4KICAgICAg
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjQ3NiIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMTEyMCIgd2lkdGg9IjQwMCIg
-Lz4KICAgICAgPHZzdGVtIHBvcz0iMTA1IiB3aWR0
-aD0iMzA3IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+Lz4KICAgICAgPHZzdGVtIHBvcz0iMTUwIiB3aWR0
+aD0iMjg4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
 MjciIHdpZHRoPSIzMDAiIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iZGgw
-MyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
-dGg9IjQ3NiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
+dGg9IjI0NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
 MTEyMCIgd2lkdGg9IjQwMCIgLz4KICAgICAgPHZz
 dGVtIHBvcz0iMTA1IiB3aWR0aD0iMzA3IiAvPgog
 ICAgICA8dnN0ZW0gcG9zPSI4MjciIHdpZHRoPSIz
-MDAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
-U2V0TGlzdD4K
+MDAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxo
+c3RlbSBwb3M9Ii0yOSIgd2lkdGg9IjQ3NiIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTEyMCIgd2lkdGg9
+IjQwMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTA1
+IiB3aWR0aD0iMzA3IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI4MjciIHdpZHRoPSIzMDAiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

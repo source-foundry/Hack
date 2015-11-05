@@ -17,7 +17,7 @@
       <point x="-853" y="-329"/>
       <point x="-784" y="-336" type="qcurve" name="dv02"/>
       <point x="-705" y="-336"/>
-      <point x="-664" y="-208" type="qcurve" name="hr03"/>
+      <point x="-664" y="-208" type="qcurve"/>
       <point x="-660" y="-199"/>
       <point x="-659" y="-192" type="qcurve" name="sv01"/>
       <point x="-516" y="-192" type="line" name="sh04"/>
@@ -27,16 +27,16 @@
       <point x="-517" y="-329"/>
       <point x="-448" y="-336" type="qcurve" name="sv02"/>
       <point x="-377" y="-336"/>
-      <point x="-335" y="-227" type="qcurve" name="hr02"/>
+      <point x="-335" y="-227" type="qcurve"/>
       <point x="-328" y="-210"/>
       <point x="-323" y="-192" type="qcurve" name="sv03"/>
       <point x="-180" y="-192" type="line"/>
       <point x="-226" y="-399"/>
-      <point x="-360" y="-464" type="qcurve"/>
+      <point x="-360" y="-464" type="qcurve" name="hr04"/>
       <point x="-411" y="-489"/>
       <point x="-477" y="-489" type="qcurve" name="sv04"/>
       <point x="-584" y="-489"/>
-      <point x="-632" y="-419" type="qcurve" name="hr01"/>
+      <point x="-632" y="-419" type="qcurve"/>
       <point x="-706" y="-489"/>
     </contour>
   </outline>
@@ -77,19 +77,23 @@ NCIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii00ODkiIHdpZHRoPSIyOTciIC8+CiAgICAg
-IDx2c3RlbSBwb3M9Ii0xMDAzIiB3aWR0aD0iMTUw
+b2ludFRhZz0ic3YwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii00ODkiIHdpZHRoPSIxNTMiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9Ii0xMDAzIiB3aWR0aD0iNDg2
 IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-ZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0
-ZW0gcG9zPSItNDg5IiB3aWR0aD0iMTUzIiAvPgog
+ZXQgcG9pbnRUYWc9InNoMDMiPgogICAgICA8aHN0
+ZW0gcG9zPSItNDg5IiB3aWR0aD0iMjk3IiAvPgog
 ICAgICA8dnN0ZW0gcG9zPSItMTAwMyIgd2lkdGg9
 IjE1MCIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
-aW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAg
+aW50c2V0IHBvaW50VGFnPSJzdjAzIj4KICAgICAg
 PGhzdGVtIHBvcz0iLTQ4OSIgd2lkdGg9IjE1MyIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iLTEwMDMiIHdp
 ZHRoPSIxNTAiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
-PC9oaW50U2V0TGlzdD4K
+ICA8aGludHNldCBwb2ludFRhZz0iaHIwNCI+CiAg
+ICAgIDxoc3RlbSBwb3M9Ii00ODkiIHdpZHRoPSIx
+NTMiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ii0xMDAz
+IiB3aWR0aD0iMTUwIiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

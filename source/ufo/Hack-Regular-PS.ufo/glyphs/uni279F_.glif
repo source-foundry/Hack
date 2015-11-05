@@ -4,31 +4,31 @@
   <unicode hex="279F"/>
   <outline>
     <contour>
-      <point x="850" y="373" type="line" name="av02"/>
-      <point x="1179" y="702" type="line"/>
-      <point x="850" y="1030" type="line" name="av01"/>
-      <point x="850" y="852" type="line" name="dv02"/>
-      <point x="549" y="852" type="line"/>
-      <point x="549" y="552" type="line"/>
       <point x="850" y="552" type="line" name="dv01"/>
+      <point x="549" y="552" type="line"/>
+      <point x="549" y="852" type="line"/>
+      <point x="850" y="852" type="line" name="dv02"/>
+      <point x="850" y="1030" type="line" name="av01"/>
+      <point x="1179" y="702" type="line"/>
+      <point x="850" y="373" type="line" name="av02"/>
     </contour>
     <contour>
-      <point x="54" y="552" type="line"/>
-      <point x="99" y="552" type="line" name="sv01"/>
-      <point x="99" y="852" type="line" name="dh02"/>
       <point x="54" y="852" type="line" name="dh01"/>
+      <point x="99" y="852" type="line" name="dh02"/>
+      <point x="99" y="552" type="line" name="sv01"/>
+      <point x="54" y="552" type="line"/>
     </contour>
     <contour>
-      <point x="159" y="552" type="line"/>
-      <point x="249" y="552" type="line" name="sv02"/>
-      <point x="249" y="852" type="line" name="dh04"/>
       <point x="159" y="852" type="line" name="dh03"/>
+      <point x="249" y="852" type="line" name="dh04"/>
+      <point x="249" y="552" type="line" name="sv02"/>
+      <point x="159" y="552" type="line"/>
     </contour>
     <contour>
-      <point x="309" y="552" type="line"/>
-      <point x="489" y="552" type="line" name="sv03"/>
-      <point x="489" y="852" type="line" name="dh06"/>
       <point x="309" y="852" type="line" name="dh05"/>
+      <point x="489" y="852" type="line" name="dh06"/>
+      <point x="489" y="552" type="line" name="sv03"/>
+      <point x="309" y="552" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -64,7 +64,7 @@ cm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjM5NCIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNTUyIiB3aWR0aD0iMzAwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDMwIiB3aWR0

@@ -4,48 +4,48 @@
   <unicode hex="0128"/>
   <outline>
     <contour>
-      <point x="565" y="1588" type="line"/>
-      <point x="580" y="1667" name="dv01"/>
-      <point x="615" y="1708"/>
-      <point x="666" y="1708" type="curve" smooth="yes" name="hr01"/>
-      <point x="686" y="1708" name="dv03"/>
-      <point x="706" y="1701"/>
-      <point x="739" y="1676" type="curve" smooth="yes" name="sv02"/>
-      <point x="788" y="1639" type="line" smooth="yes" name="dv04"/>
-      <point x="839" y="1600"/>
-      <point x="878" y="1588"/>
-      <point x="925" y="1588" type="curve" smooth="yes" name="dv02"/>
-      <point x="1058" y="1588" name="sv01"/>
-      <point x="1142" y="1689"/>
-      <point x="1177" y="1854" type="curve" name="ab01"/>
-      <point x="1040" y="1854" type="line" name="sv08"/>
-      <point x="1025" y="1777" name="sv07"/>
-      <point x="989" y="1735" name="sv06"/>
-      <point x="940" y="1735" type="curve" smooth="yes" name="sv05"/>
-      <point x="915" y="1735"/>
-      <point x="891" y="1744" name="at01"/>
-      <point x="870" y="1762" type="curve"/>
-      <point x="817" y="1803" type="line" smooth="yes" name="sv04"/>
-      <point x="770" y="1839"/>
-      <point x="731" y="1854" name="sv03"/>
-      <point x="680" y="1854" type="curve" smooth="yes" name="hr05"/>
+      <point x="428" y="1588" type="line" name="sv01"/>
+      <point x="461" y="1761" name="dv02"/>
       <point x="553" y="1854"/>
-      <point x="461" y="1761"/>
-      <point x="428" y="1588" type="curve" name="hr06"/>
+      <point x="680" y="1854" type="curve" smooth="yes"/>
+      <point x="731" y="1854" name="dv04"/>
+      <point x="770" y="1839" name="sv02"/>
+      <point x="817" y="1803" type="curve" smooth="yes"/>
+      <point x="870" y="1762" type="line" name="dv03"/>
+      <point x="891" y="1744"/>
+      <point x="915" y="1735"/>
+      <point x="940" y="1735" type="curve" smooth="yes" name="dv01"/>
+      <point x="989" y="1735"/>
+      <point x="1025" y="1777" name="sv03"/>
+      <point x="1040" y="1854" type="curve"/>
+      <point x="1177" y="1854" type="line" name="sv04"/>
+      <point x="1142" y="1689"/>
+      <point x="1058" y="1588" name="at01"/>
+      <point x="925" y="1588" type="curve" smooth="yes"/>
+      <point x="878" y="1588" name="sv05"/>
+      <point x="839" y="1600" name="sv06"/>
+      <point x="788" y="1639" type="curve" smooth="yes" name="sv07"/>
+      <point x="739" y="1676" type="line" smooth="yes" name="sv08"/>
+      <point x="706" y="1701" name="ab01"/>
+      <point x="686" y="1708"/>
+      <point x="666" y="1708" type="curve" smooth="yes"/>
+      <point x="615" y="1708"/>
+      <point x="580" y="1667"/>
+      <point x="565" y="1588" type="curve"/>
     </contour>
     <contour>
-      <point x="27" y="0" type="line"/>
-      <point x="915" y="0" type="line"/>
-      <point x="967" y="260" type="line"/>
-      <point x="670" y="260" type="line"/>
-      <point x="858" y="1233" type="line"/>
-      <point x="1155" y="1233" type="line"/>
-      <point x="1206" y="1493" type="line"/>
-      <point x="317" y="1493" type="line"/>
-      <point x="266" y="1233" type="line"/>
-      <point x="563" y="1233" type="line"/>
-      <point x="375" y="260" type="line"/>
       <point x="78" y="260" type="line"/>
+      <point x="375" y="260" type="line" name="hr01"/>
+      <point x="563" y="1233" type="line"/>
+      <point x="266" y="1233" type="line"/>
+      <point x="317" y="1493" type="line" name="hr02"/>
+      <point x="1206" y="1493" type="line" name="hr03"/>
+      <point x="1155" y="1233" type="line"/>
+      <point x="858" y="1233" type="line" name="hr04"/>
+      <point x="670" y="260" type="line"/>
+      <point x="967" y="260" type="line"/>
+      <point x="915" y="0" type="line" name="hr05"/>
+      <point x="27" y="0" type="line" name="hr06"/>
     </contour>
   </outline>
   <lib>
@@ -86,18 +86,18 @@ b3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE3MDgiIHdpZHRo
 PSIxNDYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-aGludHNldCBwb2ludFRhZz0iZHYwMiI+CiAgICAg
+aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAg
 IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyNjAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjEyMzMiIHdpZHRo
 PSIyNjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1
 ODgiIHdpZHRoPSIxNDciIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iYWIw
-MSI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRo
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+MyI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRo
 PSIyNjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEy
 MzMiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjE3MDgiIHdpZHRoPSIxNDYiIC8+CiAg
 ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
-dFRhZz0ic3YwNSI+CiAgICAgIDxoc3RlbSBwb3M9
+dFRhZz0iaHIwNCI+CiAgICAgIDxoc3RlbSBwb3M9
 IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjEyMzMiIHdpZHRoPSIyNjAiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjE1ODgiIHdpZHRoPSIx

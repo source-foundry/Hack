@@ -4,14 +4,14 @@
   <unicode hex="2290"/>
   <outline>
     <contour>
-      <point x="88" y="119" type="line" name="hr00"/>
-      <point x="1145" y="119" type="line" name="dh02"/>
-      <point x="1145" y="1163" type="line" name="dv02"/>
-      <point x="88" y="1163" type="line"/>
-      <point x="88" y="993" type="line"/>
-      <point x="975" y="993" type="line" name="dv01"/>
+      <point x="88" y="289" type="line" name="hr00"/>
       <point x="975" y="289" type="line" name="dh01"/>
-      <point x="88" y="289" type="line"/>
+      <point x="975" y="993" type="line" name="dv01"/>
+      <point x="88" y="993" type="line"/>
+      <point x="88" y="1163" type="line"/>
+      <point x="1145" y="1163" type="line" name="dv02"/>
+      <point x="1145" y="119" type="line" name="dh02"/>
+      <point x="88" y="119" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -12,14 +12,14 @@
       <point x="-453" y="-24"/>
       <point x="-453" y="43" type="qcurve" name="sh01"/>
       <point x="-453" y="168" type="line" name="av01"/>
-      <point x="-162" y="168" type="line"/>
+      <point x="-162" y="168" type="line" name="hr01"/>
       <point x="-162" y="43" type="line" name="dh02"/>
       <point x="-162" y="-82"/>
       <point x="-205" y="-259"/>
       <point x="-300" y="-372"/>
       <point x="-448" y="-424"/>
       <point x="-553" y="-424" type="qcurve" name="ab01"/>
-      <point x="-674" y="-424" type="line" name="hr01"/>
+      <point x="-674" y="-424" type="line" name="hr02"/>
     </contour>
   </outline>
   <lib>
@@ -47,7 +47,7 @@ b3M9Ii00MjQiIHdpZHRoPSIyMjUiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjE2OCIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iLTQ1MyIgd2lk
 dGg9IjI5MSIgLz4KICAgIDwvaGludHNldD4KICAg
-IDxoaW50c2V0IHBvaW50VGFnPSJkaDAxIj4KICAg
+IDxoaW50c2V0IHBvaW50VGFnPSJocjAyIj4KICAg
 ICAgPGhzdGVtIHBvcz0iLTQyNCIgd2lkdGg9IjIy
 NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTY4IiB3
 aWR0aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9z

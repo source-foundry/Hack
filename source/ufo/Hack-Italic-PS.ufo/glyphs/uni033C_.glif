@@ -4,45 +4,45 @@
   <unicode hex="033C"/>
   <outline>
     <contour>
-      <point x="-937" y="-455" type="line" name="sv05"/>
-      <point x="-906" y="-355" name="sv04"/>
-      <point x="-844" y="-305" name="dh01"/>
-      <point x="-789" y="-305" type="curve" smooth="yes" name="dv01"/>
-      <point x="-741" y="-305"/>
-      <point x="-701" y="-344" name="sv03"/>
-      <point x="-701" y="-424" type="curve" smooth="yes" name="sh03"/>
-      <point x="-701" y="-435"/>
-      <point x="-702" y="-444" name="sh02"/>
-      <point x="-703" y="-455" type="curve" name="sh01"/>
-      <point x="-585" y="-455" type="line" name="dh02"/>
-      <point x="-556" y="-355" name="sv02"/>
-      <point x="-508" y="-305" name="ih01"/>
-      <point x="-439" y="-305" type="curve" smooth="yes" name="dv02"/>
-      <point x="-379" y="-305" name="sv01"/>
-      <point x="-349" y="-342"/>
-      <point x="-349" y="-417" type="curve" smooth="yes"/>
-      <point x="-349" y="-429"/>
-      <point x="-350" y="-442"/>
-      <point x="-351" y="-455" type="curve" name="hr04"/>
-      <point x="-234" y="-455" type="line"/>
-      <point x="-234" y="-452"/>
-      <point x="-234" y="-451"/>
-      <point x="-233" y="-450" type="curve"/>
-      <point x="-229" y="-422"/>
-      <point x="-227" y="-396"/>
-      <point x="-227" y="-373" type="curve" smooth="yes"/>
-      <point x="-227" y="-236"/>
-      <point x="-289" y="-168"/>
-      <point x="-413" y="-168" type="curve" smooth="yes"/>
-      <point x="-490" y="-168"/>
+      <point x="-1055" y="-455" type="line" name="sv01"/>
+      <point x="-1007" y="-258" name="dv02"/>
+      <point x="-904" y="-168" name="ih01"/>
+      <point x="-764" y="-168" type="curve" smooth="yes" name="sv02"/>
+      <point x="-687" y="-168" name="dh02"/>
+      <point x="-634" y="-195" name="sh01"/>
+      <point x="-605" y="-250" type="curve" name="sh02"/>
       <point x="-554" y="-195"/>
-      <point x="-605" y="-250" type="curve"/>
-      <point x="-634" y="-195"/>
-      <point x="-687" y="-168"/>
-      <point x="-764" y="-168" type="curve" smooth="yes"/>
-      <point x="-904" y="-168"/>
-      <point x="-1007" y="-258"/>
-      <point x="-1055" y="-455" type="curve"/>
+      <point x="-490" y="-168" name="sh03"/>
+      <point x="-413" y="-168" type="curve" smooth="yes" name="sv03"/>
+      <point x="-289" y="-168"/>
+      <point x="-227" y="-236" name="dv01"/>
+      <point x="-227" y="-373" type="curve" smooth="yes" name="dh01"/>
+      <point x="-227" y="-396" name="sv04"/>
+      <point x="-229" y="-422" name="sv05"/>
+      <point x="-233" y="-450" type="curve" name="hr03"/>
+      <point x="-234" y="-451"/>
+      <point x="-234" y="-452"/>
+      <point x="-234" y="-455" type="curve"/>
+      <point x="-351" y="-455" type="line" name="hr04"/>
+      <point x="-350" y="-442"/>
+      <point x="-349" y="-429"/>
+      <point x="-349" y="-417" type="curve" smooth="yes"/>
+      <point x="-349" y="-342"/>
+      <point x="-379" y="-305"/>
+      <point x="-439" y="-305" type="curve" smooth="yes"/>
+      <point x="-508" y="-305"/>
+      <point x="-556" y="-355"/>
+      <point x="-585" y="-455" type="curve"/>
+      <point x="-703" y="-455" type="line"/>
+      <point x="-702" y="-444"/>
+      <point x="-701" y="-435"/>
+      <point x="-701" y="-424" type="curve" smooth="yes"/>
+      <point x="-701" y="-344"/>
+      <point x="-741" y="-305"/>
+      <point x="-789" y="-305" type="curve" smooth="yes"/>
+      <point x="-844" y="-305"/>
+      <point x="-906" y="-355"/>
+      <point x="-937" y="-455" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -84,15 +84,15 @@ Lz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0zMDUiIHdpZHRoPSIxMzciIC8+CiAgICAg
 IDx2c3RlbSBwb3M9Ii03MDEiIHdpZHRoPSI0NzQi
 IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
-dCBwb2ludFRhZz0ic2gwMSI+CiAgICAgIDxoc3Rl
+dCBwb2ludFRhZz0ic3YwMyI+CiAgICAgIDxoc3Rl
 bSBwb3M9Ii00NTUiIHdpZHRoPSIyODciIC8+CiAg
 ICAgIDx2c3RlbSBwb3M9Ii03MDEiIHdpZHRoPSI0
 NzQiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
-dHNldCBwb2ludFRhZz0iZHYwMiI+CiAgICAgIDxo
+dHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxo
 c3RlbSBwb3M9Ii0zMDUiIHdpZHRoPSIxMzciIC8+
 CiAgICAgIDx2c3RlbSBwb3M9Ii0zNDkiIHdpZHRo
 PSIxMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8

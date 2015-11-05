@@ -10,10 +10,10 @@
       <point x="916" y="708" type="line"/>
     </contour>
     <contour>
-      <point x="81" y="987" type="line"/>
+      <point x="81" y="987" type="line" name="hr01"/>
       <point x="826" y="987" type="line" name="dv05"/>
       <point x="826" y="752" type="line" name="dv04"/>
-      <point x="81" y="752" type="line" name="hr01"/>
+      <point x="81" y="752" type="line"/>
     </contour>
     <contour>
       <point x="916" y="574" type="line" name="sh01"/>
@@ -22,10 +22,10 @@
       <point x="916" y="253" type="line"/>
     </contour>
     <contour>
-      <point x="81" y="532" type="line"/>
+      <point x="81" y="532" type="line" name="hr02"/>
       <point x="826" y="532" type="line" name="dv03"/>
       <point x="826" y="295" type="line" name="dv02"/>
-      <point x="81" y="295" type="line" name="hr02"/>
+      <point x="81" y="295" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -61,7 +61,7 @@ PGhzdGVtIHBvcz0iNzUyIiB3aWR0aD0iMjM1IiAv
 PgogICAgICA8dnN0ZW0gcG9zPSI5MTYiIHdpZHRo
 PSIyMzYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
 aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAg
-IDxoc3RlbSBwb3M9IjI5NSIgd2lkdGg9IjIzNyIg
+IDxoc3RlbSBwb3M9IjI1MyIgd2lkdGg9IjMyMSIg
 Lz4KICAgICAgPGhzdGVtIHBvcz0iNzA4IiB3aWR0
 aD0iMzIyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI5
 MTYiIHdpZHRoPSIyMzYiIC8+CiAgICA8L2hpbnRz

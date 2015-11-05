@@ -33,7 +33,7 @@
     </contour>
     <contour>
       <point x="1333" y="1556" type="line" name="at02"/>
-      <point x="1654" y="1556" type="line"/>
+      <point x="1654" y="1556" type="line" name="hr01"/>
       <point x="1397" y="1180" type="line" name="sv03"/>
       <point x="1200" y="1180" type="line"/>
     </contour>
@@ -96,13 +96,18 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9IjI0MCIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iOTA5IiB3aWR0aD0iMjQwIiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxMTgwIiB3aWR0
-aD0iMzc2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIz
-NjIiIHdpZHRoPSI0MzciIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+PGhzdGVtIHBvcz0iMCIgd2lkdGg9IjIxMSIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iOTA5IiB3aWR0aD0i
+MjQwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI5MDki
+IHdpZHRoPSIyNDAiIC8+CiAgICAgIDxoc3RlbSBw
+b3M9IjExODAiIHdpZHRoPSIzNzYiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjExODAiIHdpZHRoPSIzNzYi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjY2IiB3aWR0
+aD0iMjk2IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2
+NiIgd2lkdGg9IjI5NiIgLz4KICAgIDwvaGludHNl
+dD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

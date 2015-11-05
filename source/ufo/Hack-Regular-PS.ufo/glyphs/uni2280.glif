@@ -4,43 +4,43 @@
   <unicode hex="2280"/>
   <outline>
     <contour>
-      <point x="507" y="-165" type="line" name="av01"/>
-      <point x="667" y="359" type="line"/>
-      <point x="866" y="254" name="iv03"/>
-      <point x="1024" y="120"/>
-      <point x="1143" y="-45" type="curve"/>
-      <point x="1143" y="194" type="line"/>
-      <point x="1013" y="336"/>
-      <point x="871" y="446" name="iv02"/>
-      <point x="717" y="525" type="curve" name="iv01"/>
-      <point x="802" y="802" type="line"/>
-      <point x="923" y="875" name="av02"/>
-      <point x="1035" y="971"/>
-      <point x="1143" y="1088" type="curve"/>
-      <point x="1143" y="1327" type="line"/>
-      <point x="1070" y="1224"/>
-      <point x="982" y="1134"/>
-      <point x="879" y="1055" type="curve"/>
-      <point x="983" y="1397" type="line" name="iv05"/>
-      <point x="820" y="1447" type="line" name="iv04"/>
-      <point x="659" y="917" type="line"/>
-      <point x="496" y="832"/>
-      <point x="305" y="768"/>
-      <point x="86" y="724" type="curve"/>
-      <point x="86" y="558" type="line"/>
-      <point x="242" y="526"/>
+      <point x="345" y="-115" type="line" name="hr00"/>
+      <point x="511" y="431" type="line"/>
       <point x="382" y="484"/>
-      <point x="511" y="431" type="curve"/>
-      <point x="345" y="-115" type="line"/>
+      <point x="242" y="526"/>
+      <point x="86" y="558" type="curve"/>
+      <point x="86" y="724" type="line" name="av02"/>
+      <point x="305" y="768"/>
+      <point x="496" y="832" name="iv01"/>
+      <point x="659" y="917" type="curve" name="iv02"/>
+      <point x="820" y="1447" type="line"/>
+      <point x="983" y="1397" type="line"/>
+      <point x="879" y="1055" type="line"/>
+      <point x="982" y="1134"/>
+      <point x="1070" y="1224" name="iv03"/>
+      <point x="1143" y="1327" type="curve"/>
+      <point x="1143" y="1088" type="line" name="av01"/>
+      <point x="1035" y="971" name="iv04"/>
+      <point x="923" y="875" name="iv05"/>
+      <point x="802" y="802" type="curve"/>
+      <point x="717" y="525" type="line"/>
+      <point x="871" y="446"/>
+      <point x="1013" y="336"/>
+      <point x="1143" y="194" type="curve"/>
+      <point x="1143" y="-45" type="line"/>
+      <point x="1024" y="120"/>
+      <point x="866" y="254"/>
+      <point x="667" y="359" type="curve"/>
+      <point x="507" y="-165" type="line"/>
     </contour>
     <contour>
-      <point x="560" y="593" type="line"/>
-      <point x="507" y="612"/>
-      <point x="453" y="628"/>
-      <point x="396" y="641" type="curve"/>
-      <point x="464" y="656"/>
+      <point x="592" y="699" type="line"/>
       <point x="528" y="674"/>
-      <point x="592" y="699" type="curve"/>
+      <point x="464" y="656"/>
+      <point x="396" y="641" type="curve"/>
+      <point x="453" y="628"/>
+      <point x="507" y="612"/>
+      <point x="560" y="593" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -68,7 +68,7 @@ PC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xNDQiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjE0NDciIHdpZHRoPSItMjAi
 IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0

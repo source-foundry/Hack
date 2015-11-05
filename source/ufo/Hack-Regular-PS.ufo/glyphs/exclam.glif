@@ -4,38 +4,38 @@
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="558" y="486" type="line"/>
-      <point x="679" y="486" type="line"/>
-      <point x="746" y="1053" type="line" name="sh01"/>
-      <point x="746" y="1498" type="line"/>
-      <point x="481" y="1498" type="line" name="at01"/>
       <point x="481" y="1053" type="line" name="ih01"/>
+      <point x="481" y="1498" type="line" name="at01"/>
+      <point x="746" y="1498" type="line"/>
+      <point x="746" y="1053" type="line" name="sh01"/>
+      <point x="679" y="486" type="line"/>
+      <point x="558" y="486" type="line"/>
     </contour>
     <contour>
-      <point x="616" y="-60" type="curve" smooth="yes"/>
-      <point x="662" y="-60"/>
-      <point x="701" y="-44" name="dh02"/>
-      <point x="732" y="-12" type="curve" smooth="yes"/>
-      <point x="763" y="19" name="dv02"/>
-      <point x="778" y="57"/>
-      <point x="778" y="113" type="curve" smooth="yes" name="dh01"/>
-      <point x="778" y="165"/>
-      <point x="763" y="206" name="dv01"/>
-      <point x="732" y="237" type="curve" smooth="yes"/>
-      <point x="701" y="268"/>
-      <point x="662" y="284"/>
-      <point x="616" y="284" type="curve" smooth="yes"/>
-      <point x="570" y="284"/>
-      <point x="531" y="268"/>
-      <point x="500" y="237" type="curve" smooth="yes"/>
-      <point x="469" y="206"/>
-      <point x="454" y="164"/>
-      <point x="454" y="113" type="curve" smooth="yes"/>
-      <point x="454" y="61"/>
-      <point x="469" y="19"/>
-      <point x="500" y="-12" type="curve" smooth="yes"/>
-      <point x="531" y="-44"/>
+      <point x="616" y="-60" type="curve" smooth="yes" name="dv01"/>
       <point x="569" y="-60"/>
+      <point x="531" y="-44" name="dh01"/>
+      <point x="500" y="-12" type="curve" smooth="yes"/>
+      <point x="469" y="19" name="dv02"/>
+      <point x="454" y="61"/>
+      <point x="454" y="113" type="curve" smooth="yes" name="dh02"/>
+      <point x="454" y="164"/>
+      <point x="469" y="206"/>
+      <point x="500" y="237" type="curve" smooth="yes"/>
+      <point x="531" y="268"/>
+      <point x="570" y="284"/>
+      <point x="616" y="284" type="curve" smooth="yes"/>
+      <point x="662" y="284"/>
+      <point x="701" y="268"/>
+      <point x="732" y="237" type="curve" smooth="yes" name="hr01"/>
+      <point x="763" y="206"/>
+      <point x="778" y="165"/>
+      <point x="778" y="113" type="curve" smooth="yes"/>
+      <point x="778" y="57"/>
+      <point x="763" y="19"/>
+      <point x="732" y="-12" type="curve" smooth="yes"/>
+      <point x="701" y="-44"/>
+      <point x="662" y="-60"/>
     </contour>
   </outline>
   <lib>
@@ -61,11 +61,11 @@ CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii02MCIgd2lkdGg9IjM0NCIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMTQ5OCIgd2lkdGg9Ii0yMCIg
-Lz4KICAgICAgPHZzdGVtIHBvcz0iNDU0IiB3aWR0
-aD0iMzI0IiAvPgogICAgPC9oaW50c2V0PgogIDwv
+Lz4KICAgICAgPHZzdGVtIHBvcz0iNDgxIiB3aWR0
+aD0iMjY1IiAvPgogICAgPC9oaW50c2V0PgogIDwv
 aGludFNldExpc3Q+Cg==
   </data>
   </dict>

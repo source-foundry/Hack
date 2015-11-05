@@ -4,46 +4,46 @@
   <unicode hex="04C2"/>
   <outline>
     <contour>
-      <point x="737" y="1271" type="curve" smooth="yes"/>
-      <point x="922" y="1271"/>
-      <point x="1044" y="1366" name="at05"/>
-      <point x="1088" y="1558" type="curve" name="sv02"/>
-      <point x="969" y="1558" type="line" name="dh02"/>
-      <point x="930" y="1458"/>
-      <point x="864" y="1408" name="at04"/>
-      <point x="751" y="1408" type="curve" smooth="yes" name="dh01"/>
-      <point x="642" y="1408" name="sv01"/>
-      <point x="582" y="1453"/>
-      <point x="582" y="1541" type="curve" smooth="yes" name="ab03"/>
-      <point x="582" y="1558" type="line" name="iv04"/>
-      <point x="462" y="1558" type="line"/>
-      <point x="459" y="1547"/>
-      <point x="459" y="1540" name="ab02"/>
+      <point x="737" y="1271" type="curve" smooth="yes" name="sv01"/>
+      <point x="558" y="1271" name="dh01"/>
+      <point x="459" y="1360" name="at04"/>
       <point x="459" y="1517" type="curve" smooth="yes"/>
-      <point x="459" y="1360" name="iv03"/>
-      <point x="558" y="1271"/>
+      <point x="459" y="1540" name="dh02"/>
+      <point x="459" y="1547" name="sv02"/>
+      <point x="462" y="1558" type="curve" name="at05"/>
+      <point x="582" y="1558" type="line"/>
+      <point x="582" y="1541" type="line" smooth="yes"/>
+      <point x="582" y="1453"/>
+      <point x="642" y="1408" name="at01"/>
+      <point x="751" y="1408" type="curve" smooth="yes"/>
+      <point x="864" y="1408" name="ih01"/>
+      <point x="930" y="1458" name="at02"/>
+      <point x="969" y="1558" type="curve"/>
+      <point x="1088" y="1558" type="line" name="iv01"/>
+      <point x="1044" y="1366" name="at03"/>
+      <point x="922" y="1271" name="iv02"/>
     </contour>
     <contour>
-      <point x="-50" y="0" type="line"/>
-      <point x="129" y="0" type="line" name="iv02"/>
-      <point x="423" y="528" type="line" name="at03"/>
-      <point x="492" y="351" type="line" name="iv01"/>
-      <point x="424" y="0" type="line"/>
-      <point x="592" y="0" type="line" name="at02"/>
-      <point x="660" y="351" type="line" name="ih01"/>
-      <point x="799" y="528" type="line"/>
-      <point x="887" y="0" type="line" name="at01"/>
-      <point x="1066" y="0" type="line"/>
-      <point x="946" y="716" type="line"/>
-      <point x="1264" y="1120" type="line"/>
-      <point x="1065" y="1120" type="line"/>
-      <point x="726" y="688" type="line"/>
-      <point x="810" y="1120" type="line"/>
-      <point x="642" y="1120" type="line"/>
-      <point x="558" y="688" type="line"/>
-      <point x="387" y="1120" type="line"/>
+      <point x="348" y="716" type="line" name="ab01"/>
       <point x="188" y="1120" type="line"/>
-      <point x="348" y="716" type="line"/>
+      <point x="387" y="1120" type="line" name="iv03"/>
+      <point x="558" y="688" type="line"/>
+      <point x="642" y="1120" type="line" name="ab02"/>
+      <point x="810" y="1120" type="line"/>
+      <point x="726" y="688" type="line"/>
+      <point x="1065" y="1120" type="line" name="iv04"/>
+      <point x="1264" y="1120" type="line" name="ab03"/>
+      <point x="946" y="716" type="line"/>
+      <point x="1066" y="0" type="line"/>
+      <point x="887" y="0" type="line"/>
+      <point x="799" y="528" type="line"/>
+      <point x="660" y="351" type="line"/>
+      <point x="592" y="0" type="line" name="hr01"/>
+      <point x="424" y="0" type="line"/>
+      <point x="492" y="351" type="line" name="hr02"/>
+      <point x="423" y="528" type="line"/>
+      <point x="129" y="0" type="line"/>
+      <point x="-50" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -92,14 +92,14 @@ dDA0Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
 aHN0ZW0gcG9zPSIxMTIwIiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMjcxIiB3aWR0
 aD0iMTM3IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0
 NTkiIHdpZHRoPSIxMjMiIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaXYw
-NCI+CiAgICAgIDxoc3RlbSBwb3M9IjIxIiB3aWR0
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9IjIxIiB3aWR0
 aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
 MTIwIiB3aWR0aD0iLTIwIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSIxMjcxIiB3aWR0aD0iMjg3IiAvPgog

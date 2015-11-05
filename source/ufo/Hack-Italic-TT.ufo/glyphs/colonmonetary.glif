@@ -4,7 +4,7 @@
   <unicode hex="20A1"/>
   <outline>
     <contour>
-      <point x="228" y="107" type="line" name="hr01"/>
+      <point x="228" y="107" type="line"/>
       <point x="223" y="112"/>
       <point x="215" y="122"/>
       <point x="211" y="127" type="qcurve"/>
@@ -26,7 +26,7 @@
       <point x="1002" y="1485" type="qcurve"/>
       <point x="1016" y="1479" type="line"/>
       <point x="1063" y="1593" type="line" name="av02"/>
-      <point x="1185" y="1593" type="line"/>
+      <point x="1185" y="1593" type="line" name="hr01"/>
       <point x="1116" y="1426" type="line"/>
       <point x="1132" y="1415"/>
       <point x="1162" y="1391"/>
@@ -73,7 +73,7 @@
       <point x="951" y="1321" type="line"/>
       <point x="910" y="1340"/>
       <point x="864" y="1349" type="qcurve"/>
-      <point x="387" y="196" type="line"/>
+      <point x="387" y="196" type="line" name="hr02"/>
       <point x="423" y="169"/>
       <point x="468" y="154" type="qcurve"/>
     </contour>
@@ -122,13 +122,21 @@ MDEiLz4KICA8L3R0UHJvZ3JhbT4K
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii02OSIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
+b3M9Ii02OCIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0iMTY0IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxNTIwIiB3aWR0
 aD0iLTIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
 NTkzIiB3aWR0aD0iLTIwIiAvPgogICAgICA8dnN0
 ZW0gcG9zPSI3OCIgd2lkdGg9IjE3NSIgLz4KICAg
-IDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50
+VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0i
+LTY5IiB3aWR0aD0iLTIxIiAvPgogICAgICA8aHN0
+ZW0gcG9zPSItMjkiIHdpZHRoPSIxNjQiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjE1MjAiIHdpZHRoPSIt
+MjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1OTMi
+IHdpZHRoPSItMjAiIC8+CiAgICAgIDx2c3RlbSBw
+b3M9Ijc4IiB3aWR0aD0iMTc1IiAvPgogICAgPC9o
+aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

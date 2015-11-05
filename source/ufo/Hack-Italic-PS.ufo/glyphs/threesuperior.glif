@@ -4,47 +4,47 @@
   <unicode hex="00B3"/>
   <outline>
     <contour>
-      <point x="536" y="1103" type="curve" smooth="yes"/>
-      <point x="772" y="1103" name="dh02"/>
-      <point x="922" y="1217" name="iv01"/>
-      <point x="922" y="1388" type="curve" smooth="yes" name="sh02"/>
-      <point x="922" y="1488" name="dv04"/>
-      <point x="871" y="1549"/>
-      <point x="772" y="1566" type="curve"/>
-      <point x="904" y="1591" name="dv03"/>
-      <point x="983" y="1672" name="sh01"/>
-      <point x="983" y="1783" type="curve" smooth="yes" name="dv06"/>
-      <point x="983" y="1900"/>
-      <point x="895" y="1970"/>
-      <point x="728" y="1970" type="curve" smooth="yes" name="dv05"/>
-      <point x="661" y="1970" name="dh01"/>
-      <point x="580" y="1958" name="dv02"/>
-      <point x="483" y="1935" type="curve"/>
-      <point x="461" y="1820" type="line"/>
-      <point x="545" y="1851" name="dv01"/>
-      <point x="604" y="1863"/>
-      <point x="671" y="1863" type="curve" smooth="yes"/>
-      <point x="778" y="1863"/>
-      <point x="836" y="1829"/>
-      <point x="836" y="1760" type="curve" smooth="yes"/>
-      <point x="836" y="1676"/>
-      <point x="751" y="1617"/>
-      <point x="621" y="1617" type="curve" smooth="yes"/>
-      <point x="549" y="1617" type="line"/>
-      <point x="528" y="1511" type="line"/>
-      <point x="600" y="1511" type="line" smooth="yes"/>
-      <point x="716" y="1511"/>
-      <point x="774" y="1469"/>
-      <point x="774" y="1384" type="curve" smooth="yes" name="hr02"/>
-      <point x="774" y="1276"/>
-      <point x="680" y="1210"/>
-      <point x="536" y="1210" type="curve" smooth="yes"/>
-      <point x="464" y="1210"/>
-      <point x="400" y="1226"/>
-      <point x="311" y="1265" type="curve"/>
-      <point x="287" y="1144" type="line"/>
-      <point x="367" y="1117"/>
+      <point x="536" y="1103" type="curve" smooth="yes" name="dv01"/>
       <point x="452" y="1103"/>
+      <point x="367" y="1117"/>
+      <point x="287" y="1144" type="curve" name="dv02"/>
+      <point x="311" y="1265" type="line" name="dh01"/>
+      <point x="400" y="1226" name="dv05"/>
+      <point x="464" y="1210"/>
+      <point x="536" y="1210" type="curve" smooth="yes" name="hr01"/>
+      <point x="680" y="1210" name="dv06"/>
+      <point x="774" y="1276" name="sh01"/>
+      <point x="774" y="1384" type="curve" smooth="yes" name="dv03"/>
+      <point x="774" y="1469"/>
+      <point x="716" y="1511"/>
+      <point x="600" y="1511" type="curve" smooth="yes" name="dv04"/>
+      <point x="528" y="1511" type="line" name="sh02"/>
+      <point x="549" y="1617" type="line" name="iv01"/>
+      <point x="621" y="1617" type="line" smooth="yes" name="dh02"/>
+      <point x="751" y="1617"/>
+      <point x="836" y="1676"/>
+      <point x="836" y="1760" type="curve" smooth="yes"/>
+      <point x="836" y="1829"/>
+      <point x="778" y="1863"/>
+      <point x="671" y="1863" type="curve" smooth="yes"/>
+      <point x="604" y="1863"/>
+      <point x="545" y="1851"/>
+      <point x="461" y="1820" type="curve"/>
+      <point x="483" y="1935" type="line"/>
+      <point x="580" y="1958"/>
+      <point x="661" y="1970"/>
+      <point x="728" y="1970" type="curve" smooth="yes" name="hr02"/>
+      <point x="895" y="1970"/>
+      <point x="983" y="1900"/>
+      <point x="983" y="1783" type="curve" smooth="yes"/>
+      <point x="983" y="1672"/>
+      <point x="904" y="1591"/>
+      <point x="772" y="1566" type="curve"/>
+      <point x="871" y="1549"/>
+      <point x="922" y="1488"/>
+      <point x="922" y="1388" type="curve" smooth="yes"/>
+      <point x="922" y="1217"/>
+      <point x="772" y="1103"/>
     </contour>
   </outline>
   <lib>
@@ -77,7 +77,7 @@ CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwNiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjExMDMiIHdpZHRoPSIxMDciIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjE1MTEiIHdpZHRoPSIxMDYi
 IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4NjMiIHdp

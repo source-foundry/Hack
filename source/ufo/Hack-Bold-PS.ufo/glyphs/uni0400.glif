@@ -4,24 +4,24 @@
   <unicode hex="0400"/>
   <outline>
     <contour>
-      <point x="590" y="1586" type="line" name="hr00"/>
-      <point x="787" y="1586" type="line" name="iv01"/>
-      <point x="588" y="1850" type="line"/>
       <point x="304" y="1850" type="line" name="ih01"/>
+      <point x="588" y="1850" type="line"/>
+      <point x="787" y="1586" type="line" name="iv01"/>
+      <point x="590" y="1586" type="line"/>
     </contour>
     <contour>
-      <point x="158" y="0" type="line"/>
-      <point x="1088" y="0" type="line" name="ab01"/>
-      <point x="1088" y="260" type="line"/>
-      <point x="453" y="260" type="line" name="sv02"/>
-      <point x="453" y="651" type="line" name="sh01"/>
-      <point x="1028" y="651" type="line" name="dv01"/>
-      <point x="1028" y="911" type="line" name="dv02"/>
-      <point x="453" y="911" type="line"/>
-      <point x="453" y="1233" type="line" name="dh02"/>
-      <point x="1088" y="1233" type="line" name="sv01"/>
-      <point x="1088" y="1493" type="line"/>
       <point x="158" y="1493" type="line" name="dh01"/>
+      <point x="1088" y="1493" type="line"/>
+      <point x="1088" y="1233" type="line" name="sv01"/>
+      <point x="453" y="1233" type="line" name="dh02"/>
+      <point x="453" y="911" type="line"/>
+      <point x="1028" y="911" type="line" name="dv02"/>
+      <point x="1028" y="651" type="line" name="dv01"/>
+      <point x="453" y="651" type="line" name="sh01"/>
+      <point x="453" y="260" type="line" name="sv02"/>
+      <point x="1088" y="260" type="line"/>
+      <point x="1088" y="0" type="line" name="ab01"/>
+      <point x="158" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -54,7 +54,7 @@ NjAiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaWgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIyNjAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjY1MSIgd2lkdGg9IjI2MCIgLz4K
 ICAgICAgPGhzdGVtIHBvcz0iMTIzMyIgd2lkdGg9

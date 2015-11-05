@@ -5,11 +5,11 @@
   <outline>
     <contour>
       <point x="-5" y="-358" type="line" name="dv01"/>
-      <point x="-114" y="-358" type="line" name="hr02"/>
+      <point x="-114" y="-358" type="line"/>
       <point x="-70" y="-133" type="line" name="sv01"/>
       <point x="39" y="-133" type="line" name="dv02"/>
       <point x="282" y="1120" type="line" name="at01"/>
-      <point x="545" y="1120" type="line" name="hr01"/>
+      <point x="545" y="1120" type="line"/>
       <point x="541" y="952" type="line" name="ih01"/>
       <point x="673" y="1147"/>
       <point x="878" y="1147" type="qcurve" name="at02"/>
@@ -65,7 +65,7 @@
       <point x="451" y="459"/>
       <point x="451" y="427" type="qcurve" name="dh01"/>
       <point x="451" y="357"/>
-      <point x="471" y="308" type="qcurve"/>
+      <point x="471" y="308" type="qcurve" name="hr03"/>
       <point x="489" y="263"/>
       <point x="555" y="215"/>
     </contour>
@@ -115,26 +115,33 @@ Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii00MjYiIHdpZHRoPSIyOTMiIC8+CiAgICAg
+b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0zNTgiIHdpZHRoPSIyMjUiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9Ii0yOSIgd2lkdGg9IjI0NCIg
-Lz4KICAgICAgPGhzdGVtIHBvcz0iMTEyMCIgd2lk
-dGg9Ii0yMCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-NDUxIiB3aWR0aD0iNDM3IiAvPgogICAgPC9oaW50
-c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9Imhy
-MDIiPgogICAgICA8aHN0ZW0gcG9zPSItMzU4IiB3
-aWR0aD0iMjI1IiAvPgogICAgICA8aHN0ZW0gcG9z
-PSItMjkiIHdpZHRoPSIyNDQiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjkwNyIgd2lkdGg9IjI0MCIgLz4K
+Lz4KICAgICAgPGhzdGVtIHBvcz0iOTA3IiB3aWR0
+aD0iMjQwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+ODgiIHdpZHRoPSIzMDAiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0ic3Yw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii00MjYiIHdp
+ZHRoPSIyOTMiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+Ii0yOSIgd2lkdGg9IjI0NCIgLz4KICAgICAgPGhz
+dGVtIHBvcz0iMTEyMCIgd2lkdGg9Ii0yMCIgLz4K
 ICAgICAgPHZzdGVtIHBvcz0iNDUxIiB3aWR0aD0i
 NDM3IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhp
-bnRzZXQgcG9pbnRUYWc9ImR2MDEiPgogICAgICA8
-aHN0ZW0gcG9zPSItNDI2IiB3aWR0aD0iMjkzIiAv
+bnRzZXQgcG9pbnRUYWc9ImhyMDMiPgogICAgICA8
+aHN0ZW0gcG9zPSItMzU4IiB3aWR0aD0iMjI1IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSItMjkiIHdpZHRo
 PSIyNDQiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijkw
 NyIgd2lkdGg9IjI0MCIgLz4KICAgICAgPHZzdGVt
 IHBvcz0iNDUxIiB3aWR0aD0iNDM3IiAvPgogICAg
-PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+PC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRU
+YWc9ImhyMDMiPgogICAgICA8aHN0ZW0gcG9zPSIt
+NDI2IiB3aWR0aD0iMjkzIiAvPgogICAgICA8aHN0
+ZW0gcG9zPSItMjkiIHdpZHRoPSIyNDQiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjkwNyIgd2lkdGg9IjI0
+MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDUxIiB3
+aWR0aD0iNDM3IiAvPgogICAgPC9oaW50c2V0Pgog
+IDwvaGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

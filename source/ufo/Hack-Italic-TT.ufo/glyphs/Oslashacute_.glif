@@ -42,7 +42,7 @@
       <point x="480" y="-29" type="qcurve" name="dv01"/>
       <point x="399" y="-29"/>
       <point x="264" y="15"/>
-      <point x="207" y="63" type="qcurve" name="hr01"/>
+      <point x="207" y="63" type="qcurve"/>
       <point x="113" y="-70" type="line" name="av01"/>
     </contour>
     <contour>
@@ -77,7 +77,7 @@
       <point x="940" y="1063"/>
       <point x="939" y="1099"/>
       <point x="938" y="1116" type="qcurve" name="sh05"/>
-      <point x="322" y="229" type="line"/>
+      <point x="322" y="229" type="line" name="hr01"/>
       <point x="342" y="184"/>
       <point x="436" y="135"/>
     </contour>
@@ -144,7 +144,7 @@ b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii00OSIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0iMTY0IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMzU2IiB3aWR0
-aD0iMTY0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
+aD0iNTAzIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4
 MCIgd2lkdGg9IjIwNyIgLz4KICAgICAgPHZzdGVt
 IHBvcz0iOTQwIiB3aWR0aD0iMjExIiAvPgogICAg
 PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==

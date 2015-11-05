@@ -33,7 +33,7 @@
       <point x="168" y="1519"/>
       <point x="95" y="1501"/>
       <point x="59" y="1489" type="qcurve"/>
-      <point x="59" y="1641" type="line"/>
+      <point x="59" y="1641" type="line" name="hr01"/>
       <point x="128" y="1658"/>
       <point x="267" y="1676"/>
       <point x="330" y="1676" type="qcurve" name="dv04"/>
@@ -47,7 +47,7 @@
       <point x="477" y="1276" type="qcurve" name="ih01"/>
       <point x="584" y="1262"/>
       <point x="705" y="1153"/>
-      <point x="705" y="1056" type="qcurve" name="hr01"/>
+      <point x="705" y="1056" type="qcurve"/>
       <point x="705" y="935"/>
       <point x="513" y="809"/>
     </contour>
@@ -55,7 +55,7 @@
       <point x="47" y="618" type="line"/>
       <point x="1106" y="881" type="line"/>
       <point x="1143" y="762" type="line"/>
-      <point x="84" y="500" type="line"/>
+      <point x="84" y="500" type="line" name="hr02"/>
     </contour>
     <contour>
       <point x="758" y="-285" type="qcurve" name="dv01"/>
@@ -151,27 +151,40 @@ bnQyPSJkdjA2Ii8+CiAgPC90dFByb2dyYW0+Cg==
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yODUiIHdpZHRoPSIxMzgiIC8+CiAgICAg
-IDxoc3RlbSBwb3M9Ii0yODUiIHdpZHRoPSIxMzgi
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE0MyIgd2lk
-dGg9IjEzOCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-MTQzIiB3aWR0aD0iMTM4IiAvPgogICAgICA8aHN0
-ZW0gcG9zPSI0MjAiIHdpZHRoPSIxNDUiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjQyMCIgd2lkdGg9IjE0
-NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iODA5IiB3
-aWR0aD0iMTQwIiAvPgogICAgICA8aHN0ZW0gcG9z
-PSI4MDkiIHdpZHRoPSIxNDAiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjExOTgiIHdpZHRoPSIxNDYiIC8+
-CiAgICAgIDxoc3RlbSBwb3M9IjExOTgiIHdpZHRo
-PSIxNDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1
-MzQiIHdpZHRoPSIxNDIiIC8+CiAgICAgIDxoc3Rl
-bSBwb3M9IjE1MzQiIHdpZHRoPSIxNDIiIC8+CiAg
-ICAgIDx2c3RlbSBwb3M9IjIxMyIgd2lkdGg9IjQ2
-NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTI4IiB3
-aWR0aD0iMTUyIiAvPgogICAgICA8dnN0ZW0gcG9z
-PSI5NDgiIHdpZHRoPSIxOTciIC8+CiAgICAgIDx2
-c3RlbSBwb3M9Ijk0OCIgd2lkdGg9IjE5NyIgLz4K
-ICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0
-Pgo=
+IDxoc3RlbSBwb3M9IjE0MyIgd2lkdGg9IjEzOCIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iNDIwIiB3aWR0
+aD0iMTQ1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI4
+MDkiIHdpZHRoPSIxNDAiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjExOTgiIHdpZHRoPSIxNDYiIC8+CiAg
+ICAgIDxoc3RlbSBwb3M9IjE1MzQiIHdpZHRoPSIx
+NDIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ5NCIg
+d2lkdGg9IjE4NiIgLz4KICAgICAgPHZzdGVtIHBv
+cz0iOTQ4IiB3aWR0aD0iMTk3IiAvPgogICAgPC9o
+aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9
+ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSItMjg1
+IiB3aWR0aD0iMTM4IiAvPgogICAgICA8aHN0ZW0g
+cG9zPSIxNDMiIHdpZHRoPSIxMzgiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjQyMCIgd2lkdGg9IjE0NSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iODA5IiB3aWR0
+aD0iMTQwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
+MTk4IiB3aWR0aD0iMTQ2IiAvPgogICAgICA8aHN0
+ZW0gcG9zPSIxNTM0IiB3aWR0aD0iMTQyIiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI1MjgiIHdpZHRoPSIx
+NzciIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijk0OCIg
+d2lkdGg9IjE5NyIgLz4KICAgIDwvaGludHNldD4K
+ICAgIDxoaW50c2V0IHBvaW50VGFnPSJzaDAyIj4K
+ICAgICAgPGhzdGVtIHBvcz0iLTI4NSIgd2lkdGg9
+IjEzOCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTQz
+IiB3aWR0aD0iMTM4IiAvPgogICAgICA8aHN0ZW0g
+cG9zPSI0MjAiIHdpZHRoPSIxNDUiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjgwOSIgd2lkdGg9IjE0MCIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMTE5OCIgd2lk
+dGg9IjE0NiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+MTUzNCIgd2lkdGg9IjE0MiIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iMjEzIiB3aWR0aD0iNDY3IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI5NDgiIHdpZHRoPSIx
+OTciIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
+U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

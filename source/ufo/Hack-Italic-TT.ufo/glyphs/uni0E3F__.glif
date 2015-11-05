@@ -25,7 +25,7 @@
       <point x="1076" y="546"/>
       <point x="1076" y="437" type="qcurve" name="dh02"/>
       <point x="1076" y="402"/>
-      <point x="1068" y="359" type="qcurve" name="hr01"/>
+      <point x="1068" y="359" type="qcurve"/>
       <point x="1051" y="269"/>
       <point x="962" y="138"/>
       <point x="825" y="50"/>
@@ -46,7 +46,7 @@
       <point x="823" y="798"/>
       <point x="887" y="846"/>
       <point x="930" y="920"/>
-      <point x="940" y="974" type="qcurve"/>
+      <point x="940" y="974" type="qcurve" name="hr02"/>
       <point x="942" y="988"/>
       <point x="945" y="1013"/>
       <point x="945" y="1024" type="qcurve" name="ih01"/>
@@ -130,23 +130,34 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaXYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yODAiIHdpZHRoPSItMjEiIC8+CiAgICAg
-IDxoc3RlbSBwb3M9Ii0yODAiIHdpZHRoPSItMjEi
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRo
-PSIxNDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjAi
-IHdpZHRoPSIxNDYiIC8+CiAgICAgIDxoc3RlbSBw
-b3M9IjYyMiIgd2lkdGg9IjE0NSIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iNjIyIiB3aWR0aD0iMTQ1IiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxMTYxIiB3aWR0
-aD0iMTQ0IiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
-MTYxIiB3aWR0aD0iMTQ0IiAvPgogICAgICA8aHN0
-ZW0gcG9zPSIxNTU2IiB3aWR0aD0iLTIwIiAvPgog
-ICAgICA8aHN0ZW0gcG9zPSIxNTU2IiB3aWR0aD0i
-LTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4ODIi
-IHdpZHRoPSIxOTQiIC8+CiAgICAgIDx2c3RlbSBw
-b3M9Ijk0NSIgd2lkdGg9IjE5OCIgLz4KICAgIDwv
-aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxNDYiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjYyMiIgd2lkdGg9
+IjE0NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTE2
+MSIgd2lkdGg9IjE0NCIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTU1NiIgd2lkdGg9Ii0yMCIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iOTQ1IiB3aWR0aD0iMTk4
+IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
+ZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0
+ZW0gcG9zPSItMjgwIiB3aWR0aD0iLTIxIiAvPgog
+ICAgICA8aHN0ZW0gcG9zPSIwIiB3aWR0aD0iMTQ2
+IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MjIiIHdp
+ZHRoPSIxNDUiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+IjExNjEiIHdpZHRoPSIxNDQiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjE1NTYiIHdpZHRoPSItMjAiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9Ijg4MiIgd2lkdGg9
+IjE5NCIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+aW50c2V0IHBvaW50VGFnPSJzdjA0Ij4KICAgICAg
+PGhzdGVtIHBvcz0iLTI4MCIgd2lkdGg9Ii0yMSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9
+IjE0NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjIy
+IiB3aWR0aD0iMTQ1IiAvPgogICAgICA8aHN0ZW0g
+cG9zPSIxMTYxIiB3aWR0aD0iMTQ0IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxNTU2IiB3aWR0aD0iLTIw
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5NDUiIHdp
+ZHRoPSIxOTgiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+PC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

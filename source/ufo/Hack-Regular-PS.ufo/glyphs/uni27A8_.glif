@@ -4,17 +4,17 @@
   <unicode hex="27A8"/>
   <outline>
     <contour>
-      <point x="738" y="366" type="line" name="av01"/>
-      <point x="810" y="519" name="iv01"/>
-      <point x="957" y="629" name="av02"/>
-      <point x="1179" y="695" type="curve" name="dv02"/>
-      <point x="957" y="761"/>
-      <point x="810" y="871"/>
-      <point x="738" y="1024" type="curve" name="dv01"/>
-      <point x="738" y="905" type="line"/>
-      <point x="54" y="905" type="line"/>
+      <point x="738" y="485" type="line" name="dv01"/>
       <point x="54" y="485" type="line"/>
-      <point x="738" y="485" type="line"/>
+      <point x="54" y="905" type="line"/>
+      <point x="738" y="905" type="line" name="dv02"/>
+      <point x="738" y="1024" type="line" name="av02"/>
+      <point x="810" y="871" name="iv01"/>
+      <point x="957" y="761" name="av01"/>
+      <point x="1179" y="695" type="curve"/>
+      <point x="957" y="629"/>
+      <point x="810" y="519"/>
+      <point x="738" y="366" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -35,7 +35,7 @@ Pgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjM4NyIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNDg1IiB3aWR0aD0iNDIwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDI0IiB3aWR0

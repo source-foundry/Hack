@@ -23,7 +23,7 @@
       <point x="139" y="0" type="line" name="dh02"/>
       <point x="10" y="0" type="line" name="dh01"/>
       <point x="10" y="1493" type="line" name="at01"/>
-      <point x="302" y="1493" type="line"/>
+      <point x="302" y="1493" type="line" name="hr01"/>
       <point x="467" y="1493"/>
       <point x="627" y="1279"/>
       <point x="627" y="1071" type="qcurve" name="dh04"/>
@@ -166,7 +166,7 @@ dHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic3YwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9IjE1NCIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNjMxIiB3aWR0aD0iMTY2IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSI5OTMiIHdpZHRo
@@ -175,9 +175,30 @@ MjciIHdpZHRoPSIxNjYiIC8+CiAgICAgIDx2c3Rl
 bSBwb3M9IjEwIiB3aWR0aD0iMTI5IiAvPgogICAg
 ICA8dnN0ZW0gcG9zPSI0OTEiIHdpZHRoPSIxMzYi
 IC8+CiAgICAgIDx2c3RlbSBwb3M9IjY4MiIgd2lk
-dGg9IjExNCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-MTEwNCIgd2lkdGg9IjEyMSIgLz4KICAgIDwvaGlu
-dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+dGg9IjUwNCIgLz4KICAgIDwvaGludHNldD4KICAg
+IDxoaW50c2V0IHBvaW50VGFnPSJkaDA3Ij4KICAg
+ICAgPGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0iMTU0
+IiAvPgogICAgICA8aHN0ZW0gcG9zPSIwIiB3aWR0
+aD0iMTI1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
+MzEiIHdpZHRoPSIxNjYiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjYzMSIgd2lkdGg9IjE2NiIgLz4KICAg
+ICAgPGhzdGVtIHBvcz0iOTkzIiB3aWR0aD0iMTU0
+IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5OTMiIHdp
+ZHRoPSIxNTQiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+IjEzMjciIHdpZHRoPSIxNjYiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEzMjciIHdpZHRoPSIxNjYiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9IjEwIiB3aWR0aD0i
+MTI5IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMCIg
+d2lkdGg9IjEyOSIgLz4KICAgICAgPHZzdGVtIHBv
+cz0iNDkxIiB3aWR0aD0iMTM2IiAvPgogICAgICA8
+dnN0ZW0gcG9zPSI0OTEiIHdpZHRoPSIxMzYiIC8+
+CiAgICAgIDx2c3RlbSBwb3M9IjY4MiIgd2lkdGg9
+IjExNCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjgy
+IiB3aWR0aD0iMTE0IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSIxMTA0IiB3aWR0aD0iMTIxIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSIxMTA0IiB3aWR0aD0iMTIx
+IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+dExpc3Q+Cg==
   </data>
   </dict>
   </lib>

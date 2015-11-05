@@ -21,7 +21,7 @@
       <point x="904" y="1270"/>
     </contour>
     <contour>
-      <point x="294" y="694" type="line" name="hr01"/>
+      <point x="294" y="694" type="line"/>
       <point x="127" y="1120" type="line" name="at01"/>
       <point x="404" y="1120" type="line"/>
       <point x="539" y="777" type="line" name="ih01"/>
@@ -36,7 +36,7 @@
       <point x="783" y="427" type="line" name="iv03"/>
       <point x="687" y="305" type="line"/>
       <point x="628" y="0" type="line" name="ab02"/>
-      <point x="388" y="0" type="line"/>
+      <point x="388" y="0" type="line" name="hr01"/>
       <point x="447" y="305" type="line"/>
       <point x="399" y="427" type="line" name="iv04"/>
       <point x="160" y="0" type="line" name="ab03"/>
@@ -99,8 +99,8 @@ aHN0ZW0gcG9zPSIxMTIwIiB3aWR0aD0iLTIwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMjcwIiB3aWR0
 aD0iMTUxIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0
 NTYiIHdpZHRoPSIxNDQiIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iZGgw
-MiI+CiAgICAgIDxoc3RlbSBwb3M9IjIxIiB3aWR0
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaXYw
+NCI+CiAgICAgIDxoc3RlbSBwb3M9IjIxIiB3aWR0
 aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
 MTIwIiB3aWR0aD0iLTIwIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSIxMjcwIiB3aWR0aD0iMjk3IiAvPgog

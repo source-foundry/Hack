@@ -4,35 +4,35 @@
   <unicode hex="21ED"/>
   <outline>
     <contour>
-      <point x="224" y="0" type="line"/>
-      <point x="1010" y="0" type="line" name="ab01"/>
-      <point x="1010" y="280" type="line" name="sh02"/>
-      <point x="808" y="280" type="line" name="dh06"/>
-      <point x="808" y="759" type="line"/>
-      <point x="1040" y="759" type="line" name="iv02"/>
-      <point x="616" y="1162" type="line" name="av01"/>
-      <point x="194" y="759" type="line" name="iv01"/>
-      <point x="424" y="759" type="line"/>
-      <point x="424" y="280" type="line" name="sh01"/>
       <point x="224" y="280" type="line" name="dh01"/>
+      <point x="424" y="280" type="line" name="sh01"/>
+      <point x="424" y="759" type="line"/>
+      <point x="194" y="759" type="line" name="iv01"/>
+      <point x="616" y="1162" type="line" name="av01"/>
+      <point x="1040" y="759" type="line" name="iv02"/>
+      <point x="808" y="759" type="line"/>
+      <point x="808" y="280" type="line" name="dh06"/>
+      <point x="1010" y="280" type="line" name="sh02"/>
+      <point x="1010" y="0" type="line" name="ab01"/>
+      <point x="224" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="314" y="90" type="line"/>
-      <point x="314" y="190" type="line"/>
-      <point x="524" y="190" type="line" name="dh02"/>
-      <point x="524" y="858" type="line"/>
-      <point x="432" y="858" type="line" name="ih01"/>
-      <point x="582" y="1007" type="line"/>
       <point x="582" y="90" type="line" name="dh03"/>
+      <point x="582" y="1007" type="line"/>
+      <point x="432" y="858" type="line" name="ih01"/>
+      <point x="524" y="858" type="line"/>
+      <point x="524" y="190" type="line" name="dh02"/>
+      <point x="314" y="190" type="line"/>
+      <point x="314" y="90" type="line" name="hr02"/>
     </contour>
     <contour>
-      <point x="652" y="90" type="line" name="dh04"/>
-      <point x="652" y="1007" type="line" name="iv03"/>
-      <point x="802" y="858" type="line" name="ih02"/>
-      <point x="708" y="858" type="line"/>
-      <point x="708" y="200" type="line" name="dh05"/>
-      <point x="920" y="200" type="line" name="dv01"/>
       <point x="920" y="90" type="line" name="sv01"/>
+      <point x="920" y="200" type="line" name="dv01"/>
+      <point x="708" y="200" type="line" name="dh05"/>
+      <point x="708" y="858" type="line"/>
+      <point x="802" y="858" type="line" name="ih02"/>
+      <point x="652" y="1007" type="line" name="iv03"/>
+      <point x="652" y="90" type="line" name="dh04"/>
     </contour>
   </outline>
   <lib>
@@ -88,25 +88,33 @@ MDQiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwNiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMiI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSI5MCIgLz4KICAgICAgPGhz
 dGVtIHBvcz0iMjAwIiB3aWR0aD0iODAiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjExNjIiIHdpZHRoPSIt
-MjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQyNCIg
-d2lkdGg9IjEwMCIgLz4KICAgICAgPHZzdGVtIHBv
+MjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjIyNCIg
+d2lkdGg9IjMwMCIgLz4KICAgICAgPHZzdGVtIHBv
 cz0iNTgyIiB3aWR0aD0iNzAiIC8+CiAgICAgIDx2
-c3RlbSBwb3M9IjcwOCIgd2lkdGg9IjEwMCIgLz4K
+c3RlbSBwb3M9IjcwOCIgd2lkdGg9IjMwMiIgLz4K
 ICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBv
-aW50VGFnPSJkaDAxIj4KICAgICAgPGhzdGVtIHBv
+aW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBv
 cz0iMCIgd2lkdGg9IjkwIiAvPgogICAgICA8aHN0
 ZW0gcG9zPSIyMDAiIHdpZHRoPSI4MCIgLz4KICAg
 ICAgPGhzdGVtIHBvcz0iMTE2MiIgd2lkdGg9Ii0y
-MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMjI0IiB3
-aWR0aD0iMzAwIiAvPgogICAgICA8dnN0ZW0gcG9z
+MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDI0IiB3
+aWR0aD0iMTAwIiAvPgogICAgICA8dnN0ZW0gcG9z
 PSI1ODIiIHdpZHRoPSI3MCIgLz4KICAgICAgPHZz
 dGVtIHBvcz0iNzA4IiB3aWR0aD0iMTAwIiAvPgog
-ICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
-Cg==
+ICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9p
+bnRUYWc9ImRoMDQiPgogICAgICA8aHN0ZW0gcG9z
+PSIwIiB3aWR0aD0iOTAiIC8+CiAgICAgIDxoc3Rl
+bSBwb3M9IjIwMCIgd2lkdGg9IjgwIiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMTYyIiB3aWR0aD0iLTIw
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMjQiIHdp
+ZHRoPSIzMDAiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+IjU4MiIgd2lkdGg9IjcwIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI3MDgiIHdpZHRoPSIxMDAiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

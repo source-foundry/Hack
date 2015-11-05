@@ -31,7 +31,7 @@
       <point x="445" y="1097" type="qcurve" name="sh02"/>
       <point x="445" y="1015"/>
       <point x="565" y="928"/>
-      <point x="676" y="928" type="qcurve"/>
+      <point x="676" y="928" type="qcurve" name="hr01"/>
       <point x="834" y="928" type="line" name="dv04"/>
       <point x="834" y="668" type="line" name="dv03"/>
       <point x="676" y="668" type="line"/>
@@ -48,7 +48,7 @@
       <point x="944" y="258"/>
       <point x="1052" y="294"/>
       <point x="1100" y="319" type="qcurve"/>
-      <point x="1100" y="45" type="line"/>
+      <point x="1100" y="45" type="line" name="hr02"/>
       <point x="1000" y="9"/>
       <point x="781" y="-29"/>
     </contour>
@@ -85,13 +85,20 @@ YW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic2gwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9IjI1MiIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNjY4IiB3aWR0aD0iMjYwIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMjcwIiB3aWR0
 aD0iMjUwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
-MjUiIHdpZHRoPSIyODMiIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+NjAiIHdpZHRoPSIyODUiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
+dGg9IjI1MiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+NjY4IiB3aWR0aD0iMjYwIiAvPgogICAgICA8aHN0
+ZW0gcG9zPSIxMjcwIiB3aWR0aD0iMjUwIiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSIxMjUiIHdpZHRoPSIy
+ODMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
+U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

@@ -33,7 +33,7 @@
       <point x="548" y="576"/>
       <point x="621" y="545" type="qcurve"/>
       <point x="622" y="545" type="line"/>
-      <point x="653" y="531" type="line"/>
+      <point x="653" y="531" type="line" name="hr02"/>
       <point x="710" y="505"/>
       <point x="812" y="477"/>
       <point x="863" y="477" type="qcurve" name="dv02"/>
@@ -64,11 +64,15 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjI1NCIgd2lkdGg9IjIyMyIgLz4KICAgICAg
+b2ludFRhZz0iZHYwMyI+CiAgICAgIDxoc3RlbSBw
+b3M9IjM3NyIgd2lkdGg9IjIyMyIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNzUyIiB3aWR0aD0iMjM1IiAv
-PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-c3Q+Cg==
+PgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQg
+cG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
+cG9zPSIyNTQiIHdpZHRoPSIyMjMiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9Ijc1MiIgd2lkdGg9IjIzNSIg
+Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
+aXN0Pgo=
   </data>
   </dict>
   </lib>

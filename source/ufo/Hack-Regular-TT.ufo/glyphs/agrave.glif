@@ -29,7 +29,7 @@
       <point x="668" y="991"/>
       <point x="596" y="991" type="qcurve" name="dv04"/>
       <point x="501" y="991"/>
-      <point x="405" y="964" type="qcurve"/>
+      <point x="405" y="964" type="qcurve" name="hr01"/>
       <point x="308" y="937"/>
       <point x="218" y="885" type="qcurve" name="ih03"/>
       <point x="218" y="1069" type="line"/>
@@ -81,7 +81,7 @@
       <point x="877" y="563" type="line" name="dv03"/>
       <point x="644" y="563" type="line"/>
       <point x="484" y="563"/>
-      <point x="402" y="507" type="qcurve"/>
+      <point x="402" y="507" type="qcurve" name="hr02"/>
       <point x="359" y="478"/>
       <point x="320" y="393"/>
       <point x="320" y="337" type="qcurve" name="sh02"/>
@@ -147,16 +147,25 @@ MDEiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0yOSIgd2lkdGg9IjE1NCIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iNTYzIiB3aWR0aD0iMTQ0IiAv
-PgogICAgICA8aHN0ZW0gcG9zPSI5OTEiIHdpZHRo
-PSIxNTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
-NzMiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjEzNiIgd2lkdGg9IjE4NCIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iODc3IiB3aWR0aD0iMTg1
-IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-dExpc3Q+Cg==
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI1NjMiIHdpZHRoPSIxNDQiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9Ijk5MSIgd2lkdGg9
+IjE1NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTY3
+MyIgd2lkdGg9Ii0yMCIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iMTM2IiB3aWR0aD0iMTg0IiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSI4NzciIHdpZHRoPSIxODUi
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
+dCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3Rl
+bSBwb3M9Ii0yOSIgd2lkdGg9IjE1NCIgLz4KICAg
+ICAgPGhzdGVtIHBvcz0iNTYzIiB3aWR0aD0iMTQ0
+IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5OTEiIHdp
+ZHRoPSIxNTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+IjE2NzMiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2
+c3RlbSBwb3M9IjEzNiIgd2lkdGg9IjE4NCIgLz4K
+ICAgICAgPHZzdGVtIHBvcz0iODc3IiB3aWR0aD0i
+MTg1IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGlu
+dFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

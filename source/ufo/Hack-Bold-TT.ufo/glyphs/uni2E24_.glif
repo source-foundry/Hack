@@ -6,7 +6,7 @@
     <contour>
       <point x="422" y="460" type="line" name="dh01"/>
       <point x="688" y="460" type="line" name="dh02"/>
-      <point x="688" y="-80" type="line" name="hr01"/>
+      <point x="688" y="-80" type="line"/>
       <point x="930" y="-80" type="line" name="sh01"/>
       <point x="930" y="-270" type="line" name="dv01"/>
       <point x="422" y="-270" type="line"/>
@@ -30,7 +30,7 @@ ICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic2gwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yNzAiIHdpZHRoPSIxOTAiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjQ2MCIgd2lkdGg9Ii0yMCIg
 Lz4KICAgICAgPHZzdGVtIHBvcz0iNDIyIiB3aWR0

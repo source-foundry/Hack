@@ -20,7 +20,7 @@
       <point x="588" y="1243" type="qcurve" name="dv02"/>
       <point x="643" y="1243"/>
       <point x="718" y="1264"/>
-      <point x="746" y="1284" type="qcurve"/>
+      <point x="746" y="1284" type="qcurve" name="hr01"/>
       <point x="775" y="1306"/>
       <point x="801" y="1360"/>
       <point x="801" y="1389" type="qcurve" name="dh01"/>
@@ -68,7 +68,7 @@
       <point x="989" y="1380" type="qcurve" name="dh02"/>
       <point x="989" y="1317"/>
       <point x="935" y="1214"/>
-      <point x="880" y="1177" type="qcurve" name="hr01"/>
+      <point x="880" y="1177" type="qcurve"/>
       <point x="825" y="1140"/>
       <point x="669" y="1103"/>
     </contour>
@@ -122,8 +122,15 @@ b3M9IjExMDMiIHdpZHRoPSIxNDAiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjE0OTIiIHdpZHRoPSIxNDYi
 IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4MzAiIHdp
 ZHRoPSIxNDAiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-IjgwMSIgd2lkdGg9IjE4OCIgLz4KICAgIDwvaGlu
-dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+Ijg0OCIgd2lkdGg9IjE5MiIgLz4KICAgIDwvaGlu
+dHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJk
+djAzIj4KICAgICAgPGhzdGVtIHBvcz0iMTEwMyIg
+d2lkdGg9IjE0MCIgLz4KICAgICAgPGhzdGVtIHBv
+cz0iMTQ5MiIgd2lkdGg9IjE0NiIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iMTgzMCIgd2lkdGg9IjE0MCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iODAxIiB3aWR0
+aD0iMTg4IiAvPgogICAgPC9oaW50c2V0PgogIDwv
+aGludFNldExpc3Q+Cg==
   </data>
   </dict>
   </lib>

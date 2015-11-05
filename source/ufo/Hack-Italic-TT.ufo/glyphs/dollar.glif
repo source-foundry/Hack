@@ -4,7 +4,7 @@
   <unicode hex="0024"/>
   <outline>
     <contour>
-      <point x="413" y="0" type="line" name="ab01"/>
+      <point x="373" y="0" type="line" name="ab01"/>
       <point x="320" y="3"/>
       <point x="222" y="26" type="qcurve"/>
       <point x="171" y="38"/>
@@ -14,8 +14,8 @@
       <point x="147" y="212"/>
       <point x="242" y="179" type="qcurve"/>
       <point x="338" y="145"/>
-      <point x="440" y="141" type="qcurve" name="sv01"/>
-      <point x="530" y="606" type="line"/>
+      <point x="430" y="141" type="qcurve" name="sv01"/>
+      <point x="520" y="606" type="line"/>
       <point x="445" y="623"/>
       <point x="318" y="675"/>
       <point x="275" y="714" type="qcurve"/>
@@ -27,10 +27,10 @@
       <point x="328" y="1200" type="qcurve"/>
       <point x="395" y="1258"/>
       <point x="570" y="1318"/>
-      <point x="669" y="1321" type="qcurve"/>
-      <point x="717" y="1556" type="line" name="at01"/>
-      <point x="817" y="1556" type="line" name="sh02"/>
-      <point x="770" y="1321" type="line"/>
+      <point x="629" y="1321" type="qcurve"/>
+      <point x="677" y="1556" type="line" name="at01"/>
+      <point x="857" y="1556" type="line" name="sh02"/>
+      <point x="810" y="1321" type="line"/>
       <point x="815" y="1318"/>
       <point x="903" y="1306"/>
       <point x="933" y="1300" type="qcurve"/>
@@ -45,8 +45,8 @@
       <point x="909" y="1151" type="qcurve"/>
       <point x="877" y="1161"/>
       <point x="789" y="1178"/>
-      <point x="743" y="1182" type="qcurve"/>
-      <point x="662" y="756" type="line"/>
+      <point x="753" y="1182" type="qcurve"/>
+      <point x="672" y="756" type="line"/>
       <point x="837" y="721"/>
       <point x="925" y="639" type="qcurve"/>
       <point x="970" y="597"/>
@@ -57,12 +57,12 @@
       <point x="877" y="122" type="qcurve"/>
       <point x="740" y="2"/>
       <point x="524" y="2" type="qcurve" name="ab02"/>
-      <point x="514" y="2" type="line"/>
-      <point x="455" y="-301" type="line" name="av01"/>
-      <point x="354" y="-301" type="line"/>
+      <point x="554" y="2" type="line"/>
+      <point x="495" y="-301" type="line" name="av01"/>
+      <point x="314" y="-301" type="line"/>
     </contour>
     <contour>
-      <point x="643" y="1184" type="line"/>
+      <point x="633" y="1184" type="line"/>
       <point x="525" y="1177"/>
       <point x="449" y="1108" type="qcurve"/>
       <point x="373" y="1039"/>
@@ -71,10 +71,10 @@
       <point x="415" y="834" type="qcurve"/>
       <point x="435" y="816"/>
       <point x="506" y="786"/>
-      <point x="563" y="774" type="qcurve"/>
+      <point x="553" y="774" type="qcurve"/>
     </contour>
     <contour>
-      <point x="543" y="145" type="line" name="sv02"/>
+      <point x="553" y="145" type="line" name="sv02"/>
       <point x="673" y="145"/>
       <point x="752" y="218" type="qcurve"/>
       <point x="790" y="253"/>
@@ -84,7 +84,7 @@
       <point x="807" y="507"/>
       <point x="784" y="527" type="qcurve"/>
       <point x="738" y="568"/>
-      <point x="629" y="588" type="qcurve"/>
+      <point x="639" y="588" type="qcurve"/>
     </contour>
   </outline>
   <lib>
@@ -131,14 +131,18 @@ djAyIi8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYWIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0yODAiIHdpZHRoPSItMjEiIC8+CiAgICAg
+b2ludFRhZz0ic2gwMiI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0zMDEiIHdpZHRoPSI0NDYiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjIiIHdpZHRoPSIxNDMiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE1NTYiIHdpZHRo
-PSItMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE5
-NSIgd2lkdGg9IjE3OCIgLz4KICAgICAgPHZzdGVt
-IHBvcz0iODMxIiB3aWR0aD0iMTgzIiAvPgogICAg
-PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+PSItMjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1
+NTYiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjE5NSIgd2lkdGg9IjE3OCIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMTk1IiB3aWR0aD0iMTc4
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MzEiIHdp
+ZHRoPSIxODMiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+IjgzMSIgd2lkdGg9IjE4MyIgLz4KICAgIDwvaGlu
+dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

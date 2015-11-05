@@ -48,7 +48,7 @@
     <contour>
       <point x="574" y="-50" type="qcurve" name="av01"/>
       <point x="507" y="-50"/>
-      <point x="460" y="-3" type="qcurve"/>
+      <point x="460" y="-3" type="qcurve" name="hr02"/>
       <point x="413" y="44"/>
       <point x="413" y="117" type="qcurve" name="ih01"/>
       <point x="413" y="154"/>
@@ -70,7 +70,7 @@
       <point x="688" y="237" type="qcurve"/>
       <point x="698" y="227"/>
       <point x="716" y="201"/>
-      <point x="723" y="184" type="qcurve"/>
+      <point x="723" y="184" type="qcurve" name="hr03"/>
       <point x="735" y="154"/>
       <point x="735" y="118" type="qcurve" name="sh04"/>
       <point x="735" y="44"/>
@@ -121,18 +121,31 @@ L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic2gwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZGgwMyI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yOSIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0iLTIxIiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxNTIwIiB3aWR0
-aD0iLTIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
-NTIwIiB3aWR0aD0iLTIwIiAvPgogICAgICA8dnN0
-ZW0gcG9zPSI0MTMiIHdpZHRoPSIzMjIiIC8+CiAg
-ICAgIDx2c3RlbSBwb3M9IjQ0MCIgd2lkdGg9IjI2
-NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzgwIiB3
-aWR0aD0iMjg1IiAvPgogICAgICA8dnN0ZW0gcG9z
-PSI3ODAiIHdpZHRoPSIyODUiIC8+CiAgICA8L2hp
-bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+PGhzdGVtIHBvcz0iMTUyMCIgd2lkdGg9Ii0yMCIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iMjMzIiB3aWR0
+aD0iNDc0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI3
+ODAiIHdpZHRoPSIyODUiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+MiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yOSIgd2lk
+dGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+MTUyMCIgd2lkdGg9Ii0yMCIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iNDQwIiB3aWR0aD0iMjY3IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI3ODAiIHdpZHRoPSIy
+ODUiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxo
+c3RlbSBwb3M9Ii0yOSIgd2lkdGg9Ii0yMSIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iLTI5IiB3aWR0aD0i
+LTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIxNTIw
+IiB3aWR0aD0iLTIwIiAvPgogICAgICA8aHN0ZW0g
+cG9zPSIxNTIwIiB3aWR0aD0iLTIwIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSIyMzMiIHdpZHRoPSI0NzQi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ0MCIgd2lk
+dGg9IjI2NyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+NzgwIiB3aWR0aD0iMjg1IiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI3ODAiIHdpZHRoPSIyODUiIC8+CiAg
+ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

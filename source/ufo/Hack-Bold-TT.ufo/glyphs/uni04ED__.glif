@@ -29,7 +29,7 @@
       <point x="900" y="1563" type="qcurve"/>
       <point x="900" y="1377" type="line" name="dh04"/>
       <point x="900" y="1347"/>
-      <point x="870" y="1347" type="qcurve"/>
+      <point x="870" y="1347" type="qcurve" name="hr01"/>
     </contour>
     <contour>
       <point x="537" y="-29" type="qcurve" name="dv01"/>
@@ -96,8 +96,17 @@ dFByb2dyYW0+Cg==
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOSIgd2lkdGg9IjIzOCIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iNDU4IiB3aWR0aD0iMjE5IiAv
+PgogICAgICA8aHN0ZW0gcG9zPSI5MDkiIHdpZHRo
+PSIyMzgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEz
+NDciIHdpZHRoPSIyNDYiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjI2OSIgd2lkdGg9IjIzNiIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iNjY0IiB3aWR0aD0iMjM2
+IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+dExpc3Q+Cg==
   </data>
   </dict>
   </lib>

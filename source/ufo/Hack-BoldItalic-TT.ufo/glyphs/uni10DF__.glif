@@ -32,7 +32,7 @@
       <point x="879" y="858"/>
       <point x="852" y="855"/>
       <point x="821" y="852"/>
-      <point x="797" y="850" type="qcurve" name="hr02"/>
+      <point x="797" y="850" type="qcurve"/>
       <point x="785" y="849"/>
       <point x="766" y="847"/>
       <point x="740" y="845"/>
@@ -57,7 +57,7 @@
       <point x="686" y="730"/>
       <point x="695" y="694" type="qcurve"/>
       <point x="704" y="656"/>
-      <point x="704" y="617" type="qcurve" name="hr01"/>
+      <point x="704" y="617" type="qcurve"/>
       <point x="704" y="616"/>
       <point x="704" y="592"/>
       <point x="703" y="580" type="qcurve"/>
@@ -78,11 +78,11 @@
       <point x="449" y="493" type="qcurve"/>
       <point x="451" y="500"/>
       <point x="454" y="517"/>
-      <point x="454" y="531" type="qcurve"/>
+      <point x="454" y="531" type="qcurve" name="hr01"/>
       <point x="454" y="625"/>
       <point x="310" y="747"/>
       <point x="146" y="781" type="qcurve"/>
-      <point x="181" y="963" type="line"/>
+      <point x="181" y="963" type="line" name="hr02"/>
       <point x="1248" y="1103" type="line" name="av01"/>
       <point x="1038" y="20" type="line"/>
       <point x="997" y="-188"/>

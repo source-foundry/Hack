@@ -25,7 +25,7 @@
       <point x="763" y="-395"/>
       <point x="643" y="-395" type="qcurve" name="dv01"/>
       <point x="557" y="-395"/>
-      <point x="469" y="-371" type="qcurve"/>
+      <point x="469" y="-371" type="qcurve" name="hr01"/>
       <point x="469" y="-240" type="line" name="dh03"/>
       <point x="500" y="-257"/>
       <point x="579" y="-272"/>
@@ -83,8 +83,15 @@ IDwvdHRQcm9ncmFtPgo=
   </data>
   <key>com.adobe.type.autohint</key>
   <data>
-ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
-dD4K
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0zOTUiIHdpZHRoPSIxMjMiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9Ii0yOCIgd2lkdGg9IjE1NSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iOTkxIiB3aWR0
+aD0iMTU2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
+NjUiIHdpZHRoPSIxOTQiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjQ2OSIgd2lkdGg9IjQxNCIgLz4KICAg
+IDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
   </data>
   </dict>
   </lib>

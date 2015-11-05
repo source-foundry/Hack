@@ -4,35 +4,35 @@
   <unicode hex="27A0"/>
   <outline>
     <contour>
-      <point x="838" y="412" type="line" name="av02"/>
-      <point x="925" y="557" name="iv01"/>
-      <point x="1028" y="661" name="av01"/>
-      <point x="1149" y="724" type="curve" name="dv02"/>
-      <point x="1029" y="786"/>
-      <point x="925" y="890"/>
-      <point x="838" y="1035" type="curve" name="dv01"/>
-      <point x="838" y="937" type="line"/>
-      <point x="553" y="937" type="line" name="sv01"/>
-      <point x="553" y="510" type="line" name="dh02"/>
-      <point x="838" y="510" type="line" name="dh01"/>
+      <point x="838" y="510" type="line" name="dv01"/>
+      <point x="553" y="510" type="line"/>
+      <point x="553" y="937" type="line"/>
+      <point x="838" y="937" type="line" name="dv02"/>
+      <point x="838" y="1035" type="line" name="av01"/>
+      <point x="925" y="890" name="iv01"/>
+      <point x="1029" y="786" name="av02"/>
+      <point x="1149" y="724" type="curve" name="dh01"/>
+      <point x="1028" y="661" name="dh02"/>
+      <point x="925" y="557" name="sv01"/>
+      <point x="838" y="412" type="curve"/>
     </contour>
     <contour>
-      <point x="84" y="510" type="line"/>
-      <point x="126" y="510" type="line" name="sv02"/>
-      <point x="126" y="937" type="line" name="dh04"/>
       <point x="84" y="937" type="line" name="dh03"/>
+      <point x="126" y="937" type="line" name="dh04"/>
+      <point x="126" y="510" type="line" name="sv02"/>
+      <point x="84" y="510" type="line"/>
     </contour>
     <contour>
-      <point x="183" y="510" type="line"/>
-      <point x="268" y="510" type="line" name="sv03"/>
-      <point x="268" y="937" type="line" name="dh06"/>
       <point x="183" y="937" type="line" name="dh05"/>
+      <point x="268" y="937" type="line" name="dh06"/>
+      <point x="268" y="510" type="line" name="sv03"/>
+      <point x="183" y="510" type="line"/>
     </contour>
     <contour>
-      <point x="325" y="510" type="line"/>
-      <point x="496" y="510" type="line"/>
-      <point x="496" y="937" type="line"/>
       <point x="325" y="937" type="line"/>
+      <point x="496" y="937" type="line"/>
+      <point x="496" y="510" type="line"/>
+      <point x="325" y="510" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -70,7 +70,7 @@ Ii8+CiAgPC90dFByb2dyYW0+Cg==
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYXYwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjQzMyIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNTEwIiB3aWR0aD0iNDI3IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSIxMDM1IiB3aWR0

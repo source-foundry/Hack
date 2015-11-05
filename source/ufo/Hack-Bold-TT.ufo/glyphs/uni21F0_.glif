@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="825" y="374" type="line" name="dv02"/>
-      <point x="346" y="374" type="line" name="hr02"/>
+      <point x="346" y="374" type="line"/>
       <point x="346" y="173" type="line" name="sh01"/>
       <point x="66" y="173" type="line" name="sh02"/>
       <point x="66" y="959" type="line"/>
@@ -22,11 +22,11 @@
       <point x="924" y="474" type="line" name="dv03"/>
       <point x="924" y="381" type="line" name="iv01"/>
       <point x="1108" y="566" type="line"/>
-      <point x="924" y="751" type="line"/>
+      <point x="924" y="751" type="line" name="hr01"/>
       <point x="924" y="658" type="line" name="dv04"/>
       <point x="256" y="658" type="line" name="sh04"/>
       <point x="256" y="869" type="line"/>
-      <point x="156" y="869" type="line"/>
+      <point x="156" y="869" type="line" name="hr02"/>
       <point x="156" y="263" type="line" name="sh05"/>
     </contour>
   </outline>
@@ -68,7 +68,7 @@ MDEiLz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic2gwMyI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjE2NCIgd2lkdGg9Ii0yMSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iMTczIiB3aWR0aD0iMzAxIiAv
 PgogICAgICA8aHN0ZW0gcG9zPSI2NTgiIHdpZHRo

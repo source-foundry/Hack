@@ -4,32 +4,32 @@
   <unicode hex="0146"/>
   <outline>
     <contour>
+      <point x="195" y="1120" type="line" name="sh01"/>
+      <point x="361" y="1120" type="line"/>
+      <point x="379" y="952" type="line" name="sh02"/>
+      <point x="444" y="1081" name="sv02"/>
+      <point x="558" y="1147"/>
+      <point x="711" y="1147" type="curve" smooth="yes" name="sh03"/>
+      <point x="940" y="1147" name="ah02"/>
+      <point x="1051" y="999"/>
+      <point x="1051" y="694" type="curve" smooth="yes" name="sv01"/>
+      <point x="1051" y="0" type="line" name="sh04"/>
+      <point x="866" y="0" type="line" name="ab01"/>
+      <point x="866" y="694" type="line" smooth="yes"/>
+      <point x="866" y="895" name="dv02"/>
+      <point x="799" y="987" name="ih01"/>
+      <point x="648" y="987" type="curve" smooth="yes" name="dv01"/>
+      <point x="473" y="987" name="ih02"/>
+      <point x="379" y="862" name="ah01"/>
+      <point x="379" y="633" type="curve" smooth="yes" name="sh05"/>
+      <point x="379" y="0" type="line"/>
       <point x="195" y="0" type="line"/>
-      <point x="379" y="0" type="line" name="ab01"/>
-      <point x="379" y="633" type="line" smooth="yes" name="sh04"/>
-      <point x="379" y="862" name="sv01"/>
-      <point x="473" y="987"/>
-      <point x="648" y="987" type="curve" smooth="yes" name="ah02"/>
-      <point x="799" y="987" name="sh03"/>
-      <point x="866" y="895"/>
-      <point x="866" y="694" type="curve" smooth="yes" name="sv02"/>
-      <point x="866" y="0" type="line" name="sh02"/>
-      <point x="1051" y="0" type="line"/>
-      <point x="1051" y="694" type="line" smooth="yes" name="sh01"/>
-      <point x="1051" y="999" name="ih02"/>
-      <point x="940" y="1147" name="dv01"/>
-      <point x="711" y="1147" type="curve" smooth="yes" name="ih01"/>
-      <point x="558" y="1147" name="dv02"/>
-      <point x="444" y="1081" name="ah01"/>
-      <point x="379" y="952" type="curve" name="sh05"/>
-      <point x="361" y="1120" type="line" name="hr01"/>
-      <point x="195" y="1120" type="line"/>
     </contour>
     <contour>
-      <point x="456" y="-544" type="line"/>
-      <point x="602" y="-544" type="line"/>
-      <point x="789" y="-199" type="line"/>
       <point x="550" y="-199" type="line"/>
+      <point x="789" y="-199" type="line"/>
+      <point x="602" y="-544" type="line" name="hr01"/>
+      <point x="456" y="-544" type="line"/>
     </contour>
   </outline>
   <lib>

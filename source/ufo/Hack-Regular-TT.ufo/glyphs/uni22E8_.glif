@@ -14,7 +14,7 @@
       <point x="439" y="979"/>
       <point x="960" y="1254"/>
       <point x="1143" y="1457" type="qcurve" name="av01"/>
-      <point x="1143" y="1218" type="line"/>
+      <point x="1143" y="1218" type="line" name="hr01"/>
       <point x="853" y="915"/>
       <point x="448" y="835" type="qcurve" name="iv02"/>
       <point x="851" y="742"/>
@@ -31,7 +31,7 @@
       <point x="300" y="9"/>
       <point x="159" y="-50"/>
       <point x="86" y="-114" type="qcurve" name="iv03"/>
-      <point x="86" y="60" type="line"/>
+      <point x="86" y="60" type="line" name="hr04"/>
       <point x="164" y="120"/>
       <point x="309" y="175"/>
       <point x="390" y="175" type="qcurve" name="dv04"/>
@@ -83,12 +83,33 @@ PgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZHYwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii00MTYiIHdpZHRoPSItMjEiIC8+CiAgICAg
 IDxoc3RlbSBwb3M9IjkiIHdpZHRoPSIxNjYiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE0NTciIHdpZHRo
-PSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
-aW50U2V0TGlzdD4K
+PSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
+aGludHNldCBwb2ludFRhZz0iaXYwMiI+CiAgICAg
+IDxoc3RlbSBwb3M9Ii00MTYiIHdpZHRoPSItMjEi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9Ii0xMTQiIHdp
+ZHRoPSIxNjYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+IjE0NTciIHdpZHRoPSItMjAiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
+ZHYwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii00MTYi
+IHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBw
+b3M9IjkiIHdpZHRoPSIxNjYiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjE0NTciIHdpZHRoPSItMjAiIC8+
+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwNCI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii00MTYiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9Ii0xMTQiIHdpZHRoPSIxNjYi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE0NTciIHdp
+ZHRoPSItMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+ICA8aGludHNldCBwb2ludFRhZz0iZHYwNCI+CiAg
+ICAgIDxoc3RlbSBwb3M9Ii00MTYiIHdpZHRoPSIt
+MjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjkiIHdp
+ZHRoPSIxNjYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+IjE0NTciIHdpZHRoPSItMjAiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>

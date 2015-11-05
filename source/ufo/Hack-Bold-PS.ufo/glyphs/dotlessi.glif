@@ -4,26 +4,26 @@
   <unicode hex="0131"/>
   <outline>
     <contour>
-      <point x="1128" y="-12" type="line" name="ab02"/>
-      <point x="1128" y="213" type="line" name="sv03"/>
-      <point x="894" y="213" type="line" smooth="yes" name="sv02"/>
-      <point x="828" y="213"/>
-      <point x="782" y="231" name="dh02"/>
-      <point x="755" y="268" type="curve" smooth="yes"/>
-      <point x="728" y="305" name="at01"/>
-      <point x="714" y="368"/>
-      <point x="714" y="455" type="curve" smooth="yes" name="sv01"/>
-      <point x="714" y="1120" type="line" name="dh01"/>
-      <point x="184" y="1120" type="line"/>
-      <point x="184" y="895" type="line" name="ab01"/>
-      <point x="421" y="895" type="line"/>
-      <point x="421" y="455" type="line" smooth="yes"/>
-      <point x="421" y="287"/>
-      <point x="451" y="167"/>
-      <point x="512" y="96" type="curve" smooth="yes"/>
-      <point x="573" y="24"/>
+      <point x="812" y="-12" type="line" smooth="yes" name="ab01"/>
       <point x="673" y="-12"/>
-      <point x="812" y="-12" type="curve" smooth="yes"/>
+      <point x="573" y="24" name="dh01"/>
+      <point x="512" y="96" type="curve" smooth="yes" name="sv01"/>
+      <point x="451" y="167"/>
+      <point x="421" y="287" name="at01"/>
+      <point x="421" y="455" type="curve" smooth="yes"/>
+      <point x="421" y="895" type="line" name="dh02"/>
+      <point x="184" y="895" type="line"/>
+      <point x="184" y="1120" type="line" name="sv02"/>
+      <point x="714" y="1120" type="line" name="sv03"/>
+      <point x="714" y="455" type="line" smooth="yes" name="ab02"/>
+      <point x="714" y="368"/>
+      <point x="728" y="305"/>
+      <point x="755" y="268" type="curve" smooth="yes"/>
+      <point x="782" y="231"/>
+      <point x="828" y="213"/>
+      <point x="894" y="213" type="curve" smooth="yes"/>
+      <point x="1128" y="213" type="line"/>
+      <point x="1128" y="-12" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -49,7 +49,7 @@ PgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYWIwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iYWIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0xMiIgd2lkdGg9IjIyNSIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iODk1IiB3aWR0aD0iMjI1IiAv
 PgogICAgICA8dnN0ZW0gcG9zPSI0MjEiIHdpZHRo

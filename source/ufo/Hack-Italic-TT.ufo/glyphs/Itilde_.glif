@@ -11,7 +11,7 @@
       <point x="722" y="1846"/>
       <point x="788" y="1825"/>
       <point x="823" y="1799" type="qcurve"/>
-      <point x="858" y="1773" type="line" name="hr05"/>
+      <point x="858" y="1773" type="line"/>
       <point x="894" y="1746"/>
       <point x="930" y="1746" type="qcurve" name="dv04"/>
       <point x="972" y="1746"/>
@@ -24,7 +24,7 @@
       <point x="886" y="1627"/>
       <point x="829" y="1646"/>
       <point x="796" y="1670" type="qcurve"/>
-      <point x="762" y="1695" type="line" name="hr04"/>
+      <point x="762" y="1695" type="line"/>
       <point x="760" y="1696" type="line"/>
       <point x="717" y="1728"/>
       <point x="680" y="1728" type="qcurve" name="dv01"/>
@@ -35,15 +35,15 @@
       <point x="90" y="170" type="line" name="sv03"/>
       <point x="403" y="170" type="line"/>
       <point x="627" y="1323" type="line" name="sv04"/>
-      <point x="313" y="1323" type="line" name="hr02"/>
+      <point x="313" y="1323" type="line"/>
       <point x="346" y="1493" type="line" name="at01"/>
-      <point x="1176" y="1493" type="line"/>
+      <point x="1176" y="1493" type="line" name="hr03"/>
       <point x="1143" y="1323" type="line" name="sv05"/>
       <point x="829" y="1323" type="line" name="sv06"/>
       <point x="606" y="170" type="line" name="sv07"/>
       <point x="920" y="170" type="line" name="sv08"/>
       <point x="887" y="0" type="line" name="ab01"/>
-      <point x="57" y="0" type="line"/>
+      <point x="57" y="0" type="line" name="hr06"/>
     </contour>
   </outline>
   <lib>
@@ -79,33 +79,33 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iYWIwMSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0ic3YwMyI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxo
 c3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjE3MjgiIHdpZHRo
 PSIxMTgiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAg
+aGludHNldCBwb2ludFRhZz0iYXQwMSI+CiAgICAg
 IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxNzAiIC8+
 CiAgICAgIDxoc3RlbSBwb3M9IjEzMjMiIHdpZHRo
 PSIxNzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
 MjciIHdpZHRoPSIxMTkiIC8+CiAgICA8L2hpbnRz
-ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0ic3Yw
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
 MyI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRo
 PSIxNzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEz
 MjMiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjE3MjgiIHdpZHRoPSIxMTgiIC8+CiAg
 ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2lu
-dFRhZz0iaHIwNCI+CiAgICAgIDxoc3RlbSBwb3M9
+dFRhZz0ic3YwNiI+CiAgICAgIDxoc3RlbSBwb3M9
 IjAiIHdpZHRoPSIxNzAiIC8+CiAgICAgIDxoc3Rl
 bSBwb3M9IjEzMjMiIHdpZHRoPSIxNzAiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjE2MjciIHdpZHRoPSIx
 MTkiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
-dHNldCBwb2ludFRhZz0iaHIwNSI+CiAgICAgIDxo
+dHNldCBwb2ludFRhZz0iYWIwMSI+CiAgICAgIDxo
 c3RlbSBwb3M9IjAiIHdpZHRoPSIxNzAiIC8+CiAg
 ICAgIDxoc3RlbSBwb3M9IjEzMjMiIHdpZHRoPSIx
 NzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE3Mjgi
 IHdpZHRoPSIxMTgiIC8+CiAgICA8L2hpbnRzZXQ+
-CiAgICA8aGludHNldCBwb2ludFRhZz0ic3YwMSI+
+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwNiI+
 CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIx
 NzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjEzMjMi
 IHdpZHRoPSIxNzAiIC8+CiAgICAgIDxoc3RlbSBw

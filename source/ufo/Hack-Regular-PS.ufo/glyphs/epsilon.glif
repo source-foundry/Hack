@@ -4,47 +4,47 @@
   <unicode hex="03B5"/>
   <outline>
     <contour>
-      <point x="693" y="-22" type="curve" smooth="yes"/>
-      <point x="818" y="-22"/>
-      <point x="935" y="-3"/>
-      <point x="1064" y="34" type="curve" name="sv01"/>
-      <point x="1064" y="207" type="line" name="sh04"/>
-      <point x="960" y="162"/>
-      <point x="839" y="138" name="dv03"/>
-      <point x="707" y="138" type="curve" smooth="yes" name="dv04"/>
-      <point x="474" y="138"/>
-      <point x="352" y="213" name="sh03"/>
-      <point x="352" y="334" type="curve" smooth="yes" name="dv01"/>
-      <point x="352" y="454"/>
-      <point x="470" y="532"/>
-      <point x="670" y="532" type="curve" smooth="yes" name="dv02"/>
-      <point x="829" y="532" type="line" name="sh02"/>
-      <point x="829" y="676" type="line" name="iv01"/>
-      <point x="663" y="676" type="line" smooth="yes" name="sh01"/>
-      <point x="482" y="676" name="ab01"/>
-      <point x="384" y="739" name="ah01"/>
-      <point x="384" y="830" type="curve" smooth="yes" name="sh05"/>
-      <point x="384" y="922"/>
-      <point x="485" y="984"/>
-      <point x="674" y="984" type="curve" smooth="yes"/>
-      <point x="770" y="984"/>
-      <point x="883" y="968"/>
-      <point x="1023" y="932" type="curve"/>
-      <point x="1023" y="1099" type="line"/>
-      <point x="883" y="1131"/>
-      <point x="760" y="1147"/>
-      <point x="655" y="1147" type="curve" smooth="yes"/>
-      <point x="375" y="1147"/>
-      <point x="201" y="1034"/>
-      <point x="201" y="856" type="curve" smooth="yes"/>
-      <point x="201" y="728"/>
-      <point x="289" y="640"/>
-      <point x="449" y="607" type="curve"/>
+      <point x="693" y="-22" type="curve" smooth="yes" name="ab01"/>
+      <point x="361" y="-22" name="sh01"/>
+      <point x="169" y="110" name="iv01"/>
+      <point x="169" y="321" type="curve" smooth="yes" name="sh02"/>
+      <point x="169" y="480" name="dv02"/>
       <point x="277" y="575"/>
-      <point x="169" y="480"/>
-      <point x="169" y="321" type="curve" smooth="yes" name="hr02"/>
-      <point x="169" y="110"/>
-      <point x="361" y="-22"/>
+      <point x="449" y="607" type="curve"/>
+      <point x="289" y="640" name="dv01"/>
+      <point x="201" y="728" name="sh03"/>
+      <point x="201" y="856" type="curve" smooth="yes"/>
+      <point x="201" y="1034" name="dv04"/>
+      <point x="375" y="1147" name="dv03"/>
+      <point x="655" y="1147" type="curve" smooth="yes"/>
+      <point x="760" y="1147" name="sh04"/>
+      <point x="883" y="1131" name="sv01"/>
+      <point x="1023" y="1099" type="curve"/>
+      <point x="1023" y="932" type="line"/>
+      <point x="883" y="968"/>
+      <point x="770" y="984" name="ah01"/>
+      <point x="674" y="984" type="curve" smooth="yes" name="sh05"/>
+      <point x="485" y="984"/>
+      <point x="384" y="922"/>
+      <point x="384" y="830" type="curve" smooth="yes"/>
+      <point x="384" y="739"/>
+      <point x="482" y="676"/>
+      <point x="663" y="676" type="curve" smooth="yes" name="hr01"/>
+      <point x="829" y="676" type="line"/>
+      <point x="829" y="532" type="line"/>
+      <point x="670" y="532" type="line" smooth="yes"/>
+      <point x="470" y="532"/>
+      <point x="352" y="454"/>
+      <point x="352" y="334" type="curve" smooth="yes"/>
+      <point x="352" y="213"/>
+      <point x="474" y="138"/>
+      <point x="707" y="138" type="curve" smooth="yes"/>
+      <point x="839" y="138"/>
+      <point x="960" y="162"/>
+      <point x="1064" y="207" type="curve"/>
+      <point x="1064" y="34" type="line" name="hr02"/>
+      <point x="935" y="-3"/>
+      <point x="818" y="-22"/>
     </contour>
   </outline>
   <lib>
@@ -101,7 +101,7 @@ Lz4KICA8L3R0UHJvZ3JhbT4K
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic2gwNSI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9Ii0yMiIgd2lkdGg9IjE2MCIgLz4KICAgICAg
 PGhzdGVtIHBvcz0iNTMyIiB3aWR0aD0iMTQ0IiAv
 PgogICAgICA8aHN0ZW0gcG9zPSI5ODQiIHdpZHRo

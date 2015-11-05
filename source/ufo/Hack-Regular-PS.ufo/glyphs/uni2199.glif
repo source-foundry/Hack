@@ -4,16 +4,16 @@
   <unicode hex="2199"/>
   <outline>
     <contour>
-      <point x="242" y="0" type="line"/>
-      <point x="654" y="0" type="line" name="sh01"/>
-      <point x="654" y="127" type="line"/>
-      <point x="427" y="127" type="line" name="ih01"/>
-      <point x="1049" y="749" type="line"/>
-      <point x="933" y="865" type="line" name="av01"/>
-      <point x="311" y="243" type="line" name="dh02"/>
-      <point x="311" y="470" type="line"/>
-      <point x="184" y="470" type="line" name="sv01"/>
       <point x="184" y="58" type="line" name="dh01"/>
+      <point x="184" y="470" type="line" name="sv01"/>
+      <point x="311" y="470" type="line"/>
+      <point x="311" y="243" type="line" name="dh02"/>
+      <point x="933" y="865" type="line" name="av01"/>
+      <point x="1049" y="749" type="line"/>
+      <point x="427" y="127" type="line" name="ih01"/>
+      <point x="654" y="127" type="line"/>
+      <point x="654" y="0" type="line" name="sh01"/>
+      <point x="242" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,7 +43,7 @@ cmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iZGgwMiI+CiAgICAgIDxoc3RlbSBw
+b2ludFRhZz0iaWgwMSI+CiAgICAgIDxoc3RlbSBw
 b3M9IjAiIHdpZHRoPSIxMjciIC8+CiAgICAgIDxo
 c3RlbSBwb3M9Ijg2NSIgd2lkdGg9Ii0yMCIgLz4K
 ICAgICAgPHZzdGVtIHBvcz0iMTg0IiB3aWR0aD0i

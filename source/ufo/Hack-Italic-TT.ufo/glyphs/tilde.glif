@@ -6,10 +6,10 @@
     <contour>
       <point x="890" y="1307" type="qcurve" name="av01"/>
       <point x="847" y="1307"/>
-      <point x="814" y="1322" type="qcurve" name="hr01"/>
+      <point x="814" y="1322" type="qcurve"/>
       <point x="799" y="1329"/>
       <point x="762" y="1354"/>
-      <point x="741" y="1376" type="qcurve"/>
+      <point x="741" y="1376" type="qcurve" name="hr01"/>
       <point x="694" y="1425" type="line"/>
       <point x="689" y="1430"/>
       <point x="668" y="1448"/>
@@ -69,8 +69,10 @@ ICA8L3R0UHJvZ3JhbT4K
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
 b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEzMjgiIHdpZHRoPSItMjEiIC8+CiAgICA8
-L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+b3M9IjEzMjgiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjEzMDkiIHdpZHRoPSIyODIi
+IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
+TGlzdD4K
   </data>
   </dict>
   </lib>

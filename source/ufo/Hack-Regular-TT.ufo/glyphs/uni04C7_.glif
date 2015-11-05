@@ -12,7 +12,7 @@
       <point x="893" y="7"/>
       <point x="893" y="104" type="qcurve" name="sh01"/>
       <point x="893" y="711" type="line" name="dv03"/>
-      <point x="340" y="711" type="line"/>
+      <point x="340" y="711" type="line" name="hr01"/>
       <point x="340" y="0" type="line" name="dh02"/>
       <point x="137" y="0" type="line" name="dh01"/>
       <point x="137" y="1493" type="line" name="at01"/>
@@ -27,7 +27,7 @@
       <point x="940" y="-351"/>
       <point x="776" y="-410"/>
       <point x="662" y="-410" type="qcurve" name="dv01"/>
-      <point x="586" y="-410" type="line" name="hr01"/>
+      <point x="586" y="-410" type="line" name="hr02"/>
     </contour>
   </outline>
   <lib>
@@ -71,7 +71,7 @@ OTMiIHdpZHRoPSItMjAiIC8+CiAgICAgIDx2c3Rl
 bSBwb3M9IjEzNyIgd2lkdGg9IjIwMyIgLz4KICAg
 ICAgPHZzdGVtIHBvcz0iODkzIiB3aWR0aD0iMjAz
 IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-ZXQgcG9pbnRUYWc9ImRoMDMiPgogICAgICA8aHN0
+ZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0
 ZW0gcG9zPSItNDEwIiB3aWR0aD0iMTcwIiAvPgog
 ICAgICA8aHN0ZW0gcG9zPSIyMSIgd2lkdGg9Ii0y
 MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzExIiB3

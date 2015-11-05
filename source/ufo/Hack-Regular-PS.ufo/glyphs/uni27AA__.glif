@@ -4,24 +4,24 @@
   <unicode hex="27AA"/>
   <outline>
     <contour>
-      <point x="607" y="303" type="line"/>
-      <point x="785" y="303" type="line" name="dv01"/>
-      <point x="1132" y="650" type="line"/>
-      <point x="785" y="997" type="line" name="sv01"/>
-      <point x="607" y="997" type="line"/>
-      <point x="607" y="828" type="line" name="sh02"/>
-      <point x="101" y="828" type="line"/>
-      <point x="101" y="472" type="line" name="sh01"/>
       <point x="607" y="472" type="line" name="ah01"/>
+      <point x="101" y="472" type="line" name="sh01"/>
+      <point x="101" y="828" type="line"/>
+      <point x="607" y="828" type="line" name="sh02"/>
+      <point x="607" y="997" type="line"/>
+      <point x="785" y="997" type="line" name="sv01"/>
+      <point x="1132" y="650" type="line"/>
+      <point x="785" y="303" type="line" name="dv01"/>
+      <point x="607" y="303" type="line"/>
     </contour>
     <contour>
-      <point x="770" y="360" type="line"/>
-      <point x="770" y="529" type="line" name="sh03"/>
-      <point x="265" y="529" type="line" name="sh05"/>
-      <point x="265" y="771" type="line"/>
-      <point x="770" y="771" type="line" name="dv02"/>
-      <point x="770" y="940" type="line" name="sh04"/>
       <point x="1060" y="650" type="line"/>
+      <point x="770" y="940" type="line" name="sh04"/>
+      <point x="770" y="771" type="line" name="dv02"/>
+      <point x="265" y="771" type="line" name="hr02"/>
+      <point x="265" y="529" type="line" name="sh05"/>
+      <point x="770" y="529" type="line" name="sh03"/>
+      <point x="770" y="360" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -56,20 +56,26 @@ IDE3MCIvPgogIDwvdHRQcm9ncmFtPgo=
   <key>com.adobe.type.autohint</key>
   <data>
 ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0ic2gwMiI+CiAgICAgIDxoc3RlbSBw
-b3M9IjQ3MiIgd2lkdGg9IjU3IiAvPgogICAgICA8
-aHN0ZW0gcG9zPSI3NzEiIHdpZHRoPSI1NyIgLz4K
-ICAgICAgPHZzdGVtIHBvcz0iMTAxIiB3aWR0aD0i
-MTY0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2MDci
-IHdpZHRoPSIxNjMiIC8+CiAgICA8L2hpbnRzZXQ+
-CiAgICA8aGludHNldCBwb2ludFRhZz0ic2gwMSI+
-CiAgICAgIDxoc3RlbSBwb3M9IjMwMyIgd2lkdGg9
-IjIyNiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzcx
-IiB3aWR0aD0iNTciIC8+CiAgICAgIDx2c3RlbSBw
-b3M9IjEwMSIgd2lkdGg9IjE2NCIgLz4KICAgICAg
-PHZzdGVtIHBvcz0iNjA3IiB3aWR0aD0iMTYzIiAv
-PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-c3Q+Cg==
+b2ludFRhZz0ic2gwNCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjMwMyIgd2lkdGg9IjIyNiIgLz4KICAgICAg
+PGhzdGVtIHBvcz0iNzcxIiB3aWR0aD0iMjI2IiAv
+PgogICAgICA8dnN0ZW0gcG9zPSIxMDEiIHdpZHRo
+PSIxNjQiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjYw
+NyIgd2lkdGg9IjE2MyIgLz4KICAgIDwvaGludHNl
+dD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAy
+Ij4KICAgICAgPGhzdGVtIHBvcz0iNDcyIiB3aWR0
+aD0iNTciIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijc3
+MSIgd2lkdGg9IjU3IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSIxMDEiIHdpZHRoPSIxNjQiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjYwNyIgd2lkdGg9IjE2MyIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJzaDAzIj4KICAgICAgPGhzdGVt
+IHBvcz0iMzAzIiB3aWR0aD0iMjI2IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSI3NzEiIHdpZHRoPSI1NyIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iMTAxIiB3aWR0
+aD0iMTY0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2
+MDciIHdpZHRoPSIxNjMiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
   </data>
   </dict>
   </lib>
