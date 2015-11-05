@@ -57,14 +57,14 @@ Click the image for the full type specimen.
 
 The .otf or .ttf files may be used on OS X platforms.
 
-- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-otf.zip)
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-ttf.zip)
+- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-otf.zip)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip)
 
 #### Recommended Binaries for Linux and Windows Users
 
 The .ttf files are recommended for screen use on Linux and Windows platforms.
 
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-ttf.zip)
+- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip)
 
 
 ### Webfont Usage
@@ -108,7 +108,7 @@ The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatte
 
 Download the entire web font archive at this link:
 
-- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.017/Hack-v2_017-webfonts.zip)
+- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-webfonts.zip)
 
 Or select the fonts that you need in subdirectories of the build directory:
 
