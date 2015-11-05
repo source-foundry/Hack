@@ -1,3 +1,13 @@
+# Version 2.018 (release build)
+
+ttf, otf, webfont builds
+
+Patch for missing glyphs in regular set:
+
+- added U+016C (upper case U breve), regular set - Issue #21
+- added U+016D (lower case u breve), regular set - Issue #21
+
+
 # Version 2.017 (release build)
 
 ttf, otf, webfont builds
