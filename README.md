@@ -69,20 +69,20 @@ On Windows the [TTF][ttf_latest] format files are recommended. Download the zip,
 
 #### Linux / BSD
 
-Most Linux and BSD systems can handle either [OTF][otf_latest] or [TTF][ttf_latest] format fonts. If your distro's package manager has packages for Hack that is the preferred method:
+Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. If your distro's package manager has packages for Hack that is the preferred method:
 
-* Arch Linux: install either [otf-hack](https://aur.archlinux.org/packages/otf-hack) or [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) from the AUR either manually or using an AUR helper:
+* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using an AUR helper:
 
-        $ yaourt -S otf-hack
+        $ yaourt -S ttf-hack
 
 * Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/):
 
         $ dnf copr enable heliocastro/hack-fonts
         $ dnf install hack-fonts
 
-* Ubuntu: install either [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf) or [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) for xenial or later:
+* Ubuntu: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf) for xenial or later:
 
-        $ apt-get install fonts-hack-otf
+        $ apt-get install fonts-hack-ttf
 
    For older systems either manually download one of those packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
 
