@@ -71,7 +71,7 @@ On Windows the [TTF][ttf_latest] format files are recommended. Download the zip,
 
 Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. If your distro's package manager has packages for Hack that is the preferred method:
 
-* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using an AUR helper:
+* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using the AUR helper of your choice:
 
         $ yaourt -S ttf-hack
 
@@ -86,13 +86,14 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
         $ yum install yum-plugin-copr
         $ yum copr enable heliocastro/hack-fonts
 
-* Ubuntu: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf) for xenial or later:
+* Ubuntu / Debian: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf). Packages are currently available for Ubuntu Xenial or later and the Debian unstable branch:
 
         $ apt-get install fonts-hack-ttf
 
-   For older systems either manually download one of those packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
+   For older systems either manually download and install one of those deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
 
-For other systems, check for packages using your distro's package manager or download your preferred format and copy the font files to either your system font folder (often /usr/share/fonts/) or user font folder (often ~/.local/share/fonts/).
+For other systems, check for packages using your distro's package manager. If no packages exist download your preferred format and copy the font files to either your system font folder (often /usr/share/fonts/) or user font folder (often ~/.local/share/fonts/). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <instalation_path>; mkfontdir <instalation_path>`).
+
 
 ### Webfont Usage
 
