@@ -75,10 +75,16 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ yaourt -S ttf-hack
 
-* Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/):
+* Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
 
+        $ dnf install dnf-plugins-core
         $ dnf copr enable heliocastro/hack-fonts
         $ dnf install hack-fonts
+
+  For Fedora <= 22 and CentOS <= 7:
+
+        $ yum install yum-plugin-copr
+        $ yum copr enable heliocastro/hack-fonts
 
 * Ubuntu: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf) for xenial or later:
 
