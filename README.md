@@ -17,7 +17,7 @@
 - [About](https://github.com/chrissimpkins/Hack#about)
 - [Typeface Data](https://github.com/chrissimpkins/Hack#data)
 - [Type Specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
-- [Desktop Usage](https://github.com/chrissimpkins/Hack#desktop-usage)
+- [Desktop Installation](https://github.com/chrissimpkins/Hack#desktop-installation)
 - [Web Font Usage](https://github.com/chrissimpkins/Hack#webfont-usage)
 	- [Hack by CDN](https://github.com/chrissimpkins/Hack#hack-by-cdn)
 	- [Self-Hosted Font Files](https://github.com/chrissimpkins/Hack#host-hack-font-files-on-your-server)
@@ -51,20 +51,48 @@ The font binaries are released under a license that permits unlimited print, des
 Click the image for the full type specimen.
 
 
-### Desktop Usage
+### Desktop Installation
 
-#### Recommended Binaries for OS X Users
+Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. Which is best for your system and how best to install these files depends on your operating system. Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility if possible.
 
-The .otf or .ttf files may be used on OS X platforms.
+#### OS X
 
-- [Download .otf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-otf.zip)
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip)
+The easiest way to install and update Hack on OS is is to use the [Homebrew](http://brew.sh/) package manager which you may already have on your system. Managing fonts with it is as easy as:
 
-#### Recommended Binaries for Linux and Windows Users
+    $ brew cask install caskroom/fonts/font-hack
 
-The .ttf files are recommended for screen use on Linux and Windows platforms.
+To install the font manually you may use either the [OTF][otf_latest] or [TTF][ttf_latest] formats. Download the zip file and extract it. Double clicking each of the font files will open a preview in [Font Book](https://support.apple.com/en-us/HT201749) and the "Install Font" button will copy the font to the correct system location.
 
-- [Download .ttf fonts](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip)
+#### Windows
+
+On Windows the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
+
+#### Linux / BSD
+
+Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. If your distro's package manager has packages for Hack that is the preferred method:
+
+* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using the AUR helper of your choice:
+
+        $ yaourt -S ttf-hack
+
+* Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
+
+        $ dnf install dnf-plugins-core
+        $ dnf copr enable heliocastro/hack-fonts
+        $ dnf install hack-fonts
+
+  For Fedora <= 22 and CentOS <= 7:
+
+        $ yum install yum-plugin-copr
+        $ yum copr enable heliocastro/hack-fonts
+
+* Ubuntu / Debian: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf). Packages are currently available for Ubuntu Xenial or later and the Debian unstable branch:
+
+        $ apt-get install fonts-hack-ttf
+
+   For older systems either manually download and install one of those deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
+
+For other systems, check for packages using your distro's package manager. If no packages exist download your preferred format and copy the font files to either your system font folder (often /usr/share/fonts/) or user font folder (often ~/.local/share/fonts/). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <instalation_path>; mkfontdir <instalation_path>`).
 
 
 ### Webfont Usage
@@ -308,3 +336,6 @@ Bitstream Vera Sans Mono Copyright 2003 Bitstream, Inc. with Reserved Font Names
 BITSTREAM VERA LICENSE
 
 The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+
+  [otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-otf.zip
+  [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip
