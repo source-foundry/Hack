@@ -53,19 +53,17 @@ Click the image for the full type specimen.
 
 ### Desktop Installation
 
-Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. Which is best for your system and how best to install these files depends on your operating system. Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility if possible.
+Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. Which is best for your system and how best to install these files depends on your operating system. If you do not know which format is optimal for your system, the TTF files should be used as your default.
+
+Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility.  While the releases through the package managers may be a bit delayed, they automate and simplify font updates.
 
 #### OS X
 
-The easiest way to install and update Hack on OS is is to use the [Homebrew](http://brew.sh/) package manager which you may already have on your system. Managing fonts with it is as easy as:
+The easiest way to install and update Hack on OS X is to use the [Homebrew](http://brew.sh/) package manager. Managing fonts with it is as easy as:
 
     $ brew cask install caskroom/fonts/font-hack
 
 To install the font manually you may use either the [OTF][otf_latest] or [TTF][ttf_latest] formats. Download the zip file and extract it. Double clicking each of the font files will open a preview in [Font Book](https://support.apple.com/en-us/HT201749) and the "Install Font" button will copy the font to the correct system location.
-
-#### Windows
-
-On Windows the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
 
 #### Linux / BSD
 
@@ -93,6 +91,11 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
    For older systems either manually download and install one of those deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
 
 For other systems, check for packages using your distro's package manager. If no packages exist download your preferred format and copy the font files to either your system font folder (often /usr/share/fonts/) or user font folder (often ~/.local/share/fonts/). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <instalation_path>; mkfontdir <instalation_path>`).
+
+
+#### Windows
+
+On Windows the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
 
 
 ### Webfont Usage
