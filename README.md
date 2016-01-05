@@ -55,11 +55,11 @@ Click the image for the full type specimen.
 
 Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. Which is best for your system and how best to install these files depends on your operating system. If you do not know which format is optimal for your system, the TTF files should be used as your default.
 
-Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility.  While the releases through the package managers may be a bit delayed, they automate and simplify font updates.
+Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility.  While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.  Please note that the Hack packages in these package managers are not maintained by the Hack project developers.  If you come across a problem with the release schedule in your package manager, please report it directly to the respective package maintainer on your platform.
 
 #### OS X
 
-The easiest way to install and update Hack on OS X is to use the [Homebrew](http://brew.sh/) package manager. Managing fonts with it is as easy as:
+The easiest way to install and update Hack on OS X is to use the [Homebrew](http://brew.sh/) package manager. To install the fonts on OS X use the command:
 
     $ brew cask install caskroom/fonts/font-hack
 
@@ -67,11 +67,11 @@ To install the font manually you may use either the [OTF][otf_latest] or [TTF][t
 
 #### Linux / BSD
 
-Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. If your distro's package manager has packages for Hack that is the preferred method:
+Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. We are aware of package manager support on the following distros:
 
 * Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using the AUR helper of your choice:
 
-        $ yaourt -S ttf-hack
+        $ pacman -S ttf-hack
 
 * Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
 
