@@ -69,7 +69,7 @@ To install the fonts manually you may use either the [OTF][otf_latest] or [TTF][
 
 Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. We are aware of package manager support on the following distros:
 
-* *Arch Linux*: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR manually or using the AUR helper of your choice:
+* *Arch Linux*: install the [ttf-hack](https://www.archlinux.org/packages/community/any/ttf-hack/) package from the community repository ([otf-hack](https://aur.archlinux.org/packages/otf-hack/) is available in the AUR):
 
         $ pacman -S ttf-hack
 
