@@ -69,11 +69,11 @@ To install the fonts manually you may use either the [OTF][otf_latest] or [TTF][
 
 Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. We are aware of package manager support on the following distros:
 
-* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR manually or using the AUR helper of your choice:
+* *Arch Linux*: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR manually or using the AUR helper of your choice:
 
         $ pacman -S ttf-hack
 
-* Fedora / CentOS: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
+* *Fedora / CentOS*: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
 
         $ dnf install dnf-plugins-core
         $ dnf copr enable heliocastro/hack-fonts
@@ -84,7 +84,7 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
         $ yum install yum-plugin-copr
         $ yum copr enable heliocastro/hack-fonts
 
-* Ubuntu / Debian: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf). Packages are currently available for Ubuntu Xenial or later and the Debian unstable branch:
+* *Ubuntu / Debian*: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf). Packages are currently available for Ubuntu Xenial or later and the Debian unstable branch:
 
         $ apt-get install fonts-hack-ttf
 
