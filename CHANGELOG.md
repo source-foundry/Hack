@@ -3,14 +3,14 @@
 ttf, otf, webfont builds
 
 - Corrected U+2588 glyph shape in regular set (had inappropriately small width and height)
-- increased width U+2580 all sets
-- increased width U+2581 all sets
-- increased width U+2582 all sets
-- increased width U+2583 all sets
-- increased width U+2584 all sets
-- increased width U+2585 all sets
-- increased width U+2586 all sets
-- increased width U+2857 all sets
+- decreased width U+2580 all sets
+- decreased width U+2581 all sets
+- decreased width U+2582 all sets
+- decreased width U+2583 all sets
+- decreased width U+2584 all sets
+- decreased width U+2585 all sets
+- decreased width U+2586 all sets
+- decreased width U+2857 all sets
 - adjusted left sidebearing U+2589 all sets
 - adjusted left sidebearing U+258A all sets
 - adjusted left sidebearing U+258B all sets
@@ -19,18 +19,18 @@ ttf, otf, webfont builds
 - adjusted left sidebearing U+258E all sets
 - adjusted left sidebearing U+258F all sets
 - adjusted right sidebearing U+2590 all sets
-- increased width of U+2594 all sets
+- decreased width of U+2594 all sets
 - adjusted right sidebearing U+2595 all sets
 - adjusted left sidebearing U+2596 all sets
 - adjusted right sidebearing U+2597 all sets
 - adjusted left sidebearing U+2598 all sets
-- increased width of U+2599 all sets
-- increased width of U+259A all sets
-- increased width of U+259B all sets
-- increased width of U+259C all sets
+- decreased width of U+2599 all sets
+- decreased width of U+259A all sets
+- decreased width of U+259B all sets
+- decreased width of U+259C all sets
 - adjusted right sidebearing U+259D all sets
-- increased width of U+259E all sets
-- increased width of U+259F all sets
+- decreased width of U+259E all sets
+- decreased width of U+259F all sets
 - increased upper terminal position to 1950 units U+2580 all sets
 - increased upper terminal position to 1950 units U+2588 all sets
 - increased upper terminal position to 1950 units U+2589 all sets
