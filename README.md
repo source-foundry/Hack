@@ -53,7 +53,7 @@ Click the image for the full type specimen.
 
 ### Desktop Installation
 
-Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. Which is best for your system and how best to install these files depends on your operating system. If you do not know which format is optimal for your system, the TTF files should be used as your default.
+Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. The best format and install approach depends on your operating system. If you do not know which format is optimal for your system, the TTF files should be used as your default.
 
 Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility.  While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.  Please note that the Hack packages in these package managers are not maintained by the Hack project developers.  If you come across a problem with the release schedule in your package manager, please report it directly to the respective package maintainer on your platform.
 
@@ -63,13 +63,13 @@ The easiest way to install and update Hack on OS X is to use the [Homebrew](http
 
     $ brew cask install caskroom/fonts/font-hack
 
-To install the font manually you may use either the [OTF][otf_latest] or [TTF][ttf_latest] formats. Download the zip file and extract it. Double clicking each of the font files will open a preview in [Font Book](https://support.apple.com/en-us/HT201749) and the "Install Font" button will copy the font to the correct system location.
+To install the fonts manually you may use either the [OTF][otf_latest] or [TTF][ttf_latest] formats. Download the zip file and extract it. Double clicking each of the font files will open a preview in [Font Book](https://support.apple.com/en-us/HT201749) and the "Install Font" button will copy the font to the correct system location.
 
 #### Linux / BSD
 
 Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_latest] format fonts. We are aware of package manager support on the following distros:
 
-* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR either manually or using the AUR helper of your choice:
+* Arch Linux: install either [ttf-hack](https://aur.archlinux.org/packages/ttf-hack) or [otf-hack](https://aur.archlinux.org/packages/otf-hack) from the AUR manually or using the AUR helper of your choice:
 
         $ pacman -S ttf-hack
 
@@ -88,9 +88,9 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ apt-get install fonts-hack-ttf
 
-   For older systems either manually download and install one of those deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
+   For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
 
-For other systems, check for packages using your distro's package manager. If no packages exist download your preferred format and copy the font files to either your system font folder (often /usr/share/fonts/) or user font folder (often ~/.local/share/fonts/). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <instalation_path>; mkfontdir <instalation_path>`).
+For other systems, check for packages using your distro's package manager search function. If no packages exist download your preferred format and copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <install_path>; mkfontdir <install_path>`).
 
 
 #### Windows
