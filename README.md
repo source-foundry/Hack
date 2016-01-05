@@ -95,7 +95,7 @@ For other systems, check for packages using your distro's package manager search
 
 #### Windows
 
-On Windows the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
+On Windows, the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
 
 
 ### Webfont Usage
