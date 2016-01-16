@@ -2,6 +2,7 @@
 
 ttf, otf, webfont builds
 
+- removed SVG from webfont releases
 - Corrected U+2588 glyph shape in regular set (had inappropriately small width and height)
 - decreased width U+2580 all sets
 - decreased width U+2581 all sets
