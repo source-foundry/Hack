@@ -169,16 +169,6 @@ The web font archive download is structured like this:
     │       ├── hack-bolditalic-latin-webfont.eot
     │       ├── hack-regular-latin-webfont.eot
     │       └── hack-italic-latin-webfont.eot
-    ├── svg
-    │   ├── hack-bold-webfont.svg
-    │   ├── hack-bolditalic-webfont.svg
-    │   ├── hack-regular-webfont.svg
-    │   ├── hack-italic-webfont.svg
-    │   └── latin
-    │       ├── hack-bold-latin-webfont.svg
-    │       ├── hack-bolditalic-latin-webfont.svg
-    │       ├── hack-regular-latin-webfont.svg
-    │       └── hack-italic-latin-webfont.svg
     ├── ttf
     │   ├── hack-bold-webfont.ttf
     │   ├── hack-bolditalic-webfont.ttf
@@ -283,16 +273,6 @@ yoursite.com/path/to/fonts/
 - `build/webfonts/fonts/eot/latin/hack-bold-latin-webfont.eot`
 - `build/webfonts/fonts/eot/latin/hack-italic-latin-webfont.eot`
 - `build/webfonts/fonts/eot/latin/hack-bolditalic-latin-webfont.eot`
-
-##### SVG
-- `build/webfonts/fonts/svg/hack-regular-webfont.svg`
-- `build/webfonts/fonts/svg/hack-bold-webfont.svg`
-- `build/webfonts/fonts/svg/hack-italic-webfont.svg`
-- `build/webfonts/fonts/svg/hack-bolditalic-webfont.svg`
-- `build/webfonts/fonts/svg/latin/hack-regular-latin-webfont.svg`
-- `build/webfonts/fonts/svg/latin/hack-bold-latin-webfont.svg`
-- `build/webfonts/fonts/svg/latin/hack-italic-latin-webfont.svg`
-- `build/webfonts/fonts/svg/latin/hack-bolditalic-latin-webfont.svg`
 
 ##### Web TTF
 - `build/webfonts/fonts/web-ttf/hack-regular-webfont.ttf`
