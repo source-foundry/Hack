@@ -24,19 +24,19 @@ cp webfont-Hack/hack-bolditalic-webfont.eot ../../build/webfonts/fonts/eot/hack-
 
 echo "EOT files copied to webfonts release directories"
 
-# SVG files Latin subset
-cp webfont-Hack-Latin/hack-regular-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-regular-latin-webfont.svg
-cp webfont-Hack-Latin/hack-italic-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-italic-latin-webfont.svg
-cp webfont-Hack-Latin/hack-bold-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-bold-latin-webfont.svg
-cp webfont-Hack-Latin/hack-bolditalic-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-bolditalic-latin-webfont.svg
+# # SVG files Latin subset
+# cp webfont-Hack-Latin/hack-regular-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-regular-latin-webfont.svg
+# cp webfont-Hack-Latin/hack-italic-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-italic-latin-webfont.svg
+# cp webfont-Hack-Latin/hack-bold-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-bold-latin-webfont.svg
+# cp webfont-Hack-Latin/hack-bolditalic-latin-webfont.svg ../../build/webfonts/fonts/svg/latin/hack-bolditalic-latin-webfont.svg
 
-# SVG files entire set
-cp webfont-Hack/hack-regular-webfont.svg ../../build/webfonts/fonts/svg/hack-regular-webfont.svg
-cp webfont-Hack/hack-italic-webfont.svg ../../build/webfonts/fonts/svg/hack-italic-webfont.svg
-cp webfont-Hack/hack-bold-webfont.svg ../../build/webfonts/fonts/svg/hack-bold-webfont.svg
-cp webfont-Hack/hack-bolditalic-webfont.svg ../../build/webfonts/fonts/svg/hack-bolditalic-webfont.svg
+# # SVG files entire set
+# cp webfont-Hack/hack-regular-webfont.svg ../../build/webfonts/fonts/svg/hack-regular-webfont.svg
+# cp webfont-Hack/hack-italic-webfont.svg ../../build/webfonts/fonts/svg/hack-italic-webfont.svg
+# cp webfont-Hack/hack-bold-webfont.svg ../../build/webfonts/fonts/svg/hack-bold-webfont.svg
+# cp webfont-Hack/hack-bolditalic-webfont.svg ../../build/webfonts/fonts/svg/hack-bolditalic-webfont.svg
 
-echo "SVG files copied to webfonts release directories"
+# echo "SVG files copied to webfonts release directories"
 
 # Web TTF Latin subset
 cp webfont-Hack-Latin/hack-regular-latin-webfont.ttf ../../build/webfonts/fonts/web-ttf/latin/hack-regular-latin-webfont.ttf
