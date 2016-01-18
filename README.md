@@ -139,11 +139,10 @@ The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatte
 
 Download the entire web font archive at this link:
 
-- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-webfonts.zip)
+- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-webfonts.zip)
 
 Or select the fonts that you need in subdirectories of the build directory:
 
-- [Download .svg fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/svg)
 - [Download .eot fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/eot)
 - [Download .ttf fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/web-ttf) - **Note**: these differ from the desktop versions and are intended for web use
 - [Download .woff fonts](https://github.com/chrissimpkins/Hack/tree/master/build/webfonts/fonts/woff)
@@ -320,5 +319,6 @@ BITSTREAM VERA LICENSE
 
 The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
 
-  [otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-otf.zip
-  [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.018/Hack-v2_018-ttf.zip
+  [otf_latest]:https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-otf.zip
+  [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-ttf.zip
+
