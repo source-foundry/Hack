@@ -97,6 +97,8 @@ For other systems, check for packages using your distro's package manager search
 
 On Windows, the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
 
+**Windows Users Please Note**: If you have previously installed the Hack fonts on your Windows system and are having issues with installation of a newer version, please remove the old Hack fonts before you attempt the new font install.  Either navigate to `c:\windows\fonts` and delete all Hack fonts in the directory, or open the directory path `Control Panel\Appearance and Personalization\Fonts`, right click on each of the Hack fonts and delete them.  See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) for additional information.
+
 
 ### Webfont Usage
 
