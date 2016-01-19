@@ -63,6 +63,15 @@ The easiest way to install and update Hack on OS X is to use the [Homebrew](http
 
     $ brew cask install caskroom/fonts/font-hack
 
+
+**OS X Users Please Note**: There has been a change in brew cask that requires an uninstall of `brew-cask`.  If you encounter an error during your install attempt, please execute the following command and then install with the above command again:
+
+```
+$ brew uninstall --force brew-cask && brew update
+```
+
+Please see [issue report #169](https://github.com/chrissimpkins/Hack/issues/169) for additional details.
+
 To install the fonts manually you may use either the [OTF][otf_latest] or [TTF][ttf_latest] formats. Download the zip file and extract it. Double clicking each of the font files will open a preview in [Font Book](https://support.apple.com/en-us/HT201749) and the "Install Font" button will copy the font to the correct system location.
 
 #### Linux / BSD
