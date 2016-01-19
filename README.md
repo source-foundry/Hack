@@ -64,7 +64,7 @@ The easiest way to install and update Hack on OS X is to use the [Homebrew](http
     $ brew cask install caskroom/fonts/font-hack
 
 
-**OS X Users Please Note**: There has been a change in brew cask that requires an uninstall of `brew-cask`.  If you encounter an error during your install attempt, please execute the following command and then install with the above command again:
+**OS X Users Please Note**: There has been a change in the Homebrew-Cask system that requires an update of `brew-cask`.  If you encounter an error during your Hack install attempt, please execute the following command and then install with the above command again:
 
 ```
 $ brew uninstall --force brew-cask && brew update
