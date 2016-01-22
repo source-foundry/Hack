@@ -54,8 +54,25 @@
 - U+252D upper terminal to 1950, lower terminal to -530, regular set
 - U+253E upper terminal to 1950, lower terminal to -530, regular set
 - U+253F upper terminal to 1950, lower terminal to -530, regular set
-
-
+- U+2540 upper terminal to 1950, lower terminal to -530, regular set
+- U+2541 upper terminal to 1950, lower terminal to -530, regular set
+- U+2542 upper terminal to 1950, lower terminal to -530, regular set
+- U+2543 upper terminal to 1950, lower terminal to -530, regular set
+- U+2544 upper terminal to 1950, lower terminal to -530, regular set
+- U+2545 upper terminal to 1950, lower terminal to -530, regular set
+- U+2546 upper terminal to 1950, lower terminal to -530, regular set
+- U+2547 upper terminal to 1950, lower terminal to -530, regular set
+- U+2548 upper terminal to 1950, lower terminal to -530, regular set
+- U+2549 upper terminal to 1950, lower terminal to -530, regular set
+- U+254A upper terminal to 1950, lower terminal to -530, regular set
+- U+254B upper terminal to 1950, lower terminal to -530, regular set
+- U+2551 upper terminal to 1950, lower terminal to -530, regular set
+- U+2552 lower terminal to -530, regular set
+- U+2553 lower terminal to -530, regular set
+- U+2554 lower terminal to -530, regular set
+- U+2555 lower terminal to -530, regular set
+- U+2556 lower terminal to -530, regular set
+- U+2557 lower terminal to -530, regular set
 
 # Version 2.019 (release build)
 
