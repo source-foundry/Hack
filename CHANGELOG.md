@@ -1,3 +1,45 @@
+# Version 2.020
+
+- U+2502 upper terminal to 1950, lower terminal to -530, regular set
+- U+2503 upper terminal to 1950, lower terminal to -530, regular set
+- U+250C lower terminal to -530, regular set
+- U+250D lower terminal to -530, regular set
+- U+250E lower terminal to -530, regular set
+- U+250F lower terminal to -530, regular set
+- U+2510 lower terminal to -530, regular set
+- U+2511 lower terminal to -530, regular set
+- U+2512 lower terminal to -530, regular set
+- U+2513 lower terminal to -530, regular set
+- U+2514 upper terminal to 1950, regular set
+- U+2515 upper terminal to 1950, regular set
+- U+2516 upper terminal to 1950, regular set
+- U+2517 upper terminal to 1950, regular set
+- U+2518 upper terminal to 1950, regular set
+- U+2519 upper terminal to 1950, regular set
+- U+251A upper terminal to 1950, regular set
+- U+251B upper terminal to 1950, regular set
+- U+251C upper terminal to 1950, lower terminal to -530, regular set
+- U+251D upper terminal to 1950, lower terminal to -530, regular set
+- U+251E upper terminal to 1950, lower terminal to -530, regular set
+- U+251F upper terminal to 1950, lower terminal to -530, regular set
+- U+2520 upper terminal to 1950, lower terminal to -530, regular set
+- U+2521 upper terminal to 1950, lower terminal to -530, regular set
+- U+2522 upper terminal to 1950, lower terminal to -530, regular set
+- U+2523 upper terminal to 1950, lower terminal to -530, regular set
+- U+2524 upper terminal to 1950, lower terminal to -530, regular set
+- U+2525 upper terminal to 1950, lower terminal to -530, regular set
+- U+2526 upper terminal to 1950, lower terminal to -530, regular set
+- U+2527 upper terminal to 1950, lower terminal to -530, regular set
+- U+2528 upper terminal to 1950, lower terminal to -530, regular set
+- U+2529 upper terminal to 1950, lower terminal to -530, regular set
+- U+252A upper terminal to 1950, lower terminal to -530, regular set
+- U+252B upper terminal to 1950, lower terminal to -530, regular set
+- U+252C lower terminal to -530, regular set
+- U+252D lower terminal to -530, regular set
+- U+252E lower terminal to -530, regular set
+- U+252F lower terminal to -530, regular set
+
+
 # Version 2.019 (release build)
 
 ttf, otf, webfont builds
