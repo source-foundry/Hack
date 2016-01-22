@@ -4,14 +4,18 @@
 
 ### Core Development Team
 
-- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - project lead
+- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - project lead, design
 - David van Gemeren ([@burodepeper](https://github.com/burodepeper)) - typeface usability
-- JM ([@jublo](https://github.com/jublo)) - typeface design, web development
+
+
+### Glyph Design
+
+- JM
 
 ### Hinting / Instruction Sets
 - Werner Lemberg
 
-### Powerline Glyphs
+### Powerline Glyph Set
 - Carlo Abelli
 - Justin Anderson
 - Matthias Bilger
@@ -28,9 +32,11 @@
 - Mack Stump
 - Daniele Tricoli
 
-### Language Set Suggestions, Design, and Proofing
+### Language Set Design and Proofing
 - Dmitry Maslennikov - Cyrillic set
 - Perry E. Metzger - Greek set
+- Gleb Nemshilov - Cyrillic set
+- Vladimir Novoseltev - Cyrillic set
 - Timothée Poisot - Greek set
 - Damien Pollet - Esperanto set
 - Michael Schierl - MES-1 set, Esperanto set
@@ -43,55 +49,13 @@
 - @rafaeln - Kĩsêdjê set
 - @xstee (Leonid) - Cyrillic set
 
-### Testing
-- Jameel Al-Aziz
-- Serj Alimsky
-- Aric Belsito
-- Sven Busse
-- P.F. Chimento
-- Ryan Dlugosz
-- Felix Dreissig
-- Gavin Eadie
-- Jason Evans
-- Daniel Fitzpatrick
-- Thilo Frommeyer
-- Trevor Hayes
-- Jorg Heymans
-- Alexander Hofbauer
-- Ken J.
-- Jacek Jędrzejewski
-- Markus Jevring
-- Pete Johanson
-- Serg Koles
-- Zach Langbert
-- Fabio Alessandro Locati
-- Jesús Martínez
-- Dave Merrill
-- Darius Niemczyk
-- Fernanda Parisi
-- Adam Quaile
-- Christopher Rucinski
-- Marek Šesták
-- Rogier Spieker
-- Günther Stadler
-- Christopher J. Stehno
-- James Taylor
-- Manuel Uberti
-- David Van Gemeren
-- Matthew Wesley
-- Gustaf Zetterlund
-- 张标 (@angrilove)
-- @duud
-- @hrj
-- @iamklutch
-- @legovini
-- @MaxKh
-- @Paul-v-H
-- @schauveau
-- @ScuzzyEye
-- @tbrisbane
 
-## DejaVu
+### Web Development
+
+- JM
+
+
+### DejaVu
 
 - Štěpán Roh
 - Sander Vesik
@@ -112,6 +76,58 @@
 - John Karp
 - Lars Christensen
 
-## Bitstream Vera
+### Bitstream Vera
 
 - Jim Lyles
+
+
+### Testing
+- Jameel Al-Aziz
+- Serj Alimsky
+- Aric Belsito
+- Matthias Bilger
+- Sven Busse
+- P.F. Chimento
+- Ryan Dlugosz
+- Felix Dreissig
+- Gavin Eadie
+- Jason Evans
+- Daniel Fitzpatrick
+- Thilo Frommeyer
+- David van Gemeren
+- Trevor Hayes
+- Jorg Heymans
+- Alexander Hofbauer
+- Ken J.
+- Jacek Jędrzejewski
+- Markus Jevring
+- Pete Johanson
+- Serg Koles
+- Zach Langbert
+- Fabio Alessandro Locati
+- JM
+- Jesús Martínez
+- Dave Merrill
+- Darius Niemczyk
+- Fernanda Parisi
+- Adam Quaile
+- Christopher Rucinski
+- Kevin S
+- Marek Šesták
+- Rogier Spieker
+- Günther Stadler
+- Christopher J. Stehno
+- James Taylor
+- Manuel Uberti
+- Matthew Wesley
+- Gustaf Zetterlund
+- 张标 (@angrilove)
+- @duud
+- @hrj
+- @iamklutch
+- @legovini
+- @MaxKh
+- @Paul-v-H
+- @schauveau
+- @ScuzzyEye
+- @tbrisbane
