@@ -95,6 +95,20 @@
 - U+256A upper terminal to 1950, lower terminal to -530, regular set
 - U+256B upper terminals to 1950, lower terminals to -530, regular set
 - U+256C upper terminals to 1950, lower terminals to -530, regular set
+- U+256D lower terminal to -530, regular set
+- U+256E lower terminal to -530, regular set
+- U+256F upper terminal to 1950, regular set
+- U+2570 upper terminal to 1950, regular set
+- U+2571 adjusted horizontal position and length of strokes
+- U+2572 adjusted horizontal position and length of strokes
+- U+2573 adjusted horizontal position and length of strokes
+- U+2575 upper terminal to 1950, regular set
+- U+2577 lower terminal to -530, regular set
+- U+2578 horizontal alignment of superior margin of the stroke (1 unit adjustment)
+- U+2579 upper terminal to 1950, regular set
+- U+257B lower terminal to -530, regular set
+- U+257D upper terminal to 1950, lower terminal to -530, regular set
+- U+257F upper terminal to 1950, lower terminal to -530, regular set
 
 
 # Version 2.019 (release build)
