@@ -110,6 +110,8 @@
 - U+257D upper terminal to 1950, lower terminal to -530, regular set
 - U+257F upper terminal to 1950, lower terminal to -530, regular set
 
+- added font-tables.py OpenType table reporting script
+
 
 # Version 2.019 (release build)
 
