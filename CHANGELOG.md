@@ -112,7 +112,7 @@
 
 - divided the vertical stroke in the pipe glyph (U+007C), italic set
 
-- added Powerline glyphs to the bold set
+- added Powerline glyphs to the bold, italic, and bold italic sets
 
 - added font-tables.py OpenType table reporting script
 
