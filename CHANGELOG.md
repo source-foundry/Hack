@@ -110,6 +110,8 @@
 - U+257D upper terminal to 1950, lower terminal to -530, regular set
 - U+257F upper terminal to 1950, lower terminal to -530, regular set
 
+- divided the vertical stroke in the pipe glyph (U+007C), italic set
+
 - added Powerline glyphs to the bold set
 
 - added font-tables.py OpenType table reporting script
