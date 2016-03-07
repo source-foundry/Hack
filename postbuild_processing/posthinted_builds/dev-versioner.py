@@ -10,7 +10,7 @@
 import sys
 from fontTools import ttLib
 
-VERSION_STRING="Version 2.020;DEV-02172016;"
+VERSION_STRING="Version 2.020;DEV-03062016;"
 SUCCESS_INDICATOR = 0
 
 def main(argv):
