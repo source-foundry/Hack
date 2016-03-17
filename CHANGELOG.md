@@ -114,6 +114,7 @@
 - modified U+007C hints in TrueType builds at 6, 7, 10, 11, 12, 13, 14 ppem italic set
 - modified U+007C hints in TrueType builds at 6, 7, 10, 14 ppem bold italic set
 - modified slant angle and stroke length (U+005C), italic and bold italic sets
+- centered U+007C and U+005C, all sets
 
 - added Powerline glyphs to the bold, italic, and bold italic sets
 
