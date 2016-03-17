@@ -1,4 +1,7 @@
 # [ U+0030 ] Adjust fill in the zero glyph
-# zero touch 39-48,65-71  y -1    @ 12,13,14
-# zero touch 39-48,65-71  y -0.5  @ 7,8
+zero touch 39  y -1    @ 12,13,14
+zero touch 71  y -0.5  @ 12,13,14
+zero touch 39  y -0.5  @ 7,8
+zero touch 71  y -0.25 @ 7,8
+zero touch 71  x  0.5  @ 7,8,12,13,14
 # zero touch 49-64        y -1    @ 8
