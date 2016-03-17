@@ -1,3 +1,4 @@
-# adjust horizontal stem in plus glyph (U+002B)
-plus touch 0,1,2,3,6,7,8,9  y 0.5  @  7, 10, 11
-plus touch 0,1,2,3,6,7,8,9  y -0.5  @ 12, 13, 15, 16
+# [ U+0030 ] Adjust fill in the zero glyph
+# zero touch 39-48,65-71  y -1    @ 12,13,14
+# zero touch 39-48,65-71  y -0.5  @ 7,8
+# zero touch 49-64        y -1    @ 8

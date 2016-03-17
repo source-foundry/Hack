@@ -12,7 +12,7 @@
 
 
 # Hack-Regular.ttf
-ttfautohint -l 4 -r 80 -G 350 -x 0 -H 181 -D latn -f latn -w G -W -t -X "" -I "../prehinted_builds/Hack-Regular-TT.ttf" "../posthinted_builds/Hack-Regular.ttf"
+ttfautohint -l 4 -r 80 -G 350 -x 0 -H 181 -D latn -f latn -w G -W -t -X "" -I -m "Hack-Regular-TA.txt" "../prehinted_builds/Hack-Regular-TT.ttf" "../posthinted_builds/Hack-Regular.ttf"
 echo "Hack-Regular-TT.ttf hinted and moved to ../posthinted_builds/Hack-Regular.ttf"
 
 # Hack-Bold.ttf
