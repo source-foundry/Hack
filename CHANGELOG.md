@@ -111,6 +111,7 @@
 - U+257F upper terminal to 1950, lower terminal to -530, regular set
 
 - divided the vertical stroke in the pipe glyph (U+007C), italic set
+- modified slant angle and length of glyph (U+005C), italic and bold italic sets
 
 - added Powerline glyphs to the bold, italic, and bold italic sets
 
