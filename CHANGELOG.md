@@ -120,6 +120,7 @@
 - added Powerline glyphs to the bold, italic, and bold italic sets
 
 - added font-tables.py OpenType table reporting script
+- updated dev-versioner.py OpenType table versioning script to support UTF16 big endian encoding of nameID=5, platformID=3 name table
 
 
 # Version 2.019 (release build)
