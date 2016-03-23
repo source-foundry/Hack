@@ -36,7 +36,7 @@ def main(argv):
 
         if SUCCESS_INDICATOR == 0:
             print("[ERROR] Unable to complete the name table update for " + font_variant_path)
-        elif SUCCESS_INDICATOR == 1:
+        elif SUCCESS_INDICATOR == 1:  # should equal 2 if both name tables were successfully updated
             print("[ERROR] Incomplete name table update for " + font_variant_path)
 
         SUCCESS_INDICATOR = 0   # reset success indicator
