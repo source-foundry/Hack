@@ -26,6 +26,12 @@
 - [Contributors](https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 - [License](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
 
+### New!
+
+You can now modify the default line spacing in Hack fonts with our new `font-line` tool.  Hack uses a default value of 20% UPM for line spacing.  Decrease the value to tighten the spacing, increase it to widen your spacing.  Modification details are available on the `font-line` repository:
+
+https://github.com/source-foundry/font-line
+
 
 ### About
 
