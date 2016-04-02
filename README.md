@@ -103,7 +103,7 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ apt-get install fonts-hack-ttf
 
-   For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
+   For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts) and [issue report #189](https://github.com/chrissimpkins/Hack/issues/189).
 
 For other systems, check for packages using your distro's package manager search function. If no packages exist download your preferred format and copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <install_path>; mkfontdir <install_path>`).
 
