@@ -4,8 +4,8 @@
 
 ### Core Development Team
 
-- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - project lead, design
-- David van Gemeren ([@burodepeper](https://github.com/burodepeper)) - typeface usability
+- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - maintainer, design
+- David van Gemeren ([@burodepeper](https://github.com/burodepeper)) - usability
 
 
 ### Glyph Design
