@@ -1,5 +1,5 @@
 
-# Hack
+# Hack  [![Contributors](https://img.shields.io/badge/contributors-103-orange.svg?style=flat)] (https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 ### A typeface designed for source code
 
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack-a monospaced sans-serif font for source code" width="728"></a>
@@ -330,13 +330,13 @@ Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master
 
 ### License
 
-Hack Copyright 2015, Christopher Simpkins with Reserved Font Name Hack.<br>
-HACK OPEN FONT LICENSE & BITSTREAM VERA LICENSE
+Hack Copyright 2015-2016, Christopher Simpkins with Reserved Font Name Hack.<br>
+Hack Open Font License & Bitstream Vera License
 
 Bitstream Vera Sans Mono Copyright 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
-BITSTREAM VERA LICENSE
+Bitstream Vera License
 
-The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+The full texts of these licenses are available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
 
   [otf_latest]:https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-otf.zip
   [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-ttf.zip

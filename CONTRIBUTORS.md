@@ -55,6 +55,15 @@
 - JM
 
 
+### Redistribution & Installation
+
+- Helio Chissini de Castro - Linux
+- Michael Hex - Windows
+- Caleb Maclennan - Linux, OS X
+- @rahilwazir - Linux
+- Jakub Žitný - NPM
+
+
 ### DejaVu
 
 - Štěpán Roh
@@ -102,6 +111,7 @@
 - Jacek Jędrzejewski
 - Markus Jevring
 - Pete Johanson
+- Anton Kalmykov
 - Serg Koles
 - Zach Langbert
 - Fabio Alessandro Locati
