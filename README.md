@@ -1,5 +1,5 @@
 
-# Hack
+# Hack  [![Contributors](https://img.shields.io/badge/contributors-103-orange.svg?style=flat)] (https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 ### A typeface designed for source code
 
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack-a monospaced sans-serif font for source code" width="728"></a>
@@ -25,6 +25,12 @@
 - [Changelog](https://github.com/chrissimpkins/Hack/blob/master/CHANGELOG.md)
 - [Contributors](https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 - [License](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+
+### New!
+
+You can now modify the default line spacing in Hack fonts with our new `font-line` tool.  Hack uses a default value of 20% UPM for line spacing.  Decrease the value to tighten the spacing, increase it to widen your spacing.  Modification details are available on the `font-line` repository:
+
+https://github.com/source-foundry/font-line
 
 
 ### About
@@ -97,7 +103,7 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ apt-get install fonts-hack-ttf
 
-   For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts).
+   For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts) and [issue report #189](https://github.com/chrissimpkins/Hack/issues/189).
 
 For other systems, check for packages using your distro's package manager search function. If no packages exist download your preferred format and copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <install_path>; mkfontdir <install_path>`).
 
@@ -106,7 +112,9 @@ For other systems, check for packages using your distro's package manager search
 
 On Windows, the [TTF][ttf_latest] format files are recommended. Download the zip, extract the files, and double click on them to open them in the font previewer. Clicking the "Install" button will then copy them to the correct place on your system.
 
-**Windows Users Please Note**: If you have previously installed the Hack fonts on your Windows system and are having issues with installation of a newer version, please remove the old Hack fonts before you attempt the new font install.  Either navigate to `c:\windows\fonts` and delete all Hack fonts in the directory, or open the directory path `Control Panel\Appearance and Personalization\Fonts`, right click on each of the Hack fonts and delete them.  See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) for additional information.
+@texhex created a [multi-font installer for Windows 7 - Windows 10](https://github.com/texhex/OSFontPack) that is actively maintained and includes the current release of the Hack fonts.  Windows has a complex font caching mechanism that has led to problems for many users who try to install a new version of the Hack fonts over previously installed versions.  Michael's tool addresses these caching issues.  See [issue report #177](https://github.com/chrissimpkins/Hack/issues/177) for details about the tool and check out his repository for more information.
+
+**Windows Users Please Note**: If you have previously installed the Hack fonts on your Windows system and are having issues with installation of a newer version, please remove the old Hack fonts before you attempt the new font install.  Either navigate to `c:\windows\fonts` and delete all Hack fonts in the directory, or open the directory path `Control Panel\Appearance and Personalization\Fonts`, right click on each of the Hack fonts and delete them.  See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) and [issue report #177](https://github.com/chrissimpkins/Hack/issues/177) for additional information.
 
 
 ### Webfont Usage
@@ -322,13 +330,13 @@ Changes are in the [Changelog](https://github.com/chrissimpkins/Hack/blob/master
 
 ### License
 
-Hack Copyright 2015, Christopher Simpkins with Reserved Font Name Hack.<br>
-HACK OPEN FONT LICENSE & BITSTREAM VERA LICENSE
+Hack Copyright 2015-2016, Christopher Simpkins with Reserved Font Name Hack.<br>
+Hack Open Font License & Bitstream Vera License
 
 Bitstream Vera Sans Mono Copyright 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
-BITSTREAM VERA LICENSE
+Bitstream Vera License
 
-The full text of these licenses is available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+The full texts of these licenses are available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
 
   [otf_latest]:https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-otf.zip
   [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-ttf.zip
