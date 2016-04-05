@@ -32,6 +32,8 @@ You can now modify the default line spacing in Hack fonts with our new `font-lin
 
 https://github.com/source-foundry/font-line
 
+or [use one of our handy shell scripts](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) that automates the `font-line` install and line spacing modification process for a range of line spacing % UPM values between 10 - 30%.  Select the script that fits your needs and execute it in the download directory that contains your .ttf and/or .otf font files **before you install them**.
+
 
 ### About
 
