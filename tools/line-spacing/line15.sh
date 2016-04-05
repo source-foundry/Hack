@@ -3,8 +3,8 @@
 # ////////////////////////////////////////////////////////////
 #
 # line15.sh
-#  A shell script that modifies all .otf and .ttf fonts to
-#  15% UPM line spacing
+#  A shell script that modifies all .otf and .ttf fonts in the
+#  working directory to 15% UPM line spacing
 #  Copyright 2016 Christopher Simpkins
 #  MIT License
 #
