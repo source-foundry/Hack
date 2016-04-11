@@ -57,6 +57,7 @@
 
 ### Redistribution & Installation
 
+- Guilherme Amadio - Linux
 - Helio Chissini de Castro - Linux
 - Michael Hex - Windows
 - Caleb Maclennan - Linux, OS X
