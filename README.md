@@ -1,5 +1,5 @@
 
-# Hack  [![Contributors](https://img.shields.io/badge/contributors-103-orange.svg?style=flat)] (https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
+# Hack  [![Contributors](https://img.shields.io/badge/contributors-104-orange.svg?style=flat)] (https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 ### A typeface designed for source code
 
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack-a monospaced sans-serif font for source code" width="728"></a>
@@ -90,10 +90,6 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ pacman -S ttf-hack
 
-* *Gentoo Linux*: install the [media-fonts/hack](https://packages.gentoo.org/packages/media-fonts/hack) package from the main Portage tree:
-
-        $ emerge -av media-fonts/hack
-
 * *Fedora / CentOS*: install from [copr](https://copr.fedoraproject.org/coprs/heliocastro/hack-fonts/). For Fedora >= 23:
 
         $ dnf install dnf-plugins-core
@@ -104,6 +100,10 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
         $ yum install yum-plugin-copr
         $ yum copr enable heliocastro/hack-fonts
+
+* *Gentoo Linux*: install the [media-fonts/hack](https://packages.gentoo.org/packages/media-fonts/hack) package from the main Portage tree:
+
+        $ emerge -av media-fonts/hack
 
 * *Ubuntu / Debian*: install either [fonts-hack-ttf](http://packages.ubuntu.com/xenial/fonts-hack-ttf) or [fonts-hack-otf](http://packages.ubuntu.com/xenial/fonts-hack-otf). Packages are currently available for Ubuntu Xenial or later and the Debian unstable branch:
 
