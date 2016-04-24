@@ -2,10 +2,11 @@
 
 ## Hack
 
-### Core Development Team
+### Source Foundry Development Team
 
-- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - maintainer, design
-- David van Gemeren ([@burodepeper](https://github.com/burodepeper)) - usability
+- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins))
+- David van Gemeren ([@burodepeper](https://github.com/burodepeper))
+- Michael "Tex" Hex ([@texhex](https://github.com/texhex))
 
 
 ### Glyph Design
@@ -59,7 +60,7 @@
 
 - Guilherme Amadio - Linux
 - Helio Chissini de Castro - Linux
-- Michael Hex - Windows
+- Michael "Tex" Hex - Windows
 - Caleb Maclennan - Linux, OS X
 - @rahilwazir - Linux
 - Jakub Žitný - NPM
@@ -106,6 +107,7 @@
 - Thilo Frommeyer
 - David van Gemeren
 - Trevor Hayes
+- Michael "Tex" Hex
 - Jorg Heymans
 - Alexander Hofbauer
 - Ken J.
