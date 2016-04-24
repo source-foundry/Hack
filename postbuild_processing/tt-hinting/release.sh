@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------
 #
 #  release.sh
-#  Copyright 2015 Christopher Simpkins
+#  Copyright 2016 Christopher Simpkins
 #  MIT license
 #
 # ------------------------------------------------------------------
