@@ -157,7 +157,7 @@ code {
 }
 ```
 
-The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
+The **bold**, *italic*, and <b><i>bold italic</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
 
 
 #### Host Hack Font Files on Your Server
