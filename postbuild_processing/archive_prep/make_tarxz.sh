@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HACK_VERSION="v2_019"
+HACK_VERSION="v2_020"
 HACK_BUILD_DIR="../../build"
 
 
