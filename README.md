@@ -140,13 +140,13 @@ Include **one** of the following lines in the `<head>` section of your site's HT
 ##### Basic Latin + Latin-1 Supplement Character Set
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.019/css/hack.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 ```
 
 ##### Full Character Set
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.019/css/hack-extended.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
 ```
 
 Then style your text by including `Hack` in the appropriate `font-family` property of your CSS.  For example:
