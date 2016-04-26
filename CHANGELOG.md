@@ -118,6 +118,7 @@
 - U+257F upper terminal to 1950, lower terminal to -530, all sets
 - updated OpenType name table field 1 0 0
 - updated OpenType name table field 3 1 1033
+- new [Windows installer](https://github.com/source-foundry/Hack-windows-installer)
 - added line spacing adjustment shell scripts
 - added font-tables.py OpenType table reporting script
 - updated dev-versioner.py OpenType table versioning script to support UTF16 big endian encoding of nameID=5, platformID=3 name table
