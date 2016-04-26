@@ -164,7 +164,7 @@ The **bold**, *oblique*, and <b><i>bold oblique</i></b> text styles are formatte
 
 Download the entire web font archive at this link:
 
-- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-webfonts.zip)
+- [Download Web Font Archive (all)](https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-webfonts.zip)
 
 Or select the fonts that you need in subdirectories of the build directory:
 
@@ -344,6 +344,6 @@ Bitstream Vera License
 
 The full texts of these licenses are available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
 
-  [otf_latest]:https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-otf.zip
-  [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.019/Hack-v2_019-ttf.zip
+  [otf_latest]:https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
+  [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
 
