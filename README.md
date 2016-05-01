@@ -1,13 +1,15 @@
 
 # Hack  [![Contributors](https://img.shields.io/badge/contributors-104-orange.svg?style=flat)](https://github.com/chrissimpkins/Hack/blob/master/CONTRIBUTORS.md)
 
-### a typeface designed for source code
-
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+
+### a typeface designed for source code
 
 <!-- TODO add links to bitstream vera and dejavu projects -->
 
-No frills. No gimmicks. Hack is hand groomed and optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera]() &amp; [DejaVu]() projects. [Read more](docs/ABOUT.md), visit the [project website](http://sourcefoundry.org/hack/) or take a look at a complete [type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
+No frills. No gimmicks. Hack is hand groomed and optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera]() &amp; [DejaVu]() projects.
+
+[Read more](docs/ABOUT.md) about Hack, visit the [project website](http://sourcefoundry.org/hack/) or take a look at a complete [type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
 The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. More details in [LICENSE.md](LICENSE.md)
 
@@ -37,26 +39,27 @@ or [use one of our handy shell scripts](https://github.com/chrissimpkins/Hack/tr
 
 ---
 
-### Data
+### Overview
 
-| **Typeface Name** | Hack |
-| **Category** | Monospaced |
-| **Powerline Support** | Yes |
-| **Number of glyphs** | 1561 |
-| **Included Styles** | Regular, Bold, Italic, Bold Italic |
-| **Latest release** | v2.020 (2016-04-29) |
+- **Typeface Name**: Hack
+- **Category**: Monospaced
+- **Powerline Support**: Yes
+- **Number of glyphs**: 1561
+- **Included glyph sets**: TODO
+- **Included Styles**: Regular, Bold, Italic, Bold Italic
+- **Latest release**: v2.020 (2016-04-29)
 
 ---
 
 ### License
 
-Hack &copy; 2015-2016, Christopher Simpkins with Reserved Font Name Hack.<br>
+**Hack** &copy; 2015-2016, Christopher Simpkins with Reserved Font Name Hack.<br>
 Hack Open Font License &amp; Bitstream Vera License
 
-Bitstream Vera Sans Mono &copy; 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
+**Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. with Reserved Font Names Bitstream and Vera<br>
 Bitstream Vera License
 
-The full texts of these licenses are available in [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md)
+See [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md) for the full texts of these licences.
 
 [otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
 [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
