@@ -7,9 +7,9 @@ No frills. No gimmicks. Hack is hand groomed and optically balanced to be a work
 
 [Read more](docs/ABOUT.md) about Hack, visit the [project website](http://sourcefoundry.org/hack/), take a look at a complete [type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html) or marvel at the [CHANGELOG](CHANGELOG.md).
 
-<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
-
 The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. More details in [LICENSE.md](LICENSE.md)
+
+<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
 ---
 
@@ -53,16 +53,14 @@ Hack can be installed and updated via various package managers. We are aware of 
 
 ### Web font usage
 
-Hack is available in all the regular webfont formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN by the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr). **Bold** and _italic_ styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in all the regular webfont formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and _italic_ styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 ```
 
 ```css
-code {
-	font-family: Hack, monospace;
-}
+code { font-family: Hack, monospace; }
 ```
 
 ### Additional tools for customization
@@ -71,13 +69,13 @@ code {
 
 ---
 
-### Overview of features
+## Overview of features
 
 - **Typeface Name**: Hack
 - **Category**: Monospaced
 - **Powerline Support**: Yes
 - **Number of Glyphs**: 1561
-- **Included Glyph Sets**: TODO
+- **Included Glyph Sets**: ASCII, etc. **TODO**
 - **Included Styles**: Regular, Bold, Italic, Bold Italic
 - **Latest Release**: v2.020 (2016-04-29)
 
