@@ -5,9 +5,9 @@
 
 No frills. No gimmicks. Hack is hand groomed and optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.
 
-<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+[Read more](docs/ABOUT.md) about Hack, visit the [project website](http://sourcefoundry.org/hack/), take a look at a complete [type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html) or marvel at the [CHANGELOG](CHANGELOG.md).
 
-[Read more](docs/ABOUT.md) about Hack, visit the [project website](http://sourcefoundry.org/hack/) or take a look at a complete [type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
+<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
 The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. More details in [LICENSE.md](LICENSE.md)
 
@@ -15,7 +15,7 @@ The font binaries are released under a license that permits unlimited print, des
 
 ## Quick installation
 
-We recommended using the **TrueType** (`.ttf`) version of Hack. An OpenType (`.otf`) build is also available.
+We recommended using the **TrueType** (`.ttf`) version of Hack. An OpenType (`.otf`) build is available for experienced users.
 
 #### Mac OS X and Linux
 
@@ -24,42 +24,50 @@ We recommended using the **TrueType** (`.ttf`) version of Hack. An OpenType (`.o
 3. Follow the instructions from your operating system.
 4. Enjoy!
 
-**NOTE**: If you are updating your version of Hack, be sure to remove the previously installed version first to avoid conflicts. For more information, see [INSTALLATION.md](docs/INSTALLATION.md).
+**NOTE ON UPDATING**<br>
+If you are updating your version of Hack, be sure to remove the previously installed version first to avoid conflicts. For more information, see [INSTALLATION.md](docs/INSTALLATION.md).
 
 #### Windows
 
-To simplify the installation process on Windows systems, we recommend using the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/tag/v1.1.2) (`.exe`) which will guide you through the installation process.
+To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/tag/v1.1.2) (`.exe`) which will guide you through the installation process. The installer will also clean up any previous installation of Hack.
 
 ---
 
 ## Advanced options
 
-<!-- TODO intro about updates -->
+Because Hack is under active development and updates are released frequently, we highly recommended using a package manager or other auto-updating utility. While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.
 
-A full list of all changes can be found in the [CHANGELOG](docs/CHANGELOG.md).
+### Package managers and desktop installation
 
-### Advanced installation options
+Details on using package managers and/or advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
 
-<!-- TODO installation, package managers (intro + link) -->
+Hack can be installed and updated via various package managers. We are aware of package manager support on the following systems/distros:
+
+- **Mac OS X**: `homebrew`
+- **Arch Linux**: `pacman`
+- **Fedora / CentOS**: `copr`, `dnf` or `yum`
+- **Gentoo Linux**: `emerge`
+- **Ubuntu / Debian**: `apt-get`
+
+<!-- TODO @chris: no idea if the wording of the above makes any sense for package manager users -->
 
 ### Web font usage
 
-<!-- TODO web font usage (intro + link) -->
+Hack is available in all the regular webfont formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN by the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr). **Bold** and _italic_ styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
+```
+
+```css
+code {
+	font-family: Hack, monospace;
+}
+```
 
 ### Additional tools for customization
 
-<!-- TODO add a bit about font-line -->
-
-
-<!--
-### New!
-
-You can now modify the default line spacing in Hack fonts with our new `font-line` tool.  Hack uses a default value of 20% UPM for line spacing.  Decrease the value to tighten the spacing, increase it to widen your spacing.  Modification details are available on the `font-line` repository:
-
-https://github.com/source-foundry/font-line
-
-or [use one of our handy shell scripts](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) that automates the `font-line` install and line spacing modification process for a range of line spacing % UPM values between 10 - 30%.  Select the script that fits your needs and execute it in the download directory that contains your .ttf and/or .otf font files **before you install them**.
--->
+**font-line** is a tool that lets you easily modify the default line spacing of Hack. See the [font-line repository](https://github.com/source-foundry/font-line) for more details, and be sure to check out the [line-spacing repository](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) for some font-line automation.
 
 ---
 
