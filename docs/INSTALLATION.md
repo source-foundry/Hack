@@ -57,6 +57,19 @@ For other systems, check for packages using your distro's package manager search
 
 As of v2.020, we recommend that users of Windows 7 through Windows 10 use the [Hack Windows installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) to install the Hack fonts. This tool addresses a number of common Windows font installation issues that have led to a wide range of rendering problems for our users.  To view more information about the installer, rationale for its use, the source code, and the VirusTotal report, please see the [Hack Windows Installer repository](https://github.com/source-foundry/Hack-windows-installer).
 
-If you would prefer to install the files manually, we recommend that you use the [TTF][ttf_latest] fonts.  Download the zip archive, extract the files, and double click on the fonts to view them in the font previewer. Click the *Install* button to install them on your system. If you have previously installed the Hack fonts on your system and are having issues with the installation of a newer version, please remove the old Hack fonts before you attempt the new font install. Open `Control Panel`, navigate to `Appearance and Personalization`, then `Fonts`, right click on each of the Hack fonts and delete them. Restart your computer and install the fonts as described above. See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) and [issue report #177](https://github.com/chrissimpkins/Hack/issues/177) for additional information.
+*Nuget package*: install via [Visual Studio Package Manager Console](https://docs.nuget.org/consume/package-manager-console) ([Package Source](https://www.nuget.org/packages/Hack.Font/2.19.0))
+
+      Install-Package Hack.Font 
+
+*Chocolatey*: install via choco command ([Package Source](https://chocolatey.org/packages/hackfont))
+    
+      choco install hackfont
+
+*Manual installation*: If you would prefer to install the files manually, we recommend that you use the *TrueType* (`.ttf`) fonts.  
+
+Download the TTF zip archive from [Releases](https://github.com/chrissimpkins/Hack/releases/latest), extract the files, and double click on the fonts to view them in the font previewer. Click the *Install* button to install them on your system. 
+
+**NOTE ON UPDATING** 
+If you have previously installed the Hack fonts on your system and are having issues with the installation of a newer version, please remove the old Hack fonts before you attempt the new font install. Open `Control Panel`, navigate to `Appearance and Personalization`, then `Fonts`, right click on each of the Hack fonts and delete them. Restart your computer and install the fonts as described above. See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) and [issue report #177](https://github.com/chrissimpkins/Hack/issues/177) for additional information.
 
 More information about font installation and upgrade issues on the Windows platform is available on the [Font Installation Issues](https://github.com/source-foundry/Hack-windows-installer/blob/master/FontInstallationIssues.md) document in the Hack Windows Installer repository.
