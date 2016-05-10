@@ -3,23 +3,21 @@
 
 ### a typeface designed for source code
 
-No frills. No gimmicks. Hack is hand groomed by Christopher Simpkins and optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.
+No frills. No gimmicks. Hack is optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.
 
 * [Quick installation](#user-content-quick-installation)
-* [About Hack](docs/ABOUT.md)
-* [Type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
-* [Project website](http://sourcefoundry.org/hack/)
-* [Changelog](CHANGELOG.md)
-* [Contributors](docs/CONTRIBUTORS.md)
+* [Package managers](#user-content-package-managers)
+* [Web font usage](#user-content-web-font-usage)
+* [Overview of features](#user-content-overview-of-features)
+* [Additional tools for customization](#user-content-additional-tools-for-customization)
+* [Resources](#user-content-resources)
 * [License](#user-content-license)
 
 The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. More details in [LICENSE.md](LICENSE.md)
 
+<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+
 ## Quick installation
-
-#### Windows
-
-To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) (`.exe`) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs on the Windows platform and is the recommended approach on the Windows platform.
 
 #### Mac OS X and Linux
 
@@ -31,9 +29,13 @@ To simplify the installation process on Windows systems, we've created the [Hack
 **NOTE ON UPDATING** 
 If you are updating your version of Hack, be sure to remove the previously installed version first to avoid conflicts. 
 
+#### Windows
+
+To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) (`.exe`) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs on the Windows platform and is the recommended approach on the Windows platform.
+
 #### Manual installation
 
-We recommend use of the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users. A [build with CFF curves][otf_latest] (`.otf`) is available for those who prefer this format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
+We recommend use of the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OpenType][otf_latest] (`.otf`) is available for those who prefer this format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
 
 
 ## Package managers
@@ -67,9 +69,26 @@ Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](
 code { font-family: Hack, monospace; }
 ```
 
-#### Additional tools for customization
+## Additional tools for customization
 
 **font-line** is a tool that lets you easily modify the default line spacing of Hack (20% UPM). See the [font-line repository](https://github.com/source-foundry/font-line) for more details, and be sure to check out the [line-spacing directory of the repository](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) for shell scripts that automate the entire process across several commonly used line spacing defaults.
+
+## Overview of features
+
+- **Typeface Name**: Hack
+- **Category**: Monospaced
+- **Powerline Support**: Yes
+- **Number of Glyphs**: 1561
+- **Included Glyph Sets**: ASCII, etc. **TODO**
+- **Included Styles**: Regular, Bold, Italic, Bold Italic
+- **Latest Release**: v2.020 (2016-04-29)
+
+## Resources
+* [About Hack](docs/ABOUT.md)
+* [Full specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
+* [Changelog](CHANGELOG.md)
+* [Project website](http://sourcefoundry.org/hack/)
+* [Contributors](docs/CONTRIBUTORS.md)
 
 
 ## License
