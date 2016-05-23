@@ -44,15 +44,17 @@ For general screen use, we recommend the [TrueType](ttf_latest) (`.ttf`) version
 
 Because Hack is under active development and updates are released frequently, we highly recommended the convenience of a package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.
 
-- **Mac OS X**: `brew cask install caskroom/fonts/font-hack`
-- **Arch Linux**: `pacman -S ttf-hack`
-- **Fedora / CentOS**: `copr`, `dnf` or `yum`
-- **Gentoo Linux**: `emerge -av media-fonts/hack`
-- **Ubuntu / Debian**: `apt-get install fonts-hack-ttf`
-- **Visual Studio (Package Manager)**: `install-package hack.font`
-- **Chocolatey**: `choco install hackfont`
+We are aware of Hack support in the following package managers (with associated package names):
 
-Details on using package managers and/or advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
+- **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
+- **Arch Linux**: `ttf-hack`
+- **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
+- **Gentoo Linux**: `media-fonts/hack`
+- **Ubuntu / Debian**: `fonts-hack-ttf`
+- **Visual Studio Package Manager**: `hack.font`
+- **Chocolatey (Windows)**: `hackfont`
+
+Details on package manager use and advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
 
 ## Web font usage
 
