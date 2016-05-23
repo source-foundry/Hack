@@ -1,9 +1,11 @@
 
 # Hack  [![Contributors](https://img.shields.io/badge/contributors-104-orange.svg?style=flat)](https://github.com/chrissimpkins/Hack/blob/master/docs/CONTRIBUTORS.md)
 
-### a typeface designed for source code
+### A typeface designed for source code
 
-No frills. No gimmicks. Hack is optically balanced to be a workhorse face for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.
+Hack is designed to be a workhorse typeface for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The project is in active development and we welcome your input.
+
+### Contents
 
 * [Quick installation](#user-content-quick-installation)
 * [Package managers](#user-content-package-managers)
@@ -13,29 +15,29 @@ No frills. No gimmicks. Hack is optically balanced to be a workhorse face for co
 * [Resources](#user-content-resources)
 * [License](#user-content-license)
 
-The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. More details in [LICENSE.md](LICENSE.md)
+The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. For additional details about licensing, please see [LICENSE.md](LICENSE.md).
 
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
 ## Quick installation
 
+**NOTE ON FONT UPDATES** 
+*If you are updating your version of Hack, be sure to remove the previously installed version and clear your font cache first to avoid conflicts that can lead to platform-specific rendering errors.  Many platforms/distros offer package managers that automate this process. We release a Windows installer to automate the install/update process on the Windows platform. See below for additional details.*
+
 #### Mac OS X and Linux
 
 1. Download the [latest version of Hack][ttf_latest].
-2. Extract the files from the archive (`.zip`) and open them.
+2. Extract the files from the archive (`.zip`) and click to open them.
 3. Follow the instructions from your operating system.
 4. Enjoy!
 
-**NOTE ON UPDATING** 
-If you are updating your version of Hack, be sure to remove the previously installed version first to avoid conflicts. 
-
 #### Windows
 
-To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) (`.exe`) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs on the Windows platform and is the recommended approach on the Windows platform.
+To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
 
-#### Manual installation
+#### Font build recommendations
 
-We recommend use of the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OpenType][otf_latest] (`.otf`) is available for those who prefer this format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
+For general screen use, we recommend the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
 
 
 ## Package managers
@@ -51,8 +53,6 @@ Because Hack is under active development and updates are released frequently, we
 - **Chocolatey**: `choco install hackfont`
 
 Details on using package managers and/or advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
-
-<!-- TODO @david: the Fedora/CentOS are a set of multiline commands, how best to display these (see original README).  Users will need all of the info contained previously -->
 
 ## Web font usage
 
@@ -79,7 +79,6 @@ code { font-family: Hack, monospace; }
 - **Category**: Monospaced
 - **Powerline Support**: Yes
 - **Number of Glyphs**: 1561
-- **Included Glyph Sets**: ASCII, etc. **TODO**
 - **Included Styles**: Regular, Bold, Italic, Bold Italic
 - **Latest Release**: v2.020 (2016-04-29)
 
