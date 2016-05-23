@@ -3,7 +3,7 @@
 
 ### A typeface designed for source code
 
-Hack is designed to be a workhorse typeface for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The project is in active development and we welcome your input.
+Hack is designed to be a workhorse typeface for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The project is in active development.  We welcome your input and contributions.
 
 ### Contents
 
@@ -35,9 +35,9 @@ The font binaries are released under a license that permits unlimited print, des
 
 To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
 
-#### Font build recommendations
+#### Font release recommendations
 
-For general screen use, we recommend the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
+For general screen use on the desktop, we recommend the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
 
 
 ## Package managers
@@ -46,13 +46,14 @@ Because Hack is under active development and updates are released frequently, we
 
 We are aware of Hack support in the following package managers (with associated package names):
 
-- **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
 - **Arch Linux**: `ttf-hack`
+- **Chocolatey (Windows)**: `hackfont`
+- **Debian**: `fonts-hack-ttf`
 - **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
-- **Ubuntu / Debian**: `fonts-hack-ttf`
+- **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
+- **Ubuntu**: `fonts-hack-ttf`
 - **Visual Studio Package Manager**: `hack.font`
-- **Chocolatey (Windows)**: `hackfont`
 
 Details on package manager use and advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
 
@@ -68,10 +69,10 @@ Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](
 **CSS file**
 
 ```css
-code { font-family: Hack, monospace; }
+pre, code { font-family: Hack, monospace; }
 ```
 
-## Additional tools for customization
+## Additional tools for Hack font customization
 
 **font-line** is a tool that lets you easily modify the default line spacing of Hack (20% UPM). See the [font-line repository](https://github.com/source-foundry/font-line) for more details, and be sure to check out the [line-spacing directory of the repository](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) for shell scripts that automate the entire process across several commonly used line spacing defaults.
 
