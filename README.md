@@ -59,13 +59,26 @@ Details on package manager use and advanced manual desktop installation options 
 
 ## Web font usage
 
-Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and _italic_ styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
-**&lt;head&gt; Section of HTML file**
+#### 1. Add Hack to HTML
+
+Select one of the following:
+
+**&lt;head&gt; Section of HTML file - Basic Latin + Latin-1 Supplement Character Set Character Set**
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 ```
+
+**&lt;head&gt; Section of HTML file - Full Character Set**
+
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
+```
+
+#### 2. Add Hack to CSS
+
 **CSS file**
 
 ```css
@@ -73,6 +86,8 @@ pre, code { font-family: Hack, monospace; }
 ```
 
 ## Additional tools for Hack font customization
+
+### Line Spacing Adjustments
 
 **font-line** is a tool that lets you easily modify the default line spacing of Hack (20% UPM). See the [font-line repository](https://github.com/source-foundry/font-line) for more details, and be sure to check out the [line-spacing directory of the repository](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) for shell scripts that automate the entire process across several commonly used line spacing defaults.
 
