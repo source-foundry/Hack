@@ -8,7 +8,7 @@ Hack is designed to be a workhorse typeface for code. It has deep roots in the l
 ### Contents
 
 * [Quick installation](#user-content-quick-installation)
-* [Package managers](#user-content-package-managers)
+* [Package manager installation](#user-content-package-managers)
 * [Web font usage](#user-content-web-font-usage)
 * [Overview of features](#user-content-overview-of-features)
 * [Additional tools for customization](#user-content-additional-tools-for-customization)
@@ -79,7 +79,6 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 
 #### 2. Add Hack to CSS
 
-**CSS file**
 
 ```css
 pre, code { font-family: Hack, monospace; }
