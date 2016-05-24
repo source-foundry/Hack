@@ -1,8 +1,8 @@
 # Desktop Installation
 
-Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. The best format and install approach depends on your operating system. If you do not know which format is optimal for your system, the TTF files should be used as your default.
+Hack is available for download in either [OTF][otf_latest] or [TTF][ttf_latest] formats. The best format and install approach depends on your operating system. If you do not know which format is optimal for your system, we recommend that you use the TTF files as the default for general purpose screen use.
 
-Because Hack is under active development and updates are released frequently we highly recommended using a package manager or other auto-updating utility.  While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.  Please note that the Hack packages in these package managers are not maintained by the Hack project developers.  If you come across a problem with the release schedule in your package manager, please report it directly to the respective package maintainer on your platform.
+Because Hack is under active development and updates are released frequently we recommended using a package manager or other auto-updating utility.  While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.  Please note that the Hack packages in these package managers are not maintained by the Hack project developers.  If you come across a problem with the release schedule in your package manager, please report it directly to the respective package maintainer on your platform.
 
 ## OS X
 
@@ -50,7 +50,18 @@ Most Linux and BSD systems can handle either [TTF][ttf_latest] or [OTF][otf_late
 
    For older systems either manually download and install one of the deb packages or see the [manual install instructions](https://wiki.ubuntu.com/Fonts) and [issue report #189](https://github.com/chrissimpkins/Hack/issues/189).
 
-For other systems, check for packages using your distro's package manager search function. If no packages exist download your preferred format and copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`). On systems using Fontconfig you may need to regenerate the font caches and indexes after copying the files (e.g. `fc-cache -s; mkfontscale <install_path>; mkfontdir <install_path>`).
+For other systems, check for packages using your distro's package manager search function. 
+
+### Manual installation on Linux
+If no packages exist in your package manager, download the [TTF archive][ttf_latest] and copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`). 
+
+**Clear and Regenerate Font Cache**: Following a manual install on Linux, systems using Fontconfig may need to regenerate the font caches and indexes:
+
+```
+$ fc-cache -s
+$ mkfontscale <install_path>
+$ mkfontdir <install_path>
+```
 
 
 ## Windows
@@ -67,9 +78,14 @@ As of v2.020, we recommend that users of Windows 7 through Windows 10 use the [H
 
 *Manual installation*: If you would prefer to install the files manually, we recommend that you use the *TrueType* (`.ttf`) fonts.  
 
-Download the TTF zip archive from [Releases](https://github.com/chrissimpkins/Hack/releases/latest), extract the files, and double click on the fonts to view them in the font previewer. Click the *Install* button to install them on your system. 
+Download the [TTF zip archive][ttf_latest], extract the files, and double click on the fonts to view them in the font previewer. Click the *Install* button to install them on your system. 
 
 **NOTE ON UPDATING** 
 If you have previously installed the Hack fonts on your system and are having issues with the installation of a newer version, please remove the old Hack fonts before you attempt the new font install. Open `Control Panel`, navigate to `Appearance and Personalization`, then `Fonts`, right click on each of the Hack fonts and delete them. Restart your computer and install the fonts as described above. See [issue report #152](https://github.com/chrissimpkins/Hack/issues/152) and [issue report #177](https://github.com/chrissimpkins/Hack/issues/177) for additional information.
 
 More information about font installation and upgrade issues on the Windows platform is available on the [Font Installation Issues](https://github.com/source-foundry/Hack-windows-installer/blob/master/FontInstallationIssues.md) document in the Hack Windows Installer repository.
+
+<!-- THE FOLLOWING LINKS ARE ALSO USED IN README.MD --> 
+
+[otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
+[ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
