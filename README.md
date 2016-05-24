@@ -37,7 +37,7 @@ To simplify the installation process on Windows systems, we've created the [Hack
 
 #### Font release recommendations
 
-For general screen use on the desktop, we recommend the [TrueType](ttf_latest) (`.ttf`) version of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
+For general screen use on the desktop, we recommend the [TTF builds][ttf_latest] of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
 
 
 ## Package managers
@@ -63,15 +63,15 @@ Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](
 
 #### 1. Add Hack to HTML
 
-Select one of the following:
+Include one of the following in the &lt;head&gt; section of your HTML file:
 
-**&lt;head&gt; Section of HTML file - Basic Latin + Latin-1 Supplement Character Set Character Set**
+**Basic Latin + Latin-1 Supplement Character Set Character Set**
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 ```
 
-**&lt;head&gt; Section of HTML file - Full Character Set**
+**Full Character Set**
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
