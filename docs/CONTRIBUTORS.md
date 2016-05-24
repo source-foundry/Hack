@@ -7,6 +7,7 @@
 - Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins))
 - David van Gemeren ([@burodepeper](https://github.com/burodepeper))
 - Michael "Tex" Hex ([@texhex](https://github.com/texhex))
+- Jorg Heymans ([@jorgheymans](https://github.com/jorgheymans))
 
 
 ### Glyph Design
@@ -50,11 +51,9 @@
 - @rafaeln - Kĩsêdjê set
 - @xstee (Leonid) - Cyrillic set
 
-
 ### Web Development
 
 - JM
-
 
 ### Redistribution & Installation
 
@@ -86,6 +85,7 @@
 - Ognan Kulev
 - John Karp
 - Lars Christensen
+
 
 ### Bitstream Vera
 
