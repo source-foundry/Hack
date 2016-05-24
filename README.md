@@ -10,8 +10,8 @@ Hack is designed to be a workhorse typeface for code. It has deep roots in the l
 * [Quick installation](#user-content-quick-installation)
 * [Package manager installation](#user-content-package-managers)
 * [Web font usage](#user-content-web-font-usage)
+* [Additional tools for customization](##additional-tools-for-hack-font-customization)
 * [Overview of features](#user-content-overview-of-features)
-* [Additional tools for customization](#user-content-additional-tools-for-customization)
 * [Resources](#user-content-resources)
 * [License](#user-content-license)
 
