@@ -1,8 +1,8 @@
-### Webfont Usage
+### Web Font Usage
 
 Hack webfonts are released in eot, ttf, woff, and woff2 formats.  They include a complete Hack character set build and a smaller [basic Latin](http://www.unicode.org/charts/PDF/U0000.pdf) + [Latin-1 supplement](http://www.unicode.org/charts/PDF/U0080.pdf) Unicode character block build.  The latter build set is smaller in size and is intended to improve page loading times when you do not need the entire Hack character set.
 
-You can view the rendering of the webfonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
+You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://chrissimpkins.github.io/Hack/font-specimen.html).
 
 #### Hack by CDN
 
@@ -27,12 +27,12 @@ Include **one** of the following lines in the `<head>` section of your site's HT
 Then style your text by including `Hack` in the appropriate `font-family` property of your CSS.  For example:
 
 ```css
-code {
+pre, code {
 	font-family: Hack, monospace;
 }
 ```
 
-The **bold**, *italic*, and <b><i>bold italic</i></b> text styles are formatted with HTML using `<b>text block</b>`, `<i>text block</i>`, and `<b><i>text block</i></b>` HTML tags, respectively.
+**Bold** and _italic_ styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
 
 #### Host Hack Font Files on Your Server
