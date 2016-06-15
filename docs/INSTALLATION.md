@@ -89,3 +89,6 @@ More information about font installation and upgrade issues on the Windows platf
 
 [otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
 [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
+
+**NOTE FOR USERS OF JETBRAINS PRODUCTS (IntelliJ, PyCharm, ...)**
+A number of [rendering](https://github.com/chrissimpkins/Hack/issues/129) [issues](https://github.com/chrissimpkins/Hack/issues/140) have been reported by users of the JetBrains toolsuite on Windows. While we were able to fix most of them in the font design itself, we discovered that some issues are in fact caused by a [bug](https://bugs.openjdk.java.net/browse/JDK-8146035) in the jdk itself. The bug has been fixed in the master branch of jdk9, and should be available in [early access releases](https://jdk9.java.net/download/) as of b117. If your particular JetBrains tools does not support yet jdk9, a [workaround](https://youtrack.jetbrains.com/issue/IDEA-155229#comment=27-1420220) involving setting a system property is documented in the JetBrains issue tracker.
