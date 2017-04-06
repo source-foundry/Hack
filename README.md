@@ -109,7 +109,7 @@ pre, code { font-family: Hack, monospace; }
 
 ## License
 
-**Hack** &copy; 2015-2016, Christopher Simpkins (with Reserved Font Name _Hack_). 
+**Hack** &copy; 2015-2017, Christopher Simpkins (with Reserved Font Name _Hack_). 
 
 **Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_). 
 
