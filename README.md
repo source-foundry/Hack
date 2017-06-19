@@ -35,6 +35,14 @@ The font binaries are released under a license that permits unlimited print, des
 
 To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
 
+#### Chrome/ChromeOS
+
+To use with [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo),
+edit the following fields in Options:
+
+  - font-family: `"Hack"`
+  - user-css: `https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css`
+
 #### Font release recommendations
 
 For general screen use on the desktop, we recommend the [TTF builds][ttf_latest] of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
