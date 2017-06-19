@@ -58,7 +58,7 @@ If no packages exist in your package manager, download the [TTF archive][ttf_lat
 **Clear and Regenerate Font Cache**: Following a manual install on Linux, systems using Fontconfig may need to regenerate the font caches and indexes:
 
 ```
-$ fc-cache -s
+$ fc-cache
 $ mkfontscale <install_path>
 $ mkfontdir <install_path>
 ```
