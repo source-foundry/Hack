@@ -21,7 +21,7 @@ The font binaries are released under a license that permits unlimited print, des
 
 ## Quick installation
 
-**NOTE ON FONT UPDATES** 
+**NOTE ON FONT UPDATES**
 *If you are updating your version of Hack, be sure to remove the previously installed version and clear your font cache first to avoid conflicts that can lead to platform-specific rendering errors.  Many platforms/distros offer package managers that automate this process. We release a Windows installer to automate the install/update process on the Windows platform. See below for additional details.*
 
 #### Mac OS X and Linux
@@ -50,7 +50,7 @@ For general screen use on the desktop, we recommend the [TTF builds][ttf_latest]
 
 ## Package managers
 
-Because Hack is under active development and updates are released frequently, we highly recommended the convenience of a package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers automate and simplify font updates on your system.
+We highly recommended the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers were designed to tune and automate font installs and updates on your system.
 
 We are aware of Hack support in the following package managers (with associated package names):
 
@@ -106,7 +106,7 @@ pre, code { font-family: Hack, monospace; }
 - **Powerline Support**: Yes
 - **Number of Glyphs**: 1561
 - **Included Styles**: Regular, Bold, Italic, Bold Italic
-- **Latest Release**: v2.020 (2016-04-29)
+- **Latest Release**: v2.020
 
 ## Resources
 * [About Hack](docs/ABOUT.md)
@@ -118,15 +118,15 @@ pre, code { font-family: Hack, monospace; }
 
 ## License
 
-**Hack** &copy; 2015-2017, Christopher Simpkins (with Reserved Font Name _Hack_). 
+**Hack** &copy; 2015-2017, Christopher Simpkins (with Reserved Font Name _Hack_).
 
-**Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_). 
+**Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_).
 
 See [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md) for the full texts of the licenses.
 
 
 
-<!-- THE FOLLOWING LINKS ARE ALSO USED IN INSTALLATION.MD --> 
+<!-- THE FOLLOWING LINKS ARE ALSO USED IN INSTALLATION.MD -->
 
 [otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
 [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
