@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni10F4" format="1">
+  <advance width="1233"/>
+  <unicode hex="10F4"/>
+  <outline>
+    <contour>
+      <point x="609" y="-425" type="qcurve" name="ab01"/>
+      <point x="151" y="-425"/>
+      <point x="151" y="-20" type="qcurve" name="sh01"/>
+      <point x="341" y="-20" type="line" name="sh02"/>
+      <point x="341" y="-284"/>
+      <point x="608" y="-284" type="qcurve" name="sv01"/>
+      <point x="877" y="-284"/>
+      <point x="877" y="-20" type="qcurve" name="sh03"/>
+      <point x="877" y="35" type="line"/>
+      <point x="877" y="271"/>
+      <point x="602" y="271" type="qcurve" name="dv01"/>
+      <point x="446" y="271" type="line"/>
+      <point x="446" y="428" type="line"/>
+      <point x="602" y="428" type="line" name="hr01"/>
+      <point x="878" y="438"/>
+      <point x="878" y="853" type="qcurve" name="dh03"/>
+      <point x="814" y="833"/>
+      <point x="676" y="816"/>
+      <point x="605" y="816" type="qcurve" name="dv02"/>
+      <point x="373" y="816"/>
+      <point x="151" y="994"/>
+      <point x="151" y="1175" type="qcurve" name="dh01"/>
+      <point x="151" y="1359"/>
+      <point x="377" y="1558"/>
+      <point x="610" y="1557" type="qcurve" name="at01"/>
+      <point x="610" y="1415" type="line" name="sh04"/>
+      <point x="454" y="1415"/>
+      <point x="298" y="1292"/>
+      <point x="298" y="1178" type="qcurve" name="dh02"/>
+      <point x="298" y="1066"/>
+      <point x="449" y="959"/>
+      <point x="598" y="959" type="qcurve" name="dv03"/>
+      <point x="731" y="959"/>
+      <point x="955" y="1043"/>
+      <point x="1067" y="1127" type="qcurve" name="sh05"/>
+      <point x="1067" y="863" type="line"/>
+      <point x="1067" y="663"/>
+      <point x="915" y="417"/>
+      <point x="759" y="363" type="qcurve"/>
+      <point x="759" y="343" type="line" name="hr02"/>
+      <point x="1068" y="281"/>
+      <point x="1068" y="35" type="qcurve" name="hr03"/>
+      <point x="1068" y="-20" type="line"/>
+      <point x="1068" y="-425"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 2"/>
+    <ttc code="alignb" point="ab01" zone="b: 2"/>
+    <ttc code="doublev" point1="dv01" point2="hr01" stem="Y: 156"/>
+    <ttc code="doublev" point1="dv02" point2="dv03" stem="y: 143"/>
+    <ttc code="singlev" point1="ab01" point2="sh01" round="true"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 143"/>
+    <ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="9"/>
+    <ttc code="interpolatev" point="dh03" point1="dv02" point2="dv03"/>
+    <ttc code="singlev" point1="at01" point2="sh04" stem="y: 143"/>
+    <ttc code="interpolatev" point="sh05" point1="ab01" point2="at01"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 160"/>
+    <ttc code="doubleh" point1="dh03" point2="hr03" stem="X: 184"/>
+    <ttc code="singleh" point1="dh01" point2="sh01"/>
+    <ttc code="singleh" point1="dh01" point2="sh02" stem="X: 184"/>
+    <ttc code="singleh" point1="dh03" point2="sh03" align="round"/>
+    <ttc code="singleh" point1="dh01" point2="sh04" round="true"/>
+    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="17"/>
+    <ttc code="mdeltah" point="dh02" delta="-3" ppm1="18" ppm2="19"/>
+    <ttc code="singleh" point1="hr03" point2="sh05" align="round"/>
+    <ttc code="singleh" point1="hr03" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ab01">
+      <hstem pos="-425" width="141" />
+      <hstem pos="-425" width="405" />
+      <hstem pos="271" width="157" />
+      <hstem pos="816" width="143" />
+      <hstem pos="1415" width="142" />
+      <vstem pos="151" width="147" />
+      <vstem pos="151" width="459" />
+      <vstem pos="151" width="190" />
+      <vstem pos="878" width="190" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

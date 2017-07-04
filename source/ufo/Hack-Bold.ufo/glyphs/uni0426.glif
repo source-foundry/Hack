@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0426" format="1">
+  <advance width="1233"/>
+  <unicode hex="0426"/>
+  <outline>
+    <contour>
+      <point x="935" y="0" type="line" name="ih01"/>
+      <point x="132" y="0" type="line" name="dh01"/>
+      <point x="132" y="1493" type="line" name="at01"/>
+      <point x="427" y="1493" type="line" name="hr01"/>
+      <point x="427" y="260" type="line" name="dh02"/>
+      <point x="796" y="260" type="line" name="dh03"/>
+      <point x="796" y="1493" type="line" name="at02"/>
+      <point x="1091" y="1493" type="line"/>
+      <point x="1091" y="260" type="line" name="dh04"/>
+      <point x="1228" y="260" type="line" name="sh01"/>
+      <point x="1228" y="-322" type="line" name="av01"/>
+      <point x="935" y="-322" type="line" name="hr02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignt" point="at02" zone="t: 1"/>
+    <ttc code="alignb" point="ih01" zone="b: 0"/>
+    <ttc code="singlev" point1="ih01" point2="dh02" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="dh02" point2="dh04"/>
+    <ttc code="singlev" point1="dh04" point2="sh01"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 295.Vstem"/>
+    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 295.Vstem"/>
+    <ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04" align="round"/>
+    <ttc code="singleh" point1="ih01" point2="sh01" stem="X: 293"/>
+    <ttc code="singleh" point1="sh01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ih01">
+      <hstem pos="-301" width="-21" />
+      <hstem pos="0" width="260" />
+      <hstem pos="1493" width="-20" />
+      <vstem pos="132" width="295" />
+      <vstem pos="796" width="295" />
+      <vstem pos="935" width="293" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04CC" format="1">
+  <advance width="1233"/>
+  <unicode hex="04CC"/>
+  <outline>
+    <contour>
+      <point x="404" y="209" type="line" name="sv01"/>
+      <point x="693" y="209" type="line"/>
+      <point x="733" y="416" type="line" name="dv01"/>
+      <point x="626" y="416" type="line"/>
+      <point x="395" y="416"/>
+      <point x="261" y="517" type="qcurve"/>
+      <point x="257" y="520" type="line"/>
+      <point x="214" y="553"/>
+      <point x="168" y="652"/>
+      <point x="168" y="717" type="qcurve"/>
+      <point x="168" y="740"/>
+      <point x="173" y="789"/>
+      <point x="178" y="813" type="qcurve"/>
+      <point x="238" y="1120" type="line" name="at01"/>
+      <point x="537" y="1120" type="line"/>
+      <point x="471" y="783" type="line"/>
+      <point x="468" y="765"/>
+      <point x="468" y="750" type="qcurve"/>
+      <point x="468" y="712"/>
+      <point x="488" y="689" type="qcurve" name="hr01"/>
+      <point x="491" y="685"/>
+      <point x="500" y="677"/>
+      <point x="506" y="672" type="qcurve"/>
+      <point x="554" y="633"/>
+      <point x="668" y="633" type="qcurve"/>
+      <point x="775" y="633" type="line" name="dv02"/>
+      <point x="870" y="1121" type="line" name="at02"/>
+      <point x="1160" y="1121" type="line"/>
+      <point x="942" y="0" type="line" name="ab01"/>
+      <point x="652" y="0" type="line"/>
+      <point x="589" y="-324" type="line" name="av01"/>
+      <point x="300" y="-324" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="alignt" point="at02" zone="t: 0"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 225"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 225"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="sv01">
+      <hstem pos="-303" width="-21" />
+      <hstem pos="0" width="209" />
+      <hstem pos="416" width="217" />
+      <hstem pos="1120" width="-20" />
+      <hstem pos="1121" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

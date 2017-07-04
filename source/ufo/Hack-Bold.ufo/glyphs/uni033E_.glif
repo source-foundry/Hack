@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni033E" format="1">
+  <advance width="0"/>
+  <unicode hex="033E"/>
+  <outline>
+    <contour>
+      <point x="-757" y="1340" type="line" name="hr00"/>
+      <point x="-749" y="1340" type="line"/>
+      <point x="-692" y="1340"/>
+      <point x="-629" y="1370"/>
+      <point x="-629" y="1397" type="qcurve"/>
+      <point x="-629" y="1420"/>
+      <point x="-659" y="1452" type="qcurve"/>
+      <point x="-703" y="1498" type="line"/>
+      <point x="-734" y="1531"/>
+      <point x="-759" y="1583"/>
+      <point x="-759" y="1610" type="qcurve" name="dh01"/>
+      <point x="-759" y="1692"/>
+      <point x="-612" y="1775"/>
+      <point x="-475" y="1775" type="qcurve" name="sh01"/>
+      <point x="-475" y="1653" type="line"/>
+      <point x="-483" y="1653" type="line"/>
+      <point x="-540" y="1653"/>
+      <point x="-573" y="1639" type="qcurve"/>
+      <point x="-605" y="1625"/>
+      <point x="-605" y="1598" type="qcurve"/>
+      <point x="-605" y="1579"/>
+      <point x="-573" y="1544" type="qcurve"/>
+      <point x="-568" y="1539"/>
+      <point x="-567" y="1536" type="qcurve"/>
+      <point x="-531" y="1495" type="line"/>
+      <point x="-513" y="1475"/>
+      <point x="-490" y="1446"/>
+      <point x="-478" y="1420"/>
+      <point x="-473" y="1396"/>
+      <point x="-473" y="1382" type="qcurve" name="dh02"/>
+      <point x="-473" y="1300"/>
+      <point x="-620" y="1218"/>
+      <point x="-757" y="1218" type="qcurve" name="dv01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="sh01" align="round"/>
+    <ttc code="doublev" point1="dv01" point2="hr00" stem="Y: 172"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 293"/>
+    <ttc code="singleh" point1="dh01" point2="hr00" align="round"/>
+    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="dh02" point2="sh01" align="round"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="1218" width="122" />
+      <hstem pos="1775" width="-20" />
+      <vstem pos="-759" width="286" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

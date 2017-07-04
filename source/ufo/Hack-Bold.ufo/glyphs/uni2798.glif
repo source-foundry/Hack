@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2798" format="1">
+  <advance width="1233"/>
+  <unicode hex="2798"/>
+  <outline>
+    <contour>
+      <point x="513" y="208" type="line" name="hr00"/>
+      <point x="784" y="394" type="line"/>
+      <point x="116" y="999" type="line"/>
+      <point x="264" y="1148" type="line" name="av02"/>
+      <point x="870" y="480" type="line"/>
+      <point x="1056" y="750" type="line" name="iv01"/>
+      <point x="1117" y="146" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="interpolatev" point="hr00" point1="av01" point2="av02"/>
+    <ttc code="interpolatev" point="iv01" point1="av01" point2="av02"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="167" width="-21" />
+      <hstem pos="1148" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

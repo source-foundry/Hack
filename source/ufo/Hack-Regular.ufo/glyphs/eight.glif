@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight" format="1">
+  <advance width="1233"/>
+  <unicode hex="0038"/>
+  <outline>
+    <contour>
+      <point x="615" y="-29" type="qcurve" name="dv01"/>
+      <point x="499" y="-29"/>
+      <point x="322" y="30"/>
+      <point x="260" y="84" type="qcurve"/>
+      <point x="198" y="138"/>
+      <point x="131" y="295"/>
+      <point x="131" y="400" type="qcurve" name="dh01"/>
+      <point x="131" y="559"/>
+      <point x="211" y="660" type="qcurve"/>
+      <point x="290" y="760"/>
+      <point x="440" y="793" type="qcurve" name="ih02"/>
+      <point x="379" y="808"/>
+      <point x="275" y="870"/>
+      <point x="239" y="915" type="qcurve"/>
+      <point x="201" y="962"/>
+      <point x="166" y="1074"/>
+      <point x="166" y="1137" type="qcurve" name="ih03"/>
+      <point x="166" y="1222"/>
+      <point x="226" y="1363"/>
+      <point x="287" y="1416" type="qcurve"/>
+      <point x="346" y="1467"/>
+      <point x="509" y="1520"/>
+      <point x="616" y="1520" type="qcurve" name="at01"/>
+      <point x="723" y="1520"/>
+      <point x="887" y="1467"/>
+      <point x="946" y="1416" type="qcurve"/>
+      <point x="1006" y="1365"/>
+      <point x="1067" y="1224"/>
+      <point x="1067" y="1136" type="qcurve" name="dh04"/>
+      <point x="1067" y="1068"/>
+      <point x="1030" y="960"/>
+      <point x="995" y="916" type="qcurve" name="hr01"/>
+      <point x="960" y="872"/>
+      <point x="859" y="810"/>
+      <point x="793" y="793" type="qcurve" name="ih04"/>
+      <point x="944" y="760"/>
+      <point x="1023" y="660" type="qcurve"/>
+      <point x="1102" y="560"/>
+      <point x="1102" y="402" type="qcurve" name="sh01"/>
+      <point x="1102" y="297"/>
+      <point x="1035" y="138"/>
+      <point x="973" y="84" type="qcurve"/>
+      <point x="910" y="29"/>
+      <point x="730" y="-29"/>
+    </contour>
+    <contour>
+      <point x="616" y="868" type="qcurve" name="dv03"/>
+      <point x="737" y="868"/>
+      <point x="802" y="931" type="qcurve"/>
+      <point x="866" y="994"/>
+      <point x="866" y="1114" type="qcurve" name="dh03"/>
+      <point x="866" y="1235"/>
+      <point x="803" y="1300" type="qcurve"/>
+      <point x="739" y="1364"/>
+      <point x="616" y="1364" type="qcurve" name="hr02"/>
+      <point x="495" y="1364"/>
+      <point x="431" y="1300" type="qcurve"/>
+      <point x="367" y="1236"/>
+      <point x="367" y="1114" type="qcurve" name="sh02"/>
+      <point x="367" y="994"/>
+      <point x="431" y="931" type="qcurve"/>
+      <point x="495" y="868"/>
+    </contour>
+    <contour>
+      <point x="619" y="129" type="qcurve" name="hr03"/>
+      <point x="685" y="129"/>
+      <point x="789" y="167"/>
+      <point x="826" y="205" type="qcurve"/>
+      <point x="863" y="243"/>
+      <point x="899" y="350"/>
+      <point x="899" y="418" type="qcurve" name="ih01"/>
+      <point x="899" y="492"/>
+      <point x="860" y="598"/>
+      <point x="825" y="633" type="qcurve"/>
+      <point x="750" y="709"/>
+      <point x="616" y="709" type="qcurve" name="dv02"/>
+      <point x="481" y="709"/>
+      <point x="408" y="634" type="qcurve"/>
+      <point x="373" y="598"/>
+      <point x="334" y="491"/>
+      <point x="334" y="421" type="qcurve" name="dh02"/>
+      <point x="334" y="353"/>
+      <point x="371" y="244"/>
+      <point x="408" y="206" type="qcurve"/>
+      <point x="446" y="167"/>
+      <point x="553" y="129"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="doublev" point1="dv01" point2="hr03" stem="Y: 156"/>
+    <ttc code="doublev" point1="dv02" point2="dv03" stem="Y: 156"/>
+    <ttc code="interpolatev" point="ih02" point1="dv02" point2="dv03"/>
+    <ttc code="interpolatev" point="ih04" point1="dv02" point2="dv03"/>
+    <ttc code="singlev" point1="at01" point2="hr02" stem="Y: 156"/>
+    <ttc code="mdeltav" point="hr02" delta="2" ppm1="18" ppm2="19"/>
+    <ttc code="mdeltav" point="hr02" delta="1" ppm1="9" ppm2="17"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 203.Vstem"/>
+    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 203.Vstem"/>
+    <ttc code="mdeltah" point="dh03" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04" align="round"/>
+    <ttc code="mdeltah" point="ih01" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="ih01" point2="sh01" stem="X: 203.Vstem"/>
+    <ttc code="interpolateh" point="ih02" point1="dh01" point2="sh01"/>
+    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="interpolateh" point="ih03" point1="dh01" point2="dh02" align="round"/>
+    <ttc code="interpolateh" point="ih04" point1="dh01" point2="sh01"/>
+    <ttc code="singleh" point1="ih03" point2="sh02" stem="X: 203.Vstem"/>
+    <ttc code="singleh" point1="sh01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dv01">
+      <hstem pos="-29" width="158" />
+      <hstem pos="709" width="159" />
+      <hstem pos="1364" width="156" />
+      <vstem pos="131" width="203" />
+      <vstem pos="166" width="201" />
+      <vstem pos="866" width="201" />
+      <vstem pos="899" width="203" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

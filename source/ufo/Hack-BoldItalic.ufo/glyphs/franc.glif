@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="franc" format="1">
+  <advance width="1233"/>
+  <unicode hex="20A3"/>
+  <outline>
+    <contour>
+      <point x="123" y="260" type="line" name="dv01"/>
+      <point x="6" y="260" type="line"/>
+      <point x="40" y="448" type="line" name="hr01"/>
+      <point x="157" y="448" type="line" name="dv02"/>
+      <point x="341" y="1493" type="line" name="at01"/>
+      <point x="1286" y="1493" type="line"/>
+      <point x="1234" y="1202" type="line" name="sv01"/>
+      <point x="640" y="1202" type="line"/>
+      <point x="591" y="924" type="line"/>
+      <point x="1150" y="924" type="line" name="dv04"/>
+      <point x="1097" y="633" type="line" name="dv03"/>
+      <point x="539" y="633" type="line"/>
+      <point x="506" y="448" type="line" name="sv02"/>
+      <point x="614" y="448" type="line" name="sv03"/>
+      <point x="581" y="260" type="line" name="sv04"/>
+      <point x="473" y="260" type="line"/>
+      <point x="427" y="0" type="line" name="hr02"/>
+      <point x="76" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignb" point="hr02" zone="b: 0"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv03" point2="dv04" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="hr02" point2="hr01" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="hr01" point2="sv02"/>
+    <ttc code="singlev" point1="sv02" point2="sv03"/>
+    <ttc code="singlev" point1="dv01" point2="sv04"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dv01">
+      <hstem pos="0" width="448" />
+      <hstem pos="260" width="188" />
+      <hstem pos="633" width="291" />
+      <hstem pos="1202" width="291" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

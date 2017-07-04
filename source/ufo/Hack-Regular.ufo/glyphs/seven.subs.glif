@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.subs" format="1">
+  <advance width="1233"/>
+  <outline>
+    <contour>
+      <point x="761" y="349" type="line" name="hr00"/>
+      <point x="317" y="349" type="line"/>
+      <point x="317" y="444" type="line"/>
+      <point x="901" y="444" type="line" name="dv01"/>
+      <point x="901" y="396" type="line"/>
+      <point x="569" y="-391" type="line" name="av01"/>
+      <point x="438" y="-391" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 143"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-370" width="-21" />
+      <hstem pos="349" width="95" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni049A" format="1">
+  <advance width="1233"/>
+  <unicode hex="049A"/>
+  <outline>
+    <contour>
+      <point x="797" y="0" type="line" name="hr00"/>
+      <point x="787" y="0" type="line"/>
+      <point x="533" y="670" type="line" name="iv01"/>
+      <point x="361" y="500" type="line"/>
+      <point x="266" y="0" type="line" name="ab01"/>
+      <point x="-28" y="0" type="line"/>
+      <point x="260" y="1493" type="line" name="at01"/>
+      <point x="555" y="1493" type="line"/>
+      <point x="447" y="936" type="line" name="iv02"/>
+      <point x="1010" y="1493" type="line" name="at02"/>
+      <point x="1358" y="1493" type="line"/>
+      <point x="752" y="889" type="line"/>
+      <point x="991" y="260" type="line"/>
+      <point x="1141" y="260" type="line"/>
+      <point x="1013" y="-396" type="line" name="av01"/>
+      <point x="720" y="-396" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignt" point="at02" zone="t: 1"/>
+    <ttc code="alignb" point="hr00" zone="b: 0"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="interpolatev" point="iv01" point1="av01" point2="at01"/>
+    <ttc code="interpolatev" point="iv02" point1="av01" point2="at01"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-375" width="-21" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="1493" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

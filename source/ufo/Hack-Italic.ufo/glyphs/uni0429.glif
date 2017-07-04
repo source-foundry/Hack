@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0429" format="1">
+  <advance width="1233"/>
+  <unicode hex="0429"/>
+  <outline>
+    <contour>
+      <point x="943" y="0" type="line" name="ab01"/>
+      <point x="-27" y="0" type="line"/>
+      <point x="263" y="1493" type="line" name="at01"/>
+      <point x="449" y="1493" type="line"/>
+      <point x="192" y="170" type="line" name="sv01"/>
+      <point x="416" y="170" type="line" name="sv05"/>
+      <point x="673" y="1493" type="line" name="at02"/>
+      <point x="859" y="1493" type="line"/>
+      <point x="602" y="170" type="line" name="sv02"/>
+      <point x="826" y="170" type="line" name="sv03"/>
+      <point x="1083" y="1493" type="line" name="at03"/>
+      <point x="1269" y="1493" type="line"/>
+      <point x="1012" y="170" type="line" name="sv04"/>
+      <point x="1146" y="170" type="line" name="sv06"/>
+      <point x="1051" y="-322" type="line" name="hr01"/>
+      <point x="881" y="-322" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignt" point="at02" zone="t: 1"/>
+    <ttc code="alignt" point="at03" zone="t: 1"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 170.Hstem"/>
+    <ttc code="singlev" point1="sv01" point2="sv02"/>
+    <ttc code="singlev" point1="sv02" point2="sv03"/>
+    <ttc code="singlev" point1="sv03" point2="sv04"/>
+    <ttc code="singlev" point1="sv04" point2="sv05"/>
+    <ttc code="singlev" point1="sv04" point2="sv06"/>
+    <ttc code="singlev" point1="sv04" point2="hr01" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ab01">
+      <hstem pos="-322" width="492" />
+      <hstem pos="0" width="170" />
+      <hstem pos="1493" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

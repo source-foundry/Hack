@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni276B" format="1">
+  <advance width="1233"/>
+  <unicode hex="276B"/>
+  <outline>
+    <contour>
+      <point x="366" y="-121" type="line" name="hr00"/>
+      <point x="471" y="60"/>
+      <point x="574" y="416"/>
+      <point x="574" y="599" type="qcurve" name="dh01"/>
+      <point x="574" y="782"/>
+      <point x="472" y="1134"/>
+      <point x="366" y="1316" type="qcurve" name="av01"/>
+      <point x="631" y="1316" type="line"/>
+      <point x="751" y="1129"/>
+      <point x="867" y="776"/>
+      <point x="867" y="600" type="qcurve" name="dh02"/>
+      <point x="867" y="421"/>
+      <point x="749" y="65"/>
+      <point x="631" y="-121" type="qcurve" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="hr00" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 293"/>
+    <ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="9"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-100" width="-21" />
+      <hstem pos="1316" width="-20" />
+      <vstem pos="574" width="293" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

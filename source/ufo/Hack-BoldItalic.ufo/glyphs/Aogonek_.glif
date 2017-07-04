@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aogonek" format="1">
+  <advance width="1233"/>
+  <unicode hex="0104"/>
+  <outline>
+    <contour>
+      <point x="785" y="-182" type="qcurve" name="hr00"/>
+      <point x="785" y="-211"/>
+      <point x="833" y="-254"/>
+      <point x="885" y="-254" type="qcurve" name="dv02"/>
+      <point x="912" y="-254"/>
+      <point x="994" y="-240"/>
+      <point x="1041" y="-223" type="qcurve"/>
+      <point x="1010" y="-379" type="line"/>
+      <point x="961" y="-390"/>
+      <point x="869" y="-401"/>
+      <point x="831" y="-401" type="qcurve" name="dv01"/>
+      <point x="728" y="-401"/>
+      <point x="611" y="-326"/>
+      <point x="611" y="-255" type="qcurve"/>
+      <point x="611" y="-201"/>
+      <point x="686" y="-71"/>
+      <point x="767" y="0" type="qcurve" name="ab01"/>
+      <point x="762" y="0" type="line"/>
+      <point x="748" y="369" type="line" name="dv03"/>
+      <point x="348" y="369" type="line"/>
+      <point x="186" y="0" type="line" name="ab02"/>
+      <point x="-113" y="0" type="line"/>
+      <point x="582" y="1493" type="line" name="at01"/>
+      <point x="942" y="1493" type="line"/>
+      <point x="1055" y="0" type="line" name="ab03"/>
+      <point x="908" y="0" type="line"/>
+      <point x="833" y="-80"/>
+      <point x="809" y="-117" type="qcurve"/>
+      <point x="797" y="-136"/>
+      <point x="785" y="-167"/>
+    </contour>
+    <contour>
+      <point x="737" y="612" type="line" name="dv04"/>
+      <point x="717" y="1219" type="line"/>
+      <point x="453" y="612" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="alignb" point="ab02" zone="b: 0"/>
+    <ttc code="alignb" point="ab03" zone="b: 0"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv03" point2="dv04" stem="y: 260.Hstem"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-401" width="147" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="369" width="243" />
+      <hstem pos="1493" width="-20" />
+      <vstem pos="755" width="243" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

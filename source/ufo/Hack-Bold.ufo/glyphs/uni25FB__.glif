@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25FB" format="1">
+  <advance width="1233"/>
+  <unicode hex="25FB"/>
+  <outline>
+    <contour>
+      <point x="97" y="1051" type="line" name="hr00"/>
+      <point x="1135" y="1051" type="line" name="dv02"/>
+      <point x="1135" y="13" type="line" name="sh01"/>
+      <point x="97" y="13" type="line"/>
+    </contour>
+    <contour>
+      <point x="1021" y="127" type="line" name="ah01"/>
+      <point x="1021" y="937" type="line" name="dv01"/>
+      <point x="211" y="937" type="line" name="sh02"/>
+      <point x="211" y="127" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="sh01" point2="ah01" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 172"/>
+    <ttc code="alignh" point="lsb" align="round"/>
+    <ttc code="alignh" point="ah01" align="round"/>
+    <ttc code="singleh" point1="lsb" point2="hr00" align="round"/>
+    <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 114"/>
+    <ttc code="singleh" point1="hr00" point2="sh02" stem="X: 114"/>
+    <ttc code="singleh" point1="sh01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="13" width="114" />
+      <hstem pos="937" width="114" />
+      <vstem pos="97" width="114" />
+      <vstem pos="1021" width="114" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,184 @@
+@aalt1 = [\zero \one \two \three \four \five \six \seven \eight \nine];
+@aalt2 = [\A \O \Scedilla \a \o \scedilla \exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
+@aalt3 = [\ordfeminine \ordmasculine \ordfeminine \ordmasculine \exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
+@case1 = [\exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
+@case2 = [\exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
+@subs1 = [\zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs];
+@sups1 = [\onesuperior \twosuperior \threesuperior \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
+@aalt1 = [\zero \one \two \three \four \five \six \seven \eight \nine];
+@aalt2 = [\A \O \Scedilla \a \o \scedilla \exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
+@aalt3 = [\ordfeminine \ordmasculine \ordfeminine \ordmasculine \exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
+@case1 = [\exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
+@case2 = [\exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
+@subs1 = [\zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs];
+@sups1 = [\onesuperior \twosuperior \threesuperior \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature aalt{
+  feature locl;
+  feature subs;
+  feature sinf;
+  feature sups;
+  feature ordn;
+  feature case;
+} aalt;
+feature locl { # Localized Forms
+ script latn; # Latin
+ language MOL  exclude_dflt; # Moldavian
+    sub [Scedilla scedilla] by [uni0218 uni0219];
+ language ROM  exclude_dflt; # Romanian
+    sub [Scedilla scedilla] by [uni0218 uni0219];
+} locl;
+feature subs { # Subscript
+ # DEFAULT
+    sub @aalt1 by @subs1;
+ script latn; # Latin
+    sub @aalt1 by @subs1;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} subs;
+feature sinf { # Scientific Inferiors
+ # DEFAULT
+    sub @aalt1 by @subs1;
+ script latn; # Latin
+    sub @aalt1 by @subs1;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} sinf;
+feature sups { # Superscript
+ # DEFAULT
+    sub @aalt1 by @sups1;
+ script latn; # Latin
+    sub @aalt1 by @sups1;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} sups;
+feature frac { # Fractions
+ # DEFAULT
+    sub one slash two by onehalf;
+    sub one slash three by onethird;
+    sub one slash four by onequarter;
+    sub one slash five by uni2155;
+    sub one slash six by uni2159;
+    sub one slash eight by oneeighth;
+    sub two slash three by twothirds;
+    sub three slash four by threequarters;
+    sub three slash five by uni2157;
+    sub three slash eight by threeeighths;
+    sub four slash five by uni2158;
+    sub five slash six by uni215A;
+    sub five slash eight by fiveeighths;
+    sub seven slash eight by seveneighths;
+ script latn; # Latin
+    sub one slash two by onehalf;
+    sub one slash three by onethird;
+    sub one slash four by onequarter;
+    sub one slash five by uni2155;
+    sub one slash six by uni2159;
+    sub one slash eight by oneeighth;
+    sub two slash three by twothirds;
+    sub three slash four by threequarters;
+    sub three slash five by uni2157;
+    sub three slash eight by threeeighths;
+    sub four slash five by uni2158;
+    sub five slash six by uni215A;
+    sub five slash eight by fiveeighths;
+    sub seven slash eight by seveneighths;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} frac;
+feature ordn { # Ordinals
+ # DEFAULT
+    sub @aalt1 [A a]' by [ordfeminine ordfeminine];
+    sub @aalt1 [O o]' by [ordmasculine ordmasculine];
+ script latn; # Latin
+    sub @aalt1 [A a]' by [ordfeminine ordfeminine];
+    sub @aalt1 [O o]' by [ordmasculine ordmasculine];
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} ordn;
+feature case { # Case-Sensitive Forms
+ # DEFAULT
+    sub @case1 by @case2;
+ script latn; # Latin
+    sub @case1 by @case2;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} case;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

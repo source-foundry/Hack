@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omega" format="1">
+  <advance width="1233"/>
+  <unicode hex="03C9"/>
+  <outline>
+    <contour>
+      <point x="287" y="-29" type="qcurve" name="hr00"/>
+      <point x="221" y="-29"/>
+      <point x="119" y="16"/>
+      <point x="90" y="54" type="qcurve"/>
+      <point x="39" y="121"/>
+      <point x="39" y="271" type="qcurve" name="sh01"/>
+      <point x="39" y="364"/>
+      <point x="75" y="585"/>
+      <point x="140" y="812"/>
+      <point x="232" y="1030"/>
+      <point x="289" y="1120" type="qcurve" name="at01"/>
+      <point x="551" y="1120" type="line" name="ih01"/>
+      <point x="509" y="1034"/>
+      <point x="448" y="885"/>
+      <point x="402" y="750"/>
+      <point x="368" y="623"/>
+      <point x="355" y="557" type="qcurve"/>
+      <point x="346" y="515"/>
+      <point x="332" y="431"/>
+      <point x="321" y="355"/>
+      <point x="315" y="292"/>
+      <point x="315" y="271" type="qcurve" name="sh03"/>
+      <point x="315" y="249"/>
+      <point x="318" y="237" type="qcurve" name="sh04"/>
+      <point x="324" y="211"/>
+      <point x="357" y="209" type="qcurve" name="dv01"/>
+      <point x="428" y="209"/>
+      <point x="520" y="665" type="qcurve"/>
+      <point x="772" y="665" type="line"/>
+      <point x="749" y="541"/>
+      <point x="726" y="362"/>
+      <point x="726" y="305" type="qcurve"/>
+      <point x="726" y="209"/>
+      <point x="759" y="209" type="qcurve" name="sv01"/>
+      <point x="790" y="210"/>
+      <point x="808" y="237" type="qcurve"/>
+      <point x="823" y="260"/>
+      <point x="865" y="390"/>
+      <point x="902" y="578"/>
+      <point x="928" y="809"/>
+      <point x="928" y="933" type="qcurve" name="ah01"/>
+      <point x="928" y="1027"/>
+      <point x="919" y="1120" type="qcurve" name="sh05"/>
+      <point x="1181" y="1120" type="line"/>
+      <point x="1207" y="1007"/>
+      <point x="1207" y="864" type="qcurve" name="sh02"/>
+      <point x="1207" y="785"/>
+      <point x="1191" y="621"/>
+      <point x="1162" y="463"/>
+      <point x="1119" y="314"/>
+      <point x="1065" y="187"/>
+      <point x="1000" y="86"/>
+      <point x="964" y="54" type="qcurve"/>
+      <point x="920" y="16"/>
+      <point x="799" y="-29"/>
+      <point x="735" y="-29" type="qcurve" name="sv02"/>
+      <point x="560" y="-29"/>
+      <point x="546" y="150" type="qcurve" name="ih02"/>
+      <point x="462" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="alignt" point="sh05" zone="t: 0"/>
+    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 225"/>
+    <ttc code="singlev" point1="dv01" point2="sv01"/>
+    <ttc code="singlev" point1="hr00" point2="sv02"/>
+    <ttc code="interpolatev" point="ih02" point1="hr00" point2="dv01"/>
+    <ttc code="alignh" point="lsb" align="round"/>
+    <ttc code="alignh" point="ah01" align="round"/>
+    <ttc code="singleh" point1="lsb" point2="sh01" align="round"/>
+    <ttc code="mdeltah" point="ah01" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="ah01" point2="sh02" stem="X: 286"/>
+    <ttc code="interpolateh" point="ih01" point1="sh01" point2="sh02"/>
+    <ttc code="singleh" point1="sh01" point2="sh03" stem="X: 286"/>
+    <ttc code="mdeltah" point="sh03" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="sh03" point2="sh04" align="round"/>
+    <ttc code="singleh" point1="ah01" point2="sh05" align="round"/>
+    <ttc code="interpolateh" point="ih02" point1="sh01" point2="sh02"/>
+    <ttc code="singleh" point1="sh02" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-29" width="238" />
+      <hstem pos="1120" width="-20" />
+      <vstem pos="39" width="276" />
+      <vstem pos="928" width="279" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

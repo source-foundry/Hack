@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotmath" format="1">
+  <advance width="1233"/>
+  <unicode hex="22C5"/>
+  <outline>
+    <contour>
+      <point x="489" y="864" type="line" name="hr00"/>
+      <point x="741" y="864" type="line" name="dh01"/>
+      <point x="741" y="559" type="line" name="dv01"/>
+      <point x="489" y="559" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="dv01" point2="dh01" stem="y: 170.Hstem"/>
+    <ttc code="doubleh" point1="hr00" point2="dh01" stem="X: 194"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="559" width="305" />
+      <vstem pos="489" width="252" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

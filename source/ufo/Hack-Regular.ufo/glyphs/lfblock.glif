@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lfblock" format="1">
+  <advance width="1233"/>
+  <unicode hex="258C"/>
+  <outline>
+    <contour>
+      <point x="0" y="1950" type="line" name="hr00"/>
+      <point x="616" y="1950" type="line"/>
+      <point x="616" y="-512" type="line" name="av01"/>
+      <point x="0" y="-512" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="hr00" align="round"/>
+    <ttc code="alignv" point="av01" align="round"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-491" width="-21" />
+      <hstem pos="1921" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2046" format="1">
+  <advance width="1233"/>
+  <unicode hex="2046"/>
+  <outline>
+    <contour>
+      <point x="143" y="-80" type="line" name="hr00"/>
+      <point x="385" y="-80" type="line" name="dv02"/>
+      <point x="507" y="548" type="line" name="dv03"/>
+      <point x="265" y="548" type="line"/>
+      <point x="302" y="738" type="line"/>
+      <point x="544" y="738" type="line" name="dv04"/>
+      <point x="666" y="1366" type="line" name="sv01"/>
+      <point x="424" y="1366" type="line"/>
+      <point x="461" y="1556" type="line" name="at01"/>
+      <point x="969" y="1556" type="line"/>
+      <point x="612" y="-270" type="line" name="dv01"/>
+      <point x="106" y="-270" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 2"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 172"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="Y: 172"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem3 stem3List="-270,190,548,190,1366,190" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k" format="1">
+  <advance width="1233"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="363" y="1556" type="line" name="hr00"/>
+      <point x="656" y="1556" type="line"/>
+      <point x="504" y="774" type="line" name="iv01"/>
+      <point x="908" y="1120" type="line" name="at01"/>
+      <point x="1278" y="1120" type="line" name="iv02"/>
+      <point x="773" y="702" type="line"/>
+      <point x="1086" y="0" type="line" name="ab01"/>
+      <point x="775" y="0" type="line"/>
+      <point x="553" y="524" type="line" name="iv03"/>
+      <point x="437" y="428" type="line"/>
+      <point x="355" y="0" type="line" name="ab02"/>
+      <point x="62" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="hr00" zone="t: 2"/>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="alignb" point="ab02" zone="b: 0"/>
+    <ttc code="interpolatev" point="iv01" point1="ab01" point2="hr00"/>
+    <ttc code="interpolatev" point="iv02" point1="ab01" point2="hr00"/>
+    <ttc code="interpolatev" point="iv03" point1="ab01" point2="hr00"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1120" width="-20" />
+      <hstem pos="1556" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

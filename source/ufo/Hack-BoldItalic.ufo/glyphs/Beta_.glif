@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Beta" format="1">
+  <advance width="1233"/>
+  <unicode hex="0392"/>
+  <outline>
+    <contour>
+      <point x="277" y="1495" type="line" name="at01"/>
+      <point x="759" y="1495" type="line"/>
+      <point x="971" y="1495"/>
+      <point x="1185" y="1331"/>
+      <point x="1185" y="1163" type="qcurve" name="sh03"/>
+      <point x="1185" y="1083"/>
+      <point x="1136" y="953"/>
+      <point x="1043" y="857"/>
+      <point x="907" y="796"/>
+      <point x="820" y="786" type="qcurve" name="sh04"/>
+      <point x="888" y="780"/>
+      <point x="996" y="736"/>
+      <point x="1072" y="659"/>
+      <point x="1113" y="549"/>
+      <point x="1113" y="477" type="qcurve" name="sh05"/>
+      <point x="1113" y="427"/>
+      <point x="1094" y="329"/>
+      <point x="1056" y="239"/>
+      <point x="1002" y="158"/>
+      <point x="968" y="127" type="qcurve"/>
+      <point x="932" y="94"/>
+      <point x="839" y="46"/>
+      <point x="719" y="15"/>
+      <point x="565" y="0"/>
+      <point x="468" y="0" type="qcurve" name="ab01"/>
+      <point x="-13" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="646" y="913" type="line" name="hr01"/>
+      <point x="767" y="913"/>
+      <point x="890" y="1022"/>
+      <point x="890" y="1119" type="qcurve" name="sh02"/>
+      <point x="890" y="1194"/>
+      <point x="809" y="1260"/>
+      <point x="714" y="1260" type="qcurve" name="sv01"/>
+      <point x="517" y="1260" type="line"/>
+      <point x="449" y="913" type="line"/>
+    </contour>
+    <contour>
+      <point x="515" y="236" type="line" name="sv02"/>
+      <point x="666" y="236"/>
+      <point x="818" y="365"/>
+      <point x="818" y="496" type="qcurve" name="sh01"/>
+      <point x="818" y="539"/>
+      <point x="798" y="607"/>
+      <point x="749" y="654"/>
+      <point x="665" y="678"/>
+      <point x="601" y="678" type="qcurve" name="hr02"/>
+      <point x="404" y="678" type="line"/>
+      <point x="318" y="236" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="doublev" point1="hr02" point2="hr01" stem="y: 225"/>
+    <ttc code="interpolatev" point="sh04" point1="hr02" point2="hr01"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 225"/>
+    <ttc code="singlev" point1="ab01" point2="sv02" stem="y: 225"/>
+    <ttc code="alignh" point="lsb" align="round"/>
+    <ttc code="singleh" point1="lsb" point2="sh01" align="round"/>
+    <ttc code="singleh" point1="sh01" point2="sh02" round="true"/>
+    <ttc code="singleh" point1="sh02" point2="sh02" round="true"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="14" ppm2="14"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="22" ppm2="22"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="24" ppm2="24"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="20" ppm2="20"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="16" ppm2="16"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="9" ppm2="10"/>
+    <ttc code="singleh" point1="sh02" point2="sh03" stem="X: 295"/>
+    <ttc code="singleh" point1="sh01" point2="sh04" align="round"/>
+    <ttc code="singleh" point1="sh01" point2="sh05" stem="X: 295"/>
+    <ttc code="singleh" point1="sh02" point2="sh05" stem="X: 256"/>
+    <ttc code="singleh" point1="sh03" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="at01">
+      <hstem pos="0" width="236" />
+      <hstem pos="678" width="235" />
+      <hstem pos="1260" width="235" />
+      <vstem3 stem3List="818,295,890,223,890,295" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

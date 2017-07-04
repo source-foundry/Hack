@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni058A" format="1">
+  <advance width="1233"/>
+  <unicode hex="058A"/>
+  <outline>
+    <contour>
+      <point x="301" y="735" type="line" name="hr00"/>
+      <point x="604" y="593"/>
+      <point x="932" y="735" type="qcurve" name="av01"/>
+      <point x="932" y="444" type="line"/>
+      <point x="615" y="325"/>
+      <point x="301" y="444" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="hr00" align="round"/>
+    <ttc code="alignv" point="av01" align="round"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="735" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

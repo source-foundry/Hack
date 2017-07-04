@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorn" format="1">
+  <advance width="1233"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <contour>
+      <point x="1171" y="1557" type="line" name="at02"/>
+      <point x="1182" y="1515"/>
+      <point x="1191" y="1451"/>
+      <point x="1191" y="1414" type="qcurve" name="dh06"/>
+      <point x="1191" y="1302"/>
+      <point x="1106" y="1184"/>
+      <point x="1017" y="1184" type="qcurve" name="sv01"/>
+      <point x="981" y="1184"/>
+      <point x="944" y="1196" type="qcurve" name="ih01"/>
+      <point x="1005" y="1020"/>
+      <point x="1005" y="745" type="qcurve" name="dh04"/>
+      <point x="1005" y="355"/>
+      <point x="757" y="-29"/>
+      <point x="504" y="-29" type="qcurve" name="dv01"/>
+      <point x="253" y="-29"/>
+      <point x="6" y="352"/>
+      <point x="6" y="744" type="qcurve" name="dh01"/>
+      <point x="6" y="1136"/>
+      <point x="253" y="1520"/>
+      <point x="505" y="1520" type="qcurve" name="at01"/>
+      <point x="725" y="1520"/>
+      <point x="845" y="1376" type="qcurve"/>
+      <point x="890" y="1347"/>
+      <point x="953" y="1323"/>
+      <point x="980" y="1323" type="qcurve" name="hr01"/>
+      <point x="1022" y="1323"/>
+      <point x="1068" y="1379"/>
+      <point x="1068" y="1433" type="qcurve" name="dh05"/>
+      <point x="1068" y="1495"/>
+      <point x="1038" y="1557" type="qcurve" name="hr02"/>
+    </contour>
+    <contour>
+      <point x="727" y="276" type="qcurve"/>
+      <point x="794" y="414"/>
+      <point x="794" y="745" type="qcurve" name="dh03"/>
+      <point x="794" y="1075"/>
+      <point x="727" y="1215" type="qcurve"/>
+      <point x="659" y="1356"/>
+      <point x="505" y="1356" type="qcurve" name="sv02"/>
+      <point x="352" y="1356"/>
+      <point x="285" y="1215" type="qcurve"/>
+      <point x="217" y="1073"/>
+      <point x="217" y="745" type="qcurve" name="dh02"/>
+      <point x="217" y="418"/>
+      <point x="285" y="276" type="qcurve"/>
+      <point x="352" y="135"/>
+      <point x="505" y="135" type="qcurve" name="dv02"/>
+      <point x="659" y="135"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignt" point="at02" zone="t: 2"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 170.Hstem"/>
+    <ttc code="singlev" point1="at02" point2="sv01" round="true"/>
+    <ttc code="mdeltav" point="sv01" delta="2" ppm1="22" ppm2="23"/>
+    <ttc code="mdeltav" point="sv01" delta="1" ppm1="9" ppm2="21"/>
+    <ttc code="interpolatev" point="ih01" point1="at02" point2="sv01"/>
+    <ttc code="singlev" point1="sv01" point2="hr01" stem="y: 143"/>
+    <ttc code="singlev" point1="at01" point2="sv02" stem="y: 170.Hstem"/>
+    <ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="9"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 203.Vstem"/>
+    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 203.Vstem"/>
+    <ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 160"/>
+    <ttc code="mdeltah" point="dh03" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04"/>
+    <ttc code="mdeltah" point="dh05" delta="3" ppm1="18" ppm2="19"/>
+    <ttc code="mdeltah" point="dh05" delta="2" ppm1="9" ppm2="17"/>
+    <ttc code="interpolateh" point="hr02" point1="dh01" point2="dh06"/>
+    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="dh06" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="at02">
+      <hstem pos="-29" width="164" />
+      <hstem pos="1184" width="139" />
+      <hstem pos="1184" width="373" />
+      <hstem pos="1356" width="164" />
+      <vstem pos="6" width="211" />
+      <vstem pos="794" width="211" />
+      <vstem pos="1068" width="123" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

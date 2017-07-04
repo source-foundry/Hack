@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical" format="1">
+  <advance width="1233"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="256" y="721" type="line" name="hr00"/>
+      <point x="113" y="670" type="line"/>
+      <point x="49" y="868" type="line"/>
+      <point x="401" y="991" type="line"/>
+      <point x="571" y="410" type="line" name="iv01"/>
+      <point x="958" y="1726" type="line" name="av01"/>
+      <point x="1174" y="1726" type="line"/>
+      <point x="1174" y="1518" type="line" name="at01"/>
+      <point x="1122" y="1518" type="line"/>
+      <point x="662" y="-39" type="line" name="av02"/>
+      <point x="475" y="-39" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="interpolatev" point="iv01" point1="av02" point2="av01"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-18" width="-21" />
+      <hstem pos="1518" width="-20" />
+      <hstem pos="1726" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

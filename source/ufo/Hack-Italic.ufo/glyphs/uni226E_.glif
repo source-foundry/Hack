@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni226E" format="1">
+  <advance width="1233"/>
+  <unicode hex="226E"/>
+  <outline>
+    <contour>
+      <point x="362" y="19" type="line" name="hr00"/>
+      <point x="481" y="404" type="line"/>
+      <point x="88" y="559" type="line"/>
+      <point x="88" y="725" type="line"/>
+      <point x="650" y="947" type="line"/>
+      <point x="764" y="1312" type="line" name="av01"/>
+      <point x="917" y="1264" type="line"/>
+      <point x="842" y="1023" type="line" name="iv01"/>
+      <point x="1145" y="1143" type="line" name="iv02"/>
+      <point x="1145" y="961" type="line"/>
+      <point x="779" y="823" type="line"/>
+      <point x="679" y="498" type="line"/>
+      <point x="1145" y="324" type="line"/>
+      <point x="1145" y="141" type="line" name="iv03"/>
+      <point x="631" y="344" type="line"/>
+      <point x="515" y="-29" type="line" name="av02"/>
+    </contour>
+    <contour>
+      <point x="590" y="752" type="line" name="iv04"/>
+      <point x="295" y="641" type="line" name="iv05"/>
+      <point x="528" y="555" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="interpolatev" point="iv01" point1="av02" point2="av01"/>
+    <ttc code="interpolatev" point="iv02" point1="av02" point2="av01"/>
+    <ttc code="interpolatev" point="iv03" point1="av02" point2="av01"/>
+    <ttc code="interpolatev" point="iv04" point1="av02" point2="av01"/>
+    <ttc code="interpolatev" point="iv05" point1="av02" point2="av01"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-8" width="-21" />
+      <hstem pos="1312" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2A00" format="1">
+  <advance width="1233"/>
+  <unicode hex="2A00"/>
+  <outline>
+    <contour>
+      <point x="616" y="-465" type="qcurve" name="hr00"/>
+      <point x="80" y="-465"/>
+      <point x="80" y="540" type="qcurve" name="dh01"/>
+      <point x="80" y="1547"/>
+      <point x="616" y="1547" type="qcurve" name="dv03"/>
+      <point x="1153" y="1547"/>
+      <point x="1153" y="540" type="qcurve" name="dh06"/>
+      <point x="1153" y="-465"/>
+    </contour>
+    <contour>
+      <point x="616" y="-275" type="qcurve" name="dv01"/>
+      <point x="963" y="-275"/>
+      <point x="963" y="539" type="qcurve" name="dh05"/>
+      <point x="963" y="1357"/>
+      <point x="616" y="1357" type="qcurve" name="dv02"/>
+      <point x="270" y="1357"/>
+      <point x="270" y="539" type="qcurve" name="dh02"/>
+      <point x="270" y="-275"/>
+    </contour>
+    <contour>
+      <point x="449" y="711" type="line" name="dh03"/>
+      <point x="782" y="711" type="line" name="dh04"/>
+      <point x="782" y="346" type="line" name="dv04"/>
+      <point x="449" y="346" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="hr00" point2="dv01" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv02" point2="dv03" stem="Y: 172"/>
+    <ttc code="doublev" point1="dv04" point2="dh04" stem="y: 260.Hstem"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 160"/>
+    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 295.Vstem"/>
+    <ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 160"/>
+    <ttc code="mdeltah" point="dh05" delta="3" ppm1="20" ppm2="21"/>
+    <ttc code="mdeltah" point="dh05" delta="2" ppm1="9" ppm2="19"/>
+    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="19"/>
+    <ttc code="mdeltah" point="dh02" delta="-3" ppm1="20" ppm2="21"/>
+    <ttc code="singleh" point1="dh06" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-465" width="190" />
+      <hstem pos="346" width="365" />
+      <hstem pos="1357" width="190" />
+      <vstem pos="80" width="190" />
+      <vstem pos="449" width="333" />
+      <vstem pos="963" width="190" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

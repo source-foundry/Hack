@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="1">
+  <advance width="1233"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="248" y="1174" type="line" name="hr00"/>
+      <point x="518" y="1556" type="line" name="at01"/>
+      <point x="733" y="1556" type="line"/>
+      <point x="561" y="1174" type="line"/>
+      <point x="508" y="903" type="line" name="av01"/>
+      <point x="195" y="903" type="line"/>
+    </contour>
+    <contour>
+      <point x="768" y="1174" type="line"/>
+      <point x="1038" y="1556" type="line" name="at02"/>
+      <point x="1253" y="1556" type="line"/>
+      <point x="1081" y="1174" type="line"/>
+      <point x="1028" y="903" type="line" name="av02"/>
+      <point x="715" y="903" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="alignt" point="at01" zone="t: 2"/>
+    <ttc code="alignt" point="at02" zone="t: 2"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="924" width="-21" />
+      <hstem pos="1556" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

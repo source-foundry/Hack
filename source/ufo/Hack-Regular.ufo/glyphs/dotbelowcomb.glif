@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0323"/>
+  <outline>
+    <contour>
+      <point x="-720" y="-413" type="line" name="hr00"/>
+      <point x="-720" y="-209" type="line" name="dv01"/>
+      <point x="-515" y="-209" type="line"/>
+      <point x="-515" y="-413" type="line" name="dh01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 170.Hstem"/>
+    <ttc code="doubleh" point1="hr00" point2="dh01" stem="X: 203.Vstem"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-413" width="204" />
+      <vstem pos="-720" width="205" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

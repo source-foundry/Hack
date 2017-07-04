@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tau" format="1">
+  <advance width="1233"/>
+  <unicode hex="03C4"/>
+  <outline>
+    <contour>
+      <point x="901" y="0" type="line" name="ab01"/>
+      <point x="775" y="0"/>
+      <point x="609" y="35"/>
+      <point x="511" y="122"/>
+      <point x="471" y="268"/>
+      <point x="471" y="379" type="qcurve" name="dh01"/>
+      <point x="471" y="895" type="line" name="sv01"/>
+      <point x="136" y="895" type="line" name="hr01"/>
+      <point x="136" y="1120" type="line" name="at01"/>
+      <point x="1098" y="1120" type="line"/>
+      <point x="1098" y="895" type="line" name="sv02"/>
+      <point x="763" y="895" type="line" name="sv03"/>
+      <point x="763" y="365" type="line" name="dh02"/>
+      <point x="763" y="290"/>
+      <point x="837" y="225"/>
+      <point x="921" y="225" type="qcurve" name="sv04"/>
+      <point x="979" y="225" type="line" name="hr02"/>
+      <point x="979" y="0" type="line" name="ab02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="alignb" point="ab02" zone="b: 0"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 225"/>
+    <ttc code="singlev" point1="sv01" point2="sv02"/>
+    <ttc code="singlev" point1="sv02" point2="sv03"/>
+    <ttc code="singlev" point1="ab01" point2="sv04" stem="y: 225"/>
+    <ttc code="singlev" point1="sv04" point2="hr02"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 293"/>
+    <ttc code="singleh" point1="dh01" point2="hr02" stem="X: 295.Vstem"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ab01">
+      <hstem pos="0" width="225" />
+      <hstem pos="895" width="225" />
+      <vstem pos="471" width="292" />
+      <vstem pos="471" width="508" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

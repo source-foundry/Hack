@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni058A" format="1">
+  <advance width="1233"/>
+  <unicode hex="058A"/>
+  <outline>
+    <contour>
+      <point x="379" y="643" type="line" name="hr00"/>
+      <point x="437" y="612"/>
+      <point x="557" y="583"/>
+      <point x="620" y="583" type="qcurve" name="dv02"/>
+      <point x="687" y="583"/>
+      <point x="826" y="614"/>
+      <point x="900" y="643" type="qcurve" name="av01"/>
+      <point x="869" y="479" type="line"/>
+      <point x="795" y="450"/>
+      <point x="657" y="419"/>
+      <point x="590" y="419" type="qcurve" name="dv01"/>
+      <point x="526" y="419"/>
+      <point x="406" y="448"/>
+      <point x="348" y="479" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="hr00" align="round"/>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 170.Hstem"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="419" width="164" />
+      <hstem pos="643" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2199" format="1">
+  <advance width="1233"/>
+  <unicode hex="2199"/>
+  <outline>
+    <contour>
+      <point x="184" y="58" type="line" name="dh01"/>
+      <point x="184" y="470" type="line" name="sv01"/>
+      <point x="311" y="470" type="line"/>
+      <point x="311" y="243" type="line" name="dh02"/>
+      <point x="933" y="865" type="line" name="av01"/>
+      <point x="1049" y="749" type="line"/>
+      <point x="427" y="127" type="line" name="hr01"/>
+      <point x="654" y="127" type="line"/>
+      <point x="654" y="0" type="line" name="sh01"/>
+      <point x="242" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignb" point="sh01" zone="b: 0"/>
+    <ttc code="singlev" point1="sh01" point2="sv01" round="true"/>
+    <ttc code="interpolatev" point="dh02" point1="sh01" point2="sv01"/>
+    <ttc code="singlev" point1="sh01" point2="hr01" stem="y: 143"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 114"/>
+    <ttc code="singleh" point1="dh01" point2="sh01" stem="X: 320"/>
+    <ttc code="interpolateh" point="hr01" point1="dh01" point2="sh01"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dh01">
+      <hstem pos="0" width="127" />
+      <hstem pos="0" width="470" />
+      <hstem pos="865" width="-20" />
+      <vstem pos="184" width="127" />
+      <vstem pos="184" width="470" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

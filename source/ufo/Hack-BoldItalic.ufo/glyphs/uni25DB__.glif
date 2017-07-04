@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25DB" format="1">
+  <advance width="1233"/>
+  <unicode hex="25DB"/>
+  <outline>
+    <contour>
+      <point x="-20" y="532" type="line" name="hr00"/>
+      <point x="6" y="532" type="line"/>
+      <point x="6" y="353"/>
+      <point x="159" y="92"/>
+      <point x="311" y="4" type="qcurve"/>
+      <point x="390" y="-42"/>
+      <point x="541" y="-84"/>
+      <point x="615" y="-84" type="qcurve" name="dv02"/>
+      <point x="769" y="-84"/>
+      <point x="921" y="4" type="qcurve"/>
+      <point x="1074" y="92"/>
+      <point x="1227" y="353"/>
+      <point x="1227" y="532" type="qcurve" name="sv01"/>
+      <point x="1253" y="532" type="line"/>
+      <point x="1253" y="-512" type="line"/>
+      <point x="-20" y="-512" type="line" name="dv01"/>
+    </contour>
+    <contour>
+      <point x="616" y="39" type="qcurve" name="dv03"/>
+      <point x="494" y="39"/>
+      <point x="372" y="110" type="qcurve"/>
+      <point x="128" y="251"/>
+      <point x="128" y="532" type="qcurve" name="dv04"/>
+      <point x="1105" y="532" type="line"/>
+      <point x="1105" y="251"/>
+      <point x="860" y="110" type="qcurve"/>
+      <point x="738" y="39"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 260.Hstem"/>
+    <ttc code="doublev" point1="dv03" point2="dv04" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="dv04" point2="hr00"/>
+    <ttc code="singlev" point1="dv04" point2="sv01"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-512" width="428" />
+      <hstem pos="39" width="493" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

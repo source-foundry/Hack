@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldot" format="1">
+  <advance width="1233"/>
+  <unicode hex="013F"/>
+  <outline>
+    <contour>
+      <point x="215" y="1493" type="line" name="hr00"/>
+      <point x="418" y="1493" type="line"/>
+      <point x="418" y="170" type="line"/>
+      <point x="1139" y="170" type="line"/>
+      <point x="1139" y="0" type="line"/>
+      <point x="215" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="676" y="570" type="qcurve"/>
+      <point x="676" y="714" type="line"/>
+      <point x="676" y="744"/>
+      <point x="706" y="744" type="qcurve"/>
+      <point x="851" y="744" type="line"/>
+      <point x="881" y="744"/>
+      <point x="881" y="714" type="qcurve"/>
+      <point x="881" y="570" type="line"/>
+      <point x="881" y="540"/>
+      <point x="851" y="540" type="qcurve"/>
+      <point x="706" y="540" type="line"/>
+      <point x="676" y="540"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="0" width="170" />
+      <hstem pos="540" width="204" />
+      <hstem pos="1493" width="-20" />
+      <vstem pos="215" width="203" />
+      <vstem pos="676" width="205" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

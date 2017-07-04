@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0492" format="1">
+  <advance width="1233"/>
+  <unicode hex="0492"/>
+  <outline>
+    <contour>
+      <point x="216" y="664" type="line" name="hr00"/>
+      <point x="81" y="664" type="line"/>
+      <point x="127" y="904" type="line"/>
+      <point x="262" y="904" type="line" name="dv01"/>
+      <point x="377" y="1493" type="line" name="at01"/>
+      <point x="1307" y="1493" type="line"/>
+      <point x="1257" y="1233" type="line" name="sv01"/>
+      <point x="622" y="1233" type="line"/>
+      <point x="558" y="904" type="line" name="sv02"/>
+      <point x="983" y="904" type="line"/>
+      <point x="936" y="664" type="line" name="sv03"/>
+      <point x="511" y="664" type="line"/>
+      <point x="382" y="0" type="line" name="ab01"/>
+      <point x="87" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 1"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 225"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 260.Hstem"/>
+    <ttc code="singlev" point1="dv01" point2="sv02"/>
+    <ttc code="singlev" point1="hr00" point2="sv03"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="664" width="240" />
+      <hstem pos="1233" width="260" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

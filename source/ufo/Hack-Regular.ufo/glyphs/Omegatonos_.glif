@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegatonos" format="1">
+  <advance width="1233"/>
+  <unicode hex="038F"/>
+  <outline>
+    <contour>
+      <point x="90" y="1460" type="line" name="sv01"/>
+      <point x="288" y="1460" type="line" name="ih01"/>
+      <point x="-37" y="1084" type="line" name="sv02"/>
+      <point x="-191" y="1084" type="line" name="hr01"/>
+    </contour>
+    <contour>
+      <point x="119" y="172" type="line" name="sh01"/>
+      <point x="364" y="172" type="line"/>
+      <point x="304" y="237"/>
+      <point x="216" y="373"/>
+      <point x="159" y="520"/>
+      <point x="131" y="684"/>
+      <point x="131" y="778" type="qcurve" name="hr02"/>
+      <point x="131" y="936"/>
+      <point x="206" y="1189"/>
+      <point x="344" y="1366"/>
+      <point x="540" y="1460"/>
+      <point x="660" y="1460" type="qcurve" name="dv02"/>
+      <point x="781" y="1460"/>
+      <point x="977" y="1365"/>
+      <point x="1115" y="1188"/>
+      <point x="1190" y="936"/>
+      <point x="1190" y="778" type="qcurve" name="dh03"/>
+      <point x="1190" y="686"/>
+      <point x="1163" y="524"/>
+      <point x="1106" y="375"/>
+      <point x="1017" y="238"/>
+      <point x="956" y="172" type="qcurve" name="ih02"/>
+      <point x="1204" y="172" type="line" name="sh02"/>
+      <point x="1204" y="0" type="line" name="ab01"/>
+      <point x="741" y="0" type="line"/>
+      <point x="741" y="172" type="line" name="dh02"/>
+      <point x="799" y="208"/>
+      <point x="893" y="330"/>
+      <point x="959" y="490"/>
+      <point x="995" y="682"/>
+      <point x="995" y="788" type="qcurve" name="sh03"/>
+      <point x="995" y="909"/>
+      <point x="948" y="1098"/>
+      <point x="861" y="1227"/>
+      <point x="738" y="1294"/>
+      <point x="661" y="1294" type="qcurve" name="dv01"/>
+      <point x="584" y="1294"/>
+      <point x="461" y="1227"/>
+      <point x="374" y="1098"/>
+      <point x="328" y="910"/>
+      <point x="328" y="789" type="qcurve" name="dh01"/>
+      <point x="328" y="687"/>
+      <point x="361" y="498"/>
+      <point x="426" y="336"/>
+      <point x="520" y="210"/>
+      <point x="582" y="172" type="qcurve" name="sh04"/>
+      <point x="582" y="0" type="line" name="ab02"/>
+      <point x="119" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="alignb" point="ab02" zone="b: 0"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 170.Hstem"/>
+    <ttc code="singlev" point1="dv02" point2="sv01"/>
+    <ttc code="singlev" point1="sv01" point2="sv02" round="true"/>
+    <ttc code="singlev" point1="ab02" point2="sh01" stem="y: 170.Hstem"/>
+    <ttc code="singlev" point1="sh01" point2="ih02"/>
+    <ttc code="singlev" point1="ih02" point2="sh02"/>
+    <ttc code="doubleh" point1="hr02" point2="dh01" stem="X: 203.Vstem"/>
+    <ttc code="doubleh" point1="dh02" point2="dh03" round="true"/>
+    <ttc code="mdeltah" point="dh01" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="interpolateh" point="ih01" point1="hr02" point2="dh01"/>
+    <ttc code="singleh" point1="hr02" point2="sh01" align="round"/>
+    <ttc code="interpolateh" point="ih02" point1="dh02" point2="dh03"/>
+    <ttc code="singleh" point1="dh03" point2="sh02" align="round"/>
+    <ttc code="singleh" point1="dh03" point2="sh03" stem="X: 203.Vstem"/>
+    <ttc code="singleh" point1="hr02" point2="sh04" round="true"/>
+    <ttc code="singleh" point1="dh03" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="sv01">
+      <hstem pos="0" width="172" />
+      <hstem pos="1084" width="376" />
+      <hstem pos="1294" width="166" />
+      <vstem pos="131" width="197" />
+      <vstem pos="131" width="451" />
+      <vstem pos="741" width="449" />
+      <vstem pos="995" width="195" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

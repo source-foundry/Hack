@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0561" format="1">
+  <advance width="1233"/>
+  <unicode hex="0561"/>
+  <outline>
+    <contour>
+      <point x="344" y="-27" type="qcurve" name="ab01"/>
+      <point x="282" y="-27"/>
+      <point x="190" y="17"/>
+      <point x="159" y="76" type="qcurve"/>
+      <point x="145" y="103"/>
+      <point x="124" y="175"/>
+      <point x="110" y="270"/>
+      <point x="103" y="393"/>
+      <point x="103" y="471" type="qcurve" name="dh01"/>
+      <point x="103" y="1120" type="line" name="at01"/>
+      <point x="271" y="1120" type="line" name="hr01"/>
+      <point x="271" y="479" type="line" name="dh02"/>
+      <point x="271" y="360"/>
+      <point x="277" y="287" type="qcurve" name="sh01"/>
+      <point x="280" y="250"/>
+      <point x="290" y="191"/>
+      <point x="315" y="149"/>
+      <point x="358" y="127"/>
+      <point x="394" y="127" type="qcurve" name="sv01"/>
+      <point x="439" y="127"/>
+      <point x="488" y="159"/>
+      <point x="502" y="188" type="qcurve"/>
+      <point x="518" y="220"/>
+      <point x="533" y="356"/>
+      <point x="533" y="479" type="qcurve" name="dh03"/>
+      <point x="533" y="1120" type="line" name="hr02"/>
+      <point x="701" y="1120" type="line"/>
+      <point x="701" y="479" type="line" name="dh04"/>
+      <point x="701" y="405"/>
+      <point x="705" y="304"/>
+      <point x="713" y="236"/>
+      <point x="724" y="196"/>
+      <point x="730" y="183" type="qcurve"/>
+      <point x="743" y="157"/>
+      <point x="792" y="127"/>
+      <point x="832" y="127" type="qcurve" name="sv02"/>
+      <point x="875" y="127"/>
+      <point x="920" y="161"/>
+      <point x="932" y="188" type="qcurve"/>
+      <point x="949" y="225"/>
+      <point x="962" y="367"/>
+      <point x="962" y="479" type="qcurve" name="sh02"/>
+      <point x="962" y="1120" type="line" name="at02"/>
+      <point x="1129" y="1120" type="line"/>
+      <point x="1129" y="0" type="line" name="dh06"/>
+      <point x="962" y="0" type="line" name="dh05"/>
+      <point x="962" y="96" type="line" name="iv01"/>
+      <point x="894" y="-27"/>
+      <point x="764" y="-27" type="qcurve" name="ab02"/>
+      <point x="696" y="-27"/>
+      <point x="591" y="40"/>
+      <point x="562" y="114" type="qcurve" name="ih01"/>
+      <point x="527" y="42"/>
+      <point x="426" y="-27"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="alignt" point="hr02" zone="t: 0"/>
+    <ttc code="alignt" point="at02" zone="t: 0"/>
+    <ttc code="alignb" point="dh06" zone="b: 0"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="alignb" point="ab02" zone="b: 0"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 156"/>
+    <ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="17"/>
+    <ttc code="mdeltav" point="sv01" delta="-2" ppm1="18" ppm2="19"/>
+    <ttc code="singlev" point1="sv01" point2="sv02"/>
+    <ttc code="interpolatev" point="iv01" point1="ab01" point2="sv01"/>
+    <ttc code="interpolatev" point="ih01" point1="ab01" point2="sv01"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 160"/>
+    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 160"/>
+    <ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 160"/>
+    <ttc code="singleh" point1="dh02" point2="sh01" align="round"/>
+    <ttc code="singleh" point1="dh05" point2="sh02"/>
+    <ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04"/>
+    <ttc code="singleh" point1="dh06" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ab01">
+      <hstem pos="-27" width="154" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="1120" width="-20" />
+      <vstem pos="103" width="168" />
+      <vstem pos="533" width="168" />
+      <vstem pos="962" width="167" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

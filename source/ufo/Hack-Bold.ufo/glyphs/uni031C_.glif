@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni031C" format="1">
+  <advance width="0"/>
+  <unicode hex="031C"/>
+  <outline>
+    <contour>
+      <point x="-507" y="-502" type="line" name="sh02"/>
+      <point x="-553" y="-502"/>
+      <point x="-633" y="-468"/>
+      <point x="-692" y="-408"/>
+      <point x="-726" y="-328"/>
+      <point x="-726" y="-282" type="qcurve" name="hr01"/>
+      <point x="-726" y="-236"/>
+      <point x="-692" y="-156"/>
+      <point x="-633" y="-97"/>
+      <point x="-553" y="-63"/>
+      <point x="-507" y="-63" type="qcurve" name="hr02"/>
+      <point x="-507" y="-195" type="line" name="sh01"/>
+      <point x="-544" y="-195"/>
+      <point x="-594" y="-245"/>
+      <point x="-594" y="-282" type="qcurve" name="dh01"/>
+      <point x="-594" y="-320"/>
+      <point x="-544" y="-370"/>
+      <point x="-507" y="-370" type="qcurve" name="sh03"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignb" point="sh02" zone="b: 1"/>
+    <ttc code="singlev" point1="sh02" point2="hr02" stem="y: 260.Hstem"/>
+    <ttc code="doubleh" point1="hr01" point2="dh01" stem="X: 114"/>
+    <ttc code="singleh" point1="hr01" point2="sh01" stem="X: 236"/>
+    <ttc code="singleh" point1="sh01" point2="sh02"/>
+    <ttc code="mdeltah" point="dh01" delta="-2" ppm1="9" ppm2="19"/>
+    <ttc code="mdeltah" point="dh01" delta="-3" ppm1="20" ppm2="21"/>
+    <ttc code="singleh" point1="sh01" point2="sh03"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="sh02">
+      <hstem pos="-502" width="439" />
+      <vstem pos="-726" width="132" />
+      <vstem pos="-726" width="219" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

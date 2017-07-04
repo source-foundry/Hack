@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="propersuperset" format="1">
+  <advance width="1233"/>
+  <unicode hex="2283"/>
+  <outline>
+    <contour>
+      <point x="88" y="363" type="line" name="hr00"/>
+      <point x="658" y="363" type="line" name="dv02"/>
+      <point x="712" y="363"/>
+      <point x="808" y="403"/>
+      <point x="879" y="475"/>
+      <point x="920" y="577"/>
+      <point x="920" y="640" type="qcurve" name="dh01"/>
+      <point x="920" y="702"/>
+      <point x="879" y="805"/>
+      <point x="809" y="878"/>
+      <point x="713" y="919"/>
+      <point x="658" y="919" type="qcurve" name="sv01"/>
+      <point x="88" y="919" type="line"/>
+      <point x="88" y="1144" type="line" name="at01"/>
+      <point x="658" y="1144" type="line"/>
+      <point x="760" y="1144"/>
+      <point x="938" y="1068"/>
+      <point x="1069" y="933"/>
+      <point x="1145" y="750"/>
+      <point x="1145" y="642" type="qcurve" name="dh02"/>
+      <point x="1145" y="538"/>
+      <point x="1073" y="354"/>
+      <point x="944" y="217"/>
+      <point x="765" y="138"/>
+      <point x="657" y="138" type="qcurve" name="dv01"/>
+      <point x="88" y="138" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 225"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="y: 225"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 236"/>
+    <ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="138" width="225" />
+      <hstem pos="919" width="225" />
+      <vstem pos="920" width="225" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

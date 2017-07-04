@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta" format="1">
+  <advance width="1233"/>
+  <unicode hex="2206"/>
+  <outline>
+    <contour>
+      <point x="512" y="1423" type="line" name="hr00"/>
+      <point x="721" y="1423" type="line"/>
+      <point x="1241" y="0" type="line" name="ab01"/>
+      <point x="-6" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="985" y="172" type="line" name="sv01"/>
+      <point x="616" y="1219" type="line"/>
+      <point x="248" y="172" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="hr00" align="round"/>
+    <ttc code="alignb" point="ab01" zone="b: 0"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 170.Hstem"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="0" width="172" />
+      <hstem pos="1423" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

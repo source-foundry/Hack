@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni031B" format="1">
+  <advance width="0"/>
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="-628" y="764" type="qcurve" name="sv01"/>
+      <point x="-684" y="764"/>
+      <point x="-777" y="816"/>
+      <point x="-829" y="872" type="qcurve"/>
+      <point x="-806" y="991" type="line" name="iv01"/>
+      <point x="-751" y="943"/>
+      <point x="-673" y="903"/>
+      <point x="-639" y="903" type="qcurve" name="sv02"/>
+      <point x="-597" y="903"/>
+      <point x="-541" y="958"/>
+      <point x="-530" y="1012" type="qcurve"/>
+      <point x="-525" y="1040"/>
+      <point x="-525" y="1063" type="qcurve"/>
+      <point x="-525" y="1098"/>
+      <point x="-536" y="1137" type="qcurve" name="at01"/>
+      <point x="-403" y="1137" type="line" name="hr01"/>
+      <point x="-402" y="1123"/>
+      <point x="-401" y="1099"/>
+      <point x="-401" y="1088" type="qcurve"/>
+      <point x="-401" y="1061"/>
+      <point x="-406" y="1019"/>
+      <point x="-409" y="1001" type="qcurve"/>
+      <point x="-430" y="887"/>
+      <point x="-537" y="764"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="t: 0"/>
+    <ttc code="singlev" point1="at01" point2="sv01" round="true"/>
+    <ttc code="mdeltav" point="sv01" delta="2" ppm1="22" ppm2="23"/>
+    <ttc code="mdeltav" point="sv01" delta="1" ppm1="9" ppm2="21"/>
+    <ttc code="interpolatev" point="iv01" point1="at01" point2="sv01"/>
+    <ttc code="singlev" point1="sv01" point2="sv02" stem="y: 143"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="sv01">
+      <hstem pos="764" width="139" />
+      <hstem pos="764" width="373" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

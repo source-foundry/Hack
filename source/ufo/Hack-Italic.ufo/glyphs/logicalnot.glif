@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="1233"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="977" y="690" type="line" name="dh01"/>
+      <point x="88" y="690" type="line"/>
+      <point x="88" y="862" type="line"/>
+      <point x="1145" y="862" type="line" name="dh02"/>
+      <point x="1145" y="371" type="line" name="hr01"/>
+      <point x="977" y="371" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="hr01" point2="dh02" round="true"/>
+    <ttc code="singlev" point1="dh02" point2="dh01" stem="y: 170.Hstem"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 168"/>
+    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dh01">
+      <hstem pos="371" width="491" />
+      <hstem pos="690" width="172" />
+      <vstem pos="977" width="168" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
