@@ -50,7 +50,7 @@ For general screen use on the desktop, we recommend the [TTF builds][ttf_latest]
 
 ## Package managers
 
-We highly recommended the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers were designed to tune and automate font installs and updates on your system.
+We highly recommend the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers were designed to tune and automate font installs and updates on your system.
 
 We are aware of Hack support in the following package managers (with associated package names):
 
