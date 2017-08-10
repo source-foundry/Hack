@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0158"/>
+  <outline>
+    <contour>
+      <point x="420" y="1852" type="line" name="hr00"/>
+      <point x="590" y="1852" type="line"/>
+      <point x="739" y="1690" type="line"/>
+      <point x="968" y="1852" type="line" name="dv02"/>
+      <point x="1149" y="1852" type="line" name="ih01"/>
+      <point x="905" y="1588" type="line" name="dv01"/>
+      <point x="557" y="1588" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="1493" type="line" name="at01"/>
+      <point x="704" y="1493" type="line" smooth="yes"/>
+      <point x="1016" y="1493"/>
+      <point x="1160" y="1378"/>
+      <point x="1160" y="1131" type="curve" name="dh02" smooth="yes"/>
+      <point x="1160" y="891"/>
+      <point x="1023" y="732"/>
+      <point x="783" y="705" type="curve" name="iv01"/>
+      <point x="865" y="691"/>
+      <point x="901" y="653"/>
+      <point x="939" y="537" type="curve"/>
+      <point x="1103" y="0" type="line" name="ih02"/>
+      <point x="802" y="0" type="line"/>
+      <point x="696" y="376" type="line"/>
+      <point x="688" y="403" type="line" smooth="yes"/>
+      <point x="649" y="531"/>
+      <point x="605" y="590"/>
+      <point x="530" y="590" type="curve" name="dv03" smooth="yes"/>
+      <point x="413" y="590" type="line"/>
+      <point x="298" y="0" type="line" name="ab01"/>
+      <point x="3" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="585" y="838" type="line" name="dv04" smooth="yes"/>
+      <point x="766" y="838"/>
+      <point x="859" y="929"/>
+      <point x="859" y="1080" type="curve" name="dh01" smooth="yes"/>
+      <point x="859" y="1195"/>
+      <point x="804" y="1245"/>
+      <point x="675" y="1245" type="curve" name="sv01" smooth="yes"/>
+      <point x="542" y="1245" type="line"/>
+      <point x="462" y="838" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

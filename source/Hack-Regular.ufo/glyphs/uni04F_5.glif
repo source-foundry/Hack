@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04F5" format="1">
+  <advance width="1233"/>
+  <unicode hex="04F5"/>
+  <outline>
+    <contour>
+      <point x="359" y="1323" type="line" name="dv01" smooth="yes"/>
+      <point x="339" y="1323"/>
+      <point x="329" y="1333"/>
+      <point x="329" y="1353" type="curve" name="ih01" smooth="yes"/>
+      <point x="329" y="1495" type="line" smooth="yes"/>
+      <point x="329" y="1515"/>
+      <point x="339" y="1525"/>
+      <point x="359" y="1525" type="curve" name="dv02" smooth="yes"/>
+      <point x="502" y="1525" type="line" smooth="yes"/>
+      <point x="522" y="1525"/>
+      <point x="532" y="1515"/>
+      <point x="532" y="1495" type="curve" smooth="yes"/>
+      <point x="532" y="1353" type="line" name="sh01" smooth="yes"/>
+      <point x="532" y="1333"/>
+      <point x="522" y="1323"/>
+      <point x="502" y="1323" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="751" y="1323" type="line" name="sv01" smooth="yes"/>
+      <point x="731" y="1323"/>
+      <point x="721" y="1333"/>
+      <point x="721" y="1353" type="curve" name="dh03" smooth="yes"/>
+      <point x="721" y="1495" type="line" smooth="yes"/>
+      <point x="721" y="1515"/>
+      <point x="731" y="1525"/>
+      <point x="751" y="1525" type="curve" name="sv02" smooth="yes"/>
+      <point x="893" y="1525" type="line" smooth="yes"/>
+      <point x="913" y="1525"/>
+      <point x="923" y="1515"/>
+      <point x="923" y="1495" type="curve" name="hr01" smooth="yes"/>
+      <point x="923" y="1353" type="line" name="dh04" smooth="yes"/>
+      <point x="923" y="1333"/>
+      <point x="913" y="1323"/>
+      <point x="893" y="1323" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="837" y="466" type="line" name="ih02"/>
+      <point x="816" y="458"/>
+      <point x="700" y="402"/>
+      <point x="531" y="402" type="curve" name="dv03" smooth="yes"/>
+      <point x="306" y="402"/>
+      <point x="165" y="502"/>
+      <point x="165" y="755" type="curve" name="dh01" smooth="yes"/>
+      <point x="165" y="1122" type="line" name="at01"/>
+      <point x="349" y="1122" type="line"/>
+      <point x="349" y="755" type="line" name="dh02" smooth="yes"/>
+      <point x="349" y="584"/>
+      <point x="458" y="562"/>
+      <point x="590" y="562" type="curve" name="dv04" smooth="yes"/>
+      <point x="689" y="562"/>
+      <point x="756" y="575"/>
+      <point x="837" y="621" type="curve" name="sh02"/>
+      <point x="837" y="1122" type="line" name="at02"/>
+      <point x="1021" y="1122" type="line"/>
+      <point x="1021" y="0" type="line" name="sh03"/>
+      <point x="837" y="0" type="line" name="ih03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

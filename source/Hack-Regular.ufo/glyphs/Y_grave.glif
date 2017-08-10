@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ygrave" format="1">
+  <advance width="1233"/>
+  <unicode hex="1EF2"/>
+  <outline>
+    <contour>
+      <point x="377" y="1852" type="line" name="hr00"/>
+      <point x="561" y="1852" type="line"/>
+      <point x="758" y="1588" type="line" name="iv01"/>
+      <point x="604" y="1588" type="line"/>
+    </contour>
+    <contour>
+      <point x="514" y="670" type="line" name="dh01"/>
+      <point x="37" y="1493" type="line" name="at01"/>
+      <point x="252" y="1493" type="line"/>
+      <point x="616" y="834" type="line" name="ih01"/>
+      <point x="979" y="1493" type="line" name="at02"/>
+      <point x="1196" y="1493" type="line" name="iv02"/>
+      <point x="717" y="670" type="line" name="dh02"/>
+      <point x="717" y="0" type="line" name="ab01"/>
+      <point x="514" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

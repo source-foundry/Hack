@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="013D"/>
+  <outline>
+    <contour>
+      <point x="369" y="1493" type="line" name="at01"/>
+      <point x="571" y="1493" type="line"/>
+      <point x="313" y="170" type="line" name="sv01"/>
+      <point x="1034" y="170" type="line"/>
+      <point x="1001" y="0" type="line" name="ab01"/>
+      <point x="78" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="887" y="1492" type="line" name="at02"/>
+      <point x="1106" y="1492" type="line"/>
+      <point x="898" y="1116" type="line" name="hr01"/>
+      <point x="742" y="1116" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="1">
+  <advance width="1233"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <contour>
+      <point x="1206" y="1555" type="line" name="at03"/>
+      <point x="1221" y="1482"/>
+      <point x="1228" y="1419"/>
+      <point x="1228" y="1367" type="curve" name="dh06" smooth="yes"/>
+      <point x="1228" y="1211"/>
+      <point x="1166" y="1127"/>
+      <point x="1051" y="1127" type="curve" name="sv01" smooth="yes"/>
+      <point x="1042" y="1127"/>
+      <point x="1034" y="1126"/>
+      <point x="1025" y="1129" type="curve" name="hr01"/>
+      <point x="1025" y="551" type="line" name="dh04" smooth="yes"/>
+      <point x="1025" y="146"/>
+      <point x="872" y="-29"/>
+      <point x="515" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="159" y="-29"/>
+      <point x="5" y="146"/>
+      <point x="5" y="551" type="curve" name="dh01" smooth="yes"/>
+      <point x="5" y="1493" type="line" name="at01"/>
+      <point x="300" y="1493" type="line"/>
+      <point x="300" y="477" type="line" name="dh02" smooth="yes"/>
+      <point x="300" y="328"/>
+      <point x="379" y="238"/>
+      <point x="515" y="238" type="curve" name="dv02" smooth="yes"/>
+      <point x="651" y="238"/>
+      <point x="730" y="328"/>
+      <point x="730" y="477" type="curve" name="dh03" smooth="yes"/>
+      <point x="730" y="1493" type="line" name="at02"/>
+      <point x="1025" y="1493" type="line" name="sh01"/>
+      <point x="1025" y="1297" type="line" name="hr02"/>
+      <point x="1058" y="1310"/>
+      <point x="1081" y="1345"/>
+      <point x="1081" y="1406" type="curve" name="dh05" smooth="yes"/>
+      <point x="1081" y="1446"/>
+      <point x="1071" y="1503"/>
+      <point x="1050" y="1555" type="curve" name="ih01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

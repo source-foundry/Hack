@@ -10,30 +10,22 @@
       <point x="88" y="198" type="line"/>
       <point x="560" y="198" type="line" name="dv02"/>
       <point x="654" y="315" type="line"/>
-      <point x="576" y="315" type="line" name="dv05"/>
-      <point x="468" y="315"/>
-      <point x="289" y="394"/>
-      <point x="160" y="531"/>
-      <point x="88" y="715"/>
-      <point x="88" y="819" type="qcurve" name="dh01"/>
-      <point x="88" y="927"/>
-      <point x="164" y="1110"/>
-      <point x="295" y="1245"/>
-      <point x="473" y="1321"/>
-      <point x="575" y="1321" type="qcurve"/>
+      <point x="576" y="315" type="line" name="dv05" smooth="yes"/>
+      <point x="289" y="315"/>
+      <point x="88" y="541"/>
+      <point x="88" y="819" type="curve" name="dh01" smooth="yes"/>
+      <point x="88" y="1106"/>
+      <point x="303" y="1321"/>
+      <point x="575" y="1321" type="curve" smooth="yes"/>
       <point x="1145" y="1321" type="line" name="dv04"/>
       <point x="1145" y="1096" type="line" name="dv03"/>
-      <point x="575" y="1096" type="line"/>
-      <point x="520" y="1096"/>
-      <point x="424" y="1056"/>
-      <point x="354" y="982"/>
-      <point x="313" y="880"/>
-      <point x="313" y="818" type="qcurve" name="dh02"/>
-      <point x="313" y="755"/>
-      <point x="354" y="652"/>
-      <point x="426" y="580"/>
-      <point x="521" y="540"/>
-      <point x="575" y="540" type="qcurve" name="dv06"/>
+      <point x="575" y="1096" type="line" smooth="yes"/>
+      <point x="428" y="1096"/>
+      <point x="313" y="983"/>
+      <point x="313" y="818" type="curve" name="dh02" smooth="yes"/>
+      <point x="313" y="650"/>
+      <point x="431" y="540"/>
+      <point x="575" y="540" type="curve" name="dv06" smooth="yes"/>
       <point x="1145" y="540" type="line"/>
       <point x="1145" y="315" type="line" name="sv02"/>
       <point x="856" y="315" type="line"/>
@@ -46,34 +38,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignv" point="av01" align="round"/>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 225"/>
-    <ttc code="doublev" point1="dv03" point2="dv04" stem="y: 225"/>
-    <ttc code="doublev" point1="dv05" point2="dv06" stem="y: 225"/>
-    <ttc code="singlev" point1="dv01" point2="sv01"/>
-    <ttc code="singlev" point1="dv05" point2="sv02"/>
-    <ttc code="singlev" point1="dv02" point2="sv03"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 236"/>
-    <ttc code="singleh" point1="dh01" point2="sh01"/>
-    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="9"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-235" width="-21" />
-      <hstem pos="-40" width="238" />
-      <hstem pos="315" width="225" />
-      <hstem pos="1096" width="225" />
-      <vstem pos="88" width="225" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

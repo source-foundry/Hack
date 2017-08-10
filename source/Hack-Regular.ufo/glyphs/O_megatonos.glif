@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegatonos" format="1">
+  <advance width="1233"/>
+  <unicode hex="038F"/>
+  <outline>
+    <contour>
+      <point x="90" y="1460" type="line" name="sv01"/>
+      <point x="288" y="1460" type="line" name="ih01"/>
+      <point x="-37" y="1084" type="line" name="sv02"/>
+      <point x="-191" y="1084" type="line" name="hr01"/>
+    </contour>
+    <contour>
+      <point x="119" y="172" type="line" name="sh01"/>
+      <point x="364" y="172" type="line"/>
+      <point x="204" y="346"/>
+      <point x="131" y="528"/>
+      <point x="131" y="778" type="curve" name="hr02" smooth="yes"/>
+      <point x="131" y="1200"/>
+      <point x="339" y="1460"/>
+      <point x="660" y="1460" type="curve" name="dv02" smooth="yes"/>
+      <point x="983" y="1460"/>
+      <point x="1190" y="1198"/>
+      <point x="1190" y="778" type="curve" name="dh03" smooth="yes"/>
+      <point x="1190" y="533"/>
+      <point x="1119" y="349"/>
+      <point x="956" y="172" type="curve" name="ih02"/>
+      <point x="1204" y="172" type="line" name="sh02"/>
+      <point x="1204" y="0" type="line" name="ab01"/>
+      <point x="741" y="0" type="line"/>
+      <point x="741" y="172" type="line" name="dh02"/>
+      <point x="896" y="268"/>
+      <point x="995" y="505"/>
+      <point x="995" y="788" type="curve" name="sh03" smooth="yes"/>
+      <point x="995" y="1112"/>
+      <point x="865" y="1294"/>
+      <point x="661" y="1294" type="curve" name="dv01" smooth="yes"/>
+      <point x="456" y="1294"/>
+      <point x="328" y="1112"/>
+      <point x="328" y="789" type="curve" name="dh01" smooth="yes"/>
+      <point x="328" y="519"/>
+      <point x="418" y="273"/>
+      <point x="582" y="172" type="curve" name="sh04"/>
+      <point x="582" y="0" type="line" name="ab02"/>
+      <point x="119" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

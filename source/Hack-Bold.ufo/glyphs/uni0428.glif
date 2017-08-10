@@ -19,46 +19,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="sh01" zone="t: 1"/>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignt" point="at02" zone="t: 1"/>
-    <ttc code="alignb" point="hr01" zone="b: 0"/>
-    <ttc code="singlev" point1="hr01" point2="sv01" stem="y: 260.Hstem"/>
-    <ttc code="singlev" point1="sv01" point2="sh04"/>
-    <ttc code="singlev" point1="sh04" point2="sh05"/>
-    <ttc code="alignh" point="lsb" align="round"/>
-    <ttc code="singleh" point1="lsb" point2="sh01" align="round"/>
-    <ttc code="singleh" point1="sh01" point2="sh02" stem="X: 236"/>
-    <ttc code="singleh" point1="sh01" point2="sh03" round="true"/>
-    <ttc code="mdeltah" point="sh03" delta="8" ppm1="11" ppm2="12"/>
-    <ttc code="mdeltah" point="sh03" delta="8" ppm1="22" ppm2="22"/>
-    <ttc code="mdeltah" point="sh03" delta="-8" ppm1="18" ppm2="18"/>
-    <ttc code="mdeltah" point="sh03" delta="-8" ppm1="13" ppm2="13"/>
-    <ttc code="singleh" point1="sh03" point2="sh04" stem="X: 236"/>
-    <ttc code="singleh" point1="sh03" point2="sh05" round="true"/>
-    <ttc code="mdeltah" point="sh05" delta="8" ppm1="11" ppm2="12"/>
-    <ttc code="mdeltah" point="sh05" delta="8" ppm1="22" ppm2="22"/>
-    <ttc code="mdeltah" point="sh05" delta="-8" ppm1="18" ppm2="18"/>
-    <ttc code="mdeltah" point="sh05" delta="-8" ppm1="13" ppm2="13"/>
-    <ttc code="singleh" point1="sh05" point2="hr01" stem="X: 236"/>
-    <ttc code="singleh" point1="hr01" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="sh01">
-      <hstem pos="0" width="259" />
-      <hstem pos="1493" width="-20" />
-      <hstem pos="1494" width="-20" />
-      <vstem3 stem3List="78,240,496,240,914,240" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

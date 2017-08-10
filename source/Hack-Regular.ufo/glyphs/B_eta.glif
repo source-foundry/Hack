@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Beta" format="1">
+  <advance width="1233"/>
+  <unicode hex="0392"/>
+  <outline>
+    <contour>
+      <point x="166" y="1493" type="line" name="dh01"/>
+      <point x="608" y="1493" type="line" smooth="yes"/>
+      <point x="913" y="1493"/>
+      <point x="1085" y="1357"/>
+      <point x="1085" y="1110" type="curve" name="dh03" smooth="yes"/>
+      <point x="1085" y="931"/>
+      <point x="998" y="826"/>
+      <point x="823" y="799" type="curve" name="ih01"/>
+      <point x="1017" y="770"/>
+      <point x="1137" y="626"/>
+      <point x="1137" y="407" type="curve" name="sh02" smooth="yes"/>
+      <point x="1137" y="139"/>
+      <point x="961" y="0"/>
+      <point x="608" y="0" type="curve" name="ab01" smooth="yes"/>
+      <point x="166" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="604" y="877" type="line" name="dv01" smooth="yes"/>
+      <point x="796" y="877"/>
+      <point x="881" y="947"/>
+      <point x="881" y="1110" type="curve" name="hr01" smooth="yes"/>
+      <point x="881" y="1265"/>
+      <point x="804" y="1327"/>
+      <point x="604" y="1327" type="curve" name="sv01" smooth="yes"/>
+      <point x="369" y="1327" type="line" name="dh02"/>
+      <point x="369" y="877" type="line"/>
+    </contour>
+    <contour>
+      <point x="608" y="166" type="line" name="hr02" smooth="yes"/>
+      <point x="843" y="166"/>
+      <point x="934" y="242"/>
+      <point x="934" y="429" type="curve" name="sh01" smooth="yes"/>
+      <point x="934" y="625"/>
+      <point x="833" y="713"/>
+      <point x="608" y="713" type="curve" name="hr03" smooth="yes"/>
+      <point x="369" y="713" type="line" name="sh03"/>
+      <point x="369" y="166" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

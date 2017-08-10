@@ -22,33 +22,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignv" point="av01" align="round"/>
-    <ttc code="alignb" point="sh01" zone="b: 0"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="interpolatev" point="hr00" point1="sh01" point2="av01"/>
-    <ttc code="interpolatev" point="iv01" point1="sh01" point2="av01"/>
-    <ttc code="alignh" point="lsb" align="round"/>
-    <ttc code="alignh" point="ah01" align="round"/>
-    <ttc code="singleh" point1="lsb" point2="hr00" align="round"/>
-    <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 160"/>
-    <ttc code="singleh" point1="hr00" point2="sh02" stem="X: 160"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="21" width="-21" />
-      <hstem pos="1101" width="-20" />
-      <vstem pos="452" width="82" />
-      <vstem pos="698" width="82" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

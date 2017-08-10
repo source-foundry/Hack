@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreve" format="1">
+  <advance width="1233"/>
+  <unicode hex="0102"/>
+  <outline>
+    <contour>
+      <point x="794" y="1612" type="curve" name="dv01" smooth="yes"/>
+      <point x="616" y="1612"/>
+      <point x="527" y="1680"/>
+      <point x="527" y="1817" type="curve" name="dh01" smooth="yes"/>
+      <point x="527" y="1829"/>
+      <point x="528" y="1841"/>
+      <point x="529" y="1854" type="curve"/>
+      <point x="648" y="1854" type="line" name="dh02"/>
+      <point x="649" y="1782"/>
+      <point x="709" y="1743"/>
+      <point x="822" y="1743" type="curve" name="dv02" smooth="yes"/>
+      <point x="931" y="1743"/>
+      <point x="1002" y="1780"/>
+      <point x="1037" y="1854" type="curve" name="sv01"/>
+      <point x="1156" y="1854" type="line"/>
+      <point x="1109" y="1694"/>
+      <point x="987" y="1612"/>
+    </contour>
+    <contour>
+      <point x="639" y="1493" type="line" name="at01"/>
+      <point x="885" y="1493" type="line"/>
+      <point x="1051" y="0" type="line" name="ab01"/>
+      <point x="850" y="0" type="line"/>
+      <point x="815" y="389" type="line" name="dv03"/>
+      <point x="295" y="389" type="line"/>
+      <point x="111" y="0" type="line" name="ab02"/>
+      <point x="-106" y="0" type="line" name="hr01"/>
+    </contour>
+    <contour>
+      <point x="801" y="551" type="line" name="hr02"/>
+      <point x="735" y="1325" type="line"/>
+      <point x="371" y="551" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

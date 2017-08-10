@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04C1" format="1">
+  <advance width="1233"/>
+  <unicode hex="04C1"/>
+  <outline>
+    <contour>
+      <point x="616" y="1587" type="curve" name="dv01" smooth="yes"/>
+      <point x="419" y="1587"/>
+      <point x="301" y="1678"/>
+      <point x="281" y="1851" type="curve" name="sv02"/>
+      <point x="422" y="1851" type="line"/>
+      <point x="449" y="1770"/>
+      <point x="515" y="1730"/>
+      <point x="618" y="1730" type="curve" name="dv02" smooth="yes"/>
+      <point x="719" y="1730"/>
+      <point x="782" y="1770"/>
+      <point x="809" y="1851" type="curve" name="sv01"/>
+      <point x="952" y="1851" type="line"/>
+      <point x="932" y="1678"/>
+      <point x="815" y="1587"/>
+    </contour>
+    <contour>
+      <point x="271" y="886" type="line"/>
+      <point x="13" y="1493" type="line" name="at01"/>
+      <point x="274" y="1493" type="line"/>
+      <point x="497" y="970" type="line" name="dh01"/>
+      <point x="497" y="1493" type="line" name="at02"/>
+      <point x="737" y="1493" type="line"/>
+      <point x="737" y="970" type="line" name="dh02"/>
+      <point x="960" y="1493" type="line" name="at03"/>
+      <point x="1221" y="1493" type="line"/>
+      <point x="963" y="886" type="line"/>
+      <point x="1221" y="0" type="line" name="ab01"/>
+      <point x="971" y="0" type="line"/>
+      <point x="814" y="537" type="line" name="iv01"/>
+      <point x="737" y="356" type="line" name="sh01"/>
+      <point x="737" y="0" type="line" name="ab02"/>
+      <point x="497" y="0" type="line" name="sh02"/>
+      <point x="497" y="356" type="line"/>
+      <point x="420" y="537" type="line" name="hr01"/>
+      <point x="263" y="0" type="line" name="hr02"/>
+      <point x="13" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

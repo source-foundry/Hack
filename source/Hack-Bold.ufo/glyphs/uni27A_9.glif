@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27A9" format="1">
+  <advance width="1233"/>
+  <unicode hex="27A9"/>
+  <outline>
+    <contour>
+      <point x="607" y="532" type="line" name="ah01"/>
+      <point x="101" y="532" type="line" name="sh01"/>
+      <point x="101" y="888" type="line"/>
+      <point x="607" y="888" type="line" name="sh02"/>
+      <point x="607" y="1057" type="line" name="sv01"/>
+      <point x="785" y="1057" type="line"/>
+      <point x="1132" y="710" type="line"/>
+      <point x="785" y="363" type="line"/>
+      <point x="607" y="363" type="line" name="dv01"/>
+    </contour>
+    <contour>
+      <point x="954" y="710" type="line"/>
+      <point x="664" y="1000" type="line" name="hr01"/>
+      <point x="664" y="831" type="line" name="dv02"/>
+      <point x="158" y="831" type="line" name="hr02"/>
+      <point x="158" y="589" type="line" name="sh03"/>
+      <point x="664" y="589" type="line" name="hr03"/>
+      <point x="664" y="420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

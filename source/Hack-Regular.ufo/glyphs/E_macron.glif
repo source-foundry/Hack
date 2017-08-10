@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0112"/>
+  <outline>
+    <contour>
+      <point x="335" y="1800" type="line" name="hr00"/>
+      <point x="933" y="1800" type="line" name="dv02"/>
+      <point x="933" y="1652" type="line" name="dv01"/>
+      <point x="335" y="1652" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="1493" type="line" name="dh01"/>
+      <point x="1083" y="1493" type="line"/>
+      <point x="1083" y="1323" type="line" name="sv01"/>
+      <point x="399" y="1323" type="line" name="dh02"/>
+      <point x="399" y="881" type="line"/>
+      <point x="1053" y="881" type="line" name="dv04"/>
+      <point x="1053" y="711" type="line" name="dv03"/>
+      <point x="399" y="711" type="line" name="sh01"/>
+      <point x="399" y="170" type="line" name="sv02"/>
+      <point x="1102" y="170" type="line"/>
+      <point x="1102" y="0" type="line" name="ab01"/>
+      <point x="197" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

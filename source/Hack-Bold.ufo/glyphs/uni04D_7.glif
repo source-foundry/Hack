@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D7" format="1">
+  <advance width="1233"/>
+  <unicode hex="04D7"/>
+  <outline>
+    <contour>
+      <point x="630" y="1297" type="curve" name="dv03" smooth="yes"/>
+      <point x="421" y="1297"/>
+      <point x="303" y="1401"/>
+      <point x="295" y="1594" type="curve" name="sv02"/>
+      <point x="436" y="1594" type="line"/>
+      <point x="451" y="1502"/>
+      <point x="518" y="1450"/>
+      <point x="630" y="1450" type="curve" name="dv04" smooth="yes"/>
+      <point x="742" y="1450"/>
+      <point x="808" y="1501"/>
+      <point x="823" y="1594" type="curve" name="sv01"/>
+      <point x="966" y="1594" type="line"/>
+      <point x="958" y="1401"/>
+      <point x="841" y="1297"/>
+    </contour>
+    <contour>
+      <point x="679" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="293" y="-29"/>
+      <point x="92" y="178"/>
+      <point x="92" y="550" type="curve" name="sh01" smooth="yes"/>
+      <point x="92" y="920"/>
+      <point x="291" y="1147"/>
+      <point x="631" y="1147" type="curve" name="at01" smooth="yes"/>
+      <point x="954" y="1147"/>
+      <point x="1149" y="940"/>
+      <point x="1149" y="584" type="curve" name="sh02" smooth="yes"/>
+      <point x="1149" y="465" type="line"/>
+      <point x="390" y="465" type="line" name="sh03"/>
+      <point x="391" y="290"/>
+      <point x="493" y="203"/>
+      <point x="698" y="203" type="curve" name="dv02" smooth="yes"/>
+      <point x="834" y="203"/>
+      <point x="958" y="240"/>
+      <point x="1102" y="324" type="curve" name="ih01"/>
+      <point x="1102" y="55" type="line"/>
+      <point x="969" y="-1"/>
+      <point x="824" y="-29"/>
+    </contour>
+    <contour>
+      <point x="854" y="685" type="line" name="ah01"/>
+      <point x="851" y="840"/>
+      <point x="771" y="920"/>
+      <point x="630" y="920" type="curve" name="hr01" smooth="yes"/>
+      <point x="486" y="920"/>
+      <point x="409" y="837"/>
+      <point x="393" y="684" type="curve" name="hr02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

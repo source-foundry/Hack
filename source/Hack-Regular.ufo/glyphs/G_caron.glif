@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gcaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="01E6"/>
+  <outline>
+    <contour>
+      <point x="401" y="1852" type="line" name="ih01"/>
+      <point x="541" y="1852" type="line"/>
+      <point x="706" y="1674" type="line"/>
+      <point x="872" y="1852" type="line" name="sv02"/>
+      <point x="1012" y="1852" type="line" name="ih02"/>
+      <point x="801" y="1586" type="line" name="hr01"/>
+      <point x="612" y="1586" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="324" y="-29"/>
+      <point x="102" y="255"/>
+      <point x="102" y="743" type="curve" name="dh01" smooth="yes"/>
+      <point x="102" y="1233"/>
+      <point x="327" y="1520"/>
+      <point x="703" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="835" y="1520"/>
+      <point x="945" y="1485"/>
+      <point x="1053" y="1413" type="curve"/>
+      <point x="1053" y="1206" type="line" name="ih03"/>
+      <point x="945" y="1310"/>
+      <point x="835" y="1356"/>
+      <point x="707" y="1356" type="curve" name="sv01" smooth="yes"/>
+      <point x="440" y="1356"/>
+      <point x="313" y="1155"/>
+      <point x="313" y="739" type="curve" name="dh02" smooth="yes"/>
+      <point x="313" y="330"/>
+      <point x="438" y="135"/>
+      <point x="705" y="135" type="curve" name="dv02" smooth="yes"/>
+      <point x="790" y="135"/>
+      <point x="855" y="155"/>
+      <point x="911" y="199" type="curve" name="sh01"/>
+      <point x="911" y="600" type="line" name="dv03"/>
+      <point x="694" y="600" type="line" name="hr02"/>
+      <point x="694" y="766" type="line" name="dh03"/>
+      <point x="1104" y="766" type="line" name="dh04"/>
+      <point x="1104" y="123" type="line"/>
+      <point x="996" y="23"/>
+      <point x="861" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

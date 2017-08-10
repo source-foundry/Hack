@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="0116"/>
+  <outline>
+    <contour>
+      <point x="541" y="1606" type="line" name="hr00" smooth="yes"/>
+      <point x="524" y="1606"/>
+      <point x="510" y="1620"/>
+      <point x="510" y="1637" type="curve" name="ah01" smooth="yes"/>
+      <point x="510" y="1821" type="line" smooth="yes"/>
+      <point x="510" y="1838"/>
+      <point x="524" y="1852"/>
+      <point x="541" y="1852" type="curve" name="dv01" smooth="yes"/>
+      <point x="754" y="1852" type="line" smooth="yes"/>
+      <point x="771" y="1852"/>
+      <point x="785" y="1838"/>
+      <point x="785" y="1821" type="curve" smooth="yes"/>
+      <point x="785" y="1637" type="line" name="sh01" smooth="yes"/>
+      <point x="785" y="1620"/>
+      <point x="771" y="1606"/>
+      <point x="754" y="1606" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="168" y="1493" type="line" name="sh02"/>
+      <point x="1098" y="1493" type="line"/>
+      <point x="1098" y="1233" type="line" name="sv01"/>
+      <point x="463" y="1233" type="line" name="sh03"/>
+      <point x="463" y="911" type="line"/>
+      <point x="1038" y="911" type="line" name="dv03"/>
+      <point x="1038" y="651" type="line" name="dv02"/>
+      <point x="463" y="651" type="line" name="sh04"/>
+      <point x="463" y="260" type="line" name="sv02"/>
+      <point x="1098" y="260" type="line"/>
+      <point x="1098" y="0" type="line" name="ab01"/>
+      <point x="168" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

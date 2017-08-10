@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="0147"/>
+  <outline>
+    <contour>
+      <point x="534" y="1861" type="line" name="hr00"/>
+      <point x="670" y="1861" type="line"/>
+      <point x="809" y="1683" type="line"/>
+      <point x="1018" y="1861" type="line" name="av01"/>
+      <point x="1169" y="1861" type="line"/>
+      <point x="905" y="1595" type="line"/>
+      <point x="692" y="1595" type="line"/>
+    </contour>
+    <contour>
+      <point x="285" y="1493" type="line" name="at01"/>
+      <point x="541" y="1493" type="line"/>
+      <point x="805" y="264" type="line" name="iv01"/>
+      <point x="1044" y="1493" type="line" name="at02"/>
+      <point x="1239" y="1493" type="line"/>
+      <point x="948" y="0" type="line" name="ab01"/>
+      <point x="692" y="0" type="line"/>
+      <point x="428" y="1229" type="line" name="iv02"/>
+      <point x="188" y="0" type="line" name="ab02"/>
+      <point x="-6" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

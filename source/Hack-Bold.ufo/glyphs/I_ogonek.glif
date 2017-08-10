@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iogonek" format="1">
+  <advance width="1233"/>
+  <unicode hex="012E"/>
+  <outline>
+    <contour>
+      <point x="764" y="1233" type="line" name="sv01"/>
+      <point x="764" y="260" type="line" name="dh02"/>
+      <point x="1061" y="260" type="line" name="sv02"/>
+      <point x="1061" y="0" type="line" name="ab01"/>
+      <point x="764" y="0" type="line"/>
+      <point x="718" y="-62"/>
+      <point x="704" y="-87"/>
+      <point x="693" y="-106" type="curve" smooth="yes"/>
+      <point x="680" y="-130"/>
+      <point x="674" y="-147"/>
+      <point x="674" y="-166" type="curve" name="sh01" smooth="yes"/>
+      <point x="674" y="-213"/>
+      <point x="709" y="-254"/>
+      <point x="792" y="-254" type="curve" name="dv02" smooth="yes"/>
+      <point x="833" y="-254"/>
+      <point x="887" y="-244"/>
+      <point x="940" y="-223" type="curve" name="sh02"/>
+      <point x="940" y="-379" type="line" name="hr01"/>
+      <point x="868" y="-394"/>
+      <point x="804" y="-401"/>
+      <point x="753" y="-401" type="curve" name="dv01" smooth="yes"/>
+      <point x="597" y="-401"/>
+      <point x="512" y="-339"/>
+      <point x="512" y="-224" type="curve" name="ih01" smooth="yes"/>
+      <point x="512" y="-151"/>
+      <point x="547" y="-81"/>
+      <point x="623" y="0" type="curve" name="ih02"/>
+      <point x="172" y="0" type="line"/>
+      <point x="172" y="260" type="line" name="hr02"/>
+      <point x="469" y="260" type="line" name="dh01"/>
+      <point x="469" y="1233" type="line" name="hr03"/>
+      <point x="172" y="1233" type="line" name="sv03"/>
+      <point x="172" y="1493" type="line" name="at01"/>
+      <point x="1061" y="1493" type="line"/>
+      <point x="1061" y="1233" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

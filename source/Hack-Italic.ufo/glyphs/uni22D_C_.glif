@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22DC" format="1">
+  <advance width="1233"/>
+  <unicode hex="22DC"/>
+  <outline>
+    <contour>
+      <point x="86" y="1087" type="line" name="hr00"/>
+      <point x="1143" y="1087" type="line" name="dv02"/>
+      <point x="1143" y="917" type="line" name="dv01"/>
+      <point x="86" y="917" type="line"/>
+    </contour>
+    <contour>
+      <point x="86" y="331" type="line"/>
+      <point x="86" y="499" type="line"/>
+      <point x="1143" y="831" type="line"/>
+      <point x="1143" y="649" type="line"/>
+      <point x="342" y="415" type="line"/>
+      <point x="1143" y="184" type="line"/>
+      <point x="1143" y="0" type="line" name="ab01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

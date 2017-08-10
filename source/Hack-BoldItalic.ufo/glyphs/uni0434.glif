@@ -5,15 +5,13 @@
   <outline>
     <contour>
       <point x="0" y="219" type="line" name="sv01"/>
-      <point x="76" y="219" type="line" name="sv03"/>
-      <point x="87" y="219"/>
-      <point x="118" y="245"/>
-      <point x="130" y="262" type="qcurve"/>
-      <point x="139" y="274"/>
-      <point x="154" y="303"/>
-      <point x="168" y="344"/>
-      <point x="182" y="399"/>
-      <point x="189" y="435" type="qcurve"/>
+      <point x="76" y="219" type="line" name="sv03" smooth="yes"/>
+      <point x="91" y="219"/>
+      <point x="114" y="239"/>
+      <point x="130" y="262" type="curve" smooth="yes"/>
+      <point x="153" y="293"/>
+      <point x="170" y="338"/>
+      <point x="189" y="435" type="curve" smooth="yes"/>
       <point x="323" y="1120" type="line" name="at01"/>
       <point x="1170" y="1120" type="line"/>
       <point x="995" y="219" type="line" name="sv02"/>
@@ -29,40 +27,16 @@
       <point x="704" y="219" type="line" name="sv06"/>
       <point x="836" y="901" type="line" name="sv07"/>
       <point x="571" y="901" type="line"/>
-      <point x="485" y="459" type="line"/>
-      <point x="471" y="386"/>
-      <point x="433" y="267"/>
-      <point x="408" y="219" type="qcurve" name="sv08"/>
+      <point x="485" y="459" type="line" smooth="yes"/>
+      <point x="466" y="362"/>
+      <point x="441" y="283"/>
+      <point x="408" y="219" type="curve" name="sv08"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 0"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 225"/>
-    <ttc code="singlev" point1="sv01" point2="sv02"/>
-    <ttc code="singlev" point1="sv02" point2="sv03"/>
-    <ttc code="singlev" point1="sv02" point2="hr01"/>
-    <ttc code="singlev" point1="sv02" point2="sv04" stem="y: 260.Hstem"/>
-    <ttc code="singlev" point1="sv04" point2="sv05"/>
-    <ttc code="singlev" point1="hr01" point2="sv06"/>
-    <ttc code="singlev" point1="at01" point2="sv07" stem="y: 225"/>
-    <ttc code="singlev" point1="sv06" point2="sv08"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="sv01">
-      <hstem pos="-286" width="505" />
-      <hstem pos="0" width="219" />
-      <hstem pos="901" width="219" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

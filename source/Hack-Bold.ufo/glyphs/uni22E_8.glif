@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22E8" format="1">
+  <advance width="1233"/>
+  <unicode hex="22E8"/>
+  <outline>
+    <contour>
+      <point x="1145" y="147" type="line" name="iv01"/>
+      <point x="867" y="482"/>
+      <point x="515" y="667"/>
+      <point x="88" y="702" type="curve"/>
+      <point x="88" y="968" type="line"/>
+      <point x="523" y="993"/>
+      <point x="875" y="1178"/>
+      <point x="1145" y="1523" type="curve" name="av01"/>
+      <point x="1145" y="1185" type="line"/>
+      <point x="963" y="1002"/>
+      <point x="760" y="885"/>
+      <point x="537" y="835" type="curve" name="iv02"/>
+      <point x="762" y="786"/>
+      <point x="964" y="670"/>
+      <point x="1145" y="485" type="curve"/>
+    </contour>
+    <contour>
+      <point x="386" y="-383" type="line"/>
+      <point x="484" y="-95" type="line"/>
+      <point x="449" y="-87"/>
+      <point x="414" y="-83"/>
+      <point x="381" y="-83" type="curve" name="dv03" smooth="yes"/>
+      <point x="277" y="-83"/>
+      <point x="188" y="-120"/>
+      <point x="88" y="-204" type="curve" name="hr01"/>
+      <point x="88" y="25" type="line"/>
+      <point x="191" y="105"/>
+      <point x="285" y="140"/>
+      <point x="389" y="140" type="curve" name="dv04" smooth="yes"/>
+      <point x="445" y="140"/>
+      <point x="493" y="130"/>
+      <point x="553" y="111" type="curve"/>
+      <point x="646" y="384" type="line"/>
+      <point x="847" y="316" type="line"/>
+      <point x="752" y="34" type="line"/>
+      <point x="792" y="23"/>
+      <point x="830" y="17"/>
+      <point x="865" y="17" type="curve" name="dv02" smooth="yes"/>
+      <point x="958" y="17"/>
+      <point x="1045" y="54"/>
+      <point x="1145" y="142" type="curve" name="iv03"/>
+      <point x="1145" y="-92" type="line"/>
+      <point x="1049" y="-168"/>
+      <point x="952" y="-206"/>
+      <point x="853" y="-206" type="curve" name="dv01" smooth="yes"/>
+      <point x="796" y="-206"/>
+      <point x="743" y="-194"/>
+      <point x="682" y="-171" type="curve"/>
+      <point x="587" y="-451" type="line" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

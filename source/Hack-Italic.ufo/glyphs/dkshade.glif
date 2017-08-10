@@ -91,91 +91,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignb" point="ab01" zone="b: 1"/>
-    <ttc code="alignb" point="hr04" zone="b: 1"/>
-    <ttc code="alignb" point="hr05" zone="b: 1"/>
-    <ttc code="doublev" point1="dv01" point2="sh17" round="true"/>
-    <ttc code="doublev" point1="dv02" point2="sh07" stem="y: 170.Hstem"/>
-    <ttc code="doublev" point1="dv03" point2="sh02" round="true"/>
-    <ttc code="doublev" point1="dv04" point2="sh06" round="true"/>
-    <ttc code="doublev" point1="hr15" point2="hr08" round="true"/>
-    <ttc code="doublev" point1="dv05" point2="sh10" round="true"/>
-    <ttc code="doublev" point1="dv06" point2="sh04" round="true"/>
-    <ttc code="singlev" point1="hr05" point2="dh01" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="sh06" point2="hr03"/>
-    <ttc code="singlev" point1="sh07" point2="ih02"/>
-    <ttc code="singlev" point1="dv01" point2="sv01"/>
-    <ttc code="singlev" point1="sh10" point2="sh12"/>
-    <ttc code="singlev" point1="dv02" point2="sv02"/>
-    <ttc code="singlev" point1="sh04" point2="hr06"/>
-    <ttc code="singlev" point1="dv04" point2="sv03"/>
-    <ttc code="singlev" point1="hr08" point2="sh14"/>
-    <ttc code="singlev" point1="dv05" point2="hr10"/>
-    <ttc code="singlev" point1="sh02" point2="hr12"/>
-    <ttc code="singlev" point1="dv06" point2="sv04"/>
-    <ttc code="singlev" point1="sh17" point2="sh15"/>
-    <ttc code="singlev" point1="hr15" point2="hr17"/>
-    <ttc code="singlev" point1="dh01" point2="sh19"/>
-    <ttc code="singlev" point1="dv03" point2="hr19"/>
-    <ttc code="singlev" point1="sh19" point2="hr20"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 320"/>
-    <ttc code="doubleh" point1="dh03" point2="hr04" stem="X: 320"/>
-    <ttc code="interpolateh" point="ih01" point1="dh01" point2="dh02" align="round"/>
-    <ttc code="singleh" point1="dh01" point2="sh01"/>
-    <ttc code="singleh" point1="ih01" point2="sh02"/>
-    <ttc code="singleh" point1="dh01" point2="sh03"/>
-    <ttc code="singleh" point1="ih01" point2="sh04"/>
-    <ttc code="singleh" point1="dh01" point2="sh05"/>
-    <ttc code="singleh" point1="ih01" point2="sh06"/>
-    <ttc code="singleh" point1="ih01" point2="hr20" stem="X: 320"/>
-    <ttc code="singleh" point1="hr20" point2="sh07"/>
-    <ttc code="interpolateh" point="ih02" point1="dh03" point2="hr04" align="round"/>
-    <ttc code="singleh" point1="ih02" point2="sh08" stem="X: 320"/>
-    <ttc code="singleh" point1="sh08" point2="sh09" stem="X: 160.Vstem"/>
-    <ttc code="singleh" point1="dh03" point2="sh10"/>
-    <ttc code="singleh" point1="dh02" point2="sh11"/>
-    <ttc code="singleh" point1="sh09" point2="sh12"/>
-    <ttc code="singleh" point1="hr04" point2="sh13"/>
-    <ttc code="singleh" point1="ih02" point2="hr06"/>
-    <ttc code="singleh" point1="hr20" point2="hr07"/>
-    <ttc code="singleh" point1="dh03" point2="hr08"/>
-    <ttc code="singleh" point1="dh02" point2="hr09"/>
-    <ttc code="singleh" point1="sh09" point2="sh14"/>
-    <ttc code="singleh" point1="hr04" point2="hr11"/>
-    <ttc code="singleh" point1="ih02" point2="hr12"/>
-    <ttc code="singleh" point1="hr20" point2="hr13"/>
-    <ttc code="singleh" point1="dh03" point2="sh15"/>
-    <ttc code="singleh" point1="dh02" point2="sh16"/>
-    <ttc code="singleh" point1="sh09" point2="sh17"/>
-    <ttc code="singleh" point1="hr04" point2="sh18"/>
-    <ttc code="singleh" point1="ih02" point2="sh19"/>
-    <ttc code="singleh" point1="sh08" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="dh01">
-      <hstem pos="-492" width="310" />
-      <hstem pos="-271" width="400" />
-      <hstem pos="39" width="399" />
-      <hstem pos="350" width="399" />
-      <hstem pos="660" width="399" />
-      <hstem pos="971" width="399" />
-      <hstem pos="1280" width="400" />
-      <hstem pos="1591" width="310" />
-      <vstem pos="0" width="308" />
-      <vstem pos="153" width="463" />
-      <vstem pos="462" width="462" />
-      <vstem pos="770" width="463" />
-      <vstem pos="1079" width="154" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

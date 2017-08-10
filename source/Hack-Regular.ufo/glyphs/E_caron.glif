@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="1">
+  <advance width="1233"/>
+  <unicode hex="011A"/>
+  <outline>
+    <contour>
+      <point x="347" y="1852" type="line" name="hr00"/>
+      <point x="487" y="1852" type="line"/>
+      <point x="652" y="1674" type="line"/>
+      <point x="818" y="1852" type="line" name="av01"/>
+      <point x="958" y="1852" type="line"/>
+      <point x="747" y="1586" type="line"/>
+      <point x="558" y="1586" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="1493" type="line" name="dh01"/>
+      <point x="1083" y="1493" type="line"/>
+      <point x="1083" y="1323" type="line" name="sv01"/>
+      <point x="399" y="1323" type="line" name="dh02"/>
+      <point x="399" y="881" type="line"/>
+      <point x="1053" y="881" type="line" name="dv02"/>
+      <point x="1053" y="711" type="line" name="dv01"/>
+      <point x="399" y="711" type="line" name="sh01"/>
+      <point x="399" y="170" type="line" name="sv02"/>
+      <point x="1102" y="170" type="line"/>
+      <point x="1102" y="0" type="line" name="ab01"/>
+      <point x="197" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

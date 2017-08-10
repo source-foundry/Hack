@@ -19,38 +19,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 0"/>
-    <ttc code="alignt" point="at02" zone="t: 0"/>
-    <ttc code="alignb" point="sh01" zone="b: 0"/>
-    <ttc code="singlev" point1="sh01" point2="dh02" stem="Y: 156"/>
-    <ttc code="singlev" point1="dh02" point2="dh04"/>
-    <ttc code="singlev" point1="dh04" point2="sh02"/>
-    <ttc code="singlev" point1="sh02" point2="dh03"/>
-    <ttc code="singlev" point1="sh02" point2="hr02" round="true"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 184"/>
-    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 184"/>
-    <ttc code="singleh" point1="dh04" point2="sh01" align="round"/>
-    <ttc code="singleh" point1="dh04" point2="sh02" stem="X: 160"/>
-    <ttc code="singleh" point1="dh04" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="sh01">
-      <hstem pos="-286" width="436" />
-      <hstem pos="0" width="150" />
-      <hstem pos="1120" width="-20" />
-      <vstem pos="184" width="184" />
-      <vstem pos="854" width="184" />
-      <vstem pos="1028" width="150" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

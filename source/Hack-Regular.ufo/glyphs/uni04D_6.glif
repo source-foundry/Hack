@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D6" format="1">
+  <advance width="1233"/>
+  <unicode hex="04D6"/>
+  <outline>
+    <contour>
+      <point x="634" y="1609" type="curve" name="dv01" smooth="yes"/>
+      <point x="441" y="1609"/>
+      <point x="336" y="1690"/>
+      <point x="321" y="1851" type="curve"/>
+      <point x="440" y="1851" type="line" name="sv01"/>
+      <point x="456" y="1779"/>
+      <point x="523" y="1740"/>
+      <point x="636" y="1740" type="curve" name="dv02" smooth="yes"/>
+      <point x="745" y="1740"/>
+      <point x="809" y="1777"/>
+      <point x="829" y="1851" type="curve" name="sv02"/>
+      <point x="948" y="1851" type="line"/>
+      <point x="933" y="1691"/>
+      <point x="827" y="1609"/>
+    </contour>
+    <contour>
+      <point x="197" y="1493" type="line" name="dh01"/>
+      <point x="1083" y="1493" type="line"/>
+      <point x="1083" y="1323" type="line" name="sv03"/>
+      <point x="399" y="1323" type="line" name="dh02"/>
+      <point x="399" y="881" type="line"/>
+      <point x="1053" y="881" type="line" name="dv04"/>
+      <point x="1053" y="711" type="line" name="dv03"/>
+      <point x="399" y="711" type="line" name="sh01"/>
+      <point x="399" y="170" type="line" name="sv04"/>
+      <point x="1102" y="170" type="line" name="hr01"/>
+      <point x="1102" y="0" type="line" name="hr02"/>
+      <point x="197" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

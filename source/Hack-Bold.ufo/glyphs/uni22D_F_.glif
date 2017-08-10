@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22DF" format="1">
+  <advance width="1233"/>
+  <unicode hex="22DF"/>
+  <outline>
+    <contour>
+      <point x="1145" y="576" type="line" name="hr00"/>
+      <point x="693" y="651"/>
+      <point x="341" y="859"/>
+      <point x="88" y="1201" type="curve"/>
+      <point x="88" y="1523" type="line" name="av01"/>
+      <point x="354" y="1129"/>
+      <point x="706" y="892"/>
+      <point x="1145" y="811" type="curve"/>
+    </contour>
+    <contour>
+      <point x="88" y="-83" type="line"/>
+      <point x="270" y="100"/>
+      <point x="473" y="217"/>
+      <point x="696" y="267" type="curve" name="iv01"/>
+      <point x="471" y="316"/>
+      <point x="269" y="432"/>
+      <point x="88" y="617" type="curve"/>
+      <point x="88" y="955" type="line" name="iv02"/>
+      <point x="366" y="620"/>
+      <point x="718" y="435"/>
+      <point x="1145" y="400" type="curve"/>
+      <point x="1145" y="134" type="line"/>
+      <point x="710" y="109"/>
+      <point x="358" y="-76"/>
+      <point x="88" y="-421" type="curve" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

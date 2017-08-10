@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27B5" format="1">
+  <advance width="1233"/>
+  <unicode hex="27B5"/>
+  <outline>
+    <contour>
+      <point x="909" y="642" type="line" name="sv01"/>
+      <point x="653" y="642" type="line"/>
+      <point x="653" y="698" type="line" name="sv04"/>
+      <point x="909" y="698" type="line" name="sv02"/>
+      <point x="909" y="875" type="line" name="av01"/>
+      <point x="983" y="785"/>
+      <point x="1063" y="717"/>
+      <point x="1149" y="670" type="curve" name="iv01"/>
+      <point x="1063" y="623"/>
+      <point x="983" y="555"/>
+      <point x="909" y="465" type="curve" name="hr01"/>
+    </contour>
+    <contour>
+      <point x="84" y="841" type="line"/>
+      <point x="510" y="841" type="line" name="sv05"/>
+      <point x="652" y="698" type="line" name="sv03"/>
+      <point x="226" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="640" type="line"/>
+      <point x="652" y="640" type="line" name="dv01"/>
+      <point x="510" y="498" type="line" name="hr02"/>
+      <point x="84" y="498" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

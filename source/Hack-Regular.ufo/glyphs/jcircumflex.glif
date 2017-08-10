@@ -14,34 +14,25 @@
     </contour>
     <contour>
       <point x="238" y="-270" type="line"/>
-      <point x="472" y="-270" type="line"/>
-      <point x="652" y="-270"/>
-      <point x="652" y="-20" type="qcurve"/>
+      <point x="472" y="-270" type="line" smooth="yes"/>
+      <point x="592" y="-270"/>
+      <point x="652" y="-187"/>
+      <point x="652" y="-20" type="curve" smooth="yes"/>
       <point x="652" y="977" type="line"/>
       <point x="335" y="977" type="line"/>
       <point x="335" y="1120" type="line"/>
       <point x="836" y="1120" type="line"/>
-      <point x="836" y="-20" type="line"/>
-      <point x="836" y="-215"/>
-      <point x="659" y="-426"/>
-      <point x="492" y="-426" type="qcurve"/>
+      <point x="836" y="-20" type="line" smooth="yes"/>
+      <point x="836" y="-280"/>
+      <point x="715" y="-426"/>
+      <point x="492" y="-426" type="curve" smooth="yes"/>
       <point x="238" y="-426" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-426" width="156" />
-      <hstem pos="977" width="143" />
-      <hstem pos="1648" width="-20" />
-      <vstem pos="335" width="501" />
-      <vstem pos="652" width="184" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

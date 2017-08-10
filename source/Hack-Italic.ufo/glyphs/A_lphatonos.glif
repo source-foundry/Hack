@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphatonos" format="1">
+  <advance width="1233"/>
+  <unicode hex="0386"/>
+  <outline>
+    <contour>
+      <point x="457" y="1638" type="line" name="hr00"/>
+      <point x="676" y="1638" type="line"/>
+      <point x="281" y="1262" type="line"/>
+      <point x="125" y="1262" type="line" name="iv01"/>
+    </contour>
+    <contour>
+      <point x="639" y="1493" type="line" name="at01"/>
+      <point x="885" y="1493" type="line"/>
+      <point x="1051" y="0" type="line" name="ab01"/>
+      <point x="850" y="0" type="line"/>
+      <point x="815" y="389" type="line" name="dv01"/>
+      <point x="295" y="389" type="line"/>
+      <point x="111" y="0" type="line" name="ab02"/>
+      <point x="-106" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="801" y="551" type="line" name="dv02"/>
+      <point x="735" y="1325" type="line"/>
+      <point x="371" y="551" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

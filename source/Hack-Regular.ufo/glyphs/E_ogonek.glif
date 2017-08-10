@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek" format="1">
+  <advance width="1233"/>
+  <unicode hex="0118"/>
+  <outline>
+    <contour>
+      <point x="952" y="0" type="line" name="ab01"/>
+      <point x="888" y="-87"/>
+      <point x="864" y="-139"/>
+      <point x="864" y="-184" type="curve" name="dh04" smooth="yes"/>
+      <point x="864" y="-240"/>
+      <point x="902" y="-272"/>
+      <point x="974" y="-272" type="curve" name="dv02" smooth="yes"/>
+      <point x="1015" y="-272"/>
+      <point x="1057" y="-262"/>
+      <point x="1098" y="-242" type="curve" name="sh02"/>
+      <point x="1098" y="-375" type="line"/>
+      <point x="1042" y="-390"/>
+      <point x="1004" y="-395"/>
+      <point x="955" y="-395" type="curve" name="dv01" smooth="yes"/>
+      <point x="806" y="-395"/>
+      <point x="725" y="-340"/>
+      <point x="725" y="-221" type="curve" name="dh03" smooth="yes"/>
+      <point x="725" y="-155"/>
+      <point x="751" y="-93"/>
+      <point x="833" y="0" type="curve" name="ab02"/>
+      <point x="197" y="0" type="line" name="dh01"/>
+      <point x="197" y="1493" type="line" name="at01"/>
+      <point x="1083" y="1493" type="line"/>
+      <point x="1083" y="1323" type="line" name="sv01"/>
+      <point x="399" y="1323" type="line" name="sh03"/>
+      <point x="399" y="881" type="line"/>
+      <point x="1053" y="881" type="line" name="dv04"/>
+      <point x="1053" y="711" type="line" name="dv03"/>
+      <point x="399" y="711" type="line"/>
+      <point x="399" y="170" type="line" name="dh02"/>
+      <point x="1102" y="170" type="line" name="hr01"/>
+      <point x="1102" y="0" type="line" name="sh01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

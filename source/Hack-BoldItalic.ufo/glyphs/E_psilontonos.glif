@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilontonos" format="1">
+  <advance width="1233"/>
+  <unicode hex="0388"/>
+  <outline>
+    <contour>
+      <point x="-79" y="1502" type="line" name="at01"/>
+      <point x="242" y="1502" type="line"/>
+      <point x="-200" y="1126" type="line" name="at03"/>
+      <point x="-397" y="1126" type="line" name="iv01"/>
+    </contour>
+    <contour>
+      <point x="297" y="1493" type="line" name="at02"/>
+      <point x="1229" y="1493" type="line"/>
+      <point x="1178" y="1233" type="line" name="sv01"/>
+      <point x="543" y="1233" type="line"/>
+      <point x="480" y="911" type="line"/>
+      <point x="1055" y="911" type="line" name="dv02"/>
+      <point x="1006" y="651" type="line" name="dv01"/>
+      <point x="431" y="651" type="line"/>
+      <point x="355" y="260" type="line" name="sv02"/>
+      <point x="990" y="260" type="line"/>
+      <point x="938" y="0" type="line" name="hr01"/>
+      <point x="9" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

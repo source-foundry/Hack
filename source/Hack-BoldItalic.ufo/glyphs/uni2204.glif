@@ -38,45 +38,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignv" point="av01" align="round"/>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignt" point="at02" zone="t: 1"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="alignb" point="ab02" zone="b: 0"/>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="y: 260.Hstem"/>
-    <ttc code="doublev" point1="dv03" point2="dv04" stem="y: 225"/>
-    <ttc code="singlev" point1="ab01" point2="sv01" stem="y: 260.Hstem"/>
-    <ttc code="singlev" point1="at02" point2="sv02" stem="y: 225"/>
-    <ttc code="singlev" point1="sv02" point2="hr01"/>
-    <ttc code="singlev" point1="dv04" point2="sv03"/>
-    <ttc code="interpolatev" point="dh01" point1="ab01" point2="av01"/>
-    <ttc code="interpolatev" point="iv01" point1="ab01" point2="av01"/>
-    <ttc code="singlev" point1="sv01" point2="sh01"/>
-    <ttc code="singlev" point1="dv03" point2="sv04"/>
-    <ttc code="singlev" point1="sh01" point2="sv05"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 295"/>
-    <ttc code="interpolateh" point="ih01" point1="dh01" point2="dh02"/>
-    <ttc code="singleh" point1="dh01" point2="sh01"/>
-    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="ab01">
-      <hstem pos="-95" width="346" />
-      <hstem pos="0" width="251" />
-      <hstem pos="631" width="231" />
-      <hstem pos="1252" width="241" />
-      <hstem pos="1588" width="-20" />
-      <vstem pos="787" width="304" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

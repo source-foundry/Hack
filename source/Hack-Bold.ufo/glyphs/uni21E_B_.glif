@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni21EB" format="1">
+  <advance width="1233"/>
+  <unicode hex="21EB"/>
+  <outline>
+    <contour>
+      <point x="224" y="280" type="line" name="dh01"/>
+      <point x="424" y="280" type="line" name="sh01"/>
+      <point x="424" y="759" type="line"/>
+      <point x="194" y="759" type="line" name="iv01"/>
+      <point x="616" y="1162" type="line" name="av01"/>
+      <point x="1040" y="759" type="line" name="iv02"/>
+      <point x="808" y="759" type="line"/>
+      <point x="808" y="280" type="line" name="dh04"/>
+      <point x="1010" y="280" type="line" name="sh02"/>
+      <point x="1010" y="0" type="line" name="ab01"/>
+      <point x="224" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="920" y="90" type="line" name="sv01"/>
+      <point x="920" y="190" type="line" name="hr01"/>
+      <point x="708" y="190" type="line" name="dh03"/>
+      <point x="708" y="858" type="line" name="hr02"/>
+      <point x="802" y="858" type="line" name="ih01"/>
+      <point x="616" y="1042" type="line"/>
+      <point x="432" y="858" type="line" name="ih02"/>
+      <point x="524" y="858" type="line"/>
+      <point x="524" y="190" type="line" name="dh02"/>
+      <point x="314" y="190" type="line"/>
+      <point x="314" y="90" type="line" name="hr03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

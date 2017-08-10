@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat" format="1">
+  <advance width="1233"/>
+  <unicode hex="0110"/>
+  <outline>
+    <contour>
+      <point x="121" y="664" type="line" name="hr00"/>
+      <point x="-16" y="664" type="line"/>
+      <point x="31" y="901" type="line"/>
+      <point x="166" y="901" type="line" name="dv01"/>
+      <point x="283" y="1493" type="line" name="at01"/>
+      <point x="598" y="1493" type="line" smooth="yes"/>
+      <point x="981" y="1493"/>
+      <point x="1165" y="1330"/>
+      <point x="1165" y="994" type="curve" name="dh02" smooth="yes"/>
+      <point x="1165" y="889"/>
+      <point x="1147" y="751"/>
+      <point x="1110" y="602" type="curve" smooth="yes"/>
+      <point x="1056" y="385"/>
+      <point x="990" y="262"/>
+      <point x="897" y="172" type="curve" smooth="yes"/>
+      <point x="772" y="50"/>
+      <point x="613" y="0"/>
+      <point x="322" y="0" type="curve" name="ab01" smooth="yes"/>
+      <point x="-8" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="434" y="266" type="line" name="sv01" smooth="yes"/>
+      <point x="587" y="266"/>
+      <point x="682" y="323"/>
+      <point x="743" y="442" type="curve" smooth="yes"/>
+      <point x="807" y="564"/>
+      <point x="860" y="800"/>
+      <point x="860" y="956" type="curve" name="dh01" smooth="yes"/>
+      <point x="860" y="1143"/>
+      <point x="783" y="1227"/>
+      <point x="606" y="1227" type="curve" name="sv02" smooth="yes"/>
+      <point x="524" y="1227" type="line"/>
+      <point x="461" y="901" type="line" name="sv03"/>
+      <point x="672" y="901" type="line"/>
+      <point x="627" y="664" type="line" name="sv04"/>
+      <point x="416" y="664" type="line"/>
+      <point x="338" y="266" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

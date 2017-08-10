@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="1">
+  <advance width="1233"/>
+  <unicode hex="012A"/>
+  <outline>
+    <contour>
+      <point x="301" y="1820" type="line" name="hr00"/>
+      <point x="932" y="1820" type="line" name="dv02"/>
+      <point x="932" y="1632" type="line" name="dv01"/>
+      <point x="301" y="1632" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="260" type="line" name="sv01"/>
+      <point x="469" y="260" type="line" name="dh01"/>
+      <point x="469" y="1233" type="line" name="sv02"/>
+      <point x="172" y="1233" type="line"/>
+      <point x="172" y="1493" type="line" name="at01"/>
+      <point x="1061" y="1493" type="line"/>
+      <point x="1061" y="1233" type="line" name="sv03"/>
+      <point x="764" y="1233" type="line" name="sv04"/>
+      <point x="764" y="260" type="line" name="dh02"/>
+      <point x="1061" y="260" type="line" name="sv05"/>
+      <point x="1061" y="0" type="line" name="ab01"/>
+      <point x="172" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04CB" format="1">
+  <advance width="1233"/>
+  <unicode hex="04CB"/>
+  <outline>
+    <contour>
+      <point x="669" y="170" type="line" name="dh03"/>
+      <point x="882" y="170" type="line" name="dh04"/>
+      <point x="882" y="718" type="line" name="hr01"/>
+      <point x="859" y="691"/>
+      <point x="835" y="673"/>
+      <point x="796" y="652" type="curve" smooth="yes"/>
+      <point x="749" y="626" type="line" smooth="yes"/>
+      <point x="700" y="599"/>
+      <point x="609" y="582"/>
+      <point x="536" y="579" type="curve" smooth="yes"/>
+      <point x="488" y="577" type="line" name="dv01"/>
+      <point x="381" y="577"/>
+      <point x="299" y="605"/>
+      <point x="240" y="661" type="curve" smooth="yes"/>
+      <point x="229" y="672"/>
+      <point x="219" y="683"/>
+      <point x="214" y="690" type="curve" smooth="yes"/>
+      <point x="161" y="762"/>
+      <point x="130" y="869"/>
+      <point x="130" y="1030" type="curve" name="dh01" smooth="yes"/>
+      <point x="130" y="1495" type="line" name="at01"/>
+      <point x="333" y="1495" type="line"/>
+      <point x="333" y="1056" type="line" name="dh02" smooth="yes"/>
+      <point x="333" y="852"/>
+      <point x="401" y="763"/>
+      <point x="554" y="763" type="curve" name="dv02" smooth="yes"/>
+      <point x="613" y="763"/>
+      <point x="685" y="776"/>
+      <point x="745" y="804" type="curve" smooth="yes"/>
+      <point x="778" y="820"/>
+      <point x="797" y="835"/>
+      <point x="812" y="854" type="curve" smooth="yes"/>
+      <point x="853" y="903"/>
+      <point x="882" y="994"/>
+      <point x="882" y="1117" type="curve" name="sh01" smooth="yes"/>
+      <point x="882" y="1495" type="line" name="sh03"/>
+      <point x="1085" y="1495" type="line"/>
+      <point x="1085" y="0" type="line" name="sh04"/>
+      <point x="882" y="0" type="line" name="sh02"/>
+      <point x="882" y="-322" type="line" name="hr02"/>
+      <point x="669" y="-322" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

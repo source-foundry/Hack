@@ -4,98 +4,72 @@
   <unicode hex="057F"/>
   <outline>
     <contour>
-      <point x="200" y="-27" type="qcurve" name="ab03"/>
-      <point x="110" y="-27"/>
-      <point x="26" y="85"/>
-      <point x="26" y="197" type="qcurve"/>
-      <point x="26" y="240"/>
-      <point x="38" y="339"/>
-      <point x="50" y="401" type="qcurve" name="hr01"/>
+      <point x="200" y="-27" type="curve" name="ab03" smooth="yes"/>
+      <point x="80" y="-27"/>
+      <point x="26" y="48"/>
+      <point x="26" y="197" type="curve" smooth="yes"/>
+      <point x="26" y="254"/>
+      <point x="34" y="318"/>
+      <point x="50" y="401" type="curve" name="hr01" smooth="yes"/>
       <point x="189" y="1120" type="line" name="at01"/>
       <point x="426" y="1120" type="line"/>
-      <point x="287" y="401" type="line"/>
-      <point x="279" y="358"/>
-      <point x="270" y="295"/>
-      <point x="270" y="271" type="qcurve"/>
-      <point x="270" y="261"/>
-      <point x="272" y="243"/>
-      <point x="274" y="235" type="qcurve"/>
-      <point x="281" y="210"/>
-      <point x="311" y="192"/>
-      <point x="336" y="192" type="qcurve" name="sv01"/>
-      <point x="359" y="192"/>
-      <point x="395" y="208"/>
-      <point x="410" y="229" type="qcurve"/>
-      <point x="426" y="251"/>
-      <point x="448" y="319"/>
-      <point x="459" y="376" type="qcurve"/>
+      <point x="287" y="401" type="line" smooth="yes"/>
+      <point x="276" y="344"/>
+      <point x="270" y="303"/>
+      <point x="270" y="271" type="curve" smooth="yes"/>
+      <point x="270" y="258"/>
+      <point x="271" y="246"/>
+      <point x="274" y="235" type="curve" smooth="yes"/>
+      <point x="283" y="202"/>
+      <point x="303" y="192"/>
+      <point x="336" y="192" type="curve" name="sv01" smooth="yes"/>
+      <point x="367" y="192"/>
+      <point x="390" y="201"/>
+      <point x="410" y="229" type="curve" smooth="yes"/>
+      <point x="431" y="258"/>
+      <point x="444" y="300"/>
+      <point x="459" y="376" type="curve" smooth="yes"/>
       <point x="604" y="1120" type="line" name="at02"/>
       <point x="817" y="1120" type="line"/>
       <point x="795" y="1004" type="line" name="iv01"/>
-      <point x="833" y="1068"/>
-      <point x="953" y="1147"/>
-      <point x="1031" y="1147" type="qcurve" name="at03"/>
-      <point x="1120" y="1147"/>
-      <point x="1205" y="1037"/>
-      <point x="1205" y="926" type="qcurve"/>
-      <point x="1205" y="884"/>
-      <point x="1193" y="780"/>
-      <point x="1181" y="719" type="qcurve" name="hr02"/>
+      <point x="846" y="1089"/>
+      <point x="927" y="1147"/>
+      <point x="1031" y="1147" type="curve" name="at03" smooth="yes"/>
+      <point x="1150" y="1147"/>
+      <point x="1205" y="1074"/>
+      <point x="1205" y="926" type="curve" smooth="yes"/>
+      <point x="1205" y="870"/>
+      <point x="1197" y="800"/>
+      <point x="1181" y="719" type="curve" name="hr02" smooth="yes"/>
       <point x="1042" y="0" type="line" name="ab01"/>
       <point x="805" y="0" type="line"/>
-      <point x="944" y="719" type="line"/>
-      <point x="952" y="762"/>
-      <point x="961" y="825"/>
-      <point x="961" y="850" type="qcurve"/>
-      <point x="961" y="860"/>
-      <point x="959" y="878"/>
-      <point x="957" y="886" type="qcurve"/>
-      <point x="951" y="907"/>
-      <point x="923" y="928"/>
-      <point x="894" y="928" type="qcurve" name="sv02"/>
-      <point x="871" y="928"/>
-      <point x="835" y="912"/>
-      <point x="821" y="892" type="qcurve"/>
-      <point x="805" y="869"/>
-      <point x="783" y="797"/>
-      <point x="772" y="743" type="qcurve"/>
+      <point x="944" y="719" type="line" smooth="yes"/>
+      <point x="955" y="776"/>
+      <point x="961" y="817"/>
+      <point x="961" y="850" type="curve" smooth="yes"/>
+      <point x="961" y="863"/>
+      <point x="960" y="875"/>
+      <point x="957" y="886" type="curve" smooth="yes"/>
+      <point x="949" y="914"/>
+      <point x="933" y="928"/>
+      <point x="894" y="928" type="curve" name="sv02" smooth="yes"/>
+      <point x="863" y="928"/>
+      <point x="840" y="919"/>
+      <point x="821" y="892" type="curve" smooth="yes"/>
+      <point x="800" y="861"/>
+      <point x="787" y="815"/>
+      <point x="772" y="743" type="curve" smooth="yes"/>
       <point x="627" y="0" type="line" name="ab02"/>
       <point x="414" y="0" type="line"/>
       <point x="436" y="116" type="line" name="iv02"/>
-      <point x="398" y="52"/>
-      <point x="278" y="-27"/>
+      <point x="385" y="31"/>
+      <point x="304" y="-27"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 0"/>
-    <ttc code="alignt" point="at02" zone="t: 0"/>
-    <ttc code="alignt" point="at03" zone="t: 0"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="alignb" point="ab02" zone="b: 0"/>
-    <ttc code="alignb" point="ab03" zone="b: 0"/>
-    <ttc code="singlev" point1="ab03" point2="sv01" stem="y: 225"/>
-    <ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="9"/>
-    <ttc code="singlev" point1="at03" point2="sv02" stem="y: 225"/>
-    <ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="9"/>
-    <ttc code="interpolatev" point="iv01" point1="at03" point2="sv02"/>
-    <ttc code="interpolatev" point="iv02" point1="ab03" point2="sv01"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="ab03">
-      <hstem pos="-27" width="219" />
-      <hstem pos="21" width="-21" />
-      <hstem pos="928" width="219" />
-      <hstem pos="1120" width="-20" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="0130"/>
+  <outline>
+    <contour>
+      <point x="543" y="1647" type="line" name="hr00" smooth="yes"/>
+      <point x="523" y="1647"/>
+      <point x="513" y="1657"/>
+      <point x="513" y="1677" type="curve" name="sh01" smooth="yes"/>
+      <point x="513" y="1822" type="line" smooth="yes"/>
+      <point x="513" y="1842"/>
+      <point x="523" y="1852"/>
+      <point x="543" y="1852" type="curve" name="dv01" smooth="yes"/>
+      <point x="688" y="1852" type="line" smooth="yes"/>
+      <point x="708" y="1852"/>
+      <point x="718" y="1842"/>
+      <point x="718" y="1822" type="curve" name="sh02" smooth="yes"/>
+      <point x="718" y="1677" type="line" smooth="yes"/>
+      <point x="718" y="1657"/>
+      <point x="708" y="1647"/>
+      <point x="688" y="1647" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="201" y="170" type="line" name="sv01"/>
+      <point x="514" y="170" type="line" name="dh01"/>
+      <point x="514" y="1323" type="line" name="sv02"/>
+      <point x="201" y="1323" type="line"/>
+      <point x="201" y="1493" type="line" name="at01"/>
+      <point x="1030" y="1493" type="line"/>
+      <point x="1030" y="1323" type="line" name="sv03"/>
+      <point x="717" y="1323" type="line" name="sv04"/>
+      <point x="717" y="170" type="line" name="dh02"/>
+      <point x="1030" y="170" type="line" name="sv05"/>
+      <point x="1030" y="0" type="line" name="ab01"/>
+      <point x="201" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

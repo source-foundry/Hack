@@ -23,42 +23,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="doublev" point1="dv01" point2="sh01" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="sh01" point2="sh02"/>
-    <ttc code="singlev" point1="dv01" point2="sv01"/>
-    <ttc code="singlev" point1="sh01" point2="sh04"/>
-    <ttc code="singlev" point1="dv01" point2="sv02"/>
-    <ttc code="alignh" point="lsb" align="round"/>
-    <ttc code="singleh" point1="lsb" point2="hr00" align="round"/>
-    <ttc code="singleh" point1="hr00" point2="sh01" stem="X: 174"/>
-    <ttc code="singleh" point1="hr00" point2="sh02" round="true"/>
-    <ttc code="mdeltah" point="sh02" delta="8" ppm1="12" ppm2="12"/>
-    <ttc code="mdeltah" point="sh02" delta="8" ppm1="16" ppm2="16"/>
-    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="23" ppm2="23"/>
-    <ttc code="mdeltah" point="sh02" delta="-8" ppm1="18" ppm2="19"/>
-    <ttc code="singleh" point1="sh02" point2="sh03" stem="X: 174"/>
-    <ttc code="singleh" point1="sh02" point2="sh04" round="true"/>
-    <ttc code="mdeltah" point="sh04" delta="8" ppm1="12" ppm2="12"/>
-    <ttc code="mdeltah" point="sh04" delta="8" ppm1="16" ppm2="16"/>
-    <ttc code="mdeltah" point="sh04" delta="-8" ppm1="23" ppm2="23"/>
-    <ttc code="mdeltah" point="sh04" delta="-8" ppm1="18" ppm2="19"/>
-    <ttc code="singleh" point1="sh04" point2="sh05" stem="X: 174"/>
-    <ttc code="singleh" point1="sh05" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="618" width="172" />
-      <vstem3 stem3List="60,291,471,291,882,291" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

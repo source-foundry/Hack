@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27B3" format="1">
+  <advance width="1233"/>
+  <unicode hex="27B3"/>
+  <outline>
+    <contour>
+      <point x="221" y="533" type="line" name="dv03"/>
+      <point x="221" y="590" type="line" name="dv04"/>
+      <point x="88" y="789" type="line" name="sv01"/>
+      <point x="472" y="789" type="line"/>
+      <point x="605" y="590" type="line" name="sv02"/>
+      <point x="883" y="590" type="line" name="sv03"/>
+      <point x="883" y="788" type="line" name="iv01"/>
+      <point x="966" y="699"/>
+      <point x="1052" y="623"/>
+      <point x="1145" y="562" type="curve" name="iv02"/>
+      <point x="1052" y="499"/>
+      <point x="966" y="424"/>
+      <point x="883" y="335" type="curve" name="iv03"/>
+      <point x="883" y="533" type="line" name="sv04"/>
+      <point x="605" y="533" type="line"/>
+      <point x="472" y="334" type="line" name="dv01"/>
+      <point x="88" y="334" type="line"/>
+    </contour>
+    <contour>
+      <point x="307" y="590" type="line" name="sv05"/>
+      <point x="193" y="761" type="line"/>
+      <point x="150" y="761" type="line" name="iv04"/>
+      <point x="264" y="590" type="line" name="sv06"/>
+    </contour>
+    <contour>
+      <point x="392" y="590" type="line" name="sv07"/>
+      <point x="278" y="761" type="line"/>
+      <point x="235" y="761" type="line" name="iv05"/>
+      <point x="349" y="590" type="line" name="sv08"/>
+    </contour>
+    <contour>
+      <point x="477" y="590" type="line" name="dv02"/>
+      <point x="363" y="761" type="line"/>
+      <point x="321" y="761" type="line" name="iv06"/>
+      <point x="435" y="590" type="line"/>
+    </contour>
+    <contour>
+      <point x="562" y="590" type="line" name="sv09"/>
+      <point x="449" y="761" type="line"/>
+      <point x="406" y="761" type="line" name="iv07"/>
+      <point x="520" y="590" type="line" name="sv10"/>
+    </contour>
+    <contour>
+      <point x="193" y="362" type="line"/>
+      <point x="307" y="533" type="line" name="sv11"/>
+      <point x="264" y="533" type="line"/>
+      <point x="150" y="362" type="line" name="hr01"/>
+    </contour>
+    <contour>
+      <point x="278" y="362" type="line"/>
+      <point x="392" y="533" type="line" name="hr02"/>
+      <point x="349" y="533" type="line"/>
+      <point x="235" y="362" type="line" name="iv08"/>
+    </contour>
+    <contour>
+      <point x="363" y="362" type="line"/>
+      <point x="477" y="533" type="line" name="sv12"/>
+      <point x="435" y="533" type="line"/>
+      <point x="321" y="362" type="line" name="iv09"/>
+    </contour>
+    <contour>
+      <point x="449" y="362" type="line" name="hr03"/>
+      <point x="562" y="533" type="line" name="sv13"/>
+      <point x="520" y="533" type="line" name="hr04"/>
+      <point x="406" y="362" type="line" name="iv10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

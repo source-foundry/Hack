@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni10F2" format="1">
+  <advance width="1233"/>
+  <unicode hex="10F2"/>
+  <outline>
+    <contour>
+      <point x="136" y="22" type="line" name="hr00"/>
+      <point x="232" y="22"/>
+      <point x="303" y="35"/>
+      <point x="346" y="64" type="curve" name="ih01"/>
+      <point x="173" y="189"/>
+      <point x="98" y="332"/>
+      <point x="98" y="548" type="curve" name="sh01" smooth="yes"/>
+      <point x="98" y="877"/>
+      <point x="271" y="1066"/>
+      <point x="615" y="1066" type="curve" name="dv02" smooth="yes"/>
+      <point x="962" y="1066"/>
+      <point x="1136" y="875"/>
+      <point x="1136" y="551" type="curve" name="sh03" smooth="yes"/>
+      <point x="1136" y="328"/>
+      <point x="1053" y="190"/>
+      <point x="872" y="65" type="curve" name="ih02"/>
+      <point x="923" y="36"/>
+      <point x="997" y="21"/>
+      <point x="1086" y="24" type="curve"/>
+      <point x="1086" y="-270" type="line" name="av01"/>
+      <point x="865" y="-216"/>
+      <point x="705" y="-138"/>
+      <point x="604" y="-35" type="curve"/>
+      <point x="483" y="-139"/>
+      <point x="328" y="-217"/>
+      <point x="136" y="-274" type="curve" name="ih03"/>
+    </contour>
+    <contour>
+      <point x="610" y="195" type="curve"/>
+      <point x="753" y="242"/>
+      <point x="844" y="354"/>
+      <point x="843" y="530" type="curve" name="ah01"/>
+      <point x="846" y="741"/>
+      <point x="756" y="853"/>
+      <point x="614" y="853" type="curve" name="dv01" smooth="yes"/>
+      <point x="473" y="853"/>
+      <point x="392" y="747"/>
+      <point x="392" y="540" type="curve" name="sh02" smooth="yes"/>
+      <point x="392" y="353"/>
+      <point x="459" y="247"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

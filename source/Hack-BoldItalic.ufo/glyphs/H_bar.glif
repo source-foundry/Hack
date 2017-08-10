@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="1">
+  <advance width="1233"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="207" y="1105" type="line" name="sv01"/>
+      <point x="73" y="1105" type="line"/>
+      <point x="105" y="1269" type="line"/>
+      <point x="239" y="1269" type="line" name="sv02"/>
+      <point x="282" y="1493" type="line" name="at01"/>
+      <point x="577" y="1493" type="line"/>
+      <point x="534" y="1269" type="line" name="sv03"/>
+      <point x="903" y="1269" type="line"/>
+      <point x="946" y="1493" type="line" name="at02"/>
+      <point x="1240" y="1493" type="line"/>
+      <point x="1197" y="1269" type="line" name="sv04"/>
+      <point x="1332" y="1269" type="line"/>
+      <point x="1300" y="1105" type="line" name="sv05"/>
+      <point x="1165" y="1105" type="line" name="sv06"/>
+      <point x="950" y="0" type="line" name="hr01"/>
+      <point x="656" y="0" type="line"/>
+      <point x="785" y="664" type="line" name="hr02"/>
+      <point x="416" y="664" type="line"/>
+      <point x="287" y="0" type="line" name="hr03"/>
+      <point x="-8" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="836" y="924" type="line" name="hr04"/>
+      <point x="871" y="1105" type="line" name="sv07"/>
+      <point x="502" y="1105" type="line" name="sv08"/>
+      <point x="467" y="924" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

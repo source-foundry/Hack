@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde" format="1">
+  <advance width="1233"/>
+  <unicode hex="0128"/>
+  <outline>
+    <contour>
+      <point x="448" y="1627" type="line" name="sv01"/>
+      <point x="495" y="1772"/>
+      <point x="580" y="1846"/>
+      <point x="688" y="1846" type="curve" name="dv02" smooth="yes"/>
+      <point x="733" y="1846"/>
+      <point x="776" y="1834"/>
+      <point x="823" y="1799" type="curve" smooth="yes"/>
+      <point x="858" y="1773" type="line" smooth="yes"/>
+      <point x="882" y="1755"/>
+      <point x="906" y="1746"/>
+      <point x="930" y="1746" type="curve" name="dv04" smooth="yes"/>
+      <point x="986" y="1746"/>
+      <point x="1023" y="1785"/>
+      <point x="1038" y="1846" type="curve" name="sv02"/>
+      <point x="1163" y="1846" type="line"/>
+      <point x="1120" y="1698"/>
+      <point x="1029" y="1627"/>
+      <point x="918" y="1627" type="curve" name="dv03" smooth="yes"/>
+      <point x="875" y="1627"/>
+      <point x="840" y="1638"/>
+      <point x="796" y="1670" type="curve" smooth="yes"/>
+      <point x="762" y="1695" type="line"/>
+      <point x="760" y="1696" type="line" smooth="yes"/>
+      <point x="731" y="1717"/>
+      <point x="705" y="1728"/>
+      <point x="680" y="1728" type="curve" name="dv01" smooth="yes"/>
+      <point x="634" y="1728"/>
+      <point x="598" y="1694"/>
+      <point x="573" y="1627" type="curve"/>
+    </contour>
+    <contour>
+      <point x="90" y="170" type="line" name="hr01"/>
+      <point x="403" y="170" type="line"/>
+      <point x="627" y="1323" type="line" name="sv03"/>
+      <point x="313" y="1323" type="line"/>
+      <point x="346" y="1493" type="line" name="hr02"/>
+      <point x="1176" y="1493" type="line" name="hr03"/>
+      <point x="1143" y="1323" type="line" name="sv04"/>
+      <point x="829" y="1323" type="line" name="hr04"/>
+      <point x="606" y="170" type="line" name="sv05"/>
+      <point x="920" y="170" type="line" name="sv06"/>
+      <point x="887" y="0" type="line" name="hr05"/>
+      <point x="57" y="0" type="line" name="hr06"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

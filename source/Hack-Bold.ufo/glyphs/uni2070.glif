@@ -4,83 +4,67 @@
   <unicode hex="2070"/>
   <outline>
     <contour>
-      <point x="615" y="1113" type="qcurve" name="dv01"/>
-      <point x="278" y="1113"/>
-      <point x="278" y="1547" type="qcurve" name="dh01"/>
-      <point x="278" y="1980"/>
-      <point x="615" y="1980" type="qcurve" name="dv04"/>
-      <point x="954" y="1980"/>
-      <point x="954" y="1547" type="qcurve" name="dh05"/>
-      <point x="954" y="1113"/>
+      <point x="615" y="1113" type="curve" name="dv01" smooth="yes"/>
+      <point x="390" y="1113"/>
+      <point x="278" y="1258"/>
+      <point x="278" y="1547" type="curve" name="dh01" smooth="yes"/>
+      <point x="278" y="1836"/>
+      <point x="390" y="1980"/>
+      <point x="615" y="1980" type="curve" name="dv04" smooth="yes"/>
+      <point x="841" y="1980"/>
+      <point x="954" y="1836"/>
+      <point x="954" y="1547" type="curve" name="dh05" smooth="yes"/>
+      <point x="954" y="1258"/>
+      <point x="841" y="1113"/>
     </contour>
     <contour>
-      <point x="616" y="1253" type="qcurve" name="dv02"/>
-      <point x="687" y="1253"/>
-      <point x="718" y="1323" type="qcurve"/>
-      <point x="750" y="1393"/>
-      <point x="750" y="1546" type="qcurve" name="hr01"/>
-      <point x="750" y="1698"/>
-      <point x="718" y="1770" type="qcurve"/>
-      <point x="687" y="1840"/>
-      <point x="616" y="1840" type="qcurve" name="dv03"/>
-      <point x="577" y="1840"/>
-      <point x="529" y="1802"/>
-      <point x="514" y="1770" type="qcurve"/>
-      <point x="481" y="1699"/>
-      <point x="481" y="1546" type="qcurve" name="dh02"/>
-      <point x="481" y="1395"/>
-      <point x="514" y="1323" type="qcurve"/>
-      <point x="529" y="1291"/>
-      <point x="577" y="1253"/>
+      <point x="616" y="1253" type="curve" name="dv02" smooth="yes"/>
+      <point x="663" y="1253"/>
+      <point x="697" y="1276"/>
+      <point x="718" y="1323" type="curve" smooth="yes"/>
+      <point x="739" y="1370"/>
+      <point x="750" y="1444"/>
+      <point x="750" y="1546" type="curve" name="hr01" smooth="yes"/>
+      <point x="750" y="1647"/>
+      <point x="739" y="1722"/>
+      <point x="718" y="1770" type="curve" smooth="yes"/>
+      <point x="697" y="1817"/>
+      <point x="663" y="1840"/>
+      <point x="616" y="1840" type="curve" name="dv03" smooth="yes"/>
+      <point x="564" y="1840"/>
+      <point x="534" y="1813"/>
+      <point x="514" y="1770" type="curve" smooth="yes"/>
+      <point x="492" y="1723"/>
+      <point x="481" y="1648"/>
+      <point x="481" y="1546" type="curve" name="dh02" smooth="yes"/>
+      <point x="481" y="1445"/>
+      <point x="492" y="1371"/>
+      <point x="514" y="1323" type="curve" smooth="yes"/>
+      <point x="534" y="1280"/>
+      <point x="564" y="1253"/>
     </contour>
     <contour>
-      <point x="616" y="1476" type="qcurve"/>
-      <point x="597" y="1476"/>
-      <point x="566" y="1487"/>
-      <point x="555" y="1496" type="qcurve"/>
-      <point x="531" y="1515"/>
-      <point x="531" y="1545" type="qcurve" name="dh03"/>
-      <point x="531" y="1576"/>
-      <point x="580" y="1617"/>
-      <point x="615" y="1617" type="qcurve" name="sv01"/>
-      <point x="650" y="1617"/>
-      <point x="701" y="1576"/>
-      <point x="701" y="1546" type="qcurve" name="dh04"/>
-      <point x="701" y="1517"/>
-      <point x="652" y="1476"/>
+      <point x="616" y="1476" type="curve" smooth="yes"/>
+      <point x="591" y="1476"/>
+      <point x="570" y="1484"/>
+      <point x="555" y="1496" type="curve" smooth="yes"/>
+      <point x="539" y="1509"/>
+      <point x="531" y="1525"/>
+      <point x="531" y="1545" type="curve" name="dh03" smooth="yes"/>
+      <point x="531" y="1586"/>
+      <point x="568" y="1617"/>
+      <point x="615" y="1617" type="curve" name="sv01" smooth="yes"/>
+      <point x="662" y="1617"/>
+      <point x="701" y="1586"/>
+      <point x="701" y="1546" type="curve" name="dh04" smooth="yes"/>
+      <point x="701" y="1507"/>
+      <point x="664" y="1476"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 172"/>
-    <ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 172"/>
-    <ttc code="singlev" point1="dv01" point2="sv01" stem="y: 260.Hstem"/>
-    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 236"/>
-    <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 160"/>
-    <ttc code="doubleh" point1="hr01" point2="dh05" stem="X: 236"/>
-    <ttc code="mdeltah" point="hr01" delta="2" ppm1="9" ppm2="9"/>
-    <ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="9"/>
-    <ttc code="mdeltah" point="dh04" delta="-2" ppm1="9" ppm2="19"/>
-    <ttc code="mdeltah" point="dh04" delta="-3" ppm1="20" ppm2="21"/>
-    <ttc code="singleh" point1="dh05" point2="rsb" round="true"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="dv01">
-      <hstem pos="1113" width="140" />
-      <hstem pos="1113" width="504" />
-      <hstem pos="1840" width="140" />
-      <vstem pos="278" width="203" />
-      <vstem pos="531" width="170" />
-      <vstem pos="750" width="204" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

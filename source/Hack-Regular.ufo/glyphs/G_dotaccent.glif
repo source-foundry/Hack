@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gdotaccent" format="1">
+  <advance width="1233"/>
+  <unicode hex="0120"/>
+  <outline>
+    <contour>
+      <point x="618" y="1647" type="line" name="dv03" smooth="yes"/>
+      <point x="598" y="1647"/>
+      <point x="588" y="1657"/>
+      <point x="588" y="1677" type="curve" name="dh03" smooth="yes"/>
+      <point x="588" y="1822" type="line" smooth="yes"/>
+      <point x="588" y="1842"/>
+      <point x="598" y="1852"/>
+      <point x="618" y="1852" type="curve" name="dv04" smooth="yes"/>
+      <point x="763" y="1852" type="line" smooth="yes"/>
+      <point x="783" y="1852"/>
+      <point x="793" y="1842"/>
+      <point x="793" y="1822" type="curve" name="hr01" smooth="yes"/>
+      <point x="793" y="1677" type="line" name="dh04" smooth="yes"/>
+      <point x="793" y="1657"/>
+      <point x="783" y="1647"/>
+      <point x="763" y="1647" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="700" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="324" y="-29"/>
+      <point x="102" y="255"/>
+      <point x="102" y="743" type="curve" name="dh01" smooth="yes"/>
+      <point x="102" y="1233"/>
+      <point x="327" y="1520"/>
+      <point x="703" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="835" y="1520"/>
+      <point x="945" y="1485"/>
+      <point x="1053" y="1413" type="curve"/>
+      <point x="1053" y="1206" type="line" name="ih02"/>
+      <point x="945" y="1310"/>
+      <point x="835" y="1356"/>
+      <point x="707" y="1356" type="curve" name="sv01" smooth="yes"/>
+      <point x="440" y="1356"/>
+      <point x="313" y="1155"/>
+      <point x="313" y="739" type="curve" name="dh02" smooth="yes"/>
+      <point x="313" y="330"/>
+      <point x="438" y="135"/>
+      <point x="705" y="135" type="curve" name="dv02" smooth="yes"/>
+      <point x="790" y="135"/>
+      <point x="855" y="155"/>
+      <point x="911" y="199" type="curve" name="sh02"/>
+      <point x="911" y="600" type="line" name="dv05"/>
+      <point x="694" y="600" type="line"/>
+      <point x="694" y="766" type="line" name="ih01"/>
+      <point x="1104" y="766" type="line" name="sh01"/>
+      <point x="1104" y="123" type="line"/>
+      <point x="996" y="23"/>
+      <point x="861" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

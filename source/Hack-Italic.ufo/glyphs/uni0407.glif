@@ -4,38 +4,46 @@
   <unicode hex="0407"/>
   <outline>
     <contour>
-      <point x="523" y="1648" type="line" name="hr00"/>
-      <point x="508" y="1648"/>
-      <point x="493" y="1666"/>
-      <point x="496" y="1681" type="qcurve"/>
+      <point x="523" y="1648" type="line" name="hr00" smooth="yes"/>
+      <point x="503" y="1648"/>
+      <point x="492" y="1661"/>
+      <point x="496" y="1681" type="curve" smooth="yes"/>
       <point x="524" y="1823" type="line"/>
-      <point x="528" y="1850"/>
-      <point x="556" y="1850" type="qcurve" name="dv01"/>
-      <point x="699" y="1850" type="line"/>
-      <point x="727" y="1850"/>
-      <point x="727" y="1825" type="qcurve"/>
-      <point x="727" y="1820"/>
-      <point x="726" y="1817" type="qcurve"/>
-      <point x="698" y="1675" type="line"/>
-      <point x="693" y="1648"/>
-      <point x="666" y="1648" type="qcurve"/>
+      <point x="527" y="1841"/>
+      <point x="537" y="1850"/>
+      <point x="556" y="1850" type="curve" name="dv01" smooth="yes"/>
+      <point x="699" y="1850" type="line" smooth="yes"/>
+      <point x="718" y="1850"/>
+      <point x="727" y="1842"/>
+      <point x="727" y="1825" type="curve" smooth="yes"/>
+      <point x="727" y="1822"/>
+      <point x="727" y="1819"/>
+      <point x="726" y="1817" type="curve" smooth="yes"/>
+      <point x="698" y="1675" type="line" smooth="yes"/>
+      <point x="695" y="1657"/>
+      <point x="684" y="1648"/>
+      <point x="666" y="1648" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="914" y="1648" type="line" name="sv01"/>
-      <point x="899" y="1648"/>
-      <point x="884" y="1666"/>
-      <point x="887" y="1681" type="qcurve"/>
+      <point x="914" y="1648" type="line" name="sv01" smooth="yes"/>
+      <point x="894" y="1648"/>
+      <point x="883" y="1661"/>
+      <point x="887" y="1681" type="curve" smooth="yes"/>
       <point x="915" y="1823" type="line"/>
-      <point x="919" y="1850"/>
-      <point x="947" y="1850" type="qcurve" name="sv02"/>
-      <point x="1090" y="1850" type="line"/>
-      <point x="1118" y="1850"/>
-      <point x="1118" y="1825" type="qcurve"/>
-      <point x="1118" y="1820"/>
-      <point x="1117" y="1817" type="qcurve"/>
-      <point x="1089" y="1675" type="line"/>
-      <point x="1084" y="1648"/>
-      <point x="1057" y="1648" type="qcurve"/>
+      <point x="918" y="1841"/>
+      <point x="928" y="1850"/>
+      <point x="947" y="1850" type="curve" name="sv02" smooth="yes"/>
+      <point x="1090" y="1850" type="line" smooth="yes"/>
+      <point x="1109" y="1850"/>
+      <point x="1118" y="1842"/>
+      <point x="1118" y="1825" type="curve" smooth="yes"/>
+      <point x="1118" y="1822"/>
+      <point x="1118" y="1819"/>
+      <point x="1117" y="1817" type="curve" smooth="yes"/>
+      <point x="1089" y="1675" type="line" smooth="yes"/>
+      <point x="1086" y="1657"/>
+      <point x="1075" y="1648"/>
+      <point x="1057" y="1648" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="90" y="170" type="line" name="sv03"/>
@@ -53,33 +61,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignt" point="at01" zone="t: 1"/>
-    <ttc code="alignb" point="ab01" zone="b: 0"/>
-    <ttc code="doublev" point1="hr00" point2="dv01" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="hr00" point2="sv01"/>
-    <ttc code="singlev" point1="dv01" point2="sv02"/>
-    <ttc code="singlev" point1="ab01" point2="sv03" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="at01" point2="sv04" stem="y: 170.Hstem"/>
-    <ttc code="singlev" point1="sv04" point2="sv05"/>
-    <ttc code="singlev" point1="sv05" point2="sv06"/>
-    <ttc code="singlev" point1="sv03" point2="sv07"/>
-    <ttc code="singlev" point1="sv07" point2="sv08"/>
-  </ttProgram>
-  </data>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="170" />
-      <hstem pos="1323" width="170" />
-      <hstem pos="1648" width="202" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
   </lib>
 </glyph>

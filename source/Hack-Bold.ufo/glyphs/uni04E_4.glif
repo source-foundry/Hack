@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04E4" format="1">
+  <advance width="1233"/>
+  <unicode hex="04E4"/>
+  <outline>
+    <contour>
+      <point x="331" y="1606" type="line" name="dv01" smooth="yes"/>
+      <point x="311" y="1606"/>
+      <point x="301" y="1616"/>
+      <point x="301" y="1636" type="curve" name="ih01" smooth="yes"/>
+      <point x="301" y="1822" type="line" smooth="yes"/>
+      <point x="301" y="1842"/>
+      <point x="311" y="1852"/>
+      <point x="331" y="1852" type="curve" name="dv02" smooth="yes"/>
+      <point x="507" y="1852" type="line" smooth="yes"/>
+      <point x="527" y="1852"/>
+      <point x="537" y="1842"/>
+      <point x="537" y="1822" type="curve" smooth="yes"/>
+      <point x="537" y="1636" type="line" name="sh01" smooth="yes"/>
+      <point x="537" y="1616"/>
+      <point x="527" y="1606"/>
+      <point x="507" y="1606" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="726" y="1606" type="line" name="sv01" smooth="yes"/>
+      <point x="706" y="1606"/>
+      <point x="696" y="1616"/>
+      <point x="696" y="1636" type="curve" name="dh03" smooth="yes"/>
+      <point x="696" y="1822" type="line" smooth="yes"/>
+      <point x="696" y="1842"/>
+      <point x="706" y="1852"/>
+      <point x="726" y="1852" type="curve" name="hr01" smooth="yes"/>
+      <point x="902" y="1852" type="line" smooth="yes"/>
+      <point x="922" y="1852"/>
+      <point x="932" y="1842"/>
+      <point x="932" y="1822" type="curve" smooth="yes"/>
+      <point x="932" y="1636" type="line" name="dh04" smooth="yes"/>
+      <point x="932" y="1616"/>
+      <point x="922" y="1606"/>
+      <point x="902" y="1606" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="119" y="1493" type="line" name="dh01"/>
+      <point x="379" y="1493" type="line" name="dh02"/>
+      <point x="379" y="408" type="line" name="iv01"/>
+      <point x="795" y="1493" type="line" name="at01"/>
+      <point x="1112" y="1493" type="line"/>
+      <point x="1112" y="0" type="line" name="sh02"/>
+      <point x="852" y="0" type="line" name="ih02"/>
+      <point x="852" y="1085" type="line" name="ih03"/>
+      <point x="434" y="0" type="line" name="ab01"/>
+      <point x="119" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

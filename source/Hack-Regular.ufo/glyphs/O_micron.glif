@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicron" format="1">
+  <advance width="1233"/>
+  <unicode hex="039F"/>
+  <outline>
+    <contour>
+      <point x="615" y="-29" type="curve" name="hr00" smooth="yes"/>
+      <point x="280" y="-29"/>
+      <point x="117" y="221"/>
+      <point x="117" y="744" type="curve" name="sh01" smooth="yes"/>
+      <point x="117" y="1267"/>
+      <point x="280" y="1520"/>
+      <point x="616" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="953" y="1520"/>
+      <point x="1116" y="1266"/>
+      <point x="1116" y="745" type="curve" name="sh02" smooth="yes"/>
+      <point x="1116" y="225"/>
+      <point x="952" y="-29"/>
+    </contour>
+    <contour>
+      <point x="616" y="135" type="curve" name="dv01" smooth="yes"/>
+      <point x="727" y="135"/>
+      <point x="795" y="186"/>
+      <point x="838" y="277" type="curve" smooth="yes"/>
+      <point x="880" y="365"/>
+      <point x="905" y="506"/>
+      <point x="905" y="747" type="curve" name="ah01" smooth="yes"/>
+      <point x="905" y="987"/>
+      <point x="879" y="1125"/>
+      <point x="837" y="1215" type="curve" smooth="yes"/>
+      <point x="790" y="1311"/>
+      <point x="721" y="1356"/>
+      <point x="617" y="1356" type="curve" name="sv01" smooth="yes"/>
+      <point x="512" y="1356"/>
+      <point x="441" y="1310"/>
+      <point x="396" y="1214" type="curve" smooth="yes"/>
+      <point x="351" y="1119"/>
+      <point x="328" y="962"/>
+      <point x="328" y="745" type="curve" name="sh03" smooth="yes"/>
+      <point x="328" y="525"/>
+      <point x="349" y="374"/>
+      <point x="396" y="277" type="curve" smooth="yes"/>
+      <point x="440" y="184"/>
+      <point x="509" y="135"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

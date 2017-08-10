@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="1">
+  <advance width="1233"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <contour>
+      <point x="527" y="1853" type="line" name="hr00"/>
+      <point x="791" y="1853" type="line" name="dv02"/>
+      <point x="934" y="1589" type="line"/>
+      <point x="756" y="1589" type="line" name="dv01"/>
+    </contour>
+    <contour>
+      <point x="317" y="1493" type="line" name="at01"/>
+      <point x="1249" y="1493" type="line"/>
+      <point x="1198" y="1233" type="line" name="sv01"/>
+      <point x="563" y="1233" type="line"/>
+      <point x="500" y="911" type="line"/>
+      <point x="1075" y="911" type="line" name="dv04"/>
+      <point x="1026" y="651" type="line" name="dv03"/>
+      <point x="451" y="651" type="line"/>
+      <point x="375" y="260" type="line" name="sv02"/>
+      <point x="1010" y="260" type="line"/>
+      <point x="958" y="0" type="line" name="ab01"/>
+      <point x="29" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

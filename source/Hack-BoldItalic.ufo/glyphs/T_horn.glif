@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="1">
+  <advance width="1233"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="307" y="1493" type="line" name="at01"/>
+      <point x="602" y="1493" type="line"/>
+      <point x="555" y="1266" type="line"/>
+      <point x="682" y="1266" type="line" name="sv02" smooth="yes"/>
+      <point x="839" y="1266"/>
+      <point x="959" y="1235"/>
+      <point x="1042" y="1174" type="curve" smooth="yes"/>
+      <point x="1126" y="1111"/>
+      <point x="1165" y="1023"/>
+      <point x="1165" y="902" type="curve" name="dh02" smooth="yes"/>
+      <point x="1165" y="834"/>
+      <point x="1153" y="758"/>
+      <point x="1129" y="683" type="curve" smooth="yes"/>
+      <point x="1104" y="606"/>
+      <point x="1073" y="551"/>
+      <point x="1034" y="506" type="curve" smooth="yes"/>
+      <point x="975" y="437"/>
+      <point x="913" y="401"/>
+      <point x="840" y="374" type="curve" smooth="yes"/>
+      <point x="761" y="346"/>
+      <point x="671" y="332"/>
+      <point x="539" y="332" type="curve" name="dv01" smooth="yes"/>
+      <point x="375" y="332" type="line"/>
+      <point x="311" y="0" type="line" name="ab01"/>
+      <point x="16" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="569" y="580" type="line" name="dv02" smooth="yes"/>
+      <point x="667" y="580"/>
+      <point x="739" y="602"/>
+      <point x="786" y="647" type="curve" smooth="yes"/>
+      <point x="834" y="692"/>
+      <point x="858" y="759"/>
+      <point x="858" y="843" type="curve" name="dh01" smooth="yes"/>
+      <point x="858" y="916"/>
+      <point x="841" y="956"/>
+      <point x="806" y="980" type="curve" name="hr01" smooth="yes"/>
+      <point x="771" y="1005"/>
+      <point x="716" y="1018"/>
+      <point x="631" y="1018" type="curve" name="sv01" smooth="yes"/>
+      <point x="510" y="1018" type="line" name="hr02"/>
+      <point x="424" y="580" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>

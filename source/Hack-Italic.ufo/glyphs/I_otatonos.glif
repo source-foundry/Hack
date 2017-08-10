@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iotatonos" format="1">
+  <advance width="1233"/>
+  <unicode hex="038A"/>
+  <outline>
+    <contour>
+      <point x="207" y="1638" type="line" name="hr00"/>
+      <point x="426" y="1638" type="line" name="dv02"/>
+      <point x="31" y="1262" type="line"/>
+      <point x="-125" y="1262" type="line" name="iv01"/>
+    </contour>
+    <contour>
+      <point x="90" y="170" type="line" name="sv01"/>
+      <point x="403" y="170" type="line"/>
+      <point x="627" y="1323" type="line" name="hr01"/>
+      <point x="313" y="1323" type="line" name="dv01"/>
+      <point x="346" y="1493" type="line" name="at01"/>
+      <point x="1176" y="1493" type="line"/>
+      <point x="1143" y="1323" type="line" name="sv02"/>
+      <point x="829" y="1323" type="line" name="sv03"/>
+      <point x="606" y="170" type="line" name="sv04"/>
+      <point x="920" y="170" type="line" name="sv05"/>
+      <point x="887" y="0" type="line" name="hr02"/>
+      <point x="57" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-07-11 17:15:08 +0000</string>
+    </dict>
+  </lib>
+</glyph>
