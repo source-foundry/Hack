@@ -1,5 +1,7 @@
 
-# Hack  [![Contributors](https://img.shields.io/badge/contributors-104-orange.svg?style=flat)](https://github.com/chrissimpkins/Hack/blob/master/docs/CONTRIBUTORS.md)
+# Hack
+
+[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-104-orange.svg?style=flat)](https://github.com/chrissimpkins/Hack/blob/master/docs/CONTRIBUTORS.md)
 
 ### A typeface designed for source code
 
