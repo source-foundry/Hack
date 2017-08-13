@@ -1,3 +1,8 @@
+# Version 3.000
+
+- converted to UFO source files
+- removed otf builds
+
 # Version 2.020
 
 - divided the vertical stroke in the pipe glyph (U+007C), italic and bold italic sets
