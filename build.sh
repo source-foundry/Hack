@@ -94,7 +94,7 @@ fi
 fontmake -u "source/Hack-Regular.ufo" -o ttf
 if [ $? -ne 0 ]
 	then
-	    echo "Unable to build the Hack regular variant set.  Build canceled." 1>&2
+	    echo "Unable to build the Hack-Regular variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
@@ -102,7 +102,7 @@ fi
 fontmake -u "source/Hack-Bold.ufo" -o ttf
 if [ $? -ne 0 ]
 	then
-	    echo "Unable to build the Hack bold variant set.  Build canceled." 1>&2
+	    echo "Unable to build the Hack-Bold variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
@@ -110,7 +110,7 @@ fi
 fontmake -u "source/Hack-Italic.ufo" -o ttf
 if [ $? -ne 0 ]
 	then
-	    echo "Unable to build the Hack italic variant set.  Build canceled." 1>&2
+	    echo "Unable to build the Hack-Italic variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
@@ -118,27 +118,62 @@ fi
 fontmake -u "source/Hack-BoldItalic.ufo" -o ttf
 if [ $? -ne 0 ]
 	then
-	    echo "Unable to build the Hack bold italic variant set.  Build canceled." 1>&2
+	    echo "Unable to build the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
 
 # Desktop ttf font hinting
-# TODO
+
+# make a temporary directory for the hinted files
+mkdir master_ttf/hinted
+
+# Hack-Regular.ttf
+ttfautohint -l 6 -r 50 -x 10 -H 181 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Regular-TA.txt" "master_ttf/Hack-Regular.ttf" "master_ttf/hinted/Hack-Regular.ttf"
+if [ $? -ne 0 ]
+	then
+	    echo "Unable to execute ttfautohint on the Hack-Regular variant set.  Build canceled." 1>&2
+	    exit 1
+fi
+
+# Hack-Bold.ttf
+ttfautohint -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
+if [ $? -ne 0 ]
+	then
+	    echo "Unable to execute ttfautohint on the Hack-Bold variant set.  Build canceled." 1>&2
+	    exit 1
+fi
+
+# Hack-Italic.ttf
+ttfautohint -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
+if [ $? -ne 0 ]
+	then
+	    echo "Unable to execute ttfautohint on the Hack-Italic variant set.  Build canceled." 1>&2
+	    exit 1
+fi
+
+# Hack-BoldItalic.ttf
+ttfautohint -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
+if [ $? -ne 0 ]
+	then
+	    echo "Unable to execute ttfautohint on the Hack-BoldItalic variant set.  Build canceled." 1>&2
+	    exit 1
+fi
 
 
 # Desktop ttf font post build fixes
-# TODO
+# TODO dsig table fix
+# TODO fstype integer fix
 
 
 # Move release files to build directory
-mv master_ttf/Hack-Regular.ttf build/ttf/Hack-Regular.ttf
+mv master_ttf/hinted/Hack-Regular.ttf build/ttf/Hack-Regular.ttf
 echo "Hack-Regular.ttf was moved to release directory on path build/ttf/Hack-Regular.ttf"
-mv master_ttf/Hack-Italic.ttf build/ttf/Hack-Italic.ttf
+mv master_ttf/hinted/Hack-Italic.ttf build/ttf/Hack-Italic.ttf
 echo "Hack-Italic.ttf was moved to release directory on path build/ttf/Hack-Italic.ttf"
-mv master_ttf/Hack-Bold.ttf build/ttf/Hack-Bold.ttf
+mv master_ttf/hinted/Hack-Bold.ttf build/ttf/Hack-Bold.ttf
 echo "Hack-Bold.ttf was moved to release directory on path build/ttf/Hack-Bold.ttf"
-mv master_ttf/Hack-BoldItalic.ttf build/ttf/Hack-BoldItalic.ttf
+mv master_ttf/hinted/Hack-BoldItalic.ttf build/ttf/Hack-BoldItalic.ttf
 echo "Hack-BoldItalic.ttf was moved to release directory on path build/ttf/Hack-BoldItalic.ttf"
 
 # Remove master_ttf directory
