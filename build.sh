@@ -90,6 +90,12 @@ if [ -f "build/ttf/Hack-BoldItalic.ttf" ]; then
 	rm build/ttf/Hack-BoldItalic.ttf
 fi
 
+# remove master_ttf directory if a previous build failed + exited early and it was not cleaned up
+
+if [ -d "master_ttf" ]; then
+	rm -rf master_ttf
+fi
+
 # build regular set
 fontmake -u "source/Hack-Regular.ufo" -o ttf
 if [ $? -ne 0 ]
