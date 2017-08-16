@@ -1,28 +1,24 @@
-## Hack Typeface Design
+# Hack Typeface Design
 
 Hack is a monospaced typeface that is designed to optimize the display of source code text.
 
+This document outlines the core ideas on which we build to continually improve Hack. Ideally, they serve as a final rationale to decide disputes of whatever nature.
 
-### Primary Design Targets
+## Design Targets
 
-- ASCII glyph set (used to display the body of all source code text)
-- font sizes between 8 - 14 px
-- cross-platform, cross font renderer support on Linux, OS X, and Windows operating systems
-- desktop text editor text displays
-- terminal emulator text displays
-- website text displays
-- print text displays
+Hack is a general purpose typeface for source code. The _needs of the many_ describe our core design targets. Generally, an issue that affects 90% of users, gets a higher priority than one that 'only' affects 10%.
+
+### Core
+
+- **ASCII glyph set**; generally speaking, all source code is limited to ASCII. Content/comments/documentation, on the other hand, often includes non-ASCII characters. The former gets precendence over the latter.
+- Font-sizes between **8-14 px**, line-height >= 1
+- **Cross-platform**, cross font renderer support on Linux, OS X, and Windows operating systems
+- Usage in **common developer scenarios** (on digital displays): text editors, terminals, embedded as webfont, etc.
+
+## Goals, areas of improvement
+
+- **Legibility** - establish differences in the appearance of similar glyph shapes so as to properly identify different Unicode code points
+- **Readability** - glyph shape and spacing optimizations to improve the capacity to read character-character, word-word, and code block-code block combinations in source code
+- **Visual semantics** - establish semantic commonalities for glyphs used in source code text and create common visual designs within these semantic groups
 
 
-### Primary Design Optimizations
-
-- legibility - establish differences in the appearance of similar glyph shapes so as to properly identify different Unicode code points
-- readability - glyph shape and spacing optimizations to improve the capacity to read character-character, word-word, and code block-code block combinations in source code
-- visual semantics - establish semantic commonalities for glyphs used in source code text and create common visual designs within these semantic groups
-
-
-### Secondary Design Targets
-
-- All glyphs outside of the ASCII set (including extended character sets used for the display of comments in source code)
-- All font sizes outside of the primary design targets
-- All forms of text display outside of the primary design targets
