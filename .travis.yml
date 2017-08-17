@@ -6,7 +6,6 @@ env:
   - VARIANT=source/Hack-Bold.ufo
   - VARIANT=source/Hack-Italic.ufo
   - VARIANT=source/Hack-BoldItalic.ufo
-  - SHELL_PATH=build.sh
 
 before_script: 
   - pip install ufolint
@@ -15,7 +14,7 @@ before_script:
 
 script: 
   - "ufolint $VARIANT"
-  - "shellcheck $SHELL_PATH"
+  - shellcheck build.sh
 
 notifications:
   email: false
