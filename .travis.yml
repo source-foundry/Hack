@@ -15,6 +15,7 @@ before_script:
 script: 
   - "ufolint $VARIANT"
   - shellcheck build.sh
+  - ./build.sh --install-dependencies
 
 notifications:
   email: false
