@@ -97,6 +97,9 @@ fi
 
 # Desktop ttf font build
 
+echo "Starting build..."
+echo " "
+
 # remove any existing release files from the build directory
 if [ -f "build/ttf/Hack-Regular.ttf" ]; then
 	rm build/ttf/Hack-Regular.ttf
@@ -150,9 +153,33 @@ if ! fontmake -u "source/Hack-BoldItalic.ufo" -o ttf
 	    exit 1
 fi
 
+# Desktop ttf font post build fixes
+
+# DSIG table fix with adapted fontbakery Python script
+echo " "
+echo "Attempting DSIG table fixes with fontbakery..."
+echo " "
+if ! python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
+	then
+	    echo "Unable to complete DSIG table fixes on the release files"
+	    exit 1
+fi
+
+# fstype value fix with adapted fontbakery Python script
+echo " "
+echo "Attempting fstype fixes with fontbakery..."
+echo " "
+if ! python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
+	then
+	    echo "Unable to complete fstype fixes on the release files"
+	    exit 1
+fi
 
 # Desktop ttf font hinting
 
+echo " "
+echo "Attempting ttfautohint hinting..."
+echo " "
 # make a temporary directory for the hinted files
 mkdir master_ttf/hinted
 
@@ -162,6 +189,7 @@ if ! ttfautohint -l 6 -r 50 -x 10 -H 181 -D latn -f latn -w G -W -t -X "" -I -R 
 	    echo "Unable to execute ttfautohint on the Hack-Regular variant set.  Build canceled." 1>&2
 	    exit 1
 fi
+echo "master_ttf/Hack-Regular.ttf - successful hinting with ttfautohint"
 
 # Hack-Bold.ttf
 if ! ttfautohint -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
@@ -169,6 +197,7 @@ if ! ttfautohint -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R 
 	    echo "Unable to execute ttfautohint on the Hack-Bold variant set.  Build canceled." 1>&2
 	    exit 1
 fi
+echo "master_ttf/Hack-Bold.ttf - successful hinting with ttfautohint"
 
 # Hack-Italic.ttf
 if ! ttfautohint -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
@@ -176,6 +205,7 @@ if ! ttfautohint -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R 
 	    echo "Unable to execute ttfautohint on the Hack-Italic variant set.  Build canceled." 1>&2
 	    exit 1
 fi
+echo "master_ttf/Hack-Italic.ttf - successful hinting with ttfautohint"
 
 # Hack-BoldItalic.ttf
 if ! ttfautohint -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
@@ -183,22 +213,21 @@ if ! ttfautohint -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R 
 	    echo "Unable to execute ttfautohint on the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
 fi
-
-
-# Desktop ttf font post build fixes
-# TODO dsig table fix
-# TODO fstype integer fix
-
+echo "master_ttf/Hack-BoldItalic.ttf - successful hinting with ttfautohint"
+echo " "
 
 # Move release files to build directory
+echo " "
 mv master_ttf/hinted/Hack-Regular.ttf build/ttf/Hack-Regular.ttf
-echo "Hack-Regular.ttf was moved to release directory on path build/ttf/Hack-Regular.ttf"
+echo "master_ttf/Hack-Regular.ttf was moved to build/ttf/Hack-Regular.ttf"
 mv master_ttf/hinted/Hack-Italic.ttf build/ttf/Hack-Italic.ttf
-echo "Hack-Italic.ttf was moved to release directory on path build/ttf/Hack-Italic.ttf"
+echo "master_ttf/Hack-Italic.ttf was moved to build/ttf/Hack-Italic.ttf"
 mv master_ttf/hinted/Hack-Bold.ttf build/ttf/Hack-Bold.ttf
-echo "Hack-Bold.ttf was moved to release directory on path build/ttf/Hack-Bold.ttf"
+echo "master_ttf/Hack-Bold.ttf was moved to build/ttf/Hack-Bold.ttf"
 mv master_ttf/hinted/Hack-BoldItalic.ttf build/ttf/Hack-BoldItalic.ttf
-echo "Hack-BoldItalic.ttf was moved to release directory on path build/ttf/Hack-BoldItalic.ttf"
+echo "master_ttf/Hack-BoldItalic.ttf was moved to build/ttf/Hack-BoldItalic.ttf"
 
 # Remove master_ttf directory
 rm -rf master_ttf
+echo " "
+echo "Build complete.  Release files are available in the build directory."
