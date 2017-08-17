@@ -47,7 +47,7 @@ if [ "$1" = "--install-dependencies" ]
                     exit 1
             fi
         else
-        	# install Harfbuzz ttfautohint dependency
+        	# install Harfbuzz ttfautohint dependency (>v0.9.19)
             curl -L https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.8.tar.bz2
             tar -xvjf harfbuzz-1.4.8.tar.bz2
             harfbuzz-1.4.8/configure
