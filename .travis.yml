@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 language: python
 
 env:
@@ -6,10 +6,16 @@ env:
   - VARIANT=source/Hack-Bold.ufo
   - VARIANT=source/Hack-Italic.ufo
   - VARIANT=source/Hack-BoldItalic.ufo
+  - SHELL_PATH=build.sh
 
-before_script: pip install ufolint
+before_script: 
+  - pip install ufolint
+  - sudo apt-get -qq update
+  - sudo apt-get install -y shellcheck
 
-script: "ufolint $VARIANT"
+script: 
+  - "ufolint $VARIANT"
+  - "shellcheck $SHELL_PATH"
 
 notifications:
   email: false
