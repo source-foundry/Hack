@@ -47,6 +47,16 @@ if [ "$1" = "--install-dependencies" ]
                     exit 1
             fi
         else
+        	# install Harfbuzz ttfautohint dependency
+            curl -L https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.8.tar.bz2
+            tar -xvjf harfbuzz-1.4.8.tar.bz2
+            harfbuzz-1.4.8/configure
+            harfbuzz-1.4.8/make
+            if ! sudo harfbuzz-1.4.8/make install; then
+            	echo "Unable to install ttfautohint dependency Harbuzz from source.  Please install dependencies manually and repeat this script without the --install-dependencies flag" 1>&2
+            	exit 1
+            fi
+
             curl -L https://sourceforge.net/projects/freetype/files/ttfautohint/1.6/ttfautohint-1.6.tar.gz/download -o ttfautohint.tar.gz
             tar -xvzf ttfautohint.tar.gz
             ttfautohint-1.6/configure --with-qt=no
