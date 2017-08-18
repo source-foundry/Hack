@@ -47,37 +47,11 @@ if [ "$1" = "--install-dependencies" ]
                     exit 1
             fi
         else
-        	# install Harfbuzz ttfautohint dependency (>v0.9.19)
-            curl -L https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.8.tar.bz2 -o harfbuzz.tar.bz2
-            tar -xvjf harfbuzz.tar.bz2
-            harfbuzz-1.4.8/configure
-            harfbuzz-1.4.8/make
-            if ! sudo harfbuzz-1.4.8/make install; then
-            	echo "Unable to install ttfautohint dependency Harbuzz from source.  Please install dependencies manually and repeat this script without the --install-dependencies flag" 1>&2
-            	exit 1
-            fi
-
-            curl -L https://sourceforge.net/projects/freetype/files/ttfautohint/1.6/ttfautohint-1.6.tar.gz/download -o ttfautohint.tar.gz
-            tar -xvzf ttfautohint.tar.gz
-            ttfautohint-1.6/configure --with-qt=no
-            ttfautohint-1.6/make
-            if ! sudo ttfautohint-1.6/make install; then
-            	echo "Unable to install ttfautohint from source.  Please attempt to manually install this dependency and repeat this script without the --install-dependencies flag" 1>&2
-            	exit 1
-            fi
-
-            if [ -f "ttfautohint-1.6.tar.gz" ]
-                then
-                    rm ttfautohint-1.6.tar.gz
-            fi
-
-            if [ -d "ttfautohint-1.6" ]
-                then
-                    rm -rf ttfautohint-1.6
-            fi
+        	# install ttfautohint, including all ttfautohint dependencies from scratch with Werner Lemberg's install script
+        	tools/scripts/install/ttfautohint-build.sh
         fi
 
-		# confirm installs
+		# confirm executable installs and library imports
 		installflag=0
         # fontmake installed
 		if ! which fontmake
