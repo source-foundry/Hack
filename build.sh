@@ -54,29 +54,29 @@ if [ "$1" = "--install-dependencies" ]
 		# confirm executable installs and library imports
 		installflag=0
         # fontmake installed
-		if ! which fontmake
-			then
-			    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-			    installflag=1
-		fi
-        # fontTools python library can be imported
-		if ! python -c "import fontTools"
-			then
-			    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-			    installflag=1
-		fi
-        # ttfautohint installed
-		if ! which ttfautohint
-			then
-			    echo "Unable to install ttfautohint from source.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-			    installflag=1
-		fi
-		# if any of the dependency installs failed, exit and do not attempt build, notify user
-		if [ $installflag -eq 1 ]
-			then
-			    echo "Build canceled." 1>&2
-			    exit 1
-        fi
+		# if ! which fontmake
+		# 	then
+		# 	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+		# 	    installflag=1
+		# fi
+  #       # fontTools python library can be imported
+		# if ! python -c "import fontTools"
+		# 	then
+		# 	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+		# 	    installflag=1
+		# fi
+  #       # ttfautohint installed
+		# if ! which ttfautohint
+		# 	then
+		# 	    echo "Unable to install ttfautohint from source.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+		# 	    installflag=1
+		# fi
+		# # if any of the dependency installs failed, exit and do not attempt build, notify user
+		# if [ $installflag -eq 1 ]
+		# 	then
+		# 	    echo "Build canceled." 1>&2
+		# 	    exit 1
+  #       fi
 fi
 
 # Desktop ttf font build
