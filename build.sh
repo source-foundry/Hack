@@ -63,7 +63,7 @@ fi
 # ttfautohint installed
 #   - tests for install to local path from ttfautohint-build.sh script
 #   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
-if ! [ -f "$LOCAL_TTFAH" ]
+if ! [ -f "$TTFAH" ]
 	then
 	    if ! which ttfautohint
 	    	then
