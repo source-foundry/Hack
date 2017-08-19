@@ -14,6 +14,13 @@
 #
 # /////////////////////////////////////////////////////////////////
 
+# ttfautohint local install path from Werner Lemberg's ttfautohint-build.sh install script
+#   - This is revised to ttfautohint on the user's PATH if this local install is not identified
+#     then the identified ttfautohint is used to execute hinting.  Versions of ttfautohint < 1.6 exit with status
+#     code 1 due to use of -R option
+#   - The intent is to support use of ttfautohint installed on a user's PATH (e.g. they've previously installed it)
+TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
+
 # test for number of arguments
 if [ $# -gt 1 ]
 	then
@@ -22,6 +29,7 @@ if [ $# -gt 1 ]
 	    exit 1
 fi
 
+# Optional build dependency install request with syntax `./build.sh --install-dependencies`
 if [ "$1" = "--install-dependencies" ]
 	then
 		# fontmake
@@ -29,54 +37,47 @@ if [ "$1" = "--install-dependencies" ]
 		# fontTools (installed with fontmake at this time. leave this as dependency check as python scripts for fixes require it should fontTools eliminate dep)
 		pip install --upgrade fonttools
 		# ttfautohint v1.6 (must be pinned to v1.6 and above for Hack instruction sets)
-        # begin with OS X check for platform specific ttfautohint install using Homebrew, install from source on other platforms
-        platformstr=$(uname)
-        if [ "$platformstr" = "Darwin" ]; then
-            # test for homebrew install
-            if ! which homebrew
-                then
-                    echo "Please manually install Homebrew (https://brew.sh/) before the execution of this script with the --install-dependencies flag on the OS X platform." 1>&2
-                    exit 1
-            fi
+        tools/scripts/install/ttfautohint-build.sh
 
-            # install Homebrew release of ttfautohint (this installs all dependencies necessary for build)
-            #    use --upgrade flag to confirm latest version installed as need 1.6+
-            if ! brew install --upgrade ttfautohint
-                then
-                    echo "Unable to install ttfautohint with Homebrew.  Please attempt to install this dependency manually and repeat this script without the --install-dependencies flag." 1>&2
-                    exit 1
-            fi
-        else
-        	# install ttfautohint, including all ttfautohint dependencies from scratch with Werner Lemberg's install script
-        	tools/scripts/install/ttfautohint-build.sh
-        fi
+fi
 
-		# confirm executable installs and library imports
-		installflag=0
-        # fontmake installed
-		# if ! which fontmake
-		# 	then
-		# 	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-		# 	    installflag=1
-		# fi
-  #       # fontTools python library can be imported
-		# if ! python -c "import fontTools"
-		# 	then
-		# 	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-		# 	    installflag=1
-		# fi
-  #       # ttfautohint installed
-		# if ! which ttfautohint
-		# 	then
-		# 	    echo "Unable to install ttfautohint from source.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
-		# 	    installflag=1
-		# fi
-		# # if any of the dependency installs failed, exit and do not attempt build, notify user
-		# if [ $installflag -eq 1 ]
-		# 	then
-		# 	    echo "Build canceled." 1>&2
-		# 	    exit 1
-  #       fi
+# confirm executable installs and library imports for build dependencies
+INSTALLFLAG=0
+
+echo "Confirming that build dependencies are installed..."
+echo " "
+# fontmake installed
+if ! which fontmake
+	then
+	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	    INSTALLFLAG=1
+fi
+# fontTools python library can be imported
+if ! python -c "import fontTools"
+	then
+	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	    INSTALLFLAG=1
+else
+	echo "fontTools Python library identified"
+fi
+# ttfautohint installed
+#   - tests for install to local path from ttfautohint-build.sh script
+#   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
+if ! [ -f "$LOCAL_TTFAH" ]
+	then
+	    if ! which ttfautohint
+	    	then
+	            echo "Unable to install ttfautohint from source.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	            INSTALLFLAG=1
+	    else
+	    	TTFAH="ttfautohint"  # revise TTFAH variable to ttfautohint installed on the user's PATH for excecution of hints below
+	    fi
+fi
+# if any of the dependency installs failed, exit and do not attempt build, notify user
+if [ $INSTALLFLAG -eq 1 ]
+	then
+	    echo "Build canceled." 1>&2
+	    exit 1
 fi
 
 # Desktop ttf font build
@@ -168,7 +169,7 @@ echo " "
 mkdir master_ttf/hinted
 
 # Hack-Regular.ttf
-if ! ttfautohint -l 6 -r 50 -x 10 -H 181 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Regular-TA.txt" "master_ttf/Hack-Regular.ttf" "master_ttf/hinted/Hack-Regular.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 181 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Regular-TA.txt" "master_ttf/Hack-Regular.ttf" "master_ttf/hinted/Hack-Regular.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Regular variant set.  Build canceled." 1>&2
 	    exit 1
@@ -176,7 +177,7 @@ fi
 echo "master_ttf/Hack-Regular.ttf - successful hinting with ttfautohint"
 
 # Hack-Bold.ttf
-if ! ttfautohint -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Bold variant set.  Build canceled." 1>&2
 	    exit 1
@@ -184,7 +185,7 @@ fi
 echo "master_ttf/Hack-Bold.ttf - successful hinting with ttfautohint"
 
 # Hack-Italic.ttf
-if ! ttfautohint -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Italic variant set.  Build canceled." 1>&2
 	    exit 1
@@ -192,7 +193,7 @@ fi
 echo "master_ttf/Hack-Italic.ttf - successful hinting with ttfautohint"
 
 # Hack-BoldItalic.ttf
-if ! ttfautohint -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
