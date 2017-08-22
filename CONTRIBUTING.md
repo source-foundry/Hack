@@ -11,6 +11,7 @@ Hack is a general purpose typeface for source code. The _needs of the many_ desc
 ### Core
 
 - **ASCII glyph set**; generally speaking, all source code is limited to ASCII. Content/comments/documentation, on the other hand, often includes non-ASCII characters. The former gets precendence over the latter.
+- We focus on an accepted **single glyph style** for each glyph in the typeface sets.  Glyph shape changes that are intended to address our design goals take precedence over changes that are purely subjective in nature.
 - Font-sizes between **8-14 px**, line-height >= 1
 - **Cross-platform**, cross font renderer support on Linux, OS X, and Windows operating systems
 - Usage in **common developer scenarios** (on digital displays): text editors, terminals, embedded as webfont, etc.
