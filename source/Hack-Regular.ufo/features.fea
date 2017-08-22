@@ -11,6 +11,8 @@ languagesystem latn ROM ;
 # @case1 = [\exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
 # @case2 = [\exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
 
+#
+
 feature aalt {
   feature locl;
   feature subs;
@@ -108,7 +110,7 @@ feature ordn {
  language ROM ; # Romanian
 } ordn;
 
-#feature case {
+feature case {
 # # Case-Sensitive Forms
 # # DEFAULT
 #    sub @case1 by @case2;
@@ -116,5 +118,6 @@ feature ordn {
 #    sub @case1 by @case2;
 # language MOL ; # Moldavian
 # language ROM ; # Romanian
-#} case;
+#
+} case;
 
