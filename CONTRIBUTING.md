@@ -4,6 +4,8 @@ Hack is a monospaced typeface that is designed to optimize the display of source
 
 This document outlines the core ideas on which we build to continually improve Hack. Ideally, they serve as a final rationale to decide disputes of whatever nature.
 
+Design is a highly opinionated topic. Being a collaborative effort, we prefer to focus on the discussion about a change, rather than the final product of a change. In practical terms this means that for any substantial amount of work, we'd like to see an Issue Report or Pull Request which presents an idea or the approach for a change. By keeping the discussion open, not only will you get community feedback, it also allows us to judge your contribution on more than the final product.
+
 ## Design Targets
 
 Hack is a general purpose typeface for source code. The _needs of the many_ describe our core design targets. Generally, an issue that affects 90% of users, gets a higher priority than one that 'only' affects 10%.
