@@ -23,3 +23,21 @@ Hack is a general purpose typeface for source code. The _needs of the many_ desc
 - **Visual semantics** - establish semantic commonalities for glyphs used in source code text and create common visual designs within these semantic groups
 
 
+# Issue Reporting
+
+Issue reports from users are extremely important to foster the ongoing development of the typeface.  If you identify a problem, we request that you report it through a new issue report on the Github repository.  Please include the following information in your (bug) issue report:
+
+- Hack font version
+- variant(s) of the Hack fonts that are affected (Regular, Bold, Italic, BoldItalic)
+- font size at which the problem was observed and whether it occurs at other sizes within the Core design target range (see above)
+- operating system and version
+- application where the issue was observed and version (important for us to understand the renderer involved)
+- screenshot images that visually demonstrate the problem
+
+Please describe what led to the problem in detail.
+
+
+# Pull Requests
+
+We highly encourage contributions to the Hack typeface source code, repository scripts, and documentation.  Please read and understand our design philosophy statement above in order to avoid frustration with work that we cannot merge upstream.  We are willing to consider pull requests that follow these design guidelines.  If you intend to submit changes that fall outside of the design guidelines, we highly suggest that you post an issue report with the proposed changes for discussion *before you do the work*.  There is never wasted work.  If a change is of value to you, it is likely to be of value to others and this is the perfect situation for a downstream fork of Hack that you can maintain and share with other users.
+
