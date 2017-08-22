@@ -5,13 +5,12 @@ env:
   - TARGET="lint"
   - TARGET="build-with-dependencies"
 
-before_script: 
+before_script:
   - pip install ufolint
   - sudo apt-get -qq update
   - sudo apt-get install -y shellcheck
-  - sudo apt-get install -y gcc g++ libfreetype6-dev libglib2.0-dev libcairo2-dev
 
-script: 
+script:
   - make -j $TARGET
 
 notifications:
