@@ -64,6 +64,9 @@
 - @rahilwazir - Linux
 - Jakub Žitný - NPM
 
+### CI Testing
+- Peter Oliver
+
 
 ### DejaVu
 

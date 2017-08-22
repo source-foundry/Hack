@@ -2,10 +2,8 @@ sudo: true
 language: python
 
 env:
-  - VARIANT=source/Hack-Regular.ufo
-  - VARIANT=source/Hack-Bold.ufo
-  - VARIANT=source/Hack-Italic.ufo
-  - VARIANT=source/Hack-BoldItalic.ufo
+  - TARGET="lint"
+  - TARGET="build-with-dependencies"
 
 before_script: 
   - pip install ufolint
@@ -14,9 +12,7 @@ before_script:
   - sudo apt-get install -y gcc g++ libfreetype6-dev libglib2.0-dev libcairo2-dev
 
 script: 
-  - "ufolint $VARIANT"
-  - shellcheck build.sh
-  - ./build.sh --install-dependencies
+  - make -j $TARGET
 
 notifications:
   email: false
