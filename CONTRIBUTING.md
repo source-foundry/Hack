@@ -33,7 +33,8 @@ Before you report an issue, please confirm that you have installed the current v
 
 If you identify a problem, we request that you report it through a new issue report on the Github repository.  Please include the following information in your (bug) issue report:
 
-- Hack font version (or timeframe when you installed it and where you obtained the fonts for install)
+- Font version (or timeframe when you downloaded the fonts if you do not know)
+- Where you obtained the fonts (e.g. repository download, package manager, another source)
 - variant(s) of the Hack fonts that are affected (Regular, Bold, Italic, BoldItalic)
 - font size at which the problem was observed and whether it occurs at other sizes within the Core design target range (see above)
 - operating system and version
@@ -58,27 +59,18 @@ Contributors who modify the UFO source code should familiarize themselves with t
 
 For pull requests that modify the design of the typeface, we request that you limit your source commits to the following changes unless we have discussed and explicitly requested additional file changes as part of the contribution.
 
-### Single glyph modifications
 
-- Only include the modified `glyphs/*.glif` source file in commits
-- Modification of other source files is not acceptable
-
-### Multiple glyph modifications
+### Glyph modifications
 
 - Only include the modified `glyphs/*.glif` source files for the modified glyphs in commits
 - Modification of other source files is not acceptable
 
-### Glyph additions
+### Glyph additions and deletions
 
-- Include the added `glyphs/*.glif` source file(s) in commits
+- Include the added and/or deleted `glyphs/*.glif` source file(s) in commits
 - Include the `glyphs/contents.plist` source file in commits
 - Modification of other source files is not acceptable
 
-### Glyph deletions
-
-- Include the deleted `glyphs/*.glif` source file(s) in commits
-- Include the `glyphs/contents.plist` source file in commits
-- Modification of other source files is not acceptable
 
 ### Other Issues
 
