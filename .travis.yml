@@ -7,6 +7,15 @@ matrix:
       sudo: required
       env:
         - TARGET="lint"
+      before_script:
+        - pip install ufolint
+        - sudo apt-get -qq update
+        - sudo apt-get install -y shellcheck
+      script:
+        - make -j $TARGET
+    - os: linux
+      sudo: required
+      env:
         - TARGET="build-with-dependencies"
       before_script:
         - pip install ufolint
@@ -17,7 +26,6 @@ matrix:
     - os: osx
       env:
         - TARGET="lint"
-        - TARGET="build-with-dependencies"
       before_install:
         - brew update
         - brew install python3
@@ -28,7 +36,18 @@ matrix:
         - brew install shellcheck
       script:
         - make -j $TARGET
-
+    - os: osx
+      env:
+        - TARGET="build-with-dependencies"
+      before_install:
+        - brew update
+        - brew install python3
+        - brew install pkg-config || brew reinstall pkg-config
+        - brew link --force pkg-config
+        - virtualenv env -p python3
+        - source env/bin/activate
+      script:
+        - make -j $TARGET
 
 notifications:
   email: false
