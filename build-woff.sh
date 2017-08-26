@@ -28,6 +28,7 @@ SFNTWOFF="sfnt2woff-zopfli-$SFNTWOFF_VERSION"
 
 # Path to sfnt2woff-zopfli executable
 SFNTWOFF_BIN="$BUILD/$SFNTWOFF/sfnt2woff-zopfli"
+ZOPFLI_ITERATIONS="3"
 
 # The font build directory paths and file paths for the woff builds
 TTF_BUILD="build/ttf"
@@ -102,7 +103,7 @@ fi
 
 # Build woff files from ttf files
 # regular set
-if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$REGULAR_TTF"; then
+if ! "$SFNTWOFF_BIN" -n $ZOPFLI_ITERATIONS "$TTF_BUILD/$REGULAR_TTF"; then
 	echo "Failed to build $REGULAR_WOFF from $REGULAR_TTF." 1>&2
 	exit 1
 else
@@ -110,7 +111,7 @@ else
 fi
 
 # bold set
-if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$BOLD_TTF"; then
+if ! "$SFNTWOFF_BIN" -n $ZOPFLI_ITERATIONS "$TTF_BUILD/$BOLD_TTF"; then
 	echo "Failed to build $BOLD_WOFF from $BOLD_TTF" 1>&2
 	exit 1
 else
@@ -118,7 +119,7 @@ else
 fi
 
 # italic set
-if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$ITALIC_TTF"; then
+if ! "$SFNTWOFF_BIN" -n $ZOPFLI_ITERATIONS "$TTF_BUILD/$ITALIC_TTF"; then
 	echo "Failed to build $BOLD_WOFF from $ITALIC_TTF" 1>&2
 	exit 1
 else
@@ -126,7 +127,7 @@ else
 fi
 
 # bold italic set
-if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$BOLDITALIC_TTF"; then
+if ! "$SFNTWOFF_BIN" -n $ZOPFLI_ITERATIONS "$TTF_BUILD/$BOLDITALIC_TTF"; then
 	echo "Failed to build $BOLDITALIC_WOFF from $BOLDITALIC_TTF" 1>&2
 	exit 1
 else
