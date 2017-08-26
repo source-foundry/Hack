@@ -1,14 +1,20 @@
 sudo: true
 language: python
 
+os:
+  - linux
+  - osx
+
 env:
   - TARGET="lint"
   - TARGET="build-with-dependencies"
 
 before_script:
   - pip install ufolint
-  - sudo apt-get -qq update
-  - sudo apt-get install -y shellcheck
+  - if [ $TRAVIS_OS_NAME = "linux" ]; then sudo apt-get -qq update; fi
+  - if [ $TRAVIS_OS_NAME = "linux" ]; then sudo apt-get install -y shellcheck; fi
+  - if [ $TRAVIS_OS_NAME = "osx" ]; then brew update; fi
+  - if [ $TRAVIS_OS_NAME = "osx" ]; then brew outdated shellcheck || brew upgrade shellcheck; fi
 
 script:
   - make -j $TARGET
