@@ -42,8 +42,6 @@ matrix:
       before_install:
         - brew update
         - brew install python3
-        - brew install pkg-config || brew reinstall pkg-config
-        - brew link --force pkg-config
         - virtualenv env -p python3
         - source env/bin/activate
       script:
