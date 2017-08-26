@@ -1,13 +1,13 @@
 #!/bin/sh
 
-# /////////////////////////////////////////////////////////////////
+# ///////////////////////////////////////////////////////////////////
 #
-# build-web.sh
-#  A shell script that builds the Hack web fonts from ttf files
+# build-woff.sh
+#  A shell script that builds the Hack woff web fonts from ttf files
 #  Copyright 2017 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build-web.sh (--install-dependencies)
+#  Usage: ./build-woff.sh (--install-dependencies)
 #     Arguments:
 #     --install-dependencies (optional) - installs all
 #       build dependencies prior to the build script execution
@@ -17,7 +17,7 @@
 #        This script builds directly from previous ttf builds,
 #        not source files.
 #
-# /////////////////////////////////////////////////////////////////
+# ///////////////////////////////////////////////////////////////////
 
 # The sfnt2woff-zopfli build directory.
 BUILD="$HOME/sfnt2woff-zopfli-build"
@@ -49,13 +49,16 @@ BOLDITALIC_WOFF="hack-bolditalic.woff"
 if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build-web.sh (--install-dependencies)" 1>&2
+	    echo "Usage: ./build-woff.sh (--install-dependencies)" 1>&2
 	    exit 1
 fi
 
 # Optional build dependency install request with syntax `./build-web.sh --install-dependencies`
 if [ "$1" = "--install-dependencies" ]
 	then
+		# define the current directory (Hack repository)
+		CUR_DIR=$(pwd)
+
 		if test -d "$BUILD" -o -f "$BUILD"; then
 		  echo "Build directory \`$BUILD' must not exist."
 		  exit 1
@@ -84,6 +87,9 @@ if [ "$1" = "--install-dependencies" ]
 		echo "#####"
 
 		make
+
+		# make Hack repository the current directory again following the build
+		cd "$CUR_DIR" || exit 1
 fi
 
 
@@ -100,7 +106,7 @@ if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$REGULAR_TTF"; then
 	echo "Failed to build $REGULAR_WOFF from $REGULAR_TTF." 1>&2
 	exit 1
 else
-	echo "Regular web font set successfully built from $REGULAR_TTF"
+	echo "Regular woff set successfully built from $REGULAR_TTF"
 fi
 
 # bold set
@@ -108,15 +114,15 @@ if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$BOLD_TTF"; then
 	echo "Failed to build $BOLD_WOFF from $BOLD_TTF" 1>&2
 	exit 1
 else
-	echo "Bold web font set successfully built from $BOLD_TTF"
-fi 
+	echo "Bold woff set successfully built from $BOLD_TTF"
+fi
 
 # italic set
 if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$ITALIC_TTF"; then
 	echo "Failed to build $BOLD_WOFF from $ITALIC_TTF" 1>&2
 	exit 1
 else
-	echo "Italic web font set successfully built from $ITALIC_TTF"
+	echo "Italic woff set successfully built from $ITALIC_TTF"
 fi
 
 # bold italic set
@@ -124,8 +130,10 @@ if ! "$SFNTWOFF_BIN" "$TTF_BUILD/$BOLDITALIC_TTF"; then
 	echo "Failed to build $BOLDITALIC_WOFF from $BOLDITALIC_TTF" 1>&2
 	exit 1
 else
-	echo "Bold Italic web font set successfully built from $BOLDITALIC_TTF"
+	echo "Bold Italic woff set successfully built from $BOLDITALIC_TTF"
 fi
+
+echo "Moving woff files to build directory..."
 
 # move woff files to appropriate build directory
 mv "$TTF_BUILD/$REGULAR_PRE" "$WOFF_BUILD/$REGULAR_WOFF"
@@ -136,19 +144,19 @@ mv "$TTF_BUILD/$BOLDITALIC_PRE" "$WOFF_BUILD/$BOLDITALIC_WOFF"
 echo " "
 
 if [ -f "$WOFF_BUILD/$REGULAR_WOFF" ]; then
-	echo "Regular web font path: $WOFF_BUILD/$REGULAR_WOFF"
+	echo "Regular woff build path: $WOFF_BUILD/$REGULAR_WOFF"
 fi
 
 if [ -f "$WOFF_BUILD/$BOLD_WOFF" ]; then
-	echo "Bold web font path: $WOFF_BUILD/$BOLD_WOFF"
+	echo "Bold woff build path: $WOFF_BUILD/$BOLD_WOFF"
 fi
 
 if [ -f "$WOFF_BUILD/$ITALIC_WOFF" ]; then
-	echo "Italic web font path: $WOFF_BUILD/$ITALIC_WOFF"
+	echo "Italic woff build path: $WOFF_BUILD/$ITALIC_WOFF"
 fi
 
 if [ -f "$WOFF_BUILD/$BOLDITALIC_WOFF" ]; then
-	echo "Bold Italic web font path: $WOFF_BUILD/$BOLDITALIC_WOFF"
+	echo "Bold Italic woff build path: $WOFF_BUILD/$BOLDITALIC_WOFF"
 fi
 
 
