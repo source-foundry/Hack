@@ -1,4 +1,5 @@
 #!/bin/sh
+# shellcheck disable=SC2103
 #
 # This script builds a stand-alone binary for the command line version of
 # ttfautohint, downloading any necessary libraries.
@@ -45,7 +46,7 @@ INST="$BUILD/local"
 mkdir "$BUILD"
 mkdir "$INST"
 
-cd "$BUILD"
+cd "$BUILD" || exit 1
 
 
 echo "#####"
@@ -60,21 +61,21 @@ count=0
 for i in $FREETYPE_PATCHES
 do
   curl -o ft-patch-$count.diff $i
-  count=`expr $count + 1`
+  count=$($count + 1)
 done
 
 count=0
 for i in $HARFBUZZ_PATCHES
 do
   curl -o hb-patch-$count.diff $i
-  count=`expr $count + 1`
+  count=$($count + 1)
 done
 
 count=0
 for i in $TTFAUTOHINT_PATCHES
 do
   curl -o ta-patch-$count.diff $i
-  count=`expr $count + 1`
+  count=$($count + 1)
 done
 
 
@@ -98,36 +99,36 @@ echo "#####"
 echo "Apply patches."
 echo "#####"
 
-cd "$FREETYPE"
+cd "$FREETYPE" || exit 1
 for i in ../ft-patch-*.diff
 do
-  test -f $i || continue
+  test -f "$i" || continue
   patch --forward \
         --strip=1 \
         --reject-file=- \
-        < $i
+        < "$i"
 done
 cd ..
 
-cd "$HARFBUZZ"
+cd "$HARFBUZZ" || exit 1
 for i in ../hb-patch-*.diff
 do
-  test -f $i || continue
+  test -f "$i" || continue
   patch --forward \
         --strip=1 \
         --reject-file=- \
-        < $i
+        < "$i"
 done
 cd ..
 
-cd "$TTFAUTOHINT"
+cd "$TTFAUTOHINT" || exit 1
 for i in ../ta-patch-*.diff
 do
-  test -f $i || continue
+  test -f "$i" || continue
   patch --forward \
         --strip=1 \
         --reject-file=- \
-        < $i
+        < "$i"
 done
 cd ..
 
@@ -136,7 +137,7 @@ echo "#####"
 echo "$FREETYPE"
 echo "#####"
 
-cd "$FREETYPE"
+cd "$FREETYPE" || exit 1
 
 ./configure \
   --without-bzip2 \
@@ -158,7 +159,7 @@ echo "#####"
 echo "$HARFBUZZ"
 echo "#####"
 
-cd "$HARFBUZZ"
+cd "$HARFBUZZ" || exit 1
 
 ./configure \
   --disable-dependency-tracking \
@@ -185,7 +186,7 @@ echo "#####"
 echo "$TTFAUTOHINT"
 echo "#####"
 
-cd "$TTFAUTOHINT"
+cd "$TTFAUTOHINT" || exit 1
 
 ./configure \
   --disable-dependency-tracking \

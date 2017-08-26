@@ -10,7 +10,7 @@ build-with-dependencies: source/*.ufo build/ttf/*.ttf
 
 lint: shellcheck ufolint
 
-shellcheck: build.sh build-woff.sh build-woff2.sh
+shellcheck: build.sh build-woff.sh build-woff2.sh tools/scripts/install/ttfautohint-build.sh
 	$@ $^
 
 ufolint: source/*.ufo
