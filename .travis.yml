@@ -1,14 +1,13 @@
 sudo: true
 language: generic
 
-env:
-  - TARGET="lint"
-  - TARGET="build-with-dependencies"
-
 matrix:
   include:
     - os: linux
       sudo: required
+      env:
+        - TARGET="lint"
+        - TARGET="build-with-dependencies"
       before_script:
         - pip install ufolint
         - sudo apt-get -qq update
@@ -16,6 +15,9 @@ matrix:
       script:
         - make -j $TARGET
     - os: osx
+      env:
+        - TARGET="lint"
+        - TARGET="build-with-dependencies"
       before_install:
         - brew update
         - brew install python3
@@ -23,7 +25,7 @@ matrix:
         - source env/bin/activate
       before_script:
         - pip install ufolint
-        - brew outdated shellcheck || brew upgrade shellcheck
+        - brew install shellcheck
       script:
         - make -j $TARGET
 
