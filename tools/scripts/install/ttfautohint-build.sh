@@ -1,11 +1,13 @@
 #!/bin/sh
 # shellcheck disable=SC2103
-#
+# shellcheck disable=SC2003
+# shellcheck disable=SC2006
 # This script builds a stand-alone binary for the command line version of
 # ttfautohint, downloading any necessary libraries.
 #
-# Version 2017-Aug-17.
+# Version 2017-Aug-27.
 # Written by Werner Lemberg <wl@gnu.org>.
+#
 # To the extent possible under law, the person who associated CC0 with this work
 # has waived all copyright and related or neighboring rights to this work.
 
@@ -18,8 +20,8 @@ BUILD="$HOME/ttfautohint-build"
 
 # The library versions.
 FREETYPE_VERSION="2.8"
-HARFBUZZ_VERSION="1.4.8"
-TTFAUTOHINT_VERSION="1.6"
+HARFBUZZ_VERSION="1.5.0"
+TTFAUTOHINT_VERSION="1.7"
 
 # Necessary patches (lists of at most 10 URLs each separated by whitespace,
 # to be applied in order).
@@ -64,21 +66,21 @@ count=0
 for i in $FREETYPE_PATCHES
 do
   curl -o ft-patch-$count.diff "$i"
-  count=$($count + 1)
+  count=`expr $count + 1`
 done
 
 count=0
 for i in $HARFBUZZ_PATCHES
 do
   curl -o hb-patch-$count.diff "$i"
-  count=$($count + 1)
+  count=`expr $count + 1`
 done
 
 count=0
 for i in $TTFAUTOHINT_PATCHES
 do
   curl -o ta-patch-$count.diff "$i"
-  count=$($count + 1)
+  count=`expr $count + 1`
 done
 
 
@@ -86,7 +88,7 @@ done
 TA_CPPFLAGS="-I$INST/include"
 TA_CFLAGS="-g -O2"
 TA_CXXFLAGS="-g -O2"
-TA_LDFLAGS="-L$INST/lib"
+TA_LDFLAGS="-L$INST/lib -L$INST/lib64"
 
 
 echo "#####"
@@ -106,10 +108,7 @@ cd "$FREETYPE" || exit 1
 for i in ../ft-patch-*.diff
 do
   test -f "$i" || continue
-  patch --forward \
-        --strip=1 \
-        --reject-file=- \
-        < "$i"
+  patch -p1 -N -r - < "$i"
 done
 cd ..
 
@@ -117,10 +116,7 @@ cd "$HARFBUZZ" || exit 1
 for i in ../hb-patch-*.diff
 do
   test -f "$i" || continue
-  patch --forward \
-        --strip=1 \
-        --reject-file=- \
-        < "$i"
+  patch -p1 -N -r - < "$i"
 done
 cd ..
 
@@ -128,10 +124,7 @@ cd "$TTFAUTOHINT" || exit 1
 for i in ../ta-patch-*.diff
 do
   test -f "$i" || continue
-  patch --forward \
-        --strip=1 \
-        --reject-file=- \
-        < "$i"
+  patch -p1 -N -r - < "$i"
 done
 cd ..
 
@@ -142,6 +135,9 @@ echo "#####"
 
 cd "$FREETYPE" || exit 1
 
+# The space in `PKG_CONFIG' ensures that the created `freetype-config' file
+# doesn't find a working pkg-config, falling back to the stored strings
+# (which is what we want).
 ./configure \
   --without-bzip2 \
   --without-png \
@@ -150,6 +146,7 @@ cd "$FREETYPE" || exit 1
   --prefix="$INST" \
   --enable-static \
   --disable-shared \
+  PKG_CONFIG=" " \
   CFLAGS="$TA_CPPFLAGS $TA_CFLAGS" \
   CXXFLAGS="$TA_CPPFLAGS $TA_CXXFLAGS" \
   LDFLAGS="$TA_LDFLAGS"
@@ -164,6 +161,8 @@ echo "#####"
 
 cd "$HARFBUZZ" || exit 1
 
+# Value `true' for `PKG_CONFIG' ensures that XXX_CFLAGS and XXX_LIBS
+# get actually used.
 ./configure \
   --disable-dependency-tracking \
   --disable-gtk-doc-html \
@@ -178,8 +177,8 @@ cd "$HARFBUZZ" || exit 1
   CXXFLAGS="$TA_CPPFLAGS $TA_CXXFLAGS" \
   LDFLAGS="$TA_LDFLAGS" \
   PKG_CONFIG=true \
-  FREETYPE_CFLAGS="-I$INST/include/freetype2" \
-  FREETYPE_LIBS="-L$INST/lib -lfreetype"
+  FREETYPE_CFLAGS="$TA_CPPFLAGS/freetype2" \
+  FREETYPE_LIBS="$TA_LDFLAGS -lfreetype"
 make
 make install
 cd ..
@@ -191,6 +190,8 @@ echo "#####"
 
 cd "$TTFAUTOHINT" || exit 1
 
+# Value `true' for `PKG_CONFIG' ensures that XXX_CFLAGS and XXX_LIBS
+# get actually used.
 ./configure \
   --disable-dependency-tracking \
   --without-qt \
@@ -203,8 +204,8 @@ cd "$TTFAUTOHINT" || exit 1
   CXXFLAGS="$TA_CPPFLAGS $TA_CXXFLAGS" \
   LDFLAGS="$TA_LDFLAGS" \
   PKG_CONFIG=true \
-  HARFBUZZ_CFLAGS="-I$INST/include/harfbuzz" \
-  HARFBUZZ_LIBS="-L$INST/lib -lharfbuzz"
+  HARFBUZZ_CFLAGS="$TA_CPPFLAGS/harfbuzz" \
+  HARFBUZZ_LIBS="$TA_LDFLAGS -lharfbuzz"
 make LDFLAGS="$TA_LDFLAGS -all-static"
 make install-strip
 cd ..
