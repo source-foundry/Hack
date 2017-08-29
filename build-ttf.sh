@@ -2,12 +2,12 @@
 
 # /////////////////////////////////////////////////////////////////
 #
-# build.sh
-#  A shell script that builds the Hack fonts from UFO source
+# build-ttf.sh
+#  A shell script that builds the Hack ttf fonts from UFO source
 #  Copyright 2017 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build.sh (--install-dependencies)
+#  Usage: ./build-ttf.sh (--install-dependencies)
 #     Arguments:
 #     --install-dependencies (optional) - installs all
 #       build dependencies prior to the build script execution
