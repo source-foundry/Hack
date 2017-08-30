@@ -25,7 +25,7 @@ TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
 if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build.sh (--install-dependencies)" 1>&2
+	    echo "Usage: ./build-ttf.sh (--install-dependencies)" 1>&2
 	    exit 1
 fi
 
