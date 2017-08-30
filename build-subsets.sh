@@ -166,6 +166,11 @@ fi
 #
 # ////////////////////////////////////////////////
 
+# cleanup any previously created temp directory that was not removed
+if ! [ -d "$TEMP_SOURCE" ]; then
+	rm -rf $TEMP_SOURCE
+fi
+
 # create temp directory for subset source files
 mkdir $TEMP_SOURCE
 
@@ -393,6 +398,11 @@ fi
 #
 #
 # //////////////////////////////////////////////
+
+# create the build directory if it does not exist
+if ! [ -d "$WEB_BUILD" ]; then
+	mkdir $WEB_BUILD
+fi
 
 echo " "
 echo "Moving woff files to build directory..."

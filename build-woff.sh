@@ -136,6 +136,12 @@ fi
 
 echo "Moving woff files to build directory..."
 
+# create directory if it does not exist
+# (occurs with git + empty directories)
+if ! [ -d "$WOFF_BUILD" ]; then
+	mkdir $WOFF_BUILD
+fi
+
 # move woff files to appropriate build directory
 mv "$TTF_BUILD/$REGULAR_PRE" "$WOFF_BUILD/$REGULAR_WOFF"
 mv "$TTF_BUILD/$BOLD_PRE" "$WOFF_BUILD/$BOLD_WOFF"

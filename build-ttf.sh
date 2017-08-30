@@ -203,6 +203,13 @@ echo " "
 
 # Move release files to build directory
 echo " "
+
+# create directory if it does not exist
+# (occurs with git + empty directories)
+if ! [ -d build/ttf ]; then
+	mkdir build/ttf
+fi
+
 mv master_ttf/hinted/Hack-Regular.ttf build/ttf/Hack-Regular.ttf
 echo "Regular ttf build path: build/ttf/Hack-Regular.ttf"
 mv master_ttf/hinted/Hack-Italic.ttf build/ttf/Hack-Italic.ttf
