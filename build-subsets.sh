@@ -45,6 +45,9 @@ WOFF2_BUILD="$HOME"
 # woff2 executable path
 WOFF2_BIN="$WOFF2_BUILD/woff2/woff2_compress"
 
+# temporary source directory for subset source files
+TEMP_SOURCE="source/temp"
+
 # The font build directory paths and file paths for the woff builds
 TTF_BUILD="master_ttf"
 
@@ -154,6 +157,30 @@ if [ $INSTALLFLAG -eq 1 ]
 	    exit 1
 fi
 
+# ////////////////////////////////////////////////
+#
+#
+#  Create temporary source files with lib.plist
+#    replacements that include subset definitions
+#
+#
+# ////////////////////////////////////////////////
+
+# create temp directory for subset source files
+mkdir $TEMP_SOURCE
+
+# copy source to temporary directory
+cp -r source/Hack-Regular.ufo $TEMP_SOURCE/Hack-Regular.ufo
+cp -r source/Hack-Italic.ufo $TEMP_SOURCE/Hack-Italic.ufo
+cp -r source/Hack-Bold.ufo $TEMP_SOURCE/Hack-Bold.ufo
+cp -r source/Hack-BoldItalic.ufo $TEMP_SOURCE/Hack-BoldItalic.ufo
+
+# copy lib.plist files with subset definitions to temporary source directories
+cp source/subset-lib/lib-regular.plist $TEMP_SOURCE/Hack-Regular.ufo/lib.plist
+cp source/subset-lib/lib-italic.plist $TEMP_SOURCE/Hack-Italic.ufo/lib.plist
+cp source/subset-lib/lib-bold.plist $TEMP_SOURCE/Hack-Bold.ufo/lib.plist
+cp source/subset-lib/lib-bolditalic.plist $TEMP_SOURCE/Hack-BoldItalic.ufo/lib.plist
+
 # /////////////////////////////////////////////
 #
 #
@@ -172,21 +199,21 @@ fi
 
 # build regular subset
 
-if ! fontmake --subset -u "source/Hack-Regular.ufo" -o ttf
+if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Regular.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Regular variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build bold subset
-if ! fontmake --subset -u "source/Hack-Bold.ufo" -o ttf
+if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Bold.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Bold variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build italic subset
-if ! fontmake --subset -u "source/Hack-Italic.ufo" -o ttf
+if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Italic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Italic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -194,7 +221,7 @@ fi
 
 # build bold italic subset
 
-if ! fontmake --subset -u "source/Hack-BoldItalic.ufo" -o ttf
+if ! fontmake --subset -u "$TEMP_SOURCE/Hack-BoldItalic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-BoldItalic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -401,19 +428,19 @@ mv "$TTF_BUILD/$ITALIC_WOFF2_PRE" "$WEB_BUILD/$ITALIC_WOFF2"
 mv "$TTF_BUILD/$BOLDITALIC_WOFF2_PRE" "$WEB_BUILD/$BOLDITALIC_WOFF2"
 
 if [ -f "$WEB_BUILD/$REGULAR_WOFF2" ]; then
-	echo "Regular woff build path: $WEB_BUILD/$REGULAR_WOFF2"
+	echo "Regular woff2 subset build path: $WEB_BUILD/$REGULAR_WOFF2"
 fi
 
 if [ -f "$WEB_BUILD/$BOLD_WOFF2" ]; then
-	echo "Bold woff build path: $WEB_BUILD/$BOLD_WOFF2"
+	echo "Bold woff2 subset build path: $WEB_BUILD/$BOLD_WOFF2"
 fi
 
 if [ -f "$WEB_BUILD/$ITALIC_WOFF2" ]; then
-	echo "Italic woff build path: $WEB_BUILD/$ITALIC_WOFF2"
+	echo "Italic woff2 subset build path: $WEB_BUILD/$ITALIC_WOFF2"
 fi
 
 if [ -f "$WEB_BUILD/$BOLDITALIC_WOFF2" ]; then
-	echo "Bold Italic woff build path: $WEB_BUILD/$BOLDITALIC_WOFF2"
+	echo "Bold Italic woff2 subset build path: $WEB_BUILD/$BOLDITALIC_WOFF2"
 fi
 
 # //////////////////////////////////////////////
@@ -425,4 +452,5 @@ fi
 # //////////////////////////////////////////////
 
 rm -rf master_ttf
+rm -rf "$TEMP_SOURCE"
 

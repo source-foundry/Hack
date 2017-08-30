@@ -204,15 +204,13 @@ echo " "
 # Move release files to build directory
 echo " "
 mv master_ttf/hinted/Hack-Regular.ttf build/ttf/Hack-Regular.ttf
-echo "master_ttf/Hack-Regular.ttf was moved to build/ttf/Hack-Regular.ttf"
+echo "Regular ttf build path: build/ttf/Hack-Regular.ttf"
 mv master_ttf/hinted/Hack-Italic.ttf build/ttf/Hack-Italic.ttf
-echo "master_ttf/Hack-Italic.ttf was moved to build/ttf/Hack-Italic.ttf"
+echo "Italic ttf build path: build/ttf/Hack-Italic.ttf"
 mv master_ttf/hinted/Hack-Bold.ttf build/ttf/Hack-Bold.ttf
-echo "master_ttf/Hack-Bold.ttf was moved to build/ttf/Hack-Bold.ttf"
+echo "Bold ttf build path: build/ttf/Hack-Bold.ttf"
 mv master_ttf/hinted/Hack-BoldItalic.ttf build/ttf/Hack-BoldItalic.ttf
-echo "master_ttf/Hack-BoldItalic.ttf was moved to build/ttf/Hack-BoldItalic.ttf"
+echo "Bold Italic ttf build path: build/ttf/Hack-BoldItalic.ttf"
 
 # Remove master_ttf directory
 rm -rf master_ttf
-echo " "
-echo "Build complete.  Release files are available in the build directory."
