@@ -1,4 +1,4 @@
-default: build
+all: build
 
 build: ttf webfonts
 
