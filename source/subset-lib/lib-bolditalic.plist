@@ -318,8 +318,8 @@
 		<string>Zdotaccent</string>
 		<string>zdotaccent</string>
 		<string>Zcaron</string>
-		<string>zcaron</string>
-		<string>florin</string>  <!-- Begin glyphs outside of ASCII + Latin-1 + Latin Extended A -->
+		<string>zcaron</string>  <!-- End ASCII + Latin-1 + Latin Extended A sets -->
+		<string>florin</string>  <!-- Begin currency-->
 		<string>uni0E3F</string>
 		<string>uni20A0</string>
 		<string>colonmonetary</string>
@@ -346,6 +346,41 @@
 		<string>uni20B7</string>
 		<string>uni20B8</string>
 		<string>uni20B9</string>
+		<string>uni2010</string>         <!-- Begin general punctuation-->
+		<string>uni2011</string>
+		<string>figuredash</string>
+		<string>endash</string>
+		<string>emdash</string>
+		<string>uni2015</string>
+		<string>uni2016</string>
+		<string>underscorebl</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesinglbase</string>
+		<string>quotereversed</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quotedblbase</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
+		<string>uni2022</string>
+		<string>uni2023</string>
+		<string>ellipsis</string>
+		<string>perthousand</string>
+		<string>uni2031</string>
+		<string>guilsinglleft</string>
+		<string>guilsinglright</string>
+		<string>exclamdbl</string>
+		<string>uni203D</string>
+		<string>uni203E</string>
+		<string>uni203F</string>
+		<string>fraction</string>
+		<string>uni2045</string>
+		<string>uni2046</string>
+		<string>uni2047</string>
+		<string>uni2048</string>
+		<string>uni2049</string>
+		<string>uni204B</string>
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
