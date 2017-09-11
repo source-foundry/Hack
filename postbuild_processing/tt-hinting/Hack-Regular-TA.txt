@@ -22,6 +22,7 @@ uni0025 touch 51,52,53,70,71,72  y -0.5   @14
 uni0025 touch 40,41,42,43        y -0.25  @14
 
 # U+002B plus glyph ID 764
-uni002B touch 4,5 y 1.0 @ 12,13
+uni002B touch 4,5,10,11          y 0.5    @12
+uni002B touch 4,5                y 1.0    @13
 
 
