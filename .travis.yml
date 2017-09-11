@@ -1,5 +1,6 @@
 sudo: true
 language: generic
+group: deprecated-2017Q3
 
 matrix:
   include:
