@@ -81,3 +81,26 @@ Desktop fonts are available on the path `build/ttf` from the root of the reposit
 ### Web fonts (woff + woff2)
 
 Web fonts are available on the path `build/web` from the root of the repository upon completion of your build.
+
+
+## Uninstall
+
+All build dependencies installed with the automated approaches can be uninstalled with the following command:
+
+```
+$ pip uninstall fontmake && pip uninstall fonttools && rm -rf ~/ttfautohint-build && rm -rf ~/sfnt2woff-zopfli-build && rm -rf ~/woff2
+```
+
+In cases where a compile did not proceed to completion (e.g. you intentionally exited early or an exception was raised) a temporary directory may still exist in the root of the repository on the path `master_ttf`.  This can be removed with:
+
+```
+$ rm -rf master_ttf
+```
+
+### Uninstall Details
+
+fontmake and fonttools are Python packages and are uninstalled with pip.
+
+The FreeType library (including its build dependency Harfbuzz), ttfautohint, sfnt2woff-zopfli, and woff2 are built in directories on your $HOME path.  They are not installed on your $PATH (unless of course you have defined $HOME on $PATH) so they **will not** work from the command line with the name of the executable file only (e.g. `$ ttfautohint [file path]`).  This is intentional.
+
+Repeat execution of the build process cleans up the temporary directory `master_ttf` if found so this step is not mandatory to repeat a build and should not lead to errors with the build.
