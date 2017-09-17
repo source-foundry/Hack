@@ -7,7 +7,6 @@
 - Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins))
 - David van Gemeren ([@burodepeper](https://github.com/burodepeper))
 - Michael "Tex" Hex ([@texhex](https://github.com/texhex))
-- Jorg Heymans ([@jorgheymans](https://github.com/jorgheymans))
 
 
 ### Glyph Design
@@ -17,22 +16,6 @@
 ### Hinting / Instruction Sets
 - Werner Lemberg
 
-### Powerline Glyph Set
-- Carlo Abelli
-- Justin Anderson
-- Matthias Bilger
-- Alpha Chen
-- Benjamin Chrétien
-- Marvin Frommhold
-- Tim Heckman
-- Serkan Hosca
-- Jon Linklater-Johnson
-- Giovanni Lanzani
-- Caleb Maclennan
-- Joel McCance
-- Robin McCorkell
-- Mack Stump
-- Daniele Tricoli
 
 ### Language Set Design and Proofing
 - Dmitry Maslennikov - Cyrillic set
@@ -51,6 +34,23 @@
 - @rafaeln - Kĩsêdjê set
 - @xstee (Leonid) - Cyrillic set
 
+### Powerline Glyph Set
+- Carlo Abelli
+- Justin Anderson
+- Matthias Bilger
+- Alpha Chen
+- Benjamin Chrétien
+- Marvin Frommhold
+- Tim Heckman
+- Serkan Hosca
+- Jon Linklater-Johnson
+- Giovanni Lanzani
+- Caleb Maclennan
+- Joel McCance
+- Robin McCorkell
+- Mack Stump
+- Daniele Tricoli
+
 ### Web Development
 
 - JM
@@ -67,6 +67,10 @@
 ### CI Testing
 - Peter Oliver
 
+
+### Scripts
+- Chris Clauss
+- Jorg Heymans
 
 ### DejaVu
 
