@@ -25,4 +25,6 @@ uni0025 touch 40,41,42,43        y -0.25  @14
 uni002B touch 4,5,10,11          y 0.5    @12
 uni002B touch 4,5                y 1.0    @13
 
-
+# U+0030 zero glyph ID 548
+uni0030 touch 35,36,45,46,47,56  y -0.5   @8
+uni0030 touch 35,36,56           y -1.0   @12,13,14
