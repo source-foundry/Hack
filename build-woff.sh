@@ -97,7 +97,7 @@ fi
 if [ -f "$SFNTWOFF_BIN" ]; then
 	echo "Beginning web font build with $SFNTWOFF"
 else
-	echo "Unable to locate sfnt2woff-zopfli." 1>&2
+	echo "Unable to locate sfnt2woff-zopfli on the path $SFNTWOFF_BIN.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
 	exit 1
 fi
 

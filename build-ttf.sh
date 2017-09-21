@@ -49,13 +49,13 @@ echo " "
 # fontmake installed
 if ! which fontmake
 	then
-	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
 	    INSTALLFLAG=1
 fi
 # fontTools python library can be imported
 if ! python -c "import fontTools"
 	then
-	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
 	    INSTALLFLAG=1
 else
 	echo "fontTools Python library identified"
@@ -67,7 +67,7 @@ if ! [ -f "$TTFAH" ]
 	then
 	    if ! which ttfautohint
 	    	then
-	            echo "Unable to install ttfautohint from source.  Please attempt manual install and repeat build without the --install-dependencies flag." 1>&2
+	            echo "Unable to install ttfautohint from source.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
 	            INSTALLFLAG=1
 	    else
 	    	TTFAH="ttfautohint"  # revise TTFAH variable to ttfautohint installed on the user's PATH for excecution of hints below

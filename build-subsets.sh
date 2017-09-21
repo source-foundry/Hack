@@ -102,14 +102,14 @@ echo " "
 # fontmake installed
 if ! which fontmake
 	then
-	    echo "fontmake was not found.  Please attempt to install this with ./build-ttf.sh --install-dependencies, then execute this script again" 1>&2
+	    echo "fontmake was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
 	    INSTALLFLAG=1
 fi
 
 # fontTools python library can be imported
 if ! python -c "import fontTools"
 	then
-	    echo "The fontTools library was not found.  Please attempt to install this with ./build-ttf.sh --install-dependencies, then execute this script again" 1>&2
+	    echo "The fontTools library was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
 	    INSTALLFLAG=1
 else
 	echo "fontTools Python library identified"
@@ -122,7 +122,7 @@ if ! [ -f "$TTFAH" ]
 	then
 	    if ! which ttfautohint
 	    	then
-	            echo "ttfautohint was not found.  Please attempt to install this with ./build-ttf.sh --install-dependencies, then execute this script again." 1>&2
+	            echo "ttfautohint was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
 	            INSTALLFLAG=1
 	    else
 	    	TTFAH="ttfautohint"  # revise TTFAH variable to ttfautohint installed on the user's PATH for excecution of hints below
@@ -135,7 +135,7 @@ fi
 # sfntwoff-zopfli installed
 if ! [ -f "$SFNTWOFF_BIN" ]
 	then
-	    echo "sfnt2woff-zopfli was not found.  Please attempt to install this with ./build-woff.sh --install-dependencies, then execute this script again" 1>&2
+	    echo "sfnt2woff-zopfli was not found on the path $SFNTWOFF_BIN.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
 	    INSTALLFLAG=1
 else
 	echo "sfnt2woff-zopfli executable identified"
@@ -144,7 +144,7 @@ fi
 # woff2 installed
 if ! [ -f "$WOFF2_BIN" ]
 	then
-	    echo "woff2 was not found.  Please attempt to install this with ./build-woff2.sh --install-dependencies, then execute this script again" 1>&2
+	    echo "woff2_compress was not found on the path $WOFF2_BIN.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
 	    INSTALLFLAG=1
 else
 	echo "woff2_compress executable identified"
