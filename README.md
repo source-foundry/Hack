@@ -112,7 +112,7 @@ pre, code { font-family: Hack, monospace; }
 
 ## Resources
 * [About Hack](docs/ABOUT.md)
-* [Full specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
+* [Full specimen](http://source-foundry.github.io/Hack/font-specimen.html)
 * [Changelog](CHANGELOG.md)
 * [Project website](http://sourcefoundry.org/hack/)
 * [Contributors](docs/CONTRIBUTORS.md)
@@ -120,11 +120,11 @@ pre, code { font-family: Hack, monospace; }
 
 ## License
 
-**Hack** &copy; 2015-2017, Christopher Simpkins (with Reserved Font Name _Hack_).
+**Hack** work is &copy; 2017 Source Foundry Authors. MIT License
 
-**Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_).
+**Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_). Bitstream Vera License.
 
-See [LICENSE.md](https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md) for the full texts of the licenses.
+See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) for the full texts of the licenses.
 
 
 
