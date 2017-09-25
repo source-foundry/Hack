@@ -45,6 +45,7 @@
 - Serkan Hosca
 - Jon Linklater-Johnson
 - Giovanni Lanzani
+- James T. Lee
 - Caleb Maclennan
 - Joel McCance
 - Robin McCorkell
