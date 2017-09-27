@@ -22,8 +22,8 @@
 - repository path modifications to support above changes
 - eliminated old, unnecessary repository scripts
 - added fontmake build dependency
-- added fontLib build dependency
-- added ttfautohing build dependency (includes Harfbuzz and FreeType build dependencies)
+- added fontTools build dependency
+- added ttfautohint build dependency (includes Harfbuzz and FreeType build dependencies)
 - added Font Bakery fstype post-compilation fix dependency (script housed in repo)
 - added Font Bakery DSIG table fix dependency (script housed in repo)
 - added sfnt2woff-zopfli build dependency
