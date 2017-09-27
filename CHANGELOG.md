@@ -1,7 +1,87 @@
 # Version 3.000
 
-- converted to UFO source files
-- removed otf builds
+### New license
+
+- Eliminated Hack Open Font License
+- Added MIT License for Hack work
+- These license changes eliminated the Reserved Font Name "Hack" in the typeface license
+- No changes to co-licensure with the Bitstream Vera license from upstream source
+
+### New source and build tooling
+
+- converted to valid UFO v2 source files with cubic curves
+- added automated build from scratch approach with make + FLOSS software only for desktop fonts
+- added automated build from scratch approach with make + FLOSS software only for web fonts (complete sets and subsets)
+- added automated cross platform build dependency installation as a make target
+- added ttfautohint build from source scripting support (includes support for builds on OS X platform)
+- added automated ttf build autohinting scripting with ttfautohint as part of the make build workflow
+- added Font Bakery fstype post-compilation fix
+- added Font Bakery DSIG table post-compilation fix
+- modified default zopfli iterations to 3 from 15 for woff builds (improved build time vs file size balance)
+- created a (workaround) approach to web font subset builds from UFO source files with fontmake
+- repository path modifications to support above changes
+- eliminated old, unnecessary repository scripts
+- added fontmake build dependency
+- added fontLib build dependency
+- added ttfautohing build dependency (includes Harfbuzz and FreeType build dependencies)
+- added Font Bakery fstype post-compilation fix dependency (script housed in repo)
+- added Font Bakery DSIG table fix dependency (script housed in repo)
+- added sfnt2woff-zopfli build dependency
+- added woff2 build dependency (uses customized Source Foundry fork that is modified to address build bug on OS X platforms)
+- added Source Foundry SRC vendor ID to source files
+
+### Continuous integration testing
+
+- added Travis CI desktop font build testing on Linux and OS X platforms
+- added Travis CI web font build testing on Linux and OS X platforms
+- added ufolint UFO source file linting to CI testing
+- added shellcheck shell script source file linting to CI testing
+
+### Desktop font build changes
+
+- eliminated otf builds
+
+### Web font build changes
+
+- eliminated eot web font builds
+- eliminated ttf web font builds
+- modified CSS file paths (affects web font CDN URL for all v3.0+ builds)
+
+### Design changes
+
+- Bold set: reduced dimensions of middle dot glyph (U+00B7)
+- improved design of the Powerline glyph set (addresses alignment rendering on Linux and Windows platforms)
+- added web font subset character set targets of ASCII, Latin-1, Latin Extended A, General Punctuation, and Currency sets
+- ttfautohint updated to v1.6
+- added Regular set as blue zone reference font for ttfautohint ttf build autohinting
+- defined x height pixel grid rounding up size range as 6ppem - 10ppem for ttfautohint ttf build autohinting
+- examined and improved manual hinting adjustments across the entire ASCII glyph set x sizes 8 - 14 ppem
+- Regular set: modified manual hints U+0023 @ size 13
+- Regular set: modified manual hints U+0025 @ sizes 10, 11, 14
+- Regular set: modified manual hints U+002B @ sizes 12, 13
+- Regular set: modified manual hints U+0030 @ 8, 12, 13, 14
+- Bold set: modified manual hints U+0021 @ size 14
+- Bold set: modified manual hints U+0025 @ sizes 10, 11, 14
+- Bold set: modified manual hints U+002B @ sizes 10, 11
+- Bold set: modified manual hints U+0038 @ sizes 12, 13, 14 
+- Italic set: modified manual hints U+0025 @ sizes 10, 11, 14
+- BoldItalic set: modified manual hints U+002B @ sizes 10, 11
+
+
+### Documentation changes
+
+- added design guidelines to CONTRIBUTING.md documentation
+- added issue reporting guidelines to CONTRIBUTING.md documentation
+- added pull request guidelines to CONTRIBUTING.md documentation
+- added contributors definition to CONTRIBUTING.md documentation
+- added build documentation in docs/BUILD.md
+
+### Fixes
+
+- modified openTypeNamePreferredSubfamilyName key definition in fontinfo.plist to support proper naming on Windows platform
+- added middle dot glyph (U+00B7) to BoldItalic set
+
+
 
 # Version 2.020
 
