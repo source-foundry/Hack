@@ -1,5 +1,8 @@
 all: build
 
+archives:
+	postbuild_processing/archive_prep/archiver.sh
+
 build: ttf webfonts
 
 build-with-dependencies: source/*.ufo
@@ -10,7 +13,7 @@ build-with-dependencies: source/*.ufo
 
 lint: shellcheck ufolint
 
-shellcheck: build-ttf.sh build-woff.sh build-woff2.sh build-subsets.sh tools/scripts/install/ttfautohint-build.sh
+shellcheck: build-ttf.sh build-woff.sh build-woff2.sh build-subsets.sh tools/scripts/install/ttfautohint-build.sh postbuild_processing/archive_prep/archiver.sh
 	$@ $^
 
 subsets: source/*.ufo
