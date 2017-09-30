@@ -5,7 +5,9 @@
 
 ### A typeface designed for source code
 
-Hack is designed to be a workhorse typeface for code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The project is in active development.  We welcome your input and contributions.
+Hack is designed to be a workhorse typeface for source code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](https://github.com/source-foundry/Hack/blob/master/CHANGELOG.md).
+
+The project is in active development and we welcome your input and contributions.  You may view our design objectives and contributing instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Contents
 
@@ -17,7 +19,7 @@ Hack is designed to be a workhorse typeface for code. It has deep roots in the l
 * [Resources](#user-content-resources)
 * [License](#user-content-license)
 
-The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. For additional details about licensing, please see [LICENSE.md](LICENSE.md).
+The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. The source is released in the widely supported UFO source format (an XML formatted typeface source).  We support and highly encourage the development of derivative downstream typeface projects from the Hack source.  For additional details about licensing, please see [LICENSE.md](LICENSE.md).
 
 <a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
@@ -45,14 +47,9 @@ edit the following fields in Options:
   - font-family: `"Hack"`
   - user-css: `https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css`
 
-#### Font release recommendations
-
-For general screen use on the desktop, we recommend the [TTF builds][ttf_latest] of Hack for most users.  [OTF builds][otf_latest] are available for those who prefer this font format. For detailed installation instructions, see [INSTALLATION.md](docs/INSTALLATION.md).
-
-
 ## Package managers
 
-We highly recommend the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the package managers were designed to tune and automate font installs and updates on your system.
+We highly recommend the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the packages distributed through these package managers were designed to tune and automate font installs and updates on your system.  Please note that the Hack project team does not manage/maintain these packages.  For installation issues with  Hack packages, please contact the package maintainer directly.
 
 We are aware of Hack support in the following package managers (with associated package names):
 
@@ -70,19 +67,19 @@ Details on package manager use and advanced manual desktop installation options 
 
 ## Web font usage
 
-Hack is available in all commonly used web font formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in the woff and woff2 web font formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
 #### 1. Add Hack to HTML
 
 Include one of the following in the &lt;head&gt; section of your HTML file:
 
-**Basic Latin + Latin-1 Supplement Character Set Character Set**
+**Subset web fonts**
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 ```
 
-**Full Character Set**
+**Full character set web fonts**
 
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
@@ -106,9 +103,8 @@ pre, code { font-family: Hack, monospace; }
 - **Typeface Name**: Hack
 - **Category**: Monospaced
 - **Powerline Support**: Yes
-- **Number of Glyphs**: 1561
 - **Included Styles**: Regular, Bold, Italic, Bold Italic
-- **Latest Release**: v2.020
+- **Latest Release**: v3.000
 
 ## Resources
 * [About Hack](docs/ABOUT.md)
@@ -130,5 +126,5 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 
 <!-- THE FOLLOWING LINKS ARE ALSO USED IN INSTALLATION.MD -->
 
-[otf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-otf.zip
 [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
+
