@@ -19,6 +19,7 @@
 - added Font Bakery DSIG table post-compilation fix
 - modified default zopfli iterations to 3 from 15 for woff builds (improved build time vs file size balance)
 - created a (workaround) approach to web font subset builds from UFO source files with fontmake
+- created new font archive preparation script
 - repository path modifications to support above changes
 - eliminated old, unnecessary repository scripts
 - added fontmake build dependency
@@ -63,7 +64,7 @@
 - Bold set: modified manual hints U+0021 @ size 14
 - Bold set: modified manual hints U+0025 @ sizes 10, 11, 14
 - Bold set: modified manual hints U+002B @ sizes 10, 11
-- Bold set: modified manual hints U+0038 @ sizes 12, 13, 14 
+- Bold set: modified manual hints U+0038 @ sizes 12, 13, 14
 - Italic set: modified manual hints U+0025 @ sizes 10, 11, 14
 - BoldItalic set: modified manual hints U+002B @ sizes 10, 11
 
@@ -80,6 +81,7 @@
 
 - modified openTypeNamePreferredSubfamilyName key definition in fontinfo.plist to support proper naming on Windows platform
 - added middle dot glyph (U+00B7) to BoldItalic set
+- fixed superscript OpenType features scripts in features.fea x all four variant sets
 
 
 
