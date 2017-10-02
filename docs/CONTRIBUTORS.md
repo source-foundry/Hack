@@ -2,22 +2,19 @@
 
 ## Hack
 
-### Source Foundry Development Team
+### Design
 
-- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins))
-- David van Gemeren ([@burodepeper](https://github.com/burodepeper))
-- Michael "Tex" Hex ([@texhex](https://github.com/texhex))
-
-
-### Glyph Design
-
-- JM
+- Chris Simpkins
+- David van Gemeren
 
 ### Hinting / Instruction Sets
+
 - Werner Lemberg
+- Chris Simpkins
 
+### Extended Set Design and Proofing
 
-### Language Set Design and Proofing
+- JM - all sets
 - Dmitry Maslennikov - Cyrillic set
 - Perry E. Metzger - Greek set
 - Gleb Nemshilov - Cyrillic set
@@ -25,16 +22,19 @@
 - Timothée Poisot - Greek set
 - Damien Pollet - Esperanto set
 - Michael Schierl - MES-1 set, Esperanto set
+- Chris Simpkins - all sets
 - Roman Sotnikov - Cyrillic set
 - Ivan Starkov - Cyrillic set
 - Nikos Tzanos - Greek set
+- David van Gemeren - all sets
 - Alexei Volkov - Cyrillic set
 - @achkasov - Cyrillic set
 - @Bfgeshka - Cyrillic set
 - @rafaeln - Kĩsêdjê set
 - @xstee (Leonid) - Cyrillic set
 
-### Powerline Glyph Set
+### Powerline Glyph Set Design and Proofing
+
 - Carlo Abelli
 - Justin Anderson
 - Matthias Bilger
@@ -49,31 +49,70 @@
 - Caleb Maclennan
 - Joel McCance
 - Robin McCorkell
+- Chris Simpkins
 - Mack Stump
 - Daniele Tricoli
+- David van Gemeren
+
+### Build / Post-Compilation Modifications Workflow
+
+- Chris Simpkins
+
+### Windows Development
+
+- Michael "Tex" Hex
+
+### CI Testing
+
+- Peter Oliver
+- Chris Simpkins
+
+### Scripting
+
+- Chris Clauss
+- Jorg Heymans
+- JM
+- Chris Simpkins
 
 ### Web Development
 
+- Dmitry Akulov
 - JM
+- Martin Kolarik
+- Chris Simpkins
+- David van Gemeren
 
 ### Redistribution & Installation
 
 - Guilherme Amadio - Linux
 - Helio Chissini de Castro - Linux
 - Michael "Tex" Hex - Windows
+- Paride Legovini - Linux
 - Caleb Maclennan - Linux, OS X
+- Shawn Starr - Linux
 - @rahilwazir - Linux
 - Jakub Žitný - NPM
 
-### CI Testing
-- Peter Oliver
+### Licensing
+
+- Dave Crossland
+- Fabian Greffrath
+- Francesco Poli
+- Chris Simpkins
+- Nicolas Spalinger
+- Paul Wise
+
+### Versioning
+
+- Dave Crossland
+- Michael "Tex" Hex
+- Cosimo Lupo
+- JM
+- Chris Simpkins
+- David van Gemeren
 
 
-### Scripts
-- Chris Clauss
-- Jorg Heymans
-
-### DejaVu
+### DejaVu Upstream Team
 
 - Štěpán Roh
 - Sander Vesik
@@ -95,12 +134,13 @@
 - Lars Christensen
 
 
-### Bitstream Vera
+### Bitstream Vera Upstream Author
 
 - Jim Lyles
 
 
 ### Testing
+
 - Jameel Al-Aziz
 - Serj Alimsky
 - Aric Belsito
@@ -135,11 +175,13 @@
 - Christopher Rucinski
 - Kevin S
 - Marek Šesták
+- Chris Simpkins
 - Rogier Spieker
 - Günther Stadler
 - Christopher J. Stehno
 - James Taylor
 - Manuel Uberti
+- David van Gemeren
 - Matthew Wesley
 - Gustaf Zetterlund
 - 张标 (@angrilove)

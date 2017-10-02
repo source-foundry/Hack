@@ -1,11 +1,11 @@
 
 # Hack
 
-[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-107-orange.svg?style=flat)](https://github.com/chrissimpkins/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-118-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
 
 ### A typeface designed for source code
 
-Hack is designed to be a workhorse typeface for source code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](https://github.com/source-foundry/Hack/blob/master/CHANGELOG.md).
+Hack is designed to be a workhorse typeface for source code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
 
 The project is in active development and we welcome your input and contributions.  You may view our design objectives and contributing instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -107,7 +107,6 @@ pre, code { font-family: Hack, monospace; }
 - **Latest Release**: v3.000
 
 ## Resources
-* [About Hack](docs/ABOUT.md)
 * [Full specimen](http://source-foundry.github.io/Hack/font-specimen.html)
 * [Changelog](CHANGELOG.md)
 * [Project website](http://sourcefoundry.org/hack/)
