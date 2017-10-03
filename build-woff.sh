@@ -32,7 +32,7 @@ ZOPFLI_ITERATIONS="3"
 
 # The font build directory paths and file paths for the woff builds
 TTF_BUILD="build/ttf"
-WOFF_BUILD="build/web"
+WOFF_BUILD="build/web/fonts"
 REGULAR_TTF="Hack-Regular.ttf"
 REGULAR_PRE="Hack-Regular.woff"
 REGULAR_WOFF="hack-regular.woff"

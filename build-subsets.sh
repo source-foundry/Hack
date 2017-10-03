@@ -76,7 +76,7 @@ BOLDITALIC_WOFF2_PRE="Hack-BoldItalic.woff2"
 BOLDITALIC_WOFF2="hack-bolditalic-subset.woff2"
 
 # release directory path for web fonts
-WEB_BUILD="build/web"
+WEB_BUILD="build/web/fonts"
 
 # test for number of arguments
 if [ $# -gt 0 ]

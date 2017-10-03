@@ -29,7 +29,7 @@ WOFF2_BIN="$BUILD/woff2/woff2_compress"
 
 # The font build directory paths and file paths for the woff builds
 TTF_BUILD="build/ttf"
-WOFF_BUILD="build/web"
+WOFF_BUILD="build/web/fonts"
 REGULAR_TTF="Hack-Regular.ttf"
 REGULAR_PRE="Hack-Regular.woff2"
 REGULAR_WOFF="hack-regular.woff2"
