@@ -50,6 +50,9 @@
 
 ### Design changes
 
+- added U+0114 and U+0115, all sets
+- added U+012C and U+012D, all sets
+- added U+014E and U+014F, all sets
 - Bold set: reduced dimensions of middle dot glyph (U+00B7)
 - improved design of the Powerline glyph set (addresses alignment rendering on Linux and Windows platforms)
 - added web font subset character set targets of ASCII, Latin-1, Latin Extended A, General Punctuation, and Currency sets
