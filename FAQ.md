@@ -2,12 +2,12 @@
 
 ### Contents
 
-- Installation
-- Bugs/errors
-- License
-- Contribute
-- Modifications/Derivatives
-- Tinkering
+- [Installation](#installation)
+- [Bugs/errors](#bugserrors)
+- [License](#license)
+- [Contribute](#contribute)
+- [Modifications/Derivatives](#modificationsderivatives)
+- [Tinkering](#tinkering)
 
 ## Installation
 
