@@ -49,7 +49,7 @@ Please review the [CHANGELOG.md](CHANGELOG.md) document.
 
 #### I found a problem with Hack, what do I do?
 
-Please search our issue reports and confirm that your problem has not already been reported or solved.  If it appears to be a new issue, review issue reporting information in our [CONTRIBUTING.md](CONTRIBUTING.md) document and then file a new issue report.
+Please search our issue reports and confirm that your problem has not already been reported or solved.  If it appears to be a new issue, please review the issue reporting information in our [CONTRIBUTING.md](CONTRIBUTING.md) document and then file a new issue report with the necessary information to address your problem.
 
 #### How do I find my installed Hack version number?
 
@@ -60,11 +60,11 @@ Please refer to documentation for your operating system to determine how to find
 
 #### How is Hack licensed?
 
-Hack is a derivative from upstream Bitstream Vera Sans Mono source and DejaVu Sans Mono source.  The Hack changes are licensed under the MIT license.  Bitstream Vera Sans Mono is licensed under the Bitstream Vera license and maintains reserved font names "Bitstream" and "Vera".  The DejaVu changes to the Bitstream Vera source were committed to the public domain.
+Hack is a derivative of upstream Bitstream Vera Sans Mono and DejaVu Sans Mono source.  The Hack changes are licensed under the MIT license.  Bitstream Vera Sans Mono is licensed under the Bitstream Vera license and maintains reserved font names "Bitstream" and "Vera".  The DejaVu changes to the Bitstream Vera source were committed to the public domain.
 
 You may view the full text of the license in [LICENSE.md](LICENSE.md).
 
-#### Can I modify a glyph in Hack?
+#### Can I modify one or more glyphs in Hack?
 
 Yes.
 
@@ -72,7 +72,7 @@ Yes.
 
 Yes.
 
-#### Can I subset (decrease character set support) Hack?
+#### Can I subset (decrease character set support) in Hack?
 
 Yes.
 
@@ -136,46 +136,49 @@ We attempt to broadly acknowledge contributions to the project as defined in the
 
 #### I want to modify the Hack design and release it myself.  Is this OK?
 
-Yes
+Yes.
 
 #### I want to add character sets to Hack and release it myself.  Is this OK?
 
-Yes
+Yes.
 
 #### I want to decrease character set support in Hack and release it myself.  Is this OK?
 
-Yes
+Yes.
 
 #### I want to change Hack build file types and release it myself.  Is this OK?
 
-Yes
+Yes.
 
 #### I want to change the hinting approach used in Hack and release it myself.  Is this OK?
 
-Yes
+Yes.
 
 #### Do I need to provide attribution if I release my own project derived from Hack source?
 
-No
+No.
 
 #### Do I need to modify the name of the typeface if I release a modified version?
 
-As of v3.000, the reserved font name "Hack" was removed from the license.  It is no longer necessary to change the name for modified versions of the Hack source.  It is potentially confusing to users to redistribute modified versions under the same name and we would encourage you to modify it in a way that clarifies your project goals if you intend to release the fonts to others.  See next question re: use of "Hack" in a modified name.
+As of v3.000, the reserved font name "Hack" was removed from the license.  It is no longer necessary to change the name for modified versions of the Hack source.  Redistribution of modified source under the same name can be confusing to users and we would encourage you to modify the name in a way that clarifies your project goals relative to the upstream source if you intend to release the fonts to others.  One approach is to add another term to the basename "Hack".  For instance, a derivative that supports source code ligatures might be named "Hack Ligature" and a derivative that replaces the oval filled zero with a forward slash zero might be called "Hack Slash".
 
-#### Can I use Hack in the name of my own derived typeface (e.g. Hack ButEvenCooler)?
+#### Can I use Hack in the name of my own derived typeface (e.g. Hack Better)?
 
 Yes, this is highly encouraged if you modify the source and release it with the intent for others to use it.
 
 #### Can I change the name of a derived version and not use Hack in the name?
 
-Yes
+Yes.
 
+#### If I make minor changes to the source and release this as my own project is this considered plagiarism?
+
+No.  Absolutely not.  This is well within the bounds of the license and you are welcome to do so.  There are niche needs that some users have and our goal is to support these however minor through the development of derivative projects.  We are attempting to make the build process, build tooling, and ability to pull any upstream source changes into your own downstream derivative as straightforward and simple as possible in order to support this.  Also understand that you must maintain the upstream license in downstream derivatives.
 
 ## Tinkering
 
 #### Do you offer alternate styles of Hack glyphs that I can use to customize the fonts?
 
-Yes!  The alt-hack stylistic alternate glyph library is available with `*.glif` files that contain new glyph designs for glyphs that exist in the Hack character sets.  Copy the glif file from the alt-hack library to the Hack source and overwrite the existing .glif file.  Then rebuild the fonts with the instructions in [docs/BUILD.md](docs/BUILD.md).
+Yes!  The [alt-hack stylistic alternate glyph library](https://github.com/source-foundry/alt-hack) is available with `*.glif` files that contain new glyph designs for glyphs that exist in the Hack character sets.  Copy the glif file from the alt-hack library to the Hack source and overwrite the existing .glif file.  Then rebuild the fonts with the instructions in [docs/BUILD.md](docs/BUILD.md).
 
 #### How do I change the font name?
 
