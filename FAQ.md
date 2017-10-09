@@ -17,7 +17,7 @@ You can find the current release of our desktop fonts [here](https://github.com/
 
 #### What build format are the Hack desktop fonts released in?
 
-ttf
+The Hack desktop fonts are released in TrueType format (`.ttf`).
 
 #### How do I download the current version of the Hack web fonts?
 
@@ -25,7 +25,7 @@ You can find the current release of our web fonts [here](https://github.com/sour
 
 #### What build format are the Hack web fonts released in?
 
-woff and woff2
+The Hack web fonts are released in Web Open Font Format version 1.0 (`*.woff`) and 2.0 (`*.woff2`).
 
 #### How do I install Hack?
 
@@ -33,7 +33,7 @@ Please see the Quick Installation guide on our [README.md](README.md) page.  If 
 
 #### How do I upgrade Hack?
 
-You can download the latest release of desktop and web fonts [here](https://github.com/source-foundry/Hack/releases/latest).  We recommend that Windows users upgrade with the [Windows installer](https://github.com/source-foundry/Hack-windows-installer) as it addresses problematic font caching issues that take place on the Windows platform.  Hack packages are also available through many package managers for those who would prefer to use this approach.
+You can download [the latest release of desktop and web fonts]((https://github.com/source-foundry/Hack/releases/latest)).  We recommend that Windows users upgrade with the [Windows installer](https://github.com/source-foundry/Hack-windows-installer) as it addresses problematic font caching issues that take place on the Windows platform.  Hack packages are also available through many package managers for those who would prefer to use this approach.
 
 
 #### Is there a web font CDN that I can use in my web pages?
@@ -60,7 +60,7 @@ Please refer to documentation for your operating system to determine how to find
 
 #### How is Hack licensed?
 
-Hack is a derivative of upstream Bitstream Vera Sans Mono and DejaVu Sans Mono source.  The Hack changes are licensed under the MIT license.  Bitstream Vera Sans Mono is licensed under the Bitstream Vera license and maintains reserved font names "Bitstream" and "Vera".  The DejaVu changes to the Bitstream Vera source were committed to the public domain.
+Hack is a derivative of upstream Bitstream Vera Sans Mono and DejaVu Sans Mono source.  The Hack changes are licensed under the MIT license.  Bitstream Vera Sans Mono is licensed under the Bitstream Vera license and maintains reserved font names “Bitstream” and “Vera”.  The DejaVu changes to the Bitstream Vera source were committed to the public domain.
 
 You may view the full text of the license in [LICENSE.md](LICENSE.md).
 
@@ -88,7 +88,7 @@ Yes.
 
 Yes.
 
-#### Do I need to rename a modified version of Hack?
+#### Do I need to rename a modified version of “Hack”?
 
 As of v3.000, the reserved font name "Hack" was removed from our license.  You may use the name "Hack" for modified versions of the source, though we encourage you to change the name in a way that indicates how this differs from the upstream source if you intend to release the typeface to others.  See the Modifications/Derviatives section of the FAQ below for more information.
 
@@ -178,7 +178,7 @@ No.  Absolutely not.  This is well within the bounds of the license and you are 
 
 #### Do you offer alternate styles of Hack glyphs that I can use to customize the fonts?
 
-Yes!  The [alt-hack stylistic alternate glyph library](https://github.com/source-foundry/alt-hack) is available with `*.glif` files that contain new glyph designs for glyphs that exist in the Hack character sets.  Copy the glif file from the alt-hack library to the Hack source and overwrite the existing .glif file.  Then rebuild the fonts with the instructions in [docs/BUILD.md](docs/BUILD.md).
+Yes!  The [alt-hack stylistic alternate glyph library](https://github.com/source-foundry/alt-hack) is available with `*.glif` files that contain new glyph designs for glyphs that exist in the Hack character sets.  Copy the `.glif` file from the alt-hack library to the Hack source and overwrite the existing `.glif` file.  Then rebuild the fonts with the instructions in [docs/BUILD.md](docs/BUILD.md).
 
 #### How do I change the font name?
 
