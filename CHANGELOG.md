@@ -79,6 +79,7 @@
 - added pull request guidelines to CONTRIBUTING.md documentation
 - added contributors definition to CONTRIBUTING.md documentation
 - added build documentation in docs/BUILD.md
+- added Frequently Asked Questions documentation as FAQ.md
 
 ### Fixes
 
