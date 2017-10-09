@@ -13,7 +13,7 @@
 
 #### How do I download the current version of the Hack desktop fonts?
 
-You can find the current release of our desktop fonts [here](https://github.com/source-foundry/Hack/releases/latest).  We recommend that Windows users consider the [Windows installer](https://github.com/source-foundry/Hack-windows-installer) as it addresses font caching issues for initial and repeat installs (for upgrades) that are problematic on the Windows platform.  Hack packages are also available through many package managers for those who would prefer to use this approach.
+You can find the [current release of our desktop fonts](https://github.com/source-foundry/Hack/releases/latest) in our releases list.  We recommend that Windows users consider the [Windows installer](https://github.com/source-foundry/Hack-windows-installer) as it addresses font caching issues for initial and repeat installs (for upgrades) that are problematic on the Windows platform.  Hack packages are also available through many package managers for those who would prefer to use this approach.
 
 #### What build format are the Hack desktop fonts released in?
 
@@ -21,7 +21,7 @@ The Hack desktop fonts are released in TrueType format (`.ttf`).
 
 #### How do I download the current version of the Hack web fonts?
 
-You can find the current release of our web fonts [here](https://github.com/source-foundry/Hack/releases/latest).
+Please download the [current release of our web fonts](https://github.com/source-foundry/Hack/releases/latest) from our releases list.
 
 #### What build format are the Hack web fonts released in?
 
