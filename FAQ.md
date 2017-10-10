@@ -64,27 +64,27 @@ Hack is a derivative of upstream Bitstream Vera Sans Mono and DejaVu Sans Mono s
 
 You may view the full text of the license in [LICENSE.md](LICENSE.md).
 
-#### Can I modify one or more glyphs in Hack?
+#### Am I allowed to modify glyphs in Hack?
 
 Yes.
 
-#### Can I extend the character sets in Hack?
+#### Am I allowed to extend the character sets in Hack?
 
 Yes.
 
-#### Can I subset (decrease character set support) in Hack?
+#### Am I allowed to subset (decrease character set support) Hack?
 
 Yes.
 
-#### Can I create new build file types for Hack?
+#### Am I allowed to create new build file types for Hack?
 
 Yes.
 
-#### Can I redistribute an unmodified version of Hack?
+#### Am I allowed to redistribute an unmodified version of Hack?
 
 Yes.
 
-#### Can I redistribute a modified version of Hack?
+#### Am I allowed to redistribute a modified version of Hack?
 
 Yes.
 
