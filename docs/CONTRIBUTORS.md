@@ -111,6 +111,17 @@
 - Chris Simpkins
 - David van Gemeren
 
+### Documentation
+
+- Guilherme Amadio
+- Tom Byrer
+- Michael "Tex" Hex
+- Jeremy Huang
+- Caleb Maclennan
+- Yevgeniy Shevekhman
+- Chris Simpkins
+- Marc Telesha
+- David van Gemeren
 
 ### DejaVu Upstream Team
 
