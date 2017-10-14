@@ -112,7 +112,7 @@ pre, code { font-family: Hack, monospace; }
 
 ## Resources
 * [About Hack](docs/ABOUT.md)
-* [Full specimen](http://chrissimpkins.github.io/Hack/font-specimen.html)
+* [Full specimen](http://source-foundry.github.io/Hack/font-specimen.html)
 * [Changelog](CHANGELOG.md)
 * [Project website](http://sourcefoundry.org/hack/)
 * [Contributors](docs/CONTRIBUTORS.md)
