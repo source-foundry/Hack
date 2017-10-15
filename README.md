@@ -5,23 +5,31 @@
 
 ### A typeface designed for source code
 
-Hack is designed to be a workhorse typeface for source code. It has deep roots in the libre, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
+Hack is designed to be a workhorse typeface for source code. It has deep roots in the free, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
 
 The project is in active development and we welcome your input and contributions.  You may view our design objectives and contributing instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 ### Contents
 
 * [Quick installation](#user-content-quick-installation)
 * [Package manager installation](#user-content-package-managers)
 * [Web font usage](#user-content-web-font-usage)
-* [Additional tools for customization](#additional-tools-for-hack-font-customization)
-* [Overview of features](#user-content-overview-of-features)
+* [Additional tools for font customization](#additional-tools-for-hack-font-customization)
 * [Resources](#user-content-resources)
 * [License](#user-content-license)
 
-The font binaries are released under a license that permits unlimited print, desktop, and web use for commercial and non-commercial applications. The source is released in the widely supported UFO source format (an XML formatted typeface source).  We support and highly encourage the development of derivative downstream typeface projects from the Hack source.  For additional details about licensing, please see [LICENSE.md](LICENSE.md).
 
-<a href="https://sourcefoundry.org/hack/"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+<a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+
+## Overview of features
+
+- **Typeface Name**: Hack
+- **Category**: Monospaced
+- **Character set support**: ASCII, Latin-1, Latin Extended A, Greek, Cyrillic
+- **Powerline Support**: Yes, included by default
+- **Included Styles**: Regular, Bold, Italic, Bold Italic
 
 ## Quick installation
 
@@ -49,7 +57,7 @@ edit the following fields in Options:
 
 ## Package managers
 
-We highly recommend the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the packages distributed through these package managers were designed to tune and automate font installs and updates on your system.  Please note that the Hack project team does not manage/maintain these packages.  For installation issues with  Hack packages, please contact the package maintainer directly.
+We highly recommend the convenience of a community developed package manager or other auto-updating utility if this is available on your platform. While the package manager releases may be a bit delayed relative to the repository releases, the packages distributed through these package managers were designed to tune and automate font installs and updates on your system.
 
 We are aware of Hack support in the following package managers (with associated package names):
 
@@ -63,11 +71,13 @@ We are aware of Hack support in the following package managers (with associated 
 - **Ubuntu**: `fonts-hack-ttf`
 - **Visual Studio Package Manager**: `hack.font`
 
+For installation issues with Hack packages, please contact the package maintainer directly.
+
 Details on package manager use and advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
 
 ## Web font usage
 
-Hack is available in the woff and woff2 web font formats. See [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) for more details, or use the snippets below to quickly include Hack via a CDN (thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr)). **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in the woff and woff2 web font formats. Use the snippets below to quickly include Hack via a CDN. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
 #### 1. Add Hack to HTML
 
@@ -92,19 +102,26 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 pre, code { font-family: Hack, monospace; }
 ```
 
+See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional details and instructions on web font use.
+
 ## Additional tools for Hack font customization
 
-### Line Spacing Adjustments
+### Customize your build with alternate glyph styles
 
-**font-line** is a tool that lets you easily modify the default line spacing of Hack (20% UPM). See the [font-line repository](https://github.com/source-foundry/font-line) for more details, and be sure to check out the [line-spacing directory of the repository](https://github.com/chrissimpkins/Hack/tree/master/tools/line-spacing) for shell scripts that automate the entire process across several commonly used line spacing defaults.
+The [alt-hack](https://github.com/source-foundry/alt-hack) library includes a (growing) collection of alternate glyph styles that can be used to customize your Hack fonts.  Don't like the default zero style?  Swap out the UFO design source with a slashed zero or dotted zero and build new fonts that work better for you.
 
-## Overview of features
+Contributions of new glyph styles are welcomed in the alt-hack repository.  Design something new that works well with rest of the typeface and submit a pull request to the alt-hack repository so that others can use it in their own custom builds.
 
-- **Typeface Name**: Hack
-- **Category**: Monospaced
-- **Powerline Support**: Yes
-- **Included Styles**: Regular, Bold, Italic, Bold Italic
-- **Latest Release**: v3.000
+Detailed build instructions are available on the [alt-hack repository README.md](https://github.com/source-foundry/alt-hack).
+
+### Line spacing adjustments
+
+[font-line](https://github.com/source-foundry/font-line) is a tool that lets you easily modify the default line spacing that is used in the Hack design (20% UPM).
+
+The following gist installs font-line and modifies line spacing for all ttf and otf fonts in the working directory where the script is located for the percent UPM value that you define at the top of the script:
+
+- [linespace.sh](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174) ([raw](https://gist.githubusercontent.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174/raw/1ddcf03daa6ff285f4a3e0a13aac2360cc0711dc/linespace.sh))
+
 
 ## Resources
 * [Full specimen](http://source-foundry.github.io/Hack/font-specimen.html)
@@ -113,11 +130,36 @@ pre, code { font-family: Hack, monospace; }
 * [Contributors](docs/CONTRIBUTORS.md)
 
 
+## Contributing
+
+Contributions to the Hack project are welcomed.  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for details.
+
+
+## Built With
+
+- [Font Bakery](https://github.com/googlefonts/fontbakery) - post-compilation modifications
+- [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
+- [font-v](https://github.com/source-foundry/font-v) - font versioning, git commit sha1 short string labeling of font versions
+- [sfnt2woff_zopfli](https://github.com/bramstein/sfnt2woff-zopfli) - ttf to woff web font compilation
+- [ttfautohint](https://www.freetype.org/ttfautohint/) - ttf instruction sets
+- [ufodiff](https://github.com/source-foundry/ufodiff) - UFO source diffs
+- [ufoLib](https://github.com/unified-font-object/ufoLib) - UFO source file reads/writes/testing
+- [ufolint](https://github.com/source-foundry/ufolint) - UFO source file linting for CI testing
+- [woff2](https://github.com/google/woff2) - ttf to woff2 web font compilation
+
+
+## Acknowledgments
+
+We would like to acknowledge the fanatastic CDN service and support provided by [jsDelivr](https://www.jsdelivr.com/) for the Hack web fonts.
+
+
 ## License
 
 **Hack** work is &copy; 2017 Source Foundry Authors. MIT License
 
 **Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_). Bitstream Vera License.
+
+The font binaries are released under a license that permits unlimited print, desktop, web, and software embedding use for commercial and non-commercial applications.
 
 See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) for the full texts of the licenses.
 
