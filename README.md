@@ -108,7 +108,7 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 pre, code { font-family: Hack, monospace; }
 ```
 
-See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional details and instructions on web font use.
+See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional details, including instructions on how to download, host, and serve the web fonts on your own web server.
 
 ## Additional tools for Hack font customization
 
