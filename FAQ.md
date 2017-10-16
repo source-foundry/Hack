@@ -107,6 +107,10 @@ Yes.
 
 Yes.  Design contributions are welcomed and encouraged. Please review and familiarize yourself with the design guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) documentation before you begin work intended as a contribution to the upstream project.  If you question whether the work is acceptable in the upstream, we ask that you file a new issue report to discuss it before you begin.  Having said that, there is no wasted work and if your changes are not appropriate for the upstream source, a new downstream fork with changes that are important to you (and that you maintain) is very much encouraged.
 
+#### How are my design contributions to Hack licensed?
+
+Changes to the Hack source are licensed under the MIT license.  Please confirm that this is acceptable to you before you submit contributions for design changes.  We do not accept design contributions under a different license.
+
 #### I am not a professional typeface designer, can I contribute design changes to Hack?
 
 Absolutely.  To our knowledge, no contributor who has committed design changes to Hack has a background in professional typeface design or formal typeface design training.  We developed an itch that needed to be scratched, combed websites and books for information, viewed lots (and lots and lots more) of typefaces, installed font editors and learned how to use them, and then went to work.  We continue to learn ourselves.  You are simply at a bit earlier stage of the same journey.  Dive in, learn, and let's see what you can come up with.
