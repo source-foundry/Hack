@@ -158,7 +158,7 @@ Hack is built with the following free, open source tools:
 
 ## Acknowledgments
 
-We would like to acknowledge the fanatastic CDN service and support provided by [jsDelivr](https://www.jsdelivr.com/) for the Hack web fonts.
+We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) team for their excellent web font CDN service and outstanding Hack project support.
 
 
 ## License
