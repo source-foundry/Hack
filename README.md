@@ -120,7 +120,7 @@ Detailed build instructions are available on the [alt-hack repository README.md]
 
 The following gist installs font-line and modifies line spacing for all ttf and otf fonts in the working directory where the script is located for the percent UPM value that you define at the top of the script:
 
-- [linespace.sh](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174) ([raw](https://gist.githubusercontent.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174/raw/1ddcf03daa6ff285f4a3e0a13aac2360cc0711dc/linespace.sh))
+- [linespace.sh](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174) ([download .zip](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174/archive/f3f93dea87d64ddc4684a61cbc96ddf79d30824a.zip))
 
 
 ## Resources
