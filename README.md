@@ -13,12 +13,16 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 ### Contents
 
-* [Quick installation](#user-content-quick-installation)
-* [Package manager installation](#user-content-package-managers)
-* [Web font usage](#user-content-web-font-usage)
+* [Features](#overview-of-features)
+* [Quick installation](#quick-installation)
+* [Package manager installation](#package-managers)
+* [Web font usage](#web-font-usage)
 * [Additional tools for font customization](#additional-tools-for-hack-font-customization)
-* [Resources](#user-content-resources)
-* [License](#user-content-license)
+* [Resources](#resources)
+* [Contributing](#contributing)
+* [Build tools](#built-with)
+* [Acknowledgments](#acknowledgments)
+* [License](#license)
 
 
 <a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
