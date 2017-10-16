@@ -143,6 +143,8 @@ Contributions to the Hack project are welcomed.  Please review our [CONTRIBUTING
 
 ## Built With
 
+Hack is built with the following free, open source tools:
+
 - [Font Bakery](https://github.com/googlefonts/fontbakery) - post-compilation modifications
 - [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
 - [font-v](https://github.com/source-foundry/font-v) - font versioning, git commit sha1 short string labeling of font versions
