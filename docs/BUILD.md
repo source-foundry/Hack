@@ -80,12 +80,22 @@ Desktop fonts are available on the path `build/ttf` from the root of the reposit
 
 ### Web fonts (woff + woff2)
 
-Web fonts are available on the path `build/web` from the root of the repository upon completion of your build.
+Web fonts are available on the path `build/web/fonts` from the root of the repository upon completion of your build.
 
 
 ## Uninstall
 
-All build dependencies installed with the automated approaches can be uninstalled with the following command:
+All build dependencies installed with the automated approaches can be uninstalled with the following commands:
+
+```
+$ pip uninstall fontmake
+$ pip uninstall fonttools
+$ rm -rf ~/ttfautohint-build
+$ rm -rf ~/sfnt2woff-zopfli-build
+$ rm -rf ~/woff2
+```
+
+Here are all of the above commands in a single line that can be copied/pasted into your terminal to accomplish the entire uninstall process:
 
 ```
 $ pip uninstall fontmake && pip uninstall fonttools && rm -rf ~/ttfautohint-build && rm -rf ~/sfnt2woff-zopfli-build && rm -rf ~/woff2
