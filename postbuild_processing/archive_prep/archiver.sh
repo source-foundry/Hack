@@ -12,8 +12,8 @@
 # ////////////////////////////////////////////////////////////////////
 
 HACK_VERSION="v3.000"
-HACK_ARCHIVES_DIR="../../Hack-archives"
-HACK_BUILD_DIR="build"
+HACK_ARCHIVES_DIR="../../../Hack-archives"
+HACK_BUILD_DIR="../../build"
 
 
 # Make build directory the current working directory
