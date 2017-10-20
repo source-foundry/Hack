@@ -1,0 +1,34 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+/* FONT PATHS
+ * -------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular-subset.woff2?sha=e700a30') format('woff2'), url('fonts/hack-regular-subset.woff?sha=e700a30') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold-subset.woff2?sha=e700a30') format('woff2'), url('fonts/hack-bold-subset.woff?sha=e700a30') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic-subset.woff2?sha=e700a30') format('woff2'), url('fonts/hack-italic-webfont.woff?sha=e700a30') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic-subset.woff2?sha=e700a30') format('woff2'), url('fonts/hack-bolditalic-subset.woff?sha=e700a30') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+

@@ -7,7 +7,7 @@ languagesystem latn ROM ;
 # Prefix: Prefix
 @aalt1 = [\zero \one \two \three \four \five \six \seven \eight \nine];
 @subs1 = [\zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs];
-@sups1 = [\uni00B9 \uni00B2 \uni00B3 \uni2070 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
+@sups1 = [\uni2070 \uni00B9 \uni00B2 \uni00B3 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079];
 # @case1 = [\exclamdown \questiondown \uni2E18 \uni0304 \uni0306 \uni0307 \uni030B \uni030F \uni0311];
 # @case2 = [\exclamdown.case \questiondown.case \uni2E18.case \uni0304.case \uni0306.case \uni0307.case \uni030B.case \uni030F.case \uni0311.case];
 

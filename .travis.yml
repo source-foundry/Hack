@@ -1,15 +1,52 @@
-sudo: false
-language: python
+sudo: true
+language: generic
+group: deprecated-2017Q3
 
-env:
-  - VARIANT=source/Hack-Regular.ufo
-  - VARIANT=source/Hack-Bold.ufo
-  - VARIANT=source/Hack-Italic.ufo
-  - VARIANT=source/Hack-BoldItalic.ufo
-
-before_script: pip install ufolint
-
-script: "ufolint $VARIANT"
+matrix:
+  include:
+    - os: linux
+      sudo: required
+      env:
+        - TARGET="lint"
+      before_script:
+        - pip install ufolint
+        - sudo apt-get -qq update
+        - sudo apt-get install -y shellcheck
+      script:
+        - make -j $TARGET
+    - os: linux
+      sudo: required
+      env:
+        - TARGET="build-with-dependencies"
+      before_script:
+        - pip install ufolint
+        - sudo apt-get -qq update
+        - sudo apt-get install -y shellcheck
+      script:
+        - make -j $TARGET
+    - os: osx
+      env:
+        - TARGET="lint"
+      before_install:
+        - brew update
+        - brew install python3
+        - virtualenv env -p python3
+        - source env/bin/activate
+      before_script:
+        - pip install ufolint
+        - brew install shellcheck
+      script:
+        - make -j $TARGET
+    - os: osx
+      env:
+        - TARGET="build-with-dependencies"
+      before_install:
+        - brew update
+        - brew install python3
+        - virtualenv env -p python3
+        - source env/bin/activate
+      script:
+        - make -j $TARGET
 
 notifications:
   email: false

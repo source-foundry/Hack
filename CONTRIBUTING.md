@@ -13,7 +13,7 @@ Hack is a general purpose typeface for source code. The _needs of the many_ desc
 ### Core
 
 - **ASCII glyph set**; generally speaking, all source code is limited to the ASCII set. Content/comments/documentation, on the other hand, often includes non-ASCII characters. The former gets precedence over the latter.
-- We focus on an accepted **single glyph style** for each glyph in the typeface sets.  Glyph shape changes that are intended to address our design goals take precedence over changes that are purely subjective in nature.
+- We focus on an accepted **single glyph style** for each glyph in the typeface sets.  Glyph shape changes that are intended to address our design goals take precedence over changes that are purely subjective in nature.  We offer the [alt-hack](https://github.com/source-foundry/alt-hack) repository for alternate Hack glyph styles and contributions of alternate styles are welcomed there.
 - Font-sizes between **8-14 px**, line-height >= 1
 - **Cross-platform**, cross font renderer support on Linux, OS X, and Windows operating systems.  Changes that address cross platform issues take precedence over issues that address platform specific issues.  Changes that improve the typeface on some platforms but decrease its usability on others are generally not acceptable and belong in a fork that is intended for the platforms targeted for these changes.
 - Usage in **common source code display scenarios** (on digital displays): text editors, terminals, embedded as web fonts, etc.
@@ -62,17 +62,19 @@ For pull requests that modify the design of the typeface, we request that you li
 
 ### Glyph modifications
 
-- Only include the modified `glyphs/*.glif` source files for the modified glyphs in commits
+Modifications include all existing glyph design changes, glyph additions, and glyph deletions.
 - Modification of other source files is not acceptable
 
-### Glyph additions and deletions
+- Only include the modified `glyphs/*.glif` source files for the modified glyphs in your pull request commits
+- Modification of other source files is not acceptable and pull requests will not be accepted until the above condition is met
 
 - Include the added and/or deleted `glyphs/*.glif` source file(s) in commits
-- Include the `glyphs/contents.plist` source file in commits
+You can achieve this design modification workflow with one of the following approaches:
 - Modification of other source files is not acceptable
 
-
-### Other Issues
+- maintain a separate local directory for your design modifications and copy the `glyphs/*.glif` files that are changed to your local clone of the Hack source, then push to your remote repository fork for your pull request
+- modify the Hack source in your local clone of the Hack repository and do not commit file changes other than those that are accepted in pull requests (i.e. only include `*.ufo/glyphs/*.glif` files in your commits)
+- modify the Hack source in your local clone of the Hack repository, commit all files, replace all `*plist` files with the upstream versions then perform a git squash commit to eliminate the `*.plist` file changes in the git history (this approach can be used for those who didn't read the instructions and have already commited unacceptable file changes)
 
 - commits that add or delete UFO source files outside of the above recommendations will not be accepted
 
@@ -91,4 +93,4 @@ We love help with our docs!  This includes anything from simple misspelling or g
 
 # Contributors
 
-Contributions to the project come in many forms and we **want** to broadly acknowledge those who spend time and effort to improve the project.  We understand that many contributions to open source projects are not in the form of changes to the code base and therefore not automatically recognized in the Github repository UI.  We maintain a [CONTRIBUTORS.md](docs/CONTRIBUTORS.md) list to acknowledge project contributors for this reason.  If you feel that you have helped to improve Hack and your contributions have been overlooked (i.e. you are not included on the contributors list), please let us know so that we can rectify this issue!  In all likelihood this is an oversight and not intended to be a slight.
+Contributions to the project come in many forms and we **want** to broadly acknowledge those who spend time and effort to improve the project.  We understand that many contributions to open source projects are not in the form of changes to the code base and therefore not automatically recognized in the Github repository UI.  Use case specialists play an extremely important role in the improvement of this typeface.  Individuals who have knowledge of the intricacies of open source typeface licensing, understand open source project redistribution processes, have the capacity to view errors and test in unique platform x font renderer situations, and many other areas that extend beyond the "source code commit" criterion have contributed their expertise to improve Hack. Understanding this issue, we maintain a [CONTRIBUTORS.md](docs/CONTRIBUTORS.md) list to acknowledge project contributors for their time and efforts under our own defintion of a project contribution.  If you feel that you have helped to improve Hack and your contributions have been overlooked (i.e. you are not included on the contributors list), please let us know so that we can rectify this issue!  In all likelihood this is an oversight and not intended to be a slight.
