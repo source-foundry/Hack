@@ -189,5 +189,5 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 
 <!-- Link to the latest release archive for README.md file -->
 
-[ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
+[ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.000/Hack-v3.000-ttf.zip
 
