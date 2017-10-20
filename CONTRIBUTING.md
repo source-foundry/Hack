@@ -63,20 +63,15 @@ For pull requests that modify the design of the typeface, we request that you li
 ### Glyph modifications
 
 Modifications include all existing glyph design changes, glyph additions, and glyph deletions.
-- Modification of other source files is not acceptable
 
 - Only include the modified `glyphs/*.glif` source files for the modified glyphs in your pull request commits
 - Modification of other source files is not acceptable and pull requests will not be accepted until the above condition is met
 
-- Include the added and/or deleted `glyphs/*.glif` source file(s) in commits
 You can achieve this design modification workflow with one of the following approaches:
-- Modification of other source files is not acceptable
 
 - maintain a separate local directory for your design modifications and copy the `glyphs/*.glif` files that are changed to your local clone of the Hack source, then push to your remote repository fork for your pull request
 - modify the Hack source in your local clone of the Hack repository and do not commit file changes other than those that are accepted in pull requests (i.e. only include `*.ufo/glyphs/*.glif` files in your commits)
 - modify the Hack source in your local clone of the Hack repository, commit all files, replace all `*plist` files with the upstream versions then perform a git squash commit to eliminate the `*.plist` file changes in the git history (this approach can be used for those who didn't read the instructions and have already commited unacceptable file changes)
-
-- commits that add or delete UFO source files outside of the above recommendations will not be accepted
 
 
 ## Pull requests for script changes
