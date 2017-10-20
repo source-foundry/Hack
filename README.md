@@ -55,7 +55,7 @@ $ mkfontscale <install_path>
 $ mkfontdir <install_path>
 ```
 
-#### Mac OS X
+### Mac OS X
 
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`) and click to open them.
@@ -63,7 +63,7 @@ $ mkfontdir <install_path>
 4. Enjoy!
 
 
-#### Windows
+### Windows
 
 To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
 
