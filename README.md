@@ -74,7 +74,7 @@ To use with [Secure Shell](https://chrome.google.com/webstore/detail/secure-shel
 edit the following fields in Options:
 
   - font-family: `"Hack"`
-  - user-css: `https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css`
+  - user-css: `https://cdn.jsdelivr.net/npm/hack-font/build/web/hack.css`
 
 ## Package managers
 
@@ -106,13 +106,13 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 **Subset web fonts**
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack-subset.css">
 ```
 
 **Full character set web fonts**
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css">
 ```
 
 #### 2. Add Hack to CSS
