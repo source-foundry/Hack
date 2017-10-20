@@ -68,7 +68,7 @@ $ mkfontdir <install_path>
 To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
 
 
-#### Chrome/ChromeOS
+### Chrome/ChromeOS
 
 To use with [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo),
 edit the following fields in Options:
