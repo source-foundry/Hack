@@ -42,16 +42,31 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 **NOTE ON FONT UPDATES**
 *If you are updating your version of Hack, be sure to remove the previously installed version and clear your font cache first to avoid conflicts that can lead to platform-specific rendering errors.  Many platforms/distros offer package managers that automate this process. We release a Windows installer to automate the install/update process on the Windows platform. See below for additional details.*
 
-#### Mac OS X and Linux
+### Linux
+
+1. Download the [latest version of Hack](ttf_latest)
+2. Extract the files from the archive (`.zip`)
+3. Copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`)
+4. Clear and regenerate your font cache and indexes with the following set of commands:
+
+```
+$ fc-cache
+$ mkfontscale <install_path>
+$ mkfontdir <install_path>
+```
+
+#### Mac OS X
 
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`) and click to open them.
 3. Follow the instructions from your operating system.
 4. Enjoy!
 
+
 #### Windows
 
 To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
+
 
 #### Chrome/ChromeOS
 
@@ -79,7 +94,6 @@ We are aware of Hack support in the following package managers (with associated 
 
 For installation issues with Hack packages, please contact the package maintainer directly.
 
-Details on package manager use and advanced manual desktop installation options can be found in [INSTALLATION.md](docs/INSTALLATION.md).
 
 ## Web font usage
 
@@ -173,7 +187,7 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 
 
 
-<!-- THE FOLLOWING LINKS ARE ALSO USED IN INSTALLATION.MD -->
+<!-- Link to the latest release archive for README.md file -->
 
 [ttf_latest]: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
 
