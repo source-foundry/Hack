@@ -2,11 +2,7 @@
 
 Hack web fonts are released in woff and woff2 formats.  They include a complete Hack character set build and a subset build that includes ASCII, Latin-1, Latin Extended A, General Punctuation, and Currency Unicode character set support.  The latter build set is smaller in size and is intended to improve page loading times when you do not need the entire Hack character set.
 
-<<<<<<< HEAD
-You can view the rendering of the web fonts at a range of sizes on the [Hack type specimen](http://source-foundry.github.io/Hack/font-specimen.html).
-=======
 You can view the rendering of the web fonts at a range of sizes on the [Hack web font type specimen](http://source-foundry.github.io/Hack/font-specimen.html).
->>>>>>> dev
 
 #### Hack by CDN
 
