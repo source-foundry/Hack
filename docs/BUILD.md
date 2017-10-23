@@ -6,8 +6,8 @@ Hack is compiled from UFO v2 spec source files to ttf, woff, and woff2 fonts wit
 
 To build the Hack desktop fonts (ttf) from source you will need the following build dependencies:
 
-- [fontmake](https://github.com/fonttools/fonttools) Python executable
-- [fonttools](https://github.com/googlei18n/fontmake) Python library
+- [fontmake](https://github.com/googlei18n/fontmake) Python executable
+- [fonttools](https://github.com/fonttools/fonttools) Python library
 - [ttfautohint](https://www.freetype.org/ttfautohint/) executable (includes Harfbuzz and FreeType dependencies)
 
 ### Web font (woff + woff2) build dependencies
