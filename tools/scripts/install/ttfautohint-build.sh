@@ -19,16 +19,13 @@
 BUILD="$HOME/ttfautohint-build"
 
 # The library versions.
-FREETYPE_VERSION="2.8"
-HARFBUZZ_VERSION="1.5.0"
+FREETYPE_VERSION="2.8.1"
+HARFBUZZ_VERSION="1.5.1"
 TTFAUTOHINT_VERSION="1.7"
 
 # Necessary patches (lists of at most 10 URLs each separated by whitespace,
 # to be applied in order).
-FREETYPE_PATCHES="\
-  http://git.savannah.gnu.org/cgit/freetype/freetype2.git/patch/?id=c9a9cf59 \
-  http://git.savannah.gnu.org/cgit/freetype/freetype2.git/patch/?id=c8829e4b \
-"
+FREETYPE_PATCHES=""
 HARFBUZZ_PATCHES=""
 TTFAUTOHINT_PATCHES=""
 
