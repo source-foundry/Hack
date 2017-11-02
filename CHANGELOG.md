@@ -1,5 +1,8 @@
 # Version 3.001
 
+- U+0031, increased angle of top stroke vs. horizontal, all sets (legibility vs. U+006C)
+- U+0031, increased length of the top stroke, all sets (legibility vs. U+006C)
+- U+0031, decreased width of the top stroke, bold and bold italic sets (legibility vs. U+006C)
 - updated Harbuzz build dependency to v1.5.1
 - updated FreeType build dependency to v2.8.1
 - removed FreeType build patches in ttfautohint-build.sh script (not necessary after above upgrade)
