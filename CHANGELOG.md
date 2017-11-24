@@ -7,7 +7,9 @@
 - updated Harbuzz build dependency to v1.5.1
 - updated FreeType build dependency to v2.8.1
 - removed FreeType build patches in ttfautohint-build.sh script (not necessary after above upgrade)
+- modified ttfautohint-build.sh license to MIT License
 - added CSS file templates for automated git sha1 short code writes for releases
+
 
 # Version 3.000
 
