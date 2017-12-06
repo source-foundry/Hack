@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotenleader" format="1">
+  <advance width="1233"/>
+  <unicode hex="2025"/>
+  <outline>
+    <contour>
+      <point x="263" y="0" type="line" name="hr00" smooth="yes"/>
+      <point x="243" y="0"/>
+      <point x="233" y="10"/>
+      <point x="233" y="30" type="curve" name="sh01" smooth="yes"/>
+      <point x="233" y="337" type="line" smooth="yes"/>
+      <point x="233" y="357"/>
+      <point x="243" y="367"/>
+      <point x="263" y="367" type="curve" name="sv01" smooth="yes"/>
+      <point x="498" y="367" type="line" name="sv02" smooth="yes"/>
+      <point x="518" y="367"/>
+      <point x="528" y="357"/>
+      <point x="528" y="337" type="curve" smooth="yes"/>
+      <point x="528" y="30" type="line" name="sh02" smooth="yes"/>
+      <point x="528" y="10"/>
+      <point x="518" y="0"/>
+      <point x="498" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="735" y="0" type="line" name="ab01" smooth="yes"/>
+      <point x="715" y="0"/>
+      <point x="705" y="10"/>
+      <point x="705" y="30" type="curve" name="sh03" smooth="yes"/>
+      <point x="705" y="337" type="line" smooth="yes"/>
+      <point x="705" y="357"/>
+      <point x="715" y="367"/>
+      <point x="735" y="367" type="curve" name="sv03" smooth="yes"/>
+      <point x="970" y="367" type="line" name="sv04" smooth="yes"/>
+      <point x="990" y="367"/>
+      <point x="1000" y="357"/>
+      <point x="1000" y="337" type="curve" smooth="yes"/>
+      <point x="1000" y="30" type="line" name="sh04" smooth="yes"/>
+      <point x="1000" y="10"/>
+      <point x="990" y="0"/>
+      <point x="970" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-12-06 01:16:31 +0000</string>
+    </dict>
+  </lib>
+</glyph>

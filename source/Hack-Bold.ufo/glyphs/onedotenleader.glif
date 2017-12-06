@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onedotenleader" format="1">
+  <advance width="1233"/>
+  <unicode hex="2024"/>
+  <outline>
+    <contour>
+      <point x="499" y="0" type="line" name="ab01" smooth="yes"/>
+      <point x="479" y="0"/>
+      <point x="469" y="10"/>
+      <point x="469" y="30" type="curve" name="sh03" smooth="yes"/>
+      <point x="469" y="337" type="line" smooth="yes"/>
+      <point x="469" y="357"/>
+      <point x="479" y="367"/>
+      <point x="499" y="367" type="curve" name="sv03" smooth="yes"/>
+      <point x="734" y="367" type="line" name="sv04" smooth="yes"/>
+      <point x="754" y="367"/>
+      <point x="764" y="357"/>
+      <point x="764" y="337" type="curve" smooth="yes"/>
+      <point x="764" y="30" type="line" name="sh04" smooth="yes"/>
+      <point x="764" y="10"/>
+      <point x="754" y="0"/>
+      <point x="734" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-12-06 01:16:02 +0000</string>
+    </dict>
+  </lib>
+</glyph>
