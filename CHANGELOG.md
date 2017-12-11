@@ -1,6 +1,8 @@
 # Version 3.001
 
 - U+017F, added long s glyph to all four variant sets, completes Latin Extended A character sets
+- U+2024, added onedotenleader glyph to all four variant sets (general punctuation set)
+- U+2025, added twodotenleader glyph to all four variant sets (general punctuation set)
 - U+2032, added minute glyph to all four variant sets (general punctuation set)
 - U+2033, added second glyph to all four variant sets (general punctuation set)
 - U+2034, modified glyph name to "millisecond" in all four variant sets (general punctuation set)
