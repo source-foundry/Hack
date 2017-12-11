@@ -7,6 +7,9 @@
 - U+2032, added minute glyph to all four variant sets (general punctuation set)
 - U+2033, added second glyph to all four variant sets (general punctuation set)
 - U+2034, modified glyph name to "millisecond" in all four variant sets (general punctuation set)
+- U+2012, modified figure dash to width of numeral glyphs in all four variant sets
+- U+2013, modified en dash to half width of em in all four variant sets
+- U+2014, modified em dash, slight adjustment to height in all four variant sets, horizontal position in italic and bold italic sets
 - U+0031, increased angle of top stroke vs. horizontal, all sets (legibility vs. U+006C)
 - U+0031, increased length of the top stroke, all sets (legibility vs. U+006C)
 - U+0031, decreased width of the top stroke, bold and bold italic sets (legibility vs. U+006C)
