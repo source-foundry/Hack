@@ -1,9 +1,12 @@
 # Version 3.001
 
+- U+017F, added long s glyph to all four variant sets, completes Latin Extended A character sets
+- U+2032, added minute glyph to all four variant sets (general punctuation set)
+- U+2033, added second glyph to all four variant sets (general punctuation set)
+- U+2034, modified glyph name to "millisecond" in all four variant sets (general punctuation set)
 - U+0031, increased angle of top stroke vs. horizontal, all sets (legibility vs. U+006C)
 - U+0031, increased length of the top stroke, all sets (legibility vs. U+006C)
 - U+0031, decreased width of the top stroke, bold and bold italic sets (legibility vs. U+006C)
-- U+017F, added long s glyph to all four variant sets, completes Latin Extended A character sets
 - updated Harbuzz build dependency to v1.5.1
 - updated FreeType build dependency to v2.8.1
 - removed FreeType build patches in ttfautohint-build.sh script (not necessary after above upgrade)
