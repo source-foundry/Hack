@@ -18,6 +18,8 @@
 - removed FreeType build patches in ttfautohint-build.sh script (not necessary after above upgrade)
 - modified ttfautohint-build.sh license to MIT License
 - added CSS file templates for automated git sha1 short code writes for releases
+- added new CSS file template build shell script
+- added new make target for CSS template file builds (make css)
 
 
 # Version 3.000
