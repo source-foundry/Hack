@@ -11,9 +11,12 @@ build-with-dependencies: source/*.ufo
 	./build-woff2.sh --install-dependencies
 	./build-subsets.sh
 
+css:
+	tools/scripts/css/css-build.sh
+
 lint: shellcheck ufolint
 
-shellcheck: build-ttf.sh build-woff.sh build-woff2.sh build-subsets.sh tools/scripts/install/ttfautohint-build.sh postbuild_processing/archive_prep/archiver.sh
+shellcheck: build-ttf.sh build-woff.sh build-woff2.sh build-subsets.sh tools/scripts/install/ttfautohint-build.sh postbuild_processing/archive_prep/archiver.sh tools/scripts/css/css-build.sh
 	$@ $^
 
 subsets: source/*.ufo
