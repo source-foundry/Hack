@@ -17,4 +17,4 @@
 #      $ make css
 
 
-ink --replace="$(git log --pretty=format:'%h' --abbrev-commit -1)" build/web/hack.css.in build/web/hack-subset.css.in
+git log --pretty=format:'%h' --abbrev-commit -1 | ink build/web/hack.css.in build/web/hack-subset.css.in
