@@ -6,28 +6,28 @@
  * -------------------------- */
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-regular.woff2?sha={{.Ink}}') format('woff2'), url('fonts/hack-regular.woff?sha={{.Ink}}') format('woff');
+  src: url('fonts/hack-regular.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-regular.woff?sha={{ ink }}') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-bold.woff2?sha={{.Ink}}') format('woff2'), url('fonts/hack-bold.woff?sha={{.Ink}}') format('woff');
+  src: url('fonts/hack-bold.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-bold.woff?sha={{ ink }}') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-italic.woff2?sha={{.Ink}}') format('woff2'), url('fonts/hack-italic.woff?sha={{.Ink}}') format('woff');
+  src: url('fonts/hack-italic.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-italic.woff?sha={{ ink }}') format('woff');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-bolditalic.woff2?sha={{.Ink}}') format('woff2'), url('fonts/hack-bolditalic.woff?sha={{.Ink}}') format('woff');
+  src: url('fonts/hack-bolditalic.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-bolditalic.woff?sha={{ ink }}') format('woff');
   font-weight: 700;
   font-style: italic;
 }
