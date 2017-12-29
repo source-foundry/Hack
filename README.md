@@ -159,11 +159,13 @@ Contributions to the Hack project are welcomed.  Please review our [CONTRIBUTING
 
 ## Built With
 
-Hack is built with the following free, open source tools:
+Hack is built with the following free, open source projects:
 
 - [Font Bakery](https://github.com/googlefonts/fontbakery) - post-compilation modifications
 - [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
-- [font-v](https://github.com/source-foundry/font-v) - font versioning, git commit sha1 short string labeling of font versions
+- [font-v](https://github.com/source-foundry/font-v) - semantic font version string editor
+- [ink](https://github.com/chrissimpkins/ink) - stream editor for CSS file templating
+- [OpenFV](https://github.com/openfv/openfv) - open specification for semantic typeface versioning
 - [sfnt2woff_zopfli](https://github.com/bramstein/sfnt2woff-zopfli) - ttf to woff web font compilation
 - [ttfautohint](https://www.freetype.org/ttfautohint/) - ttf instruction sets
 - [ufodiff](https://github.com/source-foundry/ufodiff) - UFO source diffs
