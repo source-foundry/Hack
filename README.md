@@ -2,6 +2,7 @@
 # Hack
 
 [![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-121-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![CDNJS](https://img.shields.io/cdnjs/v/hack-font.svg)](https://cdnjs.com/libraries/hack-font)
 
 Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-words/hack-typeface-v3-6943991c1a80).
 
