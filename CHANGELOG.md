@@ -13,11 +13,12 @@
 - U+0031, increased angle of top stroke vs. horizontal, all sets (legibility vs. U+006C)
 - U+0031, increased length of the top stroke, all sets (legibility vs. U+006C)
 - U+0031, decreased width of the top stroke, bold and bold italic sets (legibility vs. U+006C)
+- removed name table, ID=5 record ttfautohint metadata (previously included in this version string)
 - updated Harbuzz build dependency to v1.7.4
 - updated FreeType build dependency to v2.8.1
 - removed FreeType build patches in ttfautohint-build.sh script (not necessary after above upgrade)
 - modified ttfautohint-build.sh license to MIT License
-- added CSS file templates for automated git sha1 short code writes for releases
+- added ink CSS file templates for automated git sha1 short code writes for releases
 - added new CSS file template build shell script
 - added new make target for CSS template file builds (make css)
 
