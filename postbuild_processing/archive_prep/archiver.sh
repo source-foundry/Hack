@@ -4,7 +4,7 @@
 #
 # archiver.sh
 #  A shell script that packages .zip, tar.gz, and tar.xz font archives
-#  Copyright 2017 Christopher Simpkins
+#  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
 #  Usage: ./archiver.sh
