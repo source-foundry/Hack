@@ -4,7 +4,7 @@
 #
 # build-woff2.sh
 #  A shell script that builds the Hack woff2 web fonts from ttf files
-#  Copyright 2017 Christopher Simpkins
+#  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
 #  Usage: ./build-woff2.sh (--install-dependencies)

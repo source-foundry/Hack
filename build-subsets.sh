@@ -4,7 +4,7 @@
 #
 # build-subsets.sh
 #  A shell script that builds the Hack web font subsets from UFO source
-#  Copyright 2017 Christopher Simpkins
+#  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
 #  Usage: ./build-subsets.sh
