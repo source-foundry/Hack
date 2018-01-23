@@ -199,6 +199,7 @@
 - Gustaf Zetterlund
 - 张标 (@angrilove)
 - @duud
+- @haktrik
 - @hrj
 - @iamklutch
 - @legovini
