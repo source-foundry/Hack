@@ -24,29 +24,29 @@ matrix:
         - sudo apt-get install -y shellcheck
       script:
         - make -j $TARGET
-    - os: osx
-      env:
-        - TARGET="lint"
-      before_install:
-        - brew update
-        - brew install python3
-        - virtualenv env -p python3
-        - source env/bin/activate
-      before_script:
-        - pip install ufolint
-        - brew install shellcheck
-      script:
-        - make -j $TARGET
-    - os: osx
-      env:
-        - TARGET="build-with-dependencies"
-      before_install:
-        - brew update
-        - brew install python3
-        - virtualenv env -p python3
-        - source env/bin/activate
-      script:
-        - make -j $TARGET
+    # - os: osx
+    #   env:
+    #     - TARGET="lint"
+    #   before_install:
+    #     - brew update
+    #     - brew install python3
+    #     - virtualenv env -p python3
+    #     - source env/bin/activate
+    #   before_script:
+    #     - pip install ufolint
+    #     - brew install shellcheck
+    #   script:
+    #     - make -j $TARGET
+    # - os: osx
+    #   env:
+    #     - TARGET="build-with-dependencies"
+    #   before_install:
+    #     - brew update
+    #     - brew install python3
+    #     - virtualenv env -p python3
+    #     - source env/bin/activate
+    #   script:
+    #     - make -j $TARGET
 
 notifications:
   email: false
