@@ -57,7 +57,7 @@ $ mkfontscale <install_path>
 $ mkfontdir <install_path>
 ```
 
-### Mac OS X
+### macOS
 
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`) and click to open them.
