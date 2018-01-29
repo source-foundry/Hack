@@ -48,14 +48,20 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`).
-3. Copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/`).
+3. Copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/` or `/usr/local/share/fonts`).
 4. Clear and regenerate your font cache and indexes with the following set of commands:
 
 ```
-$ fc-cache
-$ mkfontscale <install_path>
-$ mkfontdir <install_path>
+$ fc-cache -f -v
 ```
+
+You can confirm that the fonts are installed with the following command:
+
+```
+$ fc-list | grep "Hack"
+```
+
+Some Linux users may find that font rendering is improved on their distro with [these instructions](https://wiki.manjaro.org/index.php?title=Improve_Font_Rendering).
 
 ### macOS
 
