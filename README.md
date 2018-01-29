@@ -9,7 +9,7 @@ Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-wor
 
 Hack is designed to be a workhorse typeface for source code. It has deep roots in the free, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
 
-The project is in active development and we welcome your input and contributions.  You may view our design objectives and contributing instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+The project is in active development, and we welcome your input and contributions.  You may view our design objectives and instructions on how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Frequently asked questions are answered in our [FAQ](FAQ.md).
 
@@ -67,7 +67,7 @@ $ mkfontdir <install_path>
 
 ### Windows
 
-To simplify the installation process on Windows systems, we've created the [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) which will guide you through the installation process. This installer addresses a number of common rendering issues that occur with font installs/updates on the Windows platform and is the recommended approach for Windows users.
+The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) simplifies the installation process on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
 
 
 ### Chrome/ChromeOS
@@ -99,7 +99,7 @@ For installation issues with Hack packages, please contact the package maintaine
 
 ## Web font usage
 
-Hack is available in the woff and woff2 web font formats. Use the snippets below to quickly include Hack via a CDN. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in the woff and woff2 web font formats. Use the snippets below to include Hack on your web pages via CDN. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
 
 #### 1. Add Hack to HTML
 
@@ -124,7 +124,7 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 pre, code { font-family: Hack, monospace; }
 ```
 
-See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional details, including instructions on how to download, host, and serve the web fonts on your own web server.
+See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional details, including instructions on how to download, host, and serve the web fonts on your web server.
 
 ## Additional tools for Hack font customization
 
@@ -132,15 +132,15 @@ See the [WEBFONT_USAGE.md](docs/WEBFONT_USAGE.md) documentation for additional d
 
 The [alt-hack](https://github.com/source-foundry/alt-hack) library includes a (growing) collection of alternate glyph styles that can be used to customize your Hack fonts.  Don't like the default zero style?  Swap out the UFO design source with a slashed zero or dotted zero and build new fonts that work better for you.
 
-Contributions of new glyph styles are welcomed in the alt-hack repository.  Design something new that works well with rest of the typeface and submit a pull request to the alt-hack repository so that others can use it in their own custom builds.
+We welcome contributions of new alternate glyph styles in the alt-hack repository.  Design something new that works well with rest of the typeface and submit a pull request to the alt-hack repository so that others can use it in their custom builds.
 
 Detailed build instructions are available on the [alt-hack repository README.md](https://github.com/source-foundry/alt-hack).
 
 ### Line spacing adjustments
 
-[font-line](https://github.com/source-foundry/font-line) is a tool that lets you easily modify the default line spacing that is used in the Hack design (20% UPM).
+[font-line](https://github.com/source-foundry/font-line) is a tool that modifies the default line spacing used in the Hack design (20% UPM).
 
-The following gist installs font-line and modifies line spacing for all ttf and otf fonts in the working directory where the script is located for the percent UPM value that you define at the top of the script:
+The following gist installs font-line and modifies line spacing for all desktop font files contained in the same directory:
 
 - [linespace.sh](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174) ([download .zip](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174/archive/f3f93dea87d64ddc4684a61cbc96ddf79d30824a.zip))
 
@@ -154,7 +154,7 @@ The following gist installs font-line and modifies line spacing for all ttf and 
 
 ## Contributing
 
-Contributions to the Hack project are welcomed.  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for details.
+We welcome contributions to Hack!  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for additional details.
 
 
 ## Built With
