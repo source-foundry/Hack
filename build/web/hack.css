@@ -6,28 +6,28 @@
  * -------------------------- */
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-regular.woff2?sha=50c08ef1e') format('woff2'), url('fonts/hack-regular.woff?sha=50c08ef1e') format('woff');
+  src: url('fonts/hack-regular.woff2?sha=e813aeef7') format('woff2'), url('fonts/hack-regular.woff?sha=e813aeef7') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-bold.woff2?sha=50c08ef1e') format('woff2'), url('fonts/hack-bold.woff?sha=50c08ef1e') format('woff');
+  src: url('fonts/hack-bold.woff2?sha=e813aeef7') format('woff2'), url('fonts/hack-bold.woff?sha=e813aeef7') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-italic.woff2?sha=50c08ef1e') format('woff2'), url('fonts/hack-italic.woff?sha=50c08ef1e') format('woff');
+  src: url('fonts/hack-italic.woff2?sha=e813aeef7') format('woff2'), url('fonts/hack-italic.woff?sha=e813aeef7') format('woff');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-bolditalic.woff2?sha=50c08ef1e') format('woff2'), url('fonts/hack-bolditalic.woff?sha=50c08ef1e') format('woff');
+  src: url('fonts/hack-bolditalic.woff2?sha=e813aeef7') format('woff2'), url('fonts/hack-bolditalic.woff?sha=e813aeef7') format('woff');
   font-weight: 700;
   font-style: italic;
 }
