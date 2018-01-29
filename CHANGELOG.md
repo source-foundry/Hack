@@ -1,3 +1,9 @@
+# Version 3.002
+
+- bugfix for https://github.com/source-foundry/Hack/issues/377 (affects Windows users)
+- bugfix for https://github.com/source-foundry/Hack/issues/379 (affects Linux users)
+- bugfix included removal of blue zone reference font in ttfautohint instruction set processing (-R flag).  This led to variable lowercase glyph heights on Linux and Windows platforms
+
 # Version 3.001
 
 - U+017F, added long s glyph to all four variant sets, completes Latin Extended A character sets
