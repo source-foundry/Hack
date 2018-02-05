@@ -93,6 +93,7 @@
 
 - Guilherme Amadio - Linux
 - Helio Chissini de Castro - Linux
+- Samina Fu - cdnjs
 - Michael "Tex" Hex - Windows
 - Paride Legovini - Linux
 - Caleb Maclennan - Linux, OS X
