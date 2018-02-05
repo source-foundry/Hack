@@ -1,3 +1,8 @@
+# Version 3.003
+
+- extended length of tail on U+0051, all variants
+- extended length of tail on U+051A, all variants
+
 # Version 3.002
 
 - bugfix for https://github.com/source-foundry/Hack/issues/377 (affects Windows users)
