@@ -107,7 +107,14 @@ For installation issues with Hack packages, please contact the package maintaine
 
 ## Web font usage
 
-Hack is available in the woff and woff2 web font formats. Use the snippets below to include Hack on your web pages via CDN. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in the woff and woff2 web font formats. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+
+Hack is available through the jsDelivr and cdnjs CDN services:
+
+[![jsDelivr](https://img.shields.io/badge/jsDelivr-Hack_web_font_CDN-blue.svg?style=flat-square)](https://www.jsdelivr.com/package/npm/hack-font)
+[![cdnjs](https://img.shields.io/badge/cdnjs-Hack_web_font_CDN-blue.svg?style=flat-square)](https://cdnjs.com/libraries/hack-font)
+
+The following snippets provide examples of Hack web font use through the jsDelivr CDN.  Adjust the URL paths to those provided by cdnjs (click the link above to find the appropriate URL) to switch to the cdnjs CDN.
 
 #### 1. Add Hack to HTML
 
@@ -162,7 +169,7 @@ The following gist installs font-line and modifies line spacing for all desktop 
 
 ## Contributing
 
-We welcome contributions to Hack!  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for additional details.
+We welcome contributions to Hack!  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for details.
 
 
 ## Built With
@@ -186,7 +193,7 @@ Hack is built with the following free, open source projects:
 
 ## Acknowledgments
 
-We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) team for their excellent web font CDN service and outstanding Hack project support.
+We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) and [cdnjs](https://cdnjs.com) teams for their web font CDN services to support the Hack project.
 
 
 ## License
