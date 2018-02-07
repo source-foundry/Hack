@@ -198,7 +198,7 @@ Hack is built with the following free, open source projects:
 
 ## Acknowledgments
 
-We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) and [cdnjs](https://cdnjs.com) teams for their web font CDN services to support the Hack project.
+We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) and [cdnjs](https://cdnjs.com) teams for their support of the Hack project through their free web font CDN services.  We greatly appreciate the tremendous support of open source software by the [Travis CI](https://travis-ci.org/) and [Semaphore CI](https://semaphoreci.com/) teams.  The Hack typeface software and our supporting software tooling are tested with free open source accounts provided by Travis and Semaphore, and we are incredibly grateful for this support. Lastly, a huge thanks go out to all of those who do the unrecognized work to get Hack out there to users so that it is easy to access, install, upgrade, and use.  There are redistribution package managers, review committee members, testers, and others across platforms/distros/applications who perform this thankless work.  Your efforts are much appreciated.
 
 
 ## License
