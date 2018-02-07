@@ -154,7 +154,7 @@ The [alt-hack](https://github.com/source-foundry/alt-hack) library includes a (g
 
 We welcome contributions of new alternate glyph styles in the alt-hack repository.  Design something new that works well with rest of the typeface and submit a pull request to the alt-hack repository so that others can use it in their custom builds.
 
-Detailed build instructions are available on the [alt-hack repository README.md](https://github.com/source-foundry/alt-hack).
+Detailed build instructions are available on the [alt-hack repository README.md](https://github.com/source-foundry/alt-hack).  Font renaming instructions to support side-by-side installs with upstream Hack are available below.
 
 ### Line spacing adjustments
 
@@ -163,6 +163,12 @@ Detailed build instructions are available on the [alt-hack repository README.md]
 The following gist installs font-line and modifies line spacing for all desktop font files contained in the same directory:
 
 - [linespace.sh](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174) ([download .zip](https://gist.github.com/chrissimpkins/f39e85f5f157d839e46168de1b61a174/archive/f3f93dea87d64ddc4684a61cbc96ddf79d30824a.zip))
+
+### Install modified and unmodified versions of Hack on the same system
+
+If you modify the upstream Hack source or the released font binaries and would like to install your modified fonts on the same system with the Hack fonts as released here, you can use the [fontname.py Python script](https://github.com/chrissimpkins/fontname.py) to define a new font name in the binary files.  For example, you can install `Hack` on your platform along with a 15% UPM line spacing adjusted version as `Hack Fifteen`.  Modify default glyphs with those in our [alt-hack repository](https://github.com/source-foundry/alt-hack) or design your own and define your creation with any name that you'd like.  Following installation, your renamed fonts should show under the name that you define with the script so that you can switch between any of them as you need.
+
+Usage details and examples are provided on the fontname.py repository README.
 
 
 ## Resources
