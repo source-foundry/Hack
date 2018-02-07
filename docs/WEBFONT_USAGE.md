@@ -6,8 +6,10 @@ You can view the rendering of the web fonts at a range of sizes on the [Hack web
 
 #### Hack by CDN
 
-Thanks to the generous gang at [jsDelivr](https://github.com/jsdelivr/jsdelivr), you can use a CDN to include Hack on your site with a single stylesheet link in the head of your HTML files.  There is no need to download font files from the repository or serve them from your web server.  Instructions for web font CDN use are available on our README page.
+Thanks to the generous gangs at [jsDelivr](https://github.com/jsdelivr/jsdelivr) and [cdnjs](https://www.cdnjs.com), you can use a CDN to include Hack on your site with a single stylesheet link in the head of your HTML files.  There is no need to download font files from the repository or serve them from your web server.  Instructions for web font CDN use are available on our README page and you can use either of the following CDN:
 
+[![jsDelivr](https://img.shields.io/badge/jsDelivr-Hack_web_font_CDN-blue.svg?style=flat-square)](https://www.jsdelivr.com/package/npm/hack-font)
+[![cdnjs](https://img.shields.io/badge/cdnjs-Hack_web_font_CDN-blue.svg?style=flat-square)](https://cdnjs.com/libraries/hack-font)
 
 #### Host Hack Font Files on Your Server
 
@@ -63,7 +65,7 @@ Then style your text by including `Hack` in the appropriate `font-family` proper
 
 ```css
 code {
-	font-family: Hack, monospace;
+    font-family: Hack, monospace;
 }
 ```
 
