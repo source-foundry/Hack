@@ -1,7 +1,12 @@
 
 # Hack
 
-[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-124-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
+[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack)
+[![Contributors](https://img.shields.io/badge/contributors-126-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![Join the chat at https://gitter.im/source-foundry/Hack](https://badges.gitter.im/source-foundry/Hack.svg)](https://gitter.im/source-foundry/Hack)
+[![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)]()
+[![](https://data.jsdelivr.com/v1/package/npm/hack-font/badge?style=rounded)](https://www.jsdelivr.com/package/npm/hack-font)
 
 Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-words/hack-typeface-v3-6943991c1a80).
 
@@ -73,7 +78,9 @@ Some Linux users may find that font rendering is improved on their distro with [
 
 ### Windows
 
-The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) simplifies the installation process on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
+[![Hack Windows Installer](https://img.shields.io/badge/Windows-Installer-blue.svg?style=flat-square)](https://github.com/source-foundry/Hack-windows-installer/releases/latest)
+
+The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) and simplifies the installation on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
 
 
 ### Chrome/ChromeOS
@@ -105,7 +112,14 @@ For installation issues with Hack packages, please contact the package maintaine
 
 ## Web font usage
 
-Hack is available in the woff and woff2 web font formats. Use the snippets below to include Hack on your web pages via CDN. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+Hack is available in the woff and woff2 web font formats. **Bold** and *italic* styles are included by default and work out-of-the-box via the `<strong>` and `<em>` tags.
+
+Hack is available through the jsDelivr and cdnjs CDN services:
+
+[![jsDelivr](https://img.shields.io/badge/jsDelivr-Hack_web_font_CDN-blue.svg?style=flat-square)](https://www.jsdelivr.com/package/npm/hack-font)
+[![cdnjs](https://img.shields.io/badge/cdnjs-Hack_web_font_CDN-blue.svg?style=flat-square)](https://cdnjs.com/libraries/hack-font)
+
+The following snippets provide examples of Hack web font use through the jsDelivr CDN.  Adjust the URL paths to those provided by cdnjs (click the link above to find the appropriate URL) to switch to the cdnjs CDN.
 
 #### 1. Add Hack to HTML
 
@@ -160,7 +174,7 @@ The following gist installs font-line and modifies line spacing for all desktop 
 
 ## Contributing
 
-We welcome contributions to Hack!  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for additional details.
+We welcome contributions to Hack!  Please review our [CONTRIBUTING.md](CONTRIBUTING.md) document for details.
 
 
 ## Built With
@@ -184,7 +198,7 @@ Hack is built with the following free, open source projects:
 
 ## Acknowledgments
 
-We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) team for their excellent web font CDN service and outstanding Hack project support.
+We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/) and [cdnjs](https://cdnjs.com) teams for their support of the Hack project through their free web font CDN services.  We greatly appreciate the tremendous support of open source software by the [Travis CI](https://travis-ci.org/) and [Semaphore CI](https://semaphoreci.com/) teams.  The Hack typeface software and our supporting software tooling are tested with free open source accounts provided by Travis and Semaphore, and we are incredibly grateful for this support. Lastly, a huge thanks go out to all of those who do the unrecognized work to get Hack out there to users so that it is easy to access, install, upgrade, and use.  There are redistribution package managers, review committee members, testers, and others across platforms/distros/applications who perform this thankless work.  Your efforts are much appreciated.
 
 
 ## License
