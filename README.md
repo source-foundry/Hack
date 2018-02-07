@@ -1,9 +1,12 @@
 
 # Hack
 
+[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
 [![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack)
 [![Contributors](https://img.shields.io/badge/contributors-126-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
 [![Join the chat at https://gitter.im/source-foundry/Hack](https://badges.gitter.im/source-foundry/Hack.svg)](https://gitter.im/source-foundry/Hack)
+[![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)]()
+[![](https://data.jsdelivr.com/v1/package/npm/hack-font/badge?style=rounded)](https://www.jsdelivr.com/package/npm/hack-font)
 
 Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-words/hack-typeface-v3-6943991c1a80).
 
@@ -75,7 +78,9 @@ Some Linux users may find that font rendering is improved on their distro with [
 
 ### Windows
 
-The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) simplifies the installation process on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
+[![Hack Windows Installer](https://img.shields.io/badge/Windows-Installer-blue.svg?style=flat-square)](https://github.com/source-foundry/Hack-windows-installer/releases/latest)
+
+The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) and simplifies the installation on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
 
 
 ### Chrome/ChromeOS
