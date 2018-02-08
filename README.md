@@ -80,7 +80,7 @@ Some Linux users may find that font rendering is improved on their distro with [
 
 [![Hack Windows Installer](https://img.shields.io/badge/Windows-Installer-blue.svg?style=flat-square)](https://github.com/source-foundry/Hack-windows-installer/releases/latest)
 
-The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) and simplifies the installation on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
+The [Hack Windows Installer](https://github.com/source-foundry/Hack-windows-installer/releases/latest) simplifies installation on the Windows platform.  The tool guides you through the installation process and addresses some common rendering issues that occur with font installs/updates on the Windows platform.  This tool is the recommended installation approach for Windows users.
 
 
 ### Chrome/ChromeOS
