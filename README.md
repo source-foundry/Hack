@@ -103,6 +103,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
 - **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
+- **Open BSD**: `fonts/hack-fonts`
 - **OpenSUSE**: `hack-fonts`
 - **Ubuntu**: `fonts-hack-ttf`
 - **Visual Studio Package Manager**: `hack.font`
