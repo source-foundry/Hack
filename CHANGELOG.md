@@ -1,7 +1,34 @@
 # Version 3.003
 
-- extended length of tail on U+0051, all variants
-- extended length of tail on U+051A, all variants
+- U+0051, extended length of tail, all variants
+- U+051A, extended length of tail, all variants
+- U+0061, simplified and improved contours, all variants
+- U+0062, simplified and improved contours, all variants
+- U+0063, simplified and improved contours, all variants
+- U+0064, simplified and improved contours, all variants
+- U+0065, simplified and improved contours, all variants
+- U+0066, simplified and improved contours, all variants
+- U+0067, simplified and improved contours, all variants
+- U+0068, simplified and improved contours, all variants
+- U+0069, simplified and improved contours, all variants
+- U+006A, simplified and improved contours, all variants
+- U+006B, simplified and improved contours, all variants
+- U+006C, simplified and improved contours, all variants
+- U+006D, simplified and improved contours, all variants
+- U+006E, simplified and improved contours, all variants
+- U+006F, simplified and improved contours, all variants
+- U+0070, simplified and improved contours, all variants
+- U+0071, simplified and improved contours, all variants
+- U+0072, simplified and improved contours, all variants
+- U+0073, simplified and improved contours, all variants
+- U+0074, simplified and improved contours, all variants
+- U+0075, simplified and improved contours, all variants
+- U+0076, simplified and improved contours, all variants
+- U+0077, simplified and improved contours, all variants
+- U+0078, simplified and improved contours, all variants
+- U+0079, simplified and improved contours, all variants
+- U+007A, simplified and improved contours, all variants
+
 
 # Version 3.002
 
