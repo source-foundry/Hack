@@ -15,6 +15,7 @@
 ### Basic Latin Set Revisions and Testing
 
 - JM
+- Vladimir Mitrović
 - Chris Simpkins
 - David van Gemeren
 - Joseph Winters
