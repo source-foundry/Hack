@@ -1,5 +1,7 @@
 # Version 3.003
 
+- U+005B, increased length of square brackets' horizontal strokes (symmetrically reducing left and right sidebearing), all variants
+- U+005D, increased length of square brackets' horizontal strokes (symmetrically reducing left and right sidebearing), all variants
 - U+0051, extended length of tail, all variants
 - U+051A, extended length of tail, all variants
 - U+0061, simplified and improved contours, all variants
