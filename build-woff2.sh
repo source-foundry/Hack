@@ -26,7 +26,6 @@ INST="$HOME/woff2"
 # woff2 executable path
 WOFF2_BIN="$BUILD/woff2/woff2_compress"
 
-
 # The font build directory paths and file paths for the woff builds
 TTF_BUILD="build/ttf"
 WOFF_BUILD="build/web/fonts"
@@ -85,6 +84,13 @@ if [ "$1" = "--install-dependencies" ]
 		cd "$CUR_DIR" || exit 1
 fi
 
+# If the binary is not found, look if it is installed system-wide
+if [ ! -x "$WOFF2_BIN" ]; then
+	WOFF2_SYSWIDE=$(command -pv woff2_compress)
+	if [ -x "$WOFF2_SYSWIDE" ]; then
+		WOFF2_BIN="$WOFF2_SYSWIDE"
+	fi
+fi
 
 if [ -f "$WOFF2_BIN" ]; then
 	echo "Beginning web font build with $WOFF2_BIN"
