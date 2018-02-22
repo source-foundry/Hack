@@ -82,21 +82,21 @@ count=0
 for i in $FREETYPE_PATCHES
 do
   curl -o ft-patch-$count.diff "$i"
-  count=$(($count + 1))
+  count=$((count + 1))
 done
 
 count=0
 for i in $HARFBUZZ_PATCHES
 do
   curl -o hb-patch-$count.diff "$i"
-  count=$(($count + 1))
+  count=$((count + 1))
 done
 
 count=0
 for i in $TTFAUTOHINT_PATCHES
 do
   curl -o ta-patch-$count.diff "$i"
-  count=$(($count + 1))
+  count=$((count + 1))
 done
 
 
