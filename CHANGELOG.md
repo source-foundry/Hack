@@ -30,6 +30,7 @@
 - U+0078, simplified and improved contours, all variants
 - U+0079, simplified and improved contours, all variants
 - U+007A, simplified and improved contours, all variants
+- ttfautohint-build.sh, fixed backtick and expr syntax shellcheck warnings (SC2003/2006)
 
 
 # Version 3.002
