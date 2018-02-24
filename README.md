@@ -192,7 +192,7 @@ Hack is built with the following free, open source projects:
 - [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
 - [fontTools](https://github.com/fonttools/fonttools) - OpenType table read/write
 - [font-v](https://github.com/source-foundry/font-v) - font version string editor
-- [ink](https://github.com/chrissimpkins/ink) - stream editor for CSS file templating
+- [ink](https://github.com/chrissimpkins/ink) - stream editor for text file templating
 - [OpenFV](https://github.com/openfv/openfv) - open specification for semantic typeface versioning
 - [sfnt2woff_zopfli](https://github.com/bramstein/sfnt2woff-zopfli) - ttf to woff web font compilation
 - [ttfautohint](https://www.freetype.org/ttfautohint/) - ttf instruction sets
