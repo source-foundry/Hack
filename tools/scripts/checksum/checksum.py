@@ -16,6 +16,9 @@
 #
 # Usage: checksum.py (options) [file path 1]...[file path n]
 #
+#   `file path` should be defined as a path to a font file for all use cases except with use of -c/--check.
+#   With the -c/--check option, use one or more file paths to checksum files
+#
 # Options:
 #   -h, --help          Help
 #   -t, --ttx           Calculate SHA1 hash values from ttx dump of XML (default = font binary)
