@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------
 # checksum.py
 #  A SHA1 hash checksum list generator for fonts and fontTools
 #  XML dumps of font OpenType table data + checksum testing
@@ -10,21 +10,23 @@
 # Copyright 2018 Christopher Simpkins
 # MIT License
 #
-# Dependencies: Python fontTools library
+# Dependencies:
+#   - Python fontTools library
+#   - Python 3 interpreter
 #
 # Usage: checksum.py (options) [file path 1]...[file path n]
 #
 # Options:
 #   -h, --help          Help
 #   -t, --ttx           Calculate SHA1 hash values from ttx dump of XML (default = font binary)
-#   -s, --stdout        Stream to standard output stream (default = write to disk as 'checksum.txt')
+#   -s, --stdout        Stream to standard output stream (default = write to working dir as 'checksum.txt')
 #   -c, --check         Test SHA1 checksum values against a valid checksum file
 #
 # Options, --ttx only:
 #   -e, --exclude       Excluded OpenType table (may be used more than once, mutually exclusive with -i)
 #   -i, --include       Included OpenType table (may be used more than once, mutually exclusive with -e)
 #   -n, --noclean       Do not discard .ttx files that are used to calculate SHA1 hashes
-#-------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 
 import argparse
 import hashlib
