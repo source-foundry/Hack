@@ -101,7 +101,7 @@ def check_checksum(filepaths):
     check_failed = False
     for path in filepaths:
         if not os.path.exists(path):
-            sys.stderr.write("[checksum.py] ERROR: " + filepath + " is not a valid filepath" + os.linesep)
+            sys.stderr.write("[checksum.py] ERROR: " + path + " is not a valid filepath" + os.linesep)
             sys.exit(1)
 
         with open(path, mode='r') as file:
