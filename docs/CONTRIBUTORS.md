@@ -92,6 +92,7 @@
 - Shawn Starr - Linux
 - @rahilwazir - Linux
 - Jakub Žitný - NPM
+- Mélanie Chauvel (ariasuni) - Linux
 
 ### Licensing
 
