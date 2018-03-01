@@ -30,7 +30,8 @@
 - U+0078, simplified and improved contours, all variants
 - U+0079, simplified and improved contours, all variants
 - U+007A, simplified and improved contours, all variants
-- added ttdiff.sh shell script for OT table diffs of ttx XML dumps of font binaries
+- added config/fontconfig/45-Hack.conf for use on Linux distros to define Hack as a monospaced typeface
+- added ttdiff.sh shell script for OpenType table diffs of ttx XML dumps of font binaries
 - ttfautohint-build.sh, fixed backtick and expr syntax shellcheck warnings (SC2003/2006)
 - converted to Semaphore CI (from Travis CI) as CI testing service, eliminated .travis.yml settings file
 
