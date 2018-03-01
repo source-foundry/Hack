@@ -54,7 +54,8 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`).
 3. Copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/` or `/usr/local/share/fonts`).
-4. Clear and regenerate your font cache and indexes with the following set of commands:
+4. Copy the font configuration file in `config/fontconfig/` to either the system font configuration folder (often `/etc/fonts/conf.d/`) or the font user folder (often `~/.config/fontconfig/conf.d`)
+5. Clear and regenerate your font cache and indexes with the following command:
 
 ```
 $ fc-cache -f -v
@@ -223,4 +224,3 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 <!-- Link to the latest release archive for README.md file -->
 
 [ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.002/Hack-v3.002-ttf.zip
-
