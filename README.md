@@ -34,7 +34,7 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 ### Specimen
 
-<a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+<a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-3-crunch.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
 ## Overview of features
 
