@@ -8,7 +8,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
 [![](https://data.jsdelivr.com/v1/package/npm/hack-font/badge?style=rounded)](https://www.jsdelivr.com/package/npm/hack-font)
 
-Don't like the noise from the development repository but want to keep up with changes?  Have a quick question that doesn't require an issue report? Check out our [gitter channel](https://gitter.im/source-foundry/Hack).
+Don't like the development noise from the repository but want to keep up with changes? Check out our [gitter Hack channel](https://gitter.im/source-foundry/Hack).  Have a quick question that doesn't require an issue report?  Drop by our [gitter Help channel](https://gitter.im/source-foundry/Help) and ask away.
 
 ### A typeface designed for source code
 
