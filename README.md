@@ -3,16 +3,16 @@
 
 [![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
 [![Build Status](https://semaphoreci.com/api/v1/sourcefoundry/hack/branches/master/shields_badge.svg)](https://semaphoreci.com/sourcefoundry/hack)
-[![Contributors](https://img.shields.io/badge/contributors-126-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![Contributors](https://img.shields.io/badge/contributors-128-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
 [![Join the chat at https://gitter.im/source-foundry/Hack](https://badges.gitter.im/source-foundry/Hack.svg)](https://gitter.im/source-foundry/Hack)
-[![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)]()
+[![Github All Releases](https://img.shields.io/github/downloads/source-foundry/hack/total.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)
 [![](https://data.jsdelivr.com/v1/package/npm/hack-font/badge?style=rounded)](https://www.jsdelivr.com/package/npm/hack-font)
 
-Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-words/hack-typeface-v3-6943991c1a80).
+Don't like the development noise from the repository but want to keep up with changes? Check out our [gitter Hack channel](https://gitter.im/source-foundry/Hack).  Have a quick question that doesn't require an issue report?  Drop by our [gitter Help channel](https://gitter.im/source-foundry/Help) and ask away.
 
 ### A typeface designed for source code
 
-Hack is designed to be a workhorse typeface for source code. It has deep roots in the free, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8px - 14px range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
+Hack is designed to be a workhorse typeface for source code. It has deep roots in the free, open source typeface community and expands upon the contributions of the [Bitstream Vera](https://www.gnome.org/fonts/) &amp; [DejaVu](http://dejavu-fonts.org/wiki/Main_Page) projects.  The large x-height + wide aperture + low contrast design make it legible at commonly used source code text sizes with a sweet spot that runs in the 8 - 14 range.  The full set of changes to the upstream source are available in the [changelog](CHANGELOG.md).
 
 The project is in active development, and we welcome your input and contributions.  You may view our design objectives and instructions on how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -34,7 +34,7 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 
 ### Specimen
 
-<a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-2.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
+<a href="http://source-foundry.github.io/Hack/font-specimen.html"><img src="img/hack-specimen-3-crunch.png" alt="Hack &mdash; a typeface designed for source code" width="728"></a>
 
 ## Overview of features
 
@@ -54,7 +54,8 @@ Frequently asked questions are answered in our [FAQ](FAQ.md).
 1. Download the [latest version of Hack][ttf_latest].
 2. Extract the files from the archive (`.zip`).
 3. Copy the font files to either your system font folder (often `/usr/share/fonts/`) or user font folder (often `~/.local/share/fonts/` or `/usr/local/share/fonts`).
-4. Clear and regenerate your font cache and indexes with the following set of commands:
+4. Copy the font configuration file in `config/fontconfig/` to either the system font configuration folder (often `/etc/fonts/conf.d/`) or the font user folder (often `~/.config/fontconfig/conf.d`)
+5. Clear and regenerate your font cache and indexes with the following command:
 
 ```
 $ fc-cache -f -v
@@ -103,6 +104,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
 - **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
+- **Open BSD**: `fonts/hack-fonts`
 - **OpenSUSE**: `hack-fonts`
 - **Ubuntu**: `fonts-hack-ttf`
 - **Visual Studio Package Manager**: `hack.font`
@@ -191,7 +193,7 @@ Hack is built with the following free, open source projects:
 - [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
 - [fontTools](https://github.com/fonttools/fonttools) - OpenType table read/write
 - [font-v](https://github.com/source-foundry/font-v) - font version string editor
-- [ink](https://github.com/chrissimpkins/ink) - stream editor for CSS file templating
+- [ink](https://github.com/chrissimpkins/ink) - stream editor for text file templating
 - [OpenFV](https://github.com/openfv/openfv) - open specification for semantic typeface versioning
 - [sfnt2woff_zopfli](https://github.com/bramstein/sfnt2woff-zopfli) - ttf to woff web font compilation
 - [ttfautohint](https://www.freetype.org/ttfautohint/) - ttf instruction sets
@@ -222,4 +224,3 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 <!-- Link to the latest release archive for README.md file -->
 
 [ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.002/Hack-v3.002-ttf.zip
-
