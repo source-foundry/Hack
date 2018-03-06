@@ -94,8 +94,9 @@
 
 - Guilherme Amadio - Linux
 - Helio Chissini de Castro - Linux
-- Mélanie Chauvel (ariasuni) - Linux
+- Mélanie Chauvel - Linux
 - Samina Fu - cdnjs
+- Fabian Greffrath - Linux
 - Michael "Tex" Hex - Windows
 - Paride Legovini - Linux
 - Caleb Maclennan - Linux, OS X
