@@ -223,4 +223,4 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 
 <!-- Link to the latest release archive for README.md file -->
 
-[ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.002/Hack-v3.002-ttf.zip
+[ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
