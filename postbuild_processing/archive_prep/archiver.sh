@@ -11,7 +11,7 @@
 #
 # ////////////////////////////////////////////////////////////////////
 
-HACK_VERSION="v3.002"
+HACK_VERSION="v3.003"
 HACK_ARCHIVES_DIR="../../../Hack-archives"
 HACK_BUILD_DIR="../../build"
 
