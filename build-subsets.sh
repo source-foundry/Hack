@@ -96,25 +96,6 @@ fi
 
 INSTALLFLAG=0
 
-echo "Confirming that build dependencies are installed..."
-echo " "
-
-# fontmake installed
-if ! which fontmake
-	then
-	    echo "fontmake was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
-	    INSTALLFLAG=1
-fi
-
-# fontTools python library can be imported
-if ! python -c "import fontTools"
-	then
-	    echo "The fontTools library was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
-	    INSTALLFLAG=1
-else
-	echo "fontTools Python library identified"
-fi
-
 # ttfautohint installed
 #   - tests for install to local path from ttfautohint-build.sh script
 #   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
