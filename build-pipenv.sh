@@ -40,7 +40,9 @@ echo "================================="
 echo "  PYTHON BUILD ENVIRONMENT"
 echo "================================="
 echo " "
-
+echo "Python interpreter version:"
+pipenv run python --version
+echo " "
 pipenv graph
 
 echo " "
