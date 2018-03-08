@@ -28,10 +28,6 @@ fi
 # Optional build dependency install request with syntax `./build.sh --install-dependencies`
 if [ "$1" = "--install-dependencies" ]
 	then
-		# fontmake
-		pip install --upgrade fontmake
-		# fontTools (installed with fontmake at this time. leave this as dependency check as python scripts for fixes require it should fontTools eliminate dep)
-		pip install --upgrade fonttools
 		# ttfautohint v1.6 (must be pinned to v1.6 and above for Hack instruction sets)
         tools/scripts/install/ttfautohint-build.sh
 
@@ -40,22 +36,7 @@ fi
 # confirm executable installs and library imports for build dependencies
 INSTALLFLAG=0
 
-echo "Confirming that build dependencies are installed..."
-echo " "
-# fontmake installed
-if ! which fontmake
-	then
-	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	    INSTALLFLAG=1
-fi
-# fontTools python library can be imported
-if ! python -c "import fontTools"
-	then
-	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	    INSTALLFLAG=1
-else
-	echo "fontTools Python library identified"
-fi
+
 # ttfautohint installed
 #   - tests for install to local path from ttfautohint-build.sh script
 #   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
@@ -106,21 +87,21 @@ fi
 
 # build regular set
 
-if ! fontmake -u "source/Hack-Regular.ufo" -o ttf
+if ! pipenv run fontmake -u "source/Hack-Regular.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Regular variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build bold set
-if ! fontmake -u "source/Hack-Bold.ufo" -o ttf
+if ! pipenv run fontmake -u "source/Hack-Bold.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Bold variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build italic set
-if ! fontmake -u "source/Hack-Italic.ufo" -o ttf
+if ! pipenv run fontmake -u "source/Hack-Italic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Italic variant set.  Build canceled." 1>&2
 	    exit 1
@@ -128,7 +109,7 @@ fi
 
 # build bold italic set
 
-if ! fontmake -u "source/Hack-BoldItalic.ufo" -o ttf
+if ! pipenv run fontmake -u "source/Hack-BoldItalic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
@@ -140,7 +121,7 @@ fi
 echo " "
 echo "Attempting DSIG table fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
+if ! pipenv run python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete DSIG table fixes on the release files"
 	    exit 1
@@ -150,7 +131,7 @@ fi
 echo " "
 echo "Attempting fstype fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
+if ! pipenv run python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete fstype fixes on the release files"
 	    exit 1
