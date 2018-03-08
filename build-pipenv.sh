@@ -13,9 +13,9 @@
 
 if ! which pipenv
 	then
-		echo "Unable to detect a pipenv install.  Please install with `pip install pipenv` then repeat your build attempt." 1>&2
+		echo "Unable to detect a pipenv install.  Please install with 'pip install pipenv' then repeat your build attempt." 1>&2
 		exit 1
-done
+fi
 
 # install fontTools and fontmake build dependencies with pipenv
 pipenv install --ignore-pipfile fontmake fontTools
@@ -25,19 +25,19 @@ if ! pipenv run fontmake --version
 	then
 		echo "Unable to detect fontmake install with pipenv.  Please repeat your build attempt." 1>&2
 		exit 1
-done
+fi
 
 # test for fontTools install in venv
 if ! pipenv run python -c "import fontTools"
 	then
 		echo "Unable to detect fontTools install with pipenv.  Please repeat your build attempt." 1>&2
 		exit 1
-done
+fi
 
 # print environment used for build to std output stream
 
 echo "================================="
-echo "  BUILD ENVIRONMENT"
+echo "  PYTHON BUILD ENVIRONMENT"
 echo "================================="
 echo " "
 
@@ -45,6 +45,6 @@ pipenv graph
 
 echo " "
 echo "================================="
-echo "  END BUILD ENVIRONMENT"
+echo "  END PYTHON BUILD ENVIRONMENT"
 echo "================================="
 echo " "
