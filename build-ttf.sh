@@ -15,10 +15,6 @@
 # /////////////////////////////////////////////////////////////////
 
 # ttfautohint local install path from Werner Lemberg's ttfautohint-build.sh install script
-#   - This is revised to ttfautohint on the user's PATH if this local install is not identified
-#     then the identified ttfautohint is used to execute hinting.  Versions of ttfautohint < 1.6 exit with status
-#     code 1 due to use of -R option
-#   - The intent is to support use of ttfautohint installed on a user's PATH (e.g. they've previously installed it)
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
 
 # test for number of arguments
