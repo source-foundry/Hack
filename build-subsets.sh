@@ -185,21 +185,21 @@ fi
 
 # build regular subset
 
-if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Regular.ufo" -o ttf
+if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Regular.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Regular variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build bold subset
-if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Bold.ufo" -o ttf
+if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Bold.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Bold variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build italic subset
-if ! fontmake --subset -u "$TEMP_SOURCE/Hack-Italic.ufo" -o ttf
+if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Italic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Italic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -207,7 +207,7 @@ fi
 
 # build bold italic subset
 
-if ! fontmake --subset -u "$TEMP_SOURCE/Hack-BoldItalic.ufo" -o ttf
+if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-BoldItalic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-BoldItalic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -226,7 +226,7 @@ fi
 echo " "
 echo "Attempting DSIG table fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
+if ! pipenv run python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete DSIG table fixes on the release files"
 	    exit 1
@@ -236,7 +236,7 @@ fi
 echo " "
 echo "Attempting fstype fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
+if ! pipenv run python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete fstype fixes on the release files"
 	    exit 1
