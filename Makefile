@@ -28,7 +28,7 @@ lint: shellcheck ufolint
 pipenv:
 	./build-pipenv.sh
 
-shellcheck: build-pipenv.sh build-ttf.sh build-woff.sh build-woff2.sh build-subsets.sh tools/scripts/install/ttfautohint-build.sh postbuild_processing/archive_prep/archiver.sh tools/scripts/css/css-build.sh
+shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh postbuild_processing/archive_prep/*.sh
 	$@ $^
 
 subsets: pipenv
