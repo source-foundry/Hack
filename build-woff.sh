@@ -64,14 +64,16 @@ if [ "$1" = "--system" ]; then
 		# display version of installed sfnt2woff-zopfli
 		echo "Beginning web font build with $SFNTWOFF_BIN"
 	fi
-else
+fi
+
+# test for sfnt2woff-zopfli with default build approach
+if [ $# -eq 0 ]; then
 	if [ -f "$SFNTWOFF_BIN" ]; then
 		echo "Beginning web font build with $SFNTWOFF_BIN"
 	else
 		echo "Unable to locate sfnt2woff-zopfli on the path $SFNTWOFF_BIN.  Please install this build dependency and then repeat your build attempt." 1>&2
 	    exit 1
 	fi
-
 fi
 
 # Build woff files from ttf files
