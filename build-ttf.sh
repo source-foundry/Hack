@@ -63,13 +63,15 @@ if [ "$1" = "--system" ]
         echo " "
 fi
 
+# ttfautohint path test for default builds
 # test for local ttfautohint install using repository provided install script and defined ttfautohint version (and its dependencies)
 # no tests for Python build dependencies here because they are always installed by default & tested in the pipenv virtualenv before these steps
-if ! [ -f "$TTFAH" ]; then
-	echo "Unable to identify the expected local install path for ttfautohint.  Please install and try again." 1>&2
-	INSTALLFLAG=1
+if [ $# -eq 0 ]; then
+	if ! [ -f "$TTFAH" ]; then
+		echo "Unable to identify the expected local install path for ttfautohint.  Please install and try again." 1>&2
+		INSTALLFLAG=1
+	fi
 fi
-
 
 # If any of the dependency checks failed, exit the build and notify user
 if [ $INSTALLFLAG -eq 1 ]; then
