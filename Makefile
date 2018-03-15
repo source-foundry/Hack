@@ -1,7 +1,7 @@
 all: build
 
 archives:
-	postbuild_processing/archive_prep/archiver.sh
+	./build-archives.sh
 
 build: ttf webfonts
 
@@ -28,7 +28,7 @@ lint: shellcheck ufolint
 pipenv:
 	./build-pipenv.sh
 
-shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh postbuild_processing/archive_prep/*.sh
+shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh
 	$@ $^
 
 subsets: pipenv
