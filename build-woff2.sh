@@ -7,15 +7,13 @@
 #  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build-woff2.sh (--install-dependencies)
+#  Usage: ./build-woff2.sh (--system)
 #     Arguments:
-#     --install-dependencies (optional) - installs all
-#       build dependencies prior to the build script execution
+#     --system (optional) - use build dependencies installed on PATH
 #
 #  NOTE: If you change the source, you must build new ttf files
-#        with build.sh PRIOR to execution of this script.
-#        This script builds directly from previous ttf builds,
-#        not source files.
+#        PRIOR to the execution of this script. This script builds
+#        directly from previous ttf builds, not source files.
 #
 # ///////////////////////////////////////////////////////////////////
 
@@ -47,50 +45,31 @@ BOLDITALIC_WOFF="hack-bolditalic.woff2"
 if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build-woff2.sh (--install-dependencies)" 1>&2
+	    echo "Usage: ./build-woff2.sh (--system)" 1>&2
 	    exit 1
 fi
 
-# Optional build dependency install request with syntax `./build-web.sh --install-dependencies`
-if [ "$1" = "--install-dependencies" ]
-	then
-		# define the current directory (Hack repository)
-		CUR_DIR=$(pwd)
-
-		if test -d "$INST" -o -f "$INST"; then
-		  echo "Build directory \`$INST' must not exist."
-		  exit 1
-		fi
-
-		cd "$BUILD" || exit 1
-
-		echo "#####"
-		echo "git clone woff2 project"
-		echo "#####"
-
-		# clone the Source Foundry fork of the woff2 repo
-		#   contains fix for OS X build bug - https://github.com/google/woff2/issues/73
-		#   recursive flag to clone the brotli submodule within the woff2 repo
-		git clone --recursive https://github.com/source-foundry/woff2.git
-
-		cd "$INST" || exit 1
-
-		echo "#####"
-		echo "Build woff2"
-		echo "#####"
-
-		make clean all
-
-		# make Hack repository the current directory again following the build
-		cd "$CUR_DIR" || exit 1
+# determine if system installed executable on PATH is requested for build
+# then test for presence of the woff2_compress build dependency based upon where it should be located
+if [ "$1" = "--system" ]; then
+	WOFF2_BIN="woff2_compress"
+	if ! which $WOFF2_BIN; then
+		echo "Unable to identify woff2_compress executable on system PATH.  Please install and try again." 1>&2
+		exit 1
+	else
+		# display version of installed woff2_compress
+		echo "Beginning web font build with $WOFF2_BIN"
+	fi
 fi
 
-
-if [ -f "$WOFF2_BIN" ]; then
-	echo "Beginning web font build with $WOFF2_BIN"
-else
-	echo "Unable to locate woff2_compress on path $WOFF2_BIN. Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	exit 1
+# test for woff2_compress executable with default build approach
+if [ $# -eq 0 ]; then
+	if [ -f "$WOFF2_BIN" ]; then
+		echo "Beginning web font build with $WOFF2_BIN"
+	else
+		echo "Unable to locate woff2_compress on path $WOFF2_BIN. Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
+		exit 1
+	fi
 fi
 
 # Build woff2 files from ttf files
