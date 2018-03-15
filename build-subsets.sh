@@ -7,27 +7,17 @@
 #  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build-subsets.sh
-#
-#  NOTE: must install build dependencies in:
-#        1) build-ttf.sh
-#        2) build-woff.sh
-#        3) build-woff2.sh
-#       before you execute this script.  You can do this with:
-#
-#
-#       $ ./build-ttf.sh --install-dependencies
-#       $ ./build-woff.sh --install-dependencies
-#       $ ./build-woff2.sh --install-dependencies
+#  Usage: ./build-subsets.sh (--system)
+#     Arguments:
+#     --system (optional) - build with system installed versions
+#                           of build dependencies
 #
 # //////////////////////////////////////////////////////////////////////
 
-# ttfautohint local install path from Werner Lemberg's ttfautohint-build.sh install script
-#   - This is revised to ttfautohint on the user's PATH if this local install is not identified
-#     then the identified ttfautohint is used to execute hinting.  Versions of ttfautohint < 1.6 exit with status
-#     code 1 due to use of -R option
-#   - The intent is to support use of ttfautohint installed on a user's PATH (e.g. they've previously installed it)
+# default build tooling definitions
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
+FONTMAKE="pipenv run fontmake"
+PYTHON="pipenv run python"
 
 # The sfnt2woff-zopfli build directory.
 SFNTWOFF_BUILD="$HOME/sfnt2woff-zopfli-build"
@@ -79,64 +69,30 @@ BOLDITALIC_WOFF2="hack-bolditalic-subset.woff2"
 WEB_BUILD="build/web/fonts"
 
 # test for number of arguments
-if [ $# -gt 0 ]
+if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build-subsets.sh" 1>&2
+	    echo "Usage: ./build-subsets.sh (--system)" 1>&2
 	    exit 1
 fi
 
-# ////////////////////////////////////////
+# //////////////////////////////////////////////
 #
 #
-#  Confirm that dependencies are installed
+#  Re-define build dependencies to PATH
+#  installed versions if --system flag is used
 #
 #
-# ////////////////////////////////////////
+# //////////////////////////////////////////////
 
-INSTALLFLAG=0
-
-# ttfautohint installed
-#   - tests for install to local path from ttfautohint-build.sh script
-#   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
-if ! [ -f "$TTFAH" ]
-	then
-	    if ! which ttfautohint
-	    	then
-	            echo "ttfautohint was not found.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
-	            INSTALLFLAG=1
-	    else
-	    	TTFAH="ttfautohint"  # revise TTFAH variable to ttfautohint installed on the user's PATH for excecution of hints below
-	    	echo "ttfautohint executable identified"
-	    fi
-	else
-		echo "ttfautohint executable identified"
+if [ "$1" = "--system" ]; then
+	TTFAH="ttfautohint"
+	FONTMAKE="fontmake"
+	PYTHON="python3"
+	SFNTWOFF_BIN="sfnt2woff-zopfli"
+	WOFF2_BIN="woff2_compress"
 fi
 
-# sfntwoff-zopfli installed
-if ! [ -f "$SFNTWOFF_BIN" ]
-	then
-	    echo "sfnt2woff-zopfli was not found on the path $SFNTWOFF_BIN.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
-	    INSTALLFLAG=1
-else
-	echo "sfnt2woff-zopfli executable identified"
-fi
-
-# woff2 installed
-if ! [ -f "$WOFF2_BIN" ]
-	then
-	    echo "woff2_compress was not found on the path $WOFF2_BIN.  Please install all build dependencies with 'make build-with-dependencies', then attempt your build again." 1>&2
-	    INSTALLFLAG=1
-else
-	echo "woff2_compress executable identified"
-fi
-
-# if any of the dependency installs failed, exit and do not attempt build, notify user
-if [ $INSTALLFLAG -eq 1 ]
-	then
-	    echo "Build canceled." 1>&2
-	    exit 1
-fi
 
 # ////////////////////////////////////////////////
 #
@@ -148,7 +104,7 @@ fi
 # ////////////////////////////////////////////////
 
 # cleanup any previously created temp directory that was not removed
-if ! [ -d "$TEMP_SOURCE" ]; then
+if [ -d "$TEMP_SOURCE" ]; then
 	rm -rf $TEMP_SOURCE
 fi
 
@@ -185,21 +141,21 @@ fi
 
 # build regular subset
 
-if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Regular.ufo" -o ttf
+if ! $FONTMAKE --subset -u "$TEMP_SOURCE/Hack-Regular.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Regular variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build bold subset
-if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Bold.ufo" -o ttf
+if ! $FONTMAKE --subset -u "$TEMP_SOURCE/Hack-Bold.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Bold variant subset.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build italic subset
-if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-Italic.ufo" -o ttf
+if ! $FONTMAKE --subset -u "$TEMP_SOURCE/Hack-Italic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Italic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -207,7 +163,7 @@ fi
 
 # build bold italic subset
 
-if ! pipenv run fontmake --subset -u "$TEMP_SOURCE/Hack-BoldItalic.ufo" -o ttf
+if ! $FONTMAKE --subset -u "$TEMP_SOURCE/Hack-BoldItalic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-BoldItalic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -226,7 +182,7 @@ fi
 echo " "
 echo "Attempting DSIG table fixes with fontbakery..."
 echo " "
-if ! pipenv run python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
+if ! $PYTHON postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete DSIG table fixes on the release files"
 	    exit 1
@@ -236,7 +192,7 @@ fi
 echo " "
 echo "Attempting fstype fixes with fontbakery..."
 echo " "
-if ! pipenv run python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
+if ! $PYTHON postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete fstype fixes on the release files"
 	    exit 1
