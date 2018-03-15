@@ -16,7 +16,7 @@ build-local-sfnt2woffzopfli:
 	tools/scripts/install/sfnt2woff-zopfli-build.sh
 
 build-local-woff2:
-	tools/scripts/install/woff2-build.sh
+	tools/scripts/install/woff2-compress-build.sh
 
 compile-local-dep: build-local-ttfa build-local-sfnt2woffzopfli build-local-woff2
 
