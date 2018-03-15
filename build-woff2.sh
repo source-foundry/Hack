@@ -19,7 +19,6 @@
 
 # The woff2 git clone directory.
 BUILD="$HOME"
-INST="$HOME/woff2"
 
 # woff2 executable path
 WOFF2_BIN="$BUILD/woff2/woff2_compress"
