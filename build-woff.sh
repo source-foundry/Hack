@@ -93,6 +93,13 @@ if [ "$1" = "--install-dependencies" ]
 		cd "$CUR_DIR" || exit 1
 fi
 
+# If the binary is not found, look if it is installed system-wide
+if [ ! -x "$SFNTWOFF_BIN" ]; then
+	SFNTWOFF_SYSWIDE=$(command -pv sfnt2woff-zopfli)
+	if [ -x "$SFNTWOFF_SYSWIDE" ]; then
+		SFNTWOFF_BIN=$SFNTWOFF_SYSWIDE
+	fi
+fi
 
 if [ -f "$SFNTWOFF_BIN" ]; then
 	echo "Beginning web font build with $SFNTWOFF"
