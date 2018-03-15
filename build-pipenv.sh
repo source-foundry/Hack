@@ -11,7 +11,7 @@
 #
 # /////////////////////////////////////////////////////////////////
 
-PYTHON_VERSION="3.6"
+BUILD_PYTHON_VERSION="3.6"
 
 if ! which pipenv
 	then
@@ -20,7 +20,7 @@ if ! which pipenv
 fi
 
 # install fontTools and fontmake build dependencies with pipenv
-pipenv install --python $PYTHON_VERSION --ignore-pipfile fontmake fontTools
+pipenv install --python $BUILD_PYTHON_VERSION --ignore-pipfile fontmake fontTools
 
 # test for fontmake install in venv
 if ! pipenv run fontmake --version
