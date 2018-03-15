@@ -11,6 +11,8 @@
 #
 # /////////////////////////////////////////////////////////////////
 
+PYTHON_VERSION="3.6"
+
 if ! which pipenv
 	then
 		echo "Unable to detect a pipenv install.  Please install with 'pip install pipenv' then repeat your build attempt." 1>&2
@@ -18,7 +20,7 @@ if ! which pipenv
 fi
 
 # install fontTools and fontmake build dependencies with pipenv
-pipenv install --ignore-pipfile fontmake fontTools
+pipenv install --python $PYTHON_VERSION --ignore-pipfile fontmake fontTools
 
 # test for fontmake install in venv
 if ! pipenv run fontmake --version
@@ -47,6 +49,6 @@ pipenv graph
 
 echo " "
 echo "================================="
-echo "  END PYTHON BUILD ENVIRONMENT"
+echo " "
 echo "================================="
 echo " "
