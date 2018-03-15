@@ -7,15 +7,14 @@
 #  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build-woff.sh (--install-dependencies)
+#  Usage: ./build-woff.sh (--system)
 #     Arguments:
-#     --install-dependencies (optional) - installs all
-#       build dependencies prior to the build script execution
+#     --system (optional) - build with a system installed version
+#                           of build dependencies
 #
-#  NOTE: If you change the source, you must build new ttf files
-#        with build.sh PRIOR to execution of this script.
-#        This script builds directly from previous ttf builds,
-#        not source files.
+#  NOTE: If you modify the source, you must build new ttf files
+#        PRIOR to execution of this script. This script builds
+#        directly from previous ttf builds, not source files.
 #
 # ///////////////////////////////////////////////////////////////////
 
@@ -50,55 +49,29 @@ BOLDITALIC_WOFF="hack-bolditalic.woff"
 if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build-woff.sh (--install-dependencies)" 1>&2
+	    echo "Usage: ./build-woff.sh (--system)" 1>&2
 	    exit 1
 fi
 
-# Optional build dependency install request with syntax `./build-web.sh --install-dependencies`
-if [ "$1" = "--install-dependencies" ]
-	then
-		# define the current directory (Hack repository)
-		CUR_DIR=$(pwd)
-
-		if test -d "$BUILD" -o -f "$BUILD"; then
-		  echo "Build directory \`$BUILD' must not exist."
-		  exit 1
-		fi
-
-		mkdir "$BUILD"
-
-		cd "$BUILD" || exit 1
-
-		echo "#####"
-		echo "Download archive."
-		echo "#####"
-
-		curl -L -O "https://github.com/bramstein/sfnt2woff-zopfli/archive/v$SFNTWOFF_VERSION.tar.gz"
-
-		echo "#####"
-		echo "Extract archives."
-		echo "#####"
-
-		tar -xzvf "v$SFNTWOFF_VERSION.tar.gz"
-
-		cd "$SFNTWOFF" || exit 1
-
-		echo "#####"
-		echo "Build $SFNTWOFF."
-		echo "#####"
-
-		make
-
-		# make Hack repository the current directory again following the build
-		cd "$CUR_DIR" || exit 1
-fi
-
-
-if [ -f "$SFNTWOFF_BIN" ]; then
-	echo "Beginning web font build with $SFNTWOFF"
+# determine if system installed executable on PATH is requested for build
+# then test for presence of the sfnt2woff-zopfli build dependency based upon where it should be located
+if [ "$1" = "--system" ]; then
+	SFNTWOFF_BIN="sfnt2woff-zopfli"
+	if ! which $SFNTWOFF_BIN; then
+		echo "Unable to identify sfnt2woff-zopfli executable on system PATH.  Please install and try again." 1>&2
+		exit 1
+	else
+		# display version of installed sfnt2woff-zopfli
+		echo "Beginning web font build with $SFNTWOFF_BIN"
+	fi
 else
-	echo "Unable to locate sfnt2woff-zopfli on the path $SFNTWOFF_BIN.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	exit 1
+	if [ -f "$SFNTWOFF_BIN" ]; then
+		echo "Beginning web font build with $SFNTWOFF_BIN"
+	else
+		echo "Unable to locate sfnt2woff-zopfli on the path $SFNTWOFF_BIN.  Please install this build dependency and then repeat your build attempt." 1>&2
+	    exit 1
+	fi
+
 fi
 
 # Build woff files from ttf files
@@ -165,8 +138,3 @@ fi
 if [ -f "$WOFF_BUILD/$BOLDITALIC_WOFF" ]; then
 	echo "Bold Italic woff build path: $WOFF_BUILD/$BOLDITALIC_WOFF"
 fi
-
-
-
-
-
