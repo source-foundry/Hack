@@ -14,6 +14,7 @@
 # The woff2 git clone directory.
 BUILD="$HOME"
 INST="$HOME/woff2"
+WOFF2_VERSION_TAG="v1.0.2"
 
 # woff2 executable path
 WOFF2_BIN="$BUILD/woff2/woff2_compress"
@@ -29,12 +30,15 @@ echo "#####"
 echo "git clone woff2 project"
 echo "#####"
 
-# clone the Source Foundry fork of the woff2 repo
-#   contains fix for OS X build bug - https://github.com/google/woff2/issues/73
-#   recursive flag to clone the brotli submodule within the woff2 repo
-git clone --recursive https://github.com/source-foundry/woff2.git
+# clone the woff2 repository
+git clone --recursive https://github.com/google/woff2.git
 
 cd "$INST" || exit 1
+
+# checkout desired version tag
+echo " "
+echo "Checking out woff2 version tag $WOFF2_VERSION_TAG"
+git checkout $WOFF2_VERSION_TAG
 
 echo "#####"
 echo "Build woff2"
