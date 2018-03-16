@@ -62,4 +62,4 @@ woff2: pipenv
 woff2-system:
 	./build-woff2.sh --system
 
-.PHONY: all archives build build-with-dependencies build-local-ttfa build-local-sfnt2woffzopfli build-local-woff2 build-system compile-local-dep css lint pipenv shellcheck subsets ttf ttf-system ufolint webfonts webfonts-system woff woff-system woff2 woff2-system
+.PHONY: all archives build build-with-dependencies build-local-ttfa build-local-sfnt2woffzopfli build-local-woff2 build-system compile-local-dep css lint pipenv shellcheck subsets subsets-system ttf ttf-system ufolint webfonts webfonts-system woff woff-system woff2 woff2-system
