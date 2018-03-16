@@ -34,6 +34,9 @@ shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh
 subsets: pipenv
 	./build-subsets.sh
 
+subsets-system:
+	./build-subsets.sh --system
+
 ttf: pipenv
 	./build-ttf.sh
 
