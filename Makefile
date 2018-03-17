@@ -1,7 +1,24 @@
 all: build
 
-archives:
-	./build-archives.sh
+# FONT COMPILES
+
+#
+# Recommended usage:
+#
+#     The following targets build *.ttf, *.woff, *.woff2 (including *.woff and *.woff2 subsets):
+#
+#       `make` - builds fonts with pinned build dependency versions of all Python and local, compiled C/C++ projects
+#       `make build-system` - builds fonts with system PATH installed versions of build dependencies
+#
+#    Dependency installs for default builds with `make` can be executed with:
+#
+#      1) pip3 install pipenv
+#      2) make compile-local-dep
+#
+#    Optional dependency install for `make` if your development system does not support the defined Python interpreter version:
+#
+#      3) curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+#
 
 build: ttf webfonts
 
@@ -20,16 +37,8 @@ build-local-woff2:
 
 compile-local-dep: build-local-ttfa build-local-sfnt2woffzopfli build-local-woff2
 
-css:
-	tools/scripts/css/css-build.sh
-
-lint: shellcheck ufolint
-
 pipenv:
 	./build-pipenv.sh
-
-shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh
-	$@ $^
 
 subsets: pipenv
 	./build-subsets.sh
@@ -42,9 +51,6 @@ ttf: pipenv
 
 ttf-system:
 	./build-ttf.sh --system
-
-ufolint: source/*.ufo
-	$@ $^
 
 webfonts: woff woff2 subsets
 
@@ -61,5 +67,28 @@ woff2: pipenv
 
 woff2-system:
 	./build-woff2.sh --system
+
+
+# RELEASE PREP
+
+archives:
+	./build-archives.sh
+
+css:
+	tools/scripts/css/css-build.sh
+
+
+# TESTING
+
+lint: shellcheck ufolint
+
+shellcheck: *.sh tools/scripts/css/*.sh tools/scripts/install/*.sh
+	$@ $^
+
+ufolint: source/*.ufo
+	$@ $^
+
+
+# PHONY TARGETS
 
 .PHONY: all archives build build-with-dependencies build-local-ttfa build-local-sfnt2woffzopfli build-local-woff2 build-system compile-local-dep css lint pipenv shellcheck subsets subsets-system ttf ttf-system ufolint webfonts webfonts-system woff woff-system woff2 woff2-system
