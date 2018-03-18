@@ -1,6 +1,6 @@
 # Hack Font Builds from Source Files
 
-Hack is compiled from UFO v2 spec source files to ttf, woff, and woff2 fonts with free, open source build tools.  The default build approach requires a *nix platform (macOS, Linux, Unix-like development platform for Windows such as MinGW) and uses pinned build dependency versions in order to support font files that render in a reproducible fashion (relative to upstream repository builds) in a given rendering environment.  See the bottom of this document for an alternative approach that uses system-installed versions of all build dependencies and supports build dependency versions that differ from those used in the upstream repository.
+Hack is compiled from UFO v2 spec source files to ttf, woff, and woff2 fonts with free, open source build tools. The default build approach requires a *nix platform (macOS, Linux, a Unix-like development platform for Windows such as MinGW) and uses pinned build dependency versions to support font files that render reproducibly (relative to upstream repository builds) in a given rendering environment. See the bottom of this document for an alternative approach that uses system-installed versions of all build dependencies and supports build dependency versions that differ from those used in the upstream repository.
 
 ## Quickstart
 The following commands will do the following:
@@ -22,7 +22,7 @@ $ make compile-local-dep
 $ make
 ```
 
-The build process takes minutes to complete on the average system.  You will see a great deal of text stream by in your terminal during the build.  This is normal and expected during the build.
+The build process takes minutes to complete on the average system.  You will see a great deal of text stream by in your terminal during the build.  This text stream is normal and expected during the build.
 
 You will find the compiled fonts in the build directory (located in the top level of the source repository) after you complete these steps.
 
@@ -44,7 +44,7 @@ Detailed instructions follow if you have difficulties with any of the above step
 
 The Hack fonts are built with a Python version 3 interpreter.  The Python interpreter version is fixed at each git commit. You may view the Python interpreter in use at any commit in the Pipfile and Pipfile.lock files that are located in the root directory of the repository.  [Click here](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/source-foundry/Hack%24%40master+python_version) to search for these values in the current HEAD commit of the master branch.
 
-If this version of the Python interpreter is not available on your development system, you may install [`pyenv`](https://github.com/pyenv/pyenv-installer) before you attempt your build.  If `pyenv` is installed prior to the build, `pipenv` will automatically install the interpreter defined in the Hack build in the virtual environment used for the build, even if it is not currently installed on your system.
+If this version of the Python interpreter is not available on your development system, you may install [`pyenv`](https://github.com/pyenv/pyenv-installer) before you attempt your build.  If `pyenv` is installed before the build, `pipenv` will automatically install the interpreter defined in the Hack build in the virtual environment used for the build, even if it is not installed on your system.
 
 The pyenv project defines the following command as a supported approach to install `pyenv`:
 
@@ -161,7 +161,7 @@ Web fonts are available on the path `build/web/fonts` from the root of the repos
 
 ## Uninstall build dependencies
 
-Python packages that are used during the build process are installed in a virtual environment with `pipenv`.  The virtual environment and all Python packages installed in that environment can be eliminated with execution of the following command in the root of the repository:
+Python packages that are used during the build process are installed in a virtual environment with `pipenv`.  The virtual environment and all Python packages installed in that environment can be eliminated with the execution of the following command in the root of the repository:
 
 ```
 $ pipenv -rm
@@ -175,7 +175,7 @@ $ rm -rf ~/sfnt2woff-zopfli-build
 $ rm -rf ~/woff2
 ```
 
-In cases where a compile did not proceed to completion (e.g. you intentionally exited early or an exception was raised that halted the build prior to completion) a temporary directory may still exist in the root of the repository on the path `master_ttf`.  This can be removed with:
+In cases where a compile did not proceed to completion (e.g., you intentionally exited early, or an exception was raised that led to an early termination of the build), a temporary directory may still exist in the root of the repository on the path `master_ttf`.  This directory can be removed with:
 
 ```
 $ rm -rf master_ttf
