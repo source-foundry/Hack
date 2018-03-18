@@ -28,6 +28,16 @@ You will find the compiled fonts in the build directory (located in the top leve
 
 Detailed instructions follow if you have difficulties with any of the above steps.  If you encounter an error that is not addressed in this build documentation, please report it as a new issue report on the repository.  *Please review the entire build document below to confirm that we have not explained how to address your problem before you submit a new issue report*!
 
+## Contents
+
+- [Build dependency installation](#build-dependencies)
+	- [Python interpreter](#python-interpreter-dependency)
+	- [ttf desktop font dependencies](#desktop-font-ttf-dependencies)
+	- [woff and woff2 web font dependencies](#web-font-woff--woff2-dependencies)
+- [Automated font builds with make](#automated-font-builds)
+- [Build paths](#build-paths)
+- [Uninstall build dependencies](#uninstall-build-dependencies)
+
 ## Build dependencies
 
 ### Python interpreter dependency
@@ -149,7 +159,7 @@ Desktop fonts are available on the path `build/ttf` from the root of the reposit
 
 Web fonts are available on the path `build/web/fonts` from the root of the repository upon completion of your build.  CSS files that may be used with your web font builds are available on the path `build/web`.
 
-## Uninstall
+## Uninstall build dependencies
 
 Python packages that are used during the build process are installed in a virtual environment with `pipenv`.  The virtual environment and all Python packages installed in that environment can be eliminated with execution of the following command in the root of the repository:
 
@@ -170,4 +180,3 @@ In cases where a compile did not proceed to completion (e.g. you intentionally e
 ```
 $ rm -rf master_ttf
 ```
-
