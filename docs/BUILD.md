@@ -180,3 +180,39 @@ In cases where a compile did not proceed to completion (e.g., you intentionally 
 ```
 $ rm -rf master_ttf
 ```
+
+## Compile with system PATH installed build dependencies
+
+The following make targets are available for those who would like to build with system PATH installed versions of all build dependencies.  This approach allows you build with dependency versions that differ from those used in the upstream project.  Please see the note at the bottom of this section for caveats to this approach.
+
+#### System PATH build dependency compiles of all fonts
+
+```
+$ make build-system
+```
+
+#### System PATH build dependency compiles of desktop fonts
+
+```
+$ make ttf-system
+```
+
+#### System PATH build dependency compiles of all web fonts
+
+```
+$ make webfonts-system
+```
+
+#### System PATH build dependency compiles of woff web fonts
+
+```
+$ make woff-system
+```
+
+#### System PATH build dependency compiles of woff web fonts
+
+```
+$ make woff2-system
+```
+
+You must install all build dependencies before use of these make targets.  Please refer to the documentation for the respective build dependency projects for details about installations.  While we release these system PATH installed compile make targets to simplify the approach to builds for users who prefer not to (or cannot) create a development environment that matches the one used for our upstream builds, this approach is not otherwise supported or tested in this repository.  Please understand this caveat if you intend to release fonts built with this approach in a production environment as differences in the build dependency versions can alter font renders.
