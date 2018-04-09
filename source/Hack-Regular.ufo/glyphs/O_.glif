@@ -4,62 +4,50 @@
   <unicode hex="004F"/>
   <outline>
     <contour>
-      <point x="616" y="-29" type="curve" name="hr00" smooth="yes"/>
-      <point x="447" y="-29"/>
-      <point x="322" y="35"/>
-      <point x="240" y="162" type="curve" smooth="yes"/>
-      <point x="158" y="289"/>
-      <point x="117" y="483"/>
-      <point x="117" y="745" type="curve" name="sh01" smooth="yes"/>
-      <point x="117" y="1006"/>
-      <point x="158" y="1201"/>
-      <point x="241" y="1328" type="curve" smooth="yes"/>
-      <point x="324" y="1456"/>
-      <point x="445" y="1520"/>
-      <point x="616" y="1520" type="curve" name="at01" smooth="yes"/>
-      <point x="780" y="1520"/>
-      <point x="908" y="1461"/>
-      <point x="993" y="1328" type="curve" smooth="yes"/>
-      <point x="1075" y="1200"/>
-      <point x="1116" y="1006"/>
-      <point x="1116" y="745" type="curve" name="sh02" smooth="yes"/>
-      <point x="1116" y="485"/>
-      <point x="1075" y="291"/>
-      <point x="993" y="163" type="curve" smooth="yes"/>
-      <point x="908" y="30"/>
-      <point x="780" y="-29"/>
+      <point x="616.133" y="-29" type="curve" smooth="yes"/>
+      <point x="287.817" y="-29"/>
+      <point x="117" y="234.919"/>
+      <point x="117" y="743.559" type="curve" smooth="yes"/>
+      <point x="117" y="1253.36"/>
+      <point x="288.6" y="1520"/>
+      <point x="617.584" y="1520" type="curve" smooth="yes"/>
+      <point x="945.592" y="1520"/>
+      <point x="1116" y="1255.29"/>
+      <point x="1116" y="745.766" type="curve" smooth="yes"/>
+      <point x="1116" y="235.584"/>
+      <point x="945.294" y="-29"/>
     </contour>
     <contour>
-      <point x="616" y="135" type="curve" name="dv01" smooth="yes"/>
-      <point x="719" y="135"/>
-      <point x="793" y="182"/>
-      <point x="838" y="276" type="curve" smooth="yes"/>
-      <point x="883" y="368"/>
-      <point x="905" y="524"/>
-      <point x="905" y="745" type="curve" name="ah01" smooth="yes"/>
-      <point x="905" y="965"/>
-      <point x="883" y="1122"/>
-      <point x="838" y="1215" type="curve" smooth="yes"/>
-      <point x="793" y="1309"/>
-      <point x="719" y="1356"/>
-      <point x="616" y="1356" type="curve" name="sv01" smooth="yes"/>
-      <point x="514" y="1356"/>
-      <point x="441" y="1309"/>
-      <point x="396" y="1215" type="curve" smooth="yes"/>
-      <point x="351" y="1120"/>
-      <point x="328" y="964"/>
-      <point x="328" y="745" type="curve" name="sh03" smooth="yes"/>
-      <point x="328" y="527"/>
-      <point x="351" y="371"/>
-      <point x="396" y="276" type="curve" smooth="yes"/>
-      <point x="441" y="182"/>
-      <point x="514" y="135"/>
+      <point x="616.5" y="135" type="curve" smooth="yes"/>
+      <point x="718.636" y="135"/>
+      <point x="792.841" y="181.671"/>
+      <point x="837.522" y="274.012" type="curve" smooth="yes"/>
+      <point x="882.734" y="367.451"/>
+      <point x="905" y="522.697"/>
+      <point x="905" y="744.5" type="curve" smooth="yes"/>
+      <point x="905" y="966.549"/>
+      <point x="882.685" y="1122.65"/>
+      <point x="837.532" y="1216.47" type="curve" smooth="yes"/>
+      <point x="792.901" y="1309.21"/>
+      <point x="718.773" y="1356"/>
+      <point x="616.5" y="1356" type="curve" smooth="yes"/>
+      <point x="514.176" y="1356"/>
+      <point x="441.077" y="1309.16"/>
+      <point x="396.147" y="1214.81" type="curve" smooth="yes"/>
+      <point x="350.75" y="1119.47"/>
+      <point x="328" y="962.803"/>
+      <point x="328" y="745.5" type="curve" smooth="yes"/>
+      <point x="328" y="528.197"/>
+      <point x="350.75" y="371.525"/>
+      <point x="396.147" y="276.191" type="curve" smooth="yes"/>
+      <point x="441.077" y="181.838"/>
+      <point x="514.176" y="135"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.lastChange</key>
+    <string>2017-07-11 17:15:08 +0000</string>
+  </dict>
   </lib>
 </glyph>
