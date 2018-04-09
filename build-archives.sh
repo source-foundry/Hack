@@ -2,18 +2,18 @@
 
 # ////////////////////////////////////////////////////////////////////
 #
-# archiver.sh
+# build-archives.sh
 #  A shell script that packages .zip, tar.gz, and tar.xz font archives
 #  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./archiver.sh
+#  Usage: ./build-archives.sh
 #
 # ////////////////////////////////////////////////////////////////////
 
-HACK_VERSION="v3.003"
-HACK_ARCHIVES_DIR="../../../Hack-archives"
-HACK_BUILD_DIR="../../build"
+HACK_VERSION="v4.000"
+HACK_ARCHIVES_DIR="../../Hack-archives"
+HACK_BUILD_DIR="build"
 
 
 # Make build directory the current working directory
