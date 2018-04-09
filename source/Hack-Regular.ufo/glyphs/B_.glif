@@ -4,73 +4,49 @@
   <unicode hex="0042"/>
   <outline>
     <contour>
-      <point x="166" y="1493" type="line" name="dh01"/>
+      <point x="166" y="1493" type="line"/>
       <point x="608" y="1493" type="line" smooth="yes"/>
-      <point x="760" y="1493"/>
-      <point x="878" y="1460"/>
-      <point x="961" y="1394" type="curve" smooth="yes"/>
-      <point x="1044" y="1328"/>
-      <point x="1085" y="1234"/>
-      <point x="1085" y="1113" type="curve" name="dh04" smooth="yes"/>
-      <point x="1085" y="1020"/>
-      <point x="1061" y="949"/>
-      <point x="1020" y="898" type="curve" smooth="yes"/>
-      <point x="977" y="847"/>
-      <point x="912" y="812"/>
-      <point x="823" y="799" type="curve" name="ih02"/>
-      <point x="922" y="784"/>
-      <point x="999" y="742"/>
-      <point x="1054" y="674" type="curve" smooth="yes"/>
-      <point x="1109" y="606"/>
-      <point x="1137" y="518"/>
-      <point x="1137" y="409" type="curve" name="sh01" smooth="yes"/>
-      <point x="1137" y="274"/>
-      <point x="1093" y="173"/>
-      <point x="1004" y="104" type="curve" smooth="yes"/>
-      <point x="915" y="35"/>
-      <point x="783" y="0"/>
-      <point x="608" y="0" type="curve" name="ab01" smooth="yes"/>
-      <point x="166" y="0" type="line"/>
+      <point x="911" y="1493"/>
+      <point x="1085" y="1354"/>
+      <point x="1085" y="1108" type="curve" smooth="yes"/>
+      <point x="1085" y="931"/>
+      <point x="996" y="824"/>
+      <point x="823" y="799" type="curve"/>
+      <point x="1021" y="769"/>
+      <point x="1137" y="625"/>
+      <point x="1137" y="411" type="curve" smooth="yes"/>
+      <point x="1137" y="142"/>
+      <point x="953" y="-0"/>
+      <point x="608" y="-0" type="curve" smooth="yes"/>
+      <point x="166" y="-0" type="line"/>
     </contour>
     <contour>
-      <point x="604" y="877" type="line" name="hr01" smooth="yes"/>
-      <point x="705" y="877"/>
-      <point x="772" y="895"/>
-      <point x="816" y="934" type="curve" smooth="yes"/>
-      <point x="859" y="971"/>
-      <point x="881" y="1030"/>
-      <point x="881" y="1111" type="curve" name="dh03" smooth="yes"/>
-      <point x="881" y="1191"/>
-      <point x="860" y="1244"/>
-      <point x="817" y="1277" type="curve" smooth="yes"/>
-      <point x="774" y="1310"/>
-      <point x="703" y="1327"/>
-      <point x="604" y="1327" type="curve" name="sv01" smooth="yes"/>
-      <point x="369" y="1327" type="line" name="dh02"/>
-      <point x="369" y="877" type="line" name="hr02"/>
+      <point x="604" y="877" type="line" smooth="yes"/>
+      <point x="796" y="877"/>
+      <point x="881" y="949"/>
+      <point x="881" y="1108" type="curve" smooth="yes"/>
+      <point x="881" y="1264"/>
+      <point x="800" y="1327"/>
+      <point x="604" y="1327" type="curve" smooth="yes"/>
+      <point x="369" y="1327" type="line"/>
+      <point x="369" y="877" type="line"/>
     </contour>
     <contour>
-      <point x="608" y="166" type="line" name="sv02" smooth="yes"/>
-      <point x="725" y="166"/>
-      <point x="808" y="187"/>
-      <point x="859" y="228" type="curve" smooth="yes"/>
-      <point x="909" y="269"/>
-      <point x="934" y="336"/>
-      <point x="934" y="430" type="curve" name="ih01" smooth="yes"/>
-      <point x="934" y="527"/>
-      <point x="908" y="599"/>
-      <point x="855" y="645" type="curve" name="hr03" smooth="yes"/>
-      <point x="802" y="690"/>
-      <point x="719" y="713"/>
-      <point x="608" y="713" type="curve" name="dv01" smooth="yes"/>
-      <point x="369" y="713" type="line" name="sh02"/>
+      <point x="608" y="166" type="line" smooth="yes"/>
+      <point x="838" y="166"/>
+      <point x="934" y="244"/>
+      <point x="934" y="430" type="curve" smooth="yes"/>
+      <point x="934" y="624"/>
+      <point x="831" y="713"/>
+      <point x="608" y="713" type="curve" smooth="yes"/>
+      <point x="369" y="713" type="line"/>
       <point x="369" y="166" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.lastChange</key>
+    <string>2017-07-11 17:15:08 +0000</string>
+  </dict>
   </lib>
 </glyph>
