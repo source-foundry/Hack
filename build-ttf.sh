@@ -7,75 +7,74 @@
 #  Copyright 2018 Christopher Simpkins
 #  MIT License
 #
-#  Usage: ./build-ttf.sh (--install-dependencies)
+#  Usage: ./build-ttf.sh (--system)
 #     Arguments:
-#     --install-dependencies (optional) - installs all
-#       build dependencies prior to the build script execution
+#     --system (optional) - use system installed build dependencies
 #
 # /////////////////////////////////////////////////////////////////
 
-# ttfautohint local install path from Werner Lemberg's ttfautohint-build.sh install script
-#   - This is revised to ttfautohint on the user's PATH if this local install is not identified
-#     then the identified ttfautohint is used to execute hinting.  Versions of ttfautohint < 1.6 exit with status
-#     code 1 due to use of -R option
-#   - The intent is to support use of ttfautohint installed on a user's PATH (e.g. they've previously installed it)
+# default build tooling definitions
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
+FONTMAKE="pipenv run fontmake"
+PYTHON="pipenv run python"
+INSTALLFLAG=0
 
 # test for number of arguments
 if [ $# -gt 1 ]
 	then
 	    echo "Inappropriate arguments included in your command." 1>&2
-	    echo "Usage: ./build-ttf.sh (--install-dependencies)" 1>&2
+	    echo "Usage: ./build-ttf.sh (--system)" 1>&2
 	    exit 1
 fi
 
-# Optional build dependency install request with syntax `./build.sh --install-dependencies`
-if [ "$1" = "--install-dependencies" ]
+# Optional build with system-installed build dependencies instead of pinned build process defined versions
+if [ "$1" = "--system" ]
 	then
-		# fontmake
-		pip install --upgrade fontmake
-		# fontTools (installed with fontmake at this time. leave this as dependency check as python scripts for fixes require it should fontTools eliminate dep)
-		pip install --upgrade fonttools
-		# ttfautohint v1.6 (must be pinned to v1.6 and above for Hack instruction sets)
-        tools/scripts/install/ttfautohint-build.sh
+		# re-define the default executables to executables that exist on PATH
+		TTFAH="ttfautohint"
+		FONTMAKE="fontmake"
+		PYTHON="python3"
 
+		echo "================================="
+        echo "  BUILD ENVIRONMENT"
+        echo "================================="
+		# test re-defined system-installed build dependency paths
+		if ! which "$TTFAH"; then
+			echo "Unable to identify a system installed version of ttfautohint.  Please install and try again." 1>&2
+			INSTALLFLAG=1
+		else
+			ttfautohint --version
+		fi
+		if ! which "$FONTMAKE"; then
+			echo "Unable to identify a system installed version of fontmake.  Please install and try again." 1>&2
+			INSTALLFLAG=1
+		else
+			"$FONTMAKE" --version
+		fi
+		if ! which "$PYTHON"; then
+			echo "Unable to identify a Python 3 installation.  Please install and try again." 1>&2
+			INSTALLFLAG=1
+		else
+			"$PYTHON" --version
+		fi
+		echo "================================="
+        echo " "
+        echo "================================="
+        echo " "
 fi
 
-# confirm executable installs and library imports for build dependencies
-INSTALLFLAG=0
+# ttfautohint path test for default builds
+# test for local ttfautohint install using repository provided install script and defined ttfautohint version (and its dependencies)
+# no tests for Python build dependencies here because they are always installed by default & tested in the pipenv virtualenv before these steps
+if [ $# -eq 0 ]; then
+	if ! [ -f "$TTFAH" ]; then
+		echo "Unable to identify the expected local install path for ttfautohint.  Please install and try again." 1>&2
+		INSTALLFLAG=1
+	fi
+fi
 
-echo "Confirming that build dependencies are installed..."
-echo " "
-# fontmake installed
-if ! which fontmake
-	then
-	    echo "Unable to install fontmake with 'pip install fontmake'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	    INSTALLFLAG=1
-fi
-# fontTools python library can be imported
-if ! python -c "import fontTools"
-	then
-	    echo "Unable to install fontTools with 'pip install fonttools'.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	    INSTALLFLAG=1
-else
-	echo "fontTools Python library identified"
-fi
-# ttfautohint installed
-#   - tests for install to local path from ttfautohint-build.sh script
-#   - if not found on this path, tests for install on system PATH - if found, revises TTFAH to the string "ttfautohint" for execution of instruction sets
-if ! [ -f "$TTFAH" ]
-	then
-	    if ! which ttfautohint
-	    	then
-	            echo "Unable to install ttfautohint from source.  Please attempt a manual install of this build dependency and then repeat your build attempt." 1>&2
-	            INSTALLFLAG=1
-	    else
-	    	TTFAH="ttfautohint"  # revise TTFAH variable to ttfautohint installed on the user's PATH for excecution of hints below
-	    fi
-fi
-# if any of the dependency installs failed, exit and do not attempt build, notify user
-if [ $INSTALLFLAG -eq 1 ]
-	then
+# If any of the dependency checks failed, exit the build and notify user
+if [ $INSTALLFLAG -eq 1 ]; then
 	    echo "Build canceled." 1>&2
 	    exit 1
 fi
@@ -110,21 +109,21 @@ fi
 
 # build regular set
 
-if ! fontmake -u "source/Hack-Regular.ufo" -o ttf
+if ! $FONTMAKE -u "source/Hack-Regular.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Regular variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build bold set
-if ! fontmake -u "source/Hack-Bold.ufo" -o ttf
+if ! $FONTMAKE -u "source/Hack-Bold.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Bold variant set.  Build canceled." 1>&2
 	    exit 1
 fi
 
 # build italic set
-if ! fontmake -u "source/Hack-Italic.ufo" -o ttf
+if ! $FONTMAKE -u "source/Hack-Italic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-Italic variant set.  Build canceled." 1>&2
 	    exit 1
@@ -132,7 +131,7 @@ fi
 
 # build bold italic set
 
-if ! fontmake -u "source/Hack-BoldItalic.ufo" -o ttf
+if ! $FONTMAKE -u "source/Hack-BoldItalic.ufo" -o ttf
 	then
 	    echo "Unable to build the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
@@ -144,7 +143,7 @@ fi
 echo " "
 echo "Attempting DSIG table fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
+if ! $PYTHON postbuild_processing/fixes/fix-dsig.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete DSIG table fixes on the release files"
 	    exit 1
@@ -154,7 +153,7 @@ fi
 echo " "
 echo "Attempting fstype fixes with fontbakery..."
 echo " "
-if ! python postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
+if ! $PYTHON postbuild_processing/fixes/fix-fstype.py master_ttf/*.ttf
 	then
 	    echo "Unable to complete fstype fixes on the release files"
 	    exit 1
