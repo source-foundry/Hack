@@ -4,26 +4,26 @@
   <unicode hex="0028"/>
   <outline>
     <contour>
-      <point x="947" y="-270" type="line" name="hr00"/>
-      <point x="531" y="-165"/>
-      <point x="293" y="189"/>
-      <point x="293" y="683" type="curve" smooth="yes" name="dh01"/>
-      <point x="293" y="1177"/>
-      <point x="531" y="1531"/>
-      <point x="947" y="1636" type="curve" name="at01"/>
-      <point x="947" y="1468" type="line"/>
-      <point x="651" y="1324"/>
-      <point x="477" y="1081"/>
-      <point x="477" y="683" type="curve" smooth="yes" name="dh02"/>
-      <point x="477" y="285"/>
-      <point x="651" y="42"/>
-      <point x="947" y="-102" type="curve" name="av01"/>
+      <point x="947" y="-206" type="line" name="hr00"/>
+      <point x="535.402" y="-102.405"/>
+      <point x="293" y="250.821"/>
+      <point x="293" y="747" type="curve" smooth="yes" name="dh01"/>
+      <point x="293" y="1243.18"/>
+      <point x="535.402" y="1596.4"/>
+      <point x="947" y="1700" type="curve" name="at01"/>
+      <point x="947" y="1532" type="line"/>
+      <point x="631.582" y="1379.21"/>
+      <point x="477" y="1121.02"/>
+      <point x="477" y="747" type="curve" smooth="yes" name="dh02"/>
+      <point x="477" y="372.98"/>
+      <point x="631.582" y="114.795"/>
+      <point x="947" y="-38" type="curve" name="av01"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.lastChange</key>
+    <string>2017-07-11 17:15:08 +0000</string>
+  </dict>
   </lib>
 </glyph>
