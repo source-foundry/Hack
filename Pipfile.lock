@@ -48,52 +48,54 @@
         },
         "cu2qu": {
             "hashes": [
-                "sha256:b177236481117339a7b9363ab018b31f0cbf80b199abe64e33a10adaddb93a61",
-                "sha256:f6cb02827079ed41838ddb7d073ad7a426662a2f4fd7be32f33826b64f6facdb"
+                "sha256:33459f01d1f7ac35db39c6ad0e894984249c7e298974e1ac797e18717b5f5e39",
+                "sha256:f03a9d0f697bc4334af9cabc4002bfb1fea988bcfe2bffff46530c26b6ba7991"
             ],
-            "version": "==1.4.0"
+            "version": "==1.5.0"
         },
         "defcon": {
             "hashes": [
-                "sha256:42bcc52bd2a277091c27af4d2ec9308db7a6fc20b5b9898ce46bd3e49fa8540e",
-                "sha256:a6e27b5d938501514378c5b8adfc2315f738756deef7f1165b6eddf1c40ebb0a"
+                "sha256:77b0becf55b544283bc451c5247cea7ad79f1ef813b1e65b9ef6946906db5543",
+                "sha256:782824bc0554f7e68c8da5d53729571cb5d9316eb5f95b14ca19953b8b9c01aa"
             ],
-            "version": "==0.3.5"
+            "version": "==0.5.1"
         },
         "fontmake": {
             "hashes": [
-                "sha256:537586d53e040a8f990ca68ca6efcfc1ac57a080d1dadc6478f79271fce6f5f5",
-                "sha256:6582efe3b4ae777ee1b6e71f8e94466a68a91935b317dfbf444a32928d6f74c9"
+                "sha256:7d6f012ff61ceb9ab76cf53cd85e70af540b0195fd9520f1e806e2f3c8b6a2a9",
+                "sha256:b3d8b42523d129c29425c6c8394a040c230b6410806bb5a0055f981974bc604e"
             ],
-            "version": "==1.4.0"
+            "index": "pypi",
+            "version": "==1.5.0"
         },
         "fontmath": {
             "hashes": [
-                "sha256:0be82c86eeb620608f7d6c4509e66246d02b95641d686cb8df668a6697ee8f9d",
-                "sha256:2a7bbee59c2e06659e95c3e9c4a656d19fe0584a2f2bc711588e1c884e14bf14"
+                "sha256:1d1424ccbe80e22948c3c12cf9ee377fad9c39ff2edc38b11a12ebfd8ecf4a60",
+                "sha256:a35dde1d500bcb9d659916aa820f31bc7184fe4950708ffc00450e9ecd6c243f"
             ],
-            "version": "==0.4.4"
+            "version": "==0.4.5"
         },
         "fonttools": {
             "hashes": [
-                "sha256:5cc459fb891968e35852fceb93aad4272fa782f90332ffb603f0fcab1d0ac2d6",
-                "sha256:d13e98c9f3b635a5334dab69eb471d7286928ac82db7ca57b5bf4cdf3824789a"
+                "sha256:a1ab542526347b33be5c62421081de02dc839481e9f37245a8cbe4d078284327",
+                "sha256:a81b57be6c9b556065d7f67a9ba4eb050c5074590f933d4902cd6ef331865aee"
             ],
-            "version": "==3.24.1"
+            "index": "pypi",
+            "version": "==3.27.1"
         },
         "glyphslib": {
             "hashes": [
-                "sha256:d1e920e3969434ca1701887ac98372bff5dd0642af8a2b386504dff266610a3f",
-                "sha256:f56b1bf874b9f99228d610933a9cced919374da8a24059e927376a0a5355d081"
+                "sha256:062506cb854a431794c12f03ba2e6faad247b51feab3d59bebca8bdd10a11217",
+                "sha256:605a53ad0d5052c6aeaa7a021ccc70f5f0fbaaed87333ca6b12997cb2af255d2"
             ],
-            "version": "==2.2.1"
+            "version": "==2.3.0"
         },
         "mutatormath": {
             "hashes": [
-                "sha256:46bb5209af53ee245d0e6cb9fe47f4f5718db7c158136715cd28494b239395c5",
-                "sha256:ebf8291637c7de30fe83f9402dad17c6ac9e1feb16d530e0a560d8e6abf48fce"
+                "sha256:3353fdd0d1beb13bda458265573bbefa0d4afb5aa5f9e4d3503cb9d3b0623f12",
+                "sha256:e6da8ae2a7008085ee0bac6d62737d37b90ce4a883d89a0f3d5c19dd350b0538"
             ],
-            "version": "==2.1.0"
+            "version": "==2.1.1"
         },
         "pyclipper": {
             "hashes": [
@@ -127,10 +129,10 @@
         },
         "ufo2ft": {
             "hashes": [
-                "sha256:3fc0aa8283fa28fecf0cf2e86c327778a32cfd1955ae62731fdff0463bd8d6a5",
-                "sha256:aa2b8dd983b61e401015ced8d30540df39a5f3faf7a6b1e38c15fe23f18749c5"
+                "sha256:21f640612f6cdbc55ecc53712473dacaaed5b6f4c3eeef63dd26df3c13118858",
+                "sha256:6ce60f07290ee627e8e407305ee9d2215a34ac6450f7e9c7abc6267f8d5c7f3f"
             ],
-            "version": "==1.1.0"
+            "version": "==2.0.0"
         },
         "ufolib": {
             "hashes": [
