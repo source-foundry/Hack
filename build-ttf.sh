@@ -13,8 +13,9 @@
 #
 # /////////////////////////////////////////////////////////////////
 
-# set SOURCE_DATE_EPOCH to git commit date/time for reproducible builds
-SOURCE_DATE_EPOCH=$(git show -s --format=%ct HEAD)
+# set SOURCE_DATE_EPOCH to git commit date/time to support reproducible builds
+# at any git commit
+export SOURCE_DATE_EPOCH=$(git show -s --format=%ct HEAD)
 
 # default build tooling definitions
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
@@ -139,7 +140,6 @@ if ! $FONTMAKE -u "source/Hack-BoldItalic.ufo" -o ttf
 	    echo "Unable to build the Hack-BoldItalic variant set.  Build canceled." 1>&2
 	    exit 1
 fi
-
 
 # Desktop ttf font post build fixes
 

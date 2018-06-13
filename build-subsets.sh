@@ -15,7 +15,7 @@
 # //////////////////////////////////////////////////////////////////////
 
 # set SOURCE_DATE_EPOCH to git commit date/time for reproducible builds
-SOURCE_DATE_EPOCH=$(git show -s --format=%ct HEAD)
+export SOURCE_DATE_EPOCH=$(git show -s --format=%ct HEAD)
 
 # default build tooling definitions
 TTFAH="$HOME/ttfautohint-build/local/bin/ttfautohint"
