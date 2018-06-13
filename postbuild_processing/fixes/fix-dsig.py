@@ -39,7 +39,7 @@ def main(argv):
             )
             sys.exit(1)
         else:
-            font = ttLib.TTFont(path)
+            font = ttLib.TTFont(file=path, recalcTimestamp=False)
             set_empty_dsig(font)
             font.save(path)
             print(path + " - successful DSIG table fix")

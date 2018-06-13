@@ -30,7 +30,7 @@ def main(argv):
             )
             sys.exit(1)
         else:
-            font = TTFont(path)
+            font = TTFont(file=path, recalcTimestamp=False)
             font['OS/2'].fsType = 0
             font.save(path)
             print(path + " - successful fstype fix")
