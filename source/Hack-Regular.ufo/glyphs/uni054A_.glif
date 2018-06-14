@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni054A" format="1">
+<glyph name="uni054A" format="2">
   <advance width="1233"/>
   <unicode hex="054A"/>
   <outline>
     <contour>
-      <point x="958" y="917" type="line" name="hr00" smooth="yes"/>
+      <point x="958" y="917" type="line" smooth="yes" name="hr00"/>
       <point x="958" y="1022"/>
       <point x="951" y="1124"/>
       <point x="912" y="1204" type="curve" smooth="yes"/>
@@ -22,10 +22,10 @@
       <point x="45" y="932" type="line" smooth="yes"/>
       <point x="45" y="1279"/>
       <point x="201" y="1520"/>
-      <point x="601" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="601" y="1520" type="curve" smooth="yes" name="at01"/>
       <point x="1011" y="1520"/>
       <point x="1148" y="1279"/>
-      <point x="1148" y="932" type="curve" name="dh05" smooth="yes"/>
+      <point x="1148" y="932" type="curve" smooth="yes" name="dh05"/>
       <point x="1148" y="0" type="line" name="ab01"/>
       <point x="958" y="0" type="line"/>
     </contour>

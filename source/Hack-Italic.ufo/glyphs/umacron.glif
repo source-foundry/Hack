@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="umacron" format="1">
+<glyph name="umacron" format="2">
   <advance width="1233"/>
   <unicode hex="016B"/>
   <outline>
@@ -10,10 +10,10 @@
       <point x="440" y="1321" type="line"/>
     </contour>
     <contour>
-      <point x="409" y="-27" type="curve" name="ab01" smooth="yes"/>
+      <point x="409" y="-27" type="curve" smooth="yes" name="ab01"/>
       <point x="233" y="-27"/>
       <point x="125" y="74"/>
-      <point x="125" y="253" type="curve" name="dh01" smooth="yes"/>
+      <point x="125" y="253" type="curve" smooth="yes" name="dh01"/>
       <point x="125" y="296"/>
       <point x="131" y="362"/>
       <point x="143" y="426" type="curve" smooth="yes"/>
@@ -22,10 +22,10 @@
       <point x="326" y="426" type="line" smooth="yes"/>
       <point x="318" y="383"/>
       <point x="311" y="331"/>
-      <point x="311" y="296" type="curve" name="dh02" smooth="yes"/>
+      <point x="311" y="296" type="curve" smooth="yes" name="dh02"/>
       <point x="311" y="192"/>
       <point x="376" y="133"/>
-      <point x="489" y="133" type="curve" name="sv01" smooth="yes"/>
+      <point x="489" y="133" type="curve" smooth="yes" name="sv01"/>
       <point x="654" y="133"/>
       <point x="780" y="256"/>
       <point x="825" y="487" type="curve" smooth="yes"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onedotenleader" format="1">
+<glyph name="onedotenleader" format="2">
   <advance width="1233"/>
   <unicode hex="2024"/>
   <outline>
     <contour>
-      <point x="377" y="0" type="line" name="ab01" smooth="yes"/>
+      <point x="377" y="0" type="line" smooth="yes" name="ab01"/>
       <point x="358" y="0"/>
       <point x="349" y="8"/>
       <point x="349" y="25" type="curve" smooth="yes"/>
@@ -14,8 +14,8 @@
       <point x="398" y="276" type="line"/>
       <point x="401" y="294"/>
       <point x="411" y="303"/>
-      <point x="430" y="303" type="curve" name="sv03" smooth="yes"/>
-      <point x="622" y="303" type="line" name="sv04" smooth="yes"/>
+      <point x="430" y="303" type="curve" smooth="yes" name="sv03"/>
+      <point x="622" y="303" type="line" smooth="yes" name="sv04"/>
       <point x="641" y="303"/>
       <point x="650" y="295"/>
       <point x="650" y="278" type="curve" smooth="yes"/>

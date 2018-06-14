@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gamma" format="1">
+<glyph name="gamma" format="2">
   <advance width="1233"/>
   <unicode hex="03B3"/>
   <outline>
@@ -8,7 +8,7 @@
       <point x="254" y="836" type="line" smooth="yes"/>
       <point x="224" y="920"/>
       <point x="178" y="962"/>
-      <point x="115" y="962" type="curve" name="sv01" smooth="yes"/>
+      <point x="115" y="962" type="curve" smooth="yes" name="sv01"/>
       <point x="66" y="962" type="line"/>
       <point x="66" y="1120" type="line" name="at01"/>
       <point x="136" y="1120" type="line" smooth="yes"/>

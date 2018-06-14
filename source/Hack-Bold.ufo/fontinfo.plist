@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
@@ -12,6 +12,8 @@
 	<integer>-492</integer>
 	<key>familyName</key>
 	<string>Hack</string>
+	<key>guidelines</key>
+	<array/>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
@@ -21,8 +23,7 @@
 	<key>openTypeHeadCreated</key>
 	<string>2017/10/23 12:00:00</string>
 	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeHheaAscender</key>
 	<integer>1901</integer>
 	<key>openTypeHheaDescender</key>
@@ -142,8 +143,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>4</integer>
 	</array>
 	<key>openTypeOS2Selection</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>530</integer>
 	<key>openTypeOS2StrikeoutSize</key>
@@ -215,7 +215,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.036999999999999998</real>
+	<real>0.037</real>
 	<key>postscriptBlueShift</key>
 	<integer>14</integer>
 	<key>postscriptBlueValues</key>
@@ -227,6 +227,10 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 		<integer>1493</integer>
 		<integer>1520</integer>
 	</array>
+	<key>postscriptFamilyBlues</key>
+	<array/>
+	<key>postscriptFamilyOtherBlues</key>
+	<array/>
 	<key>postscriptFontName</key>
 	<string>Hack-Bold</string>
 	<key>postscriptForceBold</key>
@@ -272,7 +276,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 	<key>versionMajor</key>
 	<integer>4</integer>
 	<key>versionMinor</key>
-	<integer>000</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>1120</integer>
 </dict>

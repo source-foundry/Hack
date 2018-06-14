@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni21B6" format="1">
+<glyph name="uni21B6" format="2">
   <advance width="1233"/>
   <unicode hex="21B6"/>
   <outline>
@@ -13,7 +13,7 @@
       <point x="433" y="910" type="curve" smooth="yes"/>
       <point x="514" y="994"/>
       <point x="621" y="1037"/>
-      <point x="742" y="1037" type="curve" name="dv02" smooth="yes"/>
+      <point x="742" y="1037" type="curve" smooth="yes" name="dv02"/>
       <point x="863" y="1037"/>
       <point x="968" y="994"/>
       <point x="1052" y="910" type="curve" smooth="yes"/>
@@ -26,7 +26,7 @@
       <point x="903" y="758" type="curve" smooth="yes"/>
       <point x="862" y="801"/>
       <point x="813" y="824"/>
-      <point x="749" y="824" type="curve" name="dv01" smooth="yes"/>
+      <point x="749" y="824" type="curve" smooth="yes" name="dv01"/>
       <point x="689" y="824"/>
       <point x="631" y="804"/>
       <point x="587" y="759" type="curve" smooth="yes"/>

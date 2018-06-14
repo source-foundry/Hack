@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eta" format="1">
+<glyph name="eta" format="2">
   <advance width="1233"/>
   <unicode hex="03B7"/>
   <outline>
     <contour>
-      <point x="866" y="694" type="line" name="ah01" smooth="yes"/>
+      <point x="866" y="694" type="line" smooth="yes" name="ah01"/>
       <point x="866" y="895"/>
       <point x="799" y="987"/>
-      <point x="648" y="987" type="curve" name="sv01" smooth="yes"/>
+      <point x="648" y="987" type="curve" smooth="yes" name="sv01"/>
       <point x="473" y="987"/>
       <point x="379" y="862"/>
       <point x="379" y="633" type="curve" smooth="yes"/>
@@ -18,10 +18,10 @@
       <point x="379" y="952" type="line" name="sh03"/>
       <point x="444" y="1081"/>
       <point x="558" y="1147"/>
-      <point x="711" y="1147" type="curve" name="sv02" smooth="yes"/>
+      <point x="711" y="1147" type="curve" smooth="yes" name="sv02"/>
       <point x="940" y="1147"/>
       <point x="1051" y="999"/>
-      <point x="1051" y="694" type="curve" name="sh04" smooth="yes"/>
+      <point x="1051" y="694" type="curve" smooth="yes" name="sh04"/>
       <point x="1051" y="-426" type="line" name="ab01"/>
       <point x="866" y="-426" type="line"/>
     </contour>

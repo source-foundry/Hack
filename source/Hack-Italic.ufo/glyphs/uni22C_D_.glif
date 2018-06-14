@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni22CD" format="1">
+<glyph name="uni22CD" format="2">
   <advance width="1233"/>
   <unicode hex="22CD"/>
   <outline>
     <contour>
-      <point x="383" y="674" type="curve" name="dv03" smooth="yes"/>
+      <point x="383" y="674" type="curve" smooth="yes" name="dv03"/>
       <point x="274" y="674"/>
       <point x="180" y="715"/>
       <point x="88" y="788" type="curve"/>
       <point x="88" y="963" type="line"/>
       <point x="188" y="879"/>
       <point x="275" y="840"/>
-      <point x="371" y="840" type="curve" name="dv04" smooth="yes"/>
+      <point x="371" y="840" type="curve" smooth="yes" name="dv04"/>
       <point x="443" y="840"/>
       <point x="505" y="862"/>
       <point x="578" y="894" type="curve"/>
@@ -20,17 +20,17 @@
       <point x="610" y="909" type="curve" smooth="yes"/>
       <point x="706" y="953"/>
       <point x="780" y="963"/>
-      <point x="840" y="963" type="curve" name="dv02" smooth="yes"/>
+      <point x="840" y="963" type="curve" smooth="yes" name="dv02"/>
       <point x="949" y="963"/>
       <point x="1041" y="928"/>
       <point x="1145" y="848" type="curve" name="hr01"/>
       <point x="1145" y="674" type="line" name="hr02"/>
       <point x="1041" y="765"/>
       <point x="951" y="797"/>
-      <point x="848" y="797" type="curve" name="dv01" smooth="yes"/>
+      <point x="848" y="797" type="curve" smooth="yes" name="dv01"/>
       <point x="765" y="797"/>
       <point x="711" y="776"/>
-      <point x="621" y="739" type="curve" name="hr03" smooth="yes"/>
+      <point x="621" y="739" type="curve" smooth="yes" name="hr03"/>
       <point x="588" y="725" type="line" smooth="yes"/>
       <point x="507" y="690"/>
       <point x="455" y="674"/>

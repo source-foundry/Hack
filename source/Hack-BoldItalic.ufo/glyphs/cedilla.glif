@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedilla" format="1">
+<glyph name="cedilla" format="2">
   <advance width="1233"/>
   <unicode hex="00B8"/>
   <outline>
     <contour>
-      <point x="349" y="-401" type="curve" name="dv01" smooth="yes"/>
+      <point x="349" y="-401" type="curve" smooth="yes" name="dv01"/>
       <point x="314" y="-401"/>
       <point x="272" y="-398"/>
       <point x="249" y="-395" type="curve" smooth="yes"/>
@@ -17,7 +17,7 @@
       <point x="262" y="-245" type="curve" smooth="yes"/>
       <point x="289" y="-251"/>
       <point x="314" y="-254"/>
-      <point x="339" y="-254" type="curve" name="dv02" smooth="yes"/>
+      <point x="339" y="-254" type="curve" smooth="yes" name="dv02"/>
       <point x="384" y="-254"/>
       <point x="420" y="-244"/>
       <point x="443" y="-227" type="curve" smooth="yes"/>

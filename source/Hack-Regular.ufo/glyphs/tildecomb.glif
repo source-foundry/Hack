@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildecomb" format="1">
-  <advance width="0"/>
+<glyph name="tildecomb" format="2">
   <unicode hex="0303"/>
   <outline>
     <contour>
@@ -18,7 +17,7 @@
       <point x="-946" y="1309" type="line"/>
       <point x="-945" y="1489"/>
       <point x="-873" y="1591"/>
-      <point x="-752" y="1591" type="curve" name="dv02" smooth="yes"/>
+      <point x="-752" y="1591" type="curve" smooth="yes" name="dv02"/>
       <point x="-700" y="1591"/>
       <point x="-661" y="1574"/>
       <point x="-612" y="1530" type="curve"/>
@@ -35,7 +34,7 @@
       <point x="-287" y="1591" type="line"/>
       <point x="-288" y="1411"/>
       <point x="-360" y="1309"/>
-      <point x="-481" y="1309" type="curve" name="sv02" smooth="yes"/>
+      <point x="-481" y="1309" type="curve" smooth="yes" name="sv02"/>
       <point x="-533" y="1309"/>
       <point x="-572" y="1326"/>
     </contour>

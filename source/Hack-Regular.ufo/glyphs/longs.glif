@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="longs" format="1">
+<glyph name="longs" format="2">
   <advance width="1233"/>
   <unicode hex="017F"/>
   <outline>
@@ -14,7 +14,7 @@
       <point x="650" y="1469" type="curve" smooth="yes"/>
       <point x="707" y="1526"/>
       <point x="794" y="1556"/>
-      <point x="913" y="1556" type="curve" name="at01" smooth="yes"/>
+      <point x="913" y="1556" type="curve" smooth="yes" name="at01"/>
       <point x="1134" y="1556" type="line"/>
       <point x="1134" y="1403" type="line" name="sv02"/>
       <point x="925" y="1403" type="line" smooth="yes"/>
@@ -23,7 +23,7 @@
       <point x="788" y="1363" type="curve" smooth="yes"/>
       <point x="762" y="1336"/>
       <point x="749" y="1288"/>
-      <point x="749" y="1219" type="curve" name="sh02" smooth="yes"/>
+      <point x="749" y="1219" type="curve" smooth="yes" name="sh02"/>
       <point x="749" y="1120" type="line" name="at03"/>
       <point x="749" y="-270" type="line" name="ab01"/>
       <point x="565" y="-270" type="line"/>

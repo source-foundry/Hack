@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="c6476" format="1">
+<glyph name="c6476" format="2">
   <advance width="1233"/>
   <outline>
     <contour>
-      <point x="720" y="1262" type="curve" name="dv01" smooth="yes"/>
+      <point x="720" y="1262" type="curve" smooth="yes" name="dv01"/>
       <point x="624" y="1262"/>
       <point x="557" y="1285"/>
       <point x="508" y="1330" type="curve" smooth="yes"/>
@@ -14,13 +14,13 @@
       <point x="577" y="1526" type="line" name="sv01"/>
       <point x="584" y="1486"/>
       <point x="601" y="1457"/>
-      <point x="628" y="1439" type="curve" name="hr01" smooth="yes"/>
+      <point x="628" y="1439" type="curve" smooth="yes" name="hr01"/>
       <point x="655" y="1420"/>
       <point x="694" y="1411"/>
-      <point x="745" y="1411" type="curve" name="dv02" smooth="yes"/>
+      <point x="745" y="1411" type="curve" smooth="yes" name="dv02"/>
       <point x="798" y="1411"/>
       <point x="836" y="1421"/>
-      <point x="872" y="1442" type="curve" name="hr02" smooth="yes"/>
+      <point x="872" y="1442" type="curve" smooth="yes" name="hr02"/>
       <point x="908" y="1463"/>
       <point x="933" y="1491"/>
       <point x="948" y="1526" type="curve" name="sv02"/>

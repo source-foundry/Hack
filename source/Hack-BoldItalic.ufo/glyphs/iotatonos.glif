@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iotatonos" format="1">
+<glyph name="iotatonos" format="2">
   <advance width="1233"/>
   <unicode hex="03AF"/>
   <outline>
@@ -10,10 +10,10 @@
       <point x="539" y="1272" type="line" name="ih01"/>
     </contour>
     <contour>
-      <point x="762" y="-8" type="line" name="ab01" smooth="yes"/>
+      <point x="762" y="-8" type="line" smooth="yes" name="ab01"/>
       <point x="494" y="-8"/>
       <point x="389" y="46"/>
-      <point x="389" y="222" type="curve" name="dh01" smooth="yes"/>
+      <point x="389" y="222" type="curve" smooth="yes" name="dh01"/>
       <point x="389" y="265"/>
       <point x="395" y="312"/>
       <point x="406" y="371" type="curve" smooth="yes"/>
@@ -24,10 +24,10 @@
       <point x="695" y="357" type="line" smooth="yes"/>
       <point x="692" y="341"/>
       <point x="690" y="328"/>
-      <point x="690" y="313" type="curve" name="dh02" smooth="yes"/>
+      <point x="690" y="313" type="curve" smooth="yes" name="dh02"/>
       <point x="690" y="245"/>
       <point x="733" y="217"/>
-      <point x="826" y="217" type="curve" name="sv02" smooth="yes"/>
+      <point x="826" y="217" type="curve" smooth="yes" name="sv02"/>
       <point x="884" y="217" type="line"/>
       <point x="840" y="-8" type="line"/>
     </contour>

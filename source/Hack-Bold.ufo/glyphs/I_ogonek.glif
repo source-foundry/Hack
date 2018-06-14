@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Iogonek" format="1">
+<glyph name="Iogonek" format="2">
   <advance width="1233"/>
   <unicode hex="012E"/>
   <outline>
@@ -14,20 +14,20 @@
       <point x="693" y="-106" type="curve" smooth="yes"/>
       <point x="680" y="-130"/>
       <point x="674" y="-147"/>
-      <point x="674" y="-166" type="curve" name="sh01" smooth="yes"/>
+      <point x="674" y="-166" type="curve" smooth="yes" name="sh01"/>
       <point x="674" y="-213"/>
       <point x="709" y="-254"/>
-      <point x="792" y="-254" type="curve" name="dv02" smooth="yes"/>
+      <point x="792" y="-254" type="curve" smooth="yes" name="dv02"/>
       <point x="833" y="-254"/>
       <point x="887" y="-244"/>
       <point x="940" y="-223" type="curve" name="sh02"/>
       <point x="940" y="-379" type="line" name="hr01"/>
       <point x="868" y="-394"/>
       <point x="804" y="-401"/>
-      <point x="753" y="-401" type="curve" name="dv01" smooth="yes"/>
+      <point x="753" y="-401" type="curve" smooth="yes" name="dv01"/>
       <point x="597" y="-401"/>
       <point x="512" y="-339"/>
-      <point x="512" y="-224" type="curve" name="ih01" smooth="yes"/>
+      <point x="512" y="-224" type="curve" smooth="yes" name="ih01"/>
       <point x="512" y="-151"/>
       <point x="547" y="-81"/>
       <point x="623" y="0" type="curve" name="ih02"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ibreve" format="1">
+<glyph name="Ibreve" format="2">
   <advance width="1233"/>
   <unicode hex="012C"/>
   <outline>
     <contour>
-      <point x="775" y="1608" type="curve" name="dv03" smooth="yes"/>
+      <point x="775" y="1608" type="curve" smooth="yes" name="dv03"/>
       <point x="679" y="1608"/>
       <point x="612" y="1631"/>
       <point x="563" y="1676" type="curve" smooth="yes"/>
@@ -18,7 +18,7 @@
       <point x="683" y="1785" type="curve" smooth="yes"/>
       <point x="710" y="1767"/>
       <point x="749" y="1757"/>
-      <point x="800" y="1757" type="curve" name="dv04" smooth="yes"/>
+      <point x="800" y="1757" type="curve" smooth="yes" name="dv04"/>
       <point x="853" y="1757"/>
       <point x="891" y="1767"/>
       <point x="927" y="1788" type="curve" smooth="yes"/>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni032E" format="1">
-  <advance width="0"/>
+<glyph name="uni032E" format="2">
   <unicode hex="032E"/>
   <outline>
     <contour>
-      <point x="-617" y="-491" type="curve" name="ab01" smooth="yes"/>
+      <point x="-617" y="-491" type="curve" smooth="yes" name="ab01"/>
       <point x="-826" y="-491"/>
       <point x="-944" y="-387"/>
       <point x="-952" y="-194" type="curve" name="sv01"/>
       <point x="-811" y="-194" type="line"/>
       <point x="-796" y="-286"/>
       <point x="-729" y="-338"/>
-      <point x="-617" y="-338" type="curve" name="hr01" smooth="yes"/>
+      <point x="-617" y="-338" type="curve" smooth="yes" name="hr01"/>
       <point x="-505" y="-338"/>
       <point x="-439" y="-287"/>
       <point x="-424" y="-194" type="curve" name="hr02"/>

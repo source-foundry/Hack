@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tilde" format="1">
+<glyph name="tilde" format="2">
   <advance width="1233"/>
   <unicode hex="02DC"/>
   <outline>
     <contour>
-      <point x="890" y="1307" type="curve" name="av01" smooth="yes"/>
+      <point x="890" y="1307" type="curve" smooth="yes" name="av01"/>
       <point x="861" y="1307"/>
       <point x="836" y="1312"/>
       <point x="814" y="1322" type="curve" smooth="yes"/>
       <point x="794" y="1331"/>
       <point x="769" y="1347"/>
-      <point x="741" y="1376" type="curve" name="hr01" smooth="yes"/>
+      <point x="741" y="1376" type="curve" smooth="yes" name="hr01"/>
       <point x="694" y="1425" type="line" smooth="yes"/>
       <point x="687" y="1432"/>
       <point x="671" y="1446"/>
@@ -30,7 +30,7 @@
       <point x="475" y="1518" type="curve" smooth="yes"/>
       <point x="513" y="1567"/>
       <point x="562" y="1591"/>
-      <point x="622" y="1591" type="curve" name="sv01" smooth="yes"/>
+      <point x="622" y="1591" type="curve" smooth="yes" name="sv01"/>
       <point x="651" y="1591"/>
       <point x="676" y="1586"/>
       <point x="698" y="1576" type="curve" smooth="yes"/>

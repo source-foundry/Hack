@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegatonos" format="1">
+<glyph name="Omegatonos" format="2">
   <advance width="1233"/>
   <unicode hex="038F"/>
   <outline>
@@ -14,13 +14,13 @@
       <point x="328" y="211" type="line" name="ih02"/>
       <point x="173" y="350"/>
       <point x="100" y="523"/>
-      <point x="100" y="777" type="curve" name="hr02" smooth="yes"/>
+      <point x="100" y="777" type="curve" smooth="yes" name="hr02"/>
       <point x="100" y="1201"/>
       <point x="301" y="1460"/>
-      <point x="615" y="1460" type="curve" name="dv02" smooth="yes"/>
+      <point x="615" y="1460" type="curve" smooth="yes" name="dv02"/>
       <point x="931" y="1460"/>
       <point x="1133" y="1201"/>
-      <point x="1133" y="777" type="curve" name="dh03" smooth="yes"/>
+      <point x="1133" y="777" type="curve" smooth="yes" name="dh03"/>
       <point x="1133" y="521"/>
       <point x="1059" y="349"/>
       <point x="905" y="211" type="curve" name="ih03"/>
@@ -30,13 +30,13 @@
       <point x="672" y="268" type="line" name="dh02"/>
       <point x="780" y="373"/>
       <point x="831" y="524"/>
-      <point x="831" y="751" type="curve" name="sh04" smooth="yes"/>
+      <point x="831" y="751" type="curve" smooth="yes" name="sh04"/>
       <point x="831" y="1031"/>
       <point x="752" y="1194"/>
-      <point x="616" y="1194" type="curve" name="sv01" smooth="yes"/>
+      <point x="616" y="1194" type="curve" smooth="yes" name="sv01"/>
       <point x="480" y="1194"/>
       <point x="401" y="1031"/>
-      <point x="401" y="752" type="curve" name="dh01" smooth="yes"/>
+      <point x="401" y="752" type="curve" smooth="yes" name="dh01"/>
       <point x="401" y="536"/>
       <point x="447" y="377"/>
       <point x="563" y="268" type="curve" name="sh01"/>

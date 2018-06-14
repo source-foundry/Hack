@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hookabovecomb" format="1">
-  <advance width="0"/>
+<glyph name="hookabovecomb" format="2">
   <unicode hex="0309"/>
   <outline>
     <contour>
@@ -10,7 +9,7 @@
       <point x="-589" y="1438" type="curve"/>
       <point x="-569" y="1453"/>
       <point x="-551" y="1490"/>
-      <point x="-551" y="1523" type="curve" name="dh01" smooth="yes"/>
+      <point x="-551" y="1523" type="curve" smooth="yes" name="dh01"/>
       <point x="-551" y="1550"/>
       <point x="-563" y="1574"/>
       <point x="-595" y="1583" type="curve" smooth="yes"/>
@@ -24,7 +23,7 @@
       <point x="-801" y="1712" type="line"/>
       <point x="-726" y="1729"/>
       <point x="-657" y="1738"/>
-      <point x="-594" y="1738" type="curve" name="dv01" smooth="yes"/>
+      <point x="-594" y="1738" type="curve" smooth="yes" name="dv01"/>
       <point x="-445" y="1738"/>
       <point x="-372" y="1690"/>
       <point x="-375" y="1593" type="curve" name="dh02"/>

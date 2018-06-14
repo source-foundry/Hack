@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ecircumflex" format="1">
+<glyph name="ecircumflex" format="2">
   <advance width="1233"/>
   <unicode hex="00EA"/>
   <outline>
@@ -13,7 +13,7 @@
       <point x="269" y="1297" type="line" name="iv02"/>
     </contour>
     <contour>
-      <point x="665" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="665" y="-29" type="curve" smooth="yes" name="dv01"/>
       <point x="470" y="-29"/>
       <point x="331" y="21"/>
       <point x="231" y="122" type="curve" smooth="yes"/>
@@ -36,7 +36,7 @@
       <point x="458" y="268" type="curve" smooth="yes"/>
       <point x="509" y="225"/>
       <point x="586" y="203"/>
-      <point x="687" y="203" type="curve" name="dv02" smooth="yes"/>
+      <point x="687" y="203" type="curve" smooth="yes" name="dv02"/>
       <point x="754" y="203"/>
       <point x="821" y="213"/>
       <point x="887" y="232" type="curve" smooth="yes"/>
@@ -57,7 +57,7 @@
       <point x="785" y="861" type="curve" smooth="yes"/>
       <point x="749" y="898"/>
       <point x="692" y="920"/>
-      <point x="617" y="920" type="curve" name="sv01" smooth="yes"/>
+      <point x="617" y="920" type="curve" smooth="yes" name="sv01"/>
       <point x="548" y="920"/>
       <point x="494" y="900"/>
       <point x="454" y="859" type="curve" smooth="yes"/>

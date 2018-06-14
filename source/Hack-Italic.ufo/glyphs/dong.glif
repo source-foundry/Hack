@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dong" format="1">
+<glyph name="dong" format="2">
   <advance width="1233"/>
   <unicode hex="20AB"/>
   <outline>
     <contour>
-      <point x="567" y="-30" type="curve" name="sv02" smooth="yes"/>
+      <point x="567" y="-30" type="curve" smooth="yes" name="sv02"/>
       <point x="352" y="-30"/>
       <point x="226" y="111"/>
-      <point x="226" y="378" type="curve" name="dh01" smooth="yes"/>
+      <point x="226" y="378" type="curve" smooth="yes" name="dh01"/>
       <point x="226" y="554"/>
       <point x="282" y="761"/>
       <point x="375" y="908" type="curve" smooth="yes"/>
       <point x="475" y="1065"/>
       <point x="613" y="1146"/>
-      <point x="773" y="1146" type="curve" name="at02" smooth="yes"/>
+      <point x="773" y="1146" type="curve" smooth="yes" name="at02"/>
       <point x="906" y="1146"/>
       <point x="1004" y="1091"/>
       <point x="1061" y="976" type="curve"/>
@@ -34,22 +34,22 @@
       <point x="704" y="-30"/>
     </contour>
     <contour>
-      <point x="624" y="126" type="curve" name="sv01" smooth="yes"/>
+      <point x="624" y="126" type="curve" smooth="yes" name="sv01"/>
       <point x="743" y="126"/>
       <point x="831" y="188"/>
-      <point x="895" y="304" type="curve" name="hr02" smooth="yes"/>
+      <point x="895" y="304" type="curve" smooth="yes" name="hr02"/>
       <point x="959" y="419"/>
       <point x="1000" y="591"/>
       <point x="1000" y="723" type="curve" smooth="yes"/>
       <point x="1000" y="907"/>
       <point x="925" y="990"/>
-      <point x="788" y="990" type="curve" name="hr03" smooth="yes"/>
+      <point x="788" y="990" type="curve" smooth="yes" name="hr03"/>
       <point x="669" y="990"/>
       <point x="586" y="928"/>
       <point x="525" y="816" type="curve" smooth="yes"/>
       <point x="461" y="699"/>
       <point x="422" y="530"/>
-      <point x="422" y="391" type="curve" name="dh02" smooth="yes"/>
+      <point x="422" y="391" type="curve" smooth="yes" name="dh02"/>
       <point x="422" y="210"/>
       <point x="487" y="126"/>
     </contour>

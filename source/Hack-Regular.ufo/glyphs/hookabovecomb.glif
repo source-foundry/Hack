@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hookabovecomb" format="1">
-  <advance width="0"/>
+<glyph name="hookabovecomb" format="2">
   <unicode hex="0309"/>
   <outline>
     <contour>
-      <point x="-647" y="1734" type="curve" name="dv02" smooth="yes"/>
+      <point x="-647" y="1734" type="curve" smooth="yes" name="dv02"/>
       <point x="-494" y="1734"/>
       <point x="-415" y="1677"/>
       <point x="-410" y="1564" type="curve" name="dh02"/>
       <point x="-409" y="1562"/>
       <point x="-409" y="1559"/>
-      <point x="-409" y="1554" type="curve" name="sh01" smooth="yes"/>
+      <point x="-409" y="1554" type="curve" smooth="yes" name="sh01"/>
       <point x="-409" y="1470"/>
       <point x="-470" y="1397"/>
       <point x="-539" y="1354" type="curve" name="sh03"/>
@@ -22,10 +21,10 @@
       <point x="-571" y="1444" type="curve"/>
       <point x="-556" y="1457"/>
       <point x="-549" y="1481"/>
-      <point x="-549" y="1517" type="curve" name="sh02" smooth="yes"/>
+      <point x="-549" y="1517" type="curve" smooth="yes" name="sh02"/>
       <point x="-549" y="1580"/>
       <point x="-589" y="1611"/>
-      <point x="-669" y="1611" type="curve" name="sv01" smooth="yes"/>
+      <point x="-669" y="1611" type="curve" smooth="yes" name="sv01"/>
       <point x="-728" y="1611"/>
       <point x="-779" y="1600"/>
       <point x="-823" y="1579" type="curve" name="dh01"/>

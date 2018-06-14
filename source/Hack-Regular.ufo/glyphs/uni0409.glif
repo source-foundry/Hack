@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0409" format="1">
+<glyph name="uni0409" format="2">
   <advance width="1233"/>
   <unicode hex="0409"/>
   <outline>
@@ -10,17 +10,17 @@
       <point x="257" y="516" type="curve" name="sh01"/>
       <point x="265" y="638"/>
       <point x="267" y="863"/>
-      <point x="267" y="1067" type="curve" name="dh01" smooth="yes"/>
+      <point x="267" y="1067" type="curve" smooth="yes" name="dh01"/>
       <point x="267" y="1493" type="line" name="at01"/>
       <point x="811" y="1493" type="line" name="sh02"/>
       <point x="811" y="893" type="line"/>
-      <point x="832" y="893" type="line" name="dv02" smooth="yes"/>
+      <point x="832" y="893" type="line" smooth="yes" name="dv02"/>
       <point x="1024" y="893"/>
       <point x="1233" y="740"/>
-      <point x="1233" y="447" type="curve" name="dh06" smooth="yes"/>
+      <point x="1233" y="447" type="curve" smooth="yes" name="dh06"/>
       <point x="1233" y="154"/>
       <point x="1023" y="0"/>
-      <point x="832" y="0" type="curve" name="ab01" smooth="yes"/>
+      <point x="832" y="0" type="curve" smooth="yes" name="ab01"/>
       <point x="625" y="0" type="line" name="dh03"/>
       <point x="625" y="1323" type="line" name="sv01"/>
       <point x="453" y="1323" type="line"/>
@@ -34,13 +34,13 @@
       <point x="0" y="0" type="curve" name="ab02"/>
     </contour>
     <contour>
-      <point x="832" y="166" type="line" name="sv02" smooth="yes"/>
+      <point x="832" y="166" type="line" smooth="yes" name="sv02"/>
       <point x="952" y="166"/>
       <point x="1047" y="263"/>
-      <point x="1047" y="444" type="curve" name="dh05" smooth="yes"/>
+      <point x="1047" y="444" type="curve" smooth="yes" name="dh05"/>
       <point x="1047" y="623"/>
       <point x="957" y="727"/>
-      <point x="832" y="727" type="curve" name="dv01" smooth="yes"/>
+      <point x="832" y="727" type="curve" smooth="yes" name="dv01"/>
       <point x="811" y="727" type="line"/>
       <point x="811" y="166" type="line" name="dh04"/>
     </contour>

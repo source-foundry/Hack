@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0494" format="1">
+<glyph name="uni0494" format="2">
   <advance width="1233"/>
   <unicode hex="0494"/>
   <outline>
     <contour>
       <point x="589" y="-240" type="line" name="dh03"/>
-      <point x="651" y="-240" type="line" name="dv02" smooth="yes"/>
+      <point x="651" y="-240" type="line" smooth="yes" name="dv02"/>
       <point x="830" y="-240"/>
       <point x="896" y="-155"/>
-      <point x="896" y="104" type="curve" name="sh01" smooth="yes"/>
+      <point x="896" y="104" type="curve" smooth="yes" name="sh01"/>
       <point x="896" y="394" type="line" smooth="yes"/>
       <point x="896" y="605"/>
       <point x="813" y="711"/>
-      <point x="648" y="711" type="curve" name="dv03" smooth="yes"/>
+      <point x="648" y="711" type="curve" smooth="yes" name="dv03"/>
       <point x="378" y="711" type="line"/>
       <point x="378" y="0" type="line" name="dh02"/>
       <point x="175" y="0" type="line" name="dh01"/>
@@ -21,17 +21,17 @@
       <point x="1099" y="1323" type="line" name="sv01"/>
       <point x="378" y="1323" type="line" name="sh03"/>
       <point x="378" y="881" type="line"/>
-      <point x="689" y="881" type="line" name="dv04" smooth="yes"/>
+      <point x="689" y="881" type="line" smooth="yes" name="dv04"/>
       <point x="814" y="881"/>
       <point x="914" y="841"/>
       <point x="988" y="762" type="curve" smooth="yes"/>
       <point x="1064" y="681"/>
       <point x="1099" y="570"/>
-      <point x="1099" y="410" type="curve" name="hr01" smooth="yes"/>
-      <point x="1099" y="104" type="line" name="dh04" smooth="yes"/>
+      <point x="1099" y="410" type="curve" smooth="yes" name="hr01"/>
+      <point x="1099" y="104" type="line" smooth="yes" name="dh04"/>
       <point x="1099" y="-253"/>
       <point x="969" y="-410"/>
-      <point x="665" y="-410" type="curve" name="dv01" smooth="yes"/>
+      <point x="665" y="-410" type="curve" smooth="yes" name="dv01"/>
       <point x="589" y="-410" type="line" name="hr02"/>
     </contour>
   </outline>

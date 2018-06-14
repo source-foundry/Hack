@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="five.subs" format="1">
+<glyph name="five.subs" format="2">
   <advance width="1233"/>
   <outline>
     <contour>
-      <point x="548" y="-415" type="curve" name="hr00" smooth="yes"/>
+      <point x="548" y="-415" type="curve" smooth="yes" name="hr00"/>
       <point x="460" y="-415"/>
       <point x="372" y="-403"/>
       <point x="308" y="-379" type="curve"/>
       <point x="335" y="-265" type="line"/>
       <point x="411" y="-302"/>
       <point x="493" y="-321"/>
-      <point x="569" y="-321" type="curve" name="dv01" smooth="yes"/>
+      <point x="569" y="-321" type="curve" smooth="yes" name="dv01"/>
       <point x="741" y="-321"/>
       <point x="862" y="-222"/>
-      <point x="862" y="-95" type="curve" name="dh01" smooth="yes"/>
+      <point x="862" y="-95" type="curve" smooth="yes" name="dh01"/>
       <point x="862" y="5"/>
       <point x="787" y="60"/>
-      <point x="656" y="60" type="curve" name="dv04" smooth="yes"/>
+      <point x="656" y="60" type="curve" smooth="yes" name="dv04"/>
       <point x="588" y="60"/>
       <point x="512" y="45"/>
       <point x="444" y="17" type="curve"/>
@@ -27,10 +27,10 @@
       <point x="595" y="136" type="line" name="iv01"/>
       <point x="638" y="148"/>
       <point x="677" y="153"/>
-      <point x="716" y="153" type="curve" name="dv05" smooth="yes"/>
+      <point x="716" y="153" type="curve" smooth="yes" name="dv05"/>
       <point x="885" y="153"/>
       <point x="997" y="61"/>
-      <point x="997" y="-79" type="curve" name="dh02" smooth="yes"/>
+      <point x="997" y="-79" type="curve" smooth="yes" name="dh02"/>
       <point x="997" y="-175"/>
       <point x="946" y="-262"/>
       <point x="862" y="-326" type="curve" smooth="yes"/>

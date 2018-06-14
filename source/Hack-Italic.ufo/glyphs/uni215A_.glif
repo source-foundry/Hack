@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni215A" format="1">
+<glyph name="uni215A" format="2">
   <advance width="1233"/>
   <unicode hex="215A"/>
   <outline>
     <contour>
-      <point x="320" y="809" type="curve" name="hr00" smooth="yes"/>
+      <point x="320" y="809" type="curve" smooth="yes" name="hr00"/>
       <point x="232" y="809"/>
       <point x="144" y="821"/>
       <point x="80" y="845" type="curve"/>
       <point x="107" y="959" type="line"/>
       <point x="183" y="922"/>
       <point x="265" y="903"/>
-      <point x="341" y="903" type="curve" name="dv11" smooth="yes"/>
+      <point x="341" y="903" type="curve" smooth="yes" name="dv11"/>
       <point x="513" y="903"/>
       <point x="634" y="1002"/>
-      <point x="634" y="1129" type="curve" name="sh01" smooth="yes"/>
+      <point x="634" y="1129" type="curve" smooth="yes" name="sh01"/>
       <point x="634" y="1229"/>
       <point x="559" y="1284"/>
-      <point x="428" y="1284" type="curve" name="dv05" smooth="yes"/>
+      <point x="428" y="1284" type="curve" smooth="yes" name="dv05"/>
       <point x="360" y="1284"/>
       <point x="284" y="1269"/>
       <point x="216" y="1241" type="curve"/>
@@ -28,10 +28,10 @@
       <point x="367" y="1360" type="line" name="iv01"/>
       <point x="410" y="1372"/>
       <point x="449" y="1377"/>
-      <point x="488" y="1377" type="curve" name="dv06" smooth="yes"/>
+      <point x="488" y="1377" type="curve" smooth="yes" name="dv06"/>
       <point x="657" y="1377"/>
       <point x="769" y="1285"/>
-      <point x="769" y="1145" type="curve" name="sh02" smooth="yes"/>
+      <point x="769" y="1145" type="curve" smooth="yes" name="sh02"/>
       <point x="769" y="1049"/>
       <point x="718" y="962"/>
       <point x="634" y="898" type="curve" smooth="yes"/>
@@ -45,32 +45,32 @@
       <point x="70" y="504" type="line"/>
     </contour>
     <contour>
-      <point x="771" y="-285" type="curve" name="dv01" smooth="yes"/>
+      <point x="771" y="-285" type="curve" smooth="yes" name="dv01"/>
       <point x="592" y="-285"/>
       <point x="491" y="-199"/>
-      <point x="491" y="-23" type="curve" name="dh01" smooth="yes"/>
+      <point x="491" y="-23" type="curve" smooth="yes" name="dh01"/>
       <point x="491" y="84"/>
       <point x="528" y="233"/>
       <point x="589" y="342" type="curve"/>
       <point x="677" y="503"/>
       <point x="814" y="582"/>
-      <point x="997" y="582" type="curve" name="dv10" smooth="yes"/>
+      <point x="997" y="582" type="curve" smooth="yes" name="dv10"/>
       <point x="1068" y="582"/>
       <point x="1131" y="570"/>
       <point x="1187" y="549" type="curve"/>
       <point x="1163" y="445" type="line"/>
       <point x="1111" y="472"/>
       <point x="1049" y="487"/>
-      <point x="984" y="487" type="curve" name="dv09" smooth="yes"/>
+      <point x="984" y="487" type="curve" smooth="yes" name="dv09"/>
       <point x="809" y="487"/>
       <point x="696" y="380"/>
       <point x="647" y="167" type="curve" name="ih01"/>
       <point x="712" y="248"/>
       <point x="792" y="284"/>
-      <point x="897" y="284" type="curve" name="dv08" smooth="yes"/>
+      <point x="897" y="284" type="curve" smooth="yes" name="dv08"/>
       <point x="1050" y="284"/>
       <point x="1143" y="209"/>
-      <point x="1143" y="69" type="curve" name="dh04" smooth="yes"/>
+      <point x="1143" y="69" type="curve" smooth="yes" name="dh04"/>
       <point x="1143" y="-16"/>
       <point x="1108" y="-109"/>
       <point x="1044" y="-177" type="curve" smooth="yes"/>
@@ -78,16 +78,16 @@
       <point x="875" y="-285"/>
     </contour>
     <contour>
-      <point x="776" y="-197" type="curve" name="dv02" smooth="yes"/>
+      <point x="776" y="-197" type="curve" smooth="yes" name="dv02"/>
       <point x="918" y="-197"/>
       <point x="1007" y="-71"/>
-      <point x="1007" y="53" type="curve" name="dh03" smooth="yes"/>
+      <point x="1007" y="53" type="curve" smooth="yes" name="dh03"/>
       <point x="1007" y="150"/>
       <point x="954" y="195"/>
-      <point x="862" y="195" type="curve" name="dv07" smooth="yes"/>
+      <point x="862" y="195" type="curve" smooth="yes" name="dv07"/>
       <point x="717" y="195"/>
       <point x="626" y="79"/>
-      <point x="626" y="-45" type="curve" name="dh02" smooth="yes"/>
+      <point x="626" y="-45" type="curve" smooth="yes" name="dh02"/>
       <point x="626" y="-145"/>
       <point x="684" y="-197"/>
     </contour>
