@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bracketright" format="2">
+<glyph name="bracketright" format="1">
   <advance width="1233"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="273" y="-112" type="line" name="hr00"/>
-      <point x="693" y="-112" type="line" name="dv02"/>
-      <point x="944" y="1477" type="line"/>
-      <point x="524" y="1477" type="line" name="dv03"/>
-      <point x="552" y="1650" type="line" name="dv04"/>
-      <point x="1207" y="1650" type="line"/>
-      <point x="900" y="-285" type="line" name="dv01"/>
-      <point x="245" y="-285" type="line"/>
+      <point x="273" y="-62" type="line" name="hr00"/>
+      <point x="693" y="-62" type="line" name="dv02"/>
+      <point x="944" y="1527" type="line"/>
+      <point x="524" y="1527" type="line" name="dv03"/>
+      <point x="552" y="1700" type="line" name="dv04"/>
+      <point x="1207" y="1700" type="line"/>
+      <point x="900" y="-235" type="line" name="dv01"/>
+      <point x="245" y="-235" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.lastChange</key>
+    <string>2017-07-11 17:15:08 +0000</string>
+  </dict>
   </lib>
 </glyph>
