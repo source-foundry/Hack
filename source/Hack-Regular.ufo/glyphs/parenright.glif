@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="parenright" format="2">
+<glyph name="parenright" format="1">
   <advance width="1233"/>
   <unicode hex="0029"/>
   <outline>
     <contour>
-      <point x="286" y="-206" type="curve" name="hr00"/>
-      <point x="286" y="-38" type="line" name="av01"/>
-      <point x="582" y="106"/>
-      <point x="756" y="349"/>
-      <point x="756" y="747" type="curve" smooth="yes" name="dh02"/>
-      <point x="756" y="1145"/>
-      <point x="582" y="1388"/>
-      <point x="286" y="1532" type="curve"/>
-      <point x="286" y="1700" type="line" name="at01"/>
-      <point x="702" y="1595"/>
-      <point x="940" y="1241"/>
+      <point x="286" y="-206" type="line" name="hr00"/>
+      <point x="681" y="-51"/>
+      <point x="940" y="250.821"/>
       <point x="940" y="747" type="curve" smooth="yes" name="dh01"/>
-      <point x="940" y="253"/>
-      <point x="702" y="-101"/>
+      <point x="940" y="1243.18"/>
+      <point x="678" y="1548"/>
+      <point x="286" y="1700" type="curve" name="at01"/>
+      <point x="286" y="1532" type="line"/>
+      <point x="601.418" y="1379.21"/>
+      <point x="756" y="1121.02"/>
+      <point x="756" y="747" type="curve" smooth="yes" name="dh02"/>
+      <point x="756" y="372.98"/>
+      <point x="601.418" y="114.795"/>
+      <point x="286" y="-38" type="curve" name="av01"/>
     </contour>
   </outline>
   <lib>
