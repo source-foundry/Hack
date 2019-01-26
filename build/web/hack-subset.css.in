@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'Hack';
-  src: url('fonts/hack-italic-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-italic-webfont.woff?sha={{ ink }}') format('woff');
+  src: url('fonts/hack-italic-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-italic-subset.woff?sha={{ ink }}') format('woff');
   font-weight: 400;
   font-style: italic;
 }
