@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="2">
-  <advance width="1233"/>
-  <unicode hex="01B0"/>
-  <outline>
-    <contour>
-      <point x="1174" y="1137" type="line" name="at01"/>
-      <point x="1189" y="1081"/>
-      <point x="1194" y="1043"/>
-      <point x="1194" y="994" type="curve" smooth="yes" name="dh05"/>
-      <point x="1194" y="845"/>
-      <point x="1139" y="764"/>
-      <point x="1020" y="764" type="curve" smooth="yes" name="sv01"/>
-      <point x="979" y="764"/>
-      <point x="942" y="774"/>
-      <point x="895" y="801" type="curve"/>
-      <point x="895" y="0" type="line" name="hr01"/>
-      <point x="728" y="0" type="line"/>
-      <point x="710" y="168" type="line" name="dh03"/>
-      <point x="645" y="39"/>
-      <point x="531" y="-29"/>
-      <point x="378" y="-29" type="curve" smooth="yes" name="sv03"/>
-      <point x="149" y="-29"/>
-      <point x="39" y="119"/>
-      <point x="39" y="424" type="curve" smooth="yes" name="dh01"/>
-      <point x="39" y="1118" type="line" name="at02"/>
-      <point x="223" y="1118" type="line"/>
-      <point x="223" y="424" type="line" smooth="yes" name="dh02"/>
-      <point x="223" y="223"/>
-      <point x="293" y="131"/>
-      <point x="442" y="131" type="curve" smooth="yes" name="sv02"/>
-      <point x="617" y="131"/>
-      <point x="710" y="256"/>
-      <point x="710" y="485" type="curve" smooth="yes" name="sh01"/>
-      <point x="710" y="1118" type="line" name="hr02"/>
-      <point x="895" y="1118" type="line" name="sh02"/>
-      <point x="895" y="929" type="line"/>
-      <point x="929" y="912"/>
-      <point x="958" y="903"/>
-      <point x="983" y="903" type="curve" smooth="yes" name="sv04"/>
-      <point x="1039" y="903"/>
-      <point x="1071" y="941"/>
-      <point x="1071" y="1013" type="curve" smooth="yes" name="dh04"/>
-      <point x="1071" y="1054"/>
-      <point x="1061" y="1096"/>
-      <point x="1041" y="1137" type="curve" name="ih01"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
-  </lib>
+	<advance width="1233"/>
+	<unicode hex="01B0"/>
+	<outline>
+		<contour>
+			<point x="1174" y="1137" type="line" name="at01"/>
+			<point x="1189" y="1081"/>
+			<point x="1194" y="1043"/>
+			<point x="1194" y="994" type="curve" smooth="yes" name="dh05"/>
+			<point x="1194" y="845"/>
+			<point x="1139" y="764"/>
+			<point x="1020" y="764" type="curve" smooth="yes" name="sv01"/>
+			<point x="979" y="764"/>
+			<point x="942" y="774"/>
+			<point x="895" y="801" type="curve"/>
+			<point x="895" y="0" type="line" name="hr01"/>
+			<point x="728" y="0" type="line"/>
+			<point x="710" y="168" type="line" name="dh03"/>
+			<point x="645" y="39"/>
+			<point x="531" y="-29"/>
+			<point x="378" y="-29" type="curve" smooth="yes" name="sv03"/>
+			<point x="149" y="-29"/>
+			<point x="39" y="119"/>
+			<point x="39" y="424" type="curve" smooth="yes" name="dh01"/>
+			<point x="39" y="1118" type="line" name="at02"/>
+			<point x="223" y="1118" type="line"/>
+			<point x="223" y="424" type="line" smooth="yes" name="dh02"/>
+			<point x="223" y="223"/>
+			<point x="293" y="131"/>
+			<point x="442" y="131" type="curve" smooth="yes" name="sv02"/>
+			<point x="617" y="131"/>
+			<point x="710" y="256"/>
+			<point x="710" y="485" type="curve" smooth="yes" name="sh01"/>
+			<point x="710" y="1118" type="line" name="hr02"/>
+			<point x="895" y="1118" type="line" name="sh02"/>
+			<point x="895" y="929" type="line"/>
+			<point x="929" y="912"/>
+			<point x="958" y="903"/>
+			<point x="983" y="903" type="curve" smooth="yes" name="sv04"/>
+			<point x="1039" y="903"/>
+			<point x="1071" y="941"/>
+			<point x="1071" y="1013" type="curve" smooth="yes" name="dh04"/>
+			<point x="1071" y="1054"/>
+			<point x="1061" y="1096"/>
+			<point x="1041" y="1137" type="curve" name="ih01"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-07-11 17:15:08 +0000</string>
+		</dict>
+	</lib>
 </glyph>

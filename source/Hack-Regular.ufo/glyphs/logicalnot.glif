@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="2">
-  <advance width="1233"/>
-  <unicode hex="00AC"/>
-  <outline>
-    <contour>
-      <point x="977" y="690" type="line" name="dh01"/>
-      <point x="88" y="690" type="line"/>
-      <point x="88" y="862" type="line"/>
-      <point x="1145" y="862" type="line" name="dh02"/>
-      <point x="1145" y="371" type="line" name="hr01"/>
-      <point x="977" y="371" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
-  </lib>
+	<advance width="1233"/>
+	<unicode hex="00AC"/>
+	<outline>
+		<contour>
+			<point x="977" y="690" type="line" name="dh01"/>
+			<point x="88" y="690" type="line"/>
+			<point x="88" y="862" type="line"/>
+			<point x="1145" y="862" type="line" name="dh02"/>
+			<point x="1145" y="371" type="line" name="hr01"/>
+			<point x="977" y="371" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-07-11 17:15:08 +0000</string>
+		</dict>
+	</lib>
 </glyph>

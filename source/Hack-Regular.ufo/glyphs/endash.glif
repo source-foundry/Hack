@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endash" format="2">
-  <advance width="1233"/>
-  <unicode hex="2013"/>
-  <outline>
-    <contour>
-      <point x="309" y="633" type="line" name="hr00"/>
-      <point x="924" y="633" type="line" name="dv02"/>
-      <point x="924" y="493" type="line" name="dv01"/>
-      <point x="309" y="493" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-12-11 20:37:57 +0000</string>
-    </dict>
-  </lib>
+	<advance width="1233"/>
+	<unicode hex="2013"/>
+	<outline>
+		<contour>
+			<point x="150" y="633" type="line" name="hr00"/>
+			<point x="1083" y="633" type="line" name="dv02"/>
+			<point x="1083" y="493" type="line" name="dv01"/>
+			<point x="150" y="493" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2019-02-06 12:36:12 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2204" format="2">
-  <advance width="1233"/>
-  <unicode hex="2204"/>
-  <outline>
-    <contour>
-      <point x="268" y="0" type="line" name="ab01"/>
-      <point x="178" y="0" type="line"/>
-      <point x="178" y="170" type="line" name="sv01"/>
-      <point x="316" y="170" type="line" name="sv03"/>
-      <point x="455" y="662" type="line" name="dv01"/>
-      <point x="178" y="662" type="line"/>
-      <point x="178" y="832" type="line"/>
-      <point x="502" y="832" type="line" name="dv02"/>
-      <point x="640" y="1323" type="line" name="sv04"/>
-      <point x="178" y="1323" type="line" name="sv05"/>
-      <point x="178" y="1493" type="line" name="hr01"/>
-      <point x="688" y="1493" type="line"/>
-      <point x="715" y="1589" type="line" name="sv06"/>
-      <point x="870" y="1589" type="line" name="dh01"/>
-      <point x="842" y="1493" type="line" name="hr02"/>
-      <point x="1053" y="1493" type="line" name="dh02"/>
-      <point x="1053" y="0" type="line" name="hr03"/>
-      <point x="423" y="0" type="line"/>
-      <point x="396" y="-94" type="line" name="sv07"/>
-      <point x="242" y="-94" type="line"/>
-    </contour>
-    <contour>
-      <point x="870" y="832" type="line" name="sh01"/>
-      <point x="870" y="1323" type="line" name="sv08"/>
-      <point x="795" y="1323" type="line" name="sv09"/>
-      <point x="657" y="832" type="line" name="iv01"/>
-    </contour>
-    <contour>
-      <point x="870" y="170" type="line" name="sh02"/>
-      <point x="870" y="662" type="line" name="sv10"/>
-      <point x="609" y="662" type="line" name="hr04"/>
-      <point x="471" y="170" type="line" name="sv02"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-07-11 17:15:08 +0000</string>
-    </dict>
-  </lib>
+	<advance width="1233"/>
+	<unicode hex="2204"/>
+	<outline>
+		<contour>
+			<point x="268" y="0" type="line" name="ab01"/>
+			<point x="178" y="0" type="line"/>
+			<point x="178" y="170" type="line" name="sv01"/>
+			<point x="316" y="170" type="line" name="sv03"/>
+			<point x="455" y="662" type="line" name="dv01"/>
+			<point x="178" y="662" type="line"/>
+			<point x="178" y="832" type="line"/>
+			<point x="502" y="832" type="line" name="dv02"/>
+			<point x="640" y="1323" type="line" name="sv04"/>
+			<point x="178" y="1323" type="line" name="sv05"/>
+			<point x="178" y="1493" type="line" name="hr01"/>
+			<point x="688" y="1493" type="line"/>
+			<point x="715" y="1589" type="line" name="sv06"/>
+			<point x="870" y="1589" type="line" name="dh01"/>
+			<point x="842" y="1493" type="line" name="hr02"/>
+			<point x="1053" y="1493" type="line" name="dh02"/>
+			<point x="1053" y="0" type="line" name="hr03"/>
+			<point x="423" y="0" type="line"/>
+			<point x="396" y="-94" type="line" name="sv07"/>
+			<point x="242" y="-94" type="line"/>
+		</contour>
+		<contour>
+			<point x="870" y="832" type="line" name="sh01"/>
+			<point x="870" y="1323" type="line" name="sv08"/>
+			<point x="795" y="1323" type="line" name="sv09"/>
+			<point x="657" y="832" type="line" name="iv01"/>
+		</contour>
+		<contour>
+			<point x="870" y="170" type="line" name="sh02"/>
+			<point x="870" y="662" type="line" name="sv10"/>
+			<point x="609" y="662" type="line" name="hr04"/>
+			<point x="471" y="170" type="line" name="sv02"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-07-11 17:15:08 +0000</string>
+		</dict>
+	</lib>
 </glyph>
