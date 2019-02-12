@@ -1,0 +1,1461 @@
+{
+.appVersion = "1192";
+DisplayStrings = (
+D
+);
+copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = "Optical size";
+Tag = opsz;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
+},
+{
+name = licenseURL;
+value = "https://github.com/source-foundry/Hack/blob/master/LICENSE.md";
+},
+{
+name = license;
+value = "The work in the Hack project is Copyright 2018 Source Foundry Authors and licensed under the MIT License\012\012The work in the DejaVu project was committed to the public domain.\012\012Bitstream Vera Sans Mono Copyright 2003 Bitstream Inc. and licensed under the Bitstream Vera License with Reserved Font Names \"Bitstream\" and \"Vera\"\012\012MIT License\012\012Copyright (c) 2018 Source Foundry Authors\012\012Permission is hereby granted, free of charge, to any person obtaining a copy\012of this software and associated documentation files (the \"Software\"), to deal\012in the Software without restriction, including without limitation the rights\012to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\012copies of the Software, and to permit persons to whom the Software is\012furnished to do so, subject to the following conditions:\012\012The above copyright notice and this permission notice shall be included in all\012copies or substantial portions of the Software.\012\012THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\012IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\012FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\012AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\012LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\012OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\012SOFTWARE.\012\012BITSTREAM VERA LICENSE\012\012Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.\012\012Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (\"Fonts\") and associated documentation files (the \"Font Software\"), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:\012\012The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.\012\012The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words \"Bitstream\" or the word \"Vera\".\012\012This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the \"Bitstream Vera\" names.\012\012The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.\012\012THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.\012\012Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org.";
+}
+);
+date = "2019-02-12 04:19:51 +0000";
+designer = "Source Foundry Authors";
+designerURL = "https://github.com/source-foundry/Hack";
+familyName = Hack;
+fontMaster = (
+{
+ascender = 760;
+capHeight = 730;
+customValue = 100;
+descender = -240;
+id = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+xHeight = 550;
+},
+{
+ascender = 760;
+capHeight = 730;
+customValue = 100;
+descender = -240;
+iconName = SemiBold;
+id = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+weight = Bold;
+weightValue = 200;
+xHeight = 550;
+}
+);
+glyphs = (
+{
+glyphname = A;
+lastChange = "2019-02-12 04:45:49 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"119 0 LINE {name = ab02;}",
+"171 190 LINE",
+"427 190 LINE {name = dv01;}",
+"480 0 LINE",
+"583 0 LINE {name = ab01;}",
+"359 730 LINE",
+"240 730 LINE {name = hr00;}",
+"16 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"299 643 LINE",
+"403 269 LINE {name = dv02;}",
+"196 269 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"158 0 LINE {name = ab02;}",
+"202 181 LINE",
+"396 181 LINE {name = dv01;}",
+"441 0 LINE",
+"586 0 LINE {name = ab01;}",
+"388 730 LINE",
+"211 730 LINE {name = hr00;}",
+"13 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"299 599 LINE",
+"368 299 LINE {name = dv02;}",
+"231 299 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0041;
+},
+{
+glyphname = B;
+lastChange = "2019-02-12 05:42:12 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"296 0 LINE SMOOTH {name = ab01;}",
+"456 0 OFFCURVE",
+"555 53 OFFCURVE",
+"555 200 CURVE SMOOTH {name = sh01;}",
+"555 299 OFFCURVE",
+"498 376 OFFCURVE",
+"402 390 CURVE {name = ih02;}",
+"483 401 OFFCURVE",
+"530 458 OFFCURVE",
+"530 550 CURVE SMOOTH {name = dh04;}",
+"530 676 OFFCURVE",
+"438 730 OFFCURVE",
+"296 730 CURVE SMOOTH",
+"81 730 LINE {name = dh01;}",
+"81 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"180 348 LINE {name = sh02;}",
+"296 348 LINE SMOOTH {name = dv01;}",
+"404 348 OFFCURVE",
+"456 310 OFFCURVE",
+"456 207 CURVE SMOOTH {name = ih01;}",
+"456 113 OFFCURVE",
+"398 81 OFFCURVE",
+"296 81 CURVE SMOOTH {name = sv02;}",
+"180 81 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"180 649 LINE {name = dh02;}",
+"296 649 LINE SMOOTH {name = sv01;}",
+"385 649 OFFCURVE",
+"430 623 OFFCURVE",
+"430 542 CURVE SMOOTH {name = dh03;}",
+"430 457 OFFCURVE",
+"384 428 OFFCURVE",
+"296 428 CURVE SMOOTH {name = hr01;}",
+"180 428 LINE {name = hr02;}"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"296 0 LINE SMOOTH {name = ab01;}",
+"487 0 OFFCURVE",
+"566 65 OFFCURVE",
+"566 205 CURVE SMOOTH {name = sh01;}",
+"566 319 OFFCURVE",
+"510 380 OFFCURVE",
+"398 390 CURVE {name = ih01;}",
+"492 400 OFFCURVE",
+"540 456 OFFCURVE",
+"540 550 CURVE SMOOTH {name = dh04;}",
+"540 682 OFFCURVE",
+"446 730 OFFCURVE",
+"296 730 CURVE SMOOTH",
+"61 730 LINE {name = dh01;}",
+"61 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 331 LINE {name = sh02;}",
+"296 331 LINE SMOOTH {name = dv01;}",
+"384 331 OFFCURVE",
+"424 300 OFFCURVE",
+"424 221 CURVE SMOOTH {name = ih02;}",
+"424 143 OFFCURVE",
+"386 115 OFFCURVE",
+"296 115 CURVE SMOOTH {name = sv02;}",
+"200 115 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 615 LINE {name = dh02;}",
+"296 615 LINE SMOOTH {name = sv01;}",
+"365 615 OFFCURVE",
+"402 593 OFFCURVE",
+"402 530 CURVE SMOOTH {name = dh03;}",
+"402 467 OFFCURVE",
+"365 446 OFFCURVE",
+"296 446 CURVE SMOOTH {name = hr01;}",
+"200 446 LINE {name = hr02;}"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0042;
+},
+{
+glyphname = C;
+lastChange = "2019-02-12 05:55:15 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"423 -14 OFFCURVE",
+"471 -1 OFFCURVE",
+"524 26 CURVE",
+"524 127 LINE",
+"476 87 OFFCURVE",
+"419 66 OFFCURVE",
+"365 66 CURVE SMOOTH {name = dv01;}",
+"247 66 OFFCURVE",
+"171 165 OFFCURVE",
+"171 364 CURVE SMOOTH {name = dh02;}",
+"171 533 OFFCURVE",
+"233 662 OFFCURVE",
+"365 662 CURVE SMOOTH {name = sv01;}",
+"422 662 OFFCURVE",
+"479 638 OFFCURVE",
+"524 601 CURVE",
+"524 703 LINE",
+"472 732 OFFCURVE",
+"428 743 OFFCURVE",
+"365 743 CURVE SMOOTH {name = at01;}",
+"174 743 OFFCURVE",
+"68 601 OFFCURVE",
+"68 363 CURVE SMOOTH {name = dh01;}",
+"68 94 OFFCURVE",
+"174 -14 OFFCURVE",
+"365 -14 CURVE SMOOTH {name = hr00;}"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"423 -14 OFFCURVE",
+"479 -2 OFFCURVE",
+"522 21 CURVE",
+"522 181 LINE",
+"478 140 OFFCURVE",
+"433 115 OFFCURVE",
+"379 115 CURVE SMOOTH {name = dv01;}",
+"269 115 OFFCURVE",
+"219 225 OFFCURVE",
+"219 364 CURVE SMOOTH {name = dh02;}",
+"219 504 OFFCURVE",
+"269 613 OFFCURVE",
+"379 613 CURVE SMOOTH {name = sv01;}",
+"433 613 OFFCURVE",
+"480 586 OFFCURVE",
+"522 547 CURVE",
+"522 708 LINE",
+"477 733 OFFCURVE",
+"423 743 OFFCURVE",
+"370 743 CURVE SMOOTH {name = at01;}",
+"172 743 OFFCURVE",
+"69 590 OFFCURVE",
+"69 364 CURVE SMOOTH {name = dh01;}",
+"69 134 OFFCURVE",
+"172 -14 OFFCURVE",
+"370 -14 CURVE SMOOTH {name = hr00;}"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0043;
+},
+{
+glyphname = D;
+lastChange = "2019-02-12 14:26:11 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"215 0 LINE SMOOTH {name = ab01;}",
+"448 0 OFFCURVE",
+"540 128 OFFCURVE",
+"540 365 CURVE SMOOTH {name = sh01;}",
+"540 614 OFFCURVE",
+"438 730 OFFCURVE",
+"215 730 CURVE SMOOTH",
+"67 730 LINE {name = hr00;}",
+"67 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"166 649 LINE {name = sh02;}",
+"213 649 LINE SMOOTH {name = sv02;}",
+"392 649 OFFCURVE",
+"436 561 OFFCURVE",
+"436 365 CURVE SMOOTH {name = ah01;}",
+"436 172 OFFCURVE",
+"393 81 OFFCURVE",
+"213 81 CURVE SMOOTH {name = sv01;}",
+"166 81 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"221 0 LINE SMOOTH {name = ab01;}",
+"468 0 OFFCURVE",
+"557 118 OFFCURVE",
+"557 365 CURVE SMOOTH {name = sh01;}",
+"557 617 OFFCURVE",
+"465 730 OFFCURVE",
+"221 730 CURVE SMOOTH",
+"67 730 LINE {name = hr00;}",
+"67 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 600 LINE {name = sh02;}",
+"250 600 LINE SMOOTH {name = sv02;}",
+"370 600 OFFCURVE",
+"407 514 OFFCURVE",
+"407 365 CURVE SMOOTH {name = ah01;}",
+"407 195 OFFCURVE",
+"370 130 OFFCURVE",
+"250 130 CURVE SMOOTH {name = sv01;}",
+"211 130 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0044;
+},
+{
+glyphname = E;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0045;
+},
+{
+glyphname = F;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0046;
+},
+{
+glyphname = G;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0047;
+},
+{
+glyphname = H;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0048;
+},
+{
+glyphname = I;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0049;
+},
+{
+glyphname = J;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004A;
+},
+{
+glyphname = K;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004B;
+},
+{
+glyphname = L;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004C;
+},
+{
+glyphname = M;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004D;
+},
+{
+glyphname = N;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004E;
+},
+{
+glyphname = O;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 004F;
+},
+{
+glyphname = P;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0050;
+},
+{
+glyphname = Q;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0051;
+},
+{
+glyphname = R;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0052;
+},
+{
+glyphname = S;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0053;
+},
+{
+glyphname = T;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0054;
+},
+{
+glyphname = U;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0055;
+},
+{
+glyphname = V;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0056;
+},
+{
+glyphname = W;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0057;
+},
+{
+glyphname = X;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0058;
+},
+{
+glyphname = Y;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0059;
+},
+{
+glyphname = Z;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 005A;
+},
+{
+glyphname = a;
+lastChange = "2019-02-12 04:24:14 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0061;
+},
+{
+glyphname = b;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0062;
+},
+{
+glyphname = c;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0063;
+},
+{
+glyphname = d;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0064;
+},
+{
+glyphname = e;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0065;
+},
+{
+glyphname = f;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0066;
+},
+{
+glyphname = g;
+lastChange = "2019-02-12 04:47:03 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0067;
+},
+{
+glyphname = h;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0068;
+},
+{
+glyphname = i;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = j;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 006A;
+},
+{
+glyphname = k;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 006B;
+},
+{
+glyphname = l;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 006C;
+},
+{
+glyphname = m;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 006D;
+},
+{
+glyphname = n;
+lastChange = "2019-02-12 05:22:04 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"184 0 LINE",
+"184 310 LINE SMOOTH",
+"184 421 OFFCURVE",
+"223 483 OFFCURVE",
+"308 483 CURVE SMOOTH",
+"380 483 OFFCURVE",
+"422 439 OFFCURVE",
+"422 341 CURVE SMOOTH",
+"422 0 LINE",
+"512 0 LINE",
+"512 341 LINE SMOOTH",
+"512 488 OFFCURVE",
+"457 562 OFFCURVE",
+"345 562 CURVE SMOOTH",
+"271 562 OFFCURVE",
+"217 529 OFFCURVE",
+"184 466 CURVE",
+"175 550 LINE",
+"94 550 LINE",
+"94 0 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"225 0 LINE",
+"225 313 LINE SMOOTH",
+"225 394 OFFCURVE",
+"251 444 OFFCURVE",
+"306 444 CURVE SMOOTH",
+"351 444 OFFCURVE",
+"380 414 OFFCURVE",
+"380 337 CURVE SMOOTH",
+"380 0 LINE",
+"522 0 LINE",
+"522 355 LINE SMOOTH",
+"522 489 OFFCURVE",
+"468 560 OFFCURVE",
+"367 560 CURVE SMOOTH",
+"296 560 OFFCURVE",
+"246 526 OFFCURVE",
+"225 465 CURVE",
+"211 547 LINE",
+"83 547 LINE",
+"83 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 006E;
+},
+{
+glyphname = o;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = p;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0070;
+},
+{
+glyphname = q;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0071;
+},
+{
+glyphname = r;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = s;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0073;
+},
+{
+glyphname = t;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0074;
+},
+{
+glyphname = u;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0075;
+},
+{
+glyphname = v;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0076;
+},
+{
+glyphname = w;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0077;
+},
+{
+glyphname = x;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0078;
+},
+{
+glyphname = y;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0079;
+},
+{
+glyphname = z;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 007A;
+},
+{
+glyphname = zero;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0030;
+},
+{
+glyphname = one;
+lastChange = "2019-02-12 04:47:03 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0031;
+},
+{
+glyphname = two;
+lastChange = "2019-02-12 04:47:03 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0032;
+},
+{
+glyphname = three;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0033;
+},
+{
+glyphname = four;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0034;
+},
+{
+glyphname = five;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0035;
+},
+{
+glyphname = six;
+lastChange = "2019-02-12 04:47:03 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0036;
+},
+{
+glyphname = seven;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0037;
+},
+{
+glyphname = eight;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0038;
+},
+{
+glyphname = nine;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0039;
+},
+{
+glyphname = period;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 002E;
+},
+{
+glyphname = comma;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 002C;
+},
+{
+glyphname = hyphen;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 002D;
+},
+{
+glyphname = space;
+lastChange = "2019-02-12 05:21:01 +0000";
+layers = (
+{
+layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+width = 600;
+},
+{
+layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+width = 600;
+}
+);
+unicode = 0020;
+}
+);
+instances = (
+{
+interpolationCustom = 100;
+interpolationWeight = 15;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = -0.85;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1.85;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 25;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = -0.75;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1.75;
+};
+name = UltraLight;
+weightClass = UltraLight;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 50;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = -0.5;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1.5;
+};
+name = Light;
+weightClass = Light;
+},
+{
+interpolationCustom = 100;
+instanceInterpolations = {
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1;
+};
+name = Regular;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 125;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = 0.25;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 0.75;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 166;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = 0.66;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 0.34;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 200;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = 1;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 225;
+instanceInterpolations = {
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = 1.25;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = -0.25;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+}
+);
+manufacturer = "Source Foundry";
+manufacturerURL = "https://github.com/source-foundry";
+unitsPerEm = 1000;
+versionMajor = 5;
+versionMinor = 0;
+}
