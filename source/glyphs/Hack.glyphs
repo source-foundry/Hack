@@ -1,8 +1,5 @@
 {
 .appVersion = "1192";
-DisplayStrings = (
-J
-);
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
 {
@@ -753,14 +750,52 @@ unicode = 004A;
 },
 {
 glyphname = K;
-lastChange = "2019-02-12 05:21:01 +0000";
+lastChange = "2019-02-13 01:06:19 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"165 0 LINE",
+"165 285 LINE",
+"240 365 LINE",
+"478 0 LINE",
+"597 0 LINE",
+"305 431 LINE",
+"589 730 LINE",
+"473 730 LINE",
+"165 405 LINE",
+"165 730 LINE",
+"66 730 LINE",
+"66 0 LINE"
+);
+}
+);
 width = 600;
 },
 {
 layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"200 0 LINE",
+"200 247 LINE",
+"264 328 LINE",
+"437 0 LINE",
+"597 0 LINE",
+"359 442 LINE",
+"589 729 LINE",
+"426 729 LINE",
+"200 441 LINE",
+"200 729 LINE",
+"56 729 LINE",
+"56 0 LINE"
+);
+}
+);
 width = 600;
 }
 );
