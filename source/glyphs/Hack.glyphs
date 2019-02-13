@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-M
+N
 );
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
@@ -902,14 +902,48 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2019-02-12 05:21:01 +0000";
+lastChange = "2019-02-13 01:12:55 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"162 0 LINE",
+"162 601 LINE",
+"408 0 LINE",
+"533 0 LINE",
+"533 730 LINE",
+"438 730 LINE",
+"438 129 LINE",
+"192 730 LINE",
+"67 730 LINE",
+"67 0 LINE"
+);
+}
+);
 width = 600;
 },
 {
 layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"185 0 LINE",
+"185 531 LINE",
+"389 0 LINE",
+"543 0 LINE",
+"543 730 LINE",
+"416 730 LINE",
+"416 199 LINE",
+"213 730 LINE",
+"58 730 LINE",
+"58 0 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -1753,10 +1787,10 @@ unicode = 0020;
 instances = (
 {
 interpolationCustom = 100;
-interpolationWeight = 15;
+interpolationWeight = 10;
 instanceInterpolations = {
-"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = -0.85;
-"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1.85;
+"61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6" = -0.9;
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = 1.9;
 };
 name = Thin;
 weightClass = Thin;
