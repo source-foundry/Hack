@@ -1,8 +1,5 @@
 {
 .appVersion = "1192";
-DisplayStrings = (
-j
-);
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
 {
@@ -2262,7 +2259,7 @@ unicode = 0065;
 },
 {
 glyphname = f;
-lastChange = "2019-02-22 04:28:10 +0000";
+lastChange = "2019-02-22 04:56:05 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
@@ -2271,10 +2268,10 @@ paths = (
 closed = 1;
 nodes = (
 "316 0 LINE",
-"316 477 LINE",
-"504 477 LINE",
-"504 547 LINE",
-"316 547 LINE",
+"316 480 LINE",
+"504 480 LINE",
+"504 550 LINE",
+"316 550 LINE",
 "316 590 LINE SMOOTH",
 "316 646 OFFCURVE",
 "326 685 OFFCURVE",
@@ -2285,10 +2282,10 @@ nodes = (
 "279 760 OFFCURVE",
 "227 696 OFFCURVE",
 "227 590 CURVE SMOOTH",
-"227 547 LINE",
-"81 547 LINE",
-"81 477 LINE",
-"227 477 LINE",
+"227 550 LINE",
+"81 550 LINE",
+"81 480 LINE",
+"227 480 LINE",
 "227 0 LINE"
 );
 }
@@ -2302,10 +2299,10 @@ paths = (
 closed = 1;
 nodes = (
 "350 0 LINE",
-"350 437 LINE",
-"518 437 LINE",
-"518 547 LINE",
-"350 547 LINE",
+"350 440 LINE",
+"518 440 LINE",
+"518 550 LINE",
+"350 550 LINE",
 "350 595 LINE SMOOTH",
 "350 635 OFFCURVE",
 "366 650 OFFCURVE",
@@ -2316,10 +2313,10 @@ nodes = (
 "254 760 OFFCURVE",
 "207 731 OFFCURVE",
 "207 585 CURVE SMOOTH",
-"207 547 LINE",
-"74 547 LINE",
-"74 437 LINE",
-"207 437 LINE",
+"207 550 LINE",
+"74 550 LINE",
+"74 440 LINE",
+"207 440 LINE",
 "207 0 LINE"
 );
 }
@@ -2331,7 +2328,7 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2019-02-22 04:44:02 +0000";
+lastChange = "2019-02-22 04:55:40 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
@@ -2342,8 +2339,8 @@ nodes = (
 "454 -215 OFFCURVE",
 "522 -118 OFFCURVE",
 "522 35 CURVE SMOOTH",
-"522 545 LINE",
-"441 545 LINE",
+"522 550 LINE",
+"441 550 LINE",
 "433 474 LINE",
 "402 534 OFFCURVE",
 "352 560 OFFCURVE",
@@ -2399,8 +2396,8 @@ nodes = (
 "461 -215 OFFCURVE",
 "535 -142 OFFCURVE",
 "535 33 CURVE SMOOTH",
-"535 547 LINE",
-"406 547 LINE",
+"535 550 LINE",
+"406 550 LINE",
 "392 477 LINE",
 "364 531 OFFCURVE",
 "314 561 OFFCURVE",
@@ -2521,7 +2518,7 @@ unicode = 0068;
 },
 {
 glyphname = i;
-lastChange = "2019-02-13 06:00:10 +0000";
+lastChange = "2019-02-22 04:54:45 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
@@ -2535,10 +2532,10 @@ nodes = (
 "376 72 OFFCURVE",
 "339 115 OFFCURVE",
 "339 194 CURVE SMOOTH",
-"339 547 LINE",
-"130 547 LINE",
-"130 477 LINE",
-"249 477 LINE",
+"339 550 LINE",
+"130 550 LINE",
+"130 480 LINE",
+"249 480 LINE",
 "249 194 LINE SMOOTH",
 "249 68 OFFCURVE",
 "311 -4 OFFCURVE",
@@ -2581,10 +2578,10 @@ nodes = (
 "369 104 OFFCURVE",
 "348 148 OFFCURVE",
 "348 222 CURVE SMOOTH",
-"348 547 LINE",
-"89 547 LINE",
-"89 437 LINE",
-"205 437 LINE",
+"348 550 LINE",
+"89 550 LINE",
+"89 440 LINE",
+"205 440 LINE",
 "205 222 LINE SMOOTH",
 "205 61 OFFCURVE",
 "245 -6 OFFCURVE",
