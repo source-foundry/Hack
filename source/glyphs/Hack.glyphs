@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-h
+j
 );
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
@@ -2620,14 +2620,98 @@ unicode = 0069;
 },
 {
 glyphname = j;
-lastChange = "2019-02-12 05:21:01 +0000";
+lastChange = "2019-02-22 04:53:42 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"240 -208 LINE SMOOTH",
+"357 -208 OFFCURVE",
+"408 -151 OFFCURVE",
+"408 -10 CURVE SMOOTH",
+"408 550 LINE",
+"164 550 LINE",
+"164 480 LINE",
+"318 480 LINE",
+"318 -10 LINE SMOOTH",
+"318 -88 OFFCURVE",
+"284 -132 OFFCURVE",
+"230 -132 CURVE SMOOTH",
+"116 -132 LINE",
+"116 -208 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"389 646 LINE SMOOTH",
+"398 646 OFFCURVE",
+"403 651 OFFCURVE",
+"403 661 CURVE SMOOTH",
+"403 745 LINE SMOOTH",
+"403 755 OFFCURVE",
+"398 760 OFFCURVE",
+"389 760 CURVE SMOOTH",
+"318 760 LINE SMOOTH",
+"309 760 OFFCURVE",
+"304 755 OFFCURVE",
+"304 745 CURVE SMOOTH",
+"304 661 LINE SMOOTH",
+"304 651 OFFCURVE",
+"309 646 OFFCURVE",
+"318 646 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
 layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"237 -207 LINE SMOOTH",
+"374 -207 OFFCURVE",
+"428 -142 OFFCURVE",
+"428 21 CURVE SMOOTH",
+"428 550 LINE",
+"140 550 LINE",
+"140 440 LINE",
+"285 440 LINE",
+"285 21 LINE SMOOTH",
+"285 -63 OFFCURVE",
+"260 -97 OFFCURVE",
+"197 -97 CURVE SMOOTH",
+"83 -97 LINE",
+"83 -207 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"414 612 LINE SMOOTH",
+"423 612 OFFCURVE",
+"428 617 OFFCURVE",
+"428 626 CURVE SMOOTH",
+"428 764 LINE SMOOTH",
+"428 774 OFFCURVE",
+"423 779 OFFCURVE",
+"414 779 CURVE SMOOTH",
+"300 779 LINE SMOOTH",
+"290 779 OFFCURVE",
+"285 774 OFFCURVE",
+"285 764 CURVE SMOOTH",
+"285 626 LINE SMOOTH",
+"285 617 OFFCURVE",
+"290 612 OFFCURVE",
+"300 612 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 }
 );
@@ -3220,6 +3304,12 @@ weightClass = ExtraBold;
 manufacturer = "Source Foundry";
 manufacturerURL = "https://github.com/source-foundry";
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"A38A55E9-0FA0-41CB-858E-AFEB657F7EAC" = {
+};
+};
+};
 versionMajor = 5;
 versionMinor = 0;
 }
