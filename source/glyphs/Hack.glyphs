@@ -1,5 +1,8 @@
 {
 .appVersion = "1192";
+DisplayStrings = (
+u
+);
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
 {
@@ -3514,14 +3517,68 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2019-02-12 05:21:01 +0000";
+lastChange = "2019-02-28 05:15:21 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"334 -14 OFFCURVE",
+"390 19 OFFCURVE",
+"422 82 CURVE",
+"431 0 LINE",
+"512 0 LINE",
+"512 550 LINE",
+"422 550 LINE",
+"422 237 LINE SMOOTH",
+"422 127 OFFCURVE",
+"374 64 OFFCURVE",
+"291 64 CURVE SMOOTH",
+"219 64 OFFCURVE",
+"184 111 OFFCURVE",
+"184 207 CURVE SMOOTH",
+"184 550 LINE",
+"94 550 LINE",
+"94 207 LINE SMOOTH",
+"94 61 OFFCURVE",
+"150 -14 OFFCURVE",
+"261 -14 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
 layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"303 -14 OFFCURVE",
+"353 20 OFFCURVE",
+"374 81 CURVE",
+"388 0 LINE",
+"517 0 LINE",
+"517 550 LINE",
+"374 550 LINE",
+"374 233 LINE SMOOTH",
+"374 151 OFFCURVE",
+"342 103 OFFCURVE",
+"288 103 CURVE SMOOTH",
+"242 103 OFFCURVE",
+"220 138 OFFCURVE",
+"220 213 CURVE SMOOTH",
+"220 550 LINE",
+"77 550 LINE",
+"77 191 LINE SMOOTH",
+"77 58 OFFCURVE",
+"132 -14 OFFCURVE",
+"233 -14 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 }
 );
