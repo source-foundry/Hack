@@ -1,7 +1,7 @@
 {
 .appVersion = "1192";
 DisplayStrings = (
-"4"
+"5"
 );
 copyright = "Copyright (c) 2019 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.";
 customParameters = (
@@ -4268,14 +4268,88 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2019-02-12 05:21:01 +0000";
+lastChange = "2019-03-01 02:30:47 +0000";
 layers = (
 {
 layerId = "A38A55E9-0FA0-41CB-858E-AFEB657F7EAC";
+paths = (
+{
+closed = 1;
+nodes = (
+"425 -14 OFFCURVE",
+"522 80 OFFCURVE",
+"522 235 CURVE SMOOTH {name = sh03;}",
+"522 389 OFFCURVE",
+"424 482 OFFCURVE",
+"276 482 CURVE SMOOTH {name = dv03;}",
+"245 482 OFFCURVE",
+"220 478 OFFCURVE",
+"191 467 CURVE {name = sh02;}",
+"191 647 LINE",
+"470 647 LINE {name = sv01;}",
+"470 730 LINE",
+"101 730 LINE {name = at01;}",
+"101 363 LINE {name = sh01;}",
+"144 386 OFFCURVE",
+"194 399 OFFCURVE",
+"248 399 CURVE SMOOTH {name = dv02;}",
+"360 399 OFFCURVE",
+"423 340 OFFCURVE",
+"423 233 CURVE SMOOTH {name = ah01;}",
+"423 126 OFFCURVE",
+"360 69 OFFCURVE",
+"250 69 CURVE SMOOTH {name = dv01;}",
+"194 69 OFFCURVE",
+"126 87 OFFCURVE",
+"70 117 CURVE",
+"70 17 LINE",
+"129 -6 OFFCURVE",
+"206 -14 OFFCURVE",
+"256 -14 CURVE SMOOTH {name = hr00;}"
+);
+}
+);
 width = 600;
 },
 {
 layerId = "61F2BD45-B671-4C55-AD7E-9EE71CCEAAE6";
+paths = (
+{
+closed = 1;
+nodes = (
+"434 -14 OFFCURVE",
+"534 79 OFFCURVE",
+"534 232 CURVE SMOOTH {name = sh03;}",
+"534 382 OFFCURVE",
+"454 480 OFFCURVE",
+"292 480 CURVE SMOOTH {name = dv03;}",
+"262 480 OFFCURVE",
+"240 477 OFFCURVE",
+"211 467 CURVE {name = sh02;}",
+"211 603 LINE",
+"490 603 LINE {name = sv01;}",
+"490 730 LINE",
+"94 730 LINE {name = at01;}",
+"94 322 LINE {name = sh01;}",
+"146 347 OFFCURVE",
+"192 360 OFFCURVE",
+"243 360 CURVE SMOOTH {name = dv02;}",
+"340 360 OFFCURVE",
+"394 314 OFFCURVE",
+"394 232 CURVE SMOOTH {name = ah01;}",
+"394 146 OFFCURVE",
+"331 107 OFFCURVE",
+"243 107 CURVE SMOOTH {name = dv01;}",
+"189 107 OFFCURVE",
+"122 122 OFFCURVE",
+"70 147 CURVE",
+"70 17 LINE",
+"130 -2 OFFCURVE",
+"200 -14 OFFCURVE",
+"260 -14 CURVE SMOOTH {name = hr00;}"
+);
+}
+);
 width = 600;
 }
 );
