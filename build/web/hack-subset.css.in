@@ -9,6 +9,7 @@
   src: url('fonts/hack-regular-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-regular-subset.woff?sha={{ ink }}') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
   src: url('fonts/hack-bold-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-bold-subset.woff?sha={{ ink }}') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
   src: url('fonts/hack-italic-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-italic-subset.woff?sha={{ ink }}') format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -30,5 +33,5 @@
   src: url('fonts/hack-bolditalic-subset.woff2?sha={{ ink }}') format('woff2'), url('fonts/hack-bolditalic-subset.woff?sha={{ ink }}') format('woff');
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
-
