@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dong" format="1">
+<glyph name="dong" format="2">
   <advance width="1233"/>
   <unicode hex="20AB"/>
   <outline>
     <contour>
-      <point x="637" y="-25" type="curve" name="ab01" smooth="yes"/>
+      <point x="637" y="-25" type="curve" smooth="yes" name="ab01"/>
       <point x="385" y="-25"/>
       <point x="236" y="190"/>
-      <point x="236" y="563" type="curve" name="sh01" smooth="yes"/>
+      <point x="236" y="563" type="curve" smooth="yes" name="sh01"/>
       <point x="236" y="942"/>
       <point x="390" y="1151"/>
-      <point x="641" y="1151" type="curve" name="dv04" smooth="yes"/>
+      <point x="641" y="1151" type="curve" smooth="yes" name="dv04"/>
       <point x="772" y="1151"/>
       <point x="860" y="1096"/>
       <point x="937" y="965" type="curve"/>
@@ -31,16 +31,16 @@
       <point x="781" y="-25"/>
     </contour>
     <contour>
-      <point x="732" y="215" type="curve" name="sv03" smooth="yes"/>
+      <point x="732" y="215" type="curve" smooth="yes" name="sv03"/>
       <point x="860" y="215"/>
       <point x="937" y="345"/>
-      <point x="937" y="561" type="curve" name="sh06" smooth="yes"/>
+      <point x="937" y="561" type="curve" smooth="yes" name="sh06"/>
       <point x="937" y="777"/>
       <point x="860" y="907"/>
-      <point x="732" y="907" type="curve" name="dv03" smooth="yes"/>
+      <point x="732" y="907" type="curve" smooth="yes" name="dv03"/>
       <point x="605" y="907"/>
       <point x="529" y="777"/>
-      <point x="529" y="561" type="curve" name="sh07" smooth="yes"/>
+      <point x="529" y="561" type="curve" smooth="yes" name="sh07"/>
       <point x="529" y="345"/>
       <point x="605" y="215"/>
     </contour>

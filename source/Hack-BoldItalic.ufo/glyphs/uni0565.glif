@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0565" format="1">
+<glyph name="uni0565" format="2">
   <advance width="1233"/>
   <unicode hex="0565"/>
   <outline>
     <contour>
-      <point x="348" y="-29" type="curve" name="sv02" smooth="yes"/>
+      <point x="348" y="-29" type="curve" smooth="yes" name="sv02"/>
       <point x="181" y="-29"/>
       <point x="93" y="59"/>
-      <point x="93" y="238" type="curve" name="dh01" smooth="yes"/>
+      <point x="93" y="238" type="curve" smooth="yes" name="dh01"/>
       <point x="93" y="285"/>
       <point x="99" y="335"/>
-      <point x="110" y="391" type="curve" name="hr01" smooth="yes"/>
+      <point x="110" y="391" type="curve" smooth="yes" name="hr01"/>
       <point x="337" y="1556" type="line" name="at01"/>
       <point x="630" y="1556" type="line"/>
       <point x="545" y="1120" type="line" name="at02"/>
@@ -20,10 +20,10 @@
       <point x="412" y="436" type="line" smooth="yes"/>
       <point x="404" y="396"/>
       <point x="400" y="362"/>
-      <point x="400" y="333" type="curve" name="dh02" smooth="yes"/>
+      <point x="400" y="333" type="curve" smooth="yes" name="dh02"/>
       <point x="400" y="252"/>
       <point x="436" y="211"/>
-      <point x="508" y="211" type="curve" name="sv01" smooth="yes"/>
+      <point x="508" y="211" type="curve" smooth="yes" name="sv01"/>
       <point x="620" y="211"/>
       <point x="700" y="301"/>
       <point x="735" y="477" type="curve" smooth="yes"/>

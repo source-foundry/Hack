@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lira" format="1">
+<glyph name="lira" format="2">
   <advance width="1233"/>
   <unicode hex="20A4"/>
   <outline>
@@ -17,14 +17,14 @@
       <point x="443" y="1016" type="line" smooth="yes"/>
       <point x="505" y="1366"/>
       <point x="670" y="1520"/>
-      <point x="939" y="1520" type="curve" name="at01" smooth="yes"/>
+      <point x="939" y="1520" type="curve" smooth="yes" name="at01"/>
       <point x="1036" y="1520"/>
       <point x="1116" y="1500"/>
       <point x="1203" y="1460" type="curve"/>
       <point x="1170" y="1278" type="line" name="iv01"/>
       <point x="1091" y="1333"/>
       <point x="1018" y="1360"/>
-      <point x="926" y="1360" type="curve" name="sv01" smooth="yes"/>
+      <point x="926" y="1360" type="curve" smooth="yes" name="sv01"/>
       <point x="754" y="1360"/>
       <point x="673" y="1261"/>
       <point x="625" y="993" type="curve" smooth="yes"/>

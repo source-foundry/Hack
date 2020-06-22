@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni053D" format="1">
+<glyph name="uni053D" format="2">
   <advance width="1233"/>
   <unicode hex="053D"/>
   <outline>
     <contour>
-      <point x="664" y="-27" type="curve" name="ab02" smooth="yes"/>
+      <point x="664" y="-27" type="curve" smooth="yes" name="ab02"/>
       <point x="521" y="-27"/>
       <point x="444" y="9"/>
       <point x="405" y="86" type="curve" smooth="yes"/>
@@ -31,7 +31,7 @@
       <point x="646" y="251" type="curve" smooth="yes"/>
       <point x="657" y="220"/>
       <point x="678" y="208"/>
-      <point x="710" y="208" type="curve" name="hr01" smooth="yes"/>
+      <point x="710" y="208" type="curve" smooth="yes" name="hr01"/>
       <point x="773" y="208"/>
       <point x="808" y="256"/>
       <point x="837" y="405" type="curve" smooth="yes"/>

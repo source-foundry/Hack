@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="notelement" format="1">
+<glyph name="notelement" format="2">
   <advance width="1233"/>
   <unicode hex="2209"/>
   <outline>
@@ -14,7 +14,7 @@
       <point x="367" y="1422" type="curve" smooth="yes"/>
       <point x="449" y="1490"/>
       <point x="539" y="1524"/>
-      <point x="636" y="1524" type="curve" name="sv01" smooth="yes"/>
+      <point x="636" y="1524" type="curve" smooth="yes" name="sv01"/>
       <point x="854" y="1524" type="line"/>
       <point x="928" y="1721" type="line" name="av02"/>
       <point x="1143" y="1641" type="line"/>
@@ -29,13 +29,13 @@
       <point x="614" y="231" type="line"/>
       <point x="621" y="230"/>
       <point x="629" y="230"/>
-      <point x="636" y="230" type="curve" name="sv02" smooth="yes"/>
+      <point x="636" y="230" type="curve" smooth="yes" name="sv02"/>
       <point x="1133" y="230" type="line" name="sv03"/>
       <point x="1133" y="0" type="line" name="ab01"/>
       <point x="636" y="0" type="line" smooth="yes"/>
       <point x="592" y="0"/>
       <point x="567" y="6"/>
-      <point x="532" y="14" type="curve" name="ab02" smooth="yes"/>
+      <point x="532" y="14" type="curve" smooth="yes" name="ab02"/>
       <point x="473" y="29"/>
       <point x="447" y="-38"/>
       <point x="454" y="-197" type="curve" name="av01"/>

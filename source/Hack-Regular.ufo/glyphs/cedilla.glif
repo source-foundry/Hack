@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedilla" format="1">
+<glyph name="cedilla" format="2">
   <advance width="1233"/>
   <unicode hex="00B8"/>
   <outline>
@@ -10,23 +10,23 @@
       <point x="783" y="-115" type="curve" smooth="yes"/>
       <point x="798" y="-146"/>
       <point x="809" y="-179"/>
-      <point x="809" y="-219" type="curve" name="dh02" smooth="yes"/>
+      <point x="809" y="-219" type="curve" smooth="yes" name="dh02"/>
       <point x="809" y="-272"/>
       <point x="789" y="-319"/>
       <point x="749" y="-350" type="curve" smooth="yes"/>
       <point x="710" y="-379"/>
       <point x="653" y="-395"/>
-      <point x="570" y="-395" type="curve" name="dv01" smooth="yes"/>
+      <point x="570" y="-395" type="curve" smooth="yes" name="dv01"/>
       <point x="541" y="-395"/>
       <point x="512" y="-393"/>
-      <point x="483" y="-389" type="curve" name="sv01" smooth="yes"/>
+      <point x="483" y="-389" type="curve" smooth="yes" name="sv01"/>
       <point x="452" y="-385"/>
       <point x="423" y="-379"/>
       <point x="395" y="-371" type="curve"/>
       <point x="395" y="-240" type="line" name="dh01"/>
       <point x="440" y="-261"/>
       <point x="494" y="-272"/>
-      <point x="546" y="-272" type="curve" name="dv02" smooth="yes"/>
+      <point x="546" y="-272" type="curve" smooth="yes" name="dv02"/>
       <point x="631" y="-272"/>
       <point x="670" y="-239"/>
       <point x="670" y="-180" type="curve" smooth="yes"/>

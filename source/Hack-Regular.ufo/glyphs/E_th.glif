@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Eth" format="1">
+<glyph name="Eth" format="2">
   <advance width="1233"/>
   <unicode hex="00D0"/>
   <outline>
@@ -12,29 +12,29 @@
       <point x="436" y="1493" type="line" smooth="yes"/>
       <point x="892" y="1493"/>
       <point x="1102" y="1257"/>
-      <point x="1102" y="746" type="curve" name="sh02" smooth="yes"/>
+      <point x="1102" y="746" type="curve" smooth="yes" name="sh02"/>
       <point x="1102" y="491"/>
       <point x="1048" y="303"/>
       <point x="940" y="182" type="curve" smooth="yes"/>
       <point x="829" y="58"/>
       <point x="660" y="0"/>
-      <point x="436" y="0" type="curve" name="ab01" smooth="yes"/>
+      <point x="436" y="0" type="curve" smooth="yes" name="ab01"/>
       <point x="133" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="436" y="166" type="line" name="sv01" smooth="yes"/>
+      <point x="436" y="166" type="line" smooth="yes" name="sv01"/>
       <point x="620" y="166"/>
       <point x="725" y="211"/>
       <point x="791" y="293" type="curve" smooth="yes"/>
       <point x="860" y="380"/>
       <point x="893" y="521"/>
-      <point x="893" y="748" type="curve" name="ah01" smooth="yes"/>
+      <point x="893" y="748" type="curve" smooth="yes" name="ah01"/>
       <point x="893" y="982"/>
       <point x="858" y="1115"/>
       <point x="792" y="1200" type="curve" smooth="yes"/>
       <point x="721" y="1289"/>
       <point x="609" y="1327"/>
-      <point x="436" y="1327" type="curve" name="sv02" smooth="yes"/>
+      <point x="436" y="1327" type="curve" smooth="yes" name="sv02"/>
       <point x="340" y="1327" type="line" name="sh04"/>
       <point x="340" y="858" type="line" name="sv03"/>
       <point x="604" y="858" type="line"/>

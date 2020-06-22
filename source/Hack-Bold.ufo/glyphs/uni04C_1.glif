@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni04C1" format="1">
+<glyph name="uni04C1" format="2">
   <advance width="1233"/>
   <unicode hex="04C1"/>
   <outline>
     <contour>
-      <point x="616" y="1587" type="curve" name="dv01" smooth="yes"/>
+      <point x="616" y="1587" type="curve" smooth="yes" name="dv01"/>
       <point x="419" y="1587"/>
       <point x="301" y="1678"/>
       <point x="281" y="1851" type="curve" name="sv02"/>
       <point x="422" y="1851" type="line"/>
       <point x="449" y="1770"/>
       <point x="515" y="1730"/>
-      <point x="618" y="1730" type="curve" name="dv02" smooth="yes"/>
+      <point x="618" y="1730" type="curve" smooth="yes" name="dv02"/>
       <point x="719" y="1730"/>
       <point x="782" y="1770"/>
       <point x="809" y="1851" type="curve" name="sv01"/>

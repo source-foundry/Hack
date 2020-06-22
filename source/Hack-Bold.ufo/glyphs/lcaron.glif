@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron" format="1">
+<glyph name="lcaron" format="2">
   <advance width="1233"/>
   <unicode hex="013E"/>
   <outline>
     <contour>
-      <point x="778" y="-8" type="line" name="ab01" smooth="yes"/>
+      <point x="778" y="-8" type="line" smooth="yes" name="ab01"/>
       <point x="499" y="-8"/>
       <point x="387" y="124"/>
-      <point x="387" y="459" type="curve" name="dh01" smooth="yes"/>
+      <point x="387" y="459" type="curve" smooth="yes" name="dh01"/>
       <point x="387" y="1331" type="line" name="sv01"/>
       <point x="90" y="1331" type="line"/>
       <point x="90" y="1556" type="line" name="at01"/>
       <point x="680" y="1556" type="line"/>
-      <point x="680" y="459" type="line" name="dh02" smooth="yes"/>
+      <point x="680" y="459" type="line" smooth="yes" name="dh02"/>
       <point x="680" y="283"/>
       <point x="728" y="217"/>
-      <point x="860" y="217" type="curve" name="sv02" smooth="yes"/>
+      <point x="860" y="217" type="curve" smooth="yes" name="sv02"/>
       <point x="1094" y="217" type="line"/>
       <point x="1094" y="-8" type="line"/>
     </contour>

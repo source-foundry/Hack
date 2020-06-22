@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhungarumlaut" format="1">
+<glyph name="Uhungarumlaut" format="2">
   <advance width="1233"/>
   <unicode hex="0170"/>
   <outline>
@@ -16,10 +16,10 @@
       <point x="812" y="1588" type="line"/>
     </contour>
     <contour>
-      <point x="492" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="492" y="-29" type="curve" smooth="yes" name="dv01"/>
       <point x="209" y="-29"/>
       <point x="45" y="107"/>
-      <point x="45" y="359" type="curve" name="dh01" smooth="yes"/>
+      <point x="45" y="359" type="curve" smooth="yes" name="dh01"/>
       <point x="45" y="411"/>
       <point x="52" y="471"/>
       <point x="68" y="551" type="curve" smooth="yes"/>
@@ -28,13 +28,13 @@
       <point x="348" y="477" type="line" name="sh01"/>
       <point x="348" y="475"/>
       <point x="348" y="473"/>
-      <point x="347" y="471" type="curve" name="sh02" smooth="yes"/>
+      <point x="347" y="471" type="curve" smooth="yes" name="sh02"/>
       <point x="342" y="440"/>
       <point x="340" y="418"/>
-      <point x="340" y="399" type="curve" name="dh02" smooth="yes"/>
+      <point x="340" y="399" type="curve" smooth="yes" name="dh02"/>
       <point x="340" y="294"/>
       <point x="402" y="231"/>
-      <point x="522" y="231" type="curve" name="dv02" smooth="yes"/>
+      <point x="522" y="231" type="curve" smooth="yes" name="dv02"/>
       <point x="655" y="231"/>
       <point x="745" y="309"/>
       <point x="778" y="477" type="curve" smooth="yes"/>

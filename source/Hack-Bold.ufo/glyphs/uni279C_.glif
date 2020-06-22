@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni279C" format="1">
+<glyph name="uni279C" format="2">
   <advance width="1233"/>
   <unicode hex="279C"/>
   <outline>
     <contour>
-      <point x="765" y="298" type="curve" name="av02" smooth="yes"/>
+      <point x="765" y="298" type="curve" smooth="yes" name="av02"/>
       <point x="740" y="298"/>
       <point x="718" y="307"/>
       <point x="700" y="325" type="curve" smooth="yes"/>
@@ -29,7 +29,7 @@
       <point x="142" y="785"/>
       <point x="167" y="785" type="curve" smooth="yes"/>
       <point x="839" y="785" type="line" name="dv02"/>
-      <point x="700" y="924" type="line" name="hr01" smooth="yes"/>
+      <point x="700" y="924" type="line" smooth="yes" name="hr01"/>
       <point x="683" y="941"/>
       <point x="672" y="965"/>
       <point x="672" y="992" type="curve" smooth="yes"/>
@@ -38,7 +38,7 @@
       <point x="700" y="1057" type="curve" smooth="yes"/>
       <point x="717" y="1074"/>
       <point x="739" y="1085"/>
-      <point x="766" y="1085" type="curve" name="av01" smooth="yes"/>
+      <point x="766" y="1085" type="curve" smooth="yes" name="av01"/>
       <point x="793" y="1085"/>
       <point x="816" y="1073"/>
       <point x="832" y="1057" type="curve" smooth="yes"/>

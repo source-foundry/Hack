@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0434" format="1">
+<glyph name="uni0434" format="2">
   <advance width="1233"/>
   <unicode hex="0434"/>
   <outline>
     <contour>
       <point x="105" y="150" type="line" name="dh01"/>
-      <point x="172" y="150" type="line" name="sv02" smooth="yes"/>
+      <point x="172" y="150" type="line" smooth="yes" name="sv02"/>
       <point x="245" y="150"/>
       <point x="259" y="572"/>
-      <point x="259" y="704" type="curve" name="sh01" smooth="yes"/>
+      <point x="259" y="704" type="curve" smooth="yes" name="sh01"/>
       <point x="259" y="1120" type="line" name="at01"/>
       <point x="1007" y="1120" type="line"/>
       <point x="1007" y="150" type="line" name="dh03"/>
@@ -27,7 +27,7 @@
       <point x="442" y="700" type="line" smooth="yes"/>
       <point x="442" y="660"/>
       <point x="436" y="537"/>
-      <point x="423" y="353" type="curve" name="sh03" smooth="yes"/>
+      <point x="423" y="353" type="curve" smooth="yes" name="sh03"/>
       <point x="416" y="256"/>
       <point x="412" y="206"/>
       <point x="407" y="193" type="curve" smooth="yes"/>
@@ -36,7 +36,7 @@
       <point x="400" y="166" type="curve" smooth="yes"/>
       <point x="400" y="155"/>
       <point x="405" y="150"/>
-      <point x="434" y="150" type="curve" name="sv05" smooth="yes"/>
+      <point x="434" y="150" type="curve" smooth="yes" name="sv05"/>
     </contour>
   </outline>
   <lib>

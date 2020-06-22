@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni21AC" format="1">
+<glyph name="uni21AC" format="2">
   <advance width="1233"/>
   <unicode hex="21AC"/>
   <outline>
@@ -22,10 +22,10 @@
       <point x="153" y="956" type="curve" smooth="yes"/>
       <point x="205" y="1008"/>
       <point x="276" y="1042"/>
-      <point x="363" y="1042" type="curve" name="av01" smooth="yes"/>
+      <point x="363" y="1042" type="curve" smooth="yes" name="av01"/>
       <point x="525" y="1042"/>
       <point x="658" y="911"/>
-      <point x="658" y="745" type="curve" name="sh01" smooth="yes"/>
+      <point x="658" y="745" type="curve" smooth="yes" name="sh01"/>
       <point x="658" y="673" type="line"/>
       <point x="886" y="673" type="line" name="dv02"/>
       <point x="756" y="803" type="line"/>

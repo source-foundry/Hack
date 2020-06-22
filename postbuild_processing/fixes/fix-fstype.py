@@ -14,23 +14,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
 # Adapted for the Hack typeface build workflow by Chris Simpkins
-
 import os
 import sys
 from fontTools.ttLib import TTFont
 
+
 def main(argv):
     for path in argv:
         if not os.path.exists(path):
-            sys.stderr.write("[fix-fstype.py] ERROR: " + path + " is not a valid path to a font file")
+            sys.stderr.write(
+                "[fix-fstype.py] ERROR: " +
+                path +
+                " is not a valid path to a font file"
+            )
             sys.exit(1)
         else:
-            font = TTFont(path)
+            font = TTFont(file=path, recalcTimestamp=False)
             font['OS/2'].fsType = 0
             font.save(path)
             print(path + " - successful fstype fix")
 
+
 if __name__ == '__main__':
-  main(sys.argv[1:])
+    main(sys.argv[1:])

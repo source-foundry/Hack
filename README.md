@@ -76,6 +76,12 @@ Some Linux users may find that font rendering is improved on their distro with [
 3. Follow the instructions from your operating system.
 4. Enjoy!
 
+Or, if you use [Homebrew](https://brew.sh/) (see the section **Package managers** below):
+
+```
+$ brew tap homebrew/cask-fonts
+$ brew cask install font-hack
+```
 
 ### Windows
 
@@ -103,7 +109,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Debian**: `fonts-hack-ttf`
 - **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
-- **Homebrew Cask (OS X)**: `caskroom/fonts/font-hack`
+- **Homebrew Cask (macOS)**: cask `font-hack` in tap `homebrew/cask-fonts`
 - **Open BSD**: `fonts/hack-fonts`
 - **OpenSUSE**: `hack-fonts`
 - **Ubuntu**: `fonts-hack-ttf`

@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0327" format="1">
-  <advance width="0"/>
+<glyph name="uni0327" format="2">
   <unicode hex="0327"/>
   <outline>
     <contour>
-      <point x="-880" y="-401" type="curve" name="dv01" smooth="yes"/>
+      <point x="-880" y="-401" type="curve" smooth="yes" name="dv01"/>
       <point x="-949" y="-401"/>
       <point x="-1017" y="-392"/>
       <point x="-1082" y="-375" type="curve"/>
       <point x="-1054" y="-219" type="line"/>
       <point x="-996" y="-242"/>
       <point x="-943" y="-254"/>
-      <point x="-894" y="-254" type="curve" name="dv02" smooth="yes"/>
+      <point x="-894" y="-254" type="curve" smooth="yes" name="dv02"/>
       <point x="-802" y="-254"/>
       <point x="-753" y="-218"/>
-      <point x="-753" y="-150" type="curve" name="dh01" smooth="yes"/>
+      <point x="-753" y="-150" type="curve" smooth="yes" name="dh01"/>
       <point x="-753" y="-115"/>
       <point x="-769" y="-73"/>
       <point x="-810" y="0" type="curve" name="hr01"/>
       <point x="-669" y="0" type="line"/>
       <point x="-621" y="-64"/>
       <point x="-597" y="-125"/>
-      <point x="-597" y="-184" type="curve" name="dh02" smooth="yes"/>
+      <point x="-597" y="-184" type="curve" smooth="yes" name="dh02"/>
       <point x="-597" y="-316"/>
       <point x="-707" y="-401"/>
     </contour>

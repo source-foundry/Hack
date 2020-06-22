@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Idieresis" format="1">
+<glyph name="Idieresis" format="2">
   <advance width="1233"/>
   <unicode hex="00CF"/>
   <outline>
     <contour>
-      <point x="493" y="1606" type="line" name="hr00" smooth="yes"/>
+      <point x="493" y="1606" type="line" smooth="yes" name="hr00"/>
       <point x="475" y="1606"/>
       <point x="466" y="1614"/>
       <point x="466" y="1630" type="curve" smooth="yes"/>
@@ -14,7 +14,7 @@
       <point x="505" y="1825" type="line" smooth="yes"/>
       <point x="509" y="1843"/>
       <point x="520" y="1852"/>
-      <point x="537" y="1852" type="curve" name="dv01" smooth="yes"/>
+      <point x="537" y="1852" type="curve" smooth="yes" name="dv01"/>
       <point x="712" y="1852" type="line" smooth="yes"/>
       <point x="730" y="1852"/>
       <point x="739" y="1844"/>
@@ -28,7 +28,7 @@
       <point x="669" y="1606" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="889" y="1606" type="line" name="sv01" smooth="yes"/>
+      <point x="889" y="1606" type="line" smooth="yes" name="sv01"/>
       <point x="871" y="1606"/>
       <point x="862" y="1614"/>
       <point x="862" y="1630" type="curve" smooth="yes"/>
@@ -38,7 +38,7 @@
       <point x="900" y="1825" type="line"/>
       <point x="903" y="1843"/>
       <point x="913" y="1852"/>
-      <point x="932" y="1852" type="curve" name="sv02" smooth="yes"/>
+      <point x="932" y="1852" type="curve" smooth="yes" name="sv02"/>
       <point x="1107" y="1852" type="line" smooth="yes"/>
       <point x="1127" y="1852"/>
       <point x="1138" y="1839"/>

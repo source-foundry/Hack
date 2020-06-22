@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="semicolon" format="1">
+<glyph name="semicolon" format="2">
   <advance width="1233"/>
   <unicode hex="003B"/>
   <outline>
     <contour>
-      <point x="724" y="698" type="curve" name="dv01" smooth="yes"/>
+      <point x="724" y="698" type="curve" smooth="yes" name="dv01"/>
       <point x="673" y="698"/>
       <point x="629" y="716"/>
       <point x="598" y="751" type="curve"/>
@@ -23,7 +23,7 @@
       <point x="641" y="1031" type="curve" smooth="yes"/>
       <point x="680" y="1063"/>
       <point x="724" y="1084"/>
-      <point x="780" y="1084" type="curve" name="dv02" smooth="yes"/>
+      <point x="780" y="1084" type="curve" smooth="yes" name="dv02"/>
       <point x="831" y="1084"/>
       <point x="874" y="1066"/>
       <point x="905" y="1031" type="curve"/>
@@ -54,7 +54,7 @@
       <point x="639" y="-19" type="curve" name="ab01"/>
       <point x="632" y="-20"/>
       <point x="626" y="-20"/>
-      <point x="619" y="-20" type="curve" name="ab02" smooth="yes"/>
+      <point x="619" y="-20" type="curve" smooth="yes" name="ab02"/>
       <point x="566" y="-20"/>
       <point x="526" y="-5"/>
       <point x="497" y="26" type="curve" smooth="yes"/>
@@ -76,10 +76,10 @@
       <point x="624" y="323" type="curve" smooth="yes"/>
       <point x="639" y="326"/>
       <point x="654" y="328"/>
-      <point x="673" y="328" type="curve" name="sv01" smooth="yes"/>
+      <point x="673" y="328" type="curve" smooth="yes" name="sv01"/>
       <point x="737" y="328"/>
       <point x="785" y="304"/>
-      <point x="816" y="248" type="curve" name="hr01" smooth="yes"/>
+      <point x="816" y="248" type="curve" smooth="yes" name="hr01"/>
       <point x="835" y="213"/>
       <point x="843" y="171"/>
       <point x="843" y="132" type="curve" smooth="yes"/>

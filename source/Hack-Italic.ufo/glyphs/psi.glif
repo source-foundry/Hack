@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="psi" format="1">
+<glyph name="psi" format="2">
   <advance width="1233"/>
   <unicode hex="03C8"/>
   <outline>
@@ -7,7 +7,7 @@
       <point x="413" y="-25" type="line" name="hr00"/>
       <point x="248" y="-25"/>
       <point x="104" y="131"/>
-      <point x="104" y="359" type="curve" name="dh01" smooth="yes"/>
+      <point x="104" y="359" type="curve" smooth="yes" name="dh01"/>
       <point x="104" y="395"/>
       <point x="107" y="433"/>
       <point x="115" y="472" type="curve" smooth="yes"/>
@@ -16,7 +16,7 @@
       <point x="302" y="479" type="line"/>
       <point x="295" y="440"/>
       <point x="291" y="407"/>
-      <point x="291" y="376" type="curve" name="dh02" smooth="yes"/>
+      <point x="291" y="376" type="curve" smooth="yes" name="dh02"/>
       <point x="291" y="317"/>
       <point x="306" y="267"/>
       <point x="336" y="226" type="curve" smooth="yes"/>

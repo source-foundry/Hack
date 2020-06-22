@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tau" format="1">
+<glyph name="tau" format="2">
   <advance width="1233"/>
   <unicode hex="03C4"/>
   <outline>
     <contour>
-      <point x="901" y="0" type="line" name="ab01" smooth="yes"/>
+      <point x="901" y="0" type="line" smooth="yes" name="ab01"/>
       <point x="565" y="0"/>
       <point x="471" y="83"/>
-      <point x="471" y="379" type="curve" name="dh01" smooth="yes"/>
+      <point x="471" y="379" type="curve" smooth="yes" name="dh01"/>
       <point x="471" y="895" type="line" name="sv01"/>
       <point x="136" y="895" type="line" name="hr01"/>
       <point x="136" y="1120" type="line" name="at01"/>
       <point x="1098" y="1120" type="line"/>
       <point x="1098" y="895" type="line" name="sv02"/>
       <point x="763" y="895" type="line" name="sv03"/>
-      <point x="763" y="365" type="line" name="dh02" smooth="yes"/>
+      <point x="763" y="365" type="line" smooth="yes" name="dh02"/>
       <point x="763" y="265"/>
       <point x="809" y="225"/>
-      <point x="921" y="225" type="curve" name="sv04" smooth="yes"/>
+      <point x="921" y="225" type="curve" smooth="yes" name="sv04"/>
       <point x="979" y="225" type="line" name="hr02"/>
       <point x="979" y="0" type="line" name="ab02"/>
     </contour>

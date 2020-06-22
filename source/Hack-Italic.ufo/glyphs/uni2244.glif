@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2244" format="1">
+<glyph name="uni2244" format="2">
   <advance width="1233"/>
   <unicode hex="2244"/>
   <outline>
@@ -12,7 +12,7 @@
       <point x="571" y="755" type="line"/>
       <point x="515" y="780"/>
       <point x="454" y="798"/>
-      <point x="386" y="798" type="curve" name="dv03" smooth="yes"/>
+      <point x="386" y="798" type="curve" smooth="yes" name="dv03"/>
       <point x="339" y="798"/>
       <point x="291" y="789"/>
       <point x="240" y="769" type="curve" smooth="yes"/>
@@ -22,7 +22,7 @@
       <point x="88" y="845" type="line"/>
       <point x="204" y="945"/>
       <point x="321" y="964"/>
-      <point x="403" y="964" type="curve" name="dv04" smooth="yes"/>
+      <point x="403" y="964" type="curve" smooth="yes" name="dv04"/>
       <point x="469" y="964"/>
       <point x="518" y="951"/>
       <point x="614" y="914" type="curve" smooth="yes"/>
@@ -33,14 +33,14 @@
       <point x="800" y="849" type="line" name="hr01"/>
       <point x="823" y="845"/>
       <point x="845" y="843"/>
-      <point x="866" y="843" type="curve" name="dv06" smooth="yes"/>
+      <point x="866" y="843" type="curve" smooth="yes" name="dv06"/>
       <point x="974" y="843"/>
       <point x="1068" y="893"/>
       <point x="1145" y="966" type="curve" name="iv02"/>
       <point x="1145" y="788" type="line"/>
       <point x="1073" y="718"/>
       <point x="930" y="672"/>
-      <point x="840" y="672" type="curve" name="dv05" smooth="yes"/>
+      <point x="840" y="672" type="curve" smooth="yes" name="dv05"/>
       <point x="799" y="672"/>
       <point x="765" y="682"/>
       <point x="702" y="702" type="curve"/>

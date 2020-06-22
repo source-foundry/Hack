@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="adieresis" format="1">
+<glyph name="adieresis" format="2">
   <advance width="1233"/>
   <unicode hex="00E4"/>
   <outline>
     <contour>
-      <point x="473" y="1350" type="line" name="dv03" smooth="yes"/>
+      <point x="473" y="1350" type="line" smooth="yes" name="dv03"/>
       <point x="453" y="1350"/>
       <point x="442" y="1363"/>
       <point x="446" y="1383" type="curve" smooth="yes"/>
       <point x="474" y="1525" type="line"/>
       <point x="477" y="1543"/>
       <point x="487" y="1552"/>
-      <point x="506" y="1552" type="curve" name="dv04" smooth="yes"/>
+      <point x="506" y="1552" type="curve" smooth="yes" name="dv04"/>
       <point x="649" y="1552" type="line" smooth="yes"/>
       <point x="669" y="1552"/>
       <point x="680" y="1539"/>
@@ -22,31 +22,31 @@
       <point x="616" y="1350" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="864" y="1350" type="line" name="sv01" smooth="yes"/>
+      <point x="864" y="1350" type="line" smooth="yes" name="sv01"/>
       <point x="844" y="1350"/>
       <point x="833" y="1363"/>
       <point x="837" y="1383" type="curve" smooth="yes"/>
       <point x="865" y="1525" type="line"/>
       <point x="868" y="1543"/>
       <point x="878" y="1552"/>
-      <point x="897" y="1552" type="curve" name="sv02" smooth="yes"/>
+      <point x="897" y="1552" type="curve" smooth="yes" name="sv02"/>
       <point x="1040" y="1552" type="line" smooth="yes"/>
       <point x="1060" y="1552"/>
       <point x="1071" y="1539"/>
       <point x="1067" y="1519" type="curve" smooth="yes"/>
-      <point x="1039" y="1377" type="line" name="hr01" smooth="yes"/>
+      <point x="1039" y="1377" type="line" smooth="yes" name="hr01"/>
       <point x="1036" y="1359"/>
       <point x="1025" y="1350"/>
       <point x="1007" y="1350" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="407" y="-29" type="curve" name="dv01" smooth="yes"/>
+      <point x="407" y="-29" type="curve" smooth="yes" name="dv01"/>
       <point x="308" y="-29"/>
       <point x="225" y="-2"/>
       <point x="164" y="54" type="curve" smooth="yes"/>
       <point x="100" y="111"/>
       <point x="72" y="188"/>
-      <point x="72" y="280" type="curve" name="dh01" smooth="yes"/>
+      <point x="72" y="280" type="curve" smooth="yes" name="dh01"/>
       <point x="72" y="534"/>
       <point x="293" y="707"/>
       <point x="645" y="707" type="curve" smooth="yes"/>
@@ -61,7 +61,7 @@
       <point x="845" y="946" type="curve" smooth="yes"/>
       <point x="806" y="974"/>
       <point x="744" y="991"/>
-      <point x="663" y="991" type="curve" name="sv03" smooth="yes"/>
+      <point x="663" y="991" type="curve" smooth="yes" name="sv03"/>
       <point x="607" y="991"/>
       <point x="546" y="983"/>
       <point x="479" y="966" type="curve" smooth="yes"/>
@@ -71,7 +71,7 @@
       <point x="303" y="1069" type="line"/>
       <point x="446" y="1122"/>
       <point x="577" y="1147"/>
-      <point x="693" y="1147" type="curve" name="at01" smooth="yes"/>
+      <point x="693" y="1147" type="curve" smooth="yes" name="at01"/>
       <point x="816" y="1147"/>
       <point x="916" y="1121"/>
       <point x="985" y="1065" type="curve" smooth="yes"/>
@@ -94,7 +94,7 @@
       <point x="483" y="-29"/>
     </contour>
     <contour>
-      <point x="461" y="125" type="curve" name="dv02" smooth="yes"/>
+      <point x="461" y="125" type="curve" smooth="yes" name="dv02"/>
       <point x="557" y="125"/>
       <point x="640" y="161"/>
       <point x="711" y="232" type="curve" smooth="yes"/>
@@ -111,7 +111,7 @@
       <point x="305" y="442" type="curve" smooth="yes"/>
       <point x="278" y="401"/>
       <point x="264" y="356"/>
-      <point x="264" y="307" type="curve" name="dh02" smooth="yes"/>
+      <point x="264" y="307" type="curve" smooth="yes" name="dh02"/>
       <point x="264" y="243"/>
       <point x="288" y="201"/>
       <point x="316" y="174" type="curve" smooth="yes"/>

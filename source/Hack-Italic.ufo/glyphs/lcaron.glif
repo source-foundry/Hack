@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron" format="1">
+<glyph name="lcaron" format="2">
   <advance width="1233"/>
   <unicode hex="013E"/>
   <outline>
     <contour>
-      <point x="739" y="-8" type="line" name="ab01" smooth="yes"/>
+      <point x="739" y="-8" type="line" smooth="yes" name="ab01"/>
       <point x="511" y="-8"/>
       <point x="397" y="76"/>
-      <point x="397" y="245" type="curve" name="dh01" smooth="yes"/>
+      <point x="397" y="245" type="curve" smooth="yes" name="dh01"/>
       <point x="397" y="290"/>
       <point x="405" y="349"/>
       <point x="416" y="404" type="curve"/>
@@ -18,10 +18,10 @@
       <point x="600" y="400" type="line" smooth="yes"/>
       <point x="591" y="353"/>
       <point x="586" y="316"/>
-      <point x="586" y="289" type="curve" name="dh02" smooth="yes"/>
+      <point x="586" y="289" type="curve" smooth="yes" name="dh02"/>
       <point x="586" y="197"/>
       <point x="645" y="148"/>
-      <point x="766" y="148" type="curve" name="sv02" smooth="yes"/>
+      <point x="766" y="148" type="curve" smooth="yes" name="sv02"/>
       <point x="977" y="148" type="line"/>
       <point x="946" y="-8" type="line" name="hr01"/>
     </contour>

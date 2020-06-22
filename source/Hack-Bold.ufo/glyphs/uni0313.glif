@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0313" format="1">
-  <advance width="0"/>
+<glyph name="uni0313" format="2">
   <unicode hex="0313"/>
   <outline>
     <contour>
@@ -11,7 +10,7 @@
       <point x="-753" y="1483" type="line" name="dh01"/>
       <point x="-753" y="1729" type="line" name="dv02"/>
       <point x="-479" y="1729" type="line"/>
-      <point x="-479" y="1483" type="line" name="dh02" smooth="yes"/>
+      <point x="-479" y="1483" type="line" smooth="yes" name="dh02"/>
       <point x="-479" y="1307"/>
       <point x="-570" y="1219"/>
       <point x="-753" y="1218" type="curve" name="dv01"/>

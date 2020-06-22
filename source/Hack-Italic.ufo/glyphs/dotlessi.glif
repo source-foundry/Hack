@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotlessi" format="1">
+<glyph name="dotlessi" format="2">
   <advance width="1233"/>
   <unicode hex="0131"/>
   <outline>
     <contour>
-      <point x="749" y="-4" type="line" name="hr00" smooth="yes"/>
+      <point x="749" y="-4" type="line" smooth="yes" name="hr00"/>
       <point x="633" y="-4"/>
       <point x="547" y="17"/>
       <point x="492" y="60" type="curve" smooth="yes"/>
       <point x="435" y="103"/>
       <point x="407" y="167"/>
-      <point x="407" y="252" type="curve" name="dh01" smooth="yes"/>
+      <point x="407" y="252" type="curve" smooth="yes" name="dh01"/>
       <point x="407" y="293"/>
       <point x="412" y="348"/>
       <point x="426" y="408" type="curve" smooth="yes"/>
@@ -24,13 +24,13 @@
       <point x="600" y="342" type="curve" smooth="yes"/>
       <point x="597" y="321"/>
       <point x="596" y="310"/>
-      <point x="596" y="297" type="curve" name="dh02" smooth="yes"/>
+      <point x="596" y="297" type="curve" smooth="yes" name="dh02"/>
       <point x="596" y="248"/>
       <point x="611" y="211"/>
       <point x="640" y="188" type="curve" smooth="yes"/>
       <point x="670" y="164"/>
       <point x="715" y="152"/>
-      <point x="776" y="152" type="curve" name="sv02" smooth="yes"/>
+      <point x="776" y="152" type="curve" smooth="yes" name="sv02"/>
       <point x="987" y="152" type="line" name="sv03"/>
       <point x="956" y="-4" type="line" name="ab01"/>
     </contour>

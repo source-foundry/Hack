@@ -1,3 +1,7 @@
+# Version 4.000
+
+- fixed vertical position discrepancy in paired U+007B and U+007D
+
 # Version 3.003
 
 - U+005B, increased length of square brackets' horizontal strokes (symmetrically reducing left and right sidebearing), all variants

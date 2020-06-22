@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2049" format="1">
+<glyph name="uni2049" format="2">
   <advance width="1233"/>
   <unicode hex="2049"/>
   <outline>
     <contour>
-      <point x="743" y="555" type="line" name="hr00" smooth="yes"/>
+      <point x="743" y="555" type="line" smooth="yes" name="hr00"/>
       <point x="769" y="695"/>
       <point x="807" y="764"/>
       <point x="899" y="872" type="curve" smooth="yes"/>
@@ -14,7 +14,7 @@
       <point x="1083" y="1157" type="curve" smooth="yes"/>
       <point x="1086" y="1172"/>
       <point x="1087" y="1187"/>
-      <point x="1087" y="1198" type="curve" name="dh02" smooth="yes"/>
+      <point x="1087" y="1198" type="curve" smooth="yes" name="dh02"/>
       <point x="1087" y="1262"/>
       <point x="1052" y="1308"/>
       <point x="972" y="1313" type="curve" name="sv01"/>
@@ -28,13 +28,13 @@
       <point x="775" y="1407" type="line"/>
       <point x="880" y="1490"/>
       <point x="963" y="1521"/>
-      <point x="1065" y="1521" type="curve" name="av01" smooth="yes"/>
+      <point x="1065" y="1521" type="curve" smooth="yes" name="av01"/>
       <point x="1074" y="1521"/>
       <point x="1083" y="1521"/>
       <point x="1092" y="1520" type="curve" name="av02"/>
       <point x="1257" y="1512"/>
       <point x="1299" y="1391"/>
-      <point x="1299" y="1281" type="curve" name="dh03" smooth="yes"/>
+      <point x="1299" y="1281" type="curve" smooth="yes" name="dh03"/>
       <point x="1299" y="1211"/>
       <point x="1282" y="1112"/>
       <point x="1239" y="1026" type="curve"/>
@@ -57,45 +57,45 @@
       <point x="244" y="486" type="line"/>
     </contour>
     <contour>
-      <point x="225" y="-40" type="curve" name="dv01" smooth="yes"/>
+      <point x="225" y="-40" type="curve" smooth="yes" name="dv01"/>
       <point x="190" y="-40"/>
       <point x="161" y="-30"/>
       <point x="137" y="-3" type="curve" smooth="yes"/>
       <point x="112" y="26"/>
       <point x="104" y="58"/>
-      <point x="104" y="93" type="curve" name="dh01" smooth="yes"/>
+      <point x="104" y="93" type="curve" smooth="yes" name="dh01"/>
       <point x="104" y="195"/>
       <point x="192" y="264"/>
-      <point x="279" y="264" type="curve" name="dv02" smooth="yes"/>
+      <point x="279" y="264" type="curve" smooth="yes" name="dv02"/>
       <point x="310" y="264"/>
       <point x="346" y="254"/>
       <point x="370" y="227" type="curve" smooth="yes"/>
       <point x="390" y="204"/>
       <point x="401" y="171"/>
-      <point x="401" y="134" type="curve" name="hr01" smooth="yes"/>
+      <point x="401" y="134" type="curve" smooth="yes" name="hr01"/>
       <point x="401" y="89"/>
       <point x="384" y="44"/>
-      <point x="347" y="9" type="curve" name="hr02" smooth="yes"/>
+      <point x="347" y="9" type="curve" smooth="yes" name="hr02"/>
       <point x="316" y="-19"/>
       <point x="273" y="-40"/>
     </contour>
     <contour>
-      <point x="742" y="-40" type="curve" name="sv02" smooth="yes"/>
+      <point x="742" y="-40" type="curve" smooth="yes" name="sv02"/>
       <point x="707" y="-40"/>
       <point x="678" y="-30"/>
       <point x="654" y="-3" type="curve" smooth="yes"/>
       <point x="629" y="26"/>
       <point x="621" y="58"/>
-      <point x="621" y="93" type="curve" name="dh04" smooth="yes"/>
+      <point x="621" y="93" type="curve" smooth="yes" name="dh04"/>
       <point x="621" y="195"/>
       <point x="709" y="264"/>
-      <point x="796" y="264" type="curve" name="sv03" smooth="yes"/>
+      <point x="796" y="264" type="curve" smooth="yes" name="sv03"/>
       <point x="827" y="264"/>
       <point x="863" y="254"/>
       <point x="887" y="227" type="curve" smooth="yes"/>
       <point x="907" y="204"/>
       <point x="918" y="171"/>
-      <point x="918" y="134" type="curve" name="dh05" smooth="yes"/>
+      <point x="918" y="134" type="curve" smooth="yes" name="dh05"/>
       <point x="918" y="89"/>
       <point x="901" y="44"/>
       <point x="864" y="9" type="curve" smooth="yes"/>
