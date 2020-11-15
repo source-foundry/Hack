@@ -276,7 +276,7 @@ echo " "
 mkdir master_ttf/hinted
 
 # Hack-Regular.ttf
-if ! "$TTFAH" -l 6 -r 50 -x 10 -H 181 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Regular-TA.txt" "master_ttf/Hack-Regular.ttf" "master_ttf/hinted/Hack-Regular.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 181 -D latn -f latn -a qsq -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Regular-TA.txt" "master_ttf/Hack-Regular.ttf" "master_ttf/hinted/Hack-Regular.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Regular variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -284,7 +284,7 @@ fi
 echo "master_ttf/Hack-Regular.ttf subset - successful hinting with ttfautohint"
 
 # Hack-Bold.ttf
-if ! "$TTFAH" -l 6 -r 50 -x 10 -H 260 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 260 -D latn -f latn -a qsq -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Bold-TA.txt" "master_ttf/Hack-Bold.ttf" "master_ttf/hinted/Hack-Bold.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Bold variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -292,7 +292,7 @@ fi
 echo "master_ttf/Hack-Bold.ttf subset - successful hinting with ttfautohint"
 
 # Hack-Italic.ttf
-if ! "$TTFAH" -l 6 -r 50 -x 10 -H 145 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 145 -D latn -f latn -a qsq -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-Italic-TA.txt" "master_ttf/Hack-Italic.ttf" "master_ttf/hinted/Hack-Italic.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-Italic variant subset.  Build canceled." 1>&2
 	    exit 1
@@ -300,7 +300,7 @@ fi
 echo "master_ttf/Hack-Italic.ttf subset - successful hinting with ttfautohint"
 
 # Hack-BoldItalic.ttf
-if ! "$TTFAH" -l 6 -r 50 -x 10 -H 265 -D latn -f latn -w G -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
+if ! "$TTFAH" -l 6 -r 50 -x 10 -H 265 -D latn -f latn -a qsq -W -t -X "" -I -R "master_ttf/Hack-Regular.ttf" -m "postbuild_processing/tt-hinting/Hack-BoldItalic-TA.txt" "master_ttf/Hack-BoldItalic.ttf" "master_ttf/hinted/Hack-BoldItalic.ttf"
 	then
 	    echo "Unable to execute ttfautohint on the Hack-BoldItalic variant subset.  Build canceled." 1>&2
 	    exit 1
