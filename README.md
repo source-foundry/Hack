@@ -106,6 +106,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Homebrew Cask (OS X)**: `homebrew/cask-fonts/font-hack`
 - **Open BSD**: `fonts/hack-fonts`
 - **OpenSUSE**: `hack-fonts`
+- **Scoop (Windows)**: `extras/hack-font`
 - **Ubuntu**: `fonts-hack-ttf`
 - **Visual Studio Package Manager**: `hack.font`
 
