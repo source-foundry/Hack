@@ -101,7 +101,7 @@ We are aware of Hack support in the following package managers (with associated 
 - **Arch Linux**: `ttf-hack`
 - **Chocolatey (Windows)**: `hackfont`
 - **Debian**: `fonts-hack-ttf`
-- **Fedora / CentOS**: `dnf-plugins-core :: heliocastro/hack-fonts :: hack-fonts`
+- **Fedora / CentOS**: `copr-repo :: zawertun/hack-fonts  :: hack-fonts`
 - **Gentoo Linux**: `media-fonts/hack`
 - **Homebrew Cask (OS X)**: `homebrew/cask-fonts/font-hack`
 - **Open BSD**: `fonts/hack-fonts`
